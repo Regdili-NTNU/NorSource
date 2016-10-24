@@ -1,0 +1,791 @@
+PIECES FOR THE GAME:
+100 WORDS
+57 alternating CONSTANTS, drawn from 16 fixed groups with a fixed number of selectees from each group
+43 alternating VARIABLES, drawn from 4 fixed groups, with resulting duplicates as a possibility.
+
+LAYOUT ON THE SCREEN:
+Groups are presented horisontally (group names are from CONSTANT unless explicitly indicated as from VARIABLES).
+
+Row 1: Nouns (VARIABLES) and Proper names
+Row 2: Personal pronouns
+Row 3: Articles, Indefinite pronouns and quantifiers
+Row 4: Adjectives (VARIABLES), Possessive pronouns, Degree adverbs and Cardinals
+Row 5: Intransitives, Transitives, Control, Ditransitive and complementtaking,
+Intransitive oblique
+Row 6: Copula and auxiliaries, Sentential adverbs
+Row 7: Verbs (VARIABLES)
+Row 8: Prepositions and locative adverbs
+Row 9: Miscellaneous rest (VARIABLES)
+
+The CONSTANTS:
+Type - number of occurrences (some may be duplicates)
+
+Intransitives - 5
+Transitives - 4
+Control - 2
+Ditransitive and complementtaking - 3
+Intransitive oblique - 1
+Personal pronouns - 5
+Articles - 5
+Possessive pronouns - 2
+Interrogative pronouns - 2
+Indefinite pronouns and quantifiers - 2
+Complementizers, conjunctions - 6 [changed from 8]
+Prepositions and locative adverbs - 6
+Degree adverbs - 2
+Cardinals - 2
+Sentential adverbs - 2
+Copula and auxiliaries - 6
+Proper names - 2 [new]
+
+(5+4+2+3+1+5+5+2+2+2+6+6+2+2+2+6+2 = 57)
+
+5 OF THESE:
+(INTRANSITIVE)
+sove
+ligge
+sitte
+stå
+løpe
+rulle
+komme
+koke
+gå
+spise
+synge
+skamme
+
+4 OF THESE
+(TRANSITIVE)
+holde
+finne
+hjelpe
+kaste
+flytte
+sende
+ta
+sparke
+legge
+tørke
+slå
+lese
+skrive
+spise
+fortære
+
+
+2 OF THESE
+(CONTROL)
+prøve
+forsøke
+love
+tillate
+be
+anmode
+håpe
+
+
+3 OF THESE
+(DITRANSITIVE and COMPLEMENTTAKING)
+gi
+unne
+vise
+vite
+vise
+fortelle
+håpe
+spørre
+se
+
+
+1 OF THESE
+(INTRANSITIVE OBLIQUE)
+bo
+oppholde
+stole
+avhenge
+bero
+
+  
+
+5 OF THESE
+(PERSONAL PRONOUNS)
+jeg x 2
+du x 2
+han
+hun
+ham
+henne
+den x 2
+det x 2
+meg x 2
+deg x 2
+vi
+oss
+dere
+seg x 3
+= 21
+
+
+5 OF THESE
+(ARTICLES)
+en x 3
+ei
+et x 2
+den x 3
+de x 2
+= 11
+
+
+2 OF THESE
+(POSSESSIVES)
+min x 2
+din
+sin x 2
+mi
+di
+si
+mitt
+ditt
+sitt
+mine
+dine
+sine
+hans
+hennes
+deres
+= 17
+
+
+2 OF THESE
+(INTERR. PRONOUNS)
+hvor
+hvordan
+hvem x 2
+hva x 2
+hvorfor
+hvilken
+= 8
+
+2 OF THESE
+(INDEFINITE PRONOUNS and QUANTIFIERS)
+noen
+hver
+alle
+ingen
+intet
+= 5
+
+
+6 OF THESE
+(COMPLEMENTIZERS, CONJUNCTIONS)
+å x 3
+at x 3
+om x 2
+hvis x 2
+dersom
+så x 3
+når x 2
+da x 2
+fordi
+mens
+selv
+som x 3
+og x 6
+eller x 2
+men x 2
+både
+enten
+= 35
+
+
+6 OF THESE
+(PREPOSITIONS AND LOCATIVE ADVERBS)
+av x 2
+på x 2
+til x 3
+fra
+under
+over
+ved
+om
+med
+i
+utenfor
+for
+borte
+hjemme
+her
+der
+opp
+ned
+bort
+hjem
+frem
+fram
+tilbake
+= 27
+
+
+2 OF THESE
+(DEGREE ADVERBS)
+svært
+veldig
+meget
+altfor
+nokså
+ganske
+= 6
+
+
+2 OF THESE
+(CARDINALS)
+én
+ett
+to
+tre
+fire
+fem
+= 6
+
+2 OF THESE
+(SENTENTIAL ADVERBS)
+ikke x 2
+heller
+antagelig
+kanskje
+altså
+også
+= 7
+
+
+6 OF THESE
+(AUXILIARIES AND COPULAS)
+ville
+skulle
+måtte
+burde
+kunne
+være x 5
+bli x 4
+ha x 5
+få
+gi
+= 21
+
+2 OF THESE
+(PROPER NAMES)
+Kari
+Marit
+Ola 
+Per
+
+
+The VARIABLES:
+The REMAINING 43 WORDS are divided into 10 VERBs, 10 ADJectives, 15 NOUNS and 8 MISCELLaneous rest
+
+
+MISCELLaneous rest:
+
+jeg
+meg
+du
+deg
+han
+ham
+hun
+henne
+den
+det
+vi
+oss
+dere
+de
+dem
+seg
+hverandre
+denne
+dette
+disse
+en
+ei
+et
+den
+de
+min
+din
+sin
+mi
+di
+si
+mitt
+ditt
+sitt
+mine
+dine
+sine
+hans
+hennes
+dens
+vår
+våre
+vårt
+deres
+deres
+hvor
+hvordan
+hvem
+hva
+hvorfor
+hvilken
+én
+ett
+to
+tre
+fire
+fem
+seks
+syv
+sju
+åtte
+ni
+ti
+første
+andre
+tredje
+fjerde
+femte
+sjette
+syvende
+sjuende
+åttende
+niende
+tiende
+noen
+hver
+alle
+samtlige
+ingen
+intet
+begge
+mange
+mye
+få
+flest
+mest
+noe
+svært
+veldig
+meget
+altfor
+nokså
+ganske
+langt
+bare
+kun
+nesten
+omtrent
+nøyaktig
+presis
+mer
+mindre
+mye
+lite
+litt
+enn
+like
+slik
+likedan
+av
+på
+til
+fra
+under
+over
+ved
+ved siden av
+om
+med
+i
+utenfor
+for
+bak
+etter
+inntil
+oppe
+nede
+borte
+hjemme
+her
+der
+opp
+ned
+bort
+hjem
+frem
+fram
+tilbake
+å
+at
+om
+hvorvidt
+hvis
+dersom
+så
+når
+da
+etter at
+fordi
+forat
+mens
+selv om
+som
+og
+eller
+men
+deretter
+både
+enten
+ikke
+heller
+sannsynligvis
+antagelig
+kanskje
+altså
+også
+selvsagt
+vel
+gjerne
+nok
+ellers
+istedet
+forresten
+neppe
+aldri
+ofte
+nettopp
+fremdeles
+akkurat
+sammen
+alene
+lett
+greit
+selv
+sjøl
+hundre
+tusen
+par
+dusin
+kilo
+gram
+kg
+meter
+cm
+km
+
+
+
+VERBS:
+sove
+ligge
+sitte
+stå
+regne
+skamme
+smyge
+sette
+løpe
+rulle
+komme
+koke
+klarne
+fylle ut
+vise
+holde
+finne
+hjelpe
+kaste
+flytte
+sende
+ta
+gå
+vaske
+spise
+synge
+sammenligne
+sparke
+legge
+tørke
+prøve
+forsøke
+love
+tillate
+be
+anmode
+håpe
+vite
+gjette
+vise
+fortelle
+håpe
+spørre
+se
+gjøre
+forutsette
+frykte
+søke
+anta
+føle
+kjenne
+smake
+høre
+lukte
+høres
+kalle
+anse
+synes
+virke
+late
+bo
+oppholde
+trenge
+ville
+skulle
+måtte
+burde
+kunne
+være
+bli
+ha
+få
+gi
+unne
+stole
+avhenge
+bero
+lure
+lese
+skrive
+snakke
+røre
+kle
+sprekke
+vente
+forekomme
+beklage
+koste
+hende
+spørs
+slå
+sparke
+koste
+antyde
+undre
+plage
+interessere
+overraske    
+
+NOUNS
+hus
+fisk
+mann 
+gutt
+barn
+jente
+bil
+hjem
+strøm
+galge
+lam
+rykte
+tromme
+bro
+sta
+sjåfør
+snekker
+elektriker
+rørlegger
+lærer
+elev
+skole
+universitet
+lege
+mann
+kone
+barn
+far
+mor
+bestefar
+bestemor
+barnebarn
+onkel
+tante
+gutt
+jente
+pike
+politi
+soldat
+sko
+bukse
+skjorte
+sokk
+genser
+jakke
+ball
+fotball
+dommer
+spiller
+trener
+reserve
+mål
+vær
+vinter
+høst
+sommer
+vår
+regn
+snø
+sne
+storm
+sol
+måne
+fjell
+dal
+fjord
+hav
+øy
+by
+bygd
+elv
+bekk
+ås
+eng
+plen
+gate
+hus
+hytte
+bygg
+minutt
+sekund
+dag
+time
+uke
+måned
+år
+gang
+søndag
+mandag
+helg
+morgen
+kveld
+natt
+middag
+meter
+krone
+euro
+dollar
+øre
+vei
+reise
+buss
+bil
+fly
+båt
+
+
+ADJECTIVES
+stor
+liten
+glad
+trist
+lang
+kort
+hyggelig
+vanskelig
+oppmuntrende
+høy
+lav
+rask
+langsom
+varm
+kald
+hurtig
+interessert
+mild
+bra
+dyp
+død
+levende
+dårlig
+ensom
+farlig
+flat
+flott
+foreløpig
+fornøyd
+frisk
+full
+tom
+syk
+gammel
+ung
+viktig
+rød
+grønn
+blå
+gul
+hvit
+svart
+jevn
+klar
+konkret
+merkelig
+modig
+feig
+naken
+ny
+nær
+ond
+vond
+behagelig
+opptatt
+ledig
+pen
+stygg
+privat
+rar
+ren
+skitten
+sentral
+sikker
+snill
+slem
+kraftig
+mektig
+svak
+tett
+tidlig
+sen
+farlig
+tørr
+lett
+økonomisk
+åpen
+lukket
+sterk
+effektiv
+norsk
+treg
+gratis
+billig
+annerledes
+tradisjonell
+profesjonell
+kjedelig
+slik
+egen
+kvalifisert
+sjelden
+mulig
+umulig
+fin

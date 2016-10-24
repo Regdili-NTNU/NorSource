@@ -1,0 +1,260 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    
+;;;
+;;;
+;;;
+
+;;;          irules-n.tdl
+;;;       inflectional rules for nouns
+
+
+;;  - replace sg-masc-def-noun-lexeme etc. by noun-lexeme (noun-infl-lexeme)
+
+
+
+sg_ind_subst_irule :=
+sg-noun-word & 
+[ ARGS < noun-infl-lexeme & 
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF bool,
+				  DEFINITE -],
+	   INFLECTION [NUMB sing, DEFINITENESS ind] ] > ].
+
+; den gode fe
+sg_baredef_subst_irule :=
+sg-noun-word & 
+[ --A -, ;; MHS 120713 Part of the machinery for blocking this rule from applying in the mal-grammar.
+  ARGS < def-noun-lexeme & 
+         [ SYNSEM.LOCAL.CAT.VAL.SPR <[LOCAL.CAT.HEAD headz]>,
+	   INFLECTION [NUMB sing, DEFINITENESS def] ] > ].
+ 
+
+;; for masc nouns there are two sets of inflection rules
+;;  - standard rules 
+;;  - and rules for abbrevs
+;; there is also a distinction between "bare" and "plain" noun words
+;; irregs are in the file: *_*_m_subst.irreg
+
+;;
+;; SING DEF M SUBST
+;;
+
+sg_def_m_final-full-mm_irule :=
+%suffix (am ammen)(em emmen)(om ommen)(um ummen)(øm ømmen)
+mascsg-def-noun-word &
+[ ARGS < sg-masc-def-noun-lexeme & 
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION final-full-mm & [NUMB sing, DEFINITENESS def, GEND m] ] > ].
+
+sg_def_m_final-full_irule :=
+%suffix (* en)
+mascsg-def-noun-word &
+[ SYNSEM.LOCAL.CAT.HEAD.DEFINITE +,
+  ARGS < sg-masc-def-noun-lexeme & 
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION final-full-long-or-short & [NUMB sing, DEFINITENESS def, GEND m] ] > ].
+
+sg_def_m_light-e_irule :=
+%suffix (e en)
+mascsg-def-noun-word &
+[ ARGS < sg-masc-def-noun-lexeme & 
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION light-e-sup & [NUMB sing, DEFINITENESS def, GEND m] ] > ].
+
+
+
+pl_ind_m-or-f_final-full-mm_irule :=
+%suffix (am ammer)(em emmer)(om ommer)(um ummer)(øm ømmer)
+mascpl-indef-noun-word &
+[ ARGS < pl-indef-noun-lexeme  &
+         [ INFLECTION final-full-mm & [NUMB plur, DEFINITENESS ind, GEND m-or-f] ] > ].
+
+
+; removed (er rer) lhnov05-06
+pl_ind_m-or-f_final-full_irule :=
+%suffix (* er)(er ere)(el ler)(ddel dler)(lder ldre)(ffel fler)(kkel kler)(mmer mrer)(mmel mler)(ppel pler)(ssel sler)(ttel tler)(e ær)(and ender)(mann menn)(kraft krefter)(tang tenger)(tann tenner)(natt netter)(hånd hender)(bok bøker)(meter meter)(finger fingre)(minister ministre)(seier seire)(ken kner)(tunnel tunneller)
+mascpl-indef-noun-word &
+[ ARGS < pl-indef-noun-lexeme  &
+         [ INFLECTION final-full & [NUMB plur, DEFINITENESS ind, GEND m-or-f] ] > ].
+
+
+pl_ind_m-or-f_light-e_irule :=
+%suffix (e er)
+mascpl-indef-noun-word &
+[ ARGS < pl-indef-noun-lexeme  &
+         [ INFLECTION light-e & [NUMB plur, DEFINITENESS ind, GEND m-or-f] ] > ].
+
+pl_ind_m-or-f_full_0_irule :=
+mascpl-indef-noun-const-word &
+[ ARGS < pl-indef-noun-lexeme &
+	 [ INFLECTION infl_m_fshort & [NUMB plur, DEFINITENESS ind, GEND m-or-f] ] > ].
+
+pl_ind_m-or-f_light_0_irule :=
+mascpl-indef-noun-const-word &
+[ ARGS < pl-indef-noun-lexeme &
+	 [ INFLECTION light-e-short & [NUMB plur, DEFINITENESS ind, GEND m-or-f] ] > ].
+
+;light-e-ic
+pl_ind_m-or-f_basicplur_0_irule :=
+mascpl-indef-noun-const-word &
+[ ARGS < pl-indef-noun-lexeme &
+	 [ INFLECTION light-e-ic & [NUMB plur, DEFINITENESS ind, GEND m-or-f] ] > ].
+
+
+pl_def_m-or-f_final-full-mm_irule :=
+%suffix (am ammene)(em emmene)(om ommene)(um ummene)(øm ømmene)
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+	 [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION final-full-mm & [NUMB plur, DEFINITENESS def, GEND m-or-f]] > ].
+
+
+pl_def_m-or-f_final-full_irule :=
+%suffix (* ene)(er erne)(el lene)(ddel dlene)(lder ldrene)(nder ndrene)(ffel flene)(kkel klene)(mmel mlene)(mmar mrene)(ppel plene)(ssel slene)(ttel tlene)(e ærne)(bok bøkene)(kraft kreftene)(tang tengene)(mann mennene)(tann tennene)(natt nettene)(hånd hendene)(finger fingrene)(minister ministrene)(seier seirene)(ken knene)(tunnel tunnellene)
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+	 [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION final-full-long-or-short & [NUMB plur, DEFINITENESS def, GEND m-or-f]] > ].
+
+
+pl_def_m-or-f_light-e_irule :=
+%suffix (e ene)
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+	 [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION light-e-sup & [NUMB plur, DEFINITENESS def, GEND m-or-f]] > ].
+
+pl_def_m-or-f_basicplur_ne_irule :=
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+	 [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION light-e-ic & [NUMB plur, DEFINITENESS def, GEND m-or-f] ] > ].
+
+
+sg_def_f_final-full-mm_irule :=
+%suffix (rem remma)(vom vomma)(skam skamma)
+femsg-def-noun-word &
+[ ARGS < sg-fem-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION final-full-mm & [NUMB sing, DEFINITENESS def, GEND f] ] > ].
+
+sg_def_f_final-full_irule :=
+%suffix (* a)(el la)(en na)(er ra)
+femsg-def-noun-word &
+[ ARGS < sg-fem-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION final-full-long-or-short & [NUMB sing, DEFINITENESS def, GEND f] ] > ].
+
+sg_def_f_light-e_irule :=
+%suffix (e a)
+femsg-def-noun-word &
+[ ARGS < sg-fem-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION light-e & [NUMB sing, DEFINITENESS def, GEND f] ] > ].
+
+
+sg_def_n_final-full-mm_irule :=
+%suffix (lem lemmet)(ram rammet)(jem jemmet)(lam lammet)(rom rommet)
+neutsg-def-noun-word &
+[ ARGS < sg-neut-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION  final-full-mm & [NUMB sing, DEFINITENESS def, GEND n] ] > ].
+
+sg_def_n_final-full_irule :=
+%suffix (* et)(ium iet)
+neutsg-def-noun-word &
+[ ARGS < sg-neut-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION  final-full & [NUMB sing, DEFINITENESS def, GEND n] ] > ].
+
+sg_def_n_light-e_irule :=
+%suffix (e et)
+neutsg-def-noun-word &
+[ ARGS < sg-neut-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION  light-e-sup & [NUMB sing, DEFINITENESS def, GEND n] ] > ].
+
+pl_ind_n_final-full-mm-nlong_irule :=
+%suffix (am ammer)(em emmer)(om ommer)(um ummer)(øm ømmer)
+neutpl-indef-noun-infl-word &
+[ ARGS < pl-indef-noun-lexeme &
+         [ INFLECTION final-full-mm-nlong & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
+
+pl_ind_n_final-full-nlong_irule :=
+%suffix (* er)(er ere)(tre trær)(el ler)(ddel dler)(ffel fler)(ffer fre)(kkel kler)(mmer mrer)(mmel mler)(ppel pler)(ssel sler)(ttel tler)(nter ntre)(ium ier)
+neutpl-indef-noun-infl-word &
+[ ARGS < pl-indef-noun-lexeme &
+         [ INFLECTION final-full-nlong & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
+
+pl_ind_n_light-e-nlong_irule :=
+%suffix (e er)
+neutpl-indef-noun-infl-word &
+[ ARGS < pl-indef-noun-lexeme &
+         [ INFLECTION light-e-nlong & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
+
+pl_ind_n_short_0_irule :=
+neutpl-indef-noun-const-word &
+[ ARGS < pl-indef-noun-lexeme &
+	 [ INFLECTION infl_nshort & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
+
+pl_def_n_final-full-mm_irule :=
+%suffix (am ammene)(em emmene)(om ommene)(um ummene)(øm ømmene)
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION  final-full-mm & [NUMB plur, DEFINITENESS def, GEND n] ]> ].
+
+pl_def_n_final-full_irule :=
+%suffix (* a)(* ene)(er erne)(tre trærne)(el lene)(ddel dlene)(ffel flene)(ffer frene)(kkel klene)(mmel mlene)(mmar mrene)(ppel plene)(ssel slene)(ttel tlene)(ium iene)
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION  final-full & [NUMB plur, DEFINITENESS def, GEND n] ]> ].
+
+pl_def_n_light-e_irule :=
+%suffix (e ene)
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION  light-e-sup & [NUMB plur, DEFINITENESS def, GEND n] ]> ].
+
+pl_def_n_final-full-nlong_irule :=
+%suffix (* a)(* ene)(er erne)(tre trærne)(el lene)(ddel dlene)(ffel flene)(kkel klene)(mmel mlene)(mmar mrene)(ppel plene)(ssel slene)(ttel tlene)
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION final-full-nlong & [NUMB plur, DEFINITENESS def, GEND n] ] > ].
+
+;;;;;;;
+
+;; LH160214: This rule is ONLY for the POS-tagger, in order to introduce an inflectional form of a genitive noun or proper name; it works together with:  noun-word-poss (in norsk.tdl). This rule is activated ONLY in the svn version used for the POS-tagger.  This version is currently 280.
+; For the 'standard' versions, the rule is commented out, like here in, version 283.
+;poss_wtow_noun_irule :=
+;%suffix (* s)
+;noun-word-poss &
+;[ ARGS < word  &
+;         [ SYNSEM.LOCAL.CAT.HEAD noun ]> ].
