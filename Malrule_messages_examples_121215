@@ -1,0 +1,407 @@
+TODO 311215:
+We need a message for mal-s-adv-sentence-initial-rule analogous to:
+        <feedback>
+		<name>mal-s-adv-sentence-final-rule</name>
+	
+		<message>
+			In main clauses, sentential adverbs must be placed directly after the finite verb.
+		</message>
+			<link>
+		  http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian
+		</link>
+
+	</feedback>
+
+
+TODO by 291215:
+mal-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires an object.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian		Ex Jeg fortærer. NOTE "ungrammatical"  It is simply commented out in the grammar. TODO  Try to activate it again, and see if its logic works.
+
+
+UPDATES LH291215
+;LH291215 Out of Admin mal-subj-drop-rule 
+Message: there must always be a subject in the sentence
+
+These below were COMMENTED OUT IN rules-mal.tdl at 191115. Now also take them out of Admin - to reduce translation effort.
+;LH291215 Out of Admin
+;mal-pred-ap-to-copula-rule := mal-pred-ap-to-copula-phrase.
+Message: There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".
+;LH291215 Out of Admin
+;mal-np-to-copula-rule := mal-np-to-copula-phrase.
+Message: There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE"
+;LH291215 Out of Admin
+;mal-pp-to-copula-rule := mal-pp-to-copula-phrase.
+Message: There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE"
+;LH291215 Out of Admin
+;mal-adv-to-copula-rule := mal-adv-to-copula-phrase. 
+Message: There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE"
+;LH291215 Out of Admin
+;mal-passive-form-to-passive-vp-rule := mal-passive-form-to-passive-vp-phrase.
+Message: Past participle form must be preceded by a form of either the perfect auxiliary verb "å ha" or the passive auxiliary verb "å bli".
+;LH291215 Out of Admin
+;mal-perf-marker-drop-rule := mal-perf-marker-drop-phrase.
+Message: Past participle form must be preceded by a form of either the perfect auxiliary verb "å ha" or the passive auxiliary verb "å bli".
+
+
+
+Current malgram messages:
+
+MalGram Message Administration Menu
+delete gone bad. res=0
+delete/edit 	Name	Message	Link
+	mal-1st-pl-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-1st-sg-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-2nd-pl-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-2nd-sg-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-3rd-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-adjective-mod-def-m-or-f-sg-rule	A definite noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.	http://typecraft.org/tc2wiki/Definite_determiners_in_Norwegian
+	mal-adjective-mod-def-neut-sg-rule	A definite noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.	http://typecraft.org/tc2wiki/Definite_determiners_in_Norwegian
+	mal-adjective-mod-def-plur-rule	A definite noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.	http://typecraft.org/tc2wiki/Definite_determiners_in_Norwegian
+	mal-c_sg_strong-for-n_sg_strong-infl_rule	The adjective "GET-PHRASE" is conjugated as masculine or feminine, but modifies a neuter gender noun.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-c_sg_strong-for-pl_strong-infl_rule	The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-c_sg_strong-for-weak-infl_rule	The adjective "GET-PHRASE" is conjugated as an indefinite, but stands with a definite determiner.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-de_infl-for-et-lrule	Check ending of "GET-WORD-RIGHT". Some verbs ending with -"et" in past tense, and -"et" in perfect and passive participle, do not have -"de"/-"d" alternates.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian
+	mal-de_infl-for-strong-lrule	The form "GET-WORD-RIGHT" is a weak form of a strong verb. Refer to a dictionary for the appropriate conjugation (or push 'generate' button)..	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian
+	mal-de_infl-for-te-lrule	The form "GET-WORD-RIGHT" has a wrong ending. This verb ends with -"te" in past tense, and -"t" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian
+	mal-et_infl-for-strong-lrule	The form "GET-WORD-RIGHT" is a weak form of a strong verb. Refer to a dictionary for the appropriate conjugation (or push 'generate' button)..	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian
+	mal-et_infl-for-te-lrule	The form "GET-WORD-RIGHT has a wrong ending. This verb ends with -"te" in past tense, and -"t" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian
+	mal-fem_spec-m_noun-head-spec-art-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-head-invertsubject-decl-rule	The sentence contains an incorrect subject-verb inversion.	http://typecraft.org/tc2wiki/Subject-Verb_Inversion_in_Norwegian
+	mal-head-subject-rule	The sentence lacks subject-verb inversion.	http://typecraft.org/tc2wiki/Subject-Verb_Inversion_in_Norwegian
+	mal-inf-cp-to-vp-rule	The verb "GET-WORD" should not be followed by the infinitive marker "å".	http://typecraft.org/tc2wiki/Infinitives_in_Norwegian
+	mal-m_or_f_spec-n_noun-head-spec-art-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-m_or_f_spec-n_noun-head-spec-det-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-m_or_f_spec-n_noun-head-spec-quantor-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_sg_strong-for-c_sg_strong-finstr_infl_rule	The adjective "GET-PHRASE" is conjugated as neuter gender, but here it must agree in non-neuter.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_sg_strong-for-c_sg_strong-nonfstr_infl_rule	The adjective "GET-PHRASE" is conjugated as neuter gender, but here it must agree in non-neuter.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_sg_strong-for-pl_strong-finstr_infl_rule	The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_sg_strong-for-pl_strong-nonfstr_infl_rule	The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_sg_strong-for-weak-finstr_infl_rule	The adjective "GET-PHRASE" is conjugated as an indefinite, but stands with a definite determiner.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_sg_strong-for-weak-nonfstr_infl_rule	The adjective "GET-PHRASE" is conjugated as an indefinite, but stands with a definite determiner.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_spec-f_noun-head-spec-art-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_spec-m_noun-head-spec-art-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_spec-m_or_f_noun-head-spec-det-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-n_spec-m_or_f_noun-head-spec-quantor-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires an object.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian
+	mal-object-before-the-verb-rule	The object comes after the verb in Norwegian.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian
+	mal-past-inf-like-1_infl_rule	The word "GET-WORD-RIGHT" is in the past tense, but should be in infinitive.	http://typecraft.org/tc2wiki/Infinitives_in_Norwegian
+	mal-past-inf-like-2_infl_rule	The word "GET-WORD-RIGHT" is in the past tense, but should be in infinitive.	http://typecraft.org/tc2wiki/Infinitives_in_Norwegian
+	mal-perfect_past-like-2_infl_rule	"GET-WORD-RIGHT" has wrong inflection.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian
+	mal-perfect_present-like_infl_rule	The word "GET-WORD-RIGHT" has the wrong tense..	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian
+	mal-pl_spec-sg_noun-head-spec-det-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-pl_spec-sg_noun-head-spec-quantor-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-plural_or_weak-for-c_sg_strong-finstr_infl_rule	The adjective "GET-PHRASE" has a form which can serve as either weak or plural, but here the form must be strong singular. See 'generate'.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-plural_or_weak-for-c_sg_strong-nonfstr_infl_rule	The adjective "GET-PHRASE" has a form which can serve as either weak or plural, but here the form must be strong singular. See 'generate'.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-possparticle-drop-rule	A possessive "s" (without an apostrophe) is required after "GET-PHRASE" to specifiy a possessive relation.	http://typecraft.org/tc2wiki/Possessive_constructions_in_Norwegian
+	mal-pres-infl_rule	The word "GET-WORD-RIGHT" is an infinitive, but should be in past or present tense.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian
+	mal-pres_to_inf-infl_rule	The word "GET-WORD-RIGHT" is in infinitive, but should be in past or present tense.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian
+	mal-pres_to_perf-infl_rule	The word "GET-WORD-RIGHT" has the wrong tense.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian
+	mal-present-inf-like_infl_rule	The word "GET-WORD-RIGHT" is in the present tense, but should be in infinitive.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian
+	mal-redundant-med-with-sammen-rule	The word "sammen" should not be followed by "med" in this context.	
+	mal-refl-pron-with-self-rule	The verb "GET-WORD-LEFT seg" requires that the object is not followed by "selv".	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian
+	mal-s-adv-sentence-final-rule	In main clauses, sentential adverbs should be placed directly after the finite verb, and in subordinate clauses, right before. 	http://typecraft.org/tc2wiki/Sentence_adverbials_in_Norwegian
+	mal-sg_spec-pl_noun-head-spec-det-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-sg_spec-pl_noun-head-spec-quantor-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/Agreement_in_Norwegian_noun_phrases
+	mal-si_refl-post-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-si_refl_pre-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-sin_refl-post-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-sin_refl-pre-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-sine_refl-post-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-sine_refl_pre-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-sitt_refl-post-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-sitt_refl-pre-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal-te_infl-for-de-lrule	The form "GET-WORD-RIGHT" has a wrong ending. This verb ends with -"et" or -"de" in past tense, and -"et" or -"d" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian
+	mal-te_infl-for-et-lrule	The form "GET-WORD-RIGHT" has a wrong ending. This verb ends with -"et" in past tense, and -"et" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian
+	mal-te_infl-for-strong-lrule	The verb "GET-WORD-RIGHT" is a strong verb. Refer to a dictionary for the appropriate conjugation (or push 'generate' button).	
+	mal-vp-subcat-np-for-pp-rule	The noun following the verb "GET-WORD-RIGHT" should always be introduced by a preposition.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian
+	mal-vp-subcat-pp-for-np-rule	The noun following the verb "GET-WORD-RIGHT" should not be introduced by a preposition.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian
+	mal-vp-to-inf-cp-rule	The verb "GET-WORD-LEFT" must be followed by the infinitive marker "å".	http://typecraft.org/tc2wiki/Infinitives_in_Norwegian
+	mal_comm_pl_indef_for_neut_pl_indef_final-full-mm_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_comm_pl_indef_for_neut_pl_indef_final-full_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_de_perspron	The word "de" is marked with the wrong case, try using "dem" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_deg_perspron	The word "deg" is marked with the wrong case, try using "du" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_dem_perspron	The word "dem" is marked with the wrong case, try using "de" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_du_perspron	The word "du" is marked with the wrong case, try using "deg" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_fem_sg_def_for_masc_sg_def_final-full-mm_irule	The word "GET-PHRASE" is of masculine gender, not feminine.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_fem_sg_def_for_masc_sg_def_final-full_irule	The word "GET-PHRASE" is of masculine gender, not feminine.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_fem_sg_def_for_masc_sg_def_light-e_irule	The word "GET-PHRASE" is of masculine gender, not feminine.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_ham_perspron	The word "ham" is marked with the wrong case, try using "han" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_han_perspron	The word "han" is marked with the wrong case, try using "ham" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_henne_perspron	The word "henne" is marked with the wrong case, try using "hun" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_hun_perspron	The word "hun" is marked with the wrong case, try using "henne" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_jeg_perspron	The word "jeg" is marked with the wrong case, try using "meg" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_masc_sing_def_for_neut_sing_def_final-full-mm_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_masc_sing_def_for_neut_sing_def_final-full_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_masc_sing_def_for_neut_sing_def_light-e_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_meg_perspron	The word "meg" is marked with the wrong case, try using "jeg" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_neut_sg_def_for_fem_sg_def_final-full-mm_irule	The word "GET-PHRASE" is of feminine gender, not neuter.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_neut_sg_def_for_fem_sg_def_final-full_irule	The word "GET-PHRASE" is of feminine gender, not neuter.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_neut_sg_def_for_fem_sg_def_light-e_irule	The word "GET-PHRASE" is of feminine gender, not neuter.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_neut_sg_def_for_masc_sg_def_final-full-mm_irule	The word "GET-PHRASE" is of masculine gender, not neuter.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_neut_sg_def_for_masc_sg_def_final-full_irule	The word "GET-PHRASE" is of masculine gender, not neuter.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_neut_sg_def_for_masc_sg_def_light-e_irule	The word "GET-PHRASE" is of masculine gender, not neuter.	http://typecraft.org/tc2wiki/Gender_in_Norwegian_nouns
+	mal_og_inf_comp	The word "og" is not the infinitival marker, try using "å" instead.	http://typecraft.org/tc2wiki/Infinitives_in_Norwegian
+	mal_oss_perspron	The word "oss" is marked with the wrong case, try using "vi" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_seg_for_deg_refl	The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "deg" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal_seg_for_dere_refl	The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "dere" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal_seg_for_meg_refl	The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "meg" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal_seg_for_oss_refl	The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "oss" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian
+	mal_vi_perspron	The word "vi" is marked with the wrong case, try using "oss" instead.	http://typecraft.org/tc2wiki/Personal_pronouns_in_Norwegian
+	mal_å__n-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Coordination_marking_in_Norwegian
+	mal_å_adj-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Coordination_marking_in_Norwegian
+	mal_å_adv-p-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Coordination_marking_in_Norwegian
+	mal_å_connect	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Coordination_marking_in_Norwegian
+	mal_å_relclause-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Coordination_marking_in_Norwegian
+	mal_å_v-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Coordination_marking_in_Norwegian
+	mal_å_v-dir-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Coordination_marking_in_Norwegian
+
+Menu
+
+
+
+
+
+UPDATES LH201215 - 3 new message formulations:
+
+mal-s-adv-sentence-final-rule
+In main clauses, sentential adverbs must be placed directly after the finite verb, and in subordinate clauses, right before the finite verb.
+
+
+mal-n_sg_strong-for-c_sg_strong-finstr_infl_rule
+The adjective "GET-PHRASE" is conjugated as neuter gender, but here it must agree in non-neuter.
+
+
+mal-plural_or_weak-for-c_sg_strong-finstr_infl_rule
+The adjective "GET-PHRASE" has a form which can serve as either weak or plural, but here the form must be strong singular. See 'generate'.
+
+Some 'REMAINS' with å-og are resolved
+
+
+
+UPDATES LH121215
+
+This rule should be omitted:
+mal-plural_or_weak-for-n_sg_strong-finstr_infl_rule	
+The adjective "GET-PHRASE" should agree with the neuter gender noun it modifies.	
+For instance, we get the following response for the sentence below:
+The adjective "store" should agree with the masculine or feminine noun it modifies.	
+Store hus brenner. Birgit: Dette er jo en korrekt norsk setning. Skjønner ikke helt. Og hus er jo intetkjønn. Samme kommentar som over.
+TRANSLATION:
+L’aggettivo "store" dovrebbe concordare con il nome neutro che modifica.
+ACTION: 
+If "Fire argument holder" had been bad, this would have been the type one wants to mal-mark. Maybe it is, but as the noun-inflection system stands, 'hus' and 'argument' belong to the same supertype, and the sentence is accepted by the same rule as accepts "Fire hus brenner".
+We should leave it at this, 
+comment the rule away in malgram DONE
+, and take the message off the mal-menu. DONE
+
+The same holds for
+mal-plural_or_weak-for-n_sg_strong-nonfstr_infl_rule	
+(for "behagelige hus")
+DONE, for comment away
+DONE take off menu
+
+
+This rule has the wrong comment:
+mal-plural_or_weak-for-c_sg_strong-finstr_infl_rule	TODO
+The adjective "GET-PHRASE" should agree with the masculine or feminine noun it modifies.	
+For instance, we get the following response for the sentence below:
+The adjective "snille" should agree with the masculine or feminine noun it modifies.	
+Snille gutt smiler. Birgit: Litt rar argumentasjon? Her er det vel gutt som er feil (Snille gutter smiler\Den snille gutten)? Og gutt er jo hankjønn?
+TRANSLATION:
+L’aggettivo "snille" dovrebbe concordare con il nome maschile o femminile che modifica.
+ACTION: Change the message to:
+The adjective "snille" has a form which can serve as either weak or plural, but here the form must be strong singular. See 'generate'.
+DONE
+
+The same for:
+mal-plural_or_weak-for-c_sg_strong-nonfstr_infl_rule
+DONE
+
+
+Change message for:
+mal-n_sg_strong-for-c_sg_strong-finstr_infl_rule	
+The adjective "GET-PHRASE" is conjugated as neuter gender, but modifies a masculine or feminine noun.	
+For instance, we get the following response for the sentence below:
+The adjective "snilt" is conjugated as neuter gender, but modifies a masculine or feminine noun.	?Gutt er jo hankjønn?
+En snilt gutt smiler.
+TRANSLATION:
+L’aggettivo "snilt" ha la coniugazione neutra, ma modifica un nome maschile o femminile.
+ACTION:  The adjective "snilt" is conjugated as neuter gender, but here it must agree in non-neuter.
+DONE
+
+The same for:
+mal-n_sg_strong-for-c_sg_strong-nonfstr_infl_rule	
+DONE
+
+This rule is superfluous as long as all d/de-verbs are allowed to conjugate with et/et:
+mal-et_infl-for-de-lrule	
+The form "GET-WORD-RIGHT" has a wrong ending. This verb ends with -"et" or -"de" in past tense, and -"et" or -"d" in perfect and passive participle.
+For instance, we get the following response for the sentence below:
+The form "eiet" has a wrong ending. This verb ends with -"et" or -"de" in past tense, and -"et" or -"d" in perfect and passive participle.
+Mannen behøvet bilen.
+TRANSLATION:
+La forma "behøvet" ha la desinenza sbagliata. Questo verbo finisce in -"et" oppure in -"de" all’imperfetto, e in -"et" oppure -"d" nel participio passato e passivo.
+ACTION: 
+1. Ideally, distinguish better between those verbs that allow free variation, and thise which don't - with due regard to all Norw. idiosyncracies.
+2. But in the meanwhile, remove the message and comment out the mal-rule.
+DONE comment out the malrule
+DONE delete i admin-menu
+
+
+mal-s-adv-sentence-final-rule	In main clauses, sentential adverbs must be placed directly after the finite verb.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian      Ex Jeg spiste fisken ikke.	 NOTE generation also of 'ikke spiste jeg fisken'. Perhaps rephrase the message, and check the rule - the bon-counterpart has developed since 2011. Better: Sentential adverbs should occur next to the finite verb. TODO DONE
+
+mal_comm_pl_indef_for_neut_pl_indef_light-e_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	       Ex Mennesker sover. NOTE: Very good sentence. TODO: correct bon-plural for light-e neuter nouns!! TODO: comment away!! DONE 031215. Delete message. TODO DONE
+
+
+
+
+
+End of actions 121215.
+
+
+COMMENTED OUT IN rules-mal.tdl
+
+;LH191115
+;mal-pred-ap-to-copula-rule := mal-pred-ap-to-copula-phrase.
+There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".
+;LH191115
+;mal-np-to-copula-rule := mal-np-to-copula-phrase.
+There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE"
+;LH191115
+;mal-pp-to-copula-rule := mal-pp-to-copula-phrase.
+There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE"
+;LH191115
+;mal-adv-to-copula-rule := mal-adv-to-copula-phrase. 
+There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE"
+;LH191115
+;mal-passive-form-to-passive-vp-rule := mal-passive-form-to-passive-vp-phrase.
+Past participle form must be preceded by a form of either the perfect auxiliary verb "å ha" or the passive auxiliary verb "å bli".
+;LH191115
+;mal-perf-marker-drop-rule := mal-perf-marker-drop-phrase.
+Past participle form must be preceded by a form of either the perfect auxiliary verb "å ha" or the passive auxiliary verb "å bli".
+
+
+
+
+Augmented MalGram Message Administration Menu
+Name					Message							Link			                                      Example        Note
+mal-1st-pl-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Vi skammer. NOTE "ungrammatical"
+mal-1st-sg-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Jeg skammer. NOTE "ungrammatical"
+mal-2nd-pl-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Dere skammer. NOTE "ungrammatical"
+mal-2nd-sg-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Du skammer. NOTE "ungrammatical"
+mal-3rd-refl-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires a reflexive object.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian	      Ex Han skammer. NOTE "ungrammatical"
+mal-adjective-mod-def-m-or-f-sg-rule	A singular noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Snille gutten sover.
+mal-adjective-mod-def-neut-sg-rule	A singular noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Store huset står.
+mal-adjective-mod-def-plur-rule	A definite noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Snille guttene sover.
+mal-adv-to-copula-rule	There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Hun ute. NOTE LH211115 Commented out in grammar
+mal-bare-sg-noun-lxm-lrule	Countable indefinite nouns, such as "GET-WORD-RIGHT", are normally preceded by a determiner.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian      Ex Snill gutt sover. NOTE Now deemed grammatical in bon-grammar. TODO Remove from Admin DONE NOTE the rule is not any more in the malgram either, uncommented ...
+mal-c_sg_strong-for-n_sg_strong-infl_rule	The adjective "GET-PHRASE" is conjugated as masculine or feminine, but modifies a neuter gender noun.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian   Ex En gult bil sto her.
+mal-c_sg_strong-for-pl_strong-infl_rule	The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	Ex Gul gutter sto her.
+mal-c_sg_strong-for-weak-infl_rule	The adjective "GET-PHRASE" is conjugated as an indefinite, but stands with a definite determiner.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	   Ex Den gul gutten sto her.
+mal-de_infl-for-et-lrule	Check ending of "GET-WORD-RIGHT. Some verbs ending with -"et" in past tense, and -"et" in perfect and passive participle do not have -"de"/-"d" alternates.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian Ex Mannen hoppde. NOTE LH201115 it wrongly rules 'jeg prøvde...' as having wrong ending. Of course the form is also recognized as correct, but that rule is ranked lower than the mal-rule. Until treebanking anew, rather neutralize the rule, by a vague message. After treebanking, reinsert old message: NOW this works alright - prøvde (don't know why). DONE
+mal-de_infl-for-strong-lrule	The form "GET-WORD-RIGHT" is a weak form of a strong verb. Refer to a dictionary for the appropriate conjugation (or push the 'generate' button).	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian	Ex Barnet adlydde meg.		       
+mal-de_infl-for-te-lrule	The form "GET-WORD-RIGHT has a wrong ending. This verb ends with -"te" in past tense, and -"t" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian	  Ex Barnet spisde meg.
+mal-et_infl-for-de-lrule	The form "GET-WORD-RIGHT" has a wrong ending. This verb ends with -"et" or -"de" in past tense, and -"et" or -"d" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian Ex Mannen eiet bilen.
+mal-et_infl-for-strong-lrule	The form "GET-WORD-RIGHT" is a weak form of a strong verb. Refer to a dictionary for the appropriate conjugation (or push the 'generate' button).	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian		Ex Barnet kommet.      
+mal-et_infl-for-te-lrule	The form "GET-WORD-RIGHT has a wrong ending. This verb ends with -"te" in past tense, and -"t" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian	  Ex Barnet spiset meg.
+mal-fem_spec-m_noun-head-spec-art-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian					  Ex Ei gutt smiler.
+mal-head-invertsubject-decl-rule	The sentence contains an incorrect subject-verb inversion.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian Ex Kommer jeg snart.
+mal-head-subject-rule	The sentence lacks subject-verb inversion.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian Ex Imorgen jeg kommer.
+mal-inf-cp-to-vp-rule	The verb "GET-WORD-LEFT" should not be followed by the infinitive marker "å".	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Mannen vil å gå, gutten så meg å komme. TODO: 'LEFT' doesn't work REMAINS
+mal-m_or_f_spec-n_noun-head-spec-art-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian  Ex En hus smiler.
+mal-m_or_f_spec-n_noun-head-spec-det-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian  Ex Denne hus smiler. NOTE No generation possible.
+mal-m_or_f_spec-n_noun-head-spec-quantor-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian  Ex Hver hus smiler.
+mal-n_sg_strong-for-c_sg_strong-finstr_infl_rule	The adjective "GET-PHRASE" is conjugated as neuter gender, but modifies a masculine or feminine noun.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex En snilt gutt smiler.
+mal-n_sg_strong-for-c_sg_strong-nonfstr_infl_rule	The adjective "GET-PHRASE" is conjugated as neuter gender, but modifies a masculine or feminine noun.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex En ... smiler. NOTE Not found example yet.
+mal-n_sg_strong-for-pl_strong-finstr_infl_rule	The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	Ex Snill gutter smiler.
+mal-n_sg_strong-for-pl_strong-nonfstr_infl_rule	The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	Ex Lykkelig jenter smiler. NOTE Rule does not show up in parse. TODO  REMAINS Only message is 'lack of subj-V inversion' (the message is there)
+mal-n_sg_strong-for-weak-finstr_infl_rule	The adjective "GET-PHRASE" is conjugated as an indefinite, but stands with a definite determiner.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian    Ex Den snill gutten smiler.
+mal-n_sg_strong-for-weak-nonfstr_infl_rule	The adjective "GET-PHRASE" is conjugated as an indefinite, but stands with a definite determiner.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian    Ex Den lykkelig gutten smiler(?) NOTE This sentence gets a different rule in the parse, namely 'mal-m_or_f_spec-n_noun-head-spec-det-rule'
+mal-n_spec-f_noun-head-spec-art-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Et jente smiler.
+mal-n_spec-m_noun-head-spec-art-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Et gutt smiler.
+mal-n_spec-m_or_f_noun-head-spec-det-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian    Ex Dette jente smiler. NOTE No generation.
+mal-n_spec-m_or_f_noun-head-spec-quantor-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian    Ex Hvert gutt smiler.  NOTE ok semantics, but no generation
+mal-np-obj-drop-rule	The verb "GET-WORD-RIGHT" requires an object.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian		Ex Jeg fortærer. NOTE "ungrammatical"  It is simply commented out in the grammar. TODO  Try to activate it again, and see if its logic works.
+mal-np-to-copula-rule	There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Hun bonde. NOTE LH211115 Commented out in grammar
+mal-passive-form-to-passive-vp-rule	Past participle form must be preceded by a form of either the perfect auxiliary verb "å ha" or the passive auxiliary verb "å bli".	Ex Mannen skutt.	   NOTE LH211115 Commented out in grammar
+mal-past-inf-like-1_infl_rule	The word "GET-WORD-RIGHT" is in the past tense, but should be in infinitive.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian	Ex Jeg prøvde å hoppet, Jeg ville hoppet. NOTE No parse ('ungrammatical')TODO FIXED
+mal-past-inf-like-2_infl_rule	The word "GET-WORD-RIGHT" is in the past tense, but should be in infinitive.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian Ex Jeg prøvde å gikk. NOTE "ungrammatical"TODO REMAINS (but works with 'sprang')
+mal-perfect_past-like-2_infl_rule	"GET-WORD-RIGHT" has wrong inflection.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian			 Ex Jeg prøvde å spiste.	   NOTE "ungrammatical"TODO FIXED
+mal-perf-marker-drop-rule		Past participle form must be preceded by a form of either the perfect auxiliary verb "å ha" or the passive auxiliary verb "å bli".  Ex Mannen kommet.	   NOTE LH211115 Commented out in grammar  The ex gets a good response anyway
+mal-perfect_present-like_infl_rule	The word "GET-WORD-RIGHT" has the wrong tense..	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian Ex Jeg prøvde å spiser.
+mal-pl_spec-sg_noun-head-spec-det-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Disse gutt smiler. NOTE No generation. This is because 'disse' does not have a quantifier in MRS. That is because the noun infl carries the quantification. And here that inflection is absent. So the mal-rule will have to introduce this. TODO REMAINS
+mal-pl_spec-sg_noun-head-spec-quantor-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian  Ex Samtlige gutt smiler.
+mal-plural_or_weak-for-c_sg_strong-finstr_infl_rule	The adjective "GET-PHRASE" should agree with the masculine or feminine noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian      Ex Snille gutt smiler.
+mal-plural_or_weak-for-c_sg_strong-nonfstr_infl_rule	The adjective "GET-PHRASE" should agree with the masculine or feminine noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian      Ex Lykkelige gutt smiler.
+mal-plural_or_weak-for-n_sg_strong-finstr_infl_rule	The adjective "GET-PHRASE" should agree with the neuter gender noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	      Ex Store hus ligger.
+mal-plural_or_weak-for-n_sg_strong-nonfstr_infl_rule	The adjective "GET-PHRASE" should agree with the neuter gender noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	      Ex Behagelige hus ligger.
+mal-possparticle-drop-rule	A possessive "s" (without an apostrophe) is required after "GET-PHRASE" to specifiy a possessive relation.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Ola hus er gult. NOTE 'semantic error' -cannot generate
+mal-pp-to-copula-rule	There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Hun i huset. NOTE LH211115 Commented out in grammar
+mal-pred-ap-to-copula-rule	There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian  Ex Hun snill.	   NOTE LH211115 Commented out in grammar
+mal-pres-infl_rule	The word "GET-WORD-RIGHT" is an infinitive, but should be in past or present tense.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian	NOTE Is not defined in grammar. The rule mal-pres_to_inf-infl_rule does its job anyway.
+mal-pres_to_inf-infl_rule	The word "GET-WORD-RIGHT" has the wrong tense..	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian Ex Jeg like fisken. NOTE Is this all one can say? Originally it was "... is in infinitive, but should be put in past or present tense" TODO  DONE
+mal-pres_to_perf-infl_rule	The word "GET-WORD-RIGHT" has the wrong tense..	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian Ex Jeg likt fisken(?)	 NOTE No response in parse TODO REMAINS
+mal-present-inf-like_infl_rule	The word "GET-WORD-RIGHT" is in the present tense, but should be in infinitive.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian Ex Jeg prøver å skriver.
+mal-redundant-med-with-sammen-rule	The word "sammen" should not be followed by "med" in this context.	Ex Vi går sammen med. NOTE most prepositions can be used as adverbs, so ...	
+mal-refl-pron-with-self-rule	The verb "GET-WORD-LEFT seg" requires that the object is not followed by "selv".	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Mannen skammer seg selv, mannen oppfører seg selv pent. NOTE: works, but is disguised by adverbial uses of selv
+mal-s-adv-sentence-final-rule	In main clauses, sentential adverbs must be placed directly after the finite verb.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian      Ex Jeg spiste fisken ikke.	 NOTE generation also of 'ikke spiste jeg fisken'. Perhaps rephrase the message, and check the rule - the bon-counterpart has developed since 2011. Better: Sentential adverbs should occur next to the finite verb.TODO DONE
+mal-sg_spec-pl_noun-head-spec-det-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian    Ex Denne gutter smiler.
+mal-sg_spec-pl_noun-head-spec-quantor-rule	A determiner must have the same gender, number and definiteness as the noun it modifies.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian     Ex Hver gutter smiler.
+mal-si_refl-post-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Jenta si sover. NOTE Semantics ok, no generation.
+mal-si_refl_pre-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Si jente sover. NOTE Semantics ok, no generation.
+mal-sin_refl-post-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Gutten sin sover.	 NOTE Semantics ok, no generation.
+mal-sin_refl-pre-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Sin gutt sover.	 NOTE Semantics ok, no generation.
+mal-sine_refl-post-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Guttene sine sover.	 NOTE Semantics ok, no generation.
+mal-sine_refl_pre-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Sine gutter sover.	 NOTE Semantics ok, no generation.
+mal-sitt_refl-post-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Barnet sitt sover.	 NOTE Semantics ok, no generation.
+mal-sitt_refl-pre-poss	The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Sitt barn sover.	 NOTE Semantics ok, no generation.
+mal-subj-drop-rule	The verb "GET-WORD-RIGHT" requires a subject, like all finite verbs in Norwegian.	http://typecraft.org/tc2wiki/Sentence_syntax_-_Norwegian Ex Traff Peter.
+mal-te_infl-for-de-lrule	The form "GET-WORD-RIGHT" has a wrong ending. This verb ends with -"et" or -"de" in past tense, and -"et" or -"d" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian Ex: Mannen eite bilen.
+mal-te_infl-for-et-lrule	The form "GET-WORD-RIGHT" has a wrong ending. This verb ends with -"et" in past tense, and -"et" in perfect and passive participle.	http://typecraft.org/tc2wiki/Past_and_Perfective_patterns_in_Norwegian Ex: Mannen hoppte.
+mal-te_infl-for-strong-lrule	The verb "GET-WORD-RIGHT" is a strong verb. Refer to a dictionary for the appropriate conjugation (or push the 'generate' button).  Ex Jeg løpte.	
+mal-vp-subcat-np-for-pp-rule	The noun following the verb "GET-WORD-RIGHT" should always be introduced by a preposition.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Jeg stoler Ola. NOTE commented out. Why? TODO REMAINS 
+mal-vp-subcat-pp-for-np-rule	The noun following the verb "GET-WORD-RIGHT" should not be introduced by a preposition.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Jeg liker på Ola. NOTE commented out. Why? TODO REMAINS
+mal-vp-to-inf-cp-rule	The verb "GET-WORD-LEFT" must be followed by the infinitive marker "å".	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Jeg prøvde komme. NOTE "LEFT" doesn't work. TODO REMAINS
+mal_comm_pl_indef_for_neut_pl_indef_final-full-mm_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian       Ex Hjemmer brenner.
+mal_comm_pl_indef_for_neut_pl_indef_final-full_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	       Ex Huser brenner.
+mal_comm_pl_indef_for_neut_pl_indef_light-e_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	       Ex Mennesker sover. NOTE: Very good sentence. TODO: correct bon-plural for light-e neuter nouns!! TODO: comment away!! DONE 031215 Message deleted DONE 131215
+mal_de_perspron	The word "de" is marked with the wrong case, try using "dem" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Jeg liker de.
+mal_deg_perspron	The word "deg" is marked with the wrong case, try using "du" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Deg liker meg.
+mal_dem_perspron	The word "dem" is marked with the wrong case, try using "de" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Dem liker deg.
+mal_du_perspron	The word "du" is marked with the wrong case, try using "deg" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	 Ex Jeg liker du.
+mal_fem_sg_def_for_masc_sg_def_final-full-mm_irule	The word "GET-PHRASE" is of masculine gender, not feminine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Strømma går. NOTE mm-words like 'strøm', 'slum' can not be activated in the parse for this. TODO correct it. REMAINS
+mal_fem_sg_def_for_masc_sg_def_final-full_irule	The word "GET-PHRASE" is of masculine gender, not feminine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Manna sover.
+mal_fem_sg_def_for_masc_sg_def_light-e_irule	The word "GET-PHRASE" is of masculine gender, not feminine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Galga henger.
+mal_ham_perspron	The word "ham" is marked with the wrong case, try using "han" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian  Ex Ham sitter. NOTE ham liker deg has as first ranked topicalization of "deg", thus recommending "du". TODO trebankrank - but only for this case. strange REMAINS
+mal_han_perspron	The word "han" is marked with the wrong case, try using "ham" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian  Ex Jeg ser han.     NOTE deactivated, since 'han' as obj is ok
+mal_henne_perspron	The word "henne" is marked with the wrong case, try using "hun" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Henne sitter. 
+mal_hun_perspron	The word "hun" is marked with the wrong case, try using "henne" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian  Ex Jeg ser hun.
+mal_jeg_perspron	The word "jeg" is marked with the wrong case, try using "meg" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	  Ex Du ser jeg.
+mal_masc_sing_def_for_neut_sing_def_final-full-mm_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Lammen er gult.
+mal_masc_sing_def_for_neut_sing_def_final-full_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Husen er gult.
+mal_masc_sing_def_for_neut_sing_def_light-e_irule	The word "GET-PHRASE" is of neuter gender, not masculine.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Rykten er dårlig.
+mal_meg_perspron	The word "meg" is marked with the wrong case, try using "jeg" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Meg sover, meg liker deg.
+mal_neut_sg_def_for_fem_sg_def_final-full-mm_irule	The word "GET-PHRASE" is of feminine gender, not neuter.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Trommet er gul.
+mal_neut_sg_def_for_fem_sg_def_final-full_irule	The word "GET-PHRASE" is of feminine gender, not neuter.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	 Ex Bruet er gul.
+mal_neut_sg_def_for_fem_sg_def_light-e_irule	The word "GET-PHRASE" is of feminine gender, not neuter.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Jentet er snill.
+mal_neut_sg_def_for_masc_sg_def_final-full-mm_irule	The word "GET-PHRASE" is of masculine gender, not neuter.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex ...mmet er gul. NOTE nouns like 'flom', 'trim' and 'slum' do not take the role one gets only "ungrammatical". TODO Fix! REMAINS
+mal_neut_sg_def_for_masc_sg_def_final-full_irule	The word "GET-PHRASE" is of masculine gender, not neuter.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Guttet er snill.
+mal_neut_sg_def_for_masc_sg_def_light-e_irule	The word "GET-PHRASE" is of masculine gender, not neuter.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Stammet er gul.
+mal_og_inf_comp	The word "og" is not the infinitival marker, try using "å" instead.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian Ex Jeg prøver og komme.
+mal_oss_perspron	The word "oss" is marked with the wrong case, try using "vi" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian Ex Oss sover, oss liker deg.
+mal_seg_for_deg_refl	The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "deg" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian Ex Du skammer seg. NOTE For any object other than "seg", respons: "ungrammatical"
+mal_seg_for_dere_refl	The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "dere" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian Ex Dere skammer seg. NOTE For any object other than "seg", respons: "ungrammatical"
+mal_seg_for_meg_refl	The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "meg" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian  Ex Jeg skammer seg. NOTE For any object other than "seg", respons: "ungrammatical"
+mal_seg_for_oss_refl	The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "oss" instead.	http://typecraft.org/tc2wiki/Reflexives_-_Norwegian   Ex Vi skammer seg. NOTE For any object other than "seg", respons: "ungrammatical"
+mal_vi_perspron	The word "vi" is marked with the wrong case, try using "oss" instead.	http://typecraft.org/tc2wiki/The_Noun_Phrase_-_Norwegian	Ex Jeg liker vi.
+mal_å__n-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian		Ex Ola å Per kommer. NOTE "ungrammatical" New design of coordination since this was made TODO DONE
+mal_å_adj-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian		Ex Ola er grønn å blå. NOTE "ungrammatical" New design of coordination since this was made TODO REMAINS  (problem is the treatment of adjective coordination in bon-gram)
+mal_å_adv-p-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian	Ex Ola løper her å der. NOTE "ungrammatical" New design of coordination since this was made TODO DONE  But note: Ola løper hit å dit  is just ungrammatical. why? TODO
+mal_å_connect	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian		NOTE "ungrammatical" New design of coordination since this was made TODO DELETED - was a duplicate of mal_å_adv-p-coord.
+mal_å_relclause-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian	NOTE "ungrammatical" New design of coordination since this was made TODO REMAINS
+mal_å_v-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian		Ex Ola hoster å nyser. NOTE "ungrammatical" New design of coordination since this was made TODO DONE (but dependencies are 'fragmented')
+mal_å_v-dir-coord	The word "å" is not a conjunction, try using "og" instead.	http://typecraft.org/tc2wiki/Verb_Complementation_-_Norwegian	Ex Ola kommer å går. NOTE "ungrammatical" New design of coordination since this was made TODO DONE (but dependencies are 'fragmented')
+
+
+
+
+
