@@ -1,3 +1,7 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mal-ireglar ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Makes present verbs that look infinitive-like. EAA nov-2010.
 mal-pres-infl_rule :=
@@ -10,13 +14,13 @@ mal-inf-verb-word &
 [ GENRE robust ].
 
 mal-past-inf-like-1_infl_rule :=
-%suffix (e edde)(a adde)(o odde)(ø ødde)(å ådde)(u udde)(i idde)(æ ædde)(y ydde)
+%suffix (e edde)(a adde)(o odde)(Ã¸ Ã¸dde)(Ã¥ Ã¥dde)(u udde)(i idde)(Ã¦ Ã¦dde)(y ydde)
 mal-inf-verb-word &
 [ GENRE robust,
   ARGS < [ INFLECTION finstr ] > ].
 
 mal-past-inf-like-2_infl_rule :=
-%suffix (ge get)(ge gte)(de det)(ve vet)(ke ket)(le let)(me met)(ne net)(pe pet)(re ret)(se set)(te tet)(ge gde)(ve vde)(ke kte)(le lte)(me mte)(ne nte)(pe pte)(re rte)(se ste)(dde ddet)(gge gget)(ffe ffet)(kke kket)(lle llet)(mme mte)(nne nnet)(nne nte)(ppe ppet)(rre rret)(sse sset)(eie eiet)(øye øyet)(aie aiet)(eie eide)(øye øyde)(aie aide)(kes ktes)(les ltes)(mes mtes)(nes ntes)(pes ptes)(res redes)(tes tedes)(des dedes)(ves vdes)(kkes ktes)(lles ltes)(mmes mtes)(nnes ntes)(ppes ptes)
+%suffix (ge get)(ge gte)(de det)(ve vet)(ke ket)(le let)(me met)(ne net)(pe pet)(re ret)(se set)(te tet)(ge gde)(ve vde)(ke kte)(le lte)(me mte)(ne nte)(pe pte)(re rte)(se ste)(dde ddet)(gge gget)(ffe ffet)(kke kket)(lle llet)(mme mte)(nne nnet)(nne nte)(ppe ppet)(rre rret)(sse sset)(eie eiet)(Ã¸ye Ã¸yet)(aie aiet)(eie eide)(Ã¸ye Ã¸yde)(aie aide)(kes ktes)(les ltes)(mes mtes)(nes ntes)(pes ptes)(res redes)(tes tedes)(des dedes)(ves vdes)(kkes ktes)(lles ltes)(mmes mtes)(nnes ntes)(ppes ptes)
 mal-inf-verb-word &
 [ GENRE robust,
   ARGS < [ INFLECTION nonfstr ] > ].
@@ -35,7 +39,7 @@ mal-inf-verb-word := verb-word & infl-ltow-rule &
     SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE infin,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD indicative ].
 
-;; Mal-rule to get away without the "å" in an infinitival sentence. EAA nov-2010.
+;; Mal-rule to get away without the "Ã¥" in an infinitival sentence. EAA nov-2010
 mal-vp-to-inf-cp-phrase := unary-phrase &
 [ GENRE robust,
   SYNSEM.LOCAL.CAT.HEAD infin-comp & [ TRANSPAR +,
@@ -59,7 +63,7 @@ mal-vp-to-inf-cp-phrase := unary-phrase &
            SYNSEM.LOCAL.CONT.HOOK.XARG #1 
 	] > ].
 
-;; Mal-rule to accomodate for an "å" initially in an infinitival VP. EAA nov-2010.
+;; Mal-rule to accomodate for an "Ã¥" initially in an infinitival VP. EAA nov-2010.
 mal-inf-cp-to-vp-phrase := phrase &
 [ GENRE robust,
   INFLECTED +,

@@ -21,6 +21,7 @@ root := phrase &
                            ICOMPS null] ],
   SYNSEM.LOCAL.NEED-IMP-UNARY -,
   SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.MUST-COORDINATE -,
   SYNSEM.LOCAL.BND-RESP <>,  ;;LH020216 Refl binding is now a bit out of control, so temporarily suspending these constraints. See head-verb-tame-comp-phrase and trans-arg1-2refl-synsem.
   SYNSEM.LOCAL.WAIT-BND-RESP <>,
   SYNSEM.LOCAL.MUST-COORD-PROJECT -,

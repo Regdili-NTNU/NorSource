@@ -176,9 +176,9 @@ basic-compl :+ 1arg-1comps.
 
 v-intr :+ 1arg.
 	      
-v-intrImpers :+ 1arg.
+v-impers :+ 1arg.
   	
-v-intrImpersPrtcl  :+ 2arg & 1comps.	
+v-impersPrtcl  :+ 2arg & 1comps.	
 
 v-tr :+ 2arg & 1comps.
 
@@ -186,7 +186,7 @@ v-tr-obdecl :+ 2arg & 1comps.
 
 v-tr-obAbsinf :+ 2arg & 1comps. ;; MHS 170713 New
 		
-v-intrImpersObl :+ 2arg & 1obl.
+v-impersObl :+ 2arg & 1obl.
 
 ;LH-14may-11: these are entered later
 ;v-intrPresnt :+ 1arg. ; sjekk denne ved senere annledning ;; MHS 170713 This has already a constrained SLASH value.
@@ -279,7 +279,7 @@ v-intrScpr-scObimplNrgRes_scPPrefl-PLACEMENT :+ 2arg & 1comps.
 ;LH may14-11 added:
 v-intrLghtScpr-scAdj :+ 2arg & 1comps.
 
-v-intrLghtscpr-scsunrg_scpredprtcl :+ 2arg & 1comps.
+;v-intrLghtscpr-scsunrg_scpredprtcl :+ 2arg & 1comps.
 
 v-intrLghtscpr-scsunrg_scpredprtclsom :+ 2arg & 1comps.
 
@@ -506,6 +506,8 @@ v-trScpr-scObArgCsd_scLoc :+ 3arg & 2comps. ;; MHS 170713 New
 
 v-trScpr-scObArgCsd_scEndpt :+ 3arg & 2comps. ;; MHS 170713 New
 
+v-trScprShft-obDir_scObArgCsd :+ 3arg & 2comps. ;; LH 170210 New
+
 v-trScpr-obRefl_scObArgCsd :+ 3arg & 2comps.
 
 v-trScprShft-obDir_scObNrgCsd :+ 3arg & 2comps.
@@ -568,31 +570,31 @@ v-ditr-suINTERR_obINTERR :+ 3arg & 2comps.
 
 v-intrPresnt :+ 2arg & 1comps. 
 
-v-intrPresnt-presDir :+ 2arg & 1comps.
+v-intrPresntDir :+ 2arg & 1comps.
 
 ;LH 080611 temporarily out:
 ;v-trNrfPresntPath-obRefl_presDir :+ 4arg & 3comps.
 
 ;LH 080611 added:
-v-trNrfPresntPathShft-obRefl_presDir :+ 4arg & 3comps.
+v-presentReflDirShft :+ 4arg & 3comps.
 
 ; LH may14-11, new:
-v-trNrfPresnt-obRefl_presDir :+ 3arg & 2comps.
+v-presentReflDir :+ 3arg & 2comps.
 
-v-trPresntLoc-obRefl :+ 4arg & 3comps.
+v-presntReflLoc :+ 4arg & 3comps.
 
 v-intrPresntLoc :+ 3arg & 1comps-1obl.
 
-v-intrPresntPath-presDir :+ 3arg & 2comps.
+;v-intrPresntDir :+ 3arg & 1comps. ;LH230718 previously 2comps
 
 ;LH 080611 added:
-v-intrPresntPathShft-presDir :+ 3arg & 2comps.
+v-intrPresntDirShft :+ 3arg & 2comps.
 
-v-trpresnt :+ 3arg & 2comps.
+v-trPresnt :+ 3arg & 2comps.
 
-v-trNrfPresnt-obRefl :+ 3arg & 2comps.
+v-presntRefl :+ 3arg & 2comps.
 
-v-trNrfPresntLoc-obReflExpl :+ 4arg & 3comps.
+;v-trNrfPresntLoc-obReflExpl :+ 4arg & 3comps.
 
 v-trExpnSu-expnDECL :+ 3arg & 2comps.
 

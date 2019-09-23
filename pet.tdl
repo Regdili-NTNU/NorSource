@@ -19,7 +19,7 @@
 
 :include "matrix".
 :include "norsk".
-:include "exp-types".
+;; :include "exp-types".
 :include "lex-types-v".
 :include "v-types-add-SLASH.tdl".
 :include "predsort".
@@ -29,6 +29,7 @@
 ;:include "out.txt".
 ;:include "out.txt.new".
 :include "mtr".
+:include "STEMonly_sorted.tdl".
 ;;; DPF addenda
 
 :include "tmt".
@@ -42,48 +43,22 @@
 ;;
 
 :begin :instance :status lex-entry.
-;:include "BigLex/LexDB:nor.NorSource.lex4.n-lrg.tdl".
-;:include "BigLex/LexDB:nor.NorSource.lex4.a-lrg.tdl".
-;:include "BigLex/LexDB:nor.NorSource.lex4.v-lrg.tdl".
-;:include "BigLex/LexDB:nor.NorSource.lex4.interj-lrg.tdl".
-;:include "BigLex/lex4.na-lrg.tdl".
-;:include "BigLex/lex4.v-lrg.tdl".
-:include "lex1.close.tdl" .
-:include "lex2.open.tdl" .
-;:include "lex2.semlab.tdl" .
-:include "lex3.p-adv-full.tdl" .
-:include "lex4.propn1.tdl" .
-:include "lex4.propn2.tdl" .
-:include "lex4.abbrev-lrg" .
 
-;; bruland. nye leksikon for navn
-:include "lex4.propn.by_navn.tdl" .
-:include "lex4.propn.etternavn.tdl" .
-:include "lex4.propn.fylkesnavn.tdl" .
-:include "lex4.propn.guttenavn.tdl" .
-:include "lex4.propn.jentenavn.tdl" .
-:include "lex4.propn.kommune_navn.tdl" .
-:include "lex4.propn.land_navn.tdl" .
+:include "lex_close.tdl".
+:include "lex_p-adv.tdl" .
+:include "lex_a.tdl".
+:include "lex_n.tdl".
+:include "lex_v.tdl".
+:include "lex_propername.tdl".
+:include "lex_abbrev".
+;;:include "lex_sticos.tdl".
+:include "ordbank_missing_egennavn.tdl".
 
-:include "lex4.n-lrg.tdl".
-:include "lex4.a-lrg.tdl".
-:include "lex4.v-lrg.tdl".
-;:include "lex4.interj-lrg.tdl".
-;:include "malgram/mal-closed-lex.tdl".
+;; :include "lex4.interj-lrg.tdl".
+;; :include "malgram/mal-closed-lex.tdl".
 
-;;
-;; Bruland's preprocessing lexicons
-;;
-;;:include "rss_number.tdl".
-;;:include "rss_roads.tdl".
-;;:include "rss_lex.tdl".
-;;:include "rss_kart_compound.tdl".
 
 :end :instance.
-
-;;
-;; Bruland's preprocessing lexicons
-;;
 
 ;;lex.ff
 ;; grammar rules and lexical rules (instances of status rule)
@@ -102,6 +77,10 @@
 :include "irules-deriv".
 ;:include "malgram/irules-mal".
 ;:include "malgram/lrules-mal".
+:end :instance.
+
+:begin :instance :status generic-lex-entry.
+ :include "gle".
 :end :instance.
 
 ;;

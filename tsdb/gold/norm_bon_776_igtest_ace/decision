@@ -1,0 +1,234 @@
+3500@1@4@3@STRSG-PASTPT-ADJ_0_LRULE@spist@2@3@8-apr-2019 15:39:08
+3500@1@1@2@v-intrauxpassscpr-scsunrg_scpass@ble@1@2@8-apr-2019 15:38:44
+3500@1@4@2@v-copadj@ble@1@2@8-apr-2019 15:39:08
+3500@1@4@3@HEAD-VERB-ADJ-COMP-RULE@ble || spist@1@3@8-apr-2019 15:39:08
+3502@1@4@2@rel-prep-word@av@5@6@8-apr-2019 15:41:53
+3502@1@4@3@ADJ-TO-BARE-N-LRULE@gule@4@5@8-apr-2019 15:41:53
+3502@1@1@3@ADJ-TO-N-CUM-QUANTIFIER-LRULE@gule@4@5@8-apr-2019 15:42:05
+3502@1@4@2@stnd-adj-lxm@mange@3@4@8-apr-2019 15:41:53
+3502@1@4@3@WEAK-ADJ-NONFSTR_INFL_RULE@mange@3@4@8-apr-2019 15:41:53
+3502@1@4@3@WEAK-ADJ-LXM-LRULE@mange@3@4@8-apr-2019 15:41:53
+3502@1@4@3@STRONGPL-ADJ-NONFSTR_INFL_RULE@mange@3@4@8-apr-2019 15:41:53
+3502@1@4@3@STRONG-ADJ-LXM-LRULE@mange@3@4@8-apr-2019 15:41:53
+3502@1@4@3@ADJECTIVE-MOD-PSEUDOWEAK-ORDINAL-INDEF-RULE@mange || gule@3@5@8-apr-2019 15:41:53
+3502@1@4@3@ADJECTIVE-MOD-INDEF-RULE@mange || gule@3@5@8-apr-2019 15:41:53
+3502@1@4@3@PP-MOD-REL-N-RULE@mange gule || av de svarte@3@8@8-apr-2019 15:41:53
+3502@1@1@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@spist mange gule || av de svarte@2@8@8-apr-2019 15:42:24
+3502@1@4@3@HEAD-VERB-COMP-RULE@spist || mange gule av de svarte@2@8@8-apr-2019 15:41:53
+3503@1@1@3@CARD-TO-N-CUM-DEFDEM-LRULE@atten@1@2@8-apr-2019 15:44:59
+3503@1@1@3@S-ADV-SPEC-V-RULE@rider || igjen@2@4@8-apr-2019 15:45:02
+3503@1@4@3@S-ADV-FINAL-SPEC-V-RULE@rider || igjen@2@4@8-apr-2019 15:44:54
+3506@1@2@2@abs-adj-tough-lxm@bedre@2@3@8-apr-2019 15:46:31
+3506@1@2@2@abs-adj-nonepon-decl-lxm@bedre@2@3@8-apr-2019 15:46:40
+3506@1@4@3@COMP-ADJ_ERE-FINSTR_INFL_RULE@bedre@2@3@8-apr-2019 15:46:45
+3506@1@4@3@COMPARATIVE-ADJ-LXM-LRULE@bedre@2@3@8-apr-2019 15:46:45
+3506@1@2@3@FREE-SUBJPRED-RULE@sang || bedre@1@3@8-apr-2019 15:45:48
+3507@1@4@2@stnd-adj-lxm@gnistrende@2@3@8-apr-2019 15:47:46
+3507@1@1@2@v-intr@gnistrende@2@3@8-apr-2019 15:47:43
+3507@1@4@3@COMMSG-ADJ_INFL_RULE@gnistrende@2@3@8-apr-2019 15:47:46
+3507@1@4@3@STRONG-ADJ-LXM-LRULE@gnistrende@2@3@8-apr-2019 15:47:46
+3507@1@4@3@DEGADV-ADJ_T-POS_NONFSTR_INFL_RULE@gnistrende@2@3@8-apr-2019 15:47:46
+3507@1@4@3@DEGADV-FROM-ADJ_T-POS-LRULE@gnistrende@2@3@8-apr-2019 15:47:46
+3507@1@4@3@PARTICIPIAL-PRES-ADJ-INFL_RULE@gnistrende@2@3@8-apr-2019 15:47:46
+3507@1@4@3@ADV-FROM-ADJ-POS_NONFSTR_INFL_RULE@gnistrende@2@3@8-apr-2019 15:47:46
+3507@1@4@3@ADV-FROM-ADJ-POS-LRULE@gnistrende@2@3@8-apr-2019 15:47:46
+3507@1@1@3@MEASURE-QUANTWORD-A-RULE@gnistrende || godt@2@4@8-apr-2019 15:47:28
+3507@1@2@3@FREE-SUBJPRED-RULE@sang || gnistrende@1@3@8-apr-2019 15:47:15
+3507@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@sang || gnistrende@1@3@8-apr-2019 15:47:46
+3508@1@1@2@stnd-adj-lxm@best@2@3@8-apr-2019 15:48:06
+3508@1@4@2@abs-adj-tough-lxm@best@2@3@8-apr-2019 15:48:09
+3508@1@4@2@abs-adj-nonepon-decl-lxm@best@2@3@8-apr-2019 15:48:09
+3508@1@4@3@SUP-ADJ-STR_EST-FINSTR_INFL_RULE@best@2@3@8-apr-2019 15:48:09
+3508@1@4@3@SUP-ADJ-STANDALONE-LXM-LRULE@best@2@3@8-apr-2019 15:48:09
+3508@1@2@3@FREE-SUBJPRED-RULE@hopper || best@1@3@8-apr-2019 15:48:01
+3509@1@1@2@tel-fix-pathtelic-prep-word@på@3@4@8-apr-2019 15:48:37
+3509@1@4@2@prep-word-reg@på@3@4@8-apr-2019 15:48:40
+3509@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@løp hit || på to timer@1@6@8-apr-2019 15:48:40
+3510@1@4@2@dirarg-telic-to-down-adv-word@ned@3@4@8-apr-2019 15:49:38
+3510@1@1@2@v-intrprtcl@brant@1@2@8-apr-2019 15:49:22
+3510@1@4@2@v-intr@brant@1@2@8-apr-2019 15:49:38
+3510@1@1@2@neutsg-inan-proper-name-word@tromsø@0@1@8-apr-2019 15:49:32
+3510@1@4@2@mascsg-inan-proper-name-word@tromsø@0@1@8-apr-2019 15:49:38
+3510@1@4@3@TELIC-ADV-MOD-VP-RULE@brant ikke || ned@1@4@8-apr-2019 15:49:38
+3512@1@1@2@neutsg-inan-proper-name-word@tromsø@3@4@8-apr-2019 15:50:00
+3512@1@4@2@mascsg-inan-proper-name-word@tromsø@3@4@8-apr-2019 15:50:02
+3513@1@4@3@LEAK-PL-INDEF-NOUN-LXM-LRULE@timer@4@5@8-apr-2019 15:50:52
+3513@1@2@2@neut-reginan-noun-lxm@tre@3@4@8-apr-2019 15:50:17
+3513@1@4@3@SG_IND_SUBST_IRULE@tre@3@4@8-apr-2019 15:50:52
+3513@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@tre@3@4@8-apr-2019 15:50:52
+3513@1@1@2@tel-fix-nondelim-prep-word@i@2@3@8-apr-2019 15:50:49
+3513@1@4@2@tel-fix-path-atelic-prep-word@i@2@3@8-apr-2019 15:50:52
+3513@1@4@2@dir-fixpoint-prep-word@i@2@3@8-apr-2019 15:50:52
+3513@1@4@2@prep-word-loc@i@2@3@8-apr-2019 15:50:52
+3513@1@2@3@EXTRACTED-PREP-COMP-RULE@i@2@3@8-apr-2019 15:50:32
+3513@1@4@2@v-tr@varte@1@2@8-apr-2019 15:50:52
+3513@1@4@3@HEAD-PREP-COMP-RULE@i || tre@2@4@8-apr-2019 15:50:52
+3513@1@4@3@PP-TIME-MOD-VP-RULE@varte || i@1@3@8-apr-2019 15:50:52
+3513@1@4@3@TELIC-PP-MOD-VP-RULE@varte || i@1@3@8-apr-2019 15:50:52
+3513@1@4@3@ADVERBIAL-STND-FIRST-VERB-MOD-RULE@varte || i tre@1@4@8-apr-2019 15:50:52
+3513@1@4@3@NP-MOD-VP-TIME-RULE@varte i || tre timer@1@5@8-apr-2019 15:50:52
+3513@1@4@3@HEAD-VERB-COMP-RULE@varte i tre || timer@1@5@8-apr-2019 15:50:52
+3514@1@1@2@v-intr@kvekker@3@4@8-apr-2019 15:51:06
+3514@1@4@2@v-tr@kvekker@3@4@8-apr-2019 15:51:13
+3514@1@4@3@NON-MCL-EXTRACTED-VERBCOMP-RULE@kvekker@3@4@8-apr-2019 15:51:13
+3514@1@4@2@part-q-prep-word@av@1@2@8-apr-2019 15:51:13
+3514@1@4@2@v-intr-sudir@tre@0@1@8-apr-2019 15:51:13
+3514@1@4@3@IMP-CONST_INFL_RULE@tre@0@1@8-apr-2019 15:51:13
+3514@1@4@3@IMPERATIVE-VERB-LRULE@tre@0@1@8-apr-2019 15:51:13
+3514@1@4@3@HEAD-SUBJECT-RULE@gjessene || kvekker@2@4@8-apr-2019 15:51:13
+3514@1@4@3@HEAD-FILLER-SUBORD-WH-RULE@av || gjessene kvekker@1@4@8-apr-2019 15:51:13
+3514@1@4@3@HEAD-INDIRWHQUEST-OBJWH-SUBJECT-RULE@av gjessene kvekker || som om de skal spises@1@9@8-apr-2019 15:51:13
+3514@1@4@3@IMPERATIVE-RULE@tre av gjessene kvekker som om de skal spises@0@9@8-apr-2019 15:51:13
+3514@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@tre || av gjessene kvekker som om de skal spises@0@9@8-apr-2019 15:51:13
+3515@1@4@2@part-q-mass-prep-word@av@1@2@8-apr-2019 15:51:34
+3515@1@1@2@rel-prep-word@av@1@2@8-apr-2019 15:51:38
+3515@1@4@3@HEAD-PART-PREP-COMP-RULE@av || konjakken@1@3@8-apr-2019 15:51:34
+3515@1@4@3@HEAD-SPEC-QUANTOR-RULE@litt || av konjakken@0@3@8-apr-2019 15:51:34
+3517@1@1@2@v-intrprtcl@tørke@5@6@8-apr-2019 15:55:09
+3517@1@4@2@v-intr@tørke@5@6@8-apr-2019 15:55:49
+3517@1@4@2@v-introblrais@ser@1@2@8-apr-2019 15:55:49
+3517@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || tørke@4@6@8-apr-2019 15:55:49
+3517@1@4@2@prep-rais-word@ut til@2@4@8-apr-2019 15:55:49
+3517@1@1@3@HEAD-PREP-RAIS-COMP-RULE@til || å tørke ut@3@7@8-apr-2019 15:55:28
+3517@1@4@3@HEAD-PREP-RAIS-COMP-RULE@ut til || å tørke@2@6@8-apr-2019 15:55:49
+3517@1@4@3@HEAD-PREP-RAIS-COMP-RULE@ut til || å tørke ut@2@7@8-apr-2019 15:55:49
+3517@1@4@3@HEAD-VERB-PREPRAIS-COMP-RULE@ser || ut til å tørke@1@6@8-apr-2019 15:55:49
+3517@1@4@3@HEAD-VERB-ADVPARTICLE-COMP-RULE@ser ut til å tørke || ut@1@7@8-apr-2019 15:55:49
+3518@1@1@2@cmpar-dep-reg-word@enn@8@9@8-apr-2019 15:58:05
+3518@1@4@2@cmpar-dep-diff-for-noun-word@enn@8@9@8-apr-2019 15:58:47
+3518@1@4@2@quant-indef-adjcard2-sg-word@mer@6@7@8-apr-2019 15:58:47
+3518@1@4@2@quant-indef-adjcard-sg-word@mer@6@7@8-apr-2019 15:58:47
+3518@1@1@2@cmpar-mass-quantity-word@mer@6@7@8-apr-2019 15:57:44
+3518@1@1@3@PL_IND_N_SHORT_0_IRULE@kilo@5@6@8-apr-2019 15:56:47
+3518@1@4@3@PL_IND_M-OR-F_FULL_0_IRULE@kilo@5@6@8-apr-2019 15:58:47
+3518@1@4@3@SG_IND_SUBST_IRULE@kilo@5@6@8-apr-2019 15:58:47
+3518@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@kilo@5@6@8-apr-2019 15:58:47
+3518@1@2@2@neut-reginan-noun-lxm@tre@4@5@8-apr-2019 15:56:14
+3518@1@4@3@SG_IND_SUBST_IRULE@tre@4@5@8-apr-2019 15:58:47
+3518@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@tre@4@5@8-apr-2019 15:58:47
+3518@1@4@2@cmpar-dep-reg-word@enn@3@4@8-apr-2019 15:58:47
+3518@1@4@2@comparative-adv-vp-mod-word@mer@2@3@8-apr-2019 15:58:47
+3518@1@4@3@HEAD-SPEC-QUANTOR-RULE@mer || vin@6@8@8-apr-2019 15:58:47
+3518@1@4@3@MEASURE-NP-CMPAR-RULE@kilo || mer@5@7@8-apr-2019 15:58:47
+3518@1@4@3@HEAD-CMPARDEP-REG-COMP-RULE@enn || tre@3@5@8-apr-2019 15:58:47
+3518@1@4@3@HEAD-SPEC-QUANTOR-RULE@kilo mer || vin@5@8@8-apr-2019 15:58:47
+3518@1@4@3@HEAD-CMPARDEP-REG-COMP-RULE@enn || tre kilo@3@6@8-apr-2019 15:58:47
+3518@1@4@3@CMPAR-MOD-RULE@mer || enn tre@2@5@8-apr-2019 15:58:47
+3518@1@4@3@CMPAR-MOD-RULE@mer vin || enn ola@6@10@8-apr-2019 15:58:47
+3518@1@4@3@CMPAR-MOD-RULE@mer || enn tre kilo@2@6@8-apr-2019 15:58:47
+3518@1@4@3@ADVERBIAL-STND-FIRST-VERB-MOD-RULE@har || mer enn tre@1@5@8-apr-2019 15:58:47
+3518@1@4@3@CMPAR-MOD-RULE@kilo mer vin || enn ola@5@10@8-apr-2019 15:58:47
+3518@1@4@3@MEASURE-QUANTWORD-CMPAR-RULE@mer enn tre kilo || mer@2@7@8-apr-2019 15:58:47
+3518@1@1@3@MORETHAN2FEET-SPEC-A-CMPAR-RULE@mer enn tre kilo || mer@2@7@8-apr-2019 15:57:35
+3518@1@4@3@ADVERBIAL-STND-FIRST-VERB-MOD-RULE@har || mer enn tre kilo@1@6@8-apr-2019 15:58:47
+3519@1@4@2@cmpar-dep-reg-word@som@4@5@8-apr-2019 16:01:08
+3519@1@4@2@adv-word-vp-mod@mye@3@4@8-apr-2019 16:01:08
+3519@1@4@2@quant-indef-adjcard-sg-word@mye@3@4@8-apr-2019 16:01:08
+3519@1@1@2@quant-indef-adjcard-sg-abs-word@mye@3@4@8-apr-2019 16:00:08
+3519@1@4@2@stnd-adj-lxm@like@2@3@8-apr-2019 16:01:08
+3519@1@1@2@degreepos-spec-word@like@2@3@8-apr-2019 15:59:30
+3519@1@4@3@ADJ-TO-BARE-N-LRULE@like@2@3@8-apr-2019 16:01:08
+3519@1@4@3@STRONGPL-ADJ-FINSTR_INFL_RULE@like@2@3@8-apr-2019 16:01:08
+3519@1@4@3@STRONG-ADJ-LXM-LRULE@like@2@3@8-apr-2019 16:01:08
+3519@1@4@3@WEAK-ADJ-FINSTR_INFL_RULE@like@2@3@8-apr-2019 16:01:08
+3519@1@4@3@WEAK-ADJ-LXM-LRULE@like@2@3@8-apr-2019 16:01:08
+3519@1@4@2@v-trscpr-scobargcsd_scloc@har@1@2@8-apr-2019 16:01:08
+3519@1@1@2@v-tr@har@1@2@8-apr-2019 15:59:15
+3519@1@4@3@HEAD-CMPARDEP-REG-COMP-RULE@som || ola@4@6@8-apr-2019 16:01:08
+3519@1@4@3@ADJECTIVE-MOD-PSEUDOWEAK-ORDINAL-INDEF-RULE@like || mye@2@4@8-apr-2019 16:01:08
+3519@1@4@3@HEAD-VERB-COMP-RULE@har || like@1@3@8-apr-2019 16:01:08
+3519@1@4@3@CMPAR-MOD-RULE@mye || som ola@3@6@8-apr-2019 16:01:08
+3519@1@4@3@HEAD-VERB-ADVERB-COMP-RULE@har like || mye@1@4@8-apr-2019 16:01:08
+3519@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@har like || mye@1@4@8-apr-2019 16:01:08
+3519@1@4@3@HEAD-VERB-ADVERB-COMP-RULE@har like || mye som ola@1@6@8-apr-2019 16:01:08
+3519@1@2@3@FREE-SUBJPRED-SOM-RULE@har like mye || som ola@1@6@8-apr-2019 15:59:40
+3519@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@har like || mye som ola@1@6@8-apr-2019 16:01:08
+3520@1@1@2@v-introbl-oblloc@sitter@1@2@8-apr-2019 16:01:47
+3520@1@4@2@v-intr@sitter@1@2@8-apr-2019 16:02:02
+3520@1@4@3@HEAD-INVERTSUBJECT-INTERR-RULE@sitter || han@1@3@8-apr-2019 16:02:02
+3520@1@1@3@HEAD-CLIT-INVERTSUBJECT-INTERR-RULE@sitter || han@1@3@8-apr-2019 16:01:58
+3520@1@4@3@ATELIC-INTERR-FRONT-ADV-MOD-VP-INDEX-SIT-RULE@hvor || sitter han@0@3@8-apr-2019 16:02:02
+3521@1@4@3@HEAD-SUBJFILLER-SUBORD-WH-RULE@hvem som || kommer@2@5@8-apr-2019 16:03:14
+3521@1@1@3@HEAD-SUBJECT-WH-SUBORD-RULE@hvem som || kommer@2@5@8-apr-2019 16:03:00
+3529@1@4@3@MCL-NON-COMP-EXTRACTED-VERBCOMP-RULE@spiste færre frosker@2@5@8-apr-2019 16:04:45
+3529@1@4@3@HEAD-INVERTSUBJECT-DECL-RULE@spiste || færre frosker@2@5@8-apr-2019 16:04:45
+3529@1@2@3@HEAD-FILLER-N-TOPIC-RULE@hver gutt || spiste færre frosker@0@5@8-apr-2019 16:04:42
+3530@1@4@2@masc-reginan-noun-lxm@feil@3@4@8-apr-2019 16:06:41
+3530@1@4@3@PL_IND_M-OR-F_FULL_0_IRULE@feil@3@4@8-apr-2019 16:06:41
+3530@1@4@3@LEAK-PL-INDEF-NOUN-LXM-LRULE@feil@3@4@8-apr-2019 16:06:41
+3530@1@4@3@SG_IND_SUBST_IRULE@feil@3@4@8-apr-2019 16:06:41
+3530@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@feil@3@4@8-apr-2019 16:06:41
+3530@1@1@2@v-copadj@er@2@3@8-apr-2019 16:06:07
+3530@1@4@2@v-intr-sudirtemp@er@2@3@8-apr-2019 16:06:41
+3530@1@4@2@v-copn@er@2@3@8-apr-2019 16:06:41
+3530@1@4@2@quant-indef-card-pl-word@begge@0@1@8-apr-2019 16:06:41
+3530@1@1@2@quant-indef-card-univ-word@begge@0@1@8-apr-2019 16:06:37
+3530@1@2@3@FREE-SUBJPRED-RULE@er || feil@2@4@8-apr-2019 16:05:08
+3530@1@4@3@HEAD-VERB-COMP-RULE@er || feil@2@4@8-apr-2019 16:06:41
+3530@1@4@3@MCL-NON-COMP-EXTRACTED-VERBCOMP-RULE@er feil@2@4@8-apr-2019 16:06:41
+3530@1@4@3@HEAD-INVERTSUBJECT-DECL-RULE@er || feil@2@4@8-apr-2019 16:06:41
+3530@1@2@3@HEAD-FILLER-N-TOPIC-RULE@begge løsninger || er feil@0@4@8-apr-2019 16:05:03
+3531@1@4@2@masc-reginan-noun-lxm@feil@3@4@8-apr-2019 16:07:02
+3531@1@4@3@PL_IND_M-OR-F_FULL_0_IRULE@feil@3@4@8-apr-2019 16:07:02
+3531@1@4@3@LEAK-PL-INDEF-NOUN-LXM-LRULE@feil@3@4@8-apr-2019 16:07:02
+3531@1@4@3@SG_IND_SUBST_IRULE@feil@3@4@8-apr-2019 16:07:02
+3531@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@feil@3@4@8-apr-2019 16:07:02
+3531@1@1@2@v-copadj@er@2@3@8-apr-2019 16:06:58
+3531@1@4@2@v-intr-sudirtemp@er@2@3@8-apr-2019 16:07:02
+3531@1@4@2@v-copn@er@2@3@8-apr-2019 16:07:02
+3531@1@4@3@FREE-SUBJPRED-RULE@er || feil@2@4@8-apr-2019 16:07:02
+3531@1@4@3@HEAD-VERB-COMP-RULE@er || feil@2@4@8-apr-2019 16:07:02
+3531@1@4@3@MCL-NON-COMP-EXTRACTED-VERBCOMP-RULE@er feil@2@4@8-apr-2019 16:07:02
+3531@1@4@3@HEAD-INVERTSUBJECT-DECL-RULE@er || feil@2@4@8-apr-2019 16:07:02
+3531@1@2@3@HEAD-FILLER-N-TOPIC-RULE@begge løsningene || er feil@0@4@8-apr-2019 16:06:46
+3533@1@1@2@dir-fixpoint-prep-word@til@2@3@8-apr-2019 16:07:28
+3533@1@4@2@prep-word-reg@til@2@3@8-apr-2019 16:07:32
+3533@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@går || til parken@1@4@8-apr-2019 16:07:32
+3535@1@4@2@dir-fixpoint-prep-word@til@3@4@8-apr-2019 16:08:05
+3535@1@4@2@prep-word-reg@til@3@4@8-apr-2019 16:08:05
+3535@1@4@3@TELIC-ADV-MOD-VP-RULE@løper || bort@1@3@8-apr-2019 16:08:05
+3535@1@1@3@PP-MOD-ADV-FIXPT-RULE@bort || til parken@2@5@8-apr-2019 16:07:59
+3535@1@4@3@TELIC-PP-MOD-VP-RULE@løper bort || til parken@1@5@8-apr-2019 16:08:05
+3535@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@løper bort || til parken@1@5@8-apr-2019 16:08:05
+3541@1@4@2@v-intr-sudir@stupte@3@4@8-apr-2019 16:10:11
+3541@1@1@2@v-intr@stupte@3@4@8-apr-2019 16:09:49
+3541@1@1@2@neut-reginan-noun-lxm@lammet@2@3@8-apr-2019 16:09:59
+3541@1@4@2@v-tr@lammet@2@3@8-apr-2019 16:10:11
+3541@1@4@3@NON-MCL-EXTRACTED-VERBCOMP-RULE@lammet@2@3@8-apr-2019 16:10:11
+3541@1@4@3@PRET-NONFSTR-ET_INFL_RULE@lammet@2@3@8-apr-2019 16:10:11
+3541@1@4@2@mascorfem-reginan-noun-lxm@trette@1@2@8-apr-2019 16:10:11
+3541@1@4@3@ADJ-TO-BARE-N-LRULE@trette@1@2@8-apr-2019 16:10:11
+3541@1@4@3@STRONGPL-ADJ-FINSTR_INFL_RULE@trette@1@2@8-apr-2019 16:10:11
+3541@1@4@3@STRONG-ADJ-LXM-LRULE@trette@1@2@8-apr-2019 16:10:11
+3541@1@4@3@SG_IND_SUBST_IRULE@trette@1@2@8-apr-2019 16:10:11
+3541@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@trette@1@2@8-apr-2019 16:10:11
+3541@1@4@2@3rd-sg-neut-neutsg-pers-pron@det@0@1@8-apr-2019 16:10:11
+3541@1@4@3@UNARY-FIN-REL-HEAD-FILLER-RULE@trette lammet@1@3@8-apr-2019 16:10:11
+3541@1@4@3@HEAD-SUBJECT-RULE@trette || lammet@1@3@8-apr-2019 16:10:11
+3541@1@4@3@BARE-RELATIVE-EXTRACT-MOD-RULE@det || trette lammet@0@3@8-apr-2019 16:10:11
+3542@1@4@3@WEAK-ADJ-FINSTR_INFL_RULE@store@0@1@8-apr-2019 16:11:34
+3542@1@4@3@WEAK-ADJ-LXM-LRULE@store@0@1@8-apr-2019 16:11:34
+3542@1@1@3@ADJECTIVE-MOD-INDEF-RULE@store || stammer@0@2@8-apr-2019 16:11:31
+3542@1@4@3@ADJECTIVE-MOD-PSEUDOWEAK-ORDINAL-INDEF-RULE@store || stammer@0@2@8-apr-2019 16:11:34
+3542@1@2@3@HEAD-SUBJECT-WH-MAINCL-RULE@store stammer || falt@0@3@8-apr-2019 16:10:54
+3548@1@4@2@v-intr@sees@3@4@8-apr-2019 16:12:24
+3548@1@1@2@v-tr@sees@3@4@8-apr-2019 16:12:10
+3548@1@4@3@PRES-INFL_RULE@sees@3@4@8-apr-2019 16:12:24
+3552@1@1@2@v-tr@spist@2@3@8-apr-2019 16:13:17
+3552@1@4@2@v-intr@spist@2@3@8-apr-2019 16:13:26
+3552@1@4@3@PASS-IMPERSONAL-PRESENTATIONAL-FROM-INTRANS-LRULE@spist@2@3@8-apr-2019 16:13:26
+3555@1@4@2@v-intr@svevde@2@3@8-apr-2019 16:14:06
+3555@1@1@2@v-intr-sudir@svevde@2@3@8-apr-2019 16:14:04
+3555@1@2@3@HEAD-SUBJECT-WH-MAINCL-RULE@finere monumenter || svevde@0@3@8-apr-2019 16:13:44
+3557@1@4@3@WEAK-ADJ-FINSTR-MM_INFL_RULE@klamme@0@1@8-apr-2019 16:14:42
+3557@1@4@3@WEAK-ADJ-LXM-LRULE@klamme@0@1@8-apr-2019 16:14:42
+3557@1@4@3@ADJECTIVE-MOD-PSEUDOWEAK-ORDINAL-INDEF-RULE@klamme || kluter@0@2@8-apr-2019 16:14:42
+3557@1@1@3@ADJECTIVE-MOD-INDEF-RULE@klamme || kluter@0@2@8-apr-2019 16:14:40
+3557@1@2@3@HEAD-SUBJECT-WH-MAINCL-RULE@klamme kluter || stinker@0@3@8-apr-2019 16:14:22
+3558@1@1@2@stnd-adj-lxm@lengst@3@4@8-apr-2019 16:15:20
+3558@1@4@2@abs-adj-epon-infin-lxm@lengst@3@4@8-apr-2019 16:15:37
+3558@1@4@2@abs-adj-epon-pp-lxm@lengst@3@4@8-apr-2019 16:15:37
+3558@1@4@3@SUP-ADJ-STR_EST-FINSTR_INFL_RULE@lengst@3@4@8-apr-2019 16:15:37
+3558@1@4@3@SUP-ADJ-STANDALONE-LXM-LRULE@lengst@3@4@8-apr-2019 16:15:37
+3558@1@2@3@FREE-SUBJPRED-RULE@holder || lengst@2@4@8-apr-2019 16:15:04
+3558@1@2@3@HEAD-SUBJECT-WH-MAINCL-RULE@strammere knuter || holder lengst@0@4@8-apr-2019 16:14:59

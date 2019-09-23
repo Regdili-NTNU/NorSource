@@ -1,0 +1,820 @@
+3001@1@4@2@stnd-adj-lxm@mulig@14@15@23-apr-2019 19:52:47
+3001@1@4@3@COMMSG-ADJ_INFL_RULE@mulig@14@15@23-apr-2019 19:52:47
+3001@1@4@3@STRONG-ADJ-LXM-LRULE@mulig@14@15@23-apr-2019 19:52:47
+3001@1@4@2@abs-adj-tough-lxm@best@13@14@23-apr-2019 19:52:47
+3001@1@4@2@stnd-adj-lxm@best@13@14@23-apr-2019 19:52:47
+3001@1@4@2@abs-adj-nonepon-decl-lxm@best@13@14@23-apr-2019 19:52:47
+3001@1@4@3@SUPERLAT-ADV_EST-FINSTR_INFL_RULE@best@13@14@23-apr-2019 19:52:47
+3001@1@4@3@ADV-FROM-ADJ-SUPERLAT-LRULE@best@13@14@23-apr-2019 19:52:47
+3001@1@4@3@SUP-ADJ-STR_EST-FINSTR_INFL_RULE@best@13@14@23-apr-2019 19:52:47
+3001@1@4@3@SUP-ADJ-STANDALONE-LXM-LRULE@best@13@14@23-apr-2019 19:52:47
+3001@1@1@2@1st-pl-plur-poss-pron-pre@våre@12@13@23-apr-2019 19:50:53
+3001@1@4@2@1st-pl-plur-poss-refl-pron-pre@våre@12@13@23-apr-2019 19:52:47
+3001@1@4@2@prep-rais-word@for@3@4@23-apr-2019 19:52:47
+3001@1@1@2@v-tr@trenger@1@2@23-apr-2019 19:50:41
+3001@1@4@2@v-trscpr-scobargcsd_scendpt@trenger@1@2@23-apr-2019 19:52:47
+3001@1@1@3@HEAD-CLIT-INVERTSUBJECT-INTERR-RULE@trenger || du@1@3@23-apr-2019 19:51:07
+3001@1@4@3@HEAD-INVERTSUBJECT-INTERR-RULE@trenger || du@1@3@23-apr-2019 19:52:47
+3001@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@nå målene våre || best@10@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || nå målene våre@9@13@23-apr-2019 19:52:47
+3001@1@1@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@nå målene våre || best mulig@10@15@23-apr-2019 19:51:47
+3001@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || nå målene våre best@9@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-RAIS-COMP-RULE@med || å nå målene våre@8@13@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-RAIS-COMP-RULE@med || å nå målene våre best@8@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-VERB-PREPRAIS-COMP-RULE@hjelpe til || med å nå målene våre@6@13@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-VERB-PREPRAIS-COMP-RULE@hjelpe til || med å nå målene våre best@6@14@23-apr-2019 19:52:47
+3001@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@hjelpe til med å nå målene våre || best@6@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kunne || hjelpe til med å nå målene våre@5@13@23-apr-2019 19:52:47
+3001@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@hjelpe til med å nå målene våre || best mulig@6@15@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kunne || hjelpe til med å nå målene våre best@5@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || kunne hjelpe til med å nå målene våre@4@13@23-apr-2019 19:52:47
+3001@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@kunne hjelpe til med å nå målene våre || best mulig@5@15@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || kunne hjelpe til med å nå målene våre best@4@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-FOR-Å-COMP-RULE@for || å kunne hjelpe til med å nå målene våre@3@13@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-RAIS-COMP-RULE@for || å kunne hjelpe til med å nå målene våre@3@13@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-INFCLAUSE-COMP-RULE@for || å kunne hjelpe til med å nå målene våre@3@13@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-REGCLAUSE-COMP-RULE@for || å kunne hjelpe til med å nå målene våre@3@13@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-FOR-Å-COMP-RULE@for || å kunne hjelpe til med å nå målene våre best@3@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-INFCLAUSE-COMP-RULE@for || å kunne hjelpe til med å nå målene våre best@3@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-REGCLAUSE-COMP-RULE@for || å kunne hjelpe til med å nå målene våre best@3@14@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-RAIS-COMP-RULE@for || å kunne hjelpe til med å nå målene våre best mulig@3@15@23-apr-2019 19:52:47
+3001@1@1@3@HEAD-PREP-FOR-Å-COMP-RULE@for || å kunne hjelpe til med å nå målene våre best mulig@3@15@23-apr-2019 19:52:42
+3001@1@4@3@HEAD-PREP-INFCLAUSE-COMP-RULE@for || å kunne hjelpe til med å nå målene våre best mulig@3@15@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-PREP-REGCLAUSE-COMP-RULE@for || å kunne hjelpe til med å nå målene våre best mulig@3@15@23-apr-2019 19:52:47
+3001@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@trenger du || for å kunne hjelpe til med å nå målene våre@1@13@23-apr-2019 19:52:47
+3001@1@4@3@HEAD-VERB-PREPCOMP-RULE@trenger du || for å kunne hjelpe til med å nå målene våre@1@13@23-apr-2019 19:52:47
+3001@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@trenger du || for å kunne hjelpe til med å nå målene våre best@1@14@23-apr-2019 19:52:47
+3001@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@trenger du for å kunne hjelpe til med å nå målene våre || best@1@14@23-apr-2019 19:52:47
+3001@1@4@3@FREE-SUBJPRED-RULE@trenger du for å kunne hjelpe til med å nå målene våre || best@1@14@23-apr-2019 19:52:47
+3001@1@2@3@FREE-SUBJPRED-RULE@trenger du for å kunne hjelpe til med å nå målene våre best || mulig@1@15@23-apr-2019 19:50:23
+3001@1@4@3@HEAD-VERB-PREPCOMP-RULE@trenger du || for å kunne hjelpe til med å nå målene våre best mulig@1@15@23-apr-2019 19:52:47
+3001@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@trenger du for å kunne hjelpe til med å nå målene våre || best mulig@1@15@23-apr-2019 19:52:47
+3003@1@1@2@rel-prep-word@for@4@5@23-apr-2019 19:53:11
+3003@1@4@2@prep-word-reg@for@4@5@23-apr-2019 19:53:37
+3003@1@4@3@HEAD-INVERTSUBJECT-DECL-RULE@må || vilkårene@2@4@23-apr-2019 19:53:37
+3003@1@1@3@PP-MOD-REL-N-RULE@vilkårene || for søndagsarbeid@3@6@23-apr-2019 19:53:05
+3003@1@4@3@ADVERBIAL-INVERT-FIRST-VERB-MOD-RULE@må vilkårene || for søndagsarbeid@2@6@23-apr-2019 19:53:37
+3004@1@4@3@STRPL-PASTPT-ADJ_E_LRULE@berørte@11@12@23-apr-2019 19:55:44
+3004@1@1@3@STRPL-PASTPT-POSTNOM-ADJ_E_LRULE@berørte@11@12@23-apr-2019 19:55:29
+3004@1@4@3@NON-MCL-EXTRACTED-VERBCOMP-RULE@berørte@11@12@23-apr-2019 19:55:44
+3004@1@4@3@PRET-NONFSTR-TE_INFL_RULE@berørte@11@12@23-apr-2019 19:55:44
+3004@1@2@2@v-copidwh@er@10@11@23-apr-2019 19:54:18
+3004@1@4@3@HEAD-VERB-INDIRWHQUEST-OBJWH-COMP-RULEE@er || berørte@10@12@23-apr-2019 19:55:44
+3004@1@4@3@HEAD-PREP-COMP-RULE@gjennom || samtale@4@6@23-apr-2019 19:55:44
+3004@1@4@3@S-ADV-SPEC-V-SUBORD-RULE@muligens || er berørte@9@12@23-apr-2019 19:55:44
+3004@1@4@3@HEAD-VERB-INDIRWHQUEST-OBJWH-COMP-RULEE@muligens er || berørte@9@12@23-apr-2019 19:55:44
+3004@1@1@3@HEAD-VERB-COMP-RULE@klarlegg || omfanget av problemet@0@4@23-apr-2019 19:55:20
+3004@1@4@3@PP-MOD-REL-N-RULE@omfanget av problemet || gjennom samtale@1@6@23-apr-2019 19:55:44
+3004@1@4@3@HEAD-VERB-COMP-RULE@klarlegg || omfanget av problemet gjennom samtale@0@6@23-apr-2019 19:55:44
+3004@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@klarlegg omfanget av problemet || gjennom samtale@0@6@23-apr-2019 19:55:44
+3004@1@1@3@HEAD-PREP-COMP-RULE@gjennom || samtale med alle som muligens er berørte@4@12@23-apr-2019 19:54:47
+3004@1@4@3@PP-MOD-REL-N-RULE@omfanget av problemet || gjennom samtale med alle som muligens er berørte@1@12@23-apr-2019 19:55:44
+3004@1@4@3@HEAD-VERB-COMP-RULE@klarlegg || omfanget av problemet gjennom samtale med alle som muligens er berørte@0@12@23-apr-2019 19:55:44
+3005@1@4@3@COMMSG-ADJ_INFL_RULE@skriftlig@3@4@23-apr-2019 19:58:08
+3005@1@4@3@STRONG-ADJ-LXM-LRULE@skriftlig@3@4@23-apr-2019 19:58:08
+3005@1@4@3@ADJ-TO-BARE-N-LRULE@skriftlig@3@4@23-apr-2019 19:58:08
+3005@1@4@3@STRONGPL-POSTNOM-ADJ-NONFSTR_INFL_RULE@skriftlig@3@4@23-apr-2019 19:58:08
+3005@1@4@3@NEUTSG-ADJ-NONFSTR_INFL_RULE@skriftlig@3@4@23-apr-2019 19:58:08
+3005@1@1@2@v-tr@gis@2@3@23-apr-2019 19:56:27
+3005@1@4@2@v-ditr@gis@2@3@23-apr-2019 19:58:08
+3005@1@4@2@v-trobl@gis@2@3@23-apr-2019 19:58:08
+3005@1@4@3@PASS-NCOMPS2-LRULE@gis@2@3@23-apr-2019 19:58:08
+3005@1@4@3@FREE-SUBJPRED-RULE@gis || skriftlig@2@4@23-apr-2019 19:58:08
+3005@1@4@3@HEAD-VERB-COMP-RULE@gis || skriftlig@2@4@23-apr-2019 19:58:08
+3005@1@4@3@HEAD-PASS-VERB-ICOMP-RULE@gis || skriftlig@2@4@23-apr-2019 19:58:08
+3005@1@1@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@gis || skriftlig@2@4@23-apr-2019 19:58:03
+3005@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@bør || gis@1@3@23-apr-2019 19:58:08
+3005@1@1@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@bør || gis skriftlig@1@4@23-apr-2019 19:57:48
+3005@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@bør gis || skriftlig@1@4@23-apr-2019 19:58:08
+3018@1@2@2@v-intr-sudir@arbeidet@8@9@23-apr-2019 19:58:26
+3018@1@4@3@PRET-NONFSTR-ET_INFL_RULE@arbeidet@8@9@23-apr-2019 20:00:42
+3018@1@4@2@v-ditr-obeqsuinf@skyldes@7@8@23-apr-2019 20:00:42
+3018@1@1@2@v-tr@skyldes@7@8@23-apr-2019 19:58:42
+3018@1@4@3@S-PASSIVE_S_INFL_RULE@skyldes@7@8@23-apr-2019 20:00:42
+3018@1@4@3@PASS-NCOMPS2-LRULE@skyldes@7@8@23-apr-2019 20:00:42
+3018@1@4@3@PASS-NCOMPS1-LRULE@skyldes@7@8@23-apr-2019 20:00:42
+3018@1@4@3@S-REL-CONNECT-RULE@skyldes || arbeidet@7@9@23-apr-2019 20:00:42
+3018@1@4@3@HEAD-RELATIVE-SUBJECT-RULE@som || skyldes@6@8@23-apr-2019 20:00:42
+3018@1@4@3@CONNECT-N-COMP-RULE@eller || sykdom@4@6@23-apr-2019 20:00:42
+3018@1@4@3@S-REL-CONNECT-RULE@som skyldes || arbeidet@6@9@23-apr-2019 20:00:42
+3018@1@4@3@CONNECT-N-SPR-RULE@skade || eller sykdom@3@6@23-apr-2019 20:00:42
+3018@1@4@3@COORD-RELATIVE-SUBJ-MOD-RULE@sykdom || som skyldes arbeidet@5@9@23-apr-2019 20:00:42
+3018@1@4@3@HEAD-PREP-COMP-RULE@av || skade eller sykdom@2@6@23-apr-2019 20:00:42
+3018@1@4@3@PP-MOD-REL-N-RULE@alle tilfeller || av skade eller sykdom@0@6@23-apr-2019 20:00:42
+3018@1@4@3@RELATIVE-SUBJ-MOD-RULE@alle tilfeller av skade eller sykdom || som skyldes arbeidet@0@9@23-apr-2019 20:00:42
+3018@1@1@3@PP-MOD-REL-N-RULE@alle tilfeller || av skade eller sykdom som skyldes arbeidet@0@9@23-apr-2019 20:00:33
+3018@1@4@3@COORD-RELATIVE-SUBJ-MOD-RULE@alle tilfeller av skade eller sykdom || som skyldes arbeidet@0@9@23-apr-2019 20:00:42
+3019@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@tid@3@4@23-apr-2019 20:01:13
+3019@1@4@2@adv-word-vp-mod@litt@2@3@23-apr-2019 20:01:13
+3019@1@1@3@HEAD-SPEC-QUANTOR-RULE@litt || tid@2@4@23-apr-2019 20:01:27
+3019@1@4@3@ADVERBIAL-STND-FIRST-VERB-MOD-RULE@trenger || litt@1@3@23-apr-2019 20:01:13
+3020@1@4@3@PL_IND_N_SHORT_0_IRULE@verneombud@8@9@23-apr-2019 20:02:09
+3020@1@4@3@LEAK-PL-INDEF-NOUN-LXM-LRULE@verneombud@8@9@23-apr-2019 20:02:09
+3020@1@1@3@SG_IND_SUBST_IRULE@verneombud@8@9@23-apr-2019 20:01:59
+3020@1@4@2@rel-prep-word@for@5@6@23-apr-2019 20:02:09
+3020@1@1@2@prep-word-sel@for@5@6@23-apr-2019 20:01:48
+3021@1@1@3@SG-MASC-DEF-NOUN-LXM-LRULE@uke@16@17@23-apr-2019 20:02:49
+3021@1@4@3@SG-FEM-DEF-NOUN-LXM-LRULE@uke@16@17@23-apr-2019 20:03:00
+3021@1@2@2@firstname-mascsg-anim-proper-name-word@dag@10@11@23-apr-2019 20:02:43
+3022@1@4@2@rel-prep-word@over@1@2@23-apr-2019 20:03:27
+3022@1@4@3@MCL-NON-COMP-EXTRACTED-VERBCOMP-RULE@er overtid@3@5@23-apr-2019 20:03:27
+3022@1@4@3@HEAD-INVERTSUBJECT-DECL-RULE@er || overtid@3@5@23-apr-2019 20:03:27
+3022@1@1@3@PP-MOD-BARE-N-RULE@alt || over dette@0@3@23-apr-2019 20:03:24
+3022@1@4@3@PP-MOD-REL-N-RULE@alt || over dette@0@3@23-apr-2019 20:03:27
+3022@1@2@3@HEAD-FILLER-N-TOPIC-RULE@alt over dette || er overtid@0@5@23-apr-2019 20:03:15
+3027@1@4@2@ordinal-lxm@andre@0@1@23-apr-2019 20:04:52
+3027@1@4@3@WEAK-ADJ-NONFSTR_INFL_RULE@andre@0@1@23-apr-2019 20:04:52
+3027@1@4@3@WEAK-ADJ-LXM-LRULE@andre@0@1@23-apr-2019 20:04:52
+3027@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsles@2@4@23-apr-2019 20:04:52
+3027@1@4@3@ADJECTIVE-MOD-PSEUDOWEAK-ORDINAL-INDEF-RULE@andre || permisjoner@0@2@23-apr-2019 20:04:52
+3027@1@4@3@ADJECTIVE-MOD-PSEUDOWEAK-INDEF-RULE@andre || permisjoner@0@2@23-apr-2019 20:04:52
+3027@1@1@3@ADJECTIVE-MOD-INDEF-RULE@andre || permisjoner@0@2@23-apr-2019 20:04:19
+3027@1@1@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@varsles || innen rimelig tid@3@7@23-apr-2019 20:04:04
+3027@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@må varsles || innen rimelig tid@2@7@23-apr-2019 20:04:52
+3027@1@1@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsles innen rimelig tid@2@7@23-apr-2019 20:04:41
+3027@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@varsles innen rimelig tid || slik at arbeidsgiver får tid til å områ seg@3@16@23-apr-2019 20:04:52
+3027@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsles innen rimelig tid slik at arbeidsgiver får tid til å områ seg@2@16@23-apr-2019 20:04:52
+3029@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan ikke bare || ligge@1@5@23-apr-2019 20:05:35
+3029@1@1@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@ligge || hos de involverte partene@4@9@23-apr-2019 20:05:29
+3029@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@kan ikke bare ligge || hos de involverte partene@1@9@23-apr-2019 20:05:35
+3031@1@4@2@v-intrpresnt@er@11@12@23-apr-2019 20:09:18
+3031@1@4@2@v-copn-suyn@er@11@12@23-apr-2019 20:09:18
+3031@1@4@2@v-copexpnn-expnyn@er@11@12@23-apr-2019 20:09:18
+3031@1@4@2@v-copexpnn-expnwh@er@11@12@23-apr-2019 20:09:18
+3031@1@4@2@v-copexpnn-expndecl@er@11@12@23-apr-2019 20:09:18
+3031@1@4@2@v-copn-suabsinf@er@11@12@23-apr-2019 20:09:18
+3031@1@4@2@v-copn-suwh@er@11@12@23-apr-2019 20:09:18
+3031@1@4@2@v-copn-sudecl@er@11@12@23-apr-2019 20:09:18
+3031@1@4@3@PL_IND_N_SHORT_0_IRULE@døgn@5@6@23-apr-2019 20:09:18
+3031@1@4@3@LEAK-PL-INDEF-NOUN-LXM-LRULE@døgn@5@6@23-apr-2019 20:09:18
+3031@1@1@3@SG-INDEF-BARE-NOUN-LXM-LRULE@døgn@5@6@23-apr-2019 20:06:26
+3031@1@4@2@orient-to-out-adv-word@utover@1@2@23-apr-2019 20:09:18
+3031@1@4@3@EXTRACTED-PREP-COMP-RULE@utover@1@2@23-apr-2019 20:09:18
+3031@1@4@2@v-trscprshft-obdecl_scobnrgres_scpp-placement@arbeid@0@1@23-apr-2019 20:09:18
+3031@1@4@3@IMP-DELETE_INFL_RULE@arbeid@0@1@23-apr-2019 20:09:18
+3031@1@4@3@IMPERATIVE-VERB-LRULE@arbeid@0@1@23-apr-2019 20:09:18
+3031@1@4@3@NON-MCL-EXTRACTED-VERBCOMP-RULE@er overtid@11@13@23-apr-2019 20:09:18
+3031@1@4@3@MCL-NON-COMP-EXTRACTED-VERBCOMP-RULE@er overtid@11@13@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-INVERTSUBJECT-DECL-RULE@er || overtid@11@13@23-apr-2019 20:09:18
+3031@1@1@3@CARD-MOD-INDEF-RULE@40 || timer@7@9@23-apr-2019 20:06:45
+3031@1@1@3@HEAD-PREP-COMP-RULE@per || døgn@4@6@23-apr-2019 20:06:57
+3031@1@4@3@CARD-MOD-INDEF-RULE@9 || timer@2@4@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-VERB-PREPCOMP-RULE@arbeid || utover@0@2@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-VERB-ADVERB-COMP-RULE@arbeid || utover@0@2@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-REL-MEAS-N-RULE@timer || per uke@8@11@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-SPR-N-INDEX-SIT-RULE@timer || per uke@8@11@23-apr-2019 20:09:18
+3031@1@4@3@CONNECT-N-COMP-RULE@eller || 40 timer@6@9@23-apr-2019 20:09:18
+3031@1@1@3@PP-MOD-REL-MEAS-N-RULE@timer || per døgn@3@6@23-apr-2019 20:09:15
+3031@1@4@3@PP-MOD-SPR-N-INDEX-SIT-RULE@timer || per døgn@3@6@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-PREP-COMP-RULE@utover || 9 timer@1@4@23-apr-2019 20:09:18
+3031@1@4@3@CARD-MOD-INDEF-RULE@40 || timer per uke@7@11@23-apr-2019 20:09:18
+3031@1@4@3@CONNECT-N-SPR-RULE@døgn || eller 40 timer@5@9@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-REL-N-RULE@arbeid || utover 9 timer@0@4@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-PREP-COMP-RULE@per || døgn eller 40 timer@4@9@23-apr-2019 20:09:18
+3031@1@4@3@CONNECT-N-SPR-RULE@døgn || eller 40 timer per uke@5@11@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-SPR-N-INDEX-SIT-RULE@timer || per døgn eller 40 timer@3@9@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-REL-MEAS-N-RULE@timer || per døgn eller 40 timer@3@9@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-PREP-COMP-RULE@per || døgn eller 40 timer per uke@4@11@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-REL-MEAS-N-RULE@9 timer || per døgn eller 40 timer@2@9@23-apr-2019 20:09:18
+3031@1@4@3@CARD-MOD-INDEF-RULE@9 || timer per døgn eller 40 timer@2@9@23-apr-2019 20:09:18
+3031@1@4@3@CONNECT-N-SPR-RULE@9 timer per døgn || eller 40 timer@2@9@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-REL-MEAS-N-RULE@timer per døgn eller 40 timer || per uke@3@11@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-SPR-N-INDEX-SIT-RULE@timer || per døgn eller 40 timer per uke@3@11@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-PREP-COMP-RULE@utover || 9 timer per døgn eller 40 timer@1@9@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-REL-MEAS-N-RULE@9 timer per døgn eller 40 timer || per uke@2@11@23-apr-2019 20:09:18
+3031@1@4@3@CARD-MOD-INDEF-RULE@9 || timer per døgn eller 40 timer per uke@2@11@23-apr-2019 20:09:18
+3031@1@4@3@PP-MOD-REL-N-RULE@arbeid utover 9 timer || per døgn eller 40 timer@0@9@23-apr-2019 20:09:18
+3031@1@1@3@HEAD-PREP-COMP-RULE@utover || 9 timer per døgn eller 40 timer per uke@1@11@23-apr-2019 20:08:02
+3031@1@4@3@HEAD-SUBJECT-RULE@9 timer per døgn eller 40 timer per uke || er overtid@2@13@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-VERB-PREPCOMP-RULE@arbeid || utover 9 timer per døgn eller 40 timer per uke@0@11@23-apr-2019 20:09:18
+3031@1@4@3@IMPERATIVE-RULE@arbeid utover 9 timer per døgn eller 40 timer per uke er overtid@0@13@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-VERB-INDIRWHQUEST-OBJWH-COMP-RULEE@arbeid utover 9 timer per døgn eller 40 timer per uke || er overtid@0@13@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@arbeid utover 9 timer per døgn eller 40 timer per uke || er overtid@0@13@23-apr-2019 20:09:18
+3031@1@4@3@HEAD-VERB-BAREFINITE-COMP-RULE@arbeid utover || 9 timer per døgn eller 40 timer per uke er overtid@0@13@23-apr-2019 20:09:18
+3031@1@1@3@HEAD-SUBJECT-RULE@arbeid utover 9 timer per døgn eller 40 timer per uke || er overtid@0@13@23-apr-2019 20:06:12
+3031@1@2@3@HEAD-FILLER-N-TOPIC-RULE@arbeid utover 9 timer per døgn eller 40 timer per uke || er overtid@0@13@23-apr-2019 20:05:51
+3039@1@4@3@COMMSG-ADJ_INFL_RULE@hensiktsmessig@15@16@23-apr-2019 20:13:37
+3039@1@4@3@NEUTSG-ADJ-NONFSTR_INFL_RULE@hensiktsmessig@15@16@23-apr-2019 20:13:37
+3039@1@1@3@STRONGPL-POSTNOM-ADJ-NONFSTR_INFL_RULE@hensiktsmessig@15@16@23-apr-2019 20:14:21
+3039@1@1@2@v-copadj@er@14@15@23-apr-2019 20:14:13
+3039@1@4@2@v-intr-sudirtemp@er@14@15@23-apr-2019 20:13:37
+3039@1@4@2@som-resumpt-word@som@13@14@23-apr-2019 20:13:37
+3039@1@4@2@som_subj-relpron@som@13@14@23-apr-2019 20:13:37
+3039@1@4@2@interrog-pron-word@hva@12@13@23-apr-2019 20:13:37
+3039@1@4@2@dir-fixpoint-prep-word@til@11@12@23-apr-2019 20:13:37
+3039@1@4@2@rel-prep-word@til@11@12@23-apr-2019 20:13:37
+3039@1@4@2@prep-word-reg@til@11@12@23-apr-2019 20:13:37
+3039@1@4@2@dir-fixpoint-prep-2-word@til@11@12@23-apr-2019 20:13:37
+3039@1@4@2@neut-factinan-noun-lxm@forhold@10@11@23-apr-2019 20:13:37
+3039@1@4@3@PL_IND_N_SHORT_0_IRULE@forhold@10@11@23-apr-2019 20:13:37
+3039@1@4@3@LEAK-PL-INDEF-NOUN-LXM-LRULE@forhold@10@11@23-apr-2019 20:13:37
+3039@1@4@3@SG_IND_SUBST_IRULE@forhold@10@11@23-apr-2019 20:13:37
+3039@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@forhold@10@11@23-apr-2019 20:13:37
+3039@1@4@2@prep-word-loc@i@9@10@23-apr-2019 20:13:37
+3039@1@4@2@dir-fixpoint-prep-word@i@9@10@23-apr-2019 20:13:37
+3039@1@4@2@v-tr-sudir@tas@7@8@23-apr-2019 20:13:37
+3039@1@4@2@v-tr@tas@7@8@23-apr-2019 20:13:37
+3039@1@4@3@PASS-NCOMPS1-LRULE@tas@7@8@23-apr-2019 20:13:37
+3039@1@4@2@prep-s-word-vmod-reg-time@når@4@5@23-apr-2019 20:13:37
+3039@1@4@2@v-intr@bestemmer@1@2@23-apr-2019 20:13:37
+3039@1@4@3@FREE-SUBJPRED-RULE@er || hensiktsmessig@14@16@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-RELATIVE-SUBJECT-RULE@som || er@13@15@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-RESUMPTSUBJECT-INTERR-RULE@som || er@13@15@23-apr-2019 20:13:37
+3039@1@1@2@interrog-pron-word@hva som@12@14@23-apr-2019 20:13:49
+3039@1@4@3@HEAD-PREP-COMP-RULE@til || hva@11@13@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-PREP-COMP-RULE@i || forhold@9@11@23-apr-2019 20:13:37
+3039@1@1@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas@6@8@23-apr-2019 20:14:29
+3039@1@4@3@HEAD-RESUMPTSUBJECT-INTERR-RULE@som || er hensiktsmessig@13@16@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-RELATIVE-SUBJECT-RULE@som || er hensiktsmessig@13@16@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-SUBJFILLER-SUBORD-WH-RULE@hva som || er@12@15@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-SUBJECT-WH-SUBORD-RULE@hva som || er@12@15@23-apr-2019 20:13:37
+3039@1@4@3@PP-MOD-REL-N-RULE@forhold || til hva@10@13@23-apr-2019 20:13:37
+3039@1@4@3@COMMA-LEFTMOD-FOR-V-RULE@, || i forhold@8@11@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemmer || i utgangspunktet@1@4@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-SUBJFILLER-SUBORD-WH-RULE@hva || som er hensiktsmessig@12@16@23-apr-2019 20:13:37
+3039@1@1@3@HEAD-SUBJECT-WH-SUBORD-RULE@hva som || er hensiktsmessig@12@16@23-apr-2019 20:14:37
+3039@1@4@3@FREE-SUBJPRED-RULE@hva som er || hensiktsmessig@12@16@23-apr-2019 20:13:37
+3039@1@4@3@PP-MOD-PP-FIXPT-RULE@i forhold || til hva@9@13@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-PREP-COMP-RULE@i || forhold til hva@9@13@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@tas || , i forhold@7@11@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@tas || , i forhold@7@11@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || pausen skal tas@4@8@23-apr-2019 20:13:37
+3039@1@4@3@RELATIVE-SUBJ-MOD-RULE@forhold til hva || som er@10@15@23-apr-2019 20:13:37
+3039@1@4@3@COMMA-LEFTMOD-FOR-V-RULE@, || i forhold til hva@8@13@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas , i forhold@6@11@23-apr-2019 20:13:37
+3039@1@4@3@RELATIVE-SUBJ-MOD-RULE@forhold til hva || som er hensiktsmessig@10@16@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-PREP-COMP-RULE@i || forhold til hva som er@9@15@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-PREP-REGCLAUSE-COMP-RULE@i forhold til || hva som er@9@15@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-RULE@tas , i forhold || til hva@7@13@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@tas || , i forhold til hva@7@13@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@tas || , i forhold til hva@7@13@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@tas , i forhold || til hva@7@13@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-PREP-COMP-RULE@i || forhold til hva som er hensiktsmessig@9@16@23-apr-2019 20:13:37
+3039@1@4@3@CONNECT-P-ADV-DIR-MOD-RULE@, || i forhold til hva som er@8@15@23-apr-2019 20:13:37
+3039@1@4@3@COMMA-LEFTMOD-FOR-V-RULE@, || i forhold til hva som er@8@15@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas , i forhold til hva@6@13@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@skal tas || , i forhold til hva@6@13@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@skal tas || , i forhold til hva@6@13@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@skal tas , i forhold || til hva@6@13@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@bestemmer i utgangspunktet || når pausen skal tas@1@8@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@bestemmer i utgangspunktet || når pausen skal tas@1@8@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemmer i utgangspunktet || når pausen skal tas@1@8@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-COMPLEMENTIZER-ADJ-OR-PREP-RULE@, i forhold til hva som er || hensiktsmessig@8@16@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@tas || , i forhold til hva som er@7@15@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@tas || , i forhold til hva som er@7@15@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-SUBJECT-RULE@pausen || skal tas , i forhold til hva@5@13@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@tas || , i forhold til hva som er hensiktsmessig@7@16@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@tas || , i forhold til hva som er hensiktsmessig@7@16@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-RULE@tas || , i forhold til hva som er hensiktsmessig@7@16@23-apr-2019 20:13:37
+3039@1@4@3@FREE-SUBJPRED-RULE@tas , i forhold til hva som er || hensiktsmessig@7@16@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@skal tas || , i forhold til hva som er@6@15@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas , i forhold til hva som er@6@15@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@skal tas || , i forhold til hva som er@6@15@23-apr-2019 20:13:37
+3039@1@4@3@S-REL-CONNECT-RULE@skal tas , i forhold til hva || som er@6@15@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@skal tas || , i forhold til hva som er hensiktsmessig@6@16@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas , i forhold til hva som er hensiktsmessig@6@16@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@skal tas || , i forhold til hva som er hensiktsmessig@6@16@23-apr-2019 20:13:37
+3039@1@4@3@S-REL-CONNECT-RULE@skal tas , i forhold til hva || som er hensiktsmessig@6@16@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-SUBJECT-RULE@pausen || skal tas , i forhold til hva som er@5@15@23-apr-2019 20:13:37
+3039@1@4@3@S-REL-CONNECT-RULE@pausen skal tas , i forhold til hva || som er@5@15@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-SUBJECT-RULE@pausen || skal tas , i forhold til hva som er hensiktsmessig@5@16@23-apr-2019 20:13:37
+3039@1@4@3@S-REL-CONNECT-RULE@pausen skal tas , i forhold til hva || som er hensiktsmessig@5@16@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@når pausen skal tas || , i forhold til hva som er@4@15@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@når pausen skal tas || , i forhold til hva som er@4@15@23-apr-2019 20:13:37
+3039@1@4@3@ADV-INTERR-MOD-FRONT-SUBORDCL-RULE@når || pausen skal tas , i forhold til hva som er@4@15@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || pausen skal tas , i forhold til hva som er@4@15@23-apr-2019 20:13:37
+3039@1@4@3@ADV-INTERR-MOD-FRONT-SUBORDCL-RULE@når || pausen skal tas , i forhold til hva som er hensiktsmessig@4@16@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@når pausen skal tas || , i forhold til hva som er hensiktsmessig@4@16@23-apr-2019 20:13:37
+3039@1@1@3@ATELIC-PP-MOD-VP-COMMA-RULE@når pausen skal tas || , i forhold til hva som er hensiktsmessig@4@16@23-apr-2019 20:15:39
+3039@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || pausen skal tas , i forhold til hva som er hensiktsmessig@4@16@23-apr-2019 20:13:37
+3039@1@4@3@FREE-SUBJPRED-RULE@når pausen skal tas , i forhold til hva som er || hensiktsmessig@4@16@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemmer i utgangspunktet || når pausen skal tas , i forhold til hva som er@1@15@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@bestemmer i utgangspunktet når pausen skal tas || , i forhold til hva som er@1@15@23-apr-2019 20:13:37
+3039@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@bestemmer i utgangspunktet når pausen skal tas || , i forhold til hva som er hensiktsmessig@1@16@23-apr-2019 20:13:37
+3039@1@4@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@bestemmer i utgangspunktet || når pausen skal tas , i forhold til hva som er hensiktsmessig@1@16@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@bestemmer i utgangspunktet når pausen skal tas || , i forhold til hva som er hensiktsmessig@1@16@23-apr-2019 20:13:37
+3039@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemmer i utgangspunktet || når pausen skal tas , i forhold til hva som er hensiktsmessig@1@16@23-apr-2019 20:13:37
+3039@1@2@3@FREE-SUBJPRED-RULE@bestemmer i utgangspunktet når pausen skal tas , i forhold til hva som er || hensiktsmessig@1@16@23-apr-2019 20:13:55
+3040@1@4@3@COMMSG-ADJ_INFL_RULE@hensiktsmessig@14@15@23-apr-2019 20:18:06
+3040@1@1@3@STRONGPL-POSTNOM-ADJ-NONFSTR_INFL_RULE@hensiktsmessig@14@15@23-apr-2019 20:18:00
+3040@1@4@3@NEUTSG-ADJ-NONFSTR_INFL_RULE@hensiktsmessig@14@15@23-apr-2019 20:18:06
+3040@1@4@3@ADJ-TO-BARE-N-LRULE@hensiktsmessig@14@15@23-apr-2019 20:18:06
+3040@1@4@3@ADV-FROM-ADJ-POS_NONFSTR_INFL_RULE@hensiktsmessig@14@15@23-apr-2019 20:18:06
+3040@1@4@3@ADV-FROM-ADJ-POS-LRULE@hensiktsmessig@14@15@23-apr-2019 20:18:06
+3040@1@1@2@v-copadj@er@13@14@23-apr-2019 20:17:19
+3040@1@4@2@v-intr-sudirtemp@er@13@14@23-apr-2019 20:18:06
+3040@1@4@2@som-resumpt-word@som@12@13@23-apr-2019 20:18:06
+3040@1@4@2@som_subj-relpron@som@12@13@23-apr-2019 20:18:06
+3040@1@4@2@interrog-pron-word@hva@11@12@23-apr-2019 20:18:06
+3040@1@4@2@dir-fixpoint-prep-word@til@10@11@23-apr-2019 20:18:06
+3040@1@4@2@dir-fixpoint-prep-2-word@til@10@11@23-apr-2019 20:18:06
+3040@1@4@2@rel-prep-word@til@10@11@23-apr-2019 20:18:06
+3040@1@4@2@prep-word-reg@til@10@11@23-apr-2019 20:18:06
+3040@1@4@2@neut-factinan-noun-lxm@forhold@9@10@23-apr-2019 20:18:06
+3040@1@4@3@PL_IND_N_SHORT_0_IRULE@forhold@9@10@23-apr-2019 20:18:06
+3040@1@4@3@LEAK-PL-INDEF-NOUN-LXM-LRULE@forhold@9@10@23-apr-2019 20:18:06
+3040@1@4@3@SG_IND_SUBST_IRULE@forhold@9@10@23-apr-2019 20:18:06
+3040@1@4@3@SG-INDEF-BARE-NOUN-LXM-LRULE@forhold@9@10@23-apr-2019 20:18:06
+3040@1@4@2@dir-fixpoint-prep-word@i@8@9@23-apr-2019 20:18:06
+3040@1@4@2@prep-word-loc@i@8@9@23-apr-2019 20:18:06
+3040@1@4@2@v-tr-obdir@tas@7@8@23-apr-2019 20:18:06
+3040@1@4@2@v-tr-sudir@tas@7@8@23-apr-2019 20:18:06
+3040@1@1@2@v-tr@tas@7@8@23-apr-2019 20:17:25
+3040@1@4@3@PASS-DIR-NCOMPS1-LRULE@tas@7@8@23-apr-2019 20:18:06
+3040@1@4@3@NON-MCL-EXTRACTED-VERBICOMP-RULE@skal@6@7@23-apr-2019 20:18:06
+3040@1@4@2@prep-s-word-vmod-reg-time@når@4@5@23-apr-2019 20:18:06
+3040@1@4@2@prep-s-word-nmod-reg-time@når@4@5@23-apr-2019 20:18:06
+3040@1@4@2@v-tr@når@4@5@23-apr-2019 20:18:06
+3040@1@4@3@PRES-INFL_RULE@når@4@5@23-apr-2019 20:18:06
+3040@1@4@2@v-intr@bestemmer@1@2@23-apr-2019 20:18:06
+3040@1@4@2@v-tr@bestemmer@1@2@23-apr-2019 20:18:06
+3040@1@4@3@FREE-SUBJPRED-RULE@er || hensiktsmessig@13@15@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@er || hensiktsmessig@13@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-RELATIVE-SUBJECT-RULE@som || er@12@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-RESUMPTSUBJECT-INTERR-RULE@som || er@12@14@23-apr-2019 20:18:06
+3040@1@1@2@interrog-pron-word@hva som@11@13@23-apr-2019 20:16:53
+3040@1@4@3@HEAD-PREP-COMP-RULE@til || hva@10@12@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-PREP-COMP-RULE@i || forhold@8@10@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-RESUMPTSUBJECT-INTERR-RULE@som || er hensiktsmessig@12@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-RELATIVE-SUBJECT-RULE@som || er hensiktsmessig@12@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-SUBJFILLER-SUBORD-WH-RULE@hva som || er@11@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-SUBJECT-WH-SUBORD-RULE@hva som || er@11@14@23-apr-2019 20:18:06
+3040@1@4@3@PP-MOD-REL-N-RULE@forhold || til hva@9@12@23-apr-2019 20:18:06
+3040@1@4@3@TELIC-PP-MOD-VP-RULE@tas || i forhold@7@10@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@tas || i forhold@7@10@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemmer || i utgangspunktet@1@4@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-SUBJFILLER-SUBORD-WH-RULE@hva || som er hensiktsmessig@11@15@23-apr-2019 20:18:06
+3040@1@1@3@HEAD-SUBJECT-WH-SUBORD-RULE@hva som || er hensiktsmessig@11@15@23-apr-2019 20:17:34
+3040@1@4@3@FREE-SUBJPRED-RULE@hva som er || hensiktsmessig@11@15@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@hva som er || hensiktsmessig@11@15@23-apr-2019 20:18:06
+3040@1@4@3@PP-MOD-PP-FIXPT-RULE@i forhold || til hva@8@12@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-PREP-COMP-RULE@i || forhold til hva@8@12@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas i forhold@6@10@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || pausen skal tas@4@8@23-apr-2019 20:18:06
+3040@1@4@3@RELATIVE-SUBJ-MOD-RULE@forhold til hva || som er@9@14@23-apr-2019 20:18:06
+3040@1@4@3@TELIC-PP-MOD-VP-RULE@tas i forhold || til hva@7@12@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@tas i forhold || til hva@7@12@23-apr-2019 20:18:06
+3040@1@4@3@RELATIVE-SUBJ-MOD-RULE@forhold til hva || som er hensiktsmessig@9@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-PREP-COMP-RULE@i || forhold til hva som er@8@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-PREP-REGCLAUSE-COMP-RULE@i forhold til || hva som er@8@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas i forhold til hva@6@12@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@skal tas i forhold || til hva@6@12@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-PREP-COMP-RULE@i || forhold til hva som er hensiktsmessig@8@15@23-apr-2019 20:18:06
+3040@1@4@3@TELIC-PP-MOD-VP-RULE@tas || i forhold til hva som er@7@14@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@tas || i forhold til hva som er@7@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-SUBJECT-RULE@pausen || skal tas i forhold til hva@5@12@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@bestemmer i utgangspunktet || når pausen skal tas@1@8@23-apr-2019 20:18:06
+3040@1@1@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@bestemmer i utgangspunktet || når pausen skal tas@1@8@23-apr-2019 20:17:10
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemmer i utgangspunktet || når pausen skal tas@1@8@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@tas || i forhold til hva som er hensiktsmessig@7@15@23-apr-2019 20:18:06
+3040@1@4@3@FREE-SUBJPRED-RULE@tas i forhold til hva som er || hensiktsmessig@7@15@23-apr-2019 20:18:06
+3040@1@4@3@TELIC-PP-MOD-VP-RULE@tas || i forhold til hva som er hensiktsmessig@7@15@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@tas i forhold til hva som er || hensiktsmessig@7@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas i forhold til hva som er@6@14@23-apr-2019 20:18:06
+3040@1@4@3@NON-MCL-EXTRACTED-VERBICOMP-RULE@skal tas i forhold til hva som er@6@14@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@skal tas || i forhold til hva som er@6@14@23-apr-2019 20:18:06
+3040@1@4@3@S-REL-CONNECT-RULE@skal tas i forhold til hva || som er@6@14@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@skal tas || i forhold til hva som er hensiktsmessig@6@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || tas i forhold til hva som er hensiktsmessig@6@15@23-apr-2019 20:18:06
+3040@1@4@3@S-REL-CONNECT-RULE@skal tas i forhold til hva || som er hensiktsmessig@6@15@23-apr-2019 20:18:06
+3040@1@4@3@NON-MCL-EXTRACTED-VERBICOMP-RULE@skal tas i forhold til hva som er hensiktsmessig@6@15@23-apr-2019 20:18:06
+3040@1@4@3@FREE-SUBJPRED-RULE@skal tas i forhold til hva som er || hensiktsmessig@6@15@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@skal tas i forhold til hva som er || hensiktsmessig@6@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-SUBJECT-RULE@pausen || skal tas i forhold til hva som er@5@14@23-apr-2019 20:18:06
+3040@1@4@3@S-REL-CONNECT-RULE@pausen skal tas i forhold til hva || som er@5@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-SUBJECT-RULE@pausen || skal tas i forhold til hva som er hensiktsmessig@5@15@23-apr-2019 20:18:06
+3040@1@4@3@S-REL-CONNECT-RULE@pausen skal tas i forhold til hva || som er hensiktsmessig@5@15@23-apr-2019 20:18:06
+3040@1@4@3@ADV-INTERR-MOD-FRONT-SUBORDCL-RULE@når || pausen skal tas i forhold til hva som er@4@14@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@når pausen skal tas || i forhold til hva som er@4@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-FILLER-SUBORD-WH-RULE@når || pausen skal tas i forhold til hva som er@4@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || pausen skal tas i forhold til hva som er@4@14@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@når pausen skal tas || i forhold til hva som er hensiktsmessig@4@15@23-apr-2019 20:18:06
+3040@1@4@3@ADV-INTERR-MOD-FRONT-SUBORDCL-RULE@når || pausen skal tas i forhold til hva som er hensiktsmessig@4@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || pausen skal tas i forhold til hva som er hensiktsmessig@4@15@23-apr-2019 20:18:06
+3040@1@4@3@FREE-SUBJPRED-RULE@når pausen skal tas i forhold til hva som er || hensiktsmessig@4@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-FILLER-SUBORD-WH-RULE@når || pausen skal tas i forhold til hva som er hensiktsmessig@4@15@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@når pausen skal tas i forhold til hva som er || hensiktsmessig@4@15@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemmer i utgangspunktet || når pausen skal tas i forhold til hva som er@1@14@23-apr-2019 20:18:06
+3040@1@4@3@ADVERBIALCLAUSE-STND-FIRST-VERB-MOD-RULE@bestemmer i utgangspunktet || når pausen skal tas i forhold til hva som er@1@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@bestemmer i utgangspunktet || når pausen skal tas i forhold til hva som er@1@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@bestemmer i utgangspunktet || når pausen skal tas i forhold til hva som er@1@14@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@bestemmer i utgangspunktet || når pausen skal tas i forhold til hva som er hensiktsmessig@1@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@bestemmer i utgangspunktet || når pausen skal tas i forhold til hva som er hensiktsmessig@1@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-VERB-INDIRWHQUEST-OBJWH-COMP-RULEE@bestemmer i utgangspunktet || når pausen skal tas i forhold til hva som er hensiktsmessig@1@15@23-apr-2019 20:18:06
+3040@1@4@3@FREE-SUBJPRED-RULE@bestemmer i utgangspunktet når pausen skal tas i forhold til hva som er || hensiktsmessig@1@15@23-apr-2019 20:18:06
+3040@1@4@3@HEAD-VERB-COMP-RULE@bestemmer i utgangspunktet når pausen skal tas i forhold til hva som er || hensiktsmessig@1@15@23-apr-2019 20:18:06
+3040@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@bestemmer i utgangspunktet når pausen skal tas i forhold til hva som er || hensiktsmessig@1@15@23-apr-2019 20:18:06
+3045@1@4@3@ADJ-TO-BARE-N-LRULE@seriøst@7@8@23-apr-2019 20:19:02
+3045@1@4@3@NEUTSG-ADJ-FINSTR_INFL_RULE@seriøst@7@8@23-apr-2019 20:19:02
+3045@1@4@3@STRONG-ADJ-LXM-LRULE@seriøst@7@8@23-apr-2019 20:19:02
+3045@1@4@3@PRET-NONFSTR-ET_INFL_RULE@forpliktet@2@3@23-apr-2019 20:19:02
+3045@1@4@2@v-copidwh@er@1@2@23-apr-2019 20:19:02
+3045@1@1@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@behandle situasjonen || seriøst@5@8@23-apr-2019 20:18:39
+3045@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || behandle situasjonen@4@7@23-apr-2019 20:19:02
+3045@1@4@3@HEAD-PREP-RAIS-COMP-RULE@til || å behandle situasjonen@3@7@23-apr-2019 20:19:02
+3045@1@4@3@HEAD-VERB-PREPRAIS-COMP-RULE@forpliktet || til å behandle situasjonen@2@7@23-apr-2019 20:19:02
+3045@1@4@3@HEAD-PASS-VERB-ICOMP-RULE@forpliktet || til å behandle situasjonen@2@7@23-apr-2019 20:19:02
+3045@1@4@3@HEAD-VERB-COMP-RULE@forpliktet til å behandle situasjonen || seriøst@2@8@23-apr-2019 20:19:02
+3045@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@forpliktet til å behandle situasjonen || seriøst@2@8@23-apr-2019 20:19:02
+3045@1@4@3@HEAD-VERB-PERF-COMP-RULE@er || forpliktet til å behandle situasjonen@1@7@23-apr-2019 20:19:02
+3045@1@4@3@HEAD-VERB-INDIRWHQUEST-OBJWH-COMP-RULEE@er || forpliktet til å behandle situasjonen seriøst@1@8@23-apr-2019 20:19:02
+3045@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@er || forpliktet til å behandle situasjonen seriøst@1@8@23-apr-2019 20:19:02
+3045@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@er forpliktet til å behandle situasjonen || seriøst@1@8@23-apr-2019 20:19:02
+3049@1@-1@5@@@0@11@23-apr-2019 20:19:52
+3050@1@4@2@v-tr@når@11@12@23-apr-2019 20:21:39
+3050@1@4@3@PRES-INFL_RULE@når@11@12@23-apr-2019 20:21:39
+3050@1@4@2@prep-s-word-vmod-reg-time@når@6@7@23-apr-2019 20:21:39
+3050@1@4@2@v-tr@når@6@7@23-apr-2019 20:21:39
+3050@1@4@3@PRES-INFL_RULE@når@6@7@23-apr-2019 20:21:39
+3050@1@1@2@v-intrcomp-compinterr@bestemme@5@6@23-apr-2019 20:21:20
+3050@1@4@2@v-intr@bestemme@5@6@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-VERB-COMP-RULE@når || arbeidstakeren@11@13@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-VERB-COMP-RULE@når || ferien@6@8@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan || bestemme@4@6@23-apr-2019 20:21:39
+3050@1@4@3@CONNECT-V-MOD-RULE@eller || når arbeidstakeren@10@13@23-apr-2019 20:21:39
+3050@1@4@3@CONNECT-WH-V-MOD-2-RULE@eller || når arbeidstakeren@10@13@23-apr-2019 20:21:39
+3050@1@4@3@CONNECT-RELATIVE-V-MOD-2-RULE@eller || når arbeidstakeren@10@13@23-apr-2019 20:21:39
+3050@1@4@3@CONNECT-V-MOD-2-RULE@eller || når arbeidstakeren@10@13@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-VERB-INDIRWHQUEST-OBJWH-COMP-RULEE@bestemme || når ferien@5@8@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@bestemme || når ferien@5@8@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@når arbeidstakeren || kan avspasere@11@15@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || ferien skal avvikles@6@10@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@når ferien || skal avvikles@6@10@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@kan bestemme || når ferien@4@8@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan || bestemme når ferien@4@8@23-apr-2019 20:21:39
+3050@1@4@3@CONNECT-RELATIVE-V-MOD-2-RULE@eller || når arbeidstakeren kan avspasere@10@15@23-apr-2019 20:21:39
+3050@1@4@3@CONNECT-V-MOD-RULE@eller || når arbeidstakeren kan avspasere@10@15@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@eller når arbeidstakeren || kan avspasere@10@15@23-apr-2019 20:21:39
+3050@1@4@3@VP-CONNECT-RULE@skal avvikles || eller når arbeidstakeren@8@13@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@skal avvikles || eller når arbeidstakeren@8@13@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@bestemme || når ferien skal avvikles@5@10@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@bestemme || når ferien skal avvikles@5@10@23-apr-2019 20:21:39
+3050@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemme || når ferien skal avvikles@5@10@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles eller når arbeidstakeren@7@13@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@ferien skal avvikles || eller når arbeidstakeren@7@13@23-apr-2019 20:21:39
+3050@1@4@3@S-CONNECT-RULE@ferien skal avvikles || eller når arbeidstakeren@7@13@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan || bestemme når ferien skal avvikles@4@10@23-apr-2019 20:21:39
+3050@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@kan bestemme || når ferien skal avvikles@4@10@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@kan bestemme når ferien || skal avvikles@4@10@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@skal avvikles || eller når arbeidstakeren kan avspasere@8@15@23-apr-2019 20:21:39
+3050@1@4@3@VP-CONNECT-RULE@skal avvikles || eller når arbeidstakeren kan avspasere@8@15@23-apr-2019 20:21:39
+3050@1@4@3@S-WH-CONNECT-RULE@når ferien skal avvikles || eller når arbeidstakeren@6@13@23-apr-2019 20:21:39
+3050@1@4@3@ADV-INTERR-MOD-FRONT-SUBORDCL-RULE@når || ferien skal avvikles eller når arbeidstakeren@6@13@23-apr-2019 20:21:39
+3050@1@4@3@S-CONNECT-RULE@når ferien skal avvikles || eller når arbeidstakeren@6@13@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || ferien skal avvikles eller når arbeidstakeren@6@13@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@når ferien || skal avvikles eller når arbeidstakeren@6@13@23-apr-2019 20:21:39
+3050@1@4@3@VP-CONNECT-RULE@når ferien skal avvikles || eller når arbeidstakeren@6@13@23-apr-2019 20:21:39
+3050@1@4@3@CONNECT-V-MOD-RULE@og || kan bestemme når ferien skal avvikles@3@10@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@ferien skal avvikles eller når arbeidstakeren || kan avspasere@7@15@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles eller når arbeidstakeren kan avspasere@7@15@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@bestemme || når ferien skal avvikles eller når arbeidstakeren@5@13@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@bestemme || når ferien skal avvikles eller når arbeidstakeren@5@13@23-apr-2019 20:21:39
+3050@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemme || når ferien skal avvikles eller når arbeidstakeren@5@13@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@når ferien skal avvikles || eller når arbeidstakeren kan avspasere@6@15@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@når || ferien skal avvikles eller når arbeidstakeren kan avspasere@6@15@23-apr-2019 20:21:39
+3050@1@4@3@VP-CONNECT-RULE@når ferien skal avvikles || eller når arbeidstakeren kan avspasere@6@15@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan || bestemme når ferien skal avvikles eller når arbeidstakeren@4@13@23-apr-2019 20:21:39
+3050@1@4@3@VP-CONNECT-RULE@kan bestemme når ferien skal avvikles || eller når arbeidstakeren@4@13@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@kan bestemme når ferien skal avvikles || eller når arbeidstakeren@4@13@23-apr-2019 20:21:39
+3050@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@kan bestemme || når ferien skal avvikles eller når arbeidstakeren@4@13@23-apr-2019 20:21:39
+3050@1@4@3@VP-CONNECT-RULE@har styringsrett || og kan bestemme når ferien skal avvikles@1@10@23-apr-2019 20:21:39
+3050@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bestemme || når ferien skal avvikles eller når arbeidstakeren kan avspasere@5@15@23-apr-2019 20:21:39
+3050@1@4@3@S-REL-CONNECT-RULE@kan bestemme når ferien skal avvikles || eller når arbeidstakeren kan avspasere@4@15@23-apr-2019 20:21:39
+3050@1@4@3@VP-CONNECT-RULE@kan bestemme når ferien skal avvikles || eller når arbeidstakeren kan avspasere@4@15@23-apr-2019 20:21:39
+3050@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@kan bestemme || når ferien skal avvikles eller når arbeidstakeren kan avspasere@4@15@23-apr-2019 20:21:39
+3050@1@4@3@CONNECT-V-MOD-RULE@og || kan bestemme når ferien skal avvikles eller når arbeidstakeren kan avspasere@3@15@23-apr-2019 20:21:39
+3050@1@4@3@VP-CONNECT-RULE@har styringsrett || og kan bestemme når ferien skal avvikles eller når arbeidstakeren kan avspasere@1@15@23-apr-2019 20:21:39
+3050@1@4@3@HEAD-SUBJECT-RULE@arbeidsgiver || har styringsrett og kan bestemme når ferien skal avvikles eller når arbeidstakeren kan avspasere@0@15@23-apr-2019 20:21:38
+3050@1@1@3@S-CONNECT-RULE@arbeidsgiver har styringsrett || og kan bestemme når ferien skal avvikles eller når arbeidstakeren kan avspasere@0@15@23-apr-2019 20:20:30
+3055@1@4@2@dir-nonfixpoint-prep-word@mellom@13@14@23-apr-2019 20:23:48
+3055@1@4@2@v-tr-obeqinf@avtalt@12@13@23-apr-2019 20:23:48
+3055@1@1@2@v-tr@avtalt@12@13@23-apr-2019 20:22:23
+3055@1@4@3@STRSG-PASTPT-ADJ_0_LRULE@avtalt@12@13@23-apr-2019 20:23:48
+3055@1@4@2@v-copadj@er@11@12@23-apr-2019 20:23:48
+3055@1@4@2@v-intr-sudirtemp@er@11@12@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-VERB-PERF-COMP-RULE@er || avtalt@11@13@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-VERB-ADJ-COMP-RULE@er || avtalt@11@13@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-RELATIVE-SUBJECT-RULE@som || er@10@12@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-VERB-COMP-RULE@endre || det@8@10@23-apr-2019 20:23:48
+3055@1@1@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@avtalt || mellom partene@12@15@23-apr-2019 20:23:29
+3055@1@4@3@PP-MOD-DERIVADJ-RULE@avtalt || mellom partene@12@15@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-RELATIVE-SUBJECT-RULE@som || er avtalt@10@13@23-apr-2019 20:23:48
+3055@1@4@3@RELATIVE-SUBJ-MOD-RULE@det || som er@9@12@23-apr-2019 20:23:48
+3055@1@4@3@ADVERBIAL-SUBORDCL-FIRST-VERB-MOD-RULE@ensidig || endre det@7@10@23-apr-2019 20:23:48
+3055@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@er avtalt || mellom partene@11@15@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-VERB-ADJ-COMP-RULE@er || avtalt mellom partene@11@15@23-apr-2019 20:23:48
+3055@1@4@3@FREE-SUBJPRED-RULE@er || avtalt mellom partene@11@15@23-apr-2019 20:23:48
+3055@1@4@3@RELATIVE-SUBJ-MOD-RULE@det || som er avtalt@9@13@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-VERB-COMP-RULE@endre || det som er@8@12@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || ensidig endre det@6@10@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-VERB-COMP-RULE@endre || det som er avtalt@8@13@23-apr-2019 20:23:48
+3055@1@4@3@ADVERBIAL-SUBORDCL-FIRST-VERB-MOD-RULE@ensidig || endre det som er@7@12@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-PREP-FOR-Å-COMP-RULE@til || å ensidig endre det@5@10@23-apr-2019 20:23:48
+3055@1@1@3@RELATIVE-SUBJ-MOD-RULE@det || som er avtalt mellom partene@9@15@23-apr-2019 20:23:09
+3055@1@4@3@RELATIVE-TRUNCATED-MOD-RULE@det som er || avtalt mellom partene@9@15@23-apr-2019 20:23:48
+3055@1@4@3@ADVERBIAL-SUBORDCL-FIRST-VERB-MOD-RULE@ensidig || endre det som er avtalt@7@13@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || ensidig endre det som er@6@12@23-apr-2019 20:23:48
+3055@1@4@3@PP-MOD-REL-N-RULE@styringsretten || til å ensidig endre det@4@10@23-apr-2019 20:23:48
+3055@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@endre det som er avtalt || mellom partene@8@15@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || ensidig endre det som er avtalt@6@13@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-PREP-FOR-Å-COMP-RULE@til || å ensidig endre det som er@5@12@23-apr-2019 20:23:48
+3055@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@ensidig endre det som er avtalt || mellom partene@7@15@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-PREP-FOR-Å-COMP-RULE@til || å ensidig endre det som er avtalt@5@13@23-apr-2019 20:23:48
+3055@1@4@3@PP-MOD-REL-N-RULE@styringsretten || til å ensidig endre det som er@4@12@23-apr-2019 20:23:48
+3055@1@4@3@RELATIVE-SUBJ-MOD-RULE@styringsretten til å ensidig endre det || som er@4@12@23-apr-2019 20:23:48
+3055@1@4@3@PP-MOD-REL-N-RULE@styringsretten || til å ensidig endre det som er avtalt@4@13@23-apr-2019 20:23:48
+3055@1@4@3@RELATIVE-SUBJ-MOD-RULE@styringsretten til å ensidig endre det || som er avtalt@4@13@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-VERB-COMP-RULE@bruke || styringsretten til å ensidig endre det som er avtalt@3@13@23-apr-2019 20:23:48
+3055@1@4@3@RELATIVE-SUBJ-MOD-RULE@styringsretten til å ensidig endre det || som er avtalt mellom partene@4@15@23-apr-2019 20:23:48
+3055@1@4@3@RELATIVE-TRUNCATED-MOD-RULE@styringsretten til å ensidig endre det som er || avtalt mellom partene@4@15@23-apr-2019 20:23:48
+3055@1@4@3@ADJECTIVE-MOD-DEF-POSTNOM-RULE@styringsretten til å ensidig endre det som er || avtalt mellom partene@4@15@23-apr-2019 20:23:48
+3055@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bruke styringsretten til å ensidig endre det som er avtalt || mellom partene@3@15@23-apr-2019 20:23:48
+3055@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan ikke || bruke styringsretten til å ensidig endre det som er avtalt@1@13@23-apr-2019 20:23:48
+3055@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@kan ikke bruke styringsretten til å ensidig endre det som er avtalt || mellom partene@1@15@23-apr-2019 20:23:48
+3055@1@4@3@ATELIC-PP-MOD-VP-NONFIXPTDIR-RULE@kan ikke bruke styringsretten til å ensidig endre det som er avtalt || mellom partene@1@15@23-apr-2019 20:23:48
+3058@1@4@2@prep-rais-word@til@13@14@23-apr-2019 20:26:16
+3058@1@4@2@v-trobl-obleqobinf@har@11@12@23-apr-2019 20:26:16
+3058@1@4@2@v-trscpr-scobargcsd_scloc@har@11@12@23-apr-2019 20:26:16
+3058@1@1@2@v-tr@har@11@12@23-apr-2019 20:24:20
+3058@1@4@3@HEAD-VERB-COMP-RULE@har || plikt@11@13@23-apr-2019 20:26:16
+3058@1@1@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@avvikles || først@6@8@23-apr-2019 20:25:32
+3058@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || avvikles@5@7@23-apr-2019 20:26:16
+3058@1@4@3@PP-MOD-REL-N-RULE@ferien || innenfor ferieåret@19@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-SUBJECT-RULE@arbeidstakeren || avvikler ferien@17@20@23-apr-2019 20:26:16
+3058@1@1@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || avvikles først@5@8@23-apr-2019 20:25:39
+3058@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@skal avvikles || først@5@8@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles@4@7@23-apr-2019 20:26:16
+3058@1@1@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@avvikler ferien || innenfor ferieåret@18@22@23-apr-2019 20:25:18
+3058@1@4@3@HEAD-VERB-COMP-RULE@avvikler || ferien innenfor ferieåret@18@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-COMPLEMENTIZER-COMP-FIN-RULE@at || arbeidstakeren avvikler ferien@16@20@23-apr-2019 20:26:16
+3058@1@1@3@HEAD-SUBJECT-RULE@ferien || skal avvikles først@4@8@23-apr-2019 20:25:48
+3058@1@4@3@HEAD-COMPLEMENTIZER-COMP-FIN-RULE@at || ferien skal avvikles@3@7@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-VERB-COMPLEMENTIZED-S-COMP-RULE@påse || at arbeidstakeren avvikler ferien@15@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-VERB-COMPLEMENTIZED-S-COMP-RULE@kreve || at ferien skal avvikles@2@7@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || påse at arbeidstakeren avvikler ferien@14@20@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@kreve at ferien skal avvikles || først@2@8@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan || kreve at ferien skal avvikles@1@7@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@påse at arbeidstakeren avvikler ferien || innenfor ferieåret@15@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-PREP-RAIS-COMP-RULE@til || å påse at arbeidstakeren avvikler ferien@13@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-PREP-FOR-Å-COMP-RULE@til || å påse at arbeidstakeren avvikler ferien@13@20@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@kan kreve at ferien skal avvikles || først@1@8@23-apr-2019 20:26:16
+3058@1@1@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan || kreve at ferien skal avvikles først@1@8@23-apr-2019 20:26:07
+3058@1@4@3@PP-MOD-REL-N-RULE@plikt || til å påse at arbeidstakeren avvikler ferien@12@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-PREP-RAIS-COMP-RULE@til || å påse at arbeidstakeren avvikler ferien innenfor ferieåret@13@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-VERB-PREPRAIS-COMP-RULE@har plikt || til å påse at arbeidstakeren avvikler ferien@11@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-VERB-COMP-RULE@har || plikt til å påse at arbeidstakeren avvikler ferien@11@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-SUBJECT-RULE@arbeidsgiver || har plikt til å påse at arbeidstakeren avvikler ferien@10@20@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@har plikt til å påse at arbeidstakeren avvikler ferien || innenfor ferieåret@11@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-VERB-PREPCOMP-RULE@har plikt til å påse at arbeidstakeren avvikler ferien || innenfor ferieåret@11@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-VERB-PREPRAIS-COMP-RULE@har plikt || til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@11@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@da || arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@9@20@23-apr-2019 20:26:16
+3058@1@4@3@COMMA-LEFTMOD-FOR-V-RULE@, || da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@8@20@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@avvikles først || , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@6@20@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@skal avvikles først || , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@5@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@5@20@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@avvikles først || , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@6@22@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien || innenfor ferieåret@6@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@4@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@5@22@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@skal avvikles først || , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@5@22@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien || innenfor ferieåret@5@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-COMPLEMENTIZER-COMP-FIN-RULE@at || ferien skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@3@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@4@22@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@kreve at ferien skal avvikles først || , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@2@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-VERB-COMPLEMENTIZED-S-COMP-RULE@kreve || at ferien skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@2@20@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-COMPLEMENTIZER-COMP-FIN-RULE@at || ferien skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@3@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan || kreve at ferien skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@1@20@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@kan kreve at ferien skal avvikles først || , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien@1@20@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@kreve at ferien skal avvikles først || , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@2@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-VERB-COMPLEMENTIZED-S-COMP-RULE@kreve || at ferien skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@2@22@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@kreve at ferien skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien || innenfor ferieåret@2@22@23-apr-2019 20:26:16
+3058@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan || kreve at ferien skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien innenfor ferieåret@1@22@23-apr-2019 20:26:16
+3058@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@kan kreve at ferien skal avvikles først , da arbeidsgiver har plikt til å påse at arbeidstakeren avvikler ferien || innenfor ferieåret@1@22@23-apr-2019 20:26:16
+3060@1@4@3@CARD-MOD-INDEF-RULE@3 || uker@4@6@23-apr-2019 20:27:51
+3060@1@4@3@MEASURE-NP-CMPAR-RULE@3 uker || sammenhengende@4@7@23-apr-2019 20:27:51
+3060@1@1@3@MEASURE-NP-A-RULE@3 uker || sammenhengende@4@7@23-apr-2019 20:26:48
+3060@1@4@3@PP-MOD-REL-N-RULE@ferie || i denne perioden@7@11@23-apr-2019 20:27:51
+3060@1@1@3@ADJECTIVE-MOD-INDEF-RULE@3 uker sammenhengende || ferie@4@8@23-apr-2019 20:27:03
+3060@1@4@3@FREE-SUBJPRED-RULE@pålegge || 3 uker sammenhengende@3@7@23-apr-2019 20:27:51
+3060@1@4@3@PP-MOD-REL-N-RULE@3 uker sammenhengende ferie || i denne perioden@4@11@23-apr-2019 20:27:51
+3060@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan også || pålegge 3 uker sammenhengende ferie@1@8@23-apr-2019 20:27:51
+3060@1@1@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@pålegge 3 uker sammenhengende ferie || i denne perioden@3@11@23-apr-2019 20:27:39
+3060@1@4@3@HEAD-VERB-COMP-RULE@pålegge 3 uker sammenhengende || ferie i denne perioden@3@11@23-apr-2019 20:27:51
+3060@1@1@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@kan også || pålegge 3 uker sammenhengende ferie i denne perioden@1@11@23-apr-2019 20:27:19
+3060@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@kan også pålegge 3 uker sammenhengende ferie || i denne perioden@1@11@23-apr-2019 20:27:51
+3068@1@4@2@rel-prep-word@med@10@11@23-apr-2019 20:28:54
+3068@1@1@2@prep-word-sel@med@10@11@23-apr-2019 20:28:47
+3068@1@4@2@dir-fixpoint-prep-word@til@4@5@23-apr-2019 20:28:54
+3068@1@4@2@prep-word-reg@til@4@5@23-apr-2019 20:28:54
+3068@1@4@3@TELIC-ADV-MOD-VP-RULE@komme || frem@2@4@23-apr-2019 20:28:54
+3068@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || komme frem@1@4@23-apr-2019 20:28:54
+3068@1@1@3@PP-MOD-ADV-FIXPT-RULE@frem || til en løsning partene kan leve med@3@11@23-apr-2019 20:28:24
+3068@1@4@3@TELIC-PP-MOD-VP-RULE@komme frem || til en løsning partene kan leve med@2@11@23-apr-2019 20:28:54
+3068@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@komme frem || til en løsning partene kan leve med@2@11@23-apr-2019 20:28:54
+3068@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@må komme frem || til en løsning partene kan leve med@1@11@23-apr-2019 20:28:54
+3071@1@4@2@rel-prep-word@om@8@9@23-apr-2019 20:29:16
+3071@1@1@2@v-trobl@informere@6@7@23-apr-2019 20:29:06
+3071@1@4@2@v-tr@informere@6@7@23-apr-2019 20:29:16
+3071@1@4@3@PP-MOD-REL-N-RULE@arbeidstakere || om dette@7@10@23-apr-2019 20:29:16
+3071@1@4@3@HEAD-VERB-COMP-RULE@informere || arbeidstakere om dette@6@10@23-apr-2019 20:29:16
+3072@1@1@2@adv-word-temp@før@14@15@23-apr-2019 20:29:41
+3072@1@4@2@v-tr@før@14@15@23-apr-2019 20:33:38
+3072@1@4@3@NON-MCL-EXTRACTED-VERBCOMP-RULE@før@14@15@23-apr-2019 20:33:38
+3072@1@4@3@PRES-INFL_RULE@før@14@15@23-apr-2019 20:33:38
+3072@1@4@2@stnd-adj-lxm@senest@11@12@23-apr-2019 20:33:38
+3072@1@4@3@SUPERLAT-ADV_EST-FINSTR_INFL_RULE@senest@11@12@23-apr-2019 20:33:38
+3072@1@4@3@ADV-FROM-ADJ-SUPERLAT-LRULE@senest@11@12@23-apr-2019 20:33:38
+3072@1@4@3@SUP-ADJ-STR_EST-FINSTR_INFL_RULE@senest@11@12@23-apr-2019 20:33:38
+3072@1@4@3@SUP-ADJ-CUM-PART-LXM-LRULE@senest@11@12@23-apr-2019 20:33:38
+3072@1@4@3@SUP-ADJ-STANDALONE-LXM-LRULE@senest@11@12@23-apr-2019 20:33:38
+3072@1@4@2@n-connect-comma@,@10@11@23-apr-2019 20:33:38
+3072@1@4@2@p-clse-connect-punctuation@,@10@11@23-apr-2019 20:33:38
+3072@1@4@2@prep-s-word-vmod-reg-time@før@6@7@23-apr-2019 20:33:38
+3072@1@4@3@ADJ-TO-BARE-N-LRULE@god@4@5@23-apr-2019 20:33:38
+3072@1@4@3@STRONGPL-POSTNOM-ADJ-FINSTR_INFL_RULE@god@4@5@23-apr-2019 20:33:38
+3072@1@4@2@tel-fix-nondelim-prep-word@i@3@4@23-apr-2019 20:33:38
+3072@1@1@2@prep-word-temp@i@3@4@23-apr-2019 20:33:02
+3072@1@4@2@prep-p-adv-vmod-word-reg@i@3@4@23-apr-2019 20:33:38
+3072@1@4@2@prep-word-loc@i@3@4@23-apr-2019 20:33:38
+3072@1@4@3@EXTRACTED-PREP-COMP-RULE@i@3@4@23-apr-2019 20:33:38
+3072@1@4@3@EXTRACTED-EVENT-PREPCOMP-RULE@i@3@4@23-apr-2019 20:33:38
+3072@1@4@3@CARD-MOD-INDEF-RULE@2 || måneder@12@14@23-apr-2019 20:33:38
+3072@1@1@3@CARD-CUM-PREP-OR-ADV-MOD-RULE@2 || måneder@12@14@23-apr-2019 20:31:25
+3072@1@4@3@COMMA-LEFTMOD-FOR-V-RULE@, || senest@10@12@23-apr-2019 20:33:38
+3072@1@1@3@ADJECTIVE-MOD-INDEF-RULE@god || tid@4@6@23-apr-2019 20:30:04
+3072@1@4@3@PP-TIME-MOD-VP-RULE@varsle || i@2@4@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@varsle || i@2@4@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsle@1@3@23-apr-2019 20:33:38
+3072@1@1@3@MEASURE-NP-CMPAR-RULE@2 måneder || før@12@15@23-apr-2019 20:31:03
+3072@1@4@3@UNARY-FIN-REL-HEAD-FILLER-RULE@2 måneder før@12@15@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-SUBJECT-RULE@2 måneder || før@12@15@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@avvikles || , senest@9@12@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-PREP-COMP-RULE@i || god tid@3@6@23-apr-2019 20:33:38
+3072@1@4@3@FREE-SUBJPRED-RULE@varsle i || god@2@5@23-apr-2019 20:33:38
+3072@1@4@3@ADV-MOD-ADV-REG-RULE@senest || 2 måneder før@11@15@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || avvikles , senest@8@12@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@varsle || i god tid@2@6@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@varsle || i god tid@2@6@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@varsle i god || tid@2@6@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsle i god@1@5@23-apr-2019 20:33:38
+3072@1@4@3@ADJECTIVE-MOD-INDEF-POSTNOM-RULE@, || senest 2 måneder før@10@15@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@avvikles , senest || 2 måneder@9@14@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles , senest@7@12@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIMECL-MOD-N-RULE@tid || før ferien skal avvikles@5@10@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@må varsle || i god tid@1@6@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsle i god tid@1@6@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@må varsle || i god tid@1@6@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@må varsle i god || tid@1@6@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@avvikles , senest 2 måneder || før@9@15@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@avvikles || , senest 2 måneder før@9@15@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@skal avvikles , senest || 2 måneder@8@14@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || avvikles , senest 2 måneder@8@14@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@før || ferien skal avvikles , senest@6@12@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@skal avvikles , senest 2 måneder || før@8@15@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || avvikles , senest 2 måneder før@8@15@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@skal avvikles || , senest 2 måneder før@8@15@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles , senest 2 måneder@7@14@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIMECL-MOD-N-RULE@tid || før ferien skal avvikles , senest@5@12@23-apr-2019 20:33:38
+3072@1@1@3@HEAD-PREP-COMP-RULE@i || god tid før ferien skal avvikles@3@10@23-apr-2019 20:31:49
+3072@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles , senest 2 måneder før@7@15@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@før || ferien skal avvikles , senest 2 måneder@6@14@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIMECL-MOD-N-RULE@god tid || før ferien skal avvikles , senest@4@12@23-apr-2019 20:33:38
+3072@1@4@3@COMMA-RIGHTMOD-FOR-V-RULE@i god tid før ferien skal avvikles || ,@3@11@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@varsle || i god tid før ferien skal avvikles@2@10@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@varsle i god || tid før ferien skal avvikles@2@10@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-PREP-BARECLAUSE-COMP-RULE@før || ferien skal avvikles , senest 2 måneder før@6@15@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIMECL-MOD-N-RULE@tid || før ferien skal avvikles , senest 2 måneder@5@14@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-PREP-COMP-RULE@i || god tid før ferien skal avvikles , senest@3@12@23-apr-2019 20:33:38
+3072@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@varsle || i god tid før ferien skal avvikles ,@2@11@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@må varsle i god tid || før ferien skal avvikles@1@10@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@må varsle || i god tid før ferien skal avvikles@1@10@23-apr-2019 20:33:38
+3072@1@1@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsle i god tid før ferien skal avvikles@1@10@23-apr-2019 20:32:50
+3072@1@4@3@NP-MOD-VP-TIME-RULE@må varsle i god || tid før ferien skal avvikles@1@10@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIMECL-MOD-N-RULE@tid || før ferien skal avvikles , senest 2 måneder før@5@15@23-apr-2019 20:33:38
+3072@1@4@3@MEASURE-NP-CMPAR-RULE@tid før ferien skal avvikles , senest 2 måneder || før@5@15@23-apr-2019 20:33:38
+3072@1@4@3@MEASURE-NP-RULE@tid før ferien skal avvikles || , senest 2 måneder før@5@15@23-apr-2019 20:33:38
+3072@1@4@3@ADJECTIVE-MOD-INDEF-POSTNOM-RULE@tid før ferien skal avvikles , senest || 2 måneder før@5@15@23-apr-2019 20:33:38
+3072@1@4@3@ADVREG-MOD-N-RULE@tid før ferien skal avvikles , senest || 2 måneder før@5@15@23-apr-2019 20:33:38
+3072@1@4@3@BARE-RELATIVE-EXTRACT-MOD-RULE@tid før ferien skal avvikles , senest || 2 måneder før@5@15@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIMECL-MOD-N-RULE@god tid || før ferien skal avvikles , senest 2 måneder@4@14@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@varsle i god tid || før ferien skal avvikles , senest@2@12@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@varsle i god tid før ferien skal avvikles || , senest@2@12@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@varsle || i god tid før ferien skal avvikles , senest@2@12@23-apr-2019 20:33:38
+3072@1@4@3@FREE-SUBJPRED-RULE@varsle i god tid før ferien skal avvikles , || senest@2@12@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@varsle i god || tid før ferien skal avvikles , senest@2@12@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsle i god tid før ferien skal avvikles ,@1@11@23-apr-2019 20:33:38
+3072@1@4@3@TELIC-PP-MOD-VP-COMMA-RULE@må varsle || i god tid før ferien skal avvikles ,@1@11@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIMECL-MOD-N-RULE@god tid || før ferien skal avvikles , senest 2 måneder før@4@15@23-apr-2019 20:33:38
+3072@1@4@3@ADVREG-MOD-N-RULE@god tid før ferien skal avvikles , senest || 2 måneder før@4@15@23-apr-2019 20:33:38
+3072@1@4@3@ADJECTIVE-MOD-INDEF-POSTNOM-RULE@god tid før ferien skal avvikles , senest || 2 måneder før@4@15@23-apr-2019 20:33:38
+3072@1@4@3@MEASURE-NP-RULE@god tid før ferien skal avvikles || , senest 2 måneder før@4@15@23-apr-2019 20:33:38
+3072@1@4@3@BARE-RELATIVE-EXTRACT-MOD-RULE@god tid før ferien skal avvikles , senest || 2 måneder før@4@15@23-apr-2019 20:33:38
+3072@1@4@3@MEASURE-NP-CMPAR-RULE@god tid før ferien skal avvikles , senest 2 måneder || før@4@15@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-PREP-COMP-RULE@i || god tid før ferien skal avvikles , senest 2 måneder@3@14@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@må varsle i god tid || før ferien skal avvikles , senest@1@12@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@må varsle || i god tid før ferien skal avvikles , senest@1@12@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsle i god tid før ferien skal avvikles , senest@1@12@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@må varsle i god || tid før ferien skal avvikles , senest@1@12@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-PREP-COMP-RULE@i || god tid før ferien skal avvikles , senest 2 måneder før@3@15@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-PREP-PREPADV-COMP-RULE@i || god tid før ferien skal avvikles , senest 2 måneder før@3@15@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@varsle i god tid før ferien skal avvikles , senest || 2 måneder@2@14@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@varsle i god tid || før ferien skal avvikles , senest 2 måneder@2@14@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@varsle || i god tid før ferien skal avvikles , senest 2 måneder@2@14@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@varsle i god tid || før ferien skal avvikles , senest 2 måneder før@2@15@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@varsle i god tid før ferien skal avvikles , senest 2 måneder || før@2@15@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@varsle || i god tid før ferien skal avvikles , senest 2 måneder før@2@15@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-COMMA-RULE@varsle i god tid før ferien skal avvikles || , senest 2 måneder før@2@15@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@varsle i god || tid før ferien skal avvikles , senest 2 måneder før@2@15@23-apr-2019 20:33:38
+3072@1@4@3@NP-MOD-VP-TIME-RULE@må varsle i god tid før ferien skal avvikles , senest || 2 måneder@1@14@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@må varsle i god tid || før ferien skal avvikles , senest 2 måneder@1@14@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@må varsle || i god tid før ferien skal avvikles , senest 2 måneder@1@14@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsle i god tid før ferien skal avvikles , senest 2 måneder@1@14@23-apr-2019 20:33:38
+3072@1@4@3@PP-TIME-MOD-VP-RULE@må varsle || i god tid før ferien skal avvikles , senest 2 måneder før@1@15@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@må varsle i god tid før ferien skal avvikles , senest 2 måneder || før@1@15@23-apr-2019 20:33:38
+3072@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@må varsle i god tid || før ferien skal avvikles , senest 2 måneder før@1@15@23-apr-2019 20:33:38
+3072@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@må || varsle i god tid før ferien skal avvikles , senest 2 måneder før@1@15@23-apr-2019 20:33:38
+3072@1@1@3@ATELIC-PP-MOD-VP-COMMA-RULE@må varsle i god tid før ferien skal avvikles || , senest 2 måneder før@1@15@23-apr-2019 20:32:37
+3072@1@4@3@NP-MOD-VP-TIME-RULE@må varsle i god || tid før ferien skal avvikles , senest 2 måneder før@1@15@23-apr-2019 20:33:38
+3074@1@4@3@WEAK-ADJ-FINSTR_INFL_RULE@alternative@11@12@23-apr-2019 20:34:14
+3074@1@4@3@WEAK-ADJ-LXM-LRULE@alternative@11@12@23-apr-2019 20:34:14
+3074@1@4@3@ADJECTIVE-MOD-PSEUDOWEAK-ORDINAL-INDEF-RULE@alternative || løsninger@11@13@23-apr-2019 20:34:14
+3074@1@1@3@ADJECTIVE-MOD-INDEF-RULE@alternative || løsninger@11@13@23-apr-2019 20:34:10
+3074@1@4@3@ADJECTIVE-MOD-PSEUDOWEAK-ORDINAL-INDEF-RULE@rette || virkemiddel@5@7@23-apr-2019 20:34:14
+3074@1@1@3@ADJECTIVE-MOD-PSEUDOWEAK-INDEF-RULE@rette || virkemiddel@5@7@23-apr-2019 20:33:59
+3076@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@avvikles || under permittering@9@12@23-apr-2019 20:35:10
+3076@1@4@3@HEAD-SUBJECT-RULE@ferien || skal avvikles@7@10@23-apr-2019 20:35:10
+3076@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || avvikles under permittering@8@12@23-apr-2019 20:35:10
+3076@1@1@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@skal avvikles || under permittering@8@12@23-apr-2019 20:35:06
+3076@1@4@3@ADV-INTERR-MOD-FRONT-SUBORDCL-RULE@når || ferien skal avvikles@6@10@23-apr-2019 20:35:10
+3076@1@4@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@avtale || når ferien skal avvikles@5@10@23-apr-2019 20:35:10
+3076@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@avtale || når ferien skal avvikles@5@10@23-apr-2019 20:35:10
+3076@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@når ferien skal avvikles || under permittering@6@12@23-apr-2019 20:35:10
+3076@1@1@3@HEAD-VERB-INDIRWHQUEST-ADVWH-COMP-RULEE@avtale || når ferien skal avvikles under permittering@5@12@23-apr-2019 20:34:46
+3076@1@4@3@HEAD-VERB-INDIRWHQUEST-SUBJWH-COMP-RULE@avtale || når ferien skal avvikles under permittering@5@12@23-apr-2019 20:35:10
+3076@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@avtale når ferien skal avvikles || under permittering@5@12@23-apr-2019 20:35:10
+3076@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@bør sammen || avtale når ferien skal avvikles@3@10@23-apr-2019 20:35:10
+3076@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@bør sammen avtale når ferien skal avvikles || under permittering@3@12@23-apr-2019 20:35:10
+3080@1@1@2@v-tr@ha@6@7@23-apr-2019 20:36:41
+3080@1@4@2@v-trscpr-scobargcsd_scloc@ha@6@7@23-apr-2019 20:36:06
+3080@1@4@2@time-prep-word@til@2@3@23-apr-2019 20:36:06
+3080@1@1@2@prep-word-reg@til@2@3@23-apr-2019 20:36:54
+3080@1@4@3@HEAD-VERB-COMP-RULE@ha || kontroll@6@8@23-apr-2019 20:36:06
+3080@1@4@3@HEAD-VERB-PREPCOMP-RULE@ha kontroll || over all arbeidstid@6@11@23-apr-2019 20:36:06
+3080@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@ha kontroll || over all arbeidstid@6@11@23-apr-2019 20:36:06
+3080@1@4@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || ha kontroll over all arbeidstid@5@11@23-apr-2019 20:36:06
+3080@1@1@3@HEAD-COMPLEMENTIZER-COMP-EQUINF-RULE@å || ha kontroll over all arbeidstid til de ansatte@5@14@23-apr-2019 20:36:37
+3080@1@4@3@HEAD-VERB-COMPLEMENTIZED-S-COMP-RULE@plikter til enhver tid || å ha kontroll over all arbeidstid@1@11@23-apr-2019 20:36:06
+3080@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@plikter til enhver tid å ha kontroll over all arbeidstid || til de ansatte@1@14@23-apr-2019 20:36:06
+3081@1@4@3@EXTRACTED-PREP-COMP-RULE@innen@9@10@23-apr-2019 20:40:48
+3081@1@4@2@prep-p-adv-word-reg@senest@8@9@23-apr-2019 20:40:48
+3081@1@4@2@p-adv-dir-connect-word@og@7@8@23-apr-2019 20:40:48
+3081@1@4@2@stnd-adj-lxm@mulig@6@7@23-apr-2019 20:40:48
+3081@1@4@3@ADJ-TO-BARE-N-LRULE@mulig@6@7@23-apr-2019 20:40:48
+3081@1@4@3@COMMSG-ADJ_INFL_RULE@mulig@6@7@23-apr-2019 20:40:48
+3081@1@4@3@STRONG-ADJ-LXM-LRULE@mulig@6@7@23-apr-2019 20:40:48
+3081@1@4@3@STRONGPL-POSTNOM-ADJ-NONFSTR_INFL_RULE@mulig@6@7@23-apr-2019 20:40:48
+3081@1@4@3@NEUTSG-ADJ-NONFSTR_INFL_RULE@mulig@6@7@23-apr-2019 20:40:48
+3081@1@4@2@cmpar-dep-reg-word@som@5@6@23-apr-2019 20:40:48
+3081@1@4@2@som-n-pred-comp@som@5@6@23-apr-2019 20:40:48
+3081@1@4@2@v-introbl-obln@svare@2@3@23-apr-2019 20:40:48
+3081@1@1@2@v-intr@svare@2@3@23-apr-2019 20:41:28
+3081@1@4@2@v-introbl-obldecl@svare@2@3@23-apr-2019 20:40:48
+3081@1@4@2@v-introbl-oblinterr@svare@2@3@23-apr-2019 20:40:48
+3081@1@4@3@CONNECT-P-ADV-DIR-MOD-RULE@og || senest@7@9@23-apr-2019 20:40:48
+3081@1@1@2@cmpar-dep-reg-cluster-word@som mulig@5@7@23-apr-2019 20:41:03
+3081@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || svare@1@3@23-apr-2019 20:40:48
+3081@1@4@3@PP-MOD-REL-N-RULE@mulig || og senest@6@9@23-apr-2019 20:40:48
+3081@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@svare || så raskt@2@5@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-PREP-PREPADV-COMP-RULE@senest || innen seks måneder@8@12@23-apr-2019 20:40:48
+3081@1@4@3@PP-MOD-REL-N-RULE@mulig og senest || innen@6@10@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-CMPARDEP-REG-COMP-RULE@som || mulig og senest@5@9@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-PREP-COMP-RULE@som || mulig og senest@5@9@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || svare så raskt@1@5@23-apr-2019 20:40:48
+3081@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@skal svare || så raskt@1@5@23-apr-2019 20:40:48
+3081@1@4@3@CONNECT-P-ADV-MOD-RULE@og || senest innen seks måneder@7@12@23-apr-2019 20:40:48
+3081@1@4@3@CONNECT-P-ADV-DIR-MOD-RULE@og || senest innen seks måneder@7@12@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-PREP-COMP-RULE@som || mulig og senest innen@5@10@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-ACTV-VERB-ICOMP-RULE@svare || så raskt som mulig@2@7@23-apr-2019 20:40:48
+3081@1@4@3@PP-MOD-REL-N-RULE@mulig || og senest innen seks måneder@6@12@23-apr-2019 20:40:48
+3081@1@4@3@CMPAR-MOD-RULE@så raskt || som mulig og senest@3@9@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-CMPARDEP-REG-COMP-RULE@som || mulig og senest innen seks måneder@5@12@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-PREP-COMP-RULE@som || mulig og senest innen seks måneder@5@12@23-apr-2019 20:40:48
+3081@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@svare || så raskt som mulig og senest@2@9@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-ACTV-VERB-ICOMP-RULE@svare || så raskt som mulig og senest@2@9@23-apr-2019 20:40:48
+3081@1@4@3@FREE-SUBJPRED-SOM-RULE@svare så raskt || som mulig og senest@2@9@23-apr-2019 20:40:48
+3081@1@4@3@FREE-SUBJPRED-SOM-RULE@svare så raskt || som mulig og senest innen@2@10@23-apr-2019 20:40:48
+3081@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@svare så raskt som mulig og senest || innen@2@10@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || svare så raskt som mulig og senest@1@9@23-apr-2019 20:40:48
+3081@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@skal svare || så raskt som mulig og senest@1@9@23-apr-2019 20:40:48
+3081@1@4@3@FREE-SUBJPRED-SOM-RULE@skal svare så raskt || som mulig og senest@1@9@23-apr-2019 20:40:48
+3081@1@4@3@CMPAR-MOD-RULE@så raskt || som mulig og senest innen seks måneder@3@12@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-AUXVERB-BAREINFIN-COMP-RULE@skal || svare så raskt som mulig og senest innen@1@10@23-apr-2019 20:40:48
+3081@1@4@3@FREE-SUBJPRED-SOM-RULE@skal svare så raskt || som mulig og senest innen@1@10@23-apr-2019 20:40:48
+3081@1@4@3@HEAD-ACTV-VERB-ICOMP-RULE@svare || så raskt som mulig og senest innen seks måneder@2@12@23-apr-2019 20:40:48
+3081@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@svare så raskt som mulig og senest || innen seks måneder@2@12@23-apr-2019 20:40:48
+3081@1@4@3@FREE-SUBJPRED-SOM-RULE@svare så raskt || som mulig og senest innen seks måneder@2@12@23-apr-2019 20:40:48
+3081@1@4@3@NP-MOD-VP-TIME-RULE@svare så raskt som mulig og senest innen || seks måneder@2@12@23-apr-2019 20:40:48
+3081@1@4@3@ATELIC-ADV-MOD-VP-INDEX-SIT-RULE@skal svare || så raskt som mulig og senest innen seks måneder@1@12@23-apr-2019 20:40:48
+3081@1@4@3@ATELIC-PP-MOD-VP-INDEX-SIT-RULE@skal svare så raskt som mulig og senest || innen seks måneder@1@12@23-apr-2019 20:40:48
+3081@1@4@3@NP-MOD-VP-TIME-RULE@skal svare så raskt som mulig og senest innen || seks måneder@1@12@23-apr-2019 20:40:48
+3081@1@4@3@FREE-SUBJPRED-SOM-RULE@skal svare så raskt || som mulig og senest innen seks måneder@1@12@23-apr-2019 20:40:48

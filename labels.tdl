@@ -63,6 +63,11 @@ relcomp-label := label &
   RESUMPTIVE -,
   LABEL-NAME "PNrel" ].
 
+relfiller-label := label &
+[ SYNSEM lex-synsem & [ LOCAL.CAT.HEAD rel-filler ],
+  RESUMPTIVE -,
+  LABEL-NAME "PNrel" ].
+
 reflpron-label := label &
 [ SYNSEM lex-synsem & [ LOCAL.CAT.HEAD pers-pron ],
   SYNSEM.LOCAL.CONT.RELS.LIST.FIRST refl-pron-rel,
@@ -170,10 +175,243 @@ v-bar-label3 := label &
            NON-LOCAL.SLASH diff-list ],
   LABEL-NAME "V'" ].
 
+;;;; for valency marking
+
+v-ditrobl-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM.LOCAL.CAT ditrans-with-icomps-pp-cat,
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-ditrObl" ].
+
+v-intr-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT intrans-empty-icomps-cat ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-intr" ].
+
+v-introbl-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT intrans-with-icomps-pp-cat ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-intrObl" ].
+
+#|
+v-intrscpr-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT intrans-secpred-cat ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-intrScpr" ].
+|#
+
+v-trans-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT trans-nosecpred-empty-icomps-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME - ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-tr" ].
+
+#|
+v-trscpr-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT trans-ncomps-secpred-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME - ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-trScpr" ].
+|#
+
+v-trobl-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT trans-with-icomps-pp-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME - ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-trObl" ].
+
+v-ditr-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT ditrans-empty-icomps-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME - ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-ditr" ].
+
+v-cop-adj-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD copula & [COP +]],
+  SYNSEM [ LOCAL.CAT intrans-ncomps-secpred-cat ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "VcopA" ].
+
+v-cop-noun-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD copula & [COP +]],
+  SYNSEM [ LOCAL.CAT trans-nosecpred-empty-icomps-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD nom ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "VcopN" ].
+
+v-aux-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb-aux ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD verb-all ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "Vaux" ].
+
+v-refl-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT trans-nosecpred-empty-icomps-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME + ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "Vrefl" ].
+
+; han løper seg varm
+v-refl-scpr-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT trans-ncomps-secpred-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME + ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "Vrefl-scpr" ].
+
+;han setter seg i stolen
+v-refl-obl-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT trans-with-icomps-pp-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME + ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "Vrefl-obl" ].
+
+;han klør seg på ryggen
+v-refl-ob-obl-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb-all ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM trans-pp-arg1-detached-poss-refl-synsem,
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME + ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "Vrefl-trObl" ].
+
+; han unner seg en whisky
+v-refl-ob-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+  SYNSEM [ LOCAL.CAT ditrans-empty-icomps-cat ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME + ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "Vrefl-ob" ].
+
+; det setter seg en katt i trappen
+v-refl-pres-obl-label := label &
+[ SYNSEM subject-locobl-presentational-refl-synsem,
+  SYNSEM [ LOCAL.CAT.HEAD verb ],
+;  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE - ],
+;  SYNSEM [ LOCAL.CAT ditrans-with-icomps-pp-cat ],
+;  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING.LEX-TAME + ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "Vrefl-presObl" ].
+
+;det hender at han kommer
+v-extrapos := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE + ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD glob-comp ],
+  SYNSEM.LOCAL.CAT trans-empty-icomps-cat,
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-extrapos" ].
+
+;det avhenger av hvem som kommer
+v-extraposObl := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE + ],
+  SYNSEM.LOCAL.CAT trans-with-icomps-pp-cat,
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD nominal & [PRESENTED -]],
+  SYNSEM [ LOCAL.CAT.VAL.ICOMPS.FIRST [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp]],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-extraposObl" ].
+
+;det forekommer meg at han lyver
+v-extrapos-2-obj := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE + ],
+  SYNSEM.LOCAL.CAT ditrans-empty-icomps-cat,
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.REST.FIRST.LOCAL.CAT.HEAD glob-comp],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-obExtrapos" ].
+
+;det sitter en gutt
+v-presentational := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM.LOCAL.CAT trans-empty-icomps-cat,
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE + ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD nominal & [DEF -,
+							       PRESENTED +]],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-presntn" ].
+
+;det sitter en katt på trappen
+v-presentational-obl := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb ],
+  SYNSEM.LOCAL.CAT trans-cat,
+  SYNSEM [ LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE + ],
+  SYNSEM [ LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD nominal & [DEF -,
+							       PRESENTED +]],
+  SYNSEM [ LOCAL.CAT.VAL.ICOMPS.FIRST [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal]],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "V-presntnObl" ].
+
+#|
+v-label := label &
+[ SYNSEM [ LOCAL.CAT.HEAD verb-all ],
+  SYNSEM [ LOCAL.CAT.QVAL qval ],
+  SYNSEM.LOCAL.COMPS-BEGUN -,
+  INFLECTED -,
+  LABEL-NAME "" ].
+
+intrans-qval
+intrans-with-obl-pp-qval
+xintrans-with-2obl-pp-qval
+intrans-secpred-qval
+xintrans-doublesecpred-qval
+trans-qval
+trans-secpred-qval
+xtrans2-secpred-qval
+trans-with-obl-pp-qval
+xtrans-with-2obl-pp-qval
+ditrans-qval
+ditrans-with-obl-pp-qval
+|#
+
 v-label := label &
 [ SYNSEM [ LOCAL.CAT.HEAD verb-all ],
   SYNSEM.LOCAL.COMPS-BEGUN -,
   LABEL-NAME "V" ].
+
 
 infincomp-p-label := label & 
 [ SYNSEM phr-synsem &
@@ -202,7 +440,7 @@ adjctcomp-p-label := label &
 
 pred-comp-p-label := label & 
 [ SYNSEM phr-synsem &
-         [ LOCAL.CAT [ HEAD som-or-for& [KEYS.KEY predcomp], 
+         [ LOCAL.CAT [ HEAD som-or-for & [KEYS.KEY predcomp], 
                        VAL [ SUBJ <>, 
                              COMPS <>]],
            NON-LOCAL.SLASH <!!> ],
@@ -270,7 +508,7 @@ partp-label := label &
 [ SYNSEM [ LOCAL.CAT [ HEAD part-prep,
                      VAL [ COMPS <> ] ],
            NON-LOCAL.SLASH <! !> ],
-  LABEL-NAME "PP" ].
+  LABEL-NAME "NP" ].
 
 s-label5 := label & 
 [ SYNSEM [ LOCAL.CAT [ HEAD verb-all, 
@@ -303,7 +541,7 @@ det-label := label &
 expletive-label := label &
 [ SYNSEM.LOCAL.CAT [ HEAD expl-pron,
                      VAL [ SPEC < > ] ],
-  LABEL-NAME "expl" ].
+  LABEL-NAME "EXPL" ].
 
 art-label := label &
 [ SYNSEM.LOCAL.CAT [ HEAD art,

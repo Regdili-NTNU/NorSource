@@ -1,11 +1,11 @@
 ;; mal determinative
 ; mal-1st-pl-refl-np-obj-drop-rule
-; Gender mismatch 1
+; Gender mismatch 1  'dette gutten smiler'
 mal-n_spec-m_or_f_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-or-fem & [ NUM sing ],
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut & [ NUM sing ] ].
 
-; Gender mismatch 2
+; Gender mismatch 2 'denne fjellet smiler'
 mal-m_or_f_spec-n_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
 ;  NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
@@ -18,48 +18,58 @@ mal-f_spec-m_noun-head-spec-det-rule := mal-head-spec-det-phrase &
   NON-HEAD-DTR mal-art_for_dem-fem-sg-word & [ SYNSEM.LOCAL.AGR.PNG.NG fem & [ NUM sing ]] ].
 
 
-; Number mismatch 1
+; Number mismatch 1  'disse gutten smiler'
 mal-pl_spec-sg_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl ].
 
-; Number mismatch 2
+; Number mismatch 2  'denne guttene smiler'
+; TODO: for neuter plural short form we get absurd results - "det snille barn sover" gets punished by this rule, with "barn" read as plural
 mal-sg_spec-pl_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG sg ].
 
 ;; mal article
+;; TODO to get plur-sg mismatches for articles, one could generalize the rule applying to determiners. Creating a common type for det and art, for instance, as subtype of q-
 
+;'et mann smiler' 'et hytte smiler'
 mal-n_spec-m_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut ].
 
+;'ei mann smiler'
 mal-fem_spec-m_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG fem ].
 
+;'et hytte smiler
 mal-n_spec-f_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG fem,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut ].
 
+;'en fjell smiler' 'ei fjell smiler'
 mal-m_or_f_spec-n_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem ].
 
 ;; mal quantor
 
+;'hvert gutt smiler'
 mal-n_spec-m_or_f_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-or-fem & [ NUM #num ],
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut & [ NUM sing & #num ] ].
 
+;'hver fjell smiler'
 mal-m_or_f_spec-n_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neut & [ NUM #num ],
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem & [ NUM sing & #num ] ].
 
+;'noen gutt smiler'
 mal-pl_spec-sg_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl ].
 
+;'hver gutter smiler' 'hver fjell smiler'
 mal-sg_spec-pl_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG sg ].
@@ -126,6 +136,7 @@ mal-redundant-med-with-sammen-rule := mal-redundant-med-with-sammen-phrase.
 ;mal-np-in-sel-pp-drop-rule := mal-np-in-sel-pp-drop-phrase.
 
 ;The noun following the verb "GET-WORD-RIGHT" should not be introduced by a preposition.
+; this can operate only on verbs with object as their unique frame
 ;mal-vp-subcat-pp-for-np-rule := mal-vp-subcat-pp-for-np-phrase.
 
 ;IN:

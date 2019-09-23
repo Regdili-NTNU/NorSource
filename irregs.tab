@@ -223,6 +223,13 @@ båret ppart-nonfstr_infl_rule bære
 innebåret ppart-nonfstr_infl_rule innebære
 avhengt ppart-nonfstr_infl_rule avhenge
 hengt ppart-nonfstr_infl_rule henge
+løpt ppart-nonfstr_infl_rule løpe
+småløpt ppart-nonfstr_infl_rule småløpe
+påløpt ppart-nonfstr_infl_rule påløpe
+innløpt ppart-nonfstr_infl_rule innløpe
+forløpt ppart-nonfstr_infl_rule forløpe
+beløpt ppart-nonfstr_infl_rule beløpe
+utløpt ppart-nonfstr_infl_rule utløpe
 anløpt ppart-nonfstr_infl_rule anløpe
 sovet ppart-nonfstr_infl_rule sove
 bakbunder ppart-nonfstr_infl_rule bakbinde
@@ -265,6 +272,11 @@ utelot pret-nonfstr_infl_rule utelate
 utelatt ppart-nonfstr_infl_rule utelate
 
 løp pret-nonfstr_infl_rule løpe
+anløp pret-nonfstr_infl_rule anløpe
+småløp pret-nonfstr_infl_rule småløpe
+innløp pret-nonfstr_infl_rule innløpe
+utløp pret-nonfstr_infl_rule utløpe
+påløp pret-nonfstr_infl_rule påløpe
 forløp pret-nonfstr_infl_rule forløpe
 beløp pret-nonfstr_infl_rule beløpe
 
@@ -434,6 +446,8 @@ uteble pret-finalstr_infl_rule utebli
 uteblei pret-finalstr_infl_rule utebli
 bredte pret-finalstr_infl_rule bre
 utbredte pret-finalstr_infl_rule utbre
+bredde pret-finalstr_infl_rule bre
+utbredde pret-finalstr_infl_rule utbre
 
 brann pret-nonfstr_infl_rule brenne
 brant pret-nonfstr_infl_rule brenne
@@ -526,6 +540,8 @@ torde pret-nonfstr_infl_rule tore
 tort  ppart-nonfstr_infl_rule tore
 
 tro pret-finalstr_infl_rule trå
+
+; not working synes pres-infl_rule synes
 
 kvalte pret-nonfstr_infl_rule kvele
 kvalt ppart-nonfstr_infl_rule kvele
@@ -623,6 +639,9 @@ møtt ppart-nonfstr_infl_rule møte
 ;;;;;;;;;;
 brakte pret-nonfstr_infl_rule bringe
 brakt ppart-nonfstr_infl_rule bringe
+gråt pret-nonfstr_infl_rule gråte
+grått ppart-nonfstr_infl_rule gråte
+brast pret-nonfstr-et_infl_rule briste
 anbrakte pret-nonfstr_infl_rule anbringe
 anbrakt ppart-nonfstr_infl_rule anbringe
 bibrakte pret-nonfstr_infl_rule bibringe
@@ -718,6 +737,10 @@ planla pret-nonfstr_infl_rule planlegge
 planlagt ppart-nonfstr_infl_rule planlegge
 påla pret-nonfstr_infl_rule pålegge
 pålagt ppart-nonfstr_infl_rule pålegge
+lovpåla pret-nonfstr_infl_rule lovpålegge
+lovpålagt ppart-nonfstr_infl_rule lovpålegge
+tvangspåla pret-nonfstr_infl_rule tvangspålegge
+tvangspålagt ppart-nonfstr_infl_rule tvangspålegge
 vedla pret-nonfstr_infl_rule vedlegge
 vedlagt ppart-nonfstr_infl_rule vedlegge
 vektla pret-nonfstr_infl_rule vektlegge
@@ -1392,8 +1415,8 @@ ok strongpl-adj-nonfstr_infl_rule ok
 lat neutsg-adj-finstr_infl_rule lat
 eget neutsg-adj-finstr_infl_rule egen
 ; the following two are a hack, since masc and neut have to be kept distinct. Replaced by entries where these are 'ordinal-word'.
-;egen weak-adj-nonfstr_infl_rule egen
-;eget weak-adj-nonfstr_infl_rule egen
+egen weak-adj-nonfstr_infl_rule egen
+eget weak-adj-nonfstr_infl_rule egen
 bra neutsg-adj-finstr_infl_rule bra
 ru neutsg-adj-finstr_infl_rule ru
 
@@ -1411,6 +1434,10 @@ små weak-adj-nonfstr_infl_rule liten
 små strongpl-adj-nonfstr_infl_rule liten
 mindre comp-adj_re-nonfstr_infl_rule liten
 minst sup-adj-str_st-nonfstr_infl_rule liten
+mindre compar-adv_re-nonfstr_infl_rule liten 
+minst superlat-adv_st-nonfstr_infl_rule liten
+mindre compar-adv_re-nonfstr_infl_rule lite 
+minst superlat-adv_st-nonfstr_infl_rule lite
 minste sup-adj-wk_ste-nonfstr_infl_rule liten
 
 ørlite neutsg-adj-nonfstr_infl_rule ørliten
@@ -1423,19 +1450,25 @@ knøttsmå weak-adj-nonfstr_infl_rule knøttliten
 knøttsmå strongpl-adj-nonfstr_infl_rule knøttliten
 
 bedre comp-adj_ere-finstr_infl_rule god 
+bedre compar-adv_ere-finstr_infl_rule god 
 best sup-adj-str_est-finstr_infl_rule god
+best superlat-adv_est-finstr_infl_rule god
 beste sup-adj-wk_este-finstr_infl_rule god
 
 bra neutsg-adj-nonfstr_infl_rule bra
 bra weak-adj-nonfstr_infl_rule bra
 bra strongpl-adj-nonfstr_infl_rule bra
 bedre comp-adj_ere-finstr_infl_rule bra 
+bedre compar-adv_ere-finstr_infl_rule god 
 best sup-adj-str_est-finstr_infl_rule bra
+best superlat-adv_est-finstr_infl_rule god
 beste sup-adj-wk_este-finstr_infl_rule bra
 
 lengre comp-adj_ere-finstr_infl_rule lang
 lenger comp-adj_ere-finstr_infl_rule lang
 lengst sup-adj-str_est-finstr_infl_rule lang
+lengre compar-adv_ere-finstr_infl_rule lang 
+lengst superlat-adv_est-finstr_infl_rule lang
 lengste sup-adj-wk_este-finstr_infl_rule lang
 
 yngre comp-adj_ere-finstr_infl_rule ung
@@ -2210,6 +2243,7 @@ fratrene pl_def_m-or-f_final-full_irule frater
 messieursene pl_def_m-or-f_final-full_irule monsieur
 
 ;; pl_def_n_subst
+;fjella pl_def_n_final-full_irule fjell
 
 atelierene pl_def_n_final-full_irule atelier
 bordellkvarterene pl_def_n_final-full_irule bordellkvarter
@@ -2708,6 +2742,8 @@ konsentrasjonsleirer pl_ind_m-or-f_final-full_irule konsentrasjonsleir
 sommerleire pl_ind_m-or-f_final-full_irule sommerleir
 sommerleirer pl_ind_m-or-f_final-full_irule sommerleir
 
+ansatte pl_ind_m-or-f_final-full_irule ansatt
+foresatte pl_ind_m-or-f_final-full_irule foresatt
 
 ;; m17
 begonier pl_ind_m-or-f_final-full_irule begonia
@@ -3003,7 +3039,7 @@ waterproofer pl_ind_m-or-f_final-full_irule waterproof
 ;; pl_ind_n_subst
 
 fakta pl_ind_n_short_0_irule faktum
-faktum pl_ind_n_short_0_irule faktum
+;faktum pl_ind_n_short_0_irule faktum
 faktaene pl_def_n_final-full_irule faktum
 faktumene pl_def_n_final-full_irule faktum
 
@@ -4140,4 +4176,7 @@ tuklet sg_def_n_final-full_irule tukkel
 vaskemidlet sg_def_n_final-full_irule vaskemiddel
 vehiklet sg_def_n_final-full_irule vehikkel
 vognramlet sg_def_n_final-full_irule vognrammel
+
+
+
 "

@@ -36,3 +36,8 @@ downcase_tmr := one_one_form_tmt &
 [ +INPUT < [ +FORM ^(.*[[:upper:]].*)$, 
              +CLASS non_ne, +TNT null_tnt ] > ,
   +OUTPUT < [ +FORM "${lc(I1:+FORM:1)}" ] > ].
+
+
+year_ne_1_tmr := ne_tmt &
+[ +INPUT < [ +FORM ^(?:1[0-9])?[0-9]0[sS]$ ] >,
++OUTPUT < [ +CLASS year_ne ] > ].

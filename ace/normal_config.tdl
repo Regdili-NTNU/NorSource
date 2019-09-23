@@ -2,10 +2,11 @@
 
 grammar-top               := "../normal.tdl".
 variable-property-mapping := "../semi.vpm".
-maxent-model              := "../malgram_267.mem".
+maxent-model              := "../malgram_777.mem".
 preprocessor              := "../rpp/simple_tokenizer.rpp".
 parse-node-labels         := "../labels.tdl".
 version                   := "../Version.lsp".
+freezer-megabytes         := 360.
 
 semantic-inteface-top-type := top.
 

@@ -12,6 +12,7 @@ basic-binary-phrase :+
 
 ;;; MHS 040713 This works together with the other new stuff on NEED-Q-MARK + in matrix.tdl and root.tdl. 
 
+;LH101216 tentative trying to get 'hvor bor du?'
 head-invertsubject-interr-phrase :+
 [ SYNSEM.LOCAL.NEED-Q-MARK + ].
 
@@ -125,7 +126,8 @@ mal-subj-drop-phrase :+
 
 mal-possparticle-drop-phrase :+ 
 [ ARGS < [ SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY poss-droppy,
-       	   SYNSEM.LOCAL.CAT.HEAD.EXPLETIVE - ] >].
+       	   SYNSEM.LOCAL.CAT.HEAD.EXPLETIVE -,
+       	   SYNSEM.LOCAL.POSSPRON-TO-BARE-N - ] >].
  
 pers-pron :+ 
 [ MAL.MALDROPPY no-poss-droppy ].
@@ -164,7 +166,9 @@ adj-reg :+ [--GENDER-DISTINCTION bool].
 
 strong-adj-lxm :+ 
 [ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
-  ARGS < [SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd] > ].
+  SYNSEM.ALLOWS-mal-c_sg_strong-for-n_sg #mc,
+ ARGS < [SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
+         SYNSEM.ALLOWS-mal-c_sg_strong-for-n_sg #mc] > ].
 
 weak-adj-lxm :+ 
 [ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,

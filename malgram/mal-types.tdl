@@ -114,7 +114,8 @@ no-critical-changy := no-spec-to-n-changy & no-adj-to-adv-changy & no-art-to-det
 ;;; MHS 290613 MALCASE - is added to block analyses of "Mannen ham frykter" that combine mal-head-subject-rule and the mal-nominative "ham" so that the only mal analysis is by way of mal-object-before-the-verb-rule.
 
 mal-head-subject-phrase := head-subject-phrase-simple &
-[ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [INV +],
+[ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [INV +,
+					     MAIN-CL +], ;mainly a guess LH
   SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV mal-invy,
   FRONT-TO-FILL +,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE -, 
@@ -122,7 +123,8 @@ mal-head-subject-phrase := head-subject-phrase-simple &
 
 mal-head-invertsubject-decl-phrase := head-invertsubject-decl-phrase-super &
 [ SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV mal-invy,
-  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all& [INV -,
+					     MAIN-CL +], ;mainly a guess LH,
   FRONT-TO-FILL -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CTXT non-pron-discbnd,
   GENRE robust & [ MALDROP no-drop ] ].
@@ -136,6 +138,7 @@ mal-adjective-mod-def-phrase := var-cc_opn-m_noid-adjective-mod-phrase &
     SYNSEM.LOCAL.CAT.HEAD.DEFINITE +,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD #head,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD #head ] >,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAN-MODIFY +,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK [ LTOP #lbl,
 				      INDEX #arg1],
     C-CONT.RELS <! [ PRED "_deict_rel",
@@ -175,13 +178,14 @@ mal-head-spec-phrase-super := basic-head-spec-phrase &
     SYNSEM.LOCAL.BINDING.BOUND -,
     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
     SYNSEM.LOCAL.SPEC-TO-BARE-N #deriv,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <[LOCAL.DERIVED-HEAD -]>, ; outcommented to get 'ei mann smiler' as mal-analysis
     SYNSEM.LOCAL.BND-RESP #5,
  ;   HEAD-DTR.SYNSEM.LOCAL.MUST-COORDINATE -,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #8,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD np-head & [EXPLETIVE -],
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
-    HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD #deriv,
+    HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD #deriv & -,
     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #5,
    C-CONT.RELS <! !>,
    C-CONT [ HCONS <! !>]].
@@ -201,7 +205,7 @@ mal-head-spec-det-phrase := head-final & rule &
     SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,  
     SYNSEM.LOCAL.BINDING.BOUND -,
     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
-    SYNSEM.LOCAL.SPEC-TO-BARE-N #deriv,
+ ;   SYNSEM.LOCAL.SPEC-TO-BARE-N #deriv,
     SYNSEM.LOCAL.BND-RESP #5,
     SYNSEM.LOCAL.CONT.HOOK.INDEX  #1 & ref-ind,
     SYNSEM.LOCAL.AGR.PNG #png,
@@ -214,7 +218,8 @@ mal-head-spec-det-phrase := head-final & rule &
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR < [LOCAL.CAT.HEAD det] >,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
-    HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD #deriv,
+;    HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD #deriv,
+    HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #5,
     HEAD-DTR.SYNSEM.LOCAL.AGR.PNG #png,
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG #png,
@@ -320,6 +325,7 @@ mal-vp-to-inf-cp-phrase := mal-lost-element-phrase-const-val & mal-lost-element-
   SYNSEM.LOCAL.CONT.HOOK.LTOP #3,
   SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
   SYNSEM.LOCAL.AGR #agr,
+  SYNSEM.LOCAL.BINDING non-bound,
   C-CONT [ RELS <! [PRED "_inf-mark_rel",
 		    LBL #3,
                     ARG1 #4 ] !> ],
@@ -328,6 +334,7 @@ mal-vp-to-inf-cp-phrase := mal-lost-element-phrase-const-val & mal-lost-element-
 	   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE infin,
 	   SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
 	   SYNSEM.LOCAL.AGR #agr,
+	   SYNSEM.LOCAL.BINDING non-bound,
 	   SYNSEM.LOCAL.CAT.HEAD.MAIN-CL -,
            SYNSEM.LOCAL.CONT.HOOK.LTOP #4
 	] > ].
@@ -537,15 +544,18 @@ mal-refl-np-obj-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-elem
 							LOCAL.BINDING.REFL-II -,
 							LOCAL.BINDING.LEX-TAME +,
 							LOCAL.BND-RESP #rsp,
-							LOCAL.AGR.PNG #png ] >,
+							LOCAL.CAN-MAL-DROP +,
+	   LOCAL.AGR.PNG #png ] >,
   	   SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps,
   	   SYNSEM.LOCAL.CAT.VAL.SPR #spr,
 	   SYNSEM.LOCAL.BND-RESP #rsp,
 	   SYNSEM.VAL-CLASS single-frame,
-	   SYNSEM.LOCAL.CAN-MAL-DROP +,
+;	   SYNSEM.LOCAL.CAN-MAL-DROP +,
 	   SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
-	   SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop ] >,
-  GENRE.MALDROP refl-obj-drop ].
+	   SYNSEM.LEX +,
+	   SYNSEM.
+LOCAL.CONT.HOOK.LTOP #ltop ] >,
+GENRE.MALDROP refl-obj-drop ].
 
 ;; These are the concrete rule types.
 mal-3rd-refl-np-obj-drop-phrase := mal-refl-np-obj-drop-phrase &
@@ -688,9 +698,11 @@ mal-inf-cp-to-vp-phrase := phrase &
   SYNSEM.LOCAL.CAT.VAL #val,
   SYNSEM.LOCAL.CAT.QVAL #qval,
   SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+  SYNSEM.LOCAL.HAS-WH-MOVED -,
   SYNSEM.LOCAL.ADJ-SITE-SUBORD-OPEN -,
   SYNSEM.LOCAL.HAS-PUNCT - & #hpu,
   SYNSEM.LOCAL.HAS-PERIOD #hp,
+  SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
   SYNSEM.NON-LOCAL #nonlocal,
   FRONT-TO-FILL #ftf,
   INFLECTED +,
@@ -709,7 +721,7 @@ mal-inf-cp-to-vp-phrase := phrase &
 		   INFLECTED + ] > ].
 
 ;; Rule to let verbs subcategorize for objects rather than oblique arguments. 
-
+;; TODO: make one subtype of this rule for each preposition, matching the verb's selected preposition, so that an instruction about which prep must be used can be communicated
 mal-vp-subcat-np-for-pp-phrase := head-initial & head-valence-phrase & rule &
 [ SYNSEM.LOCAL.CAT.HEAD #head,
   SYNSEM.LOCAL.CAT.VAL.SUBJ #subj & < synsem >,
@@ -753,7 +765,9 @@ mal-vp-subcat-np-for-pp-phrase := head-initial & head-valence-phrase & rule &
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD nominal & [ ACCUSATIVE +, RELATIVPRON - ],
   NON-HEAD-DTR.SYNSEM.LOCAL.BINDING [LEX-TAME -, REFL-I -],
   NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #objind,
+  NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
   NON-HEAD-DTR.SYNSEM.NON-LOCAL.SLASH <! !>,
+;  NON-HEAD-DTR.SYNSEM.LEX -,
   NON-HEAD-DTR.EXTRACTED-FROM -,
   C-CONT.RELS <! arg12-relation & [ PRED "selected_prep_rel",
 ;		   LBL #handle,
@@ -770,6 +784,7 @@ mal-vp-subcat-np-for-pp-phrase := head-initial & head-valence-phrase & rule &
 ; ,
 ;   SYNSEM.LOCAL.KEY-SPEC til-k
 
+; TODO a single-frame requirement needed, for obligatorily transitive verbs
 mal-vp-subcat-pp-for-np-phrase := head-valence-phrase & head-initial & rule &
 [ SYNSEM.LOCAL.CAT.HEAD #head & verb & [ COP - ],
   SYNSEM.LOCAL.CAT.VAL.SUBJ #subj & < synsem >,
@@ -796,7 +811,7 @@ mal-vp-subcat-pp-for-np-phrase := head-valence-phrase & head-initial & rule &
   HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
   HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
   HEAD-DTR.SYNSEM.NON-LOCAL.SLASH <! !>,
-;  HEAD-DTR.SYNSEM.VAL-CLASS v-oblique-vt,
+;  HEAD-DTR.SYNSEM.VAL-CLASS v-oblique-vt,  
   HEAD-DTR.FRONT-TO-FILL #ftf,
   HEAD-DTR.EXTRACTED-FROM -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-ultra,

@@ -23,16 +23,19 @@
 sg_ind_subst_irule :=
 sg-noun-word & 
 [ ARGS < noun-infl-lexeme & 
-         [ SYNSEM.LOCAL.CAT.HEAD [DEF bool,
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF bool,; is used also for prenominal genitives, which are DEF +.
 				  DEFINITE -],
 	   INFLECTION [NUMB sing, DEFINITENESS ind] ] > ].
 
 ; den gode fe
+;ad SPR, cf also in norsk.tdl: a-mod-def-phrase := a-mod-phrase &
+;  [ SYNSEM.LOCAL.CAT.VAL.SPR list, ;cons,  "beste fremgangsmåte er å" - no need for a SPR
 sg_baredef_subst_irule :=
 sg-noun-word & 
 [ --A -, ;; MHS 120713 Part of the machinery for blocking this rule from applying in the mal-grammar.
   ARGS < def-noun-lexeme & 
-         [ SYNSEM.LOCAL.CAT.VAL.SPR <[LOCAL.CAT.HEAD headz]>,
+         [ SYNSEM.LOCAL.CAT.HEAD.DEFINITE -,
+	   SYNSEM.LOCAL.CAT.VAL.SPR <[LOCAL.CAT.HEAD headz]>,
 	   INFLECTION [NUMB sing, DEFINITENESS def] ] > ].
  
 

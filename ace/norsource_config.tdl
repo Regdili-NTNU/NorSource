@@ -2,10 +2,11 @@
 
 grammar-top               := "../pet.tdl".
 variable-property-mapping := "../semi.vpm".
-maxent-model              := "../norsource_90.mem".
+maxent-model              := "../bongram_776.mem".
 preprocessor              := "../rpp/simple_tokenizer.rpp".
 parse-node-labels         := "../labels.tdl".
 version                   := "../Version.lsp".
+freezer-megabytes         := 300.
 
 semantic-inteface-top-type := top.
 
@@ -51,6 +52,9 @@ mrs-deleted-roles :=
   WLINK CFROM CTO.
 
 label-path := LABEL-NAME.
+
+;; generic-les-for-semantic-index := generic_proper_ne generic_card_ne generic_ord_ne generic_dom_card_ne generic_dom_ord_ne generic_year_ne generic_date_ne generic_pl_noun_ne.
+generic-les-for-semantic-index := generic_card_ne generic_year_ne.
 
 ;;
 ;; token setting (from Woodley)

@@ -176,7 +176,7 @@ lexeme := norm-lex-item &
 
 phrase := phrase-or-lexrule &
   [ SYNSEM.LOCAL.ARG-S < >,
-    ROOT bool ].
+    ROOT bool].
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Affixation
@@ -226,6 +226,7 @@ synsem-min := avm &
     BIND bind-min,
     CAN-WTOW bool,
     DERIV-POT avm,
+    ALLOWS-mal-c_sg_strong-for-n_sg bool,
     VAL-CLASS val-class ].
 bind-min := avm.
 bind := bind-min.
@@ -314,6 +315,7 @@ local := local-min &
     CLIT-SITE-OPEN bool,
     CLIT-PRON-CONFIRMED bool,
     COMPS-BEGUN bool,
+    HIGHEST-V-PROJ bool,
     ADV-MODIFIED bool,
     DELIMTELFIXED bool,
     PATHTELFIXED bool,
@@ -328,6 +330,7 @@ local := local-min &
     CAN-CMB-INDEX-SIT bool,
     CAN-CMB-V bool,
     HAS-PUNCT bool,
+    IS-PUNCT bool,
     HAS-PERIOD bool,
     RIGHT-ADJ-SITE-OPEN bool,
     REL-CL-SOM-INIT bool,
@@ -356,6 +359,7 @@ local := local-min &
     INHER-WH bool,
     CAN-MODIFY bool,
     CMPAR-PENDING bool,
+    N-COMB-PENDING bool,
     MUST-COORD-PROJECT bool,
     MUST-CONNECT-PROJECT bool,
     MUST-COORDINATE bool,
@@ -363,7 +367,11 @@ local := local-min &
     WH-ISLAND bool,
     PROPERNAME bool,
     FIRSTNAME bool,
-    CAN-MAL-DROP bool ].
+    CAN-MAL-DROP bool,
+    CAN-PASSIVIZE bool,
+    UNARY-INFIN-REL bool,
+    SUBJ-SOM bool, ; for sub ject in embedded subj-questions
+    MODIFICATION-PERFORMED bool].
 
 
 binding := avm &
@@ -447,7 +455,9 @@ head := head-min &
     INV bool,
     ACCUSATIVE bool,
     EXPLETIVE bool,
-    COORDINABLE bool ].
+    COORDINABLE bool,
+    EXTRACTABLE bool,
+    POS tag-pos ].
 
 
 
@@ -510,7 +520,7 @@ super-hook := avm &
 hook := super-hook.
 comp-hook := hook.
 dir-hook := super-hook &
-  [ DIRARG ref-ind ].
+  [ DIRARG individual ]. ;ref-ind ].
 
 ; MRSs are divided into psoas (with a distinguished event) and
 ; nom-objs (with a distinguished index).  We use a polymorphic
@@ -651,7 +661,7 @@ super-event := event-or-ref-index.
 event := super-event &
   [ SORT verb-act-specification,
     SF iforce ].
-ad-event := super-event.
+ad-event := super-event. ; super- ; to complicated with oblique adjectives
 ;ad-event := super-event &
 ; [ TARG class-specified ].
 loc-event := ad-event.
@@ -752,6 +762,7 @@ arg1234-relation := arg123-relation &
 
 event-relation := arg0-relation &
   [ ARG0 event ].
+ad-event-relation := arg0-relation  &  [ ARG0 ad-event ]. 
 
 event-min-relation := arg0-relation &
 [ ARG0 event-min ].
@@ -1073,6 +1084,7 @@ infl-wtow-rule := word-to-word-rule & inflecting-lex-rule.
 
 headed-phrase := phrase & 
   [ ROOT -,
+;    SYNSEM.LEX -,
     SYNSEM.LOCAL [ CAT.HEAD head & #head,
                    AGR #agr ],
     HEAD-DTR.SYNSEM.LOCAL local &
@@ -1327,7 +1339,7 @@ basic-head-subj-phrase-super := head-nexus-phrase & binary-headed-phrase & phras
     HEAD-DTR.SYNSEM.LOCAL.CAT [ VAL [ SUBJ < #synsem >,
                                       SPR #spr,
                                       COMPS olist,
-                                      ICOMPS <> ],
+                                      ICOMPS list ], ; <>; to leave opening for 'jeg vet hvor du bor'
 				QVAL #3],
     HEAD-DTR.SYNSEM.LOCAL.COORD-RELEASED +,
     HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
@@ -1339,7 +1351,7 @@ basic-head-subj-phrase-super := head-nexus-phrase & binary-headed-phrase & phras
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #1,
     NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
     NON-HEAD-DTR.SYNSEM #synsem & canonical-synsem &
-		 [ LOCAL [ CAT [ VAL [ SUBJ antilist, ;; MHS 020411 Changed from onull to antilist
+		     [ LOCAL [ CAT [ VAL [ SUBJ antilist, ;; MHS 020411 Changed from onull to antilist
 				       COMPS olist,
 				       SPR olist,
 				       SPEC olist,
@@ -1616,7 +1628,7 @@ basic-head-spec-phrase-sup := head-valence-phrase & phrasal &
                                       POSTHEAD #ph],
                                 CONT.HOOK #hdhook,
                                 DERIVED-HEAD #2,
-				HAS-PUNCT -,
+;				HAS-PUNCT -,; applies to nested coordination with commas
 				HAS-PERIOD -],
                         MODIFIED #hmodif ] ],
     NON-HEAD-DTR.SYNSEM #synsem &
@@ -1626,7 +1638,7 @@ basic-head-spec-phrase-sup := head-valence-phrase & phrasal &
                                         MODIFIED #hmodif ] > ] ],
                    CONT.HOOK comp-hook ],
            LOCAL.HAS-INTERJECTION -,
-           LOCAL.HAS-PUNCT -,
+;           LOCAL.HAS-PUNCT -, ; applies to nested coordination with commas
            LOCAL.HAS-PERIOD -,
 	   MODIFIED #modif ],
     C-CONT [ HOOK super-hook ] ].
@@ -1640,10 +1652,8 @@ basic-head-spec-tweak-phrase := head-valence-phrase & phrasal &
                                SPEC list ],
                          POSTHEAD #ph ],
              MODIFIED #modif ],
-    SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
-;    SYNSEM.LOCAL.MUST-CONNECT-PROJECT -,
+;    SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
     HEAD-DTR [ INFLECTED +,
-;               HEAD-DTR.SYNSEM.LOCAL.MUST-COORDINATE -,
 	       SYNSEM [ LOCAL [ CAT [ VAL [ SUBJ #subj,
                                             COMPS #comps,
                                             SPR < #synsem & 
@@ -1656,7 +1666,7 @@ basic-head-spec-tweak-phrase := head-valence-phrase & phrasal &
                         MODIFIED #hmodif ] ],
     NON-HEAD-DTR.SYNSEM #synsem &
 	 [ LOCAL [ CAT [ VAL [ SPEC < [ LOCAL [ CAT.VAL.COMPS #comps,
-                                                CONT.HOOK.LTOP #ltop,
+;                                                CONT.HOOK.LTOP #ltop,
 						CONT.HOOK.INDEX #hdhook,
 						CONT.HOOK.XARG #xarg,
                                                 DERIVED-HEAD #2],
@@ -1750,7 +1760,7 @@ basic-extracted-comp-phrase := basic-extracted-arg-phrase &
                                    SPR #spr,
 				   ICOMPS #icomps,
                                    COMPS < gap &
-                                           [ NON-LOCAL.SLASH #slash ]
+                                           [ NON-LOCAL.SLASH #slash & [LIST.FIRST.CAT.HEAD.EXTRACTABLE +] ]
                                            . #comps > ],
 			     QVAL #qval],
 		 NON-LOCAL.SLASH #slash ] ],
@@ -1810,9 +1820,11 @@ basic-extracted-subj-phrase := basic-extracted-arg-phrase &
 head-mod-phrase := head-nexus-phrase &
   [ SYNSEM [ LOCAL.CAT.VAL [ SUBJ #subj,
                              SPR #spr ],
+	     VAL-CLASS #vc,
              MODIFIED hasmod ],
     HEAD-DTR.SYNSEM [ LOCAL.CAT.VAL [ SUBJ #subj,
                                       SPR #spr ],
+		      VAL-CLASS #vc,
                       NON-LOCAL [ REL 0-dlist ] ] ].
 
 basic-extracted-adj-phrase := head-mod-phrase & head-only & phrasal.
@@ -1893,7 +1905,50 @@ basic-head-mod-phrase-simple-sup := head-mod-phrase & binary-headed-phrase &
              NON-LOCAL [ SLASH [ LIST #middle,
                                  LAST #last ],
                          QUE 0-dlist & [ LIST null ] ] ]].
+;;
+basic-head-mod-phrase-simple-sup-extra := head-mod-phrase & binary-headed-phrase &
+  [ SYNSEM [ NON-LOCAL [ SLASH diff-list, ;[ LIST #first,
+				 ;LAST #last ],
+			 REL 0-dlist ] ],
+    HEAD-DTR.SYNSEM 
+           [ LOCAL [ CAT [ POSTHEAD #ph]],
+             NON-LOCAL #nonloc  &
+                   [ SLASH diff-list], ;[ LIST #first, ;#middle,  
+			                ;LAST #last ] ],
+          MODIFIED #modif ],
+    NON-HEAD-DTR.SYNSEM 
+           [ LOCAL.CAT [ HEAD [ MOD < [ LOCAL local & 
+                                              [ CAT [ POSTHEAD #ph]],
+                                        NON-LOCAL #nonloc,
+                                        MODIFIED #modif ] > ],
+                         VAL [ COMPS olist,
+                               SPR olist ]],
+             NON-LOCAL [ SLASH diff-list, ;<!!>, ;[ LIST #first,
+				 ;LAST #middle ],
+                         QUE 0-dlist & [ LIST null ] ] ]].
 
+
+head-mod-phrase-simple-sup-extra := basic-head-mod-phrase-simple-sup-extra &
+  [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #htop,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #htop,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.LTOP #htop ] >].
+
+basic-head-mod-phrase-simple-extra := basic-head-mod-phrase-simple-sup-extra  &
+  [ SYNSEM [ LOCAL.CONT.HOOK #hdhook],
+    HEAD-DTR.SYNSEM 
+           [ LOCAL [  CAT.VAL #val,
+		      CAT.HEAD #head,
+	              CONT.HOOK #hdhook,
+		      AGR #agr]],
+    NON-HEAD-DTR.SYNSEM 
+           [ LOCAL.CAT [ HEAD [ MOD < [ LOCAL [ CAT.VAL #val, 
+						CAT.HEAD #head,
+						CONT.HOOK #hdhook, 
+						AGR #agr ]] > ]]]].
+
+head-mod-phrase-simple-extra := head-mod-phrase-simple-sup-extra & basic-head-mod-phrase-simple-extra.
+
+;;
 
 basic-head-mod-phrase-simple := basic-head-mod-phrase-simple-sup  &
   [ SYNSEM [ LOCAL.CONT.HOOK #hdhook],
@@ -1929,8 +1984,21 @@ adj-head-phrase-sup := basic-head-mod-phrase-simple-sup & head-final &
 			  NON-LOCAL [ SLASH 0-dlist,
 				      REL 0-dlist ] ] ].
 
+adj-head-postnom-phrase-sup := basic-head-mod-phrase-simple-sup & head-initial &
+  [ SYNSEM [ LOCAL.CAT.POSTHEAD #ph,
+	     MODIFIED lmod ],
+    HEAD-DTR.SYNSEM [ LOCAL.CAT.POSTHEAD #ph],
+    NON-HEAD-DTR.SYNSEM [ LOCAL.CAT [ VAL.COMPS < > ],
+                          LOCAL.COORD-RELEASED +,
+			  NON-LOCAL [ SLASH 0-dlist,
+				      REL 0-dlist ] ],
+    NON-HEAD-DTR.SYNSEM.LEX - ].
+
 
 adj-head-phrase := adj-head-phrase-sup & head-mod-phrase-simple &
+  [ C-CONT.RELS <! !>  ].
+
+adj-head-postnom-phrase := adj-head-postnom-phrase-sup & head-mod-phrase-simple &
   [ C-CONT.RELS <! !>  ].
 
 ;LH020513

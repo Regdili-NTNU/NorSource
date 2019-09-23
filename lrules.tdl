@@ -33,11 +33,12 @@ sg-indef-cum-poss-noun-lxm-lrule := sg-indef-cum-poss-noun-lxm.
 sg-indef-cum-poss-and-enumerator-noun-lrule := sg-indef-cum-poss-and-enumerator-noun-lxm.
 sg-indef-cum-nounspec-noun-lxm-lrule := sg-indef-cum-nounspec-noun-lxm.
 sg-indef-cum-card-noun-lxm-lrule := sg-indef-cum-card-noun-lxm.
-plur-def-noun-lxm-lrule := plur-def-noun-lexeme.
+
 sg-masc-def-noun-lxm-lrule := sg-masc-def-noun-lexeme.
 sg-fem-def-noun-lxm-lrule := sg-fem-def-noun-lexeme.
 sg-neut-def-noun-lxm-lrule := sg-neut-def-noun-lexeme.
 
+plur-def-noun-lxm-lrule := plur-def-noun-lexeme.
 leak-pl-indef-noun-lxm-lrule := leak-pl-indef-noun-lexeme.
 cum-card-pl-indef-noun-lxm-lrule := cum-card-pl-indef-noun-lexeme.
 cum-q-pl-indef-noun-lxm-lrule := cum-q-pl-indef-noun-lexeme.
@@ -68,7 +69,8 @@ sup-adj-cum-part-lxm-lrule := sup-adj-cum-part-lxm.
 pass-ncomps1-lrule := passive-ncomps1.
 pass-dir-ncomps1-lrule := passive-dir-ncomps1.
 pass-ncomps2-lrule := passive-ncomps2.
-pass-presentational-lrule := subject-presentational-passive.
+;redundant, probably
+;pass-presentational-lrule := subject-presentational-passive.
 pass-dir-presentational-lrule := subject-dir-presentational-passive.
 pass-io-presentational-lrule := io-presentational-passive.
 pass-impersonal-presentational-lrule := impersonal-presentational-passive.
@@ -103,7 +105,8 @@ indefquant-to-bare-n-lrule := indefquant-to-bare-n-rule.
 indefquant-to-nonbare-n-lrule := indefquant-to-nonbare-n-rule.
 posspron-to-bare-n-lrule := posspron-to-bare-n-rule.
 posspron-to-nonbare-n-lrule := posspron-to-nonbare-n-rule.
-card-to-name-of-card-lrule := card-to-name-of-card-rule.
+;perhaps redundant given card-to-bare-n-lrule
+;card-to-name-of-card-lrule := card-to-name-of-card-rule.
 
 strsg-pastpt-adj_0_lrule := strsg-pastpt-adj-word.
 

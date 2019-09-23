@@ -53,6 +53,12 @@ line := role.
 xdim := role.
 spatial := role.
 temporal := role.
+non-spatial := role.
+non-temporal := role.
+non-line := role.
+non-xdim := role.
+non-location-non-temporal := non-spatial & non-temporal.
+non-loc-non-temp := non-location-non-temporal & non-spatial-temporal-class & non-line & non-xdim & non-xdim-to-xdim-spatial.
 
 timespan := line & temporal.
 oriented-obj := line & spatial.
@@ -473,6 +479,7 @@ locomotion-conduction := sachverhalt.
 ;III.;;;;;;;;;;SPECIFICATIONS FOR PREPOSITIONS;;;;;;;;;;;;;;;;;;;;;;;;
 
 spatial-temporal-class := situations & role.
+non-spatial-temporal-class := role.
 
 ;;;;;;;;;;;;;;;;;;;LINE-TO-XDIM;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 line-to-xdim := spatial-temporal-class.
@@ -487,7 +494,7 @@ line-to-starttime := line-to-xdim-temporal.
 line-to-viatime := line-to-xdim-temporal.
 line-to-targettime := line-to-xdim-temporal.
 
-;;;;;;;;;;;;;;;;;;XDIM-TO-XDIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+;;;;;;;;;;;;;;;;;;XDIM-TO-XDIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.
 
 xdim-to-xdim := spatial-temporal-class.
 positioning := xdim-to-xdim & 
@@ -498,6 +505,8 @@ positioning := xdim-to-xdim &
 
 xdim-to-xdim-spatial := xdim-to-xdim & spatial.
 xdim-to-xdim-temporal := xdim-to-xdim & temporal.
+non-xdim-to-xdim-spatial := role.
+
 
 front-back-axis := positioning &
                       [ FRONT bool,

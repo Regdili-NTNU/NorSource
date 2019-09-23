@@ -1,0 +1,26 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+
+;;;
+;;; copied from ERG
+;;;
+
+;;;
+;;; the first group of `unknown' generic entries, each for a specific PoS tag
+;;;
+
+;; generic_trans_verb_bse := v_np*_bse-unk_le &
+;;   [ ORTH < "_generic_vb_" >,
+;;     TOKENS.+LIST < [ +TNT.+TAGS.FIRST "VB" ] > ].
+
+;;;
+;;; and the second group of `generic' named entities, activated by their +CLASS
+;;; values, which get set in token mapping.  to avoid overlap with the unknown
+;;; lexical entries, the token mapping rules make sure to `empty out' the PoS
+;;; information whenever a named entity token is created.
+;;;
+
+; generic_year_ne := measure-specifictime-noun-lxm &
+;  [ ORTH < "_generic_year_ne_" >,
+;    TOKENS.+LIST < [ +CLASS year_ne ] > ].
+    
+ 

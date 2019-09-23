@@ -30,9 +30,14 @@ mal-past-inf-like-2_infl_rule := never_unify_lr.
 
 
 pres-infl_rule :=
-%suffix (* r)(s s)
+%suffix (* r) (s s)
 infl-pres-verb-word &
 [ ARGS < [ INFLECTION phon ] > ].
+
+;pres-s-infl_rule :=
+;%suffix (s s)
+;const-pres-verb-word &
+;[ ARGS < [ INFLECTION phon ] > ].
 
 
 pret-finalstr_infl_rule :=
@@ -54,7 +59,7 @@ infl-pret-verb-word &
 [ ARGS < [ INFLECTION nonfstr-te ] > ].
 
 pret-nonfstr-et_infl_rule :=
-%suffix (e a) (e et) (es es) (es edes)
+%suffix (e a) (e et) (tes ttes) (es edes)
 infl-pret-verb-word &
 [ ARGS < [ INFLECTION nonfstr-et ] > ].
 
@@ -108,11 +113,14 @@ imp-const_infl_rule :=
 const-imp-verb-word &
 [ ARGS < [ INFLECTION finstr ] > ].
 
+#|
 ; desuspended, for non-PET purposes
 imp-delete_infl_rule :=
 %suffix (!ae !a)
 infl-imp-verb-word &
-[ ARGS < [ INFLECTION nonfstr ] > ].
+[ ARGS < [ INFLECTION nonfstr,
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pres ] > ].
+|#
 
 ; must be suspended, for PET purposes
 ;imp-delete_infl_rule :=
@@ -122,13 +130,20 @@ infl-imp-verb-word &
 
 ; spørre-spør! gjemme-gjem!
 
+imp-delete_infl_rule :=
+%suffix (ae e)(be b)(de d)(ee e)(fe f)(ge g)(ie i)(je j)(ke k)(le l)(ae e)(me m)(mme m)(ne n)(oe o)(pe p)(re r)(spørre spør)(se s)(te t)(ve v)(xe x)
+infl-imp-verb-word &
+[ ARGS < [ INFLECTION nonfstr,
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pres ] > ].
+
+
 s-passive_s_infl_rule := 
-%suffix (* s)
+%suffix (* s)(s s)
 s-pass-word &
 [ ARGS < [ INFLECTION phon ] > ].
 
 s-passive_es_infl_rule := 
-%suffix (* es)
+%suffix (* es)(es es)
 s-pass-word & 
   [ ARGS.FIRST.INFLECTION finstr ].
 

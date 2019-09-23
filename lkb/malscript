@@ -47,13 +47,14 @@
   (lkb-pathname (parent-directory) "matrix.tdl")
   (lkb-pathname (parent-directory) "tmt.tdl") 
  ;;(lkb-pathname (parent-directory) "transfer.tdl")
-  (lkb-pathname (parent-directory) "exp-types.tdl")
+ ;; (lkb-pathname (parent-directory) "exp-types.tdl")
   (lkb-pathname (parent-directory) "norsk.tdl")
   (lkb-pathname (parent-directory) "lex-types-v.tdl")
   (lkb-pathname (parent-directory) "v-types-add-SLASH.tdl")
   (lkb-pathname (parent-directory) "predsort.tdl")
   ;;(lkb-pathname (parent-directory) "norskpredsort.tdl")
   ;;(lkb-pathname (parent-directory) "out.txt.new")
+  (lkb-pathname (parent-directory) "STEMonly_sorted.tdl")
   (lkb-pathname (parent-directory) "mtr.tdl")
   (lkb-pathname (parent-directory) "malgram/mal-types.tdl")
   (lkb-pathname (parent-directory) "malgram/support-types.tdl")
@@ -71,59 +72,23 @@
 ;;  (load-lexdb-from-script))
 ;; (t
   (read-cached-lex-if-available (list (lkb-pathname (parent-directory) "dummy-lex.tdl")))
-;;  (read-cached-sublex-if-available "lex4.abbrev-lrg" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.abbrev-lrg.tdl")))
- ;; (read-cached-sublex-if-available "lex4.a-lrg" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.a-lrg.tdl")))
-;;  (read-cached-sublex-if-available "lex4.interj-lrg" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.interj-lrg.tdl")))
-;;  (read-cached-sublex-if-available "lex4.pre-lrg" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.pre-lrg.tdl")))
-;;  (read-cached-sublex-if-available "Statistisk sentralbyrå" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.Statistisk sentralbyrå.tdl")))
-  
-;;  (read-cached-sublex-if-available "lex4.v-lrg.tdl" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.v-lrg.tdl")))
 
-;;(read-cached-sublex-if-available "lex3.v-troll.tdl" (list (lkb-pathname (parent-directory) "BigLex/lex3.v-troll.tdl")))
-;;(read-cached-sublex-if-available "troll-verbs.tdl" (list (lkb-pathname (parent-directory) "BigLex/troll-verbs.tdl")))
-;; (read-cached-sublex-if-available "troll-adj.tdl" (list (lkb-pathname (parent-directory) "BigLex/troll-adj.tdl")))
-;; (read-cached-sublex-if-available "troll-nom.tdl" (list (lkb-pathname (parent-directory) "BigLex/troll-nom.tdl")))
-
-;; next, load the small lexicons
-  (read-cached-sublex-if-available "lex1.close.tdl" (list (lkb-pathname (parent-directory) "lex1.close.tdl")))	
-  (read-cached-sublex-if-available "lex2.open.tdl" (list (lkb-pathname (parent-directory) "lex2.open.tdl")))
-;;  (read-cached-sublex-if-available "lex2.semlab.tdl" (list (lkb-pathname (parent-directory) "lex2.semlab.tdl")))
-;;(read-cached-sublex-if-available "lex3.p-adv-lean.tdl" (list (lkb-pathname (parent-directory) "lex3.p-adv-lean.tdl")))
-;;(read-cached-sublex-if-available "lex3.p-adv-prepsort.tdl" (list (lkb-pathname (parent-directory) "lex3.p-adv-prepsort.tdl")))
-;;(read-cached-sublex-if-available "lex3.p-adv-trail.tdl" (list (lkb-pathname (parent-directory) "lex3.p-adv-trail.tdl")))
-;;(read-cached-sublex-if-available "lex3.p-adv-decmp.tdl" (list (lkb-pathname (parent-directory) "lex3.p-adv-decmp.tdl")))
-  (read-cached-sublex-if-available "lex3.p-adv-full.tdl" 
-   (list (lkb-pathname (parent-directory) "lex3.p-adv-full.tdl")))
-  (read-cached-sublex-if-available "lex4.propn1.tdl"
-   (list (lkb-pathname (parent-directory) "lex4.propn1.tdl")))
-  (read-cached-sublex-if-available "lex4.propn2.tdl" 
-   (list (lkb-pathname (parent-directory) "lex4.propn2.tdl")))
-  (read-cached-sublex-if-available "lex4.a-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.a-lrg.tdl")))
-  (read-cached-sublex-if-available "lex4.n-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.n-lrg.tdl")))
-  (read-cached-sublex-if-available "lex4.v-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.v-lrg.tdl")))
-;;  (read-cached-sublex-if-available "game-lex.tdl" (list (lkb-pathname (parent-directory) "game-lex.tdl")))
-;;  (read-cached-sublex-if-available "lex4.abbrev-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.abbrev-lrg.tdl")))
+;; next, load the lexicons
+(read-cached-sublex-if-available "lex_close.tdl" (list (lkb-pathname (parent-directory) "lex_close.tdl")))	
+(read-cached-sublex-if-available "lex_p-adv.tdl" (list (lkb-pathname (parent-directory) "lex_p-adv.tdl")))
+(read-cached-sublex-if-available "lex_propername.tdl"    (list (lkb-pathname (parent-directory) "lex_propername.tdl")))  
+(read-cached-sublex-if-available "lex_a.tdl" (list (lkb-pathname (parent-directory) "lex_a.tdl")))
+(read-cached-sublex-if-available "lex_n.tdl" (list (lkb-pathname (parent-directory) "lex_n.tdl")))
+(read-cached-sublex-if-available "lex_v.tdl" (list (lkb-pathname (parent-directory) "lex_v.tdl")))
+(read-cached-sublex-if-available "lex_abbrev.tdl" (list (lkb-pathname (parent-directory) "lex_abbrev.tdl")))
+(read-cached-sublex-if-available "ordbank_missing_egennavn.tdl" (list (lkb-pathname (parent-directory) "ordbank_missing_egennavn.tdl")))
 ;;  (read-cached-sublex-if-available "lex4.interj-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.interj-lrg.tdl")))
-  (read-cached-sublex-if-available "mal-closed-lex.tdl" (list (lkb-pathname (parent-directory) "malgram/mal-closed-lex.tdl")))
- ; (read-cached-sublex-if-available "now-lex.tdl" (list (lkb-pathname (parent-directory) "now-lex.tdl")))
+(read-cached-sublex-if-available "mal-closed-lex.tdl" (list (lkb-pathname (parent-directory) "malgram/mal-closed-lex.tdl")))
+;; (read-cached-sublex-if-available "now-lex.tdl" (list (lkb-pathname (parent-directory) "now-lex.tdl")))
 
-  (read-cached-sublex-if-available "lex4.propn.by_navn.tdl"
-   (list (lkb-pathname (parent-directory) "lex4.propn.by_navn.tdl")))
-  (read-cached-sublex-if-available "lex4.propn.etternavn.tdl"
-   (list (lkb-pathname (parent-directory) "lex4.propn.etternavn.tdl")))
-    (read-cached-sublex-if-available "lex4.propn.fylkesnavn.tdl"
-   (list (lkb-pathname (parent-directory) "lex4.propn.fylkesnavn.tdl")))
-  (read-cached-sublex-if-available "lex4.propn.guttenavn.tdl"
-   (list (lkb-pathname (parent-directory) "lex4.propn.guttenavn.tdl")))
-  (read-cached-sublex-if-available "lex4.propn.jentenavn.tdl"
-   (list (lkb-pathname (parent-directory) "lex4.propn.jentenavn.tdl")))
-  (read-cached-sublex-if-available "lex4.propn.kommune_navn.tdl"
-   (list (lkb-pathname (parent-directory) "lex4.propn.kommune_navn.tdl")))
-  (read-cached-sublex-if-available "lex4.propn.land_navn.tdl"
-   (list (lkb-pathname (parent-directory) "lex4.propn.land_navn.tdl")))
 
 ;;; UNCOMMENT LINE BELOW TO activate compounder
-;(setf *lexicon* (make-instance 'compound-lex-database :lex *lexicon*))
+;;;(setf *lexicon* (make-instance 'compound-lex-database :lex *lexicon*))
 
 ;;;
 ;;; Finally, the grammar rules, lexical rules (given special treatment in the
