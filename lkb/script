@@ -25,7 +25,8 @@
 ;;;
 (load-irregular-spellings
  (list
-  (lkb-pathname (parent-directory) "irregs.tab")
+  (lkb-pathname 
+     (parent-directory) "irregs.tab")
 ;;  (lkb-pathname (parent-directory) "sg_def_m_subst.irreg") 
 ;;  (lkb-pathname (parent-directory) "pl_ind_m_subst.irreg")
 ;;  (lkb-pathname (parent-directory) "pl_def_m_subst.irreg")
