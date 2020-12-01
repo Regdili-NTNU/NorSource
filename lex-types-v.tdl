@@ -32,6 +32,7 @@ v-intrObl2 := intrans-2obl-verb-lexeme.
 v-intrOblAdv := intrans-adv-obl-verb-lexeme.
  
 v-intrObl-oblN := intrans-obl-n-verb-lexeme. 
+v-trObl-oblN := trans-obl-n-verb-lexeme. 
 v-intrObl-oblDECL := intrans-obl-decl-verb-lexeme.
 v-intrObl-oblDECL-oblSom := v-intrObl-oblDECL &
   [SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD.KEYS.KEY som-clse ]>].
@@ -394,10 +395,13 @@ v-trPrtclShft := trans-telicparticle-shift-arg1-x-verb-lexeme.
 ;LH may0611 - NEW
 v-trPrtclShft-obCLAUSE := trans-particleshift-eventobj-verb-lexeme.
 ; "han regner ut at/hva/om..."
+v-trPrtclShft-obINTERR := trans-particleshift-eventobj-verb-lexeme.
 v-trScpr-obDir_obRefl_scObNrgCsd := trans-secpred-refl-dir-verb-lexeme.
 ; sparke ballen flat (defined for sc prep-or-adj)
 v-trScpr-scObArgCsd-sup := trans-secpred-arg1-2-x-verb-lexeme.
-v-trPrtcl := trans-secpred-arg1-2-x-verb-lexeme.
+v-trPrtcl := trans-secpred-arg1-2-x-verb-lexeme. ;LH27102020
+;v-trPrtcl := trans-secpred-super-arg1-x-verb-lexeme.;LH27102020
+;v-trPrtcl := trans-particle-arg1-x-verb-lexeme. ;LH27102020
 ; sparke_secpred-refl (defined for sc prep-or-adj)
 v-trScpr-obRefl_scObArgCsd := trans-secpred-arg1-2-x-refl-verb-lexeme.
 ; sparke_particleshift "sparke bort ballen"
@@ -427,6 +431,11 @@ v-intrComp-compWH := trans-indirwhquest-verb-lexeme.
 v-intrComp-compYN := trans-indir-y-n-quest-verb-lexeme.
 ; overlate, vise_1, unne
 v-ditr := ditrans-arg1-2-3-verb-lexeme.
+v-tr-obINTERR := trans-indir-interr-verb-lexeme.
+
+v-trPrtcl-obDECL := trans-secpred-arg1-2decl-x-lexeme.
+v-trPrtcl-obINTERR := trans-secpred-arg1-2interr-x-lexeme.
+
 ; unne_1 (seg)
 v-ditr-iobRefl := ditrans-arg1-2-3refl-verb-lexeme.
 ; vise
@@ -565,6 +574,24 @@ v-trScpr-scObArgCsd_scLoc := v-trScpr-scObArgCsd-sup &
 				       LOCAL.CONT.RELS.LIST.FIRST positioning-spatial-rel] > ].
 v-trScpr-scObArgCsd_scEndpt := v-trScpr-scObArgCsd-sup &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD prep-or-adv & [KEYS.KEY fixpt-dir]] > ].
+
+; types used in NorVal, being shorter:
+trScpr-scObCsd-scLoc := v-trScpr-scObArgCsd_scLoc.
+trScpr-scObLoc := v-trScpr-scObArgCsd_scLoc.
+;trScpr-obRefl-scObLoc := v-trScpr-scObNrgCsd_obRefl.
+trScpr-obRefl-scObLoc := v-trScpr-obDir_obRefl_scObNrgCsd.
+trScpr-scObCsd:= v-trScpr-scObCsd.
+trScpr-obRefl-scObCsd := v-trScpr-scObNrgCsd_obRefl.
+
+;Norsource types flavored by NorVal:
+v-trScpr-scObCsd := v-trScpr-scObArgCsd.
+v-trScpr-scObCsd-scLoc := v-trScpr-scObArgCsd_scLoc.
+v-trScpr-scObCsd_scLoc := v-trScpr-scObArgCsd_scLoc.
+v-trScpr-scObNrg-scPcp := v-trScpr-scObNrg_scPcp.
+
+v-trScpr-obRefl_scObCsd := v-trScpr-scObNrgCsd_obRefl.
+v-trScpr-scObLoc := v-trScpr-scObArgCsd_scLoc.
+
 
 ;v-trScprShft-scObArgCsd_scLoc
 ;v-trScpr-obRefl-scObArgCsd_scLoc

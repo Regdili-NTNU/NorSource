@@ -966,6 +966,8 @@ bort-k := predsort.
 hen-k := predsort.
 vill-k := predsort.
 frem-k := predsort.
+ifra-k := predsort.
+full-k := predsort.
 frempå-k := predsort.
 fram-k := predsort.
 frampå-k := predsort.
@@ -1019,6 +1021,7 @@ heldigvis-k := predsort.
 eksempelvis-k := predsort.
 for-eksempel-k := predsort.
 nettopp-k := predsort.
+allerede-k := predsort.
 ensidig-k := predsort.
 akkurat-k := predsort.
 imidlertid-k := predsort.
@@ -1693,6 +1696,8 @@ eget-pseudoweak := eget-k & designated-pseudoweak.
 adv-selct := selct.
 pcl := adv-selct.
 ut-pcl := pcl & ut-k.
+ifra-pcl := pcl & ifra-k.
+full-pcl := pcl & full-k.
 ute-pcl := pcl & ute-k.
 opp-pcl := pcl & opp-k.
 ned-pcl := pcl & ned-k.
@@ -1705,6 +1710,8 @@ på-pcl := pcl & på-k.
 over-pcl := pcl & over-k.
 fremover-pcl := pcl & fremover-k.
 framover-pcl := pcl & framover-k.
+gjennom-pcl := pcl & gjennom-k.
+igjennom-pcl := pcl & igjennom-k.
 frem-pcl := pcl & frem-k.
 fram-pcl := pcl & fram-k.
 etter-pcl := pcl & etter-k.
@@ -1791,6 +1798,7 @@ for-eksempel-adv-s := adv-s & for-eksempel-k.
 nettopp-adv-s := adv-s & nettopp-k.
 ensidig-adv-s := adv-s & ensidig-k.
 akkurat-adv-s := adv-s & akkurat-k.
+allerede-adv-s := adv-s & allerede-k.
 også-adv-s := adv-s & også-k.
 altså-adv-s := adv-s & altså-k.
 fremdeles-adv-s := adv-s & fremdeles-k.
@@ -4188,9 +4196,9 @@ adv-particle-word :=   reg-mod-lex-item & word & no-slash & const-ltow-rule &
      SYNSEM.LKEYS.KEYREL [ ARG1 #mod ],
      SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
-     SYNSEM [LOCAL [CAT [HEAD #3 & adv-reg & [ MOD <[LOCAL.CONT.HOOK hook] >, ;; MHS 090813 Added no-slash to constrain some odd behaviour. I seem to recall having added this constraint before, which makes it odd that it was lacking now, though it might have been done around revision 212, which means it may have been lost at that point.
-                                              SELECTED +,
-                                              KEYS.KEY pcl ]],
+     SYNSEM [LOCAL [CAT [HEAD #3 & adv & [ MOD <[LOCAL.CONT.HOOK hook] >, 
+					   SELECTED +,
+					   KEYS.KEY pcl ]],
                    XCAT.HEAD #3,
                    CONT.HOOK.INDEX ad-event ]]].
 
@@ -8010,6 +8018,11 @@ trans-obladv-verb-lexeme := verb-lexeme &
 trans-refl-obladv-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-refl-obladv-synsem ].
 
+trans-obl-n-verb-lexeme := verb-lexeme &
+[ SYNSEM trans-obl-n-synsem ].
+
+
+
 
 trans-dir-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-dir-synsem ].
@@ -8409,6 +8422,15 @@ trans-secpred-shift-arg1-x-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-secpred-shift-arg1-x-synsem & 
          [LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD prep-or-adj-or-adv ], [] >]]].
 
+;LH 27202020
+;trans-secpred-super-arg1-x-verb-lexeme := verb-lexeme &
+;[ SYNSEM.LOCAL.CAT trans-secpred-cat ].
+
+;LH 27202020
+;trans-particle-arg1-x-verb-lexeme := verb-lexeme &
+;[ SYNSEM trans-particle-arg1-x-synsem-sup &
+;         [LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD prep-or-adv & [KEYS.KEY pcl] ]].
+
 trans-secpred-arg1-x-refl-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-secpred-arg1-x-refl-synsem & 
          [LOCAL.CAT.VAL [COMPS < [],
@@ -8488,6 +8510,12 @@ trans-ppshift-refl-implicit-verb-lexeme := verb-lexeme &
 ; se_subord
 trans-subord-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-subord-synsem ].
+
+trans-secpred-arg1-2decl-x-lexeme := verb-lexeme &
+[ SYNSEM trans-secpred-arg1-2decl-x-synsem ].
+
+trans-secpred-arg1-2interr-x-lexeme := verb-lexeme &
+[ SYNSEM trans-secpred-arg1-2interr-x-synsem ].
 
 ; se_subord
 trans-barefinite-subord-verb-lexeme := verb-lexeme &
@@ -9954,7 +9982,7 @@ stnd-adj-lxm-sup := adj-lxm &
 ;SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL.CAT.HEAD noun ]>,
 ;    							     DEFINITE -]
 stnd-adj-lxm := stnd-adj-lxm-sup & reg-mod-lex-item &
-  [ SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD np-head,
+  [ SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD head,  ; previous np-head, but blocks coordination of adjectives, which goes as adjunction
 				  LOCAL.CONT.HOOK.INDEX #mod ] >,
      SYNSEM.LKEYS.KEYREL [ ARG1 #mod ],
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
@@ -14686,12 +14714,12 @@ adjective-mod-indef-phrase := a-mod-indef-phrase & adjective-mod-phrase &
   [ SYNSEM.LOCAL.CMPAR-PENDING #2,
     SYNSEM.LOCAL.CONT.HOOK.CMPAR-PRED #4,
     SYNSEM.LOCAL.CAT.HEAD.COMPAR-DEP #dep,
-    SYNSEM.LOCAL.CAT.POSTHEAD -,
+;    SYNSEM.LOCAL.CAT.POSTHEAD -,; had to outcomment to get 'en snill, hyggelig mann sover'
     HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING -,
     HEAD-DTR.SYNSEM.LOCAL.IS-PUNCT -,
     NON-HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING #2,
-    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.POSTHEAD -,
+;    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -, ; a modifying AP might contain comma - snill, søt
+ ;   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.POSTHEAD -,;; had to outcomment to get 'en snill, hyggelig mann sover'
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.CMPAR-PRED #4,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.COMPAR-DEP #dep,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.WEAK - ]. 
@@ -14703,8 +14731,10 @@ adjective-mod-indef-postnom-phrase := a-mod-indef-postnom-phrase &
     SYNSEM.LOCAL.CONT.HOOK.CMPAR-PRED #4,
     SYNSEM.LOCAL.CAT.HEAD.COMPAR-DEP #dep,
     HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING -,
+    HEAD-DTR.SYNSEM.LOCAL.IS-PUNCT -,
     NON-HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING #2,
     NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
+    NON-HEAD-DTR.SYNSEM.LOCAL.IS-PUNCT -,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.CMPAR-PRED #4,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.COMPAR-DEP #dep ]. 
 
@@ -14865,11 +14895,16 @@ end-punctuation-mod-phrase := head-adj-phrase &
     C-CONT [RELS <! !>,
             HCONS <! !>]  ].
 
+; 03022020 from lex.closed, to be insrted there
+;og-comma_a-connect := a-connect-comma &
+;  [ STEM < "," >,
+;    SYNSEM.LKEYS.KEYREL [PRED "_og-connect_rel"]].
+
 
 ;these all three look strange
-;MOD < [ LOCAL.CAT.HEAD verb-all ] 
+;MOD < [ LOCAL.CAT.HEAD verb-all ] - well why not
 punctuation-mod-for-v-phrase := phrasal &
-  [ SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD head] >].
+  [ SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD verb-all] >].
 
 punctuation-mod-for-ndir-phrase := phrasal &
   [ ARGS < [SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD noun & [KEYS.KEY dirnoun] ] >], [] >].
@@ -15293,8 +15328,8 @@ connect-a-mod-phrase := connector-leftmod-phrase &
     SYNSEM.LOCAL.CONT.HOOK.VARG #arg1,
     SYNSEM.LOCAL.WH-ISLAND +,
     SYNSEM.LOCAL.MUST-COORDINATE +,
-    SYNSEM.LOCAL.HAS-PUNCT +, ; adhoc
-    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-reg & [MOD < [LOCAL.CAT.HEAD head]>],;because adjectives generally modify nouns
+;    SYNSEM.LOCAL.HAS-PUNCT +, ; adhoc
+    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-reg & [MOD < [LOCAL.CAT.HEAD adj-reg]>],
     ARGS < a-connector, sign & [SYNSEM.LOCAL.CAT.HEAD adj-reg,
 				SYNSEM.LOCAL.AGR #agr,
 				SYNSEM.LKEYS.KEYREL.ARG1 #arg1,
@@ -15905,17 +15940,16 @@ a-connect-phrase := head-adj-phrase & rule &
  a-connect-phrase := head-adj-phrase & rule &
   [ SYNSEM.LOCAL.AGR #agr,
     SYNSEM.LOCAL.WH-ISLAND +,
-;    SYNSEM.LOCAL.CONT.HOOK.XARG #1,
-;    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.XARG #1,
-;    HEAD-DTR adj-to-bare-n-rule,
+    SYNSEM.LOCAL.IS-PUNCT -,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-reg,
-;    SYNSEM.LKEYS.KEYREL.ARG1 #arg1,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #arg1,
     HEAD-DTR.SYNSEM.LOCAL.AGR #agr,
+    HEAD-DTR.SYNSEM.LOCAL.IS-PUNCT -,
     NON-HEAD-DTR.SYNSEM.LOCAL.AGR #agr,
-;    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #arg1,
+    NON-HEAD-DTR.SYNSEM.LOCAL.IS-PUNCT -,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-reg,
     NON-HEAD-DTR.SYNSEM.LKEYS.KEYREL.ARG1 #arg1,
-    NON-HEAD-DTR connect-a-mod-phrase,
+;    NON-HEAD-DTR connect-a-mod-phrase,
      C-CONT [RELS <! !>,
              HCONS <! !>]].
 
@@ -22052,11 +22086,27 @@ trans-secpred-arg1-x-synsem-sup := argx-predicative-synsem & arg1-subj-synsem &
 			    LOCAL.CONT.HOOK.XARG #5 ] >,
     LOCAL.CAT.VAL.ICOMPS <> ].
 
+; Blind alley 27202020
+#|
+trans-particle-arg1-x-synsem-sup := argx-predicative-synsem & arg1-subj-synsem &
+  [ LOCAL.CONT.HOOK hook,
+    LOCAL.CAT.HEAD verb-all,
+    LOCAL.KEY-SPEC #1,
+    LOCAL.CAT trans-ncomps-secpred-invert-cat,
+    LOCAL.CAT.VAL.COMPS < #pred, #obj >,
+    LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CONT.HOOK.INDEX #5 & [SORT referential-thing],
+                           LOCAL.CAT.HEAD.DEF + ], 
+    LOCAL.CAT.QVAL.PREDIC #pred & [ LOCAL.CAT.HEAD [ KEYS.KEY #1],
+			    LOCAL.CONT.HOOK.XARG #5 ] ,
+    LOCAL.CAT.VAL.ICOMPS <> ].
+|#
+
 ;LH may7-11
 trans-secpred-shift-arg1-x-synsem-sup := argx-predicative-synsem & arg1-subj-synsem &
   [ LOCAL.CONT.HOOK hook,
     LOCAL.CAT.HEAD verb,
     LOCAL.CAT trans-ncomps-secpred-cat,
+;    LOCAL.CAT trans-ncomps-secpred-invert-cat, ; LH27102020
     LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD prep-or-adv,
 			    LOCAL.CONT.HOOK.LTOP #2,
 			    LOCAL.DERIVED-HEAD - ],
@@ -22126,11 +22176,49 @@ trans-secpred-arg1-2-x-synsem-sup := argx-predicative-synsem & arg1-subj-synsem 
     LOCAL.CAT.VAL.ICOMPS <>,
     LOCAL.KEY-SPEC #1 ].
 
+trans-secpred-arg1-2decl-x-synsem := argx-predicative-synsem & arg1-subj-synsem &
+  [ LOCAL.CAT.HEAD verb,
+    LOCAL.CAT trans-ncomps-secpred-cat,
+    LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #5,
+			    LOCAL.CAT.HEAD.DECL +,
+			    LOCAL.CAT.HEAD.INV -,
+			    LOCAL.CAT.HEAD fin-comp,
+			    LOCAL.CAT.HEAD.IMPERATIVE -,
+			    LOCAL.CONT.HOOK.LTOP #2 & semarg,
+			    LOCAL.CONT.HOOK.INDEX.E.TENSE finite,
+			    LOCAL.BINDING.REFL-I - ], 
+			  [ LOCAL.CONT.HOOK.XARG #5,
+			    LOCAL.CAT.HEAD.KEYS.KEY #1,
+                            LOCAL.CONT.HOOK.INDEX ad-event ] >,
+    LKEYS.KEYREL.ARG2 #2,
+    LOCAL.CAT.VAL.ICOMPS <>,
+    LOCAL.KEY-SPEC #1 ].
+
+trans-secpred-arg1-2interr-x-synsem := argx-predicative-synsem & arg1-subj-synsem &
+  [ LOCAL.CONT.HOOK hook,
+    LOCAL.CAT.HEAD verb,
+    LOCAL.CAT trans-ncomps-secpred-cat,
+    LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #5,
+			    LOCAL.CAT.HEAD.DECL -,
+			    LOCAL.CAT.HEAD.INV -,
+			    LOCAL.CAT.HEAD fin-comp,
+			    LOCAL.CAT.HEAD.IMPERATIVE -,
+			    LOCAL.CONT.HOOK.LTOP #2 & semarg,
+			    LOCAL.CONT.HOOK.INDEX.E.TENSE finite,
+			    LOCAL.BINDING.REFL-I - ], 
+			  [ LOCAL.CONT.HOOK.XARG #5,
+			    LOCAL.CAT.HEAD.KEYS.KEY #1,
+                            LOCAL.CONT.HOOK.INDEX ad-event ] >,
+    LKEYS.KEYREL.ARG2 #2,
+    LOCAL.CAT.VAL.ICOMPS <>,
+    LOCAL.KEY-SPEC #1 ].
+
 ;REFL
 ;trans-secpred-arg1-2-x-synsem := trans-secpred-arg1-2-x-synsem-sup &
 ;  [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING nontamed ], [] >].
 trans-secpred-arg1-2-x-synsem := trans-secpred-arg1-2-x-synsem-sup &
-  [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING.REFL-I - ], [] >].
+  [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING.REFL-I - ], 
+			  [] >].
 
 trans-secpred-arg1-2-x-refl-synsem := trans-secpred-arg1-2-x-synsem-sup &
   [ LOCAL.CAT.VAL.SUBJ < [ LOCAL.CONT.HOOK.INDEX #4,
@@ -22834,7 +22922,7 @@ impersonal-presentational-obl-loc-synsem := impersonal-presentational-obl-synsem
 ;presentational-synsem-2
 ;                          LKEYS.KEYREL.ARG1 #1
 ;
- ;                          LOCAL.CONT.HOOK.XARG #1,
+;                          LOCAL.CONT.HOOK.XARG #1,
 					  
 impersonal-presentational-telicparticle-synsem := presentational-synsem-2 &
   [ LOCAL.CONT.HOOK hook,
@@ -23810,6 +23898,12 @@ trans-ncomps-secpred-cat := trans-secpred-cat &
          [ PREDIC #2 ],
     VAL trans-v-val &
          [ COMPS < [ ], #2  > ] ].
+
+trans-ncomps-secpred-invert-cat := trans-secpred-cat &
+  [ QVAL trans-secpred-qval & 
+         [ PREDIC #2 ],
+    VAL trans-v-val &
+         [ COMPS < #2, [ ]  > ] ].
 
 ;trans-icomps-secpred-cat := trans-secpred-cat &
 ;  [ QVAL trans-secpred-qval & 

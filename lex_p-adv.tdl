@@ -1795,6 +1795,16 @@ sammen_dirtel-adv := dirarg-telic-adv-word &
   [ STEM < "sammen" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sammen_adv-dirtel_rel"].
 
+igjennom_dirtel-adv := dirarg-telic-adv-word &
+  [ STEM < "igjennom" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_igjennom_adv-dirtel_rel"].
+
+gjennom_dirtel-adv := dirarg-telic-adv-word &
+  [ STEM < "gjennom" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gjennom_adv-dirtel_rel"].
+
+
+
 ; not used - with "livne", it's now adv-particle-word.
 ; like in "livne til"
 ;til_dirtel-adv := dirarg-telic-to-awayfrom-salientpoint-adv-word &

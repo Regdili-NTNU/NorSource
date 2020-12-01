@@ -605,6 +605,15 @@ sammen_partcl := adv-particle-word &
     SYNSEM [LOCAL.CAT.HEAD.KEYS.KEY sammen-pcl,
             LKEYS.KEYREL.PRED "_sammen_pcl_rel"]].
 
+igjennom_partcl := adv-particle-word &
+  [ STEM < "igjennom" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_igjennom_pcl_rel"].
+
+gjennom_partcl := adv-particle-word &
+  [ STEM < "gjennom" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gjennom_pcl_rel"].
+
+
 
 ; COMPLEMENTIZER-LIKE PREPOSITIONS (NON-PREDSORT)
 
@@ -1437,6 +1446,8 @@ nettopp_s-adv := s-operadv-stnd-word &
   [ STEM < "nettopp" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY nettopp-k,
     SYNSEM.LKEYS.KEYREL.PRED "_nettopp_adv_rel"].
+
+
 
 ;derivable
 ;ensidig_s-adv := s-operadv-stnd-word &
@@ -3484,6 +3495,10 @@ samt_v-comp-connect := v-comp-connect-word &
 
 og_a-connect := a-connect-word &
   [ STEM < "og" >,
+    SYNSEM.LKEYS.KEYREL [PRED "_og-connect_rel"]].
+
+og-comma_a-connect := a-connect-comma &
+  [ STEM < "," >,
     SYNSEM.LKEYS.KEYREL [PRED "_og-connect_rel"]].
 
 samt_a-connect := a-connect-word &
@@ -8250,7 +8265,15 @@ nettopp_focqualadv := focqualifadv-word &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY nettopp-k,
     SYNSEM.LKEYS.KEYREL.PRED "_focal-nettopp_adv_rel"].
 
+akkurat_focqualadv := focqualifadv-word &
+  [ STEM < "akkurat" >,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY akkurat-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_focal-akkurat_adv_rel"].
 
+allerede_focqualadv := focqualifadv-word &
+  [ STEM < "allerede" >,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY allerede-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_focal-allerede_adv_rel"].
 
 ; "hvor lite"
 lite_modble := quant-indef-adjcard-sg-word &
