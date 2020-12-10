@@ -28,6 +28,27 @@ v-intrObl-oblPRTOFsu := intrans-pp-detached-poss-verb-lexeme &
 [SYNSEM.LOCAL.CAT.VAL.COMPS < >].
 ; to be included in Univcode
 v-intrObl2 := intrans-2obl-verb-lexeme.
+
+v-intrObl2-obl2N := v-intrObl2 & 
+[SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
+			      [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal]>].
+
+v-intrObl2-obl2INTERR := v-intrObl2 & 
+[SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
+			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp & [ DECL - ]]>,
+ SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle],
+ SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARGOBLQ2 #1 ] ].
+
+v-intrObl2-obl2EqSuInf := v-intrObl2 & 
+[SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
+			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp & [ TRANSPAR +,
+											      DECL +,
+											      KEYS.KEY infinit-comp ]]>,
+ SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle,
+				     LOCAL.CONT.HOOK.XARG #4 ],
+ SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARG1 #4,
+				      ARGOBLQ2 #1 ]].
+    
 ; "se alvorlig på"
 v-intrOblAdv := intrans-adv-obl-verb-lexeme.
  
@@ -131,7 +152,9 @@ v-intrOblRais-oblTil := v-intrOblRais &
 v-intrOblRais-oblMed := v-intrOblRais &
   [ SYNSEM [LOCAL.CAT.QVAL.OBL1.LOCAL.CAT [HEAD.KEYS.KEY med-rais,
                                            QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp]]].
-; late til at, haste med at/å:
+v-trOblRais-oblRaisObInf := trans-rais-from-pp-arg1-verb-lexeme.
+
+; late til at, haste med at/å: TODO wrong for DECL, see Absinf-version
 v-intrOblExlnk-oblExlnkDECL := intrans-rais-from-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 
@@ -253,6 +276,58 @@ v-trObl := trans-obl-verb-lexeme.
 v-trObl-oblDECL := trans-obl-decl-verb-lexeme.
 v-trObl-oblINTERR := trans-obl-interr-verb-lexeme.
 v-trObl-oblAbsinf := trans-obl-absinf-verb-lexeme.
+
+v-trObl-obDECL_oblN := lexeme &
+ [SYNSEM v-trObl-obDECL_oblN-synsem].
+
+;not yet correct TODO: ekvivalere med xx
+v-trObl-obAbsinf_oblN := lexeme &
+ [SYNSEM v-trObl-obAbsinf_oblN-synsem].
+v-trObl-obINTERR_oblN := lexeme &
+ [SYNSEM v-trObl-obINTERR_oblN-synsem].
+
+;not yet correct TODO: ekvivalere med xx
+v-trObl-obAbsinf_oblAbsinf := lexeme &
+ [SYNSEM v-trObl-obAbsinf_oblAbsinf-synsem].
+
+;not yet correct TODO: ekvivalere med xx dages for
+v-intrOblExlnk-oblExlnkAbsinf := intrans-rais-from-pp-arg1-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+
+
+ v-ditr-obINTERR := lexeme &
+ [SYNSEM v-ditr-obINTERR-synsem].
+v-ditr-iobRefl_obINTERR := lexeme &
+ [SYNSEM v-ditr-iobRefl_obINTERR-synsem].
+;v-ditr-iobRefl_obEqIobInf  ok?
+
+;TODO06122020 v-trObl-obAbsinf_oblN 3
+;TODO06122020 v-intrComp-suDECL_compINTERR 1
+;;TODO06122020 Potentially fixed v-trPrtclObl-oblEqObInf 1 ale-opp-til
+;;TODO06122020 Potentially fixed v-trPrtclObl-oblN 1
+;;forhandle-med-om_intrObl2-obl2INTERR_vlxm := v-intrObl2-obl2INTERR & only this
+;;finne-ut_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT & føye til
+;;få-til_trPrtclExpnOb-expnDECL_vlxm := v-trPrtclExpnOb-expnDECL & 
+;;Potentially fixed demme-opp-for_intrPrtclObl-oblN_vlxm := v-intrPrtclObl-oblN &
+;;forhandle-med-om_intrObl2-obl2INTERR_vlxm := v-intrObl2-obl2INTERR &
+;;foreslå-for_trObl-obDECL-oblN_vlxm := v-trObl-obDECL_oblN &
+;;foreslå-for_trObl-obINTERR-oblN_vlxm := v-trObl-obINTERR_oblN &
+;;forhandle-med-om_intrObl2-obl2N_vlxm := v-intrObl2-obl2N &
+;;få-til_trOblRais-oblRaisObInf_vlxm := v-trOblRais-oblRaisObInf &
+;;foreholde_ditr-obINTERR_vlxm := v-ditr-obINTERR &
+;;ekvivalere-med_trObl-obAbsinf-oblAbsinf_vlxm := v-trObl-obAbsinf-oblAbsinf &
+;;dages-for_intrOblExlnk-oblExlnkAbsinf_vlxm := v-intrOblExlnk-oblExlnkAbsinf &
+;;Potentially fixed fritte-ut-om_trPrtclObl-oblINTERR_vlxm := v-trPrtclObl-oblINTERR &
+;;Potentially ok: gagne_tr-suEqObInf_vlm := v-tr-suEqObInf &
+;;forestille_ditr-iobRefl-obINTERR_vlxm := v-ditr-iobRefl_obINTERR &
+;;
+
+v-trPrtclExpnOb-expnDECL := trans-particle-subord-expn-verb-lexeme.
+;use
+;v-trExpnOb-expnDECL := trans-subord-expn-verb-lexeme &
+;   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL +]] > ].
+
+
 ; basere seg på - not discriminating about the governee of the prep
 ;trans-refl-obl-sup-verb-lexeme.
 ; basere seg på
@@ -297,6 +372,8 @@ v-ditr-obEqIobBareinf := obj-equi-bare-verb-lexeme.
 
 ; be om å få
 v-trObl-oblEqSuInfSwitch := verb-general-lexeme & [ SYNSEM obj-equi-pp-synsem-switch ].
+
+v-trObl-oblEqSuInf := verb-general-lexeme & [ SYNSEM obj-equi-pp-synsem-switch ].
 
 ; for "overlate til Ola å ..."
 v-trOblShft-obEqOblInf := trans-obl-inf-verb-lexeme.
@@ -411,6 +488,9 @@ v-trScprAdjShft-scObArgCsd_scAdj := trans-adjshift-verb-lexeme.
 v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT := trans-ppshift-verb-lexeme.
 v-trScprShft-scObNrgRes_scPP-PLACEMENT := trans-ppshift-nonrefl-verb-lexeme.
 v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT := trans-ppshift-decl-verb-lexeme.
+
+v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT := trans-ppshift-interr-verb-lexeme.
+
 ; kle på gutten 
 v-intrImpltransfAdv-suAg-RENDERING_IN_POSITION := trans-ppshift-implicit-verb-lexeme.
 ; kle på seg 
@@ -429,6 +509,7 @@ v-tr-obAbsinf := trans-absinfsubord-verb-lexeme.
 v-intrComp-compINTERR := trans-indir-interr-verb-lexeme.
 v-intrComp-compWH := trans-indirwhquest-verb-lexeme.
 v-intrComp-compYN := trans-indir-y-n-quest-verb-lexeme.
+v-intrComp-suDECL_compINTERR := trans-indir-sudecl-obinterr-verb-lexeme.
 ; overlate, vise_1, unne
 v-ditr := ditrans-arg1-2-3-verb-lexeme.
 v-tr-obINTERR := trans-indir-interr-verb-lexeme.
@@ -598,12 +679,21 @@ v-trScpr-scObLoc := v-trScpr-scObArgCsd_scLoc.
 ;v-trScprShft-obRefl-scObArgCsd_scLoc
 
 v-intrprtclobl := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
+v-trprtclobl := verb-lexeme & [SYNSEM subj-obj-prtcl-pp-synsem].
 v-intrprtclobl-oblLoc := verb-lexeme & [SYNSEM subj-prtcl-pp-loc-synsem].
-v-intrprtclobl-obln := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
+v-intrprtclobl-oblN := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 ;TODO fix:
 v-intrprtclobl-oblDECL := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 ;TODO fix:
-v-intrprtclobl-oblinterr := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
+v-intrprtclobl-oblINTERR := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
+;TODO fix:
+v-trPrtclObl-oblN := v-trprtclobl.
+;TODO fix:
+v-trPrtclObl-oblEqObInf := v-trprtclobl.
+;TODO fix:
+v-trPrtclObl-oblDECL := v-trprtclobl.
+;TODO fix:
+v-trPrtclObl-oblINTERR := v-trprtclobl.
 
 #| 
 On CorrList but not in Norsource
@@ -697,6 +787,8 @@ v-intrPrtclExpn-expnInterr := epon-particle-interr-verb-lexeme & top-verb-lexeme
 v-tr-suDECL := trans-eventarg1-decl-verb-lexeme.
 v-tr-suINTERR := trans-eventarg1-interr-verb-lexeme.
 v-tr-suAbsinf := trans-eventarg1-absinf-verb-lexeme.
+;TODO check content:
+v-tr-suEqObInf := trans-eventarg1-equi-contr-by-obj-verb-lexeme.
 v-trObl-suDECL := trans-eventarg1-decl-obl-verb-lexeme.
 v-trObl-suINTERR := trans-eventarg1-interr-obl-verb-lexeme.
 v-tr-suDECL_obDECL := trans-eventarg1decl-eventarg2decl-verb-lexeme.
