@@ -370,8 +370,9 @@ local := local-min &
     CAN-MAL-DROP bool,
     CAN-PASSIVIZE bool,
     UNARY-INFIN-REL bool,
-    SUBJ-SOM bool, ; for sub ject in embedded subj-questions
-    MODIFICATION-PERFORMED bool].
+    SUBJ-SOM bool, ; for subject in embedded subj-questions
+    MODIFICATION-PERFORMED bool,
+    PARTICLE-SHIFT-APPLIED bool].
 
 
 binding := avm &

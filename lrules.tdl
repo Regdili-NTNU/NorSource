@@ -78,6 +78,10 @@ pass-impersonal-presentational-from-intrans-lrule := impersonal-presentational-p
 passive-obl-lrule := passive-obl.
 prep-sel-red-lrule := prep-word-sel-red.
 presentational-obl-passive-lrule := presentational-obl-passive.
+
+particle-shift-lrule := particle-shift-lexeme.
+
+
 ;prep-sel-cmp-rule := prep-word-sel-cmp.
 
 adv-from-adj-pos-lrule := adv-from-adj-pos-lxm.

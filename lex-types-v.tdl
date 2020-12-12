@@ -277,6 +277,7 @@ v-trObl-oblDECL := trans-obl-decl-verb-lexeme.
 v-trObl-oblINTERR := trans-obl-interr-verb-lexeme.
 v-trObl-oblAbsinf := trans-obl-absinf-verb-lexeme.
 
+;TODO no semantics yet
 v-trObl-obDECL_oblN := lexeme &
  [SYNSEM v-trObl-obDECL_oblN-synsem].
 

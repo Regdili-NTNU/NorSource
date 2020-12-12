@@ -12197,7 +12197,7 @@ head-subject-phrase-sup := head-subject-phrase-super & basic-head-subj-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.INV -].
 
 head-subject-phrase-simple := head-subject-phrase-super &
-  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.TRANSPAR -,
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.TRANSPAR bool, ; '-' rules out 'å løpe gagner meg'
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD np-head & [ ACCUSATIVE - ]].  ;, ; there is one construction which wants this as '+' - 'en mann å fortære sover', where identity through the relative requires full head identity. Loosened that, to only require expletive id or not - not sure if that was the main purpose ...
                    ;                      KEYS.KEY adhoc-norm ]].
 
@@ -21555,6 +21555,8 @@ trans-obl-absinf-synsem := trans-nonrefl-obl-synsem &
                                            KEYS.KEY clse ]]>,
     LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]   ].
 
+;TODO incoherent semantics ("foreslå at vi går icomps for Ola"
+; ekvivalere N med N goes fine
 ;trans-obl-n-synsem & 
 v-trObl-obDECL_oblN-synsem := trans-obl-synsem-sup & 
   [LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD.DECL +,
@@ -21563,7 +21565,13 @@ v-trObl-obDECL_oblN-synsem := trans-obl-synsem-sup &
                           LOCAL.CAT.HEAD.IMPERATIVE -,
                           LOCAL.CONT.HOOK.LTOP #2 & semarg,
                           LOCAL.CONT.HOOK.INDEX.E.TENSE finite] >,
-   LKEYS.KEYREL.ARG2 #2 ].
+    LOCAL.CAT.VAL.ICOMPS <  #obl & [LOCAL.CAT.HEAD [KEYS.KEY #1 ,
+						    SELECTED +]]>,
+    LOCAL.CAT.QVAL.OBL1 #obl & [LOCAL.CONT.HOOK.LTOP #4 & handle],
+   LOCAL.KEY-SPEC #1,
+    LKEYS.KEYREL arg12obl-rel & [ ARG2 #2,
+				 ARGOBLQ #4 ],
+   LOCAL.CONT.HCONS <!  !> ].
 
 ;trans-obl-synsem-sup &
 v-trObl-obAbsinf_oblN-synsem := lex-synsem & 
@@ -24245,6 +24253,7 @@ passive-lexeme := const-ltol-rule & lbl-ltop-lex-item-3rel &
   SYNSEM.BIND unbnd,
   ARGS < [ INFLECTION #infl,
            SYNSEM.LOCAL.CAN-PASSIVIZE +,
+	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	   SYNSEM [ LOCAL [ CAT [ HEAD verb & [ VOICE active ],
                                   VAL [ SUBJ < canonical-synsem &
                                                [LOCAL.CONT.HOOK.INDEX #4  ] >,
@@ -24631,6 +24640,78 @@ obj-del-ditr-verb-lxm := verb-lexeme  & const-ltol-rule &
     DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #4,
     DTR.SYNSEM.LKEYS.KEYREL.ARG2 #3,
     DTR.SYNSEM.LOCAL.OBJ-DEL-APPLIED - ].
+
+
+; SYNSEM.LOCAL.OBJ-DEL-APPLIED + is in order to avoid feeding with obj-del rules
+particle-shift-lexeme := const-ltol-rule & verb-general-lexeme &
+  [ SYNSEM.LOCAL.CAT.HEAD verb,
+    SYNSEM.LOCAL.CAT.VAL.COMPS < #scpr, #np >,
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps,
+    SYNSEM.LOCAL.CONT #cont,
+    SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED +,
+    SYNSEM.LOCAL.CAN-PASSIVIZE -,
+    C-CONT.RELS <!!>,
+    C-CONT.HCONS <!!>, 
+    ARGS < [ SYNSEM.LOCAL.CAT.HEAD verb,
+	     SYNSEM.LOCAL.CAN-PASSIVIZE -,
+	     SYNSEM.LOCAL.KEY-SPEC #1,
+	     SYNSEM.LOCAL.CAT trans-ncomps-secpred-cat,
+	     SYNSEM. LOCAL.CAT.VAL.COMPS < #np & [LOCAL.CONT.HOOK.INDEX #5 & [SORT referential-thing]], 
+				   #scpr & [ LOCAL.CAT.HEAD prep-or-adv,
+					     LOCAL.CONT.HOOK.LTOP #2,
+					     LOCAL.DERIVED-HEAD -,
+					     LOCAL.CAT.HEAD [ KEYS.KEY #1],
+					     LOCAL.CONT.HOOK.XARG #5 ] >,
+	     SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps & <>,
+	     SYNSEM.LOCAL.CONT #cont,
+	     SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM.LKEYS.KEYREL.ARGX #2 ] >].
+
+
+
+#|
+
+INFLECTION #infl,
+  SYNSEM [ LOCAL [ CAT [ HEAD verb & [ VOICE passive,
+                                       KEYS.KEY mainvb ],
+                         VAL [ SUBJ < canonical-synsem & [ LOCAL.CONT.HOOK.INDEX #1] >,
+                               SPR #spr ] ],
+                   CONT.HOOK.XARG #1,
+                   CONT.HOOK.VARG #4 ],
+           LKEYS #keys,
+           NON-LOCAL #non-local ],
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED +,
+  ARGS < [ INFLECTION #infl,
+           SYNSEM [ LOCAL [ CAT [ HEAD verb & [ VOICE active ],
+                                  VAL [ SUBJ < canonical-synsem &
+                                               [LOCAL.CONT.HOOK.INDEX #4  ] >,
+                                        SPR #spr ] ] ],
+                    LKEYS #keys,
+                    NON-LOCAL #non-local ],
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED - ] >,
+  C-CONT.RELS <! !> ].
+
+passive-ncomps1-sup := passive-lexeme &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ < [ LOCAL.CONT.HOOK.INDEX #5,
+                                    LOCAL.CAT.HEAD poss-subj-head  & [KEYS.KEY #kk],
+				    LOCAL.CAT.HEAD.EXPLETIVE #expl] >, ;not a lower type, to enable rel-pron as subject.
+                           COMPS #1,
+                           ICOMPS #3 ],
+;    SYNSEM.LOCAL.CONT.HOOK [XARG #5],
+    SYNSEM.LOCAL.CAN-PASTPART-ADJ #bool,
+;    SYNSEM.LOCAL.COMPS-BEGUN +,
+    SYNSEM.NON-LOCAL.SLASH <! !>,
+    SYNSEM.VAL-CLASS #vc,
+    ARGS < [ SYNSEM.LOCAL.CAT.VAL [ COMPS < [ LOCAL.CONT.HOOK.INDEX #5,
+                                              LOCAL.CAT.HEAD np-head & [KEYS.KEY #kk,
+									EXPLETIVE #expl],
+                                              LOCAL.BINDING.BOUND - ]. #1 >,
+                                    ICOMPS #3 ],
+             SYNSEM.VAL-CLASS #vc,
+	     SYNSEM.LOCAL.CAN-PASTPART-ADJ #bool ] >].
+|#
+
+
 
 ;;;;;;;;;; FOR-NONHEADED NP
 
