@@ -39,17 +39,8 @@ v-intrObl2-obl2INTERR := v-intrObl2 &
  SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle],
  SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARGOBLQ2 #1 ] ].
 
-
-v-intrObl2-obl1N_obl2DECL := v-intrObl2 & 
-[SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
-			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp & [ DECL + ]]>,
- SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle],
- SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARGOBLQ2 #1 ] ].
-
-
 v-intrObl2-obl2EqSuInf := v-intrObl2 & 
-[SYNSEM.LOCAL.CAT.VAL.SUBJ <[LOCAL.CONT.HOOK.INDEX #4 ]>,
-SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
+[SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
 			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp & [ TRANSPAR +,
 											      DECL +,
 											      KEYS.KEY infinit-comp ]]>,
@@ -57,20 +48,6 @@ SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
 				     LOCAL.CONT.HOOK.XARG #4 ],
  SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARG1 #4,
 				      ARGOBLQ2 #1 ]].
-
-; TODO combinatorics not yet - make it twice icomps-rule
-v-intrObl2-obl1N_obl2EqOblInf := v-intrObl2 &
-[SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal,
-				LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX #4],
-			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp & [ TRANSPAR +,
-											      DECL +,
-											      KEYS.KEY infinit-comp ]]>,
- SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle,
-				     LOCAL.CONT.HOOK.XARG #4 ],
- SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARG1 #4,
-				      ARGOBLQ2 #1 ]].
-
-
     
 ; "se alvorlig på"
 v-intrOblAdv := intrans-adv-obl-verb-lexeme.
@@ -213,16 +190,15 @@ v-intrScprPrtcl-scSuNrg_scAdj_prtclUt := v-intrScprPrtcl-scSuNrg_scAdj &
 v-intrScprPrtcl-scSuNrg_scPredprtcl := v-intrScprPrtcl-scSuNrg_scAdjORPredprtcl.
  
 ; for "se ut til å/at"
-;v-ALTraisORfin-se_ut_til := intrans-adv-rais-from-pp-arg1-verb-lexeme.
+v-ALTraisORfin-se_ut_til := intrans-adv-rais-from-pp-arg1-verb-lexeme.
 ; se ut som (om)/
-;v-intrPrtclOblRais := v-ALTraisORfin-se_ut_til.
-v-intrPrtclOblRais := intrans-adv-rais-from-pp-arg1-verb-lexeme.
-;v-intrPrtclOblRais-oblTil_prtclUt := v-intrPrtclOblRais &
-;  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]]>, 
-;    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY til-rais ]]>].
-;v-intrPrtclOblRais-oblSom_prtclUt := v-intrPrtclOblRais &
-;  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]]>, 
-;    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY som-rais ]]>].
+v-intrPrtclOblRais := v-ALTraisORfin-se_ut_til.
+v-intrPrtclOblRais-oblTil_prtclUt := v-intrPrtclOblRais &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]]>, 
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY til-rais ]]>].
+v-intrPrtclOblRais-oblSom_prtclUt := v-intrPrtclOblRais &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]]>, 
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY som-rais ]]>].
 
 v-intrPrtclScpr-scSuNrg := intrans-secpred-prtcl3-rais-from-nonverbal-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
 v-intrPrtclScpr-scSuNrg_prtclUt := v-intrPrtclScpr-scSuNrg &
@@ -301,18 +277,17 @@ v-trObl-oblDECL := trans-obl-decl-verb-lexeme.
 v-trObl-oblINTERR := trans-obl-interr-verb-lexeme.
 v-trObl-oblAbsinf := trans-obl-absinf-verb-lexeme.
 
-;TODO no semantics yet
-v-trObl-obDECL_oblN := verb-lexeme &
+v-trObl-obDECL_oblN := lexeme &
  [SYNSEM v-trObl-obDECL_oblN-synsem].
 
 ;not yet correct TODO: ekvivalere med xx
-v-trObl-obAbsinf_oblN := verb-lexeme &
+v-trObl-obAbsinf_oblN := lexeme &
  [SYNSEM v-trObl-obAbsinf_oblN-synsem].
-v-trObl-obINTERR_oblN := verb-lexeme &
+v-trObl-obINTERR_oblN := lexeme &
  [SYNSEM v-trObl-obINTERR_oblN-synsem].
 
 ;not yet correct TODO: ekvivalere med xx
-v-trObl-obAbsinf_oblAbsinf := verb-lexeme &
+v-trObl-obAbsinf_oblAbsinf := lexeme &
  [SYNSEM v-trObl-obAbsinf_oblAbsinf-synsem].
 
 ;not yet correct TODO: ekvivalere med xx dages for
@@ -320,9 +295,9 @@ v-intrOblExlnk-oblExlnkAbsinf := intrans-rais-from-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 
 
- v-ditr-obINTERR := verb-lexeme &
+ v-ditr-obINTERR := lexeme &
  [SYNSEM v-ditr-obINTERR-synsem].
-v-ditr-iobRefl_obINTERR := verb-lexeme &
+v-ditr-iobRefl_obINTERR := lexeme &
  [SYNSEM v-ditr-iobRefl_obINTERR-synsem].
 ;v-ditr-iobRefl_obEqIobInf  ok?
 
@@ -402,7 +377,6 @@ v-trObl-oblEqSuInf := verb-general-lexeme & [ SYNSEM obj-equi-pp-synsem-switch ]
 
 ; for "overlate til Ola å ..."
 v-trOblShft-obEqOblInf := trans-obl-inf-verb-lexeme.
-v-trObl-obEqOblInf_oblN := trans-obl-inf-verb-lexeme.
 
 ; oppfordre
 v-trObl-oblEqObInf := obj-equi-pp-verb-lexeme.
@@ -666,11 +640,6 @@ v-trOblExpnOb-expnAbsinf := trans-obl-subord-expn-verb-lexeme &
 
 ; "det viser seg at..." -(from Presentational-2)
 v-trNrfExpnSu-obReflExpl_expnDECL := io-refl-epon-verb-lexeme & top-verb-lexeme.
-;new type:
-v-trExpnSu-obRefl_expnDECL := io-refl-epon-verb-lexeme & top-verb-lexeme.
-
-v-trExpnSu-obRefl_expnAbsinf := io-refl-epon-verb-lexeme & top-verb-lexeme.
-
 ; "det tar to timer å gå hit", "det koster fem kroner å..." (from Presentational-2)
 v-trExpnSu-obMeas_expnInfabs := meas-epon-verb-lexeme & top-verb-lexeme.
 ; "det tar meg to timer å gå hit", "det koster meg fem kroner å..." (from Presentational-2)
@@ -710,121 +679,21 @@ v-trScpr-scObLoc := v-trScpr-scObArgCsd_scLoc.
 ;v-trScprShft-obRefl-scObArgCsd_scLoc
 
 v-intrprtclobl := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
+v-trprtclobl := verb-lexeme & [SYNSEM subj-obj-prtcl-pp-synsem].
 v-intrprtclobl-oblLoc := verb-lexeme & [SYNSEM subj-prtcl-pp-loc-synsem].
 v-intrprtclobl-oblN := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 ;TODO fix:
 v-intrprtclobl-oblDECL := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 ;TODO fix:
 v-intrprtclobl-oblINTERR := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
-
-v-trprtclobl := verb-lexeme & [SYNSEM subj-obj-prtcl-pp-synsem].  ; 'over' must be made prep-sel
-
-v-trPrtclObl-oblN := v-trprtclobl & 
-[SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal] >].
-
-v-trPrtclObl-oblEqObInf := v-trprtclobl &
-[SYNSEM [LOCAL.CAT.HEAD non-copula,
-	 LOCAL.CONT.HOOK hook,
-	 LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD np-head & [EXPLETIVE bool],
-				LOCAL.CONT.HOOK.INDEX #1 ], [] >,
-	 LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, 
-				LOCAL.CONT.HOOK.XARG #1,
-				LOCAL.CONT.HOOK.LTOP #2,
-				LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [TRANSPAR +]]>,
-	 LKEYS.KEYREL.ARGOBLQ #2,
-	 LKEYS.KEYREL.ARG2 #1 ]].
-
-v-trPrtclObl-oblDECL := v-trprtclobl &
-[SYNSEM [LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD comp & [ DECL + ],
-								   CONT.HOOK.INDEX.E.TENSE finite],   
-				     LOCAL.CONT.HOOK.LTOP #1 & handle],
-	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
-							KEYS.KEY clse ]]>,
-	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
-
-v-trPrtclObl-oblINTERR := v-trprtclobl & 
-[SYNSEM [LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD verb-or-comp & [ DECL - ],
-								   CONT.HOOK.INDEX.E.TENSE finite],
-				     LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -]],
-				     LOCAL.CONT.HOOK.LTOP #1 & handle],
-	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
-							KEYS.KEY clse ]]>,
-	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
-
-
-;TODO fix: still hangs on choice of prep - rep-sel
-v-trPrtclObl-obRefl_oblN := v-trprtclobl & 
-[SYNSEM [LOCAL.CAT.HEAD non-copula,
-	 LOCAL.CAT.VAL.SUBJ < [ LOCAL.CONT.HOOK.INDEX #1,
-				LOCAL.AGR.PNG #2 ]>,
-	 LOCAL.CAT.VAL.COMPS < [LOCAL.BINDING [ BOUND +,
-						REFL-I +,
-						REFL-II -,
-						LEX-TAME + ],
-				LOCAL.CAN-MAL-DROP +, ; for reflexive object - for mal-gram uses!
-				LOCAL.BND-MOUNTABLE < [ ANAPH-INDX #1 ] >,
-				LOCAL.AGR.PNG #2], [] >,
-	 LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal] >]].
 ;TODO fix:
-v-trPrtclObl-obRefl_oblEqObInf := v-trprtclobl & 
-[SYNSEM [LOCAL.CAT.HEAD non-copula,
-	 LOCAL.CAT.VAL.SUBJ < [ LOCAL.CONT.HOOK.INDEX #10,
-				LOCAL.AGR.PNG #20 ]>,
-	 LOCAL.CAT.VAL.COMPS < [LOCAL.BINDING [ BOUND +,
-						REFL-I +,
-						REFL-II -,
-						LEX-TAME + ],
-				LOCAL.CAN-MAL-DROP +, ; for reflexive object - for mal-gram uses!
-				LOCAL.BND-MOUNTABLE < [ ANAPH-INDX #10 ] >,
-				LOCAL.AGR.PNG #20], [] >,
-	 LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD np-head & [EXPLETIVE bool],
-				LOCAL.CONT.HOOK.INDEX #1 ], [] >,
-	 LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, 
-				LOCAL.CONT.HOOK.XARG #1,
-				LOCAL.CONT.HOOK.LTOP #2,
-				LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [TRANSPAR +]]>,
-	 LKEYS.KEYREL.ARGOBLQ #2,
-	 LKEYS.KEYREL.ARG2 #1 ]].
+v-trPrtclObl-oblN := v-trprtclobl.
 ;TODO fix:
-v-trPrtclObl-obRefl_oblDECL := v-trprtclobl &
-[SYNSEM [LOCAL.CAT.HEAD non-copula,
-	 LOCAL.CAT.VAL.SUBJ < [ LOCAL.CONT.HOOK.INDEX #10,
-				LOCAL.AGR.PNG #20 ]>,
-	 LOCAL.CAT.VAL.COMPS < [LOCAL.BINDING [ BOUND +,
-						REFL-I +,
-						REFL-II -,
-						LEX-TAME + ],
-				LOCAL.CAN-MAL-DROP +, ; for reflexive object - for mal-gram uses!
-				LOCAL.BND-MOUNTABLE < [ ANAPH-INDX #10 ] >,
-				LOCAL.AGR.PNG #20], [] >,
-	 LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD comp & [ DECL + ],
-								   CONT.HOOK.INDEX.E.TENSE finite],   
-				     LOCAL.CONT.HOOK.LTOP #1 & handle],
-	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
-							KEYS.KEY clse ]]>,
-	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
+v-trPrtclObl-oblEqObInf := v-trprtclobl.
 ;TODO fix:
-v-trPrtclObl-obRefl_oblINTERR := v-trprtclobl & 
-[SYNSEM [LOCAL.CAT.HEAD non-copula,
-	 LOCAL.CAT.VAL.SUBJ < [ LOCAL.CONT.HOOK.INDEX #10,
-				LOCAL.AGR.PNG #20 ]>,
-	 LOCAL.CAT.VAL.COMPS < [LOCAL.BINDING [ BOUND +,
-						REFL-I +,
-						REFL-II -,
-						LEX-TAME + ],
-				LOCAL.CAN-MAL-DROP +, ; for reflexive object - for mal-gram uses!
-				LOCAL.BND-MOUNTABLE < [ ANAPH-INDX #10 ] >,
-				LOCAL.AGR.PNG #20], [] >,
-	 LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD verb-or-comp & [ DECL - ],
-								   CONT.HOOK.INDEX.E.TENSE finite],
-				     LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -]],
-				     LOCAL.CONT.HOOK.LTOP #1 & handle],
-	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
-							KEYS.KEY clse ]]>,
-	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
-
-
-
+v-trPrtclObl-oblDECL := v-trprtclobl.
+;TODO fix:
+v-trPrtclObl-oblINTERR := v-trprtclobl.
 
 #| 
 On CorrList but not in Norsource
