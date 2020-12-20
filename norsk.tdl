@@ -793,6 +793,7 @@ bak-k := predsort.
 blant-k := predsort.
 rundt-k := predsort.
 foran-k := predsort.
+an-k := predsort.
 bakut-k := predsort.
 gjennom-k := predsort.
 igjennom-k := predsort.
@@ -1706,6 +1707,8 @@ ute-pcl := pcl & ute-k.
 opp-pcl := pcl & opp-k.
 ned-pcl := pcl & ned-k.
 til-pcl := pcl & til-k.
+an-pcl := pcl & an-k.
+
 bort-pcl := pcl & bort-k.
 hen-pcl := pcl & hen-k.
 under-pcl := pcl & under-k.
@@ -8766,17 +8769,22 @@ epon-oblique-verb-lexeme := verb-2rel-lexeme &
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 epon-decl-and-yn-pp-verb-lexeme := verb-2rel-lexeme &
   [ SYNSEM epon-decl-and-yn-pp-synsem ].
+epon-decl-and-yn-particle-pp-verb-lexeme := verb-2rel-lexeme &
+  [ SYNSEM epon-decl-and-yn-particle-pp-synsem ].
 ; det beror på deg hvem som kommer
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 epon-wh-pp-verb-lexeme := verb-2rel-lexeme &
   [ SYNSEM epon-wh-pp-synsem ].
+epon-wh-particle-pp-verb-lexeme := verb-2rel-lexeme &
+  [ SYNSEM epon-wh-particle-pp-synsem ].
 
 ; det beror på om du kommer at/om han kommer
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 epon-decl-and-yn-decl-and-yn-pp-clause-verb-lexeme := verb-2rel-lexeme &
-[ SYNSEM  epon-decl-and-yn-decl-and-yn-pp-clause-synsem ].
+[ SYNSEM epon-decl-and-yn-decl-and-yn-pp-clause-synsem ].
+epon-decl-and-yn-decl-and-yn-particle-pp-clause-verb-lexeme := verb-2rel-lexeme &
+[ SYNSEM epon-decl-and-yn-decl-and-yn-particle-pp-clause-synsem ].
 
-;  [ SYNSEM epon-pp-clause-synsem ].
 
 
 ; det beror på om du kommer hvem som kommer
@@ -8784,24 +8792,23 @@ epon-decl-and-yn-decl-and-yn-pp-clause-verb-lexeme := verb-2rel-lexeme &
 
 epon-decl-and-yn-wh-pp-clause-verb-lexeme := verb-2rel-lexeme &
   [ SYNSEM epon-decl-and-yn-wh-pp-clause-synsem ].
-
-;  [ SYNSEM epon-pp-clause-synsem ].
+epon-decl-and-yn-wh-particle-pp-clause-verb-lexeme := verb-2rel-lexeme &
+  [ SYNSEM epon-decl-and-yn-wh-particle-pp-clause-synsem ].
 
 ; det beror på hvem som kommer at/om han kommer
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 epon-wh-decl-and-yn-pp-clause-verb-lexeme := verb-2rel-lexeme &
   [ SYNSEM epon-wh-decl-and-yn-pp-clause-synsem ].
-
-;  [ SYNSEM epon-pp-clause-synsem ].
+epon-wh-decl-and-yn-particle-pp-clause-verb-lexeme := verb-2rel-lexeme &
+  [ SYNSEM epon-wh-decl-and-yn-particle-pp-clause-synsem ].
 
 ; det beror på hvem som kommer hvem som vinner
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 epon-wh-wh-pp-clause-verb-lexeme := verb-2rel-lexeme &
   [ SYNSEM epon-wh-wh-pp-clause-synsem ].
+epon-wh-wh-particle-pp-clause-verb-lexeme := verb-2rel-lexeme &
+  [ SYNSEM epon-wh-wh-particle-pp-clause-synsem ].
 
-;  [ SYNSEM epon-pp-clause-synsem ].
-
-;
 ; det hører med at ...
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 epon-particle-DECL-verb-lexeme := verb-2rel-lexeme &
@@ -20751,8 +20758,8 @@ trans-rais-from-pp-arg1-synsem := zero-obl-synsem-sup &
 intrans-adv-rais-from-pp-arg1-synsem := zero-obl-synsem-sup & lex-item-1rel &
   [ LOCAL.CONT.HOOK hook & [ XARG #5 ],
     LOCAL.CAT.HEAD verb-all,
-    LOCAL.KEY-SPEC #4,
-    LOCAL.ALT-SPEC #6,
+    LOCAL.KEY-SPEC #6,
+    LOCAL.ALT-SPEC #4,
     LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX #5,
 			   LOCAL.CAT.HEAD.EXPLETIVE #expl]>, 
                    ICOMPS < [ LOCAL.CONT.HOOK.LTOP #42,
@@ -21557,7 +21564,7 @@ trans-obl-absinf-synsem := trans-nonrefl-obl-synsem &
 									      DECL + ]],
     LOCAL.CAT.QVAL.OBL1.LOCAL.CONT.HOOK.LTOP #1 & handle,
     LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD [SELECTED +,
-                                           KEYS.KEY clse ]]>,
+					   KEYS.KEY clse ]]>,
     LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]   ].
 
 ;TODO incoherent semantics ("foreslå at vi går icomps for Ola"
@@ -21702,7 +21709,6 @@ trans-2obl-synsem-sup := arg1-subj-synsem & arg2-comps-synsem &
                           [LOCAL.CAT.HEAD [SELECTED +,
                                            KEYS.KEY #2],
 			   LOCAL.CONT.HOOK.LTOP #5 & handle]>,
-;    NON-LOCAL.SLASH <! !>,
     LOCAL.KEY-SPEC #1,
     LOCAL.ALT-SPEC #2,
     LKEYS.KEYREL arg12obl2-rel & [ ARGOBLQ #4,
@@ -21717,6 +21723,34 @@ trans-2obl-decl-synsem := trans-2obl-synsem-sup &
                                                       CONT.HOOK.INDEX.E.TENSE finite],
     LOCAL.CAT.QVAL.OBL2.LOCAL.CONT.HOOK.LTOP #1 & handle,
     LKEYS.KEYREL arg12obl2-rel & [ ARGOBLQ2 #1 ] ].
+
+trans-2obl-absinf-synsem := trans-2obl-synsem-sup &
+  [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING nontamed ] >,
+    LOCAL.CAT.QVAL.OBL2.LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD infin-comp & [ TRANSPAR -,
+									      DECL + ]],
+    LOCAL.CAT.QVAL.OBL2.LOCAL.CONT.HOOK.LTOP #1 & handle,
+    LKEYS.KEYREL arg12obl2-rel & [ ARGOBLQ2 #1 ] ].
+
+trans-2obl-interr-synsem := trans-2obl-synsem-sup &
+  [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING nontamed ] >,
+    LOCAL.CAT.QVAL.OBL2.LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD.DECL -,
+                                                      CONT.HOOK.INDEX.E.TENSE finite],
+    LOCAL.CAT.QVAL.OBL2.LOCAL.CONT.HOOK.LTOP #1 & handle,
+    LKEYS.KEYREL arg12obl2-rel & [ ARGOBLQ2 #1 ] ].
+
+trans-2obl-equi-synsem := trans-2obl-synsem-sup &
+   [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #1 ] >,
+   LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD np-head & [EXPLETIVE bool],
+                          LOCAL.CONT.HOOK.INDEX #4 ] >,
+   LOCAL.CAT.VAL.ICOMPS <[],
+			 [LOCAL.CAT.HEAD prep-comp & [KEYS.KEY rais],
+                          LOCAL.CONT.HOOK.XARG #1,
+                          LOCAL.CONT.HOOK.LTOP #2,
+			  LOCAL.CONT.RELS.LIST.REST.REST.FIRST.ARG1 #4,
+                          LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [TRANSPAR +]]>,
+   LKEYS.KEYREL.ARGOBLQ2 #2,
+   LKEYS.KEYREL.ARG2 #4].
+
 
 trans-locobl-synsem := arg1-subj-synsem & arg2-comps-synsem &
   [ LOCAL.CAT.HEAD non-copula,
@@ -23505,21 +23539,47 @@ epon-pp-synsem := presentational-synsem-2 &
      LOCAL.CONT.RELS <! [ARG1 #1,
 			 ARGOBLQ #2 ], [] !>].
 
-#|
-epon-pp-synsem := presentational-synsem-2 &
+epon-particle-pp-synsem := presentational-synsem-2 &
    [ LOCAL.CONT.HOOK hook,
-     LOCAL.CAT  [VAL.COMPS < [LOCAL.CONT.HOOK.LTOP #1] >,
+     LOCAL.CONT.HOOK.LTOP #ltop,
+     LOCAL.CAT trans-cat & [VAL.COMPS < [LOCAL.CONT.HOOK.LTOP #ltop,
+					 LOCAL.CAT[HEAD adv-reg &
+						   [SELECTED +,
+						   KEYS.KEY pcl ]]],
+					 [LOCAL.CONT.HOOK.LTOP #1] >,
+			    VAL.ICOMPS <[LOCAL.CONT.HOOK.LTOP #2,
+					 LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal,
+					 LOCAL.CAT.HEAD prep &  [SELECTED +,
+								 KEYS.KEY fct-spec ],
+					 LEX -]> ],
+     LOCAL.CONT.RELS <! [ARG1 #1,
+			 ARGOBLQ #2 ], [] !>].
+
+epon-particle-pp-clause-synsem := presentational-synsem-2 &
+   [ LOCAL.CONT.HOOK hook,
+     LOCAL.CONT.HOOK.LTOP #ltop,
+     LOCAL.CAT  [VAL.COMPS < [LOCAL.CONT.HOOK.LTOP #ltop,
+			      LOCAL.CAT[HEAD adv-reg &
+					     [SELECTED +,
+					      KEYS.KEY pcl ]]],
+			     [LOCAL.CONT.HOOK.LTOP #1] >,
 		 VAL.ICOMPS < [LOCAL.CONT.HOOK.LTOP #2,
-			       LOCAL.CAT.HEAD prep &  [SELECTED +,
-						       KEYS.KEY fct-spec ]] >],
-     LKEYS.KEYREL [ARG1 #1,
-		   ARGOBLQ #2]].
-|#
+			       LOCAL.CAT.HEAD prep-comp & [SELECTED bool,  
+						       KEYS.KEY clse  ],
+			       LEX -] >],
+     LOCAL.CONT.RELS <! [ARG1 #1,
+			 ARGOBLQ #2 ], [] !>].
+
 
 epon-decl-and-yn-pp-synsem := epon-pp-synsem &
    [ LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD glob-comp] > ].
 epon-wh-pp-synsem := epon-pp-synsem &
    [ LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
+
+epon-decl-and-yn-particle-pp-synsem := epon-particle-pp-synsem &
+   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp] > ].
+epon-wh-particle-pp-synsem := epon-particle-pp-synsem &
+   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
 
 ;presentational-synsem-2
 epon-pp-clause-synsem := presentational-synsem-2 &
@@ -23552,6 +23612,26 @@ epon-wh-decl-and-yn-pp-clause-synsem := epon-wh-pp-clause-synsem &
 epon-wh-wh-pp-clause-synsem := epon-wh-pp-clause-synsem &
    [ LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
 
+;;
+epon-decl-and-yn-particle-pp-clause-synsem := epon-particle-pp-clause-synsem &
+   [ LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp] > ].
+;for: v-intrOblExpn-oblYN_expnYN. ok
+epon-decl-and-yn-decl-and-yn-particle-pp-clause-synsem := epon-decl-and-yn-particle-pp-clause-synsem &
+   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp] > ].
+;x for: v-intrOblExpn-oblYN_expnWH. ok
+epon-decl-and-yn-wh-particle-pp-clause-synsem := epon-decl-and-yn-particle-pp-clause-synsem &
+   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
+;x
+epon-wh-particle-pp-clause-synsem := epon-particle-pp-clause-synsem &
+   [ LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
+;for: v-intrOblExpn-oblWH_expnYN. ok
+epon-wh-decl-and-yn-particle-pp-clause-synsem := epon-wh-particle-pp-clause-synsem &
+   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp] > ].
+;x for: v-intrOblExpn-oblWH_expnWH. ok
+epon-wh-wh-particle-pp-clause-synsem := epon-wh-particle-pp-clause-synsem &
+   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
+
+;;
 ;presentational-synsem-2
 epon-oblique-synsem := presentational-synsem-2 &
    [ LOCAL.CONT.HOOK hook,

@@ -32,20 +32,30 @@ v-intrObl2 := intrans-2obl-verb-lexeme.
 v-intrObl2-obl2N := v-intrObl2 & 
 [SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
 			      [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal]>].
-
 v-intrObl2-obl2INTERR := v-intrObl2 & 
 [SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
 			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp & [ DECL - ]]>,
  SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle],
  SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARGOBLQ2 #1 ] ].
 
-
 v-intrObl2-obl1N_obl2DECL := v-intrObl2 & 
 [SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
 			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp & [ DECL + ]]>,
  SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle],
  SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARGOBLQ2 #1 ] ].
+;in practice this rather than the above
+v-intrObl2-obl2DECL := v-intrObl2 & 
+[SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
+			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp & [ DECL + ]]>,
+ SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle],
+ SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARGOBLQ2 #1 ] ].
 
+v-intrObl2-obl2Absinf := v-intrObl2 & 
+[SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal],
+			      #loc2 & [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [ TRANSPAR -,
+											    DECL + ]]>,
+ SYNSEM.LOCAL.CAT.QVAL.OBL2 #loc2 & [LOCAL.CONT.HOOK.LTOP #1 & handle],
+ SYNSEM.LKEYS.KEYREL arg1obl2-rel & [ ARGOBLQ2 #1 ] ].
 
 v-intrObl2-obl2EqSuInf := v-intrObl2 & 
 [SYNSEM.LOCAL.CAT.VAL.SUBJ <[LOCAL.CONT.HOOK.INDEX #4 ]>,
@@ -120,6 +130,69 @@ v-intrObl-suINTERR_oblINTERR := intrans-eventarg1interr-eventoblinterr-verb-lexe
 ;;;v-intrObl-suYN_oblWH := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
 ;;;v-intrObl-suWH_oblYN := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
 ;;;v-intrObl-suWH_oblWH := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+
+;for komme an på
+v-intrPrtclObl-suDECL_oblN := v-intrprtclobl.
+;intrans-eventarg1-decl-obl-n-verb-lexeme.
+; should really be a supertype of the next two - never done in Norse
+v-intrPrtclObl-suINTERR_oblN := v-intrprtclobl.
+;intrans-eventarg1-interr-obl-n-verb-lexeme.
+v-intrPrtclObl-suYN_oblN := v-intrprtclobl.
+;intrans-eventarg1-interr-obl-n-verb-lexeme.
+v-intrPrtclObl-suWH_oblN := v-intrprtclobl.
+;intrans-eventarg1-interr-obl-n-verb-lexeme.
+v-intrPrtclObl-suDECL_oblDECL := v-intrprtclobl.
+;intrans-eventarg1decl-eventobldecl-verb-lexeme.
+; should really be a supertype of the next two - never done in Norse
+v-intrPrtclObl-suDECL_oblINTERR := v-intrprtclobl.
+;intrans-eventarg1decl-eventoblinterr-verb-lexeme.
+v-intrPrtclObl-suDECL_oblYN := v-intrprtclobl.
+;intrans-eventarg1decl-eventoblinterr-verb-lexeme.
+v-intrPrtclObl-suDECL_oblWH := v-intrprtclobl.
+;intrans-eventarg1decl-eventoblinterr-verb-lexeme.
+; should really be a supertype of the next two - never done in Norse
+v-intrPrtclObl-suINTERR_oblDECL := v-intrprtclobl.
+;intrans-eventarg1interr-eventobldecl-verb-lexeme.
+v-intrPrtclObl-suYN_oblDECL := v-intrprtclobl.
+;intrans-eventarg1interr-eventobldecl-verb-lexeme.
+v-intrPrtclObl-suWH_oblDECL := v-intrprtclobl.
+;intrans-eventarg1interr-eventobldecl-verb-lexeme.
+; should really be a supertype of the next four - never done in Norse
+v-intrPrtclObl-suINTERR_oblINTERR := v-intrprtclobl.
+;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+v-intrPrtclObl-suYN_oblYN := v-intrprtclobl.
+;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+v-intrPrtclObl-suYN_oblWH := v-intrprtclobl.
+;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+v-intrPrtclObl-suWH_oblYN := v-intrprtclobl.
+;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+v-intrPrtclObl-suWH_oblWH := v-intrprtclobl.
+;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+
+#|
+v-intrOblExlnk-oblExlnkDECL := intrans-rais-from-pp-arg1-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+|#
+; det beror på deg om han vil komme: (from Presentational-2)
+v-intrPrtclOblExpn-expnYN := epon-decl-and-yn-particle-pp-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp & [DECL -]] > ].
+; det beror på deg hvem som vil komme: (from Presentational-2)
+v-intrPrtclOblExpn-expnWH := epon-wh-particle-pp-verb-lexeme & top-verb-lexeme.
+; det beror på deg at han kom: (from Presentational-2)
+v-intrPrtclOblExpn-expnDECL := epon-decl-and-yn-particle-pp-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp & [DECL +]] > ].
+; det beror på om du vinner om han vil komme: (from Presentational-2)
+v-intrPrtclOblExpn-oblYN_expnYN := epon-decl-and-yn-decl-and-yn-particle-pp-clause-verb-lexeme & top-verb-lexeme.
+; det beror på hvem som vinner hvem som vil komme: (from Presentational-2)
+v-intrPrtclOblExpn-oblWH_expnWH := epon-wh-wh-particle-pp-clause-verb-lexeme & top-verb-lexeme.
+; det beror på om du vinner hvem som vil komme: (from Presentational-2)
+v-intrPrtclOblExpn-oblYN_expnWH := epon-decl-and-yn-wh-particle-pp-clause-verb-lexeme & top-verb-lexeme.
+; det beror på hvem som vinner om han vil komme:  (from Presentational-2)
+v-intrPrtclOblExpn-oblWH_expnYN := epon-wh-decl-and-yn-particle-pp-clause-verb-lexeme & top-verb-lexeme.
+
+
+
+
 ;; v-intrAuxmodScpr-scSuNrg_scBareinf
 ; for "gutten fremstår som mistenkt"
 ;v-intrLghtScpr-scSuNrg_scPredprtcl := intrans-secpred-som-arg1-x-verb-lexeme & ;[ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >]. 
@@ -362,8 +435,16 @@ v-trObl-obRefl_oblDECL := trans-refl-obl-decl-verb-lexeme.
 v-trObl-obRefl_oblINTERR := trans-refl-obl-interr-verb-lexeme.
 v-trObl-obRefl_oblAbsinf := trans-refl-obl-absinf-verb-lexeme.
 ; "vedde 2 kroner med Marit på at..."
+; these are for vedde
 v-trObl2 := trans-2obl-verb-lexeme.
 v-trObl2-oblDECL := verb-lexeme & [SYNSEM trans-2obl-decl-synsem].
+;these are for innklage, new
+v-trObl2-oblN_obl2DECL := verb-lexeme & [SYNSEM trans-2obl-decl-synsem].
+v-trObl2-oblN_obl2EqObInf := verb-lexeme & [SYNSEM trans-2obl-equi-synsem].
+v-trObl2-oblN_obl2INTERR := verb-lexeme & [SYNSEM trans-2obl-interr-synsem].
+v-trObl2-oblN_obl2N := trans-2obl-verb-lexeme.
+v-trObl2-oblN_obl2Absinf := verb-lexeme & [SYNSEM trans-2obl-absinf-synsem].
+
 ; "lagre kisten i skogen"
 v-trObl-oblLoc := trans-locobl-verb-lexeme. 
 ; "oppholde seg i skogen":
@@ -672,7 +753,7 @@ v-trExpnSu-obRefl_expnDECL := io-refl-epon-verb-lexeme & top-verb-lexeme.
 v-trExpnSu-obRefl_expnAbsinf := io-refl-epon-verb-lexeme & top-verb-lexeme.
 
 ; "det tar to timer å gå hit", "det koster fem kroner å..." (from Presentational-2)
-v-trExpnSu-obMeas_expnInfabs := meas-epon-verb-lexeme & top-verb-lexeme.
+v-trExpnSu-obMeas_expnAbsinf := meas-epon-verb-lexeme & top-verb-lexeme.
 ; "det tar meg to timer å gå hit", "det koster meg fem kroner å..." (from Presentational-2)
 v-ditrExpnSu-obMeas_expnEqInf := meas-io-epon-verb-lexeme & top-verb-lexeme.
 ; forekomme, hende - "det forekommer/hender at han kommer" (from Presentational-2)
@@ -716,6 +797,10 @@ v-intrprtclobl-oblN := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 v-intrprtclobl-oblDECL := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 ;TODO fix:
 v-intrprtclobl-oblINTERR := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
+;TODO fix:
+v-intrprtclobl-oblWH := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
+;TODO fix:
+v-intrprtclobl-oblYN := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 
 v-trprtclobl := verb-lexeme & [SYNSEM subj-obj-prtcl-pp-synsem].  ; 'over' must be made prep-sel
 
@@ -1015,6 +1100,9 @@ v-tr-suDir := trans-arg1dir-2-verb-lexeme.
 v-trNrf-suDir_obReflExpl := trans-arg1dir-2refl-verb-lexeme.
 ; = 154 types
 v-trObl-obRefl_oblEqObInf := obj-equi-pp-refl-verb-lexeme.
+;TODO develop
+v-trObl-obEqInf_oblRefl := subj-equi-verb-lexeme.
+
 v-tr-suDir_obLengthunit := trans-arg1dir-2length-verb-lexeme.
 
 v-intrScprExpn-scAdj := epon-intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme & top-verb-lexeme &
