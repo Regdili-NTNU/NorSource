@@ -1,43 +1,5 @@
-
 ,
-      SYNSEM.LOCAL.KEY-SPEC ut-k
-
-;;;
-lex-check 15122020
-
-No feature structure for HJELPE_ATEL-PRTCL-PP-EQUI-TIL-MED_VLXM
-[17:04:20] gc-after-hook(): {G#155 N=103m O=0 E=92%} [S=940m R=895m].
-
-No feature structure for HISSE-OPP-OVER_TRPRTCLOBL-OBREFL-OBLINTERR_VLXM
-[17:04:23] gc-after-hook(): {L#156 N=106m O=0 E=68%} [S=940m R=895m].
-
-No feature structure for HENSTILLE-TIL-OM_INTROBL2-OBL1N-OBL2EQOBLINF_VLXM
-
-No feature structure for HØVE_TREXPNSU-OBREFL-EXPNABSINF_VLXM
-
-No feature structure for HISSE-OPP-OVER_TRPRTCLOBL-OBREFL-OBLEQOBINF_VLXM
-
-No feature structure for HALTE-PÅ_INTROBL-OBLN_VLXM
-
-No feature structure for HIVE-MED-PÅ_TRPRTCLOBL-OBREFL-OBLN_VLXM
-
-No feature structure for HIVE-MED-PÅ_TRPRTCLOBL-OBREFL-OBLEQOBINF_VLXM
-
-No feature structure for HISSE-OPP-OVER_TRPRTCLOBL-OBREFL-OBLDECL_VLXM
-[17:04:42] gc-after-hook(): {G#157 N=20m O=0 E=41%} [S=940m R=900m].
-
-No feature structure for HØVE_TREXPNSU-OBREFL-EXPNDECL_VLXM
-
-No feature structure for HENSTILLE-TIL-OM_INTROBL2-OBL1N-OBL2DECL_VLXM
-
-No feature structure for HENSTILLE-TIL_TROBL-OBEQOBLINF-OBLN_VLXM
-
-No feature structure for HOLDE-OPP-MED_INTRPRTCLOBLRAIS-OBLRAISINF_VLXM
-
-No feature structure for HISSE-OPP-OVER_TRPRTCLOBL-OBREFL-OBLN_VLXM
-
-;;;;
-
+      SYNSEM.LOCAL.KEY-SPEC opp-k
 
 20:
 __intr -> _intr_vlxm := v-intr &
@@ -116,6 +78,23 @@ __tr -> _tr_vlxm := v-tr &
 
 
 
+KEY-SPEC
+,
+      SYNSEM.LOCAL.KEY-SPEC fra-k
+
+#|
+forsvenske_tv_vlxm := v-tr &
+  [ INFLECTION nonfstr-et,
+      STEM < "forsvenske" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_forsvenske_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+forsverge_tr-refl_vlxm := v-tr-obRefl &
+  [ INFLECTION nonfstr-et,
+      STEM < "forsverge" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_forsverge_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+|#
 
 
 
@@ -128,7 +107,7 @@ abdisere_iv_vlxm := v-intr &
 abonnere_intr-obl-på_vlxm := v-intrObl-oblN &
 abonnere_iv_vlxm := v-intr &
 abortere_iv_vlxm := v-intr &
-ADD
+ADD done
 abortere-fra_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
 abortere-fra_intrObl-oblN_vlxm := v-intrObl-oblN &
 abortere_tr_vlxm := v-tr &
@@ -168,6 +147,10 @@ advare-om_intrObl-oblN_vlxm := v-intrObl-oblN &
 advare-mot_intrObl-oblAbsinf_vlxm := v-intrObl-oblAbsinf &
 advare-mot_trObl-oblN_vlxm := v-trObl-oblN & 
 ENDadd
+EXTRA
+advare-om_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+advare-mot_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+ENDextra
 advare_intrObl-mot_vlxm := v-intrObl &
 advare_obj-eq-pp-mot_vlxm := v-trObl-oblEqObInf &
 advare_tv_vlxm := v-tr &
@@ -218,8 +201,8 @@ aksjonere_intr-obl-mot_vlxm := v-intrObl-oblN &
 aksjonere_iv_vlxm := v-intr &
 aksle_tv_vlxm := v-tr &
 ADD
-akte-for_trObl-obRefl
-akte-for_trObl-obRefl-oblEqSuInf
+akte-for_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
+akte-for_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
 END
 akte_subj-equi_vlxm := v-tr-obEqInf &
 akte_tr-refl_vlxm := v-tr-obRefl &
@@ -304,7 +287,6 @@ anføre_tv_vlxm := v-tr &
 ange_iv_vlxm := v-intr &
 ADD
 angi_intrComp-compINTERR := v-intrComp-compINTERR & 
-
 END
 angi_tr-obl-til_vlxm := v-trObl &
 angi_tv_vlxm := v-tr &
@@ -512,8 +494,8 @@ auke_tv_vlxm := v-tr &
 auksjonere_tr-arg12-secpred_vlxm := v-trScpr-scObArgCsd &
 aure_iv_vlxm := v-intr &
 ADD 
-ause_intr-suDir
-ause_tr-obDir
+ause_intr-suDir_vlxm := v-intr-suDir &
+ause_tr-obDir_vlxm := v-tr-obDir &
 ENDadd
 DEL
 ause_intr-obl-i_vlxm := v-intrObl-oblN &
@@ -926,6 +908,9 @@ beføle_tv_vlxm := v-tr &
 begeistre_iv_vlxm := v-intr &
 begeistre_tv_vlxm := v-tr &
 begi_tr-refl-dir_vlxm := v-trPath-obRefl_obDir &
+EXTRA
+begjære_tr-obDECL_vlxm := v-tr-obDECL &
+ENDextra
 begi_tv_vlxm := v-tr &
 DEL
 begjære_acc-cum-inf_vlxm := v-trScpr-scObNrg_scBareinf &
@@ -1349,6 +1334,9 @@ betjene_tr-refl-obl-av_vlxm := v-trObl-obRefl &
 ADD
 betjene-av_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
 ENDadd
+EXTRA
+betjene-av_trObl-obRefl-oblDECL_vlxm := v-trObl-obRefl_oblDECL &
+ENDextra
 betjene_tv_vlxm := v-tr &
 betle_iv_vlxm := v-intr &
 betone_tr-refl-rais-som_vlxm := v-trScpr-scObNrg_obRefl_scPredprtclSom &
@@ -1549,6 +1537,9 @@ blåholde_intr-obl-på_vlxm := v-intrObl-oblN &
 ADD
 blåholde-på_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
 ENDadd
+EXTRA
+blåholde-på_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
+ENDextra
 blåholde_tr-refl_vlxm := v-tr-obRefl &
 blåne_iv_vlxm := v-intr &
 blånekte_intr-obl-for_vlxm := v-intrObl-oblN &
@@ -1922,9 +1913,11 @@ buse_intr-telicpartcl-på_vlxm := v-intrPrtcl &
 buse_intr-telicpartcl-ut_vlxm := v-intrPrtcl &
 ADD
 buse-ut-med_intrPrtclObl-oblDECL_vlxm := v-intrPrtclObl-oblDECL &
-buse-ut-med_intrPrtclObl-oblDECL_vlxm := v-intrPrtclObl-oblDECL &
 buse-ut-med_intrPrtclObl-oblINTERR_vlxm := v-intrPrtclObl-oblINTERR &
 ENDadd
+EXTRA
+buse-ut-med_intrPrtclObl-oblN_vlxm := v-intrPrtclObl-oblN &
+ENDextra
 busette_tr-refl-obl_vlxm := v-trObl-obRefl-oblLoc &
 busette_tr-refl_vlxm := v-tr-obRefl &
 buste_tr-arg1-refl-telicpart-til_vlxm := v-trPrtcl-obRefl &
@@ -2110,7 +2103,7 @@ dekke_intr-obl-til_vlxm := v-intrObl-oblN &
 ADD
 dekke-til_trPrtcl_vlxm := v-trPrtcl &
 dekke-til_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-dekke-til_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+dekke-til_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &  v-trPrtcl-obINTERR
 ENDadd
 dekke_iv_vlxm := v-intr &
 dekke_tr-refl_vlxm := v-tr-obRefl &
@@ -2229,6 +2222,11 @@ ADD
 desinformere-om_trObl-oblINTERR_vlxm := v-trObl-oblINTERR &
 desinformere-om_trObl-oblN_vlxm := v-trObl-oblN &
 ENDadd
+EXTRA
+desinformere-om_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
+desinformere-om_intrObl-oblN_vlxm := v-intrObl-oblN &
+desinformere_iv_vlxm := v-intr &
+ENDextra
 desintegrere_tv_vlxm := v-tr &
 desoksidere_tv_vlxm := v-tr &
 desorganisere_tv_vlxm := v-tr &
@@ -2237,6 +2235,11 @@ ADD
 desorientere-om_trObl-oblINTERR_vlxm := v-trObl-oblINTERR &
 desorientere-om_trObl-oblN_vlxm := v-trObl-oblN &
 ENDadd
+EXTRA
+desorientere_iv_vlxm := v-intr &
+desorientere-om_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
+desorientere-om_intrObl-oblN_vlxm := v-intrObl-oblN &
+ENDextra
 destillere_tv_vlxm := v-tr &
 destruere_tv_vlxm := v-tr &
 detaljbehandle_tv_vlxm := v-tr &
@@ -2299,8 +2302,9 @@ diske_tv_vlxm := v-tr &
 diskontere_tv_vlxm := v-tr &
 diskreditere_tv_vlxm := v-tr &
 ADD
+EXTRA delete
 diskreditere_tr-obINTERR_vlxm := v-tr-obINTERR &
-ENDadd
+ENDEXTRA
 diskriminere_tv_vlxm := v-tr &
 ADD
 diskriminere-mot_intrObl-oblAbsinf_vlxm := v-intrObl-oblAbsinf &
@@ -2468,8 +2472,11 @@ drive_atel-prtcl-pp-equi-på-med_vlxm := v-intrPrtclObl-oblEqSuInf &
 drive_atelicpart-på_vlxm := v-intrPrtcl-SUSTAINEDACTIVITY &
 ADD
 drive-med_intrObl-oblN_vlxm := v-intrObl-oblN &
+EXTRA delete
 drive-på-med_intrPrtclObl-oblDECL_vlxm := v-intrPrtclObl-oblDECL &
-ENDadd
+add
+drive-på-med_intrPrtclObl_vlxm := v-intrPrtclObl-oblN &
+ENDadd-extra
 ;drive_iv_vlxm := v-intrSubcoord &; TODO work out this type better
 drive_iv_vlxm := v-intr &
 drive_tv_vlxm := v-tr &
@@ -2509,6 +2516,9 @@ drønne_iv_vlxm := v-intr &
 drøse_iv_vlxm := v-intr &
 drøvtygge_iv_vlxm := v-intr &
 drøye_intr-obl-med_vlxm := v-intrObl-oblN &
+EXTRA
+drøye-med_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
+ENDextra
 drøye_tv_vlxm := v-tr &
 dubbe_iv_vlxm := v-intr &
 dubbe_tv_vlxm := v-tr &
@@ -2655,6 +2665,9 @@ ekskludere_tr-obl-fra_vlxm := v-trObl &
 ADD
 ekskludere-for_trObl-oblEqObInf_vlxm := v-trObl-oblEqObInf &
 ENDadd
+EXTRA
+ekskludere-for_trObl-oblN_vlxm := v-trObl-oblN &
+ENDextra
 ekskludere_tr-refl-obl-fra_vlxm := v-trObl-obRefl &
 ekskludere_tv_vlxm := v-tr &
 ekskommunisere_tr-obl-fra_vlxm := v-trObl &
@@ -2788,7 +2801,7 @@ ergre_trScpr-obRefl-scObCsd_vlxm := v-trScpr-obRefl-scObCsd &
 ergre-over_trObl-obRefl-oblDECL_vlxm := v-trObl-obRefl_oblDECL &
 ergre-over_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
 ergre-over_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
-ergre-på_trScpr-scPPrefl_vlxm := v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT &
+ergre-på_trScpr-scPPrefl_vlxm := v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT & NorVal: ergre-på__trScpr-scPPrefl
 ENDadd
 ergre_tr-refl_vlxm := v-tr-obRefl &
 ergre_tv_vlxm := v-tr &
@@ -2859,6 +2872,10 @@ esle_tr-obl-til_vlxm := v-trObl &
 ADD
 esle-til_trObl-oblEqObInf := v-trObl-oblEqObInf &
 ENDadd
+EXTRA
+esle-til_trObl-obRefl-oblEqObInf := v-trObl-obRefl_oblEqObInf &
+esle_tr-refl-obl-til_vlxm := v-trObl-obRefl &
+ENDextra
 esle_tv_vlxm := v-tr &
 estetisere_iv_vlxm := v-intr &
 estetisere_tv_vlxm := v-tr &
@@ -2933,6 +2950,9 @@ etterlyse_tr-obl-for_vlxm := v-trObl &
 etterlyse_tv_vlxm := v-tr &
 etterplapre_tv_vlxm := v-tr &
 etterprøve_tv_vlxm := v-tr &
+EXTRA
+etterprøve_tr-obINTERR_vlxm := v-tr-obINTERR &
+ENDextra
 etterse_tv_vlxm := v-tr &
 ADD
 etterse_tr-obDECL_vlxm := v-tr-obDECL &
@@ -3202,7 +3222,7 @@ finne_tr-prtcl-clause-ut_vlxm := v-trPrtclShft-obCLAUSE &
 finne_tr-prtcl-eq-på_vlxm := v-trPrtcl-obEqInf &
 finne_tr-prtcl-ut_vlxm := v-trPrtclShft & ; goes only for partcle first
 ADD
-finne-ut_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+finne-ut_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 finne_tr-prtcl_på_vlxm := v-trPrtclShft &
 finne_tr-secpr-rais_vlxm := v-trScpr-scObNrg_scAdj &
@@ -3420,7 +3440,6 @@ ADD
 fokusere-på_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
 fokusere-på_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
 fokusere-på_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
-fokusere_tr_vlxm := v-tr &
 fokusere-på_trObl-oblDECL_vlxm := v-trObl-oblDECL &
 fokusere-på_trObl-oblEqSuInf_vlxm := v-trObl-oblEqSuInf &
 fokusere-på_trObl-oblINTERR_vlxm := v-trObl-oblINTERR &
@@ -4793,7 +4812,7 @@ føye_tr-refl-obl-etter_vlxm := v-trObl-obRefl &
 føye_tr-refl_vlxm := v-tr-obRefl &
 ADD
 føye-til_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-føye-til_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+føye-til_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 føye-etter_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
 føye-etter_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
 ENDadd
@@ -4854,23 +4873,16 @@ gasse_tr-arg12-secpred_vlxm := v-trScpr-scObArgCsd &
 gasse_tr-refl-obl-over_vlxm := v-trObl-obRefl &
 gasse_tr-refl_vlxm := v-tr-obRefl &
 ADD
-gasse-1-opp_trPrtcl_vlxm := v-trPrtcl &
+gasse-opp_trPrtcl_vlxm := v-trPrtcl &
 gasse-over_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
 gasse-over_trObl-obRefl-oblDECL_vlxm := v-trObl-obRefl_oblDECL &
 gasse-over_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
 gasse-over_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
 ENDadd
-gasse-1_tv_vlxm := v-tr &
+gasse_tv_vlxm := v-tr &
 gauke_iv_vlxm := v-intr &
 gaule_iv_vlxm := v-intr &
 gaume_tv_vlxm := v-tr &
-EXTRA
-gavne_tr-suDECL := v-tr-suDECL &
-gavne_tr-suEqObInf_vlm := v-tr-suEqObInf &
-gavne_trExpnSu-expnDECL_vlxm := v-trExpnSu-expnDECL &
-gavne_trExpnSu-expnEqObInf_vlm := v-trExpnSu-expnEqInf &
-gavne_tv_vlxm := v-tr &
-ENDextra
 geberde_tr-refl-rais-som_vlxm := v-trScpr-scObNrg_obRefl_scPredprtclSom &
 geberde_tr-refl_vlxm := v-tr-obRefl &
 geipe_intr-obl-til_vlxm := v-intrObl-oblN &
@@ -5252,12 +5264,6 @@ gratulere-med_trObl-oblDECL_vlxm := v-trObl-oblDECL &
 gratulere-med_trObl-oblEqObInf := v-trObl-oblEqObInf &
 gratulere-med_trObl-oblINTERR_vlxm := v-trObl-oblINTERR &
 ENDadd
-EXTRA
-gratulere_intr-obl-med_vlxm := v-intrObl &
-gratulere-med_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
-gratulere-med_intrObl-oblAbsinf := v-intrObl-oblAbsinf &
-gratulere-med_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
-ENDextra
 gratulere_tv_vlxm := v-tr &
 grave_iv_vlxm := v-intr &
 grave_tr-arg1-refl-telicpart-ned_vlxm := v-trPrtcl-obRefl &
@@ -5282,9 +5288,6 @@ ADD
 greie-ut-om_intrPrtclObl-oblINTERR_vlxm := v-intrPrtclObl-oblINTERR &
 greie-ut-om_intrPrtclObl-oblDECL_vlxm := v-intrPrtclObl-oblDECL &
 ENDadd
-EXTRA
-greie-ut-om_intrPrtclObl-oblN_vlxm := v-intrPrtclObl-oblN &
-ENDextra
 greie_tv_vlxm := v-tr &
 greine_tr-refl_vlxm := v-tr-obRefl &
 gremme_tr-refl-obl-over_vlxm := v-trObl-obRefl &
@@ -5371,9 +5374,6 @@ grynte_iv_vlxm := v-intr &
 ADD
 grynte_tr-obDECL_vlxm := v-tr-obDECL &
 ENDadd
-EXTRA
-grynte_tr_vlxm := v-tr &
-ENDextra
 gråle_tr-ppshift_vlxm := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
 gråne_impers_vlxm := v-impers &
 gråne_iv_vlxm := v-intr &
@@ -5430,24 +5430,14 @@ gyte_tr-arg12-secpred_vlxm := v-trScpr-scObArgCsd &
 gyve_intr-obl-på_vlxm := v-intrObl-oblN &
 gyve_intr-prtcl-obl-løs-på_vlxm := v-intrPrtclObl &
 gå_dir-length_vlxm := v-tr-suDir_obLengthunit &
-DEL
-gå-med_intrAdvObl
 gå_intr-obl-av_vlxm := v-intrObl-oblN &
-ENDdel
 gå_intr-secpred_adj_vlxm := v-intrScpr-scSuNrgCsd_scAdj &
 ADD
 gå-ut-fra_intrPrtclObl-oblDECL_vlxm := v-intrPrtclObl-oblDECL &
+gå-med_intrAdvObl
 gå-med_intrPrtcl
 gå-med_intrPresntPrtcl
 ENDadd
-EXTRA
-gå_intr-prtcl-av_vlxm := v-intrPrtcl-oblN &
-gå-med-på_intrPrtclObl := v-intrPrtclObl &
-gå-med-på_intrPrtclObl-oblDECL := v-intrPrtclObl &
-gå-med-på_intrPrtclObl-oblyEqSuInf := v-intrPrtclObl &
-gå-med-på_intrPrtclObl-oblINTERR := v-intrPrtclObl &
-gå-med_impersAdvObl - TODO create type
-ENDextra
 gå_intrdir_vlxm := v-intr-suDir &
 gå_road_vlxm := v-tr-suDir &
 gå_tr-arg1-refl-telicpart-bort_vlxm := v-trPrtcl-obRefl &
@@ -5581,9 +5571,6 @@ haste_intrObl-rais-med_vlxm := v-intrOblRais-oblMed &
 with
 haste-med_intrOblExlnk-oblExlnkAbsinf_vlxm := v-intrOblExlnk-oblExlnkAbsinf &
 ENDcorr
-EXTRA
-haste-med_impersObl-med_vlxm := v-impersObl-oblN &
-ENDextra
 haste_iv_vlxm := v-intr &
 hastevedta_tv_vlxm := v-tr &
 ADD
@@ -5663,9 +5650,6 @@ hele_iv_vlxm := v-intr &
 hele_tv_vlxm := v-tr &
 helgardere_tr-refl-obl-mot_vlxm := v-trObl-obRefl &
 helgardere_tr-refl_vlxm := v-tr-obRefl &
-EXTRA
-helgardere-mot_trObl-obRefl-oblDECL_vlxm := v-trObl-obRefl_oblDECL &
-ENDextra
 helgestenge_tv_vlxm := v-tr &
 helle_iv_vlxm := v-intr &
 ADD
@@ -5745,9 +5729,6 @@ henstille-til-om_intrObl2-obl1N-obl2EqOblInf_vlxm := v-intrObl2-obl1N-obl2EqOblI
 henstille-om_intrObl-oblN_vlxm := v-intrObl-oblN &
 henstille-om_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
 ENDadd
-EXTRA
-henstille-til-om_intrObl2-obl1N-obl2DECL_vlxm := v-intrObl2-obl1N-obl2DECL &
-ENDextra
 henstå_copnom_vlxm := v-copN &
 henstå_iv_vlxm := v-intr &
 hensvinne_pres-result_vlxm := v-presResult &
@@ -5810,9 +5791,6 @@ heve_tr-refl-obl-over_vlxm := v-trObl-obRefl &
 ADD
 heve-over_trObl-obRefl-oblDECL_vlxm := v-trObl-obRefl_oblDECL &
 ENDadd
-EXTRA
-heve-over_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
-ENDextra
 heve_tr-refl_vlxm := v-tr-obRefl &
 heve_tv_vlxm := v-tr &
 hevle_tr-refl_vlxm := v-tr-obRefl &
@@ -6108,7 +6086,7 @@ hygge_tr-refl_vlxm := v-tr-obRefl &
 hykle_intr-obl-med_vlxm := v-intrObl &
 ADD
 hykle-over_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
-hykle-over_intrObl-oblN_vlxm := v-intrObl-oblN &
+hykler-over_intrObl-oblN_vlxm := v-intrObl-oblN &
 ENDadd
 hykle_iv_vlxm := v-intr &
 hykle_tr-refl-dir_vlxm := v-trNrf-suDir_obReflExpl &
@@ -6188,7 +6166,7 @@ høre_tv_vlxm := v-tr &
 høres_iv_vlxm := v-intr &
 høres_intrScprPrtcl-ut_vlxm := v-intrScprPrtcl-scSuNrg_scAdj_prtclUt &
 ADD
-høres-ut_intrPrtcl_vlxm := v-intrPrtclAdv &
+høres-ut_intrPrtcl_vlxm := v-intrPrtcl &Adv
 ENDadd
 høres_intrScprPrtcl-ut-som-np_vlxm := v-intrPrtclScpr-scSuNrg_prtclUt &
 høste_tr-arg12-secpred-inn_vlxm := v-trScpr-scObArgCsd &
@@ -6201,15 +6179,9 @@ høve_trExpnSu-obRefl-expnAbsinf_vlxm := v-trExpnSu-obRefl_expnAbsinf &
 høve_trExpnSu-obRefl-expnDECL_vlxm := v-trExpnSu-obRefl_expnDECL &
 høve-til_intrObl-oblAbsinf_vlxm := v-intrObl-oblAbsinf &
 høve-til_intrObl-oblDECL_vlxm := v-intrObl-oblDECL & 
-CORR -
 høvetil_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
-ENDadd&CORR
-DEL
 høve_trImpers-obRefl_vlxm := v-_trImpers-obRefl &
-ENDdel
-EXTRA
-høve_tv_vlxm := v-tr &
-ENDextra
+ENDadd
 høvle_tr-arg12-secpred-av_vlxm := v-trScpr-scObArgCsd &
 høvle_tr-arg12-secpred-bort_vlxm := v-trScpr-scObArgCsd &
 høvle_tv_vlxm := v-tr &
@@ -6220,10 +6192,6 @@ ADD
 iaktta_tr-obDECL_vlxm := v-tr-obDECL &
 iaktta_tr-obINTERR_vlxm := v-tr-obINTERR &
 ENDadd
-
-;;;;
-
-
 iberegne_ditr_vlxm := v-ditr &
 iberegne_tv_vlxm := v-tr &
 iberekne_ditr_vlxm := v-ditr &
@@ -6399,6 +6367,10 @@ innblande_tr-obl-i_vlxm := v-trObl &
 ADD
 innblande-i_trObl-oblINTERR_vlxm := v-trObl-oblINTERR &
 ENDadd
+EXTRA
+innblande_tr-refl-obl-i_vlxm := v-trObl-obRefl &
+innblande-i_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
+ENDextra
 innblande_tr-obl-med_vlxm := v-trObl &
 innblande_tv_vlxm := v-tr &
 innbringe_ditr_vlxm := v-ditr &
@@ -6839,8 +6811,11 @@ irritere_obj-eq-pp-refl-for_vlxm := v-trObl-obRefl_oblEqObInf &
 irritere_tr-refl-obl-over_vlxm := v-trObl-obRefl &
 irritere_tr-refl-oblDECL-over_vlxm := v-trObl-obRefl_oblDECL &
 ADD
-irritere-over_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
+irritere-over_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
 ENDadd
+EXTRA
+the above is with refl
+ENDextra
 irritere_tr-refl_vlxm := v-tr-obRefl &
 irritere_tv_vlxm := v-tr &
 iscenesette_tv_vlxm := v-tr &
@@ -7275,7 +7250,6 @@ kjempe-mot_intrObl-oblEgSuInf_vlxm := v-intrObl-oblEqSuInf &
 kjempe-om_intrObl-oblEgSuInf_vlxm := v-intrObl-oblEqSuInf &
 kjempe-om_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
 kjempe_tr-obRefl-obDir_vlxm := v-trPath-obRefl_obDir &
-
 ENDadd
 kjempe_iv_vlxm := v-intr &
 kjempe_tv_vlxm := v-tr &
@@ -7295,10 +7269,13 @@ kjenne_tv-exp_vlxm := v-tr &
 ENDdel
 ADD
 kjenne-igjen_trPrtcl_vlxm := v-trPrtcl &
-kjenne-igjen_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+kjenne-igjen_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 kjenne-igjen_trPrtcl-obRefl_vlxm := v-trPrtcl-obRefl &
 kjenne-som_trScpr-scObNrg-scPredprtcl_vlxm := v-trScpr-scObNrg_scPredprtcl &
 ENDadd
+EXTRA
+kjenne_tr-interr_vlxm := v-tr-obINTERR &
+ENDextra
 kjenne_tv_vlxm := v-tr &
 kjennetegne_tv_vlxm := v-tr &
 kjeppjage_tr-dir_vlxm := v-tr-obDir &
@@ -7714,7 +7691,7 @@ kode-inn_trPrtcl_vlxm := v-trPrtcl &
 kode_tr-obDECL_vlxm := v-tr-obDECL &
 kode_tr-obINTERR_vlxm := v-tr-obINTERR &
 kode-inn_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-kode-inn_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+kode-inn_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 kode_tv_vlxm := v-tr &
 kodifisere_tv_vlxm := v-tr &
@@ -8017,6 +7994,9 @@ koordinere-med_trObl-oblN_vlxm := v-trObl-oblN &
 koordinere-med_trObl-oblINTERR_vlxm := v-trObl-oblINTERR &
 koordinere-med_intrObl-oblN_vlxm := v-intrObl-oblN &
 ENDadd
+EXTRA
+koordinere-med_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
+ENDextra
 koordinere_tv_vlxm := v-tr &
 kope_iv_vlxm := v-intr &
 kopiere_tv_vlxm := v-tr &
@@ -8230,7 +8210,7 @@ ADD
 krote-sammen_trPrtcl_vlxm := v-trPrtcl &
 krote-ned_trPrtcl_vlxm := v-trPrtcl &
 krote-ned_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-krote-ned_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+krote-ned_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 krote_tv_vlxm := v-tr &
 krulle_tv_vlxm := v-tr &
@@ -8662,7 +8642,7 @@ lekse_tr-arg12-secpred_vlxm := v-trScpr-scObArgCsd &
 ENDdel
 ADD
 lekse-opp_trPrtcl_vlxm := v-trPrtcl &
-lekse-opp_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+lekse-opp_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 lekse-opp-for_trPrtclObl-oblN_vlxm := v-trPrtclObl-oblN &
 lekse-opp-for_trPrtclObl-obINTERR_vlxm := v-trPrtclObl-obINTERR &
 ENDadd
@@ -8911,13 +8891,13 @@ lokke_tr-refl_vlxm := v-tr-obRefl &
 lokke_tv_vlxm := v-tr &
 ENDdel
 ADD
-lokke-1-med_intrObl-oblN_vlxm := v-intrObl-oblN &
-lokke-1-med_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
-lokke-1-til_trObl-oblRefl_vlxm := v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT &
-lokke-1-til_trObl-oblRefl_vlxm := v-trScpr-scObArgCsd_scLoc &
-lokke-1_intr_vlxm := v-intr &
-lokke-1-til_trObl-oblEqObInf := v-trObl-oblEqObInf &
-lokke-1_tr-obDir_vlxm := v-tr-obDir &
+lokke-med_intrObl-oblN_vlxm := v-intrObl-oblN &
+lokke-med_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+lokke-til_trObl-oblRefl_vlxm := v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT &
+lokke-til_trObl-oblRefl_vlxm := v-trScpr-scObArgCsd_scLoc &
+lokke_intr_vlxm := v-intr &
+lokke-til_trObl-oblEqObInf := v-trObl-oblEqObInf &
+lokke_tr-obDir_vlxm := v-tr-obDir &
 lokke-2_tr-obRefl_vlxm := v-tr-obRefl &
 ENDadd
 lombardere_iv_vlxm := v-intr &
@@ -9176,10 +9156,17 @@ mangle_io-pres_vlxm := v-trPresnt &
 mangle_iv_vlxm := v-intr &
 mangle_subj-pres_vlxm := v-intrPresnt &
 ADD
-mangle_trExpnSu-expnAbsinf_vlxm := v-trExpnSu-expnAbsinf &
+mangle_trExpnSu-expnAbsinf_vlxm := v-trExpnSu-expnEq &
 mangle_trExpnSu-expnDECL_vlxm := v-trExpnSu-expnDECL &
 ENDadd
 mangle_tv_vlxm := v-tr &
+EXTRA
+mangle-på_trObl_vlxm := v-trObl-oblN &
+mangle-på_trObl_vlxm := v-trObl-oblDECL &
+mangle-på_trObl_vlxm := v-trObl-oblEqSuInf &
+mangle-på_trOblExlnk_vlxm := v-trOblExlnk-oblEqSuInf_oblExlnkDECL &
+mangle-på_trOblExlnk_vlxm := v-trOblExlnk-oblEqSuInf_oblExlnkAbsinf &
+ENDextra
 manifestere_tr-refl-rais-som_vlxm := v-trScpr-scObNrg_obRefl_scPredprtclSom &
 manifestere_tr-subord_vlxm := v-tr-obDECL &
 ADD
@@ -11455,7 +11442,7 @@ ramponere_tv_vlxm := v-tr &
 ramsalte_tv_vlxm := v-tr &
 ramse_tr-arg12-secpred-opp_vlxm := v-trScpr-scObArgCsd &
 ADD
-ramse-opp_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+ramse-opp_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 rana_tr-ppshift_vlxm := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
 rana_tv_vlxm := v-tr &
@@ -13497,7 +13484,7 @@ skyte-secpr_vlxm := v-trScpr-scObArgCsd &
 skyte_tr-ppshift-DECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
 ADD
 skyte-inn_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-skyte-inn_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+skyte-inn_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 skyte-til_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
 ENDadd
 skyte_detachposs-refl_vlxm := v-trObl-obRefl_oblPRTOFob &
@@ -15198,7 +15185,7 @@ summere_tr-arg12-secpred-opp_vlxm := v-trScpr-scObArgCsd &
 ENDdel
 ADD
 summere-opp_trPrtcl_vlxm := v-trPrtcl &
-summere-opp_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+summere-opp_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 summere_tv_vlxm := v-tr &
 supe_iv_vlxm := v-intr &
@@ -15595,7 +15582,7 @@ ADD
 ta-av_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
 ta-av_trObl-obRefl-oblAbsinf_vlxm := v-trObl-obRefl_oblAbsinf &
 ta-av_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
-ta-med_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+ta-med_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 ta_tr-obl-på_vlxm := v-trObl &
 ta_tr-refl-obl-av_vlxm := v-trObl-obRefl &
@@ -15668,7 +15655,7 @@ ENDdel
 ADD
 taste-inn_trPrtcl_vlxm := v-trPrtcl &
 taste-inn_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-taste-inn_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+taste-inn_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 tatovere_tr-refl_vlxm := v-tr-obRefl &
 tatovere_tv_vlxm := v-tr &
@@ -15791,7 +15778,7 @@ terpe_tr-ppshift-DECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
 terpe_tr-prtcl-clause-inn_vlxm := v-trPrtclShft-obCLAUSE &
 ADD
 terpe-inn_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-terpe-inn_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+terpe-inn_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 terpe-på_intrObl-oblAbsinf_vlxm := v-intrObl-oblAbsinf &
 terpe-på_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
 terpe-på_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
@@ -16253,7 +16240,7 @@ ENDdel
 ADD
 tone-ned_trPrtcl_vlxm := v-trPrtcl &
 tone-ned_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-tone-ned_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+tone-ned_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 tone_tv_vlxm := v-tr &
 toppe_tr-refl_vlxm := v-tr-obRefl &
@@ -16544,7 +16531,7 @@ ENDdel
 ADD
 trumfe-gjennom_trPrtcl_vlxm := v-trPrtcl &
 trumfe-gjennom_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
-trumfe-gjennom_trPrtcl-obINTERR_vlxm := v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT &
+trumfe-gjennom_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
 ENDadd
 trutne_iv_vlxm := v-intr &
 trygde_tv_vlxm := v-tr &

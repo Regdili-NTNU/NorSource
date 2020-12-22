@@ -169,10 +169,13 @@ v-intrPrtclObl-suWH_oblYN := v-intrprtclobl.
 v-intrPrtclObl-suWH_oblWH := v-intrprtclobl.
 ;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
 
-#|
-v-intrOblExlnk-oblExlnkDECL := intrans-rais-from-pp-arg1-verb-lexeme &
+
+;v-intrOblExlnk-oblExlnkDECL := intrans-rais-from-pp-arg1-verb-lexeme &
+; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+;?
+v-trOblExlnk-oblExlnkDECL := trans-rais-from-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
-|#
+
 ; det beror på deg om han vil komme: (from Presentational-2)
 v-intrPrtclOblExpn-expnYN := epon-decl-and-yn-particle-pp-verb-lexeme & top-verb-lexeme &
    [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp & [DECL -]] > ].
@@ -390,6 +393,9 @@ v-trObl-obAbsinf_oblAbsinf := verb-lexeme &
 
 ;not yet correct TODO: ekvivalere med xx dages for
 v-intrOblExlnk-oblExlnkAbsinf := intrans-rais-from-pp-arg1-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+;?
+v-trOblExlnk-oblExlnkAbsinf := trans-rais-from-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 
 
@@ -740,6 +746,10 @@ v-trExpnOb-expnCOND := trans-subord-expn-verb-lexeme &
 v-trExpnOb-expnAbsinf := trans-subord-expn-verb-lexeme &
    [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD infin-comp & [DECL +,
 								     KEYS.KEY infinit-comp]] > ].
+;TODO has object-link so far det mangler ham å 
+v-trExpnSu-expnAbsinf := trans-subord-expn-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD infin-comp & [DECL +,
+								     KEYS.KEY infinit-comp]] > ].
 ; BIGUPDATE!
 v-trOblExpnOb-expnAbsinf := trans-obl-subord-expn-verb-lexeme &
    [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD infin-comp & [DECL +,
@@ -836,6 +846,8 @@ v-trPrtclObl-oblINTERR := v-trprtclobl &
 							KEYS.KEY clse ]]>,
 	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
 
+;TODO: give content to 'ob'
+v-trPrtclObl-obINTERR := v-trprtclobl.
 
 ;TODO fix: still hangs on choice of prep - rep-sel
 v-trPrtclObl-obRefl_oblN := v-trprtclobl & 

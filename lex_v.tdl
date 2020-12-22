@@ -47100,6 +47100,24 @@ lange_tr-obl-til_vlxm := v-trObl &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC til-k ].
 
+lansere_tr-obAbsinf_vlxm := v-tr-obAbsinf &
+  [ INFLECTION nonfstr-te,
+      STEM < "lansere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lansere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lansere_tr-obDECL_vlxm := v-tr-obDECL &
+  [ INFLECTION nonfstr-te,
+      STEM < "lansere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lansere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lansere_tr-obINTERR_vlxm := v-tr-obINTERR &
+  [ INFLECTION nonfstr-te,
+      STEM < "lansere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lansere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 lansere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
       STEM < "lansere" >,
@@ -47180,19 +47198,24 @@ late_intrObl-rais-til_vlxm := v-intrOblRais-oblTil &
        SYNSEM.LKEYS.KEYREL.PRED "_late_v-intrOblRais_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-late_epon_vlxm := v-intrExpn-expnDECL &
-   [ STEM < "late" >,
-       INFLECTION nonfstr,
+;TODO perhaps replace the two above
+;late-som_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+;late-som-om_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+late-til_intrOblRais-oblRaisInf_vlxm := v-intrOblRais &
+  [ STEM < "late" >,
+       INFLECTION nonfstr-et,
        SYNSEM.VAL-CLASS multi-frame,
-       SYNSEM.LKEYS.KEYREL.PRED "_late_v-intrExpn_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+       SYNSEM.LKEYS.KEYREL.PRED "_late_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC til-k ].
 
-late_pp-shft_vlxm := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
-  [ INFLECTION nonfstr-et,
-      STEM < "late" >,
-      SYNSEM [ LKEYS.KEYREL.PRED "_late_v-trScprShftrel",
-	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-               LOCAL.KEY-SPEC etter-k ] ].
+late-til_intrOblExlnk-oblExlnkDECL_vlxm := v-intrOblExlnk-oblExlnkDECL &
+  [ STEM < "late" >,
+       INFLECTION nonfstr-et,
+       SYNSEM.VAL-CLASS multi-frame,
+       SYNSEM.LKEYS.KEYREL.PRED "_late_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC til-k ].
 
 late_tr-refl_vlxm := v-tr-obRefl &
   [ INFLECTION nonfstr-et,
@@ -47305,6 +47328,20 @@ le_intr-obl-av_vlxm := v-intrObl-oblN &
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC av-k ] ].
 
+le-av_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+  [ INFLECTION finstr-dd,
+      STEM < "le" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_le_v-intrOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC av-k ] ].
+
+le-av_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
+  [ INFLECTION finstr-dd,
+      STEM < "le" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_le_v-intrOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC av-k ] ].
+
 le_iv_vlxm := v-intr &
   [ INFLECTION finstr-dd,
       STEM < "le" >,
@@ -47371,6 +47408,48 @@ ledes_intr-dir_vlxm := v-intr-suDir &
       SYNSEM.LKEYS.KEYREL.PRED "_ledes_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+ledes-av_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+ [ INFLECTION nonfstr-strong,
+      STEM < "ledes" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ledes_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC av-k ].
+
+ledes-av_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
+ [ INFLECTION nonfstr-strong,
+      STEM < "ledes" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ledes_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC av-k ].
+
+ledes-av_intrObl-oblN_vlxm := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+      STEM < "ledes" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ledes_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC av-k ].
+
+ledes-over_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+ [ INFLECTION nonfstr-strong,
+      STEM < "ledes" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ledes_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC over-k ].
+
+ledes-over_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
+ [ INFLECTION nonfstr-strong,
+      STEM < "ledes" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ledes_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC over-k ].
+
+ledes-over_intrObl-oblN_vlxm := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+      STEM < "ledes" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ledes_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC over-k ].
+
 ledes_iv_vlxm := v-intr &
   [ INFLECTION nonfstr-strong,
       STEM < "ledes" >,
@@ -47402,6 +47481,24 @@ lefle_intr-obl-med_vlxm := v-intrObl-oblN &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC med-k ].
 
+legalisere_tr-obAbsinf_vlxm := v-tr-obAbsinf &
+  [ INFLECTION nonfstr-te,
+      STEM < "legalisere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_legalisere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+legalisere_tr-obDECL_vlxm := v-tr-obDECL &
+  [ INFLECTION nonfstr-te,
+      STEM < "legalisere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_legalisere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+legalisere_tr-obINTERR_vlxm := v-tr-obINTERR &
+  [ INFLECTION nonfstr-te,
+      STEM < "legalisere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_legalisere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 legalisere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
       STEM < "legalisere" >,
@@ -47432,6 +47529,7 @@ legere_tv_vlxm := v-tr &
       SYNSEM.LKEYS.KEYREL.PRED "_legere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+;TODO consider replacing from here
 legge_intr-telicpartcl-opp_vlxm := v-intrPrtcl &
   [ INFLECTION nonfstr-strong,
       STEM < "legge" >,
@@ -47495,6 +47593,17 @@ legge_tv_vlxm := v-tr &
       STEM < "legge" >,
       SYNSEM.LKEYS.KEYREL.PRED "_legge_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+;to here. against
+#|
+legge-opp_intrPrtcl_vlxm := v-intrPrtcl &
+legge-bort_trScpr-scObArgCsd_vlxm := v-trScpr-scObArgCsd &
+legge-inn_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
+legge-til_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
+legge_trObl-obRefl-oblLoc_vlxm := v-trObl-obRefl-oblLoc &
+legge_tr-obRefl_vlxm := v-tr-obRefl &
+legge-ned_trPrtcl-obRefl_vlxm := v-trPrtcl-obRefl &
+legge_tr_vlxm := v-tr &
+|#
 
 legitimere_tr-refl_vlxm := v-tr-obRefl &
   [ INFLECTION nonfstr-te,
@@ -47503,6 +47612,12 @@ legitimere_tr-refl_vlxm := v-tr-obRefl &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 legitimere_tr-subord_vlxm := v-tr-obDECL &
+  [ INFLECTION nonfstr-te,
+      STEM < "legitimere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_legitimere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+legitimere_tr-obAbsinf_vlxm := v-tr-obAbsinf &
   [ INFLECTION nonfstr-te,
       STEM < "legitimere" >,
       SYNSEM.LKEYS.KEYREL.PRED "_legitimere_v-tr_rel",
@@ -47598,6 +47713,13 @@ leire_tr-refl_vlxm := v-tr-obRefl &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 leite_intr-obl-etter_vlxm := v-intrObl-oblN &
+  [ INFLECTION nonfstr-et,
+      STEM < "leite" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_leite_v-intrOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC etter-k ] ].
+
+leite-etter_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
   [ INFLECTION nonfstr-et,
       STEM < "leite" >,
       SYNSEM [ LKEYS.KEYREL.PRED "_leite_v-intrOblrel",
@@ -47712,6 +47834,29 @@ lekse-opp_trPrtcl_vlxm := v-trPrtcl &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC opp-k ].
 
+lekse-opp_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
+ [ INFLECTION nonfstr-et,
+      STEM < "lekse" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lekse_v-trScpr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC opp-k ].
+
+lekse-opp-for_trPrtclObl-oblN_vlxm := v-trPrtclObl-oblN &
+ [ INFLECTION nonfstr-et,
+      STEM < "lekse" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lekse_v-trScpr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC opp-k,
+      SYNSEM.LOCAL.ALT-SPEC for-k ].
+
+lekse-opp-for_trPrtclObl-obINTERR_vlxm := v-trPrtclObl-obINTERR &
+ [ INFLECTION nonfstr-et,
+      STEM < "lekse" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lekse_v-trScpr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC opp-k,
+      SYNSEM.LOCAL.ALT-SPEC for-k ].
+
 lemleste_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "lemleste" >,
@@ -47738,6 +47883,14 @@ lemme-inn_trPrtcl_vlxm := v-trPrtcl &
       SYNSEM.LOCAL.KEY-SPEC inn-k ].
 
 lempe_intr-obl-på_vlxm := v-intrObl-oblN &
+  [ INFLECTION nonfstr-et,
+      STEM < "lempe" >,
+      SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM.LKEYS.KEYREL.PRED "_lempe_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC på-k ].
+
+lempe-på_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
   [ INFLECTION nonfstr-et,
       STEM < "lempe" >,
       SYNSEM.VAL-CLASS multi-frame,
@@ -47819,6 +47972,13 @@ lene_tr-refl-obl-til_vlxm := v-trObl-obRefl &
                LOCAL.KEY-SPEC til-k ] ].
 
 lenges_intr-obl-etter_vlxm := v-intrObl-oblN &
+  [ INFLECTION nonfstr-strong,
+      STEM < "lenges" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lenges_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC etter-k ].
+
+lenges-etter_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
   [ INFLECTION nonfstr-strong,
       STEM < "lenges" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lenges_v-intrObl_rel",
@@ -48069,6 +48229,13 @@ letne_impers_vlxm := v-impers &
       SYNSEM.LKEYS.KEYREL.PRED "_letne_v-impers_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+letne-på_intrObl-oblRefl_vlxm := v-intrObl-oblRefl &
+  [ INFLECTION nonfstr-et,
+      STEM < "letne" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_letne_v-intr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC på-k ].
+
 letne_iv_vlxm := v-intr &
   [ INFLECTION nonfstr-et,
       STEM < "letne" >,
@@ -48105,22 +48272,26 @@ lette_tr-obl-fra_vlxm := v-trObl &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC fra-k ].
 
+lette-for_trObl-oblN_vlxm := v-trObl-oblN &
+  [ INFLECTION nonfstr-et,
+      STEM < "lette" >,
+      SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM.LKEYS.KEYREL.PRED "_lette_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC for-k ].
+
+lette-for_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
+  [ INFLECTION nonfstr-et,
+      STEM < "lette" >,
+      SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM.LKEYS.KEYREL.PRED "_lette_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC for-k ].
+
 lette_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "lette" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lette_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
-
-;;;oblLoc leve_intr-OblLoc_vlxm := v-intrObl-oblLoc &
-;;;oblLoc   [ INFLECTION nonfstr-et_or_de,
-;;;oblLoc       STEM < "leve" >,
-;;;oblLoc       SYNSEM.LKEYS.KEYREL.PRED "_leve_v-intrObl_rel",
-;;;oblLoc     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
-
-leve_intr-Obl_vlxm := v-intrObl &
-  [ INFLECTION nonfstr-et_or_de,
-    STEM < "leve" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_leve_v-intrObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 leve_intr_vlxm := v-intr &
@@ -48128,6 +48299,50 @@ leve_intr_vlxm := v-intr &
       STEM < "leve" >,
       SYNSEM.LKEYS.KEYREL.PRED "_leve_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+leve_tr_vlxm := v-tr &
+ [ INFLECTION nonfstr-et_or_de,
+      STEM < "leve" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_leve_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+leve_intrObl-oblLoc_vlxm := v-intrObl-oblLoc &
+ [ INFLECTION nonfstr-et_or_de,
+      STEM < "leve" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_leve_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+leve-opp_intrPrtcl_vlxm := v-intrPrtcl &
+ [ INFLECTION nonfstr-et_or_de,
+      STEM < "leve" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_leve_v-intrPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC opp-k,
+   SYNSEM.LOCAL.ALT-SPEC til-k ].
+
+leve-opp-til_intrPrtclObl-oblEqSuInf_vlxm := v-intrPrtclObl-oblEqSuInf &
+ [ INFLECTION nonfstr-et_or_de,
+      STEM < "leve" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_leve_v-intrPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC opp-k,
+   SYNSEM.LOCAL.ALT-SPEC til-k ].
+
+leve-opp-til_intrPrtclObl-oblINTERR_vlxm := v-intrPrtclObl-oblINTERR &
+ [ INFLECTION nonfstr-et_or_de,
+      STEM < "leve" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_leve_v-intrPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC opp-k,
+   SYNSEM.LOCAL.ALT-SPEC til-k ].
+
+leve-opp-til_intrPrtclObl-oblDECL_vlxm := v-intrPrtclObl-oblDECL &
+ [ INFLECTION nonfstr-et_or_de,
+      STEM < "leve" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_leve_v-intrPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC opp-k,
+   SYNSEM.LOCAL.ALT-SPEC til-k ].
 
 leve_tr-refl-arg12-secpred-inn_vlxm := v-trScpr-obRefl_scObArgCsd &
   [ INFLECTION nonfstr-et_or_de,
@@ -48470,6 +48685,24 @@ lisensgodkjenne_tv_vlxm := v-tr &
       SYNSEM.LKEYS.KEYREL.PRED "_lisensgodkjenne_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+lisensiere_tr-obAbsinf_vlxm := v-tr-obAbsinf &
+  [ INFLECTION nonfstr-te,
+      STEM < "lisensiere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lisensiere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lisensiere_tr-obDECL_vlxm := v-tr-obDECL &
+  [ INFLECTION nonfstr-te,
+      STEM < "lisensiere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lisensiere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lisensiere_tr-obINTERR_vlxm := v-tr-obINTERR &
+  [ INFLECTION nonfstr-te,
+      STEM < "lisensiere" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lisensiere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 lisensiere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
       STEM < "lisensiere" >,
@@ -48488,7 +48721,7 @@ lisse_tv_vlxm := v-tr &
       SYNSEM.LKEYS.KEYREL.PRED "_lisse_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-liste_seg_vlxm := v-trNrf-suDir_obReflExpl &
+liste-seg_tr-suDir-obRefl_vlxm := v-trNrf-suDir_obReflExpl &
   [ INFLECTION nonfstr-et,
       STEM < "liste" >,
       SYNSEM.LKEYS.KEYREL.PRED "_liste_v-trNrf_rel",
@@ -48529,6 +48762,22 @@ livberge_tr-refl-obl-av_vlxm := v-trObl-obRefl &
                LOCAL.KEY-SPEC av-k ] ].
 
 livberge_tr-refl-obl-på_vlxm := v-trObl-obRefl &
+  [ INFLECTION nonfstr-et,
+      STEM < "livberge" >,
+      SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM [ LKEYS.KEYREL.PRED "_livberge_v-trOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC på-k ] ].
+
+livberge-av_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
+  [ INFLECTION nonfstr-et,
+      STEM < "livberge" >,
+      SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM [ LKEYS.KEYREL.PRED "_livberge_v-trOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC av-k ] ].
+
+livberge-på_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
   [ INFLECTION nonfstr-et,
       STEM < "livberge" >,
       SYNSEM.VAL-CLASS multi-frame,
@@ -48582,6 +48831,20 @@ livnære_tr-refl-obl-på_vlxm := v-trObl-obRefl &
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC på-k ] ].
 
+livnære-av_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
+  [ INFLECTION nonfstr-et_or_te,
+      STEM < "livnære" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_livnære_v-trOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC av-k ] ].
+
+livnære-på_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
+  [ INFLECTION nonfstr-et_or_te,
+      STEM < "livnære" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_livnære_v-trOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC på-k ] ].
+
 livnære_tr-refl-rais-som_vlxm := v-trScpr-scObNrg_obRefl_scPredprtclSom &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "livnære" >,
@@ -48600,6 +48863,20 @@ livsforsikre_tr-refl_vlxm := v-tr-obRefl &
       SYNSEM.LKEYS.KEYREL.PRED "_livsforsikre_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+livsforsikre-for_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
+  [ INFLECTION nonfstr-et,
+      STEM < "livsforsikre" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_livsforsikre_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC for-k ].
+
+livsforsikre-mot_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
+  [ INFLECTION nonfstr-et,
+      STEM < "livsforsikre" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_livsforsikre_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC mot-k ].
+
 livsforsikre_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "livsforsikre" >,
@@ -48612,6 +48889,12 @@ ljome_impers-obl-i_vlxm := v-impersObl &
       SYNSEM.LKEYS.KEYREL.PRED "_ljome_v-impersObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC i-k ].
+
+ljome_impers_vlxm := v-impers &
+  [ INFLECTION nonfstr-et,
+      STEM < "ljome" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ljome_v-impers_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 ljome_iv_vlxm := v-intr &
   [ INFLECTION nonfstr-et,
@@ -48627,6 +48910,20 @@ ljuge_intr-obl-for_vlxm := v-intrObl-oblN &
                LOCAL.KEY-SPEC for-k ] ].
 
 ljuge_intr-obl-om_vlxm := v-intrObl-oblN &
+  [ INFLECTION nonfstr-et_or_de,
+      STEM < "ljuge" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_ljuge_v-intrOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC om-k ] ].
+
+ljuge-om_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+  [ INFLECTION nonfstr-et_or_de,
+      STEM < "ljuge" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_ljuge_v-intrOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC om-k ] ].
+
+ljuge-om_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
   [ INFLECTION nonfstr-et_or_de,
       STEM < "ljuge" >,
       SYNSEM [ LKEYS.KEYREL.PRED "_ljuge_v-intrOblrel",
@@ -48661,9 +48958,16 @@ lobbe_tv_vlxm := v-tr &
 lodde-ut_trPrtcl_vlxm := v-trPrtcl &
   [ INFLECTION nonfstr-et,
       STEM < "lodde" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_lodde_v-trScpr_rel",
+      SYNSEM.LKEYS.KEYREL.PRED "_lodde-2_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC ut-k ].
+
+lodde-2-fast_trPrtcl_vlxm := v-trPrtcl &
+  [ INFLECTION nonfstr-et,
+      STEM < "lodde" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lodde_v-trScpr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC fast-k ].
 
 lodde_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -48697,41 +49001,62 @@ loffe_iv_vlxm := v-intr &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 logge-inn_trPrtcl_vlxm := v-trPrtcl &
-  [ INFLECTION nonfstr-et,
+ [ INFLECTION nonfstr-et,
       STEM < "logge" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trScpr_rel",
+      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trPrtcl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC inn-k ].
 
-logge-ut_trPrtcl_vlxm := v-trPrtcl &
-  [ INFLECTION nonfstr-et,
+logge-inn_trPrtcl-obRefl_vlxm := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-et,
       STEM < "logge" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trScpr_rel",
+      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC inn-k ].
+
+logge-inn-på_trPrtclObl-obRefl-oblN_vlxm := v-trPrtclObl-obRefl_oblN &
+ [ INFLECTION nonfstr-et,
+      STEM < "logge" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC inn-k,
+      SYNSEM.LOCAL.ALT-SPEC på-k ].
+
+logge-ut-av_trPrtclObl-obRefl-oblN_vlxm := v-trPrtclObl-obRefl_oblN &
+ [ INFLECTION nonfstr-et,
+      STEM < "logge" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC ut-k,
+      SYNSEM.LOCAL.ALT-SPEC av-k ].
+
+logge-ut_trPrtcl_vlxm := v-trPrtcl &
+ [ INFLECTION nonfstr-et,
+      STEM < "logge" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trPrtcl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC ut-k ].
 
 logge-av_trPrtcl_vlxm := v-trPrtcl &
-  [ INFLECTION nonfstr-et,
+ [ INFLECTION nonfstr-et,
       STEM < "logge" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trScpr_rel",
+      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trPrtcl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC av-k ].
 
-logge_tr-refl-obl-av_vlxm := v-trObl-obRefl &
-  [ INFLECTION nonfstr-et,
+logge-av_trPrtcl-obRefl_vlxm := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-et,
       STEM < "logge" >,
-      SYNSEM.VAL-CLASS multi-frame,
-      SYNSEM [ LKEYS.KEYREL.PRED "_logge_v-trOblrel",
-	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-               LOCAL.KEY-SPEC av-k ] ].
+      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC av-k ].
 
-logge_tr-refl-obl-på_vlxm := v-trObl-obRefl &
-  [ INFLECTION nonfstr-et,
+logge-på_trPrtcl-obRefl_vlxm := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-et,
       STEM < "logge" >,
-      SYNSEM.VAL-CLASS multi-frame,
-      SYNSEM [ LKEYS.KEYREL.PRED "_logge_v-trOblrel",
-	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-               LOCAL.KEY-SPEC på-k ] ].
+      SYNSEM.LKEYS.KEYREL.PRED "_logge_v-trPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC på-k ].
 
 logge_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -48771,38 +49096,58 @@ lokalisere_tv_vlxm := v-tr &
       SYNSEM.LKEYS.KEYREL.PRED "_lokalisere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-lokke_intr-obl-med_vlxm := v-intrObl-oblN &
+lokke-med_intrObl-oblN_vlxm := v-intrObl-oblN &
   [ INFLECTION nonfstr-et,
       STEM < "lokke" >,
-      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-intrObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC med-k ].
 
-lokke_iv_vlxm := v-intr &
-  [ INFLECTION nonfstr-et,
+lokke-med_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+ [ INFLECTION nonfstr-et,
       STEM < "lokke" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-intr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+      SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC med-k ].
 
-lokke_obj-eq-pp-til_vlxm := v-trObl-oblEqObInf &
-  [ INFLECTION nonfstr-et,
+lokke-til_trObl-oblRefl_vlxm := v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT &
+ [ INFLECTION nonfstr-et,
       STEM < "lokke" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC til-k ].
 
-lokke-2_tr-refl_vlxm := v-tr-obRefl &
+lokke-til_trObl_vlxm := v-trScpr-scObArgCsd_scLoc &
+ [ INFLECTION nonfstr-et,
+      STEM < "lokke" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC til-k ].
+
+lokke_intr_vlxm := v-intr &
   [ INFLECTION nonfstr-et,
       STEM < "lokke" >,
-      SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-intr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lokke-til_trObl-oblEqObInf := v-trObl-oblEqObInf &
+ [ INFLECTION nonfstr-et,
+      STEM < "lokke" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC til-k ].
+
+lokke_tr-obDir_vlxm := v-tr-obDir &
+  [ INFLECTION nonfstr-et,
+      STEM < "lokke" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-lokke_tv_vlxm := v-tr-obDir &
+;about curls
+lokke-2_tr-obRefl_vlxm := v-tr-obRefl &
   [ INFLECTION nonfstr-et,
       STEM < "lokke" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_lokke_v-tr_rel",
+      SYNSEM.LKEYS.KEYREL.PRED "_lokke-2_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 lombardere_iv_vlxm := v-intr &
@@ -48946,6 +49291,42 @@ lovheimle_tv_vlxm := v-tr &
       SYNSEM.LKEYS.KEYREL.PRED "_lovheimle_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+lovheimle_tr-obAbsinf_vlxm := v-tr-obAbsinf &
+  [ INFLECTION nonfstr-et,
+      STEM < "lovheimle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lovheimle_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lovheimle_tr-obDECL_vlxm := v-tr-obDECL &
+  [ INFLECTION nonfstr-et,
+      STEM < "lovheimle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lovheimle_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lovheimle_tr-obINTERR_vlxm := v-tr-obINTERR &
+  [ INFLECTION nonfstr-et,
+      STEM < "lovheimle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lovheimle_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lovhjemle_tr-obAbsinf_vlxm := v-tr-obAbsinf &
+  [ INFLECTION nonfstr-et,
+      STEM < "lovhjemle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lovhjemle_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lovhjemle_tr-obDECL_vlxm := v-tr-obDECL &
+  [ INFLECTION nonfstr-et,
+      STEM < "lovhjemle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lovhjemle_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lovhjemle_tr-obINTERR_vlxm := v-tr-obINTERR &
+  [ INFLECTION nonfstr-et,
+      STEM < "lovhjemle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lovhjemle_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 lovhjemle_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "lovhjemle" >,
@@ -49031,6 +49412,18 @@ lugge_iv_vlxm := v-intr &
   [ INFLECTION nonfstr-et,
       STEM < "lugge" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lugge_v-intr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lugge_impers_vlxm := v-impers &
+  [ INFLECTION nonfstr-et,
+      STEM < "lugge" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lugge_v-impers_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lugge_trObl-oblPRTOFob_vlxm := v-trObl-oblPRTOFob &
+  [ INFLECTION nonfstr-et,
+      STEM < "lugge" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lugge_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 lugge_tv_vlxm := v-tr &
@@ -49505,6 +49898,27 @@ lyve_intr-obl-om_vlxm := v-intrObl-oblN &
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC om-k ] ].
 
+lyve-om_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
+  [ INFLECTION nonfstr-strong,
+      STEM < "lyve" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_lyve_v-intrOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC om-k ] ].
+
+lyve-om_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+  [ INFLECTION nonfstr-strong,
+      STEM < "lyve" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_lyve_v-intrOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC om-k ] ].
+
+lyve-om_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
+  [ INFLECTION nonfstr-strong,
+      STEM < "lyve" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_lyve_v-intrOblrel",
+	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+               LOCAL.KEY-SPEC om-k ] ].
+
 lyve_intr-obl-til_vlxm := v-intrObl-oblN &
   [ INFLECTION nonfstr-strong,
       STEM < "lyve" >,
@@ -49649,41 +50063,74 @@ lære_ditr_vlxm := v-ditr &
       SYNSEM.LKEYS.KEYREL.PRED "_lære_v-ditr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-lære_intr-obl-av_vlxm := v-intrObl-oblN &
-  [ INFLECTION nonfstr-te,
-      STEM < "lære" >,
-      SYNSEM.VAL-CLASS multi-frame,
-      SYNSEM [ LKEYS.KEYREL.PRED "_lære_v-intrOblrel",
-	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-               LOCAL.KEY-SPEC av-k ] ].
-
-lære_subj-doublobj-equi_vlxm := v-ditr-obEqIobInf &
+lære_ditr-iobRefl-obEqIobInf_vlxm := v-ditr-iobRefl_obEqIobInf &
   [ INFLECTION nonfstr-te,
       STEM < "lære" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lære_v-ditr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-lære_subj-equi_vlxm := v-tr-obEqInf &
+lære-av_intrObl-oblN_vlxm := v-intrObl-oblN &
+  [ INFLECTION nonfstr-te,
+      STEM < "lære" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lære_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC av-k ].
+
+lære_ditr-obEqIobInf_vlxm := v-ditr-obEqIobInf &
+  [ INFLECTION nonfstr-te,
+      STEM < "lære" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lære_v-ditr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+lære_tr-obEqInf_vlxm := v-tr-obEqInf &
   [ INFLECTION nonfstr-te,
       STEM < "lære" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lære_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+lære-bort_trPrtcl_vlxm := v-trPrtcl &
+  [ INFLECTION nonfstr-te,
+      STEM < "lære" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lære_v-trPrtcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC bort-k ].
+
 lære-opp_trPrtcl_vlxm := v-trPrtcl &
   [ INFLECTION nonfstr-te,
       STEM < "lære" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_lære_v-trScpr_rel",
+      SYNSEM.LKEYS.KEYREL.PRED "_lære_v-trPrtcl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC opp-k ].
 
-lære_tr-obl_vlxm := v-trObl &
+lære-om_trObl-oblN_vlxm := v-trObl-oblN &
   [ INFLECTION nonfstr-te,
       STEM < "lære" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lære_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-      SYNSEM.LOCAL.KEY-SPEC til-k ].
+      SYNSEM.LOCAL.KEY-SPEC om-k ].
 
-lære_tr-subord_vlxm := v-tr-obDECL &
+lære-om_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
+  [ INFLECTION nonfstr-te,
+      STEM < "lære" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lære_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC om-k ].
+
+lære-om_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
+  [ INFLECTION nonfstr-te,
+      STEM < "lære" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lære_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC om-k ].
+
+lære-om_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
+  [ INFLECTION nonfstr-te,
+      STEM < "lære" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_lære_v-intrObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC om-k ].
+
+lære_tr-obDECL_vlxm := v-tr-obDECL &
   [ INFLECTION nonfstr-te,
       STEM < "lære" >,
       SYNSEM.LKEYS.KEYREL.PRED "_lære_v-tr_rel",
@@ -49729,6 +50176,12 @@ løfte-opp_tr-ppshift_vlxm := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
       SYNSEM.LKEYS.KEYREL.PRED "_løfte_v-trScprShft_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC opp-k ].
+
+løfte_tr-obRefl-obDir_vlxm := v-trPath-obRefl_obDir &
+  [ INFLECTION nonfstr-et,
+      STEM < "løfte" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_løfte_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 løfte_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -49873,6 +50326,13 @@ løsne_iv_vlxm := v-intr &
       STEM < "løsne" >,
       SYNSEM.LKEYS.KEYREL.PRED "_løsne_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+løsne-opp_trPrtcl_vlxm := v-trPrtcl &
+  [ INFLECTION nonfstr-et,
+      STEM < "løsne" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_løsne_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC opp-k ].
 
 løsne_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -50148,6 +50608,55 @@ mangle_subj-pres_vlxm := v-intrPresnt &
       SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_mangle_v-intrPresnt_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+mangle_trExpnSu-expnAbsinf_vlxm := v-trExpnSu-expnEqInf &
+  [ INFLECTION nonfstr-et,
+      STEM < "mangle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_mangle_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+mangle_trExpnSu-expnDECL_vlxm := v-trExpnSu-expnDECL &
+  [ INFLECTION nonfstr-et,
+      STEM < "mangle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_mangle_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+mangle-på_trObl_vlxm := v-trObl-oblN &
+  [ INFLECTION nonfstr-et,
+      STEM < "mangle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_mangle_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC på-k ].
+
+mangle-på_trObl-oblDECL_vlxm := v-trObl-oblDECL &
+  [ INFLECTION nonfstr-et,
+      STEM < "mangle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_mangle_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC på-k ].
+
+mangle-på_trObl-oblEqSuInf_vlxm := v-trObl-oblEqSuInf &
+  [ INFLECTION nonfstr-et,
+      STEM < "mangle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_mangle_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC på-k ].
+
+;det mangler mye på at
+mangle-på_trOblExlnk-exlnkDECL_vlxm := v-trOblExlnk-oblExlnkDECL &
+  [ INFLECTION nonfstr-et,
+      STEM < "mangle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_mangle_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC på-k ].
+
+;det mangler mye på å
+mangle-på_trOblExlnk-exlnkAbsinf_vlxm := v-trOblExlnk-oblExlnkAbsinf &
+  [ INFLECTION nonfstr-et,
+      STEM < "mangle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_mangle_v-trObl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC på-k ].
 
 mangle_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
