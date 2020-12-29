@@ -1336,8 +1336,10 @@ clse := fct-actv-spec & clausal-yes.
 non-clse := clausal-no.
 om-clse := clse & om-fct-spec.
 mot-clse := clse & mot-fct-spec.
+imot-clse := clse & imot-fct-spec.
 på-clse := clse & på-fct-spec.
 over-clse := clse & over-fct-spec.
+under-clse := clse & under-fct-spec.
 av-clse := clse & av-fct-spec.
 i-clse := clse & i-fct-spec.
 med-clse := clse & med-fct-spec.
@@ -1388,6 +1390,8 @@ over-rais := rais & over-k.
 overfor-rais := rais & overfor-k.
 i-rais := rais & i-k.
 etter-rais := rais & etter-k.
+unna-rais := rais & unna-k.
+under-rais := rais & under-k.
 ved-rais := rais & ved-k.
 
 
@@ -8510,6 +8514,12 @@ trans-ppshift-nonrefl-verb-lexeme := verb-lexeme &
 
 trans-ppshift-decl-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-ppshift-decl-synsem ].
+
+trans-ppshift-with-refl-decl-verb-lexeme := verb-lexeme &
+[ SYNSEM trans-ppshift-with-refl-decl-synsem ].
+
+trans-ppshift-with-refl-equi-verb-lexeme := verb-lexeme &
+[ SYNSEM trans-ppshift-with-refl-equi-synsem ].
 
 trans-ppshift-interr-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-ppshift-interr-synsem ].
@@ -21717,6 +21727,18 @@ trans-2obl-synsem-sup := arg1-subj-synsem & arg2-comps-synsem &
 trans-2obl-synsem := trans-2obl-synsem-sup &
   [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING nontamed ] >].
 
+trans-2obl-refl-synsem := trans-2obl-synsem-sup &
+  [ LOCAL.CAT.HEAD non-copula,
+    LOCAL.CAT.VAL.SUBJ < [ LOCAL.CONT.HOOK.INDEX #1,
+			   LOCAL.AGR.PNG #2 ]>,
+    LOCAL.CAT.VAL.COMPS < [LOCAL.BINDING [ BOUND +,
+					   REFL-I +,
+					   REFL-II -,
+					   LEX-TAME + ],
+			   LOCAL.CAN-MAL-DROP +, 
+			   LOCAL.BND-MOUNTABLE < [ ANAPH-INDX #1 ] >,
+			   LOCAL.AGR.PNG #2] > ].
+
 trans-2obl-decl-synsem := trans-2obl-synsem-sup &
   [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING nontamed ] >,
     LOCAL.CAT.QVAL.OBL2.LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD.DECL +,
@@ -22551,6 +22573,67 @@ trans-ppshift-decl-synsem := argx-predicative-synsem & arg1-subj-synsem &
 			      LOCAL.CAT.HEAD verb-or-comp, ;fin-comp,
 			      LOCAL.CONT.HOOK.LTOP #4,
                           LOCAL.CONT.HOOK.INDEX.E.TENSE finite] >,
+    LOCAL.CAT.VAL.ICOMPS <> ].
+
+;spandere på seg at det blir fest
+trans-ppshift-with-refl-decl-synsem := argx-predicative-synsem & arg1-subj-synsem &
+  [ LOCAL.CONT.HOOK dir-hook,
+    LOCAL.CAT.HEAD verb,
+    LOCAL.CONT.HOOK.VARG #5,
+    LOCAL.CAT trans-invertsecpred-cat,
+    LKEYS.KEYREL.ARG2 #4,
+    LKEYS.KEYREL.ARGX #ltop,
+    LOCAL.KEY-SPEC #key,
+    LOCAL.CAN-CMB-FIXPT -,
+    LOCAL.CAN-CMB-NONFIXPT-DIR -,
+    LOCAL.CAT.VAL [ SUBJ < [ LOCAL.CONT.HOOK.INDEX ref-ind & #1,
+			    LOCAL.CAT.HEAD.EXPLETIVE -] >],
+    LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.LTOP #ltop,
+			    LOCAL.CONT.HOOK.INDEX ad-event,
+                            LOCAL.CONT.HOOK.XARG #5,
+                            LOCAL.CAT.HEAD prep-or-adv,
+                            LOCAL.CAT.HEAD [KEYS.KEY #key],
+			    LOCAL.CAT.QVAL.DOBJECT.LOCAL.BND-RESP < [ ANAPH-INDX #1 ] >,
+                            LOCAL.CAT.QVAL.DOBJECT.LOCAL.BINDING[ BOUND +,
+                                                                  REFL-I +,
+                                                                  REFL-II -,
+                                                                  LEX-TAME +]],
+                            [ LOCAL.CAT.HEAD.INV -,
+			      LOCAL.CAT.HEAD verb-or-comp & [DECL +],
+			      LOCAL.CAT.HEAD verb-or-comp, ;fin-comp,
+			      LOCAL.CONT.HOOK.LTOP #4,
+			      LOCAL.CONT.HOOK.INDEX.E.TENSE finite] >,
+    LOCAL.CAT.VAL.ICOMPS <> ].
+
+;spandere på seg å kjøpe kaffe
+trans-ppshift-with-refl-equi-synsem := argx-predicative-synsem & arg1-subj-synsem &
+  [ LOCAL.CONT.HOOK dir-hook,
+    LOCAL.CAT.HEAD verb,
+    LOCAL.CONT.HOOK.VARG #5,
+    LOCAL.CAT trans-invertsecpred-cat,
+    LKEYS.KEYREL.ARG2 #4,
+    LKEYS.KEYREL.ARGX #ltop,
+    LOCAL.KEY-SPEC #key,
+    LOCAL.CAN-CMB-FIXPT -,
+    LOCAL.CAN-CMB-NONFIXPT-DIR -,
+    LOCAL.CAT.VAL [ SUBJ < [ LOCAL.CONT.HOOK.INDEX ref-ind & #1,
+			    LOCAL.CAT.HEAD.EXPLETIVE -] >],
+    LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.LTOP #ltop,
+			    LOCAL.CONT.HOOK.INDEX ad-event,
+                            LOCAL.CONT.HOOK.XARG #5,
+                            LOCAL.CAT.HEAD prep-or-adv,
+                            LOCAL.CAT.HEAD [KEYS.KEY #key],
+			    LOCAL.CAT.QVAL.DOBJECT.LOCAL.BND-RESP < [ ANAPH-INDX #1 ] >,
+                            LOCAL.CAT.QVAL.DOBJECT.LOCAL.BINDING[ BOUND +,
+                                                                  REFL-I +,
+                                                                  REFL-II -,
+                                                                  LEX-TAME +]],
+                            [ LOCAL.CAT.HEAD.INV -,
+			      LOCAL.CAT.HEAD verb-or-comp & [DECL +,
+							     TRANSPAR +],
+			      LOCAL.CONT.HOOK.XARG #1,
+			      LOCAL.CONT.HOOK.LTOP #4,
+			      LOCAL.CONT.HOOK.INDEX.E.TENSE non-finite] >,
     LOCAL.CAT.VAL.ICOMPS <> ].
 
 trans-ppshift-interr-synsem := argx-predicative-synsem & arg1-subj-synsem &

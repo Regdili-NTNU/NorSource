@@ -349,6 +349,11 @@ i_sel := prep-word-sel &
     SYNSEM.LKEYS.KEYREL.PRED "_i_p-sel_rel",
     SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY i-fct-spec ] ].
 
+unna_sel := prep-word-sel &
+  [ STEM < "unna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_unna_p-sel_rel",
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY unna-fct-spec ] ].
+
 overfor_sel := prep-word-sel &
   [ STEM < "overfor" >,
     SYNSEM.LKEYS.KEYREL.PRED "_overfor_p-sel_rel",
@@ -885,6 +890,11 @@ uten_rais-vmod := prep-rais-vp-mod-word &
   [ STEM < "uten" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY uten-k,
     SYNSEM.LKEYS.KEYREL.PRED "_uten_p-rais_rel"].
+
+unna_rais-vmod := prep-rais-vp-mod-word &
+  [ STEM < "unna" >,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY unna-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_unna_p-rais_rel"].
 
 
 

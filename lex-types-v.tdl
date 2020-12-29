@@ -101,6 +101,25 @@ v-intrObl-oblAbsinf := intrans-obl-arbinf-verb-lexeme.
 ; spise på, gnage på
 v-intrObl-oblN-ACTIVITY := intrans-atel-obl-verb-lexeme.
 v-intrAdv := intrans-obladv-verb-lexeme.
+;27122020 
+v-intrAdv-suDECL := verb-lexeme & 
+  [SYNSEM [LOCAL.CONT mrs,
+	   LOCAL.CAT.HEAD.INV -,
+	   LOCAL.CAT.VAL.SUBJ < [LOCAL.CAT.HEAD.EXPLETIVE -,
+				 LOCAL.CAT.HEAD.DECL +,
+				 LOCAL.AGR.PNG.NG.NUM sing,
+				 LOCAL.AGR.PNG.PERS thirdpers,
+				 LOCAL.CONT.HOOK.INDEX super-event & [PNG.PERS thirdpers],
+				 LOCAL.CONT.HOOK.LTOP #1] >, 
+	   LOCAL.CAT.VAL.COMPS < lex-synsem &
+				 [ LOCAL.CAT.HEAD adv-reg]>,
+	   LKEYS.KEYREL.ARG1 #1]].
+;27122020 
+v-intrAdvExpn-expnDECL := v-intrPrtclExpn-expnDECL.
+;TODO27122020 v-trObl2-obRefl_oblN_obl2EqObInf
+;TODO27122020 v-trObl2-obRefl_oblN
+;TODO27122020 v-intrObl2-obl2EqOblInf
+;27122020 snakke-til_trScpr-obRefl-scPP_vlm := v-trScpr-obRefl_scPP & > v-trObl-obRefl, simply?no, it has the scprNrg about it ...v-trScpr-obRefl_scObNrg
 v-trAdv := trans-obladv-verb-lexeme.
 v-intrObl-oblRefl := intrans-obl-refl-verb-lexeme.
 
@@ -335,6 +354,8 @@ v-intrPrtcl-SUSTAINEDACTIVITY := intrans-atelicparticle-arg1-verb-lexeme.
 v-intrSubcoord := intrans-arg1-atelic-verb-lexeme.
 ; for "drive/holde" in "driver/holder på med å"
 v-intrPrtclObl-oblEqSuInf := subj-prtcl-equi-pp-atelic-verb-lexeme.
+;TODO has equi instd of absinf in def:
+v-intrPrtclObl-oblAbsinf := subj-prtcl-equi-pp-atelic-verb-lexeme.
 ; forefalle, , "forefalle komme"
 v-intrScpr-scSuNrg_scBareinf := intrans-secpred-rais-from-verbal-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
 ; forefalle_3, vedbli "forefalle å komme"
@@ -450,6 +471,12 @@ v-trObl2-oblN_obl2EqObInf := verb-lexeme & [SYNSEM trans-2obl-equi-synsem].
 v-trObl2-oblN_obl2INTERR := verb-lexeme & [SYNSEM trans-2obl-interr-synsem].
 v-trObl2-oblN_obl2N := trans-2obl-verb-lexeme.
 v-trObl2-oblN_obl2Absinf := verb-lexeme & [SYNSEM trans-2obl-absinf-synsem].
+;TODO not yet done the obRefl part
+v-trObl2-obRefl_obl2DECL := verb-lexeme & [SYNSEM trans-2obl-decl-synsem].
+v-trObl2-obRefl_obl2EqObInf := verb-lexeme & [SYNSEM trans-2obl-equi-synsem].
+v-trObl2-obRefl_obl2INTERR := verb-lexeme & [SYNSEM trans-2obl-interr-synsem].
+v-trObl2-obRefl_obl2N := trans-2obl-verb-lexeme.
+v-trObl2-obRefl_obl2Absinf := verb-lexeme & [SYNSEM trans-2obl-absinf-synsem].
 
 ; "lagre kisten i skogen"
 v-trObl-oblLoc := trans-locobl-verb-lexeme. 
@@ -713,6 +740,8 @@ v-trExpnSu-expnWH-sup := io-epon-wh-verb-lexeme & top-verb-lexeme&
    [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD verb-all ] > ].
 v-trExpnSu-expnWH := v-trExpnSu-expnWH-sup &
   [SYNSEM.LOCAL.CAT.HEAD verb].
+v-trExpnSu-expnINTERR := io-epon-verb-lexeme & top-verb-lexeme &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL -]] > ].
 ;(from Presentational-2)
 v-trExpnSu-expnDECL_obRefl := io-refl-epon-verb-lexeme & top-verb-lexeme &
    [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL +]] > ].
@@ -836,6 +865,22 @@ v-trPrtclObl-oblDECL := v-trprtclobl &
 	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
 							KEYS.KEY clse ]]>,
 	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
+
+v-trPrtclObl-oblAbsinf := v-trprtclobl &
+[SYNSEM [LOCAL.CAT.QVAL.OBL1 #loc & 
+			     [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD infin-comp & [ TRANSPAR -,
+										    DECL +,
+										    KEYS.KEY infinit-comp-arb ]],
+			      LOCAL.CONT.HOOK.INDEX.E.TENSE non-finite,   
+			      LOCAL.CONT.HOOK.LTOP #1 & handle],
+	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
+							KEYS.KEY clse ]]>,
+	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]]].
+
+;TODO28122020 spandere på seg at
+v-trScpr-obDECL_scPPrefl := trans-ppshift-with-refl-decl-verb-lexeme.
+;TODO28122020 
+v-trScpr-obEqSuInf_scPPrefl := trans-ppshift-with-refl-equi-verb-lexeme.
 
 v-trPrtclObl-oblINTERR := v-trprtclobl & 
 [SYNSEM [LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD verb-or-comp & [ DECL - ],
