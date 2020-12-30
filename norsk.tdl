@@ -1393,6 +1393,7 @@ etter-rais := rais & etter-k.
 unna-rais := rais & unna-k.
 under-rais := rais & under-k.
 ved-rais := rais & ved-k.
+mellom-rais := rais & mellom-k.
 
 
 ; for prep-delimit-fix
@@ -8641,6 +8642,11 @@ ditrans-eventarg1interr-eventarg2interr-verb-lexeme := verb-lexeme &
 ;(was verb-general-lexeme)
 impersonal-presentational-verb-lexeme := verb-2rel-arg12a-lexeme & top-verb-lexeme &
   [ SYNSEM impersonal-presentational-synsem,
+    SYNSEM.LOCAL.CAT.HEAD verb  & [VOICE active,
+                                   KEYS.KEY mainvb]].
+
+impersonal-trans-presentational-verb-lexeme := verb-2rel-arg12a-lexeme & top-verb-lexeme &
+  [ SYNSEM impersonal-trans-presentational-synsem,
     SYNSEM.LOCAL.CAT.HEAD verb  & [VOICE active,
                                    KEYS.KEY mainvb]].
 
@@ -21633,6 +21639,22 @@ v-trObl-obAbsinf_oblAbsinf-synsem := lex-synsem &
     LKEYS.KEYREL arg12obl-rel & [ ARG2 #2,
 				  ARGOBLQ #1] ].
 
+v-trObl-obEqSuInf_oblEqSuInf-synsem := lex-synsem & 
+  [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #10 ] >,
+   LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD.DECL +,
+                          LOCAL.CAT.HEAD.INV -,
+                          LOCAL.CAT.HEAD infin-comp & [TRANSPAR +],
+                          LOCAL.CAT.HEAD.IMPERATIVE -,
+                          LOCAL.CONT.HOOK.LTOP #2 & semarg,
+                          LOCAL.CONT.HOOK.XARG #10,
+                          LOCAL.CONT.HOOK.INDEX.E.TENSE infin] >,
+   LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD.DECL +,
+							     CAT.HEAD infin-comp & [ TRANSPAR +,
+									      DECL + ]]],
+   LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CONT.HOOK.LTOP #1 & handle,
+			       LOCAL.CONT.HOOK.XARG #10],
+   LKEYS.KEYREL arg12obl-rel & [ ARG2 #2,
+				 ARGOBLQ #1] ].
 
 trans-refl-obl-synsem-sup := trans-obl-synsem-sup &
   [ LOCAL.CAT.HEAD non-copula,
@@ -23237,6 +23259,11 @@ impersonal-presentational-synsem := presentational-synsem-2 &
   [ LOCAL.CONT.HOOK hook,
     LOCAL.CAT.VAL.COMPS <> ].
 
+;presentational-synsem-2
+impersonal-trans-presentational-synsem := presentational-synsem-2 &
+  [ LOCAL.CONT.HOOK hook,
+    LOCAL.CAT.VAL.COMPS <[]> ].
+
 #|
 ; kvekke, ise, kile, kime
 impersonal-presentational-obl-synsem := presentational-synsem &
@@ -23355,7 +23382,7 @@ subject-locobl-presentational-synsem := subject-presentational-synsem-sup &
     LOCAL.CONT.HOOK hook & [VARG #3],
     LOCAL.KEY-SPEC #1,
     LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-or-adv & [ SELECTED -,
-                                                          KEYS.KEY #1& index-sit],
+                                                          KEYS.KEY #1 & index-sit],
                            LOCAL.CONT.HOOK.INDEX[SORT non-fix-point,
                                                  ROLE xdim-to-xdim-spatial],
 			   LOCAL.CONT.HOOK.VARG #3,

@@ -10,6 +10,37 @@
 ;;;    
 ;;;oblLoc 
 
+;xNo feature structure for VIGSLE-SOM_TRSCPR-SCOBNRG-SCPREDPRTCL_VLXM
+;No feature structure for TORE_TR-OBEQBAREINF_VLXM
+;No feature structure for ÅPNE_TRPRESNT-OBREFL_VLXM
+;No feature structure for VELGE-FRAMFOR_TROBL-OBEQSUINF-OBLEQSUINF_VLXM
+
+
+;LH290912 TODO add refl part
+v-trPresnt-obRefl := impersonal-trans-presentational-verb-lexeme.
+;Further logical definitions:
+;v-trPresnt-obRefl_presDir := v-presentReflDir.
+;v-trPresntPath-obRefl := v-presentReflDir.   ;when a real path const
+;v-trPresntLoc-obRefl := v-presntReflLoc.   
+;v-intrPresntPath   
+;v-intrPresntLoc 
+;v-intrPresnt-presDir := v-intrPresnt. ; (smette)
+v-intrPresntObl := impersonal-presentational-obl-verb-lexeme.
+;TODO add INTERR
+v-intrPresntObl-oblINTERR := v-intrPresntObl.
+
+
+;can be produced v-presentReflDirShft 
+;ad hac v-trNrf-suDir_obReflExpl 
+;v-presentReflDir 
+;v-presntReflLoc
+;v-presResult
+;LH290912 TODO prelimary, make modality change in v-aux-faa to adapt
+v-tr-obEqBareinf := v-aux-faa.
+;LH290912 v-trObl-obEqSuInf_oblEqSuInf
+;v-trObl-obAbsinf_oblAbsinf-synsem := lex-synsem &   see norsk.tdl
+;LH290912 v-intrObl-oblEqSuInf - old type, maybe mellom
+
 ; Conversion old - new v-lextypes
 v-intr := intrans-arg1-verb-lexeme.
 ; skje, inntreffe
@@ -418,6 +449,9 @@ v-intrOblExlnk-oblExlnkAbsinf := intrans-rais-from-pp-arg1-verb-lexeme &
 ;?
 v-trOblExlnk-oblExlnkAbsinf := trans-rais-from-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+
+v-trObl-obEqSuInf_oblEqSuInf := verb-lexeme &
+ [SYNSEM v-trObl-obEqSuInf_oblEqSuInf-synsem].
 
 
  v-ditr-obINTERR := verb-lexeme &
