@@ -9900,6 +9900,11 @@ ADD
 nyttiggjøre_ditr-iobRefl-obDECL_vlxm := v-ditr-iobRefl_obDECL &
 ENDadd
 nyttiggjøre_tv_vlxm := v-tr &
+EXTRA
+nyttiggjøre-av_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
+nyttiggjøre-av_trObl-obRefl-oblDECL_vlxm := v-trObl-obRefl_oblDECL &
+nyttiggjøre-av_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
+ENDextra
 nyve_tv_vlxm := v-tr &
 nyvåkne_iv_vlxm := v-intr &
 nyåpne_tv_vlxm := v-tr &
@@ -11669,6 +11674,11 @@ rekne-med_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
 rekne-med_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
 rekgne-med_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
 ENDadd
+EXTRA
+rekne-ut_trPrtcl-obDECL_vlxm := v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT &
+rekne-ut_trPrtcl_vlxm := v-trPrtcl &
+rekne_tr-prtcl-ut_vlxm := v-trPrtclShft &
+ENDextra
 rekne_iv_vlxm := v-intr &
 rekne_tr-secpr-som_vlxm := v-trScpr-scObNrg_scPredprtclSom &
 rekognosere_iv_vlxm := v-intr &
@@ -13044,6 +13054,9 @@ skjelne_tr-obl-fra_vlxm := v-trObl &
 ADD
 skjelne-fra _trObl-oblAbsinf_vlxm := v-trObl-oblAbsinf &
 ENDadd
+EXTRA
+skjelne-fra_trObl--obAbsinf-oblAbsinf_vlxm := v-trObl-obAbsinf_oblAbsinf &
+ENDextra
 skjelne_tv_vlxm := v-tr &
 skjelve_intr-obl-i_vlxm := v-intrObl-oblN &
 skjelve_intr-obl-på_vlxm := v-intrObl-oblN &
@@ -14038,6 +14051,40 @@ snurre_iv-dir_vlxm := v-intr-suDir &
 snurre_tr-arg12-secpred-rundt_vlxm := v-trScpr-scObArgCsd &
 snuse_intr-obl-i_vlxm := v-intrObl-oblN &
 snuse_intr-obl-på_vlxm := v-intrObl-oblN &
+HIT
+No feature structure for SKJE_INTRADVPRESNT_VLXM
+No feature structure for SIDEORDNE-MED_TROBL-OBABSINF-OBLN_VLXM
+No feature structure for SIDESTILLE-MED_TROBL-OBABSINF-OBLABSINF_VLXM x
+No feature structure for SALUTTERE-FOR_INTROBL-OBLN_VLXM x?
+No feature structure for SALUTTERE-FOR_INTROBL-OBLDECL_VLXM x?
+No feature structure for SIDEORDNE-MED_TROBL-OBABSINF-OBLABSINF_VLXM x
+No feature structure for SKJENNE-PÅ-FOR_INTROBL2-OBL2EQOBLINF_VLXM
+No feature structure for SAMORDNE-MED-OM_TROBL2-OBREFL-OBLN_OBL2EQOBINF_VLXM
+No feature structure for SKJE_INTRADVEXPN-EXPNDECL_VLXM
+No feature structure for SI_TR-ARG12-REFL-SECPRED_VLXM
+No feature structure for SAMRÅ-MED-OM_TROBL2-OBREFL-OBL2N_VLXM x
+No feature structure for SNAKKE-TIL_TRSCPR-OBREFL-SCPP_VLM
+No feature structure for SAMORDNE-MED-OM_TROBL2-OBREFL-OBL2N_VLXM
+No feature structure for SAMRÅ-MED-OM_TROBL2-OBREFL-OBLN_OBL2EQOBINF_VLXM
+No feature structure for SKJE_INTRADV-SUDECL_VLXM
+No feature structure for SLUNTRE-UNNA_INTROBL-OBLEQSUINF_VLXM ymake unna prep-sel
+HIT
+HIT
+No feature structure for SKJE_INTRADVPRESNT_VLXM
+No feature structure for SKJENNE-PÅ-FOR_INTROBL2-OBL2EQOBLINF_VLXM
+No feature structure for SAMORDNE-MED-OM_TROBL2-OBREFL-OBLN_OBL2EQOBINF_VLXM
+No feature structure for SKJE_INTRADVEXPN-EXPNDECL_VLXM
+No feature structure for SI_TR-ARG12-REFL-SECPRED_VLXM
+No feature structure for SNAKKE-TIL_TRSCPR-OBREFL-SCPP_VLM
+No feature structure for SAMORDNE-MED-OM_TROBL2-OBREFL-OBL2N_VLXM
+No feature structure for SAMRÅ-MED-OM_TROBL2-OBREFL-OBLN_OBL2EQOBINF_VLXM
+No feature structure for SKJE_INTRADV-SUDECL_VLXM
+No feature structure for SLUNTRE-UNNA_INTROBL-OBLEQSUINF_VLXM
+HIT
+HIT
+No feature structure for SKJE_INTRADVPRESNT_VLXM
+No feature structure for SLUNTRE-UNNA_INTROBL-OBLEQSUINF_VLXM
+HIT
 ADD
 snuse-i_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
 snuse-på_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
@@ -14101,6 +14148,9 @@ somle-med_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
 somle-bort_trPrtcl_vlxm := v-trPrtcl &
 ENDadd
 somle_iv_vlxm := v-intr &
+EXTRA
+somle-bort_trPrtcl-obRefl_vlxm := v-trPrtcl-obRefl &
+ENDextra
 DEL
 somle_tr-arg12-secpred_vlxm := v-trScpr-scObArgCsd &
 ENDdel
@@ -14232,6 +14282,9 @@ ADD
 spekulere-i_intrObl-oblAbsinf_vlxm := v-intrObl-oblAbsinf &
 spekulere-i_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
 ENDadd
+EXTRA
+spekulere-på_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
+ENDextra
 spekulere_intr-obl-på_vlxm := v-intrObl-oblN &
 spekulere_iv_vlxm := v-intr &
 spenne_intr-obl-mot_vlxm := v-intrObl-oblN &
@@ -14375,6 +14428,10 @@ spraye_tr-arg12-secpred_vlxm := v-trScpr-scObArgCsd &
 ADD
 spraye-med_trObl-oblN_vlxm := v-trObl-oblN &
 ENDadd
+EXTRA
+spraye-med_intrObl-oblN_vlxm := v-intrObl-oblN &
+spraye-på_intrObl-oblN_vlxm := v-intrObl-oblN &
+ENDextra
 spraye_tr-obl-på_vlxm := v-trObl &
 spraye_tv_vlxm := v-tr &
 spre_tr-arg12-secpred_vlxm := v-trScpr-scObArgCsd &
@@ -14482,6 +14539,9 @@ spå-om_intrObl-oblINTERR_vlxm := v-intrObl-oblINTERR &
 spå-om_trObl-oblINTERR_vlxm := v-trObl-oblINTERR &
 spå-i_intrObl-oblN_vlxm := v-intrObl-oblN &
 ENDadd
+EXTRA
+spå_tr-obINTERR_vlxm := v-tr-obINTERR &
+ENDextra
 spå_tr-subord_vlxm := v-tr-obDECL &
 spå_tv_vlxm := v-tr &
 spøke_intr-obl-med_vlxm := v-intrObl-oblN &
@@ -15578,6 +15638,31 @@ ta_tr-arg1-refl-telicpart-inn_vlxm := v-trPrtcl-obRefl &
 ta_tr-arg1-refl-telicpart-ut_vlxm := v-trPrtcl-obRefl &
 ta_tr-detachposs-refl_vlxm := v-trObl-obRefl_oblPRTOFob &
 ta_tr-detachposs_vlxm := v-trObl-oblPRTOFob &
+
+HIT
+No feature structure for STEVNE-FOR-FOR_TROBL2-OBL2EQOBINF invaltype
+No feature structure for STEVNE-FOR-FOR_TROBL2-OBL2DECL_VLXM invaltype
+No feature structure for SVI_IMPERSOBL_VLXM invaltype done
+No feature structure for STREVE-ETTER_INTROBL-OBLN_VLXM invaltype done
+No feature structure for STRITTE-IMOT_INTROBL-OBLDECL_VLXM uniffailatpath
+No feature structure for SPANDERE-PÅ_TRSCPR-OBEQSUINF-SCPPREFL_VLM invaltype
+No feature structure for SPANDERE-PÅ_TRSCPR-OBDECL-SCPPREFL_VLM invaltype
+No feature structure for STØTTE-OPP-UNDER_INTRPRTCLOBL-OBLDECL_VLXM uniffailatpath
+No feature structure for STØTTE-OPP-OM_INTRPRTCLOBL-OBLABSINF_VLXM invaltype
+No feature structure for STORME_IMPERSOBL_VLXM invaltype done
+HIT
+
+
+HIT
+No feature structure for STEVNE-FOR-FOR_TROBL2-OBL2EQOBINF invaltype
+No feature structure for STEVNE-FOR-FOR_TROBL2-OBL2DECL_VLXM invaltype
+No feature structure for STRITTE-IMOT_INTROBL-OBLDECL_VLXM uniffailatpath
+No feature structure for SPANDERE-PÅ_TRSCPR-OBEQSUINF-SCPPREFL_VLM invaltype
+No feature structure for SPANDERE-PÅ_TRSCPR-OBDECL-SCPPREFL_VLM invaltype
+No feature structure for STØTTE-OPP-UNDER_INTRPRTCLOBL-OBLDECL_VLXM uniffailatpath
+No feature structure for STØTTE-OPP-OM_INTRPRTCLOBL-OBLABSINF_VLXM invaltype
+HIT
+
 ADD
 ta-av_trObl-obRefl-oblN_vlxm := v-trObl-obRefl_oblN &
 ta-av_trObl-obRefl-oblAbsinf_vlxm := v-trObl-obRefl_oblAbsinf &
@@ -15990,7 +16075,7 @@ tilrane_ditr-refl_vlxm := v-ditr-iobRefl &
 tilrede_tr-obladv_vlxm := v-trAdv &
 tilrettelegge_tr-obl-for_vlxm := v-trObl &
 ADD
-tilrettelegge-for _trObl-oblAbsinf_vlxm := v-trObl-oblAbsinf &
+tilrettelegge-for_trObl-oblAbsinf_vlxm := v-trObl-oblAbsinf &
 tilrettelegge-for_trObl-oblDECL_vlxm := v-trObl-oblDECL &
 ENDadd
 tilrettelegge_tv_vlxm := v-tr &
@@ -16593,6 +16678,10 @@ trøste-med_trObl-obRefl-oblDECL_vlxm := v-trObl-obRefl_oblDECL &
 trøste-med_trObl-obRefl-oblEqObInf_vlxm := v-trObl-obRefl_oblEqObInf &
 trøste-med_trObl-obRefl-oblINTERR_vlxm := v-trObl-obRefl_oblINTERR &
 ENDadd
+EXTRA
+trøste-med_trObl-oblDECL_vlxm := v-trObl-oblDECL &
+trøste-med_trObl-oblINTERR_vlxm := v-trObl-oblINTERR &
+ENDextra
 trøste_tv_vlxm := v-tr &
 trøstespise_iv_vlxm := v-intr &
 trøstespise_tv_vlxm := v-tr &
@@ -17296,7 +17385,7 @@ utlosse_tv_vlxm := v-tr &
 utlove_ditr_vlxm := v-ditr &
 utlove_tr-obl-for_vlxm := v-trObl &
 ADD
-utlove-for _trObl-oblAbsinf_vlxm := v-trObl-oblAbsinf &
+utlove-for_trObl-oblAbsinf_vlxm := v-trObl-oblAbsinf &
 ENDadd
 utlove_tv_vlxm := v-tr &
 utlyde_intr-obl-i_vlxm := v-intrObl-oblN &

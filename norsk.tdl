@@ -9087,9 +9087,12 @@ imperative-verb-lexeme := const-ltol-rule &
     SYNSEM.LOCAL.NEED-IMP-UNARY +,
     SYNSEM.LOCAL.REL-CL-SOM-INIT #init,
     SYNSEM.LOCAL.OBJ-DEL-APPLIED +,
+    SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED +,
     DTR.SYNSEM.LOCAL.REL-CL-SOM-INIT #init,
     DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ COP #10 ],
     DTR.SYNSEM.LOCAL.CAT.HEAD.IMPERATIVE -,
+    DTR.SYNSEM.LOCAL.OBJ-DEL-APPLIED +,
+    DTR.SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED +,
     DTR.SYNSEM.LOCAL.NEED-IMP-UNARY +,
     DTR.SYNSEM.LOCAL.CAT.HEAD.VOICE active,
     DTR.SYNSEM.LOCAL.CONT.HOOK #1,
@@ -22408,6 +22411,7 @@ trans-secpred-arg1-2-x-synsem-sup := argx-predicative-synsem & arg1-subj-synsem 
     LOCAL.CAT.VAL.ICOMPS <>,
     LOCAL.KEY-SPEC #1 ].
 
+;particle-shift-rule gives opposite order
 trans-secpred-arg1-2decl-x-synsem := argx-predicative-synsem & arg1-subj-synsem &
   [ LOCAL.CAT.HEAD verb,
     LOCAL.CAT trans-ncomps-secpred-cat,
@@ -22426,6 +22430,7 @@ trans-secpred-arg1-2decl-x-synsem := argx-predicative-synsem & arg1-subj-synsem 
     LOCAL.CAT.VAL.ICOMPS <>,
     LOCAL.KEY-SPEC #1 ].
 
+;particle-shift-rule gives opposite order
 trans-secpred-arg1-2interr-x-synsem := argx-predicative-synsem & arg1-subj-synsem &
   [ LOCAL.CONT.HOOK hook,
     LOCAL.CAT.HEAD verb,
@@ -22433,7 +22438,7 @@ trans-secpred-arg1-2interr-x-synsem := argx-predicative-synsem & arg1-subj-synse
     LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #5,
 			    LOCAL.CAT.HEAD.DECL -,
 			    LOCAL.CAT.HEAD.INV -,
-			    LOCAL.CAT.HEAD fin-comp,
+			    LOCAL.CAT.HEAD verb-or-comp,
 			    LOCAL.CAT.HEAD.IMPERATIVE -,
 			    LOCAL.CONT.HOOK.LTOP #2 & semarg,
 			    LOCAL.CONT.HOOK.INDEX.E.TENSE finite,
@@ -23502,8 +23507,8 @@ subject-dir-presentational-refl-synsem := subject-presentational-refl-synsem-sup
 subject-presentational-secpred-refl-dir-synsem := presentational-synsem-2 &
   [ LOCAL.CONT.HOOK hook,
     LOCAL.CONT.HOOK.LTOP #ltop,
-    LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD pers-pron, ;; MHS 090813 This constraint is intended to block the weird bare infinite structures seen arising in sentences such as 'det sniker seg ut en mann'. 
-	                    LOCAL.BINDING seg-bare & [ LEX-TAME + ],
+    LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD pers-pron, 
+			    LOCAL.BINDING seg-bare & [ LEX-TAME + ],
                             LOCAL.BND-MOUNTABLE < [ ANAPH-INDX #4 ] >,
 			    LOCAL.CONT.HOOK.INDEX #3,
                             LOCAL.AGR.PNG #2  ], 
@@ -24862,6 +24867,31 @@ particle-shift-lexeme := const-ltol-rule & verb-general-lexeme &
 	     SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	     SYNSEM.LKEYS.KEYREL.ARGX #2 ] >].
 
+
+;maybe to be abandoned, since directionals are treated as adjuncts
+directional-shift-lexeme := const-ltol-rule & verb-general-lexeme &
+  [ SYNSEM.LOCAL.CAT.HEAD verb,
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD prep-or-adv,
+				   LOCAL.CONT.HOOK.LTOP #2,
+				   LOCAL.DERIVED-HEAD -,
+				   LOCAL.CAT.HEAD [ KEYS.KEY #1],
+				   LOCAL.CONT.HOOK.XARG #5 ],
+				 #np >,
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps,
+    SYNSEM.LOCAL.CONT #cont,
+    SYNSEM.LKEYS.KEYREL.ARGX #2,
+    SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED +,
+    SYNSEM.LOCAL.CAN-PASSIVIZE -,
+    C-CONT.RELS <!!>,
+    C-CONT.HCONS <!!>, 
+    ARGS < [ SYNSEM.LOCAL.CAT.HEAD verb,
+	     SYNSEM.LOCAL.CAN-PASSIVIZE -,
+	     SYNSEM.LOCAL.KEY-SPEC #1,
+	     SYNSEM.LOCAL.CAT trans-nosecpred-empty-icomps-cat,
+	     SYNSEM. LOCAL.CAT.VAL.COMPS < #np & [LOCAL.CONT.HOOK.INDEX #5 & [SORT referential-thing]] >,
+	     SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps & <>,
+	     SYNSEM.LOCAL.CONT #cont,
+	     SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED - ] >].
 
 
 #|

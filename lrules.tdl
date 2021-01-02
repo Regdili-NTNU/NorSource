@@ -80,6 +80,7 @@ prep-sel-red-lrule := prep-word-sel-red.
 presentational-obl-passive-lrule := presentational-obl-passive.
 
 particle-shift-lrule := particle-shift-lexeme.
+directional-shift-lrule := directional-shift-lexeme.
 
 
 ;prep-sel-cmp-rule := prep-word-sel-cmp.

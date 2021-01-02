@@ -10,11 +10,6 @@
 ;;;    
 ;;;oblLoc 
 
-;xNo feature structure for VIGSLE-SOM_TRSCPR-SCOBNRG-SCPREDPRTCL_VLXM
-;No feature structure for TORE_TR-OBEQBAREINF_VLXM
-;No feature structure for ÅPNE_TRPRESNT-OBREFL_VLXM
-;No feature structure for VELGE-FRAMFOR_TROBL-OBEQSUINF-OBLEQSUINF_VLXM
-
 
 ;LH290912 TODO add refl part
 v-trPresnt-obRefl := impersonal-trans-presentational-verb-lexeme.
@@ -28,7 +23,7 @@ v-trPresnt-obRefl := impersonal-trans-presentational-verb-lexeme.
 v-intrPresntObl := impersonal-presentational-obl-verb-lexeme.
 ;TODO add INTERR
 v-intrPresntObl-oblINTERR := v-intrPresntObl.
-
+;v-intrPresntDirShft
 
 ;can be produced v-presentReflDirShft 
 ;ad hac v-trNrf-suDir_obReflExpl 
@@ -645,8 +640,10 @@ v-trPrtclShft := trans-telicparticle-shift-arg1-x-verb-lexeme.
 ; "han finner ut svaret"
 ;LH may0611 - NEW
 v-trPrtclShft-obCLAUSE := trans-particleshift-eventobj-verb-lexeme.
+v-trPrtcl-obCLAUSE := v-trPrtclShft-obCLAUSE.
 ; "han regner ut at/hva/om..."
 v-trPrtclShft-obINTERR := trans-particleshift-eventobj-verb-lexeme.
+;v-trPrtcl-obINTERR := v-trPrtclShft-obINTERR.
 v-trScpr-obDir_obRefl_scObNrgCsd := trans-secpred-refl-dir-verb-lexeme.
 ; sparke ballen flat (defined for sc prep-or-adj)
 v-trScpr-scObArgCsd-sup := trans-secpred-arg1-2-x-verb-lexeme.
@@ -664,6 +661,8 @@ v-trScprShft-scObNrgRes_scPP-PLACEMENT := trans-ppshift-nonrefl-verb-lexeme.
 v-trScprShft-obDECL_scObNrgRes_scPP-PLACEMENT := trans-ppshift-decl-verb-lexeme.
 
 v-trScprShft-obINTERR_scObNrgRes_scPP-PLACEMENT := trans-ppshift-interr-verb-lexeme.
+
+v-trScpr-scPPrefl := v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT.
 
 ; kle på gutten 
 v-intrImpltransfAdv-suAg-RENDERING_IN_POSITION := trans-ppshift-implicit-verb-lexeme.
@@ -688,6 +687,7 @@ v-intrComp-suDECL_compINTERR := trans-indir-sudecl-obinterr-verb-lexeme.
 v-ditr := ditrans-arg1-2-3-verb-lexeme.
 v-tr-obINTERR := trans-indir-interr-verb-lexeme.
 
+;both have ob first as 'base' order, and particle-shift-rule gives opposite order
 v-trPrtcl-obDECL := trans-secpred-arg1-2decl-x-lexeme.
 v-trPrtcl-obINTERR := trans-secpred-arg1-2interr-x-lexeme.
 
