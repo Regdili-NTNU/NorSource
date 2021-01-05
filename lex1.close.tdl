@@ -10757,6 +10757,14 @@ sjølve_adj-def := stnd-adj-lxm &
 ;v-ditr-suINTERR_obINTERR
 |#
 
+;has semantics according to the environment
+petro_cameleon-gapping_vlxm := gapping-serial-verb-lexeme &
+  [ INFLECTION nonfstr-strong,
+      STEM < "petro" > ].
+
+
+
+
 #|
 Pos Rest
 Disse (156) fikk ikke PoS:

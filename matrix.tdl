@@ -372,7 +372,8 @@ local := local-min &
     UNARY-INFIN-REL bool,
     SUBJ-SOM bool, ; for subject in embedded subj-questions
     MODIFICATION-PERFORMED bool,
-    PARTICLE-SHIFT-APPLIED bool].
+    PARTICLE-SHIFT-APPLIED bool,
+    DIRECTIONAL-SHIFT-APPLIED bool].
 
 
 binding := avm &
@@ -516,7 +517,8 @@ super-hook := avm &
     VARG semarg,
     CMPAR-ARG individual,
     CMPAR-PRED predsort,
-    XPRED predsort ].
+    XPRED predsort,
+    XLEXKEYS lexkeys ].
 
 hook := super-hook.
 comp-hook := hook.

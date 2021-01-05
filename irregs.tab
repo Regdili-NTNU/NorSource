@@ -354,6 +354,7 @@ lei pret-finalstr_infl_rule li
 leid pret-nonfstr_infl_rule li
 
 
+
 gli imp-delete_infl_rule glide
 gled pret-nonfstr_infl_rule glide
 
@@ -548,6 +549,8 @@ kvalt ppart-nonfstr_infl_rule kvele
 
 kvakk pret-nonfstr_infl_rule kvekke
 kvekket pret-nonfstr_infl_rule kvekke
+
+;petro pres_infl_rule petro
 
 vet pres-infl_rule vite
 veit pres-infl_rule vite

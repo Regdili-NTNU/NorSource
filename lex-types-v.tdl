@@ -428,9 +428,10 @@ v-trObl-oblAbsinf := trans-obl-absinf-verb-lexeme.
 v-trObl-obDECL_oblN := verb-lexeme &
  [SYNSEM v-trObl-obDECL_oblN-synsem].
 
-;not yet correct TODO: ekvivalere med xx
+;not yet correct TODO: 'ekvivalere med xx'
 v-trObl-obAbsinf_oblN := verb-lexeme &
  [SYNSEM v-trObl-obAbsinf_oblN-synsem].
+;not yet correct TODO: 'ekvivalere med xx'
 v-trObl-obINTERR_oblN := verb-lexeme &
  [SYNSEM v-trObl-obINTERR_oblN-synsem].
 

@@ -30,7 +30,7 @@ mal-past-inf-like-2_infl_rule := never_unify_lr.
 
 
 pres-infl_rule :=
-%suffix (* r) (s s)
+%suffix (* r) (s s) (petro petro) (og og)
 infl-pres-verb-word &
 [ ARGS < [ INFLECTION phon ] > ].
 

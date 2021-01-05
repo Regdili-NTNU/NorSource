@@ -113,6 +113,9 @@ imperative-rule := imperative-phrase.
 ;correlative-interjct-comma-rule := correlative-interjct-comma-phrase.
 ;correlative-adj-interjct-rule := correlative-adj-interjct-phrase.
 ;correlative-adj-interjct-comma-rule := correlative-adj-interjct-comma-phrase.
+head-pero-comp-phrase-sup-rule := head-pero-comp-phrase-sup.
+s-connect-gap-rule := s-connect-gap-phrase.
+gapping-serial-rule := gapping-serial-phrase.
 
 head-verb-comp-rule := head-verb-comp-phrase.
 ;overgenerates LH250718
