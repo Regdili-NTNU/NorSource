@@ -3430,7 +3430,6 @@ deretter_connect := p-adv-connect-adv-word &
     SYNSEM.LKEYS.KEYREL [PRED "_deretter_conn_rel"],
     SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY deretter-conn ]].
 
-;has semantics according to the environment
 og_cameleon-gapping_vlxm := gapping-serial-verb-lexeme &
   [ INFLECTION nonfstr-strong,
       STEM < "og" > ].
