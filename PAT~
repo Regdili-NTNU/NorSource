@@ -113,11 +113,6 @@ imperative-rule := imperative-phrase.
 ;correlative-interjct-comma-rule := correlative-interjct-comma-phrase.
 ;correlative-adj-interjct-rule := correlative-adj-interjct-phrase.
 ;correlative-adj-interjct-comma-rule := correlative-adj-interjct-comma-phrase.
-;first attempt towards gapping rules
-;head-pero-comp-phrase-sup-rule := head-pero-comp-phrase-sup.
-;s-connect-gap-rule := s-connect-gap-phrase.
-;for now Jan2021 put on wait
-;gapping-serial-rule := gapping-serial-phrase.
 
 head-verb-comp-rule := head-verb-comp-phrase.
 ;overgenerates LH250718
@@ -184,7 +179,6 @@ head-adjective-adv-comp-rule := head-adjective-adv-comp-phrase.
 ; does it anyway
 ;head-prep-s-rule := head-prep-s-phrase.
 head-prep-comp-rule := head-prep-comp-phrase.
-head-prep-exlnk-comp-rule := head-prep-exlnk-comp-phrase.
 head-prep-rais-comp-rule := head-prep-rais-comp-phrase.
 ; with the widened def of poss-subj-head, head-prep-comp-rule covers this:
 ; (but it seemed too wide, so now it goes again...)

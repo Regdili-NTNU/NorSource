@@ -348,8 +348,6 @@ v-intrPath-suDir-PUREORIENTATION :+ 1arg.
 ;LH may14-11 added and June11-11 modified as obl:
 v-intrOblExpn-expnDECL :+ 3arg & 1comps-1obl.
 
-;v-intrOblExlnk-oblExlnkDECL :+ 2arg & 1comps-1obl.
-
 ;LH may14-11 added and June11-11 modified as obl:
 v-intrOblExpn-expnYN :+ 3arg & 1comps-1obl.
 
@@ -583,7 +581,7 @@ v-presentReflDirShft :+ 4arg & 3comps.
 ; LH may14-11, new:
 v-presentReflDir :+ 3arg & 2comps.
 
-v-presntReflLoc :+ 4arg & 2comps-1obl.
+v-presntReflLoc :+ 4arg & 3comps.
 
 v-intrPresntLoc :+ 3arg & 1comps-1obl.
 

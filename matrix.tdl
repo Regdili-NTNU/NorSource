@@ -372,6 +372,7 @@ local := local-min &
     UNARY-INFIN-REL bool,
     SUBJ-SOM bool, ; for subject in embedded subj-questions
     MODIFICATION-PERFORMED bool,
+    WH-EXTRACTION-APPLIED bool,
     PARTICLE-SHIFT-APPLIED bool,
     DIRECTIONAL-SHIFT-APPLIED bool].
 

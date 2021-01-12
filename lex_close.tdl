@@ -3430,9 +3430,10 @@ deretter_connect := p-adv-connect-adv-word &
     SYNSEM.LKEYS.KEYREL [PRED "_deretter_conn_rel"],
     SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY deretter-conn ]].
 
-og_cameleon-gapping_vlxm := gapping-serial-verb-lexeme &
-  [ INFLECTION nonfstr-strong,
-      STEM < "og" > ].
+;for now Jan2021 put on wait
+;og_cameleon-gapping_vlxm := gapping-serial-verb-lexeme &
+;  [ INFLECTION nonfstr-strong,
+;      STEM < "og" > ].
 
 
 ; parse proliferation damage
@@ -11591,9 +11592,10 @@ synes_intr-secpr-raistosubj-nonv-som-om_vlxm := v-intrScpr-scSuNrg_scPredprtcl_s
 |#
 
 ;has semantics according to the environment
-petro_cameleon-gapping_vlxm := gapping-serial-verb-lexeme &
-  [ INFLECTION nonfstr-strong,
-      STEM < "petro" > ].
+;for now Jan2021 put on wait
+;petro_cameleon-gapping_vlxm := gapping-serial-verb-lexeme &
+;  [ INFLECTION nonfstr-strong,
+;      STEM < "petro" > ].
 
 ;has semantics according to the environment - dublet
 ;og_cameleon-gapping_vlxm := gapping-serial-verb-lexeme &
