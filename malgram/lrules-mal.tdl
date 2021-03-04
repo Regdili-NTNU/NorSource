@@ -24,7 +24,8 @@ mal-et_infl-for-strong-lrule := verb-lexeme &
   INFLECTION nonfstr-et,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-strong,
 		   INFLECTED - ]>].
@@ -36,7 +37,8 @@ mal-te_infl-for-strong-lrule := verb-lexeme &
   INFLECTION nonfstr-te,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-strong,
 		   INFLECTED - ]>].
@@ -48,7 +50,8 @@ mal-de_infl-for-strong-lrule := verb-lexeme &
   INFLECTION nonfstr-de,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-strong,
 		   INFLECTED - ]>].
@@ -60,7 +63,8 @@ mal-de_infl-for-te-lrule := verb-lexeme &
   INFLECTION nonfstr-de,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-te,
 		   INFLECTED - ]>].
@@ -74,7 +78,8 @@ mal-de_infl-for-et-lrule := verb-lexeme &
   INFLECTION nonfstr-de,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-et,
 		   INFLECTED - ]>].
@@ -87,7 +92,8 @@ mal-te_infl-for-de-lrule := verb-lexeme &
   INFLECTION nonfstr-te,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-de,
 		   INFLECTED - ]>].
@@ -99,7 +105,8 @@ mal-te_infl-for-et-lrule := verb-lexeme &
   INFLECTION nonfstr-te,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-et,
 		   INFLECTED - ]>].
@@ -111,7 +118,8 @@ mal-et_infl-for-te-lrule := verb-lexeme &
   INFLECTION nonfstr-et,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-te,
 		   INFLECTED - ]>].

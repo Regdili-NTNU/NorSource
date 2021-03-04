@@ -167,6 +167,7 @@ adj-reg :+ [--GENDER-DISTINCTION bool].
 strong-adj-lxm :+ 
 [ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
   SYNSEM.ALLOWS-mal-c_sg_strong-for-n_sg #mc,
+; SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY -]> ,
  ARGS < [SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
          SYNSEM.ALLOWS-mal-c_sg_strong-for-n_sg #mc] > ].
 

@@ -96,7 +96,8 @@
 ;;; `inflectional' rules themselves (rules with an associated orthographemic
 ;;; alternation of the surface string).
 ;;;
-(read-tdl-grammar-file-aux (lkb-pathname (parent-directory) "rules.tdl"))
+;;;rules_red.tdl is a slightly reduced version of rules.tdl, better adapted for the mal-grammar.
+(read-tdl-grammar-file-aux (lkb-pathname (parent-directory) "rules_red.tdl"))
 (read-tdl-lex-rule-file-aux (lkb-pathname (parent-directory) "lrules.tdl"))
 ;;(read-tdl-lex-rule-file-aux (lkb-pathname (parent-directory) "lrules-syntax.tdl"))
 (read-morph-file-aux (lkb-pathname (parent-directory) "irules-v.tdl"))

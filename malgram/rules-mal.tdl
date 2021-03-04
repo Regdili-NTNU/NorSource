@@ -21,12 +21,14 @@ mal-f_spec-m_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 ; Number mismatch 1  'disse gutten smiler'
 mal-pl_spec-sg_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg,
+  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl ].
 
 ; Number mismatch 2  'denne guttene smiler'
 ; TODO: for neuter plural short form we get absurd results - "det snille barn sover" gets punished by this rule, with "barn" read as plural
 mal-sg_spec-pl_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
+  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG sg ].
 
 ;; mal article
@@ -35,12 +37,14 @@ mal-sg_spec-pl_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 ;'et mann smiler' 'et hytte smiler'
 mal-n_spec-m_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc,
-  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut ].
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut,
+  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
 
 ;'ei mann smiler'
 mal-fem_spec-m_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc,
-  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG fem ].
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG fem,
+  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
 
 ;'et hytte smiler
 mal-n_spec-f_noun-head-spec-art-rule := mal-head-spec-art-phrase &
@@ -50,7 +54,8 @@ mal-n_spec-f_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 ;'en fjell smiler' 'ei fjell smiler'
 mal-m_or_f_spec-n_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
-  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem ].
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem,
+  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
 
 ;; mal quantor
 
@@ -67,11 +72,13 @@ mal-m_or_f_spec-n_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase &
 ;'noen gutt smiler'
 mal-pl_spec-sg_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg,
+HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl ].
 
 ;'hver gutter smiler' 'hver fjell smiler'
 mal-sg_spec-pl_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
+    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG sg ].
 
 ;; Rules related to wrong use of inversion
@@ -86,7 +93,8 @@ mal-adjective-mod-def-neut-sg-rule := mal-adjective-mod-def-phrase &
 [ C-CONT.RELS <! [ PRED "_deict_rel", ARG0.PNG.NG [GEN n, NUM sing]] !>  ].
 
 mal-adjective-mod-def-m-or-f-sg-rule := mal-adjective-mod-def-phrase &
-[ C-CONT.RELS <! [ PRED "_deict_rel", ARG0.PNG.NG [GEN m-or-f, NUM sing]] !>  ].
+[ NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+  C-CONT.RELS <! [ PRED "_deict_rel", ARG0.PNG.NG [GEN m-or-f, NUM sing]] !>  ].
 
 mal-adjective-mod-def-plur-rule := mal-adjective-mod-def-phrase &
 [ C-CONT.RELS <! [ PRED "_deict_rel", ARG0.PNG.NG.NUM plur] !>].

@@ -4652,7 +4652,7 @@ cardinal-sg-word := cardinal-word-super &
 ordinal-lxm := adj-lxm &
   [ SYNSEM.LOCAL.CAT.HEAD adj & [ KEYS.KEY propt,
 				  ORDINAL +,
-				  WEAK +,
+;				  WEAK +,
 				  DEGREE degree,
 				  MOD < [LOCAL.CAT.HEAD np-head,
 					 LOCAL.CAT.VAL.SUBJ <>,
@@ -4664,6 +4664,7 @@ ordinal-lxm := adj-lxm &
     SYNSEM.LOCAL.CAT.VAL.SPR <>,
     SYNSEM.LKEYS.KEYREL.ARG1 #1,
     SYNSEM.LOCAL.CONT.HOOK.XARG #1,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
     SYNSEM.LOCAL.CONT.HCONS <! !> ].
 
 #|
@@ -4705,13 +4706,15 @@ quantity-word := adjectival-word & lbl-ltop-lex-item &
     SYNSEM.LOCAL.CONT.HCONS <! !> ].
 |#
 
-;INDEX -> XARG
+;INDEX -> XARG LH28022021 why on earth?
 plur-cardinal-word := cardinal-word &
-  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.NG pl ].
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.NG #num & pl,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG #num ].
 
-;INDEX -> XARG
+;INDEX -> XARG LH28022021 why on earth?
 sg-cardinal-word := cardinal-word &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg ].
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.NG #num & sg,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG #num ].
 
 #|
 ; 'qualitative' count quantifiers
@@ -9239,12 +9242,16 @@ neut-lightverb-noun-lxm := lightverb-noun-lexeme & neut-noun-lxm.
 ;  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG fem ].
 ;masc-noun-lxm := noun-lexeme & m-noun &
 ;  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc ].
+;,SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +
+
 neut-noun-lxm := noun-lexeme &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neut ].
 fem-noun-lxm := noun-lexeme & 
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG fem ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG fem,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
 masc-noun-lxm := noun-lexeme & 
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
 
 ;sg-indef-noun-lxm := noun-lexeme & sing-indef-noun &
 ;  [ SYNSEM.LOCAL.CAT.HEAD [DEFINITE - ],
@@ -9252,9 +9259,11 @@ masc-noun-lxm := noun-lexeme &
 
 ;; nb-infl
 mascorneut-noun-lxm := noun-lexeme &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neut-or-masc ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neut-or-masc,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY + ].
 mascorfem-noun-lxm := noun-lexeme &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-or-fem ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-or-fem,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY + ].
 
 ; dummy exception type from Troll
 ic-gend-noun-lxm := noun-lexeme.
@@ -9693,13 +9702,15 @@ sg-indef-cum-det-noun-lxm := noun-infl-lexeme & sing-indef-noun &
     SYNSEM.LOCAL.CAT.VAL.SPR <[LOCAL.CAT.HEAD art]>,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg & #1 & gender,
     SYNSEM.LOCAL.MUST-CONNECT-PROJECT -,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     SYNSEM.LOCAL.CONT [ RELS #2,
                         HCONS #3 ],
     C-CONT [ RELS <! !>,
              HCONS <! !> ],
     DTR.SYNSEM.LOCAL.CONT [HOOK.INDEX.PNG.NG #1 & gender,
                            RELS #2,
-                           HCONS #3] ].
+                           HCONS #3],
+    DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway ].
 
 sg-indef-cum-poss-noun-lxm := noun-infl-lexeme & sing-indef-noun &
   [ SYNSEM.LOCAL.CAT.HEAD [DEFINITE -,
@@ -9746,13 +9757,15 @@ sg-indef-cum-quant-noun-lxm := noun-infl-lexeme & sing-indef-noun &
                            BARE - ],
     SYNSEM.LOCAL.CAT.VAL.SPR <[LOCAL.CAT.HEAD quant]>,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg & #1 & gender,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     SYNSEM.LOCAL.CONT [ RELS #2,
                         HCONS #3 ],
     C-CONT [ RELS <! !>,
              HCONS <! !> ],
     DTR.SYNSEM.LOCAL.CONT [HOOK.INDEX.PNG.NG #1 & gender,
                            RELS #2,
-                           HCONS #3] ].
+                           HCONS #3],
+    DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway ].
 
 sg-indef-cum-card-noun-lxm := quant-noun-infl-lexeme & sing-indef-noun &
   [ SYNSEM.LOCAL.CAT.HEAD [DEFINITE -,
@@ -9779,8 +9792,10 @@ sg-indef-bare-noun-lxm := sing-indef-noun & quant-noun-infl-lexeme &
                            BARE + ],
     SYNSEM.LOCAL.CONT.HOOK.INDEX #1 & [WH -],
     SYNSEM.LOCAL.CAT.VAL.SPR <>,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     C-CONT [ RELS <! indef-q-rel & [PRED "_indef_q_rel"] !> ],
     DTR.SYNSEM.LOCAL.CONT [HOOK.INDEX #1],
+    DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     DTR.SYNSEM.LOCAL.CONT [HOOK.INDEX.PNG.NG #4 & gender] ].
 
 #|
@@ -9817,10 +9832,12 @@ leak-pl-indef-noun-lexeme := pl-indef-noun-lexeme & quant-noun-infl-lexeme &
     SYNSEM.LOCAL.CAT.VAL.SPR <>,
     SYNSEM.LOCAL.CAT.HEAD.BARE +,
     SYNSEM.LOCAL.CAT.HEAD.DEF -,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     SYNSEM.LOCAL.CONT.HOOK.INDEX [BOUNDED -,
                                   WH bool], ;-
     RULE [ NEEDS-CARD -,
-           NOMORE-CARD + ] ].
+           NOMORE-CARD + ],
+    DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway ].
 
 nonleak-pl-indef-noun-lexeme := pl-indef-noun-lexeme &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.BOUNDED +,
@@ -9888,7 +9905,9 @@ sg-fem-def-noun-lexeme := sg-def-noun-lexeme & f-noun &
   [ C-CONT.HOOK.INDEX.PNG.NG fem-sg ].
 
 sg-neut-def-noun-lexeme := sg-def-noun-lexeme & n-noun &
-  [ C-CONT.HOOK.INDEX.PNG.NG neutsg ].
+  [ C-CONT.HOOK.INDEX.PNG.NG neutsg,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
+    DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway ].
 
 ;;;;;;;; ADJECTIVE LEXEMES
 #|
@@ -10165,11 +10184,13 @@ weak-adj-lxm := lbl-ltop-lex-item & const-ltol-rule &
     SYNSEM.LOCAL.CONT.HCONS <! !>,
     SYNSEM.NON-LOCAL #3,
     SYNSEM.LOCAL.CMPAR-PENDING -,
+    SYNSEM.LOCAL.CAT.HEAD.ORDINAL #8,
     SYNSEM.LOCAL.N-COMB-PENDING +,
     DTR adj-lxm & [ SYNSEM.LOCAL.CAT.VAL #2,
                     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY #7,
                     SYNSEM.LOCAL.CONT.HOOK.XARG #5,
-                    SYNSEM.NON-LOCAL #3]].
+                    SYNSEM.LOCAL.CAT.HEAD.ORDINAL #8,
+		    SYNSEM.NON-LOCAL #3]].
 
 
 ; MOD < #1 & [LOCAL.CAT.HEAD noun & [DEF - ,
@@ -10190,6 +10211,7 @@ strong-adj-lxm := lbl-ltop-lex-item & const-ltol-rule &
     SYNSEM.LOCAL.CAN-MODIFY #mod,
     SYNSEM.LOCAL.DERIVED-BARE-N-FROM-ADJ #der,
     SYNSEM.LOCAL.CAT.POSTHEAD #ph,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     SYNSEM.NON-LOCAL #3,
     SYNSEM.LOCAL.CMPAR-PENDING -,
     DTR adj-lxm & [ SYNSEM.LOCAL.CAT.VAL #2,
@@ -10204,6 +10226,7 @@ strong-adj-lxm := lbl-ltop-lex-item & const-ltol-rule &
 		    SYNSEM.LOCAL.CAN-MODIFY #mod,
 		    SYNSEM.LOCAL.DERIVED-BARE-N-FROM-ADJ #der,
 		    SYNSEM.LOCAL.CAT.POSTHEAD #ph,
+		    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
 		    SYNSEM.NON-LOCAL #3 ]].
 
 #|
@@ -10694,7 +10717,8 @@ head-spec-quantor-phrase-sup := head-spec-phrase-cardblock-sup &
 
 head-spec-quantor-phrase := head-spec-phrase-cardblock & head-spec-quantor-phrase-sup &
  [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD nom & [DEF -], ; nom, in order to branch off from the q-type heads. "minst en" in "minst en dag" should not combine by this rule. 
-   HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING -,
+HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING -,
+;HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
    HEAD-DTR.SYNSEM.LOCAL.CAT.POSTHEAD -, ; to avoid duplicate versions of adj
    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD quant ]. 
 
@@ -11700,8 +11724,9 @@ poss-genitive-np-phrase := poss-general-genitive-phrase &
 poss-genitive-posspron-phrase := poss-general-genitive-phrase &
   [ SYNSEM.LOCAL.BND-RESP #3,
     SYNSEM.LOCAL.CMPAR-PENDING -,
-    HEAD-DTR.SYNSEM [LOCAL.CAT.HEAD.DEFINITE -,
-		    LOCAL.CAT.HEAD.DEF + ],
+    HEAD-DTR.SYNSEM [LOCAL.CAT.HEAD noun,
+		     LOCAL.CAT.HEAD.DEFINITE -,
+		     LOCAL.CAT.HEAD.DEF + ],
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD posspron,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG #8,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG #8,
@@ -13488,7 +13513,7 @@ head-verb-inf-or-s-comp-phrase-sup := basic-head-comp-phrase & head-initial & ru
    ; NON-HEAD-DTR.SYNSEM.LOCAL.BND-RESP #2,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAIN-CL -,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
-;    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.COORD-RELEASED +,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
     NON-HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #4,
@@ -14678,6 +14703,7 @@ adjective-mod-phrase-sup := a-mod-phrase-sup & rule & no-slash &
      HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD #2,
      HEAD-DTR.SYNSEM.LOCAL.SPEC-TO-BARE-N -,
      HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #1,
+     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
      HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
      NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #1,
      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj & [KEYS.KEY propt],
@@ -14793,7 +14819,8 @@ card-cum-prep-or-adv-mod-phrase := card-mod-phrase-sup &
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #1 ].
 
 adjective-mod-def-phrase := a-mod-def-phrase & adjective-mod-phrase &
-  [ SYNSEM.LOCAL.CAT.POSTHEAD - ]. ; , NON-HEAD-DTR weak-adj-word-sup
+  [ SYNSEM.LOCAL.CAT.POSTHEAD -].
+;    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ]. ; , NON-HEAD-DTR weak-adj-word-sup
 
 ; After shifting to counting these as indef. adjective-mod-indef-rule covers "rette løsning er å...", without need for pseudoweak-superlative-adj-word. Same for adjective-mod-superlative-indef-rule. So, the following two rules are now commented out in rules.tdl. Well, not quite. 02032019
 adjective-mod-pseudoweak-indef-phrase := a-mod-indef-phrase & adjective-mod-phrase &
@@ -14821,12 +14848,15 @@ adjective-mod-indef-phrase := a-mod-indef-phrase & adjective-mod-phrase &
   [ SYNSEM.LOCAL.CMPAR-PENDING #2,
     SYNSEM.LOCAL.CONT.HOOK.CMPAR-PRED #4,
     SYNSEM.LOCAL.CAT.HEAD.COMPAR-DEP #dep,
-;    SYNSEM.LOCAL.CAT.POSTHEAD -,; had to outcomment to get 'en snill, hyggelig mann sover'
+    SYNSEM.LOCAL.CAT.POSTHEAD -,; had to outcomment to get 'en snill, hyggelig mann sover' LH24022021: That however allows for '(flere) snill barn sover'. so must be in-commented.
     HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING -,
+;HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL.MAL-INFLECT-LEEWAY #leeway] >,
     HEAD-DTR.SYNSEM.LOCAL.IS-PUNCT -,
+    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     NON-HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING #2,
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -, ; a modifying AP might contain comma - snill, søt
- ;   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.POSTHEAD -,;; had to outcomment to get 'en snill, hyggelig mann sover'
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.POSTHEAD -,;; had to outcomment to get 'en snill, hyggelig mann sover' LH24022021: That however allows for '(flere) snill barn sover'. so must be in-commented.
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.CMPAR-PRED #4,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.COMPAR-DEP #dep,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.WEAK - ]. 
@@ -18145,6 +18175,7 @@ free-subjpred-front-phrase := adjective-mod-front-vp-phrase &
     SYNSEM.LOCAL.CAT.HEAD non-copula,
     HEAD-DTR.SYNSEM.LOCAL.HAS-PERIOD -,
     HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
+    HEAD-DTR.GENRE regular,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-reg & [WEAK -],
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #index2,
   ;  NON-HEAD-DTR.SYNSEM.NON-LOCAL #5,
@@ -24954,12 +24985,13 @@ particle-shift-lexeme := const-ltol-rule & verb-general-lexeme &
 	     SYNSEM.LOCAL.CAN-PASSIVIZE -,
 	     SYNSEM.LOCAL.KEY-SPEC #1,
 	     SYNSEM.LOCAL.CAT trans-ncomps-secpred-cat,
-	     SYNSEM. LOCAL.CAT.VAL.COMPS < #np & [LOCAL.CONT.HOOK.INDEX #5 & [SORT referential-thing]], 
-				   #scpr & [ LOCAL.CAT.HEAD prep-or-adv,
-					     LOCAL.CONT.HOOK.LTOP #2,
-					     LOCAL.DERIVED-HEAD -,
-					     LOCAL.CAT.HEAD [ KEYS.KEY #1],
-					     LOCAL.CONT.HOOK.XARG #5 ] >,
+	     SYNSEM. LOCAL.CAT.VAL.COMPS < #np & [LOCAL.CONT.HOOK.INDEX #5 & [SORT referential-thing],
+						  LOCAL.BINDING [ LEX-TAME - ]], 
+					   #scpr & [ LOCAL.CAT.HEAD prep-or-adv,
+						     LOCAL.CONT.HOOK.LTOP #2,
+						     LOCAL.DERIVED-HEAD -,
+						     LOCAL.CAT.HEAD [ KEYS.KEY #1],
+						     LOCAL.CONT.HOOK.XARG #5 ] >,
 	     SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps & <>,
 	     SYNSEM.LOCAL.CONT #cont,
 	     SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
@@ -25093,7 +25125,8 @@ wk-pastpt-adj-word := pastparticpl-adj-word & infl-wtow-rule &
                             DEGREE positive ]].
 
 str-pastpt-adj-word := pastparticpl-adj-word &
-  [ SYNSEM.LOCAL.CAT.HEAD [ MOD < [LOCAL.CAT.HEAD np-head & [DEF bool , ; from '-', to accommodate "gutten skutt av Ola"
+  [ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
+    SYNSEM.LOCAL.CAT.HEAD [ MOD < [LOCAL.CAT.HEAD np-head & [DEF bool , ; from '-', to accommodate "gutten skutt av Ola"
                                                           DEFINITE bool]]>,
                             WEAK -,
                             DEGREE positive ]].

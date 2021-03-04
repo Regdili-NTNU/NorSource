@@ -279,7 +279,7 @@ adjective-mod-def-rule := adjective-mod-def-phrase.
 adjective-mod-def-postnom-rule := adjective-mod-def-postnom-phrase.
 ;needed alongside adjective-mod-def-rule for riktig, best, sist,... perhaps specified ... actually no more, after counting these as indef. adjective-mod-indef-rule covers "rette løsning er å..." Same for adjective-mod-superlative-indef-rule.
 adjective-mod-pseudoweak-indef-rule := adjective-mod-pseudoweak-indef-phrase.
-adjective-mod-pseudoweak-ordinal-indef-rule := adjective-mod-pseudoweak-ordinal-indef-phrase.
+;adjective-mod-pseudoweak-ordinal-indef-rule := adjective-mod-pseudoweak-ordinal-indef-phrase.
 adjective-mod-superlative-indef-rule := adjective-mod-superlative-indef-phrase.
 adjective-mod-indef-postnom-rule := adjective-mod-indef-postnom-phrase.
 adjective-mod-indef-rule := adjective-mod-indef-phrase.

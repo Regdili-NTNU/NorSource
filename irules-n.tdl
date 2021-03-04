@@ -218,7 +218,8 @@ neutpl-indef-noun-infl-word &
 pl_ind_n_short_0_irule :=
 neutpl-indef-noun-const-word &
 [ ARGS < pl-indef-noun-lexeme &
-	 [ INFLECTION infl_nshort & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
+	 [ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
+	   INFLECTION infl_nshort & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
 
 pl_def_n_final-full-mm_irule :=
 %suffix (am ammene)(em emmene)(om ommene)(um ummene)(øm ømmene)

@@ -74,6 +74,8 @@ robust := genre &
   MALCHANGE malchange,
   MALPERM permute ].
 
+regular := genre.
+
 maldrop := *top*.
 flect := *top*.
 malchange := *top*.
@@ -374,7 +376,8 @@ local := local-min &
     MODIFICATION-PERFORMED bool,
     WH-EXTRACTION-APPLIED bool,
     PARTICLE-SHIFT-APPLIED bool,
-    DIRECTIONAL-SHIFT-APPLIED bool].
+    DIRECTIONAL-SHIFT-APPLIED bool,
+    MAL-INFLECT-LEEWAY bool ].
 
 
 binding := avm &

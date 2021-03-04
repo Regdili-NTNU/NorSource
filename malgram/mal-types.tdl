@@ -118,6 +118,7 @@ mal-head-subject-phrase := head-subject-phrase-simple &
 					     MAIN-CL +], ;mainly a guess LH
   SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV mal-invy,
   FRONT-TO-FILL +,
+  NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE -, 
   GENRE robust & [ MALPERM mal-invert ]].
 
@@ -178,6 +179,7 @@ mal-head-spec-phrase-super := basic-head-spec-phrase &
     SYNSEM.LOCAL.BINDING.BOUND -,
     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
     SYNSEM.LOCAL.SPEC-TO-BARE-N #deriv,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <[LOCAL.DERIVED-HEAD -]>, ; outcommented to get 'ei mann smiler' as mal-analysis
     SYNSEM.LOCAL.BND-RESP #5,
  ;   HEAD-DTR.SYNSEM.LOCAL.MUST-COORDINATE -,
@@ -186,6 +188,7 @@ mal-head-spec-phrase-super := basic-head-spec-phrase &
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
     HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD #deriv & -,
+    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #5,
    C-CONT.RELS <! !>,
    C-CONT [ HCONS <! !>]].
@@ -241,7 +244,9 @@ NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK [INDEX #1]
 mal-head-spec-phrase-cardblock := mal-head-spec-phrase-super.
 
 mal-head-spec-quantor-phrase := mal-head-spec-phrase-cardblock & head-spec-quantor-phrase-sup &
- [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD quantor ].
+ [ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
+   HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
+   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD quantor ].
 
 mal-head-spec-art-phrase := head-spec-art-phrase-2sup & mal-head-spec-phrase-cardblock.
 
@@ -535,8 +540,8 @@ mal-refl-np-obj-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-elem
   SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
   ARGS < [ SYNSEM.LOCAL.CAT.HEAD #head,
 	   SYNSEM.LOCAL.CAT.VAL.SUBJ < #subj & [ LOCAL.AGR.PNG #png ] >,
-  	   SYNSEM.LOCAL.CAT.VAL.COMPS < unexpressed & [ LOCAL.CAT.HEAD pers-pron & [DEF +,
-										    KEYS.KEY persprn],
+  	   SYNSEM.LOCAL.CAT.VAL.COMPS <  [ LOCAL.CAT.HEAD pers-pron & [DEF +,  
+								       KEYS.KEY persprn], ;unexpressed &
 ;							LOCAL.CAT.HEAD np-head & n-or-adj,
 							LOCAL.CAT.VAL.SPR <>,
 							LOCAL.BINDING.BOUND +,
@@ -961,7 +966,8 @@ mal-possparticle-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-ele
 [ GENRE robust & [ MALDROP gen-drop ],
   SYNSEM.LOCAL.CAT.HEAD possparticle ,
   SYNSEM.LOCAL.CAT.VAL.SPR <>,
-  SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CAT.HEAD.DEF +,
+  SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CAT.HEAD noun,
+				LOCAL.CAT.HEAD.DEF +,
 				LOCAL.CAT.HEAD.SELECTED -,
 				LOCAL.CAT.HEAD.RELATIVPRON -,
 				LOCAL.CAT.HEAD.DEFINITE - ] >,
@@ -970,10 +976,10 @@ mal-possparticle-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-ele
   C-CONT.RELS <! [ PRED "_posspartcl_rel",
 		   LBL #ltop, ARG0 semarg ] !>,
   C-CONT.HCONS <! !>,
-  ARGS < [ SYNSEM.LOCAL.CAT.HEAD np-head & [ RELATIVPRON -,
-					     DEF +,
-					     DEFINITE +,
-					     MAL.MALCHANGY no-spec-to-n-changy ],
+  ARGS < [ SYNSEM.LOCAL.CAT.HEAD noun & [ RELATIVPRON -,
+					  DEF +,
+					  DEFINITE +,
+					  MAL.MALCHANGY no-spec-to-n-changy ],
 	   SYNSEM.LOCAL.CAT.VAL.SPR <>,
 	   SYNSEM.LOCAL.CAT.VAL.SPEC <>,
 	   SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
