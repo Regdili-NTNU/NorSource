@@ -12813,7 +12813,7 @@ head-verb-prepcomp-phrase := head-verb-comp-phrase-sup &
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-ultra & [KEYS.KEY prim-mod],    ; LH28092018 from ultra. back to ultra, to get 'synes meg som en kandidat'
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX [SORT item-specification],; han må hit
     NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
-;    NON-HEAD-DTR.LEX -, ; to block invisible extraction from the PP; the slash mech doesn't seem able to catch this, allowing the effect to pass tracelessly up
+    NON-HEAD-DTR.SYNSEM.LEX -, ; to block invisible extraction from the PP; the slash mech doesn't seem able to catch this, allowing the effect to pass tracelessly up
     NON-HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #resp,
     NON-HEAD-DTR.SYNSEM.LOCAL.BINDING [ LEX-TAME - ],
     NON-HEAD-DTR.SYNSEM.LOCAL.CTXT.DISC-BOUND - ].
@@ -13107,20 +13107,22 @@ head-verb-indirwhquest-y-n-comp-phrase := head-verb-indirwhquest-comp-phrase &
 ; for copula as head the construction type is 'spørsmålet er om han kommer'
 head-verb-indirwhquest-subjwh-comp-phrase := head-verb-indirwhquest-comp-phrase &
   [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [WH-MOVED -] ].;filler-subord
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [WH-MOVED -,
+						   WH-COMPLETE +],
+    NON-HEAD-DTR.SYNSEM.LEX -].;filler-subord
 
 ; for copula as head the construction type is 'spørsmålet er om han kommer'
 head-verb-indirwhquest-objwh-comp-phrase := head-verb-indirwhquest-comp-phrase &
   [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
 ;    NON-HEAD-DTR.SYNSEM head-filler-subord-wh-phrase,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [WH-MOVED +,
-						   WH-COMPLETE bool] ]. ;+
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [WH-MOVED +] ]. ;;from 'WH-COMPLETE +' - lost 'vet hva han liker'+
 
 ; for copula as head the construction type is 'spørsmålet er om han kommer'
 head-verb-indirwhquest-advwh-comp-phrase := head-verb-indirwhquest-comp-phrase &
   [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
     NON-HEAD-DTR adv-interr-mod-front-subordcl-phrase,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all ]. ; adv-interr-mod-front-subordcl-phrase ].
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
+    NON-HEAD-DTR.SYNSEM.LEX - ]. ; adv-interr-mod-front-subordcl-phrase ].
 
 
 
@@ -13381,7 +13383,7 @@ head-verb-som-comp-phrase := basic-head-comp-phrase & head-initial & rule &
 ; by     SYNSEM.LOCAL.BND-RESP #2,  we manage to catch reflexives that fail to have a binder. Of course, by this point, they should have been bound anyway, but if we don't mediate the track upwards, there is no arrest made.
 ; However, with this, "det hjelper å sette seg" fails to parse, because 'seg', being ref-ind, fails to unify with the expletive 'det', as the mechanics dictate. TODO is to devise a way of releasing the reflexive at the point when absinf combines, but that we don't have yet. Hence we get a lot of overgenerations of non-bound reflexives. Short term solution: create a special version of the present rule for absinf-combination.
 ;SYNSEM.NON-LOCAL #4,
-;NON-HEAD-DTR.SYNSEM.NON-LOCAL #4,
+;NON-HEAD-DTR.SYNSEM.NON-LOCAL #4
 
  head-complementizer-comp-phrase-sup := basic-head-comp-phrase & head-initial & rule &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS <>,
@@ -13523,7 +13525,8 @@ head-verb-inf-or-s-comp-phrase-sup := basic-head-comp-phrase & head-initial & ru
 head-verb-complementized-s-comp-phrase := head-verb-inf-or-s-comp-phrase-sup &
  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD glob-comp & [ DECL +,
 						     KEYS.KEY comptizer ],
-   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <> ].
+   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+   NON-HEAD-DTR.SYNSEM.LEX -].
 
 ; for 'jeg ber henne + komme'
 head-verb-inf-or-v-comp-phrase := head-verb-inf-or-s-comp-phrase-sup &
@@ -14368,11 +14371,13 @@ head-verb-icomp-phrase := basic-head-icomp-phrase & head-initial & rule &
 head-actv-verb-icomp-phrase := head-verb-icomp-phrase &
   [  SYNSEM.LOCAL.CAT.VAL.COMPS <>,
      SYNSEM.LOCAL.HIGHEST-V-PROJ #proj,
+     SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE #expl, ;to mediate exlnk-rule
      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
      HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [VOICE active ],
      HEAD-DTR.SYNSEM.LOCAL.HIGHEST-V-PROJ #proj,
      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-or-adv & [KEYS.KEY prim-mod],
      NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
+     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE #expl,
      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY actv-prep ],
      NON-HEAD-DTR.SYNSEM.LEX -].
 
@@ -18047,6 +18052,7 @@ free-subjpred-phrase := adjective-mod-vp-phrase &
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.POSTHEAD +,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #index2,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
     NON-HEAD-DTR.SYNSEM.LOCAL.WH-ISLAND -,
@@ -19512,6 +19518,7 @@ relative-truncated-mod-phrase := head-adj-phrase &
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [WH-COMPLETE +,
 						   WH-MOVED -],
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
     NON-HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #slash & <!!>,
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.COMPS-BEGUN +,; corect, but loses en mann fortært av Ola
@@ -20174,7 +20181,7 @@ coordination-v-phrase-sup := basic-head-mod-phrase-simple & head-initial & phras
 ;				      ARG2 #22 & [PNG #p]],... !>,
      
 ; removed this - gave clash when first verb had been inverted:
-; [ SYNSEM.LOCAL.CAT.VAL.SUBJ <[]>], 
+; [ SYNSEM.LOCAL.CAT.VAL.SUBJ <[]>] 
 coordination-v-phrase := coordination-v-phrase-sup &
   [  SYNSEM.LOCAL.CAT.VAL [ SUBJ < synsem > ],						; EAA020811 changed from cons
      ARGS < [SYNSEM.LOCAL.CAT.VAL [ SUBJ < synsem > ]],				; EAA020811 changed from cons
@@ -24777,7 +24784,6 @@ impersonal-presentational-passive-from-intrans := const-ltol-rule & lbl-ltop-lex
 	      LOCAL.CONT.HOOK.XARG #10,
 	      LOCAL.CONT.HOOK.LTOP #20,
 	      LOCAL.CAT [ VAL [ COMPS #ncomps,
-;				COMPS <>,
                                 ICOMPS #icomps ] ] ],
     ARGS < [ INFLECTION #infl,
 	     SYNSEM [ LOCAL [ CAT [ HEAD verb & [ VOICE active ],

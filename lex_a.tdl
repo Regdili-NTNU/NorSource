@@ -74228,6 +74228,7 @@ venstre_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
       STEM < "venstre" >,
       SYNSEM.LOCAL.CAN-ADV-DERIV-ADJ -,
+    SYNSEM.LOCAL.CAT.POSTHEAD -,
     SYNSEM [ LKEYS.KEYREL.PRED "_venstre_a_rel",
 	     LOCAL.CAT.HEAD.KEYS.KEY anonym-k,
 	     LOCAL.DERIVED-BARE-N-FROM-ADJ - ] ].

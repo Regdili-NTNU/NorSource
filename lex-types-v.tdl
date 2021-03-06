@@ -44,6 +44,7 @@ v-intrResult := intrans-arg1-result-verb-lexeme.
 ;v-intr := intrans-arg1-verb-lexeme &
 ; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 v-intr-suDir := intrans-arg1dir-verb-lexeme.
+;TODO change to transitive. vare, bli, være is only verb. meanwhile comment out for bli and være.
 v-intr-suDirTemp := intrans-arg1dir-temp-verb-lexeme.
 v-intrObl := intrans-obl-verb-lexeme.
 ; suAg 'bo', suTh 'ligge i Finnmark' 
@@ -244,7 +245,9 @@ v-intrPrtclOblExpn-oblWH_expnYN := epon-wh-decl-and-yn-particle-pp-clause-verb-l
 ;; v-intrAuxmodScpr-scSuNrg_scBareinf
 ; for "gutten fremstår som mistenkt"
 ;v-intrLghtScpr-scSuNrg_scPredprtcl := intrans-secpred-som-arg1-x-verb-lexeme & ;[ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >]. 
-v-intrLghtScpr-scSuNrg_scPredprtclSom := intrans-secpred-som-arg1-x-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >]. 
+v-intrLghtScpr-scSuNrg_scPredprtclSom := intrans-secpred-som-arg1-x-verb-lexeme &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT [HEAD som-or-for & [KEYS.KEY predcomp-som]],
+ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >]. 
 ;copPredprtcl does same job
 ;v-intrLghtScpr-suDECL_scSuNrg_scPredprtclSom := intrans-secpred-som-eventarg1-x-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >]. 
 
@@ -573,7 +576,9 @@ v-trScpr-scSuNrg_scAdjORPredprtclSom := trans-secpred-rais-from-adj-or-som-arg1-
 ; these subtypes of the above are concise types, but the 'OR' type is still used in the lexicon; in its definition, there is no item-specification.
 v-trScpr-scSuNrg_scAdj := v-trScpr-scSuNrg_scAdjORPredprtclSom &
  [SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD adj-reg ] >].
-v-trScprArg1-scObNrg_scPredprtclSom := trans-secpred-rais-from-nonverbal-arg1-verb-lexeme.
+v-trScprArg1-scObNrg_scPredprtclSom := trans-secpred-rais-from-nonverbal-arg1-verb-lexeme &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT [HEAD som-or-for & [KEYS.KEY predcomp-som]],
+ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
 ; perhaps unnecessary given v-trScprArg1-scObNrg_scPredprtclSom
 ;v-trScpr-scSuNrg_scPredprtclSomN := v-trScpr-scSuNrg_scAdjORPredprtclSom &
 ; [SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD [KEYS.KEY som-pred-n ],
@@ -582,7 +587,8 @@ v-trScprArg1-scObNrg_scPredprtclSom := trans-secpred-rais-from-nonverbal-arg1-ve
 ; [SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD [KEYS.KEY som-pred-adj ],
 ;				     LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD adj-reg] >].
 v-trScpr-scSuNrg_scN := trans-secpred-rais-from-n-arg1-verb-lexeme &
-[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD comm-noun]. ;; MHS 170713 This type has no CAT constraint. 
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD comm-noun,
+ SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.DERIVED-HEAD -]. ;; MHS 170713 This type has no CAT constraint. 
 v-trScpr-scSuNrg_scPP := trans-secpred-rais-from-n-arg1-verb-lexeme &
 [SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD prep & [KEYS.KEY index-sit1]]. ;; MHS 170713 This type has no CAT constraint.
 

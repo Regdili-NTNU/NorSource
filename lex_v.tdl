@@ -6014,7 +6014,7 @@ bero_intr-obl-clause-på_vlxm := v-intrObl-oblDECL &
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC på-k ] ].
 
-bero_intr-obl-på_vlxm := v-intrObl-oblN &
+bero_intr-obl-på_vlxm := v-intrObl-oblWH &
   [ INFLECTION finstr-dd,
       STEM < "bero" >,
       SYNSEM.VAL-CLASS multi-frame,
@@ -7893,11 +7893,12 @@ bli_copnom_vlxm := v-copN &
        SYNSEM.LKEYS.KEYREL.PRED "_bli-incho-instantiate_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-bli_intr-suDirTemp_vlxm := v-intr-suDirTemp &
-   [ STEM < "bli" >,
-       INFLECTION finstr-tt,
-       SYNSEM.LKEYS.KEYREL.PRED "_bli_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+;TODO change to transitive. vare, bli, være is only verb. meanwhile comment out for bli and være.
+;bli_intr-suDirTemp_vlxm := v-intr-suDirTemp &
+;   [ STEM < "bli" >,
+;       INFLECTION finstr-tt,
+;       SYNSEM.LKEYS.KEYREL.PRED "_bli_rel",
+;    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 bli_copstand_vlxm := v-copAdj &
    [ STEM < "bli" >,
@@ -100398,10 +100399,11 @@ være_atelpartcl-med_vlxm := v-intrPrtcl-SUSTAINEDACTIVITY &
        SYNSEM.LKEYS.KEYREL.PRED "_være_v-intrPrtcl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-være_intr-suDirTemp_vlxm := v-intr-suDirTemp &
-  [ INFLECTION nonfstr-te,
-      STEM < "være" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_være_v-intr_rel" ].
+;TODO change to transitive. vare, bli, være is only verb. meanwhile comment out for bli and være.
+;være_intr-suDirTemp_vlxm := v-intr-suDirTemp &
+;  [ INFLECTION nonfstr-te,
+;      STEM < "være" >,
+;      SYNSEM.LKEYS.KEYREL.PRED "_være_v-intr_rel" ].
 
 være_copExpnAdj_vlxm := v-copExpnAdj &
    [ STEM < "være" >,

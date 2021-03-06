@@ -149,9 +149,9 @@ head-verb-copula-inf-or-v-comp-rule := head-verb-copula-inf-or-v-comp-phrase.
 head-verb-perf-comp-rule := head-verb-perf-comp-phrase.
 head-verb-indirwhquest-y-n-comp-rule := head-verb-indirwhquest-y-n-comp-phrase.
 head-verb-indirwhquest-subjwh-comp-rule := head-verb-indirwhquest-subjwh-comp-phrase.
-head-verb-indirwhquest-objwh-comp-rulee := head-verb-indirwhquest-objwh-comp-phrase.
+head-verb-indirwhquest-objwh-comp-rule := head-verb-indirwhquest-objwh-comp-phrase.
 ; vet hvor han bor/ligger - not yet developed
-head-verb-indirwhquest-advwh-comp-rulee := head-verb-indirwhquest-advwh-comp-phrase.
+head-verb-indirwhquest-advwh-comp-rule := head-verb-indirwhquest-advwh-comp-phrase.
 ;LH200613  TODO: see if head-verb-comp-rule covers it
 head-verb-adj-comp-rule := head-verb-adj-comp-phrase.
 head-verb-preprais-comp-rule := head-verb-preprais-comp-phrase.
