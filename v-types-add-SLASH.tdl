@@ -541,9 +541,9 @@ v-ditr :+ 3arg & 2comps.
 
 ;LH 020611
 v-ditr-obYN :+ 3arg & 2comps.
-v-ditr-obYN_iobRefl :+ 3arg & 2comps.
+v-ditr-iobRefl_obYN :+ 3arg & 2comps.
 v-ditr-obWH :+ 3arg & 2comps.
-v-ditr-obWH_iobRefl :+ 3arg & 2comps.
+v-ditr-iobRefl_obWH :+ 3arg & 2comps.
 
 v-trComp-compINTERR :+ 3arg & 2comps.
 

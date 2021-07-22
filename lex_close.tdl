@@ -201,6 +201,11 @@ av_clause := prep-clause-word &
     SYNSEM.LKEYS.KEYREL.PRED "_av_p-subcl_rel",
     SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY av-clse]].
 
+i_clause := prep-clause-word &
+  [ STEM < "i" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_i_p-subcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY i-clse]].
+
 med_clause := prep-clause-word &
   [ STEM < "med" >,
     SYNSEM.LKEYS.KEYREL.PRED "_med_p-subcl_rel",
@@ -258,7 +263,7 @@ ut-fra_clause := prep-clause-word &
 angående_reg-wh-p := prep-word-wh-clause &
   [ STEM < "angående" >,
     SYNSEM.LKEYS.KEYREL.PRED "_angående_p-subcl_rel",
-    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY etter-indxsit]].
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY angående-indxsit]].
 
 etter_reg-wh-p := prep-word-wh-clause &
   [ STEM < "etter" >,
@@ -267,32 +272,32 @@ etter_reg-wh-p := prep-word-wh-clause &
 
 for_reg-wh-p := prep-word-wh-clause &
   [ STEM < "for" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY etter-indxsit,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY for-indxsit,
     SYNSEM.LKEYS.KEYREL.PRED "_for_p_rel"].
 
 i-henhold-til_reg-wh-p := prep-word-wh-clause &
   [ STEM < "i", "henhold", "til" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY etter-indxsit,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY i-indxsit,
     SYNSEM.LKEYS.KEYREL.PRED "_i-henhold-til_p_rel"].
 
 med-hensyn-til_reg-wh-p := prep-word-wh-clause &
   [ STEM < "med", "hensyn", "til" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY etter-indxsit,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY med-indxsit,
     SYNSEM.LKEYS.KEYREL.PRED "_med-hensyn-til_p_rel"].
 
 i-forhold-til_reg-wh-p := prep-word-wh-clause &
   [ STEM < "i", "forhold", "til" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY etter-indxsit,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY i-indxsit,
     SYNSEM.LKEYS.KEYREL.PRED "_i-forhold-til_p_rel"].
 
 i-relasjon-til_reg-wh-p := prep-word-wh-clause &
   [ STEM < "i", "relasjon", "til" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY etter-indxsit,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY i-indxsit,
     SYNSEM.LKEYS.KEYREL.PRED "_i-relasjon-til_p_rel"].
 
 ut-fra_reg-wh-p := prep-word-wh-clause &
   [ STEM < "ut", "fra" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY etter-indxsit,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY ut-indxsit,
     SYNSEM.LKEYS.KEYREL.PRED "_ut-fra_p_rel"].
 
 

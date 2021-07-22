@@ -3168,6 +3168,36 @@ avgjørende_alxm := stnd-adj-lxm &
       SYNSEM [ LKEYS.KEYREL.PRED "_avgjørende_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY avgjørende-k ] ].
 
+avgjørende_abs-epon-qst_alxm := abs-adj-epon-quest-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "avgjørende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_avgjørende_a_rel" ] ].
+
+avgjørende_abs-nonepon-qst_alxm := abs-adj-nonepon-quest-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "avgjørende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_avgjørende_a_rel" ] ].
+
+avgjørende_abs_alxm := abs0-adj-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "avgjørende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_avgjørende_a_rel" ] ].
+
+avgjørende_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "avgjørende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_avgjørende_a_rel" ] ].
+
+avgjørende_abs-epon-inf_alxm := abs-adj-epon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "avgjørende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_avgjørende_a_rel" ] ].
+
+avgjørende_tough_alxm := abs-adj-tough-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "avgjørende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_avgjørende_a_rel" ] ].
+
 avglemt_alxm := stnd-adj-lxm &
   [ INFLECTION finstr-norm,
       STEM < "avglemt" >,
@@ -45688,6 +45718,12 @@ pinaktig_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
       STEM < "pinaktig" >,
       SYNSEM [ LKEYS.KEYREL.PRED "_pinaktig_a_rel",
+               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pinefull_alxm := stnd-adj-lxm &
+  [ INFLECTION finstr-norm,
+      STEM < "pinefull" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_pinefull_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
 pinetrang_alxm := stnd-adj-lxm &

@@ -8912,7 +8912,8 @@ trans-eventarg1interr-eventarg2decl-verb-lexeme := verb-lexeme &
   [ SYNSEM trans-eventarg1interr-eventarg2decl-synsem ].
 trans-eventarg1interr-eventarg2interr-verb-lexeme := verb-lexeme &
   [ SYNSEM trans-eventarg1interr-eventarg2interr-synsem ].
-
+trans-eventarg1absinf-eventarg2absinf-verb-lexeme := verb-lexeme &
+  [ SYNSEM trans-eventarg1absinf-eventarg2absinf-synsem ].
 trans-eventarg1decl-eventobldecl-verb-lexeme := verb-lexeme &
   [ SYNSEM trans-eventarg1decl-eventobldecl-synsem ].
 trans-eventarg1decl-eventoblinterr-verb-lexeme := verb-lexeme &
@@ -12302,7 +12303,7 @@ head-subject-phrase-simple := head-subject-phrase-super &
 
 ;LH041015  Removed 'SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop-or-comm', because that prevents 'jeg vet hva du sa'.
 head-subject-phrase := head-subject-phrase-simple & head-subject-phrase-sup &
- [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ WH-COMPLETE -],
+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ WH-COMPLETE -], ; -
 ;   SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop-or-comm,
    SYNSEM.LOCAL.NEED-Q-MARK -,
    NON-HEAD-DTR.SYNSEM.LOCAL.COORD-RELEASED +,
@@ -13057,7 +13058,7 @@ head-verb-perf-comp-phrase := head-verb-verbal-comp-phrase &
     SYNSEM.LOCAL.WAIT-BND-RESP #3,
 ;    HEAD-DTR.SYNSEM.LEX +,
 ;    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-aux,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+;    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>, ; what if something extracted
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAIN-CL #mcl,
     NON-HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN -,
     NON-HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-SUBORD-OPEN -,
@@ -14379,7 +14380,7 @@ head-actv-verb-icomp-phrase := head-verb-icomp-phrase &
      NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE #expl,
      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY actv-prep ],
-     NON-HEAD-DTR.SYNSEM.LEX -].
+     NON-HEAD-DTR.SYNSEM.LEX bool]. ;-
 
    ; [KEYS.KEY fct-pass-spec ]
 head-pass-verb-icomp-phrase := head-verb-icomp-phrase &
@@ -18866,13 +18867,13 @@ mcl-extracted-verbcomp-phrase := extracted-verbcomp-phrase-sup &
 
 mcl-non-comp-extracted-verbcomp-phrase := mcl-extracted-verbcomp-phrase &
 [ SYNSEM.LOCAL.IS-A-COMPLEMENT #bool,  
-  HEAD-DTR.SYNSEM.LOCAL [ CAT [ HEAD [ INV + ],
+  HEAD-DTR.SYNSEM.LOCAL [ CAT [ HEAD [ INV bool ],;+
 				VAL [ SUBJ < anti-synsem > ]],
 			  IS-A-COMPLEMENT #bool & - ]].
 
 mcl-comp-extracted-verbcomp-phrase := mcl-extracted-verbcomp-phrase &
 [ SYNSEM.LOCAL.IS-A-COMPLEMENT #bool,  
-  HEAD-DTR.SYNSEM.LOCAL [ CAT [ HEAD [ INV - ],
+  HEAD-DTR.SYNSEM.LOCAL [ CAT [ HEAD [ INV bool ],;-
 				VAL [ SUBJ < synsem > ]],
 			  IS-A-COMPLEMENT #bool & + ]].
 
@@ -19176,10 +19177,12 @@ head-filler-topic-phrase := basic-head-filler-phrase & head-final &
 ; by the head-subject rule of the embedded clause. Better than
 ; depriving the latter of its usual force, it seems.
 
+; ,
+;				      WH-COMPLETE +
 head-filler-subord-wh-phrase := basic-head-filler-phrase & head-final &
   [ SYNSEM.LOCAL.CAT.HEAD verb-all & [INV -,
                                       DECL -,
-                                      MAIN-CL - ],
+                                      MAIN-CL -],
     SYNSEM.LOCAL.CONT.HOOK.INDEX #6,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.SF ques,
     SYNSEM.LOCAL.CONT.HOOK.LTOP #10,
@@ -22453,7 +22456,7 @@ trans-secpred-arg1-x-synsem-sup := argx-predicative-synsem & arg1-subj-synsem &
     LOCAL.KEY-SPEC #1,
     LOCAL.CAT trans-ncomps-secpred-cat,
     LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #5 & [SORT referential-thing],
-                           LOCAL.CAT.HEAD.DEF + ], 
+                           LOCAL.CAT.HEAD.DEF bool ], ;+
                           [ LOCAL.CAT.HEAD [ KEYS.KEY #1],
 			    LOCAL.CONT.HOOK.XARG #5 ] >,
     LOCAL.CAT.VAL.ICOMPS <> ].
@@ -23123,6 +23126,14 @@ trans-eventarg1-eventarg2-synsem := trans-synsem & eventarg1-subj-synsem &
    LOCAL.CAT.VAL.ICOMPS <>,
    LOCAL.CAT trans-cat,
    LKEYS.KEYREL.ARG2 #2 ].
+
+trans-eventarg1-eventarg2nonfin-synsem := trans-synsem & eventarg1-subj-synsem &
+  [LOCAL.CONT.HOOK hook,
+   LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.LTOP #2 & semarg,
+                          LOCAL.CONT.HOOK.INDEX.E.TENSE tense] >,
+   LOCAL.CAT.VAL.ICOMPS <>,
+   LOCAL.CAT trans-cat,
+   LKEYS.KEYREL.ARG2 #2 ].
  
 trans-eventarg1decl-eventarg2-synsem := trans-eventarg1-eventarg2-synsem &
   [ LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD.DECL + ] > ].
@@ -23136,6 +23147,10 @@ trans-eventarg1interr-eventarg2decl-synsem := trans-eventarg1interr-eventarg2-sy
   [ LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD.DECL + ] > ].
 trans-eventarg1interr-eventarg2interr-synsem := trans-eventarg1interr-eventarg2-synsem &
   [ LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD.DECL - ] > ].
+
+trans-eventarg1absinf-eventarg2absinf-synsem := trans-eventarg1-eventarg2nonfin-synsem &
+  [ LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD infin-comp & [TRANSPAR -]] >,
+    LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD infin-comp & [TRANSPAR -]] > ].
 
 ditrans-eventarg1-synsem := ditrans-synsem & eventarg1-subj-synsem & arg23-comps-synsem &
  [ LOCAL.CAT [ VAL.ICOMPS <>]].
@@ -23615,6 +23630,21 @@ subject-presentational-refl-synsem := subject-presentational-refl-synsem-sup &
 
 
 ; "det oppholder seg en gutt under trappen/her"
+#|
+subject-locobl-presentational-refl-synsem := subject-presentational-refl-synsem-sup &
+  [ LOCAL.CONT.HOOK hook,
+    LOCAL.KEY-SPEC #1,
+    LOCAL.CAT.VAL.COMPS <[], [LOCAL.CONT.HOOK.INDEX #3], 
+			 [LOCAL.CONT.HOOK.LTOP #2,
+                           LOCAL.CONT.HOOK.XARG #3,
+                           LOCAL.CAT.HEAD prep-or-adv & [ SELECTED -,
+                                                          KEYS.KEY #1],
+                           LOCAL.CONT.HOOK.INDEX [SORT non-fix-point,
+						  ROLE xdim-to-xdim-spatial]]>,
+    LKEYS.KEYREL.ARGX #2 ].
+;revise, make obl a comp
+|#
+
 subject-locobl-presentational-refl-synsem := subject-presentational-refl-synsem-sup &
   [ LOCAL.CONT.HOOK hook,
     LOCAL.KEY-SPEC #1,
@@ -23959,7 +23989,7 @@ copula-locpp-synsem :=  arg1-predicative-synsem &
     LOCAL.CAT intrans-ncomps-secpred-cat,
     LOCAL.CAT.VAL [ SUBJ < [LOCAL.CONT.HOOK.INDEX #5 & ref-ind]>, 
                     COMPS < [ LOCAL.CONT.HOOK.XARG #5,
-                              LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.KEYS.KEY regnoun,
+;                              LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.KEYS.KEY regnoun,
                               LOCAL.CAT.HEAD prep & [KEYS.KEY index-sit1]  ] >]].
 
 copula-locpp-pp-synsem :=  arg1-predicative-synsem &
@@ -23975,7 +24005,8 @@ copula-locpp-pp-synsem :=  arg1-predicative-synsem &
                               LOCAL.CAT.HEAD prep & [KEYS.KEY index-sit1]  ]>]].
 
 
-;,
+;
+
 copula-dirpp-synsem :=  arg1-predicative-synsem &
   [ LOCAL.CONT.HOOK hook,
     LOCAL.CAT.HEAD copula,
@@ -24620,7 +24651,7 @@ passive-ncomps1-sup := passive-lexeme &
     ARGS < [ SYNSEM.LOCAL.CAT.VAL [ COMPS < [ LOCAL.CONT.HOOK.INDEX #5,
                                               LOCAL.CAT.HEAD np-head & [KEYS.KEY #kk,
 									EXPLETIVE #expl],
-                                              LOCAL.BINDING.BOUND - ]. #1 >,
+                                              LOCAL.BINDING.BOUND - ] . #1 >,; . #1
                                     ICOMPS #3 ],
              SYNSEM.VAL-CLASS #vc,
 	     SYNSEM.LOCAL.CAN-PASTPART-ADJ #bool ] >].

@@ -22137,6 +22137,10 @@ swedes_n1 := commpl-inan-proper-name-word  &
    [ STEM < "Swedes" >,
        SYNSEM.LKEYS.KEYREL.CARG "Swedes" ].
 
+Sydamerika_n1 := mascsg-inan-proper-name-word &
+   [ STEM < "Sydamerika" >,
+       SYNSEM.LKEYS.KEYREL.CARG "Sydamerika" ].
+
 sykkylven_n1 := mascsg-inan-proper-name-word  &
    [ STEM < "Sykkylven" >,
        SYNSEM.LKEYS.KEYREL.CARG "Sykkylven" ].

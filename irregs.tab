@@ -1098,8 +1098,12 @@ sneket ppart-nonfstr_infl_rule snike
 spør pres-infl_rule spørre
 spurte pret-nonfstr_infl_rule spørre
 spurt ppart-nonfstr_infl_rule spørre
+utspør pres-infl_rule utspørre
 utspurte pret-nonfstr_infl_rule utspørre
 utspurt ppart-nonfstr_infl_rule utspørre
+rådspør pres-infl_rule rådspørre
+rådspurte pret-nonfstr_infl_rule rådspørre
+rådspurt ppart-nonfstr_infl_rule rådspørre
 
 rakte pret-nonfstr_infl_rule rekke
 strakk pret-nonfstr_infl_rule strekke

@@ -11,12 +11,13 @@
 ;;;oblLoc 
 
 
-;LH290912 TODO add refl part
-v-trPresnt-obRefl := impersonal-trans-presentational-verb-lexeme.
+;see also 'v-presntRefl' still used in lex-v
+v-trPresnt-obRefl := subject-presentational-refl-verb-lexeme.
+;impersonal-trans-presentational-verb-lexeme.
 ;Further logical definitions:
 ;v-trPresnt-obRefl_presDir := v-presentReflDir.
 ;v-trPresntPath-obRefl := v-presentReflDir.   ;when a real path const
-;v-trPresntLoc-obRefl := v-presntReflLoc.   
+v-trPresntLoc-obRefl := v-presntReflLoc.   
 ;v-intrPresntPath   
 ;v-intrPresntLoc 
 ;v-intrPresnt-presDir := v-intrPresnt. ; (smette)
@@ -711,9 +712,9 @@ v-ditr-iobRefl_obEqIobInf := ditrans-refl-equiinf-verb-lexeme.
 
 ; spørre_ditr-interr
 v-ditr-obYN := ditrans-y-n-indirwhquest-verb-lexeme.
-v-ditr-obYN_iobRefl := ditrans-y-n-refl-indirwhquest-verb-lexeme.
+v-ditr-iobRefl_obYN := ditrans-y-n-refl-indirwhquest-verb-lexeme.
 v-ditr-obWH := ditrans-wh-indirwhquest-verb-lexeme.
-v-ditr-obWH_iobRefl := ditrans-wh-refl-indirwhquest-verb-lexeme.
+v-ditr-iobRefl_obWH := ditrans-wh-refl-indirwhquest-verb-lexeme.
 v-trComp-compINTERR := ditrans-y-n-indirwhquest-verb-lexeme.
 v-trNrfComp-obReflExpl_compYN := ditrans-y-n-refl-indirwhquest-verb-lexeme.
 v-trNrfComp-obReflExpl_compWH := ditrans-wh-refl-indirwhquest-verb-lexeme.
@@ -1098,15 +1099,21 @@ v-intrPrtclExpn-expnDECL := epon-particle-DECL-verb-lexeme & top-verb-lexeme & [
 v-intrPrtclExpn-expnAbsinf := epon-particle-inf-verb-lexeme & top-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
 ; det hører med...(from Presentational-2)
 v-intrPrtclExpn-expnInterr := epon-particle-interr-verb-lexeme & top-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
-; no ex?
+; no ex?ScprExpnOb
 v-tr-suDECL := trans-eventarg1-decl-verb-lexeme.
 v-tr-suINTERR := trans-eventarg1-interr-verb-lexeme.
 v-tr-suAbsinf := trans-eventarg1-absinf-verb-lexeme.
 ;TODO check content:
 v-tr-suEqObInf := trans-eventarg1-equi-contr-by-obj-verb-lexeme.
+;TO BE CREATED
+v-tr-suEqObInf_oblEqObInf := trans-eventarg1-equi-contr-by-obj-verb-lexeme.
+;TO BE CREATED
+v-tr-suDECL_oblEqObInf := trans-eventarg1-equi-contr-by-obj-verb-lexeme.
+
 v-trObl-suDECL := trans-eventarg1-decl-obl-verb-lexeme.
 v-trObl-suINTERR := trans-eventarg1-interr-obl-verb-lexeme.
 v-tr-suDECL_obDECL := trans-eventarg1decl-eventarg2decl-verb-lexeme.
+v-tr-suAbsinf_obAbsinf := trans-eventarg1absinf-eventarg2absinf-verb-lexeme.
 v-tr-suDECL_obINTERR := trans-eventarg1decl-eventarg2interr-verb-lexeme.
 v-tr-suINTERR_obDECL := trans-eventarg1interr-eventarg2decl-verb-lexeme.
 v-tr-suINTERR_obINTERR := trans-eventarg1interr-eventarg2interr-verb-lexeme.

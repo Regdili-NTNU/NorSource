@@ -66,7 +66,7 @@ strongpl-adj-word &
 
 
 strongpl-adj-nonfstr_infl_rule :=
-%suffix (e e)(g ge)(k ke)(et ete)(lt lte)(nt nte)(et ede)(mal mle)(mel mle)(bel ble)(den dne)(fen fne)(gen gne)(ken kne)(ren rne)(ker kre)(len lne)(men mne)(pel ple)(pen pne)(sen sne)(ten tne)(ben bne)(kel kle)(mer mre)(per pre)(mmal mle)(mmel mle)(bbel ble)(dden dne)(ffen fne)(ggen gne)(kken kne)(kker kre)(llen lne)(mmen mne)(ppel ple)(ppen pne)(ssen sne)(tten tne)(bben bne)(kkel kle)(mmer mre)(pper pre)
+%suffix (e e)(g ge)(k ke)(et ete)(lt lte)(lt lt)(nt nte)(et ede)(mal mle)(mel mle)(bel ble)(den dne)(fen fne)(gen gne)(ken kne)(ren rne)(ker kre)(len lne)(men mne)(pel ple)(pen pne)(sen sne)(ten tne)(ben bne)(kel kle)(mer mre)(per pre)(mmal mle)(mmel mle)(bbel ble)(dden dne)(ffen fne)(ggen gne)(kken kne)(kker kre)(llen lne)(mmen mne)(ppel ple)(ppen pne)(ssen sne)(tten tne)(bben bne)(kkel kle)(mmer mre)(pper pre)
 strongpl-adj-word & 
   [ ARGS.FIRST.INFLECTION nonfstr ].
 
@@ -171,7 +171,7 @@ strpl-pastpt-adj-word &
 
 ; wtow
 strpl-pastpt-postnom-adj_e_lrule := 
-%suffix (* e)(et et)(dt dt)(ert ert)(tt tt)(nt nt)(ffen fne)(even evne)(epet epet)(eken ekne)
+%suffix (* e)(et et)(dt dt)(ert ert)(tt tt)(lt lt)(nt nt)(ffen fne)(even evne)(epet epet)(eken ekne)
 strpl-pastpt-adj-word &
 [ SYNSEM.LOCAL.CAT.POSTHEAD +,
   ARGS < [ INFLECTION phon,
