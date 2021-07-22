@@ -297,7 +297,7 @@ i-relasjon-til_reg-wh-p := prep-word-wh-clause &
 
 ut-fra_reg-wh-p := prep-word-wh-clause &
   [ STEM < "ut", "fra" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY ut-indxsit,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY ut-fra-indxsit,
     SYNSEM.LKEYS.KEYREL.PRED "_ut-fra_p_rel"].
 
 
