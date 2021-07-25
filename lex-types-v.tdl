@@ -21,9 +21,11 @@ v-trPresntLoc-obRefl := v-presntReflLoc.
 ;v-intrPresntPath   
 ;v-intrPresntLoc 
 ;v-intrPresnt-presDir := v-intrPresnt. ; (smette)
-v-intrPresntObl := impersonal-presentational-obl-verb-lexeme.
-;TODO add INTERR
+v-intrPresntObl := subject-obl-presentational-verb-lexeme.
+;TODO specify these - all instantiated in lex with 'versere'
 v-intrPresntObl-oblINTERR := v-intrPresntObl.
+v-intrPresntObl-oblN := v-intrPresntObl.
+v-intrPresntObl-oblDECL := v-intrPresntObl.
 ;v-intrPresntDirShft
 
 ;can be produced v-presentReflDirShft 
@@ -179,40 +181,72 @@ v-intrObl-suINTERR_oblINTERR := intrans-eventarg1interr-eventoblinterr-verb-lexe
 ;;;v-intrObl-suWH_oblWH := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
 
 ;for komme an på
-v-intrPrtclObl-suDECL_oblN := v-intrprtclobl.
-;intrans-eventarg1-decl-obl-n-verb-lexeme.
-; should really be a supertype of the next two - never done in Norse
-v-intrPrtclObl-suINTERR_oblN := v-intrprtclobl.
-;intrans-eventarg1-interr-obl-n-verb-lexeme.
+
+v-intrPrtclObl-suDECL_oblN := v-intrprtclobl-eventsubj &
+ [SYNSEM [ LOCAL.CAT.VAL.SUBJ < [LOCAL.CAT.HEAD.EXPLETIVE -,
+				 LOCAL.CAT.HEAD.DECL +,
+		      		 LOCAL.CONT.HOOK.LTOP #1] >, 
+	   LKEYS.KEYREL.ARG1 #1 ]].
+
+v-intrPrtclObl-suINTERR_oblN := v-intrprtclobl-eventsubj &
+ [SYNSEM [ LOCAL.CAT.VAL.SUBJ < [LOCAL.CAT.HEAD.EXPLETIVE -,
+				 LOCAL.CAT.HEAD.DECL -,
+		      		 LOCAL.CONT.HOOK.LTOP #1] >, 
+	   LKEYS.KEYREL.ARG1 #1 ]].
+
+
+;nOT YET
 v-intrPrtclObl-suYN_oblN := v-intrprtclobl.
 ;intrans-eventarg1-interr-obl-n-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suWH_oblN := v-intrprtclobl.
 ;intrans-eventarg1-interr-obl-n-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suDECL_oblDECL := v-intrprtclobl.
 ;intrans-eventarg1decl-eventobldecl-verb-lexeme.
 ; should really be a supertype of the next two - never done in Norse
+;nOT YET
 v-intrPrtclObl-suDECL_oblINTERR := v-intrprtclobl.
 ;intrans-eventarg1decl-eventoblinterr-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suDECL_oblYN := v-intrprtclobl.
 ;intrans-eventarg1decl-eventoblinterr-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suDECL_oblWH := v-intrprtclobl.
 ;intrans-eventarg1decl-eventoblinterr-verb-lexeme.
 ; should really be a supertype of the next two - never done in Norse
+;nOT YET
 v-intrPrtclObl-suINTERR_oblDECL := v-intrprtclobl.
 ;intrans-eventarg1interr-eventobldecl-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suYN_oblDECL := v-intrprtclobl.
 ;intrans-eventarg1interr-eventobldecl-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suWH_oblDECL := v-intrprtclobl.
 ;intrans-eventarg1interr-eventobldecl-verb-lexeme.
-; should really be a supertype of the next four - never done in Norse
-v-intrPrtclObl-suINTERR_oblINTERR := v-intrprtclobl.
+; should really be a supertype of the next four
+
+v-intrPrtclObl-suINTERR_oblINTERR := v-intrPrtclObl-suINTERR_oblN &
+[SYNSEM [LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD verb-or-comp & [ DECL - ],
+								   CONT.HOOK.INDEX.E.TENSE finite],
+				     LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -]],
+				     LOCAL.CONT.HOOK.LTOP #1 & handle],
+	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
+							KEYS.KEY clse ]]>,
+	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
+
+
 ;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suYN_oblYN := v-intrprtclobl.
 ;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suYN_oblWH := v-intrprtclobl.
 ;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suWH_oblYN := v-intrprtclobl.
 ;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+;nOT YET
 v-intrPrtclObl-suWH_oblWH := v-intrprtclobl.
 ;intrans-eventarg1interr-eventoblinterr-verb-lexeme.
 
@@ -305,6 +339,10 @@ v-trOblRais-oblRaisObInf := trans-rais-from-pp-arg1-verb-lexeme.
 ; late til at, haste med at/å: TODO wrong for DECL, see Absinf-version
 v-intrOblExlnk-oblExlnkDECL := intrans-decl-in-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+
+; CREATE  dages for å
+;v-intrOblExlnk-oblExlnkDECL := intrans-decl-in-pp-arg1-verb-lexeme &
+; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 
 ; det beror på deg om han vil komme: (from Presentational-2)
 v-intrOblExpn-expnYN := epon-decl-and-yn-pp-verb-lexeme & top-verb-lexeme &
@@ -872,13 +910,28 @@ v-trScpr-scObLoc := v-trScpr-scObArgCsd_scLoc.
 ;v-trScpr-obRefl-scObArgCsd_scLoc
 ;v-trScprShft-obRefl-scObArgCsd_scLoc
 
+v-intrprtclobl-eventsubj := verb-lexeme & [SYNSEM eventsubj-prtcl-pp-synsem].
+
 v-intrprtclobl := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 v-intrprtclobl-oblLoc := verb-lexeme & [SYNSEM subj-prtcl-pp-loc-synsem].
 v-intrprtclobl-oblN := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
-;TODO fix:
-v-intrprtclobl-oblDECL := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
-;TODO fix:
-v-intrprtclobl-oblINTERR := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
+;DONE:
+v-intrprtclobl-oblDECL := v-intrprtclobl &
+[SYNSEM [LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD comp & [ DECL + ],
+								   CONT.HOOK.INDEX.E.TENSE finite],   
+				     LOCAL.CONT.HOOK.LTOP #1 & handle],
+	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
+							KEYS.KEY clse ]]>,
+	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
+;DONE:
+v-intrprtclobl-oblINTERR := v-intrprtclobl &
+[SYNSEM [LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD verb-or-comp & [ DECL - ],
+								   CONT.HOOK.INDEX.E.TENSE finite],
+				     LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -]],
+				     LOCAL.CONT.HOOK.LTOP #1 & handle],
+	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
+							KEYS.KEY clse ]]>,
+	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
 ;TODO fix:
 v-intrprtclobl-oblWH := verb-lexeme & [SYNSEM subj-prtcl-pp-synsem].
 ;TODO fix:

@@ -8708,6 +8708,9 @@ impersonal-presentational-result-verb-lexeme := verb-2rel-arg12a-lexeme & top-ve
 impersonal-presentational-obl-verb-lexeme := verb-2rel-arg12aObl-lexeme &
   [ SYNSEM impersonal-presentational-obl-synsem ].
 
+subject-obl-presentational-verb-lexeme := verb-2rel-arg12a1Obl-lexeme &
+ [ SYNSEM subject-obl-presentational-synsem ].
+
 ; tykne til, klarne opp
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 impersonal-presentational-telicparticle-verb-lexeme := verb-2rel-arg12ax-lexeme &
@@ -14382,8 +14385,7 @@ head-actv-verb-icomp-phrase := head-verb-icomp-phrase &
      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-or-adv & [KEYS.KEY prim-mod],
      NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE #expl,
-     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY actv-prep ],
-     NON-HEAD-DTR.SYNSEM.LEX bool]. ;-
+     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY actv-prep ]].
 
    ; [KEYS.KEY fct-pass-spec ]
 head-pass-verb-icomp-phrase := head-verb-icomp-phrase &
@@ -21511,6 +21513,23 @@ subj-prtcl-pp-synsem := arg1-subj-synsem &
    LKEYS.KEYREL.ARGOBLQ #2,
    LKEYS.KEYREL.ARG1 #1].
 
+eventsubj-prtcl-pp-synsem := eventarg1-subj-synsem &
+  [LOCAL.CONT.HOOK.LTOP #5,
+   LOCAL.CONT.HOOK hook,
+   LOCAL.KEY-SPEC #4,
+   LOCAL.ALT-SPEC #3,
+   LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.LTOP #1]>],
+   LOCAL.CAT.VAL.COMPS < lex-synsem &
+                           [ LOCAL.CONT.HOOK.LTOP #5,
+			     LOCAL.CAT.HEAD adv-reg & [KEYS.KEY #4 & pcl,
+                                                       SELECTED +] ] >,
+   LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-ultra & [SELECTED +,
+                                                      KEYS.KEY #3],
+                          LOCAL.CONT.HOOK.XARG #1,
+                          LOCAL.CONT.HOOK.LTOP #2]>,
+   LKEYS.KEYREL.ARGOBLQ #2,
+   LKEYS.KEYREL.ARG1 #1].
+
 subj-obj-prtcl-pp-synsem := arg1-subj-synsem &
   [LOCAL.CONT.HOOK.LTOP #5,
    LOCAL.CONT.HOOK hook,
@@ -23381,7 +23400,7 @@ presentational-synsem-2 := lex-synsem &
 |#
 
 presentational-synsem-2 := lex-synsem &
-  [ LOCAL.CAT lex-cat & [VAL.SUBJ 1-list & [FIRST #subj ],
+  [ LOCAL.CAT lex-cat & [VAL.SUBJ < #subj>,  
 			 QVAL.SUBJECT #subj & [ LOCAL [ CAT.HEAD expl-pron & [EXPLETIVE +],
                                                 CONT [ HOOK.INDEX #1 & ref-ind ] ] ]],
     LOCAL.CONT.HOOK.XARG #1,
@@ -23417,7 +23436,7 @@ impersonal-presentational-synsem := presentational-synsem &
 ;presentational-synsem-2
 impersonal-presentational-synsem := presentational-synsem-2 &
   [ LOCAL.CONT.HOOK hook,
-    LOCAL.CAT.VAL.COMPS <> ].
+    LOCAL.CAT.VAL.COMPS list ].
 
 ;presentational-synsem-2
 impersonal-trans-presentational-synsem := presentational-synsem-2 &
@@ -23445,7 +23464,7 @@ impersonal-presentational-obl-synsem := presentational-synsem-2 &
     LOCAL.CAT.VAL.COMPS <>,
     LOCAL.CAT.VAL.ICOMPS <[LOCAL.CONT.HOOK.LTOP #2,
                            LOCAL.CAT.HEAD [SELECTED bool,
-                                           KEYS.KEY #3 & index-sit1]]>,
+                                           KEYS.KEY #3 ]]>, ; & index-sit1
     LKEYS.KEYREL.ARGOBLQ #2,
     LOCAL.KEY-SPEC #3 ].
 
@@ -23538,14 +23557,24 @@ subject-dir-presentational-synsem := subject-presentational-synsem-sup &
 
 ;det sitter en mann i stolen
 subject-locobl-presentational-synsem := subject-presentational-synsem-sup &
-  [ LOCAL.CONT.HOOK hook,
-    LOCAL.CONT.HOOK hook & [VARG #3],
+  [ LOCAL.CONT.HOOK hook & [VARG #3],
     LOCAL.KEY-SPEC #1,
     LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-or-adv & [ SELECTED -,
                                                           KEYS.KEY #1 & index-sit],
                            LOCAL.CONT.HOOK.INDEX[SORT non-fix-point,
                                                  ROLE xdim-to-xdim-spatial],
 			   LOCAL.CONT.HOOK.VARG #3,
+			   LOCAL.CONT.HOOK.LTOP #2 & handle]>,
+    LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #2 ] ].
+
+;det verserer rykter om deg
+; it's impossible to use this as a selected oblique, TODO, find out why.
+subject-obl-presentational-synsem := subject-presentational-synsem-sup &
+  [ LOCAL.CONT.HOOK hook & [VARG #3],
+    LOCAL.KEY-SPEC #1,
+    LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-or-adv & [ SELECTED +,
+                                                          KEYS.KEY #1 ], ;& om-act-topic-of
+                           LOCAL.CONT.HOOK.VARG #3,
 			   LOCAL.CONT.HOOK.LTOP #2 & handle]>,
     LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #2 ] ].
 
@@ -23908,9 +23937,9 @@ epon-decl-and-yn-wh-particle-pp-clause-synsem := epon-decl-and-yn-particle-pp-cl
 ;x
 epon-wh-particle-pp-clause-synsem := epon-particle-pp-clause-synsem &
    [ LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
-;for: v-intrOblExpn-oblWH_expnYN. ok
+;for: v-intrPrtclOblExpn-oblWH_expnYN. ok
 epon-wh-decl-and-yn-particle-pp-clause-synsem := epon-wh-particle-pp-clause-synsem &
-   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp] > ].
+   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp & [DECL -]] > ].
 ;x for: v-intrOblExpn-oblWH_expnWH. ok
 epon-wh-wh-particle-pp-clause-synsem := epon-wh-particle-pp-clause-synsem &
    [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
@@ -25273,7 +25302,7 @@ adj-to-n-rule := mod-to-n-rule &
     DTR [ SYNSEM.LOCAL.CAT.HEAD adj-reg & [ WEAK #3,
                                             KEYS.KEY propt ],
           SYNSEM.LOCAL.CAT.HEAD adjectival,
-          SYNSEM.LOCAL.CAT.HEAD adj & [DEGREE positive],
+          SYNSEM.LOCAL.CAT.HEAD adj, ; & [DEGREE positive],
           SYNSEM.LOCAL.CONT.HOOK.XARG #1,
           SYNSEM.LOCAL.CAT.VAL.SPEC #4,
           SYNSEM.LOCAL.CAT.POSTHEAD #ph,

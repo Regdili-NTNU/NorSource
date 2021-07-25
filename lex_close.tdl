@@ -206,6 +206,11 @@ i_clause := prep-clause-word &
     SYNSEM.LKEYS.KEYREL.PRED "_i_p-subcl_rel",
     SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY i-clse]].
 
+til_clause := prep-clause-word &
+  [ STEM < "til" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_til_p-subcl_rel",
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY til-clse]].
+
 med_clause := prep-clause-word &
   [ STEM < "med" >,
     SYNSEM.LKEYS.KEYREL.PRED "_med_p-subcl_rel",
@@ -605,6 +610,11 @@ av_partcl := adv-particle-word &
     SYNSEM [LOCAL.CAT.HEAD.KEYS.KEY av-pcl,
             LKEYS.KEYREL.PRED "_av_pcl_rel"]].
 
+an_partcl := adv-particle-word &
+  [ STEM < "an" >,
+    SYNSEM [LOCAL.CAT.HEAD.KEYS.KEY an-pcl,
+            LKEYS.KEYREL.PRED "_an_pcl_rel"]].
+
 løs_partcl := adv-particle-word &
   [ STEM < "løs" >,
     SYNSEM [LOCAL.CAT.HEAD.KEYS.KEY løs-pcl,
@@ -622,6 +632,10 @@ igjennom_partcl := adv-particle-word &
 gjennom_partcl := adv-particle-word &
   [ STEM < "gjennom" >,
     SYNSEM.LKEYS.KEYREL.PRED "_gjennom_pcl_rel"].
+
+unna_partcl := adv-particle-word &
+  [ STEM < "unna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_unna_pcl_rel"].
 
 
 
@@ -3235,6 +3249,10 @@ for_anse-for-å := for-comp &
 som-om_prep-irreal := prep-s-word-reg-irreal &
   [ STEM < "som", "om" >,
     SYNSEM.LKEYS.KEYREL.PRED "_som-om-irreal_rel" ].
+
+som_prep-irreal := prep-s-word-reg-irreal &
+  [ STEM < "som" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_som-irreal_rel" ].
 
 liksom_prep-irreal := prep-s-word-reg-irreal &
   [ STEM < "liksom" >,
