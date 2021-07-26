@@ -20081,7 +20081,7 @@ forekomme_epon_vlxm := v-intrExpn-expnDECL &
       SYNSEM.LKEYS.KEYREL.PRED "_forekomme_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-forekomme_tr-epon_vlxm := v-trExpn-expnDECL &
+forekomme_tr-epon_vlxm := v-trExpnSu-expnDECL &
   [ STEM < "forekomme" >,
        INFLECTION nonfstr-strong,
       SYNSEM.LKEYS.KEYREL.PRED "_forekomme_v-tr_rel",
@@ -31909,7 +31909,7 @@ henstå_iv_vlxm := v-intr &
       SYNSEM.LKEYS.KEYREL.PRED "_henstå_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-hensvinne_pres-result_vlxm := presResult &
+hensvinne_pres-result_vlxm := v-presResult &
   [ INFLECTION nonfstr-strong,
       STEM < "hensvinne" >,
       SYNSEM.VAL-CLASS multi-frame,
@@ -32588,8 +32588,8 @@ hjelpe_atel-prtcl-pp-equi-til-med_vlxm := v-intrPrtclObl-oblEqSuInf &
 hjelpe-til-med_intrPrtclObl-oblDECL_vlxm := v-intrPrtclObl-oblDECL &
    [ STEM < "hjelpe" >,
        INFLECTION nonfstr-strong,
-       SYNSEM.LOCAL.KEY-SPEC til-pcl,
-       SYNSEM.LOCAL.ALT-SPEC med-rais,
+       SYNSEM.LOCAL.KEY-SPEC til-k,
+       SYNSEM.LOCAL.ALT-SPEC med-k,
        SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v-intrPrtclObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
 
