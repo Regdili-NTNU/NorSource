@@ -865,6 +865,65 @@ v-trOblExpnOb-expnAbsinf := trans-obl-subord-expn-verb-lexeme &
    [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD infin-comp & [DECL +,
 								     KEYS.KEY infinit-comp]] > ].
 
+;det ansporer ham til å ... at/å ...
+v-trOblExpnSu-oblEqObInf_expnCmpl := epon-np-decl-and-yn-pp-verb-lexeme & top-verb-lexeme &
+ [ SYNSEM [LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD np-head,
+				  LOCAL.CONT.HOOK.INDEX #1 ], [] >,
+	   LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, 
+				  LOCAL.CONT.HOOK.XARG #1,
+				  LOCAL.CONT.HOOK.LTOP #2,
+				  LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [TRANSPAR +]]>,
+	   LKEYS.KEYREL.ARGOBLQ #2,
+	   LKEYS.KEYREL.ARG2 #1 ]].
+
+;det ansporer ham til å ... at ...
+v-trOblExpnSu-oblEqObInf_expnDECL := v-trOblExpnSu-oblEqObInf_expnCmpl &
+ [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL +]] > ].
+
+
+;det ansporer ham til å ... å ...
+v-trOblExpnSu-oblEqObInf_expnEqObInf := v-trOblExpnSu-oblEqObInf_expnCmpl &
+ [SYNSEM [ LOCAL.CAT [VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #3 ], 
+				  [LOCAL.CAT.HEAD infin-comp & [ TRANSPAR +,
+								 DECL +  ],
+				   LOCAL.CONT.HOOK.LTOP #1,
+				   LOCAL.CONT.HOOK.XARG #3] >],
+	   LKEYS.KEYREL [ARG1 #1,
+			 ARG2 #3]]].
+
+
+;det ansporer ham til np ... at/å ...
+v-trOblExpnSu-oblN_expnCmpl := epon-np-decl-and-yn-pp-verb-lexeme & top-verb-lexeme &
+ [ SYNSEM [LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD np-head,
+				  LOCAL.CONT.HOOK.INDEX #1 ], [] >,
+	   LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, 
+				  LOCAL.CONT.HOOK.XARG #1,
+				  LOCAL.CONT.HOOK.LTOP #2,
+				  LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal]>,
+	   LKEYS.KEYREL.ARGOBLQ #2,
+	   LKEYS.KEYREL.ARG2 #1 ]].
+
+;;;
+;det ansporer ham til np ... at ...
+v-trOblExpnSu-oblN_expnDECL := v-trOblExpnSu-oblN_expnCmpl &
+ [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL +]] > ].
+
+
+;det ansporer ham til np ... å ...
+v-trOblExpnSu-oblN_expnEqObInf := v-trOblExpnSu-oblN_expnCmpl &
+ [SYNSEM [ LOCAL.CAT [VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #3 ], 
+				  [LOCAL.CAT.HEAD infin-comp & [ TRANSPAR +,
+								 DECL +  ],
+				   LOCAL.CONT.HOOK.LTOP #1,
+				   LOCAL.CONT.HOOK.XARG #3] >],
+	   LKEYS.KEYREL [ARG1 #1,
+			 ARG2 #3]]].
+;;;
+
+
+
+;intrOblExpn-expn
+
 ; "det viser seg at..." -(from Presentational-2)
 v-trNrfExpnSu-obReflExpl_expnDECL := io-refl-epon-verb-lexeme & top-verb-lexeme.
 ;new type:
@@ -1156,15 +1215,17 @@ v-intrPrtclExpn-expnInterr := epon-particle-interr-verb-lexeme & top-verb-lexeme
 v-tr-suDECL := trans-eventarg1-decl-verb-lexeme.
 v-tr-suINTERR := trans-eventarg1-interr-verb-lexeme.
 v-tr-suAbsinf := trans-eventarg1-absinf-verb-lexeme.
-;TODO check content:
 v-tr-suEqObInf := trans-eventarg1-equi-contr-by-obj-verb-lexeme.
-;TO BE CREATED
-v-tr-suEqObInf_oblEqObInf := trans-eventarg1-equi-contr-by-obj-verb-lexeme.
-;TO BE CREATED
-v-tr-suDECL_oblEqObInf := trans-eventarg1-equi-contr-by-obj-verb-lexeme.
+v-trObl-suEqObInf_oblEqObInf := trans-obl-eventarg1-equi-contr-by-obj-obl-contr-by-obj-verb-lexeme.
+v-trObl-suDECL_oblEqObInf := trans-eventarg1-decl-obl-equi-verb-lexeme.
 
-v-trObl-suDECL := trans-eventarg1-decl-obl-verb-lexeme.
-v-trObl-suINTERR := trans-eventarg1-interr-obl-verb-lexeme.
+v-trObl-suDECL := trans-eventarg1-decl-obl-verb-lexeme &
+  [ SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, 
+				  LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal]> ].
+   
+v-trObl-suINTERR := trans-eventarg1-interr-obl-verb-lexeme &
+  [ SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, 
+				  LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal]> ].
 v-tr-suDECL_obDECL := trans-eventarg1decl-eventarg2decl-verb-lexeme.
 v-tr-suAbsinf_obAbsinf := trans-eventarg1absinf-eventarg2absinf-verb-lexeme.
 v-tr-suDECL_obINTERR := trans-eventarg1decl-eventarg2interr-verb-lexeme.

@@ -8835,6 +8835,8 @@ epon-decl-and-yn-pp-verb-lexeme := verb-2rel-lexeme &
   [ SYNSEM epon-decl-and-yn-pp-synsem ].
 epon-decl-and-yn-particle-pp-verb-lexeme := verb-2rel-lexeme &
   [ SYNSEM epon-decl-and-yn-particle-pp-synsem ].
+epon-np-decl-and-yn-pp-verb-lexeme := verb-2rel-lexeme &
+  [ SYNSEM epon-np-decl-and-yn-pp-synsem ].
 ; det beror på deg hvem som kommer
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 epon-wh-pp-verb-lexeme := verb-2rel-lexeme &
@@ -8903,6 +8905,12 @@ trans-eventarg1-absinf-verb-lexeme := verb-lexeme &
 
 trans-eventarg1-equi-contr-by-obj-verb-lexeme := verb-lexeme &
   [ SYNSEM trans-eventarg1-equi-contr-by-obj-synsem  ].
+
+trans-obl-eventarg1-equi-contr-by-obj-obl-contr-by-obj-verb-lexeme := verb-lexeme &
+  [ SYNSEM trans-obl-eventarg1-equi-contr-by-obj-obl-contr-by-obj-synsem ].
+
+trans-eventarg1-decl-obl-equi-verb-lexeme := verb-lexeme &
+  [ SYNSEM trans-eventarg1-decl-obl-equi-synsem ].
 
 trans-eventarg1-decl-obl-verb-lexeme := verb-lexeme &
   [ SYNSEM trans-eventarg1-decl-obl-synsem ].
@@ -21710,8 +21718,20 @@ trans-obl-synsem-sup := arg1-subj-synsem &
     LOCAL.CAT.QVAL.OBL1.LOCAL.CONT.HOOK.VARG #vrg,
     LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD [SELECTED +]]>,
     LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #4 ]].
-; ,
-;    NON-LOCAL.SLASH <! !>].
+
+trans-obl-eventarg1-eventobl-synsem-sup := eventarg1-subj-synsem & arg2-comps-synsem &
+  [ LOCAL.CAT.HEAD non-copula,
+    LOCAL.CONT.HOOK hook & [ VARG #vrg],
+    LOCAL.CAT trans-with-1icomps-pp-cat,
+    LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD np-head ]>, ;nominal
+    LOCAL.KEY-SPEC #1,
+    LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-or-adv & [SELECTED +,
+                                                        KEYS.KEY #1]]>, ; & index-sita]]>,
+    LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD [KEYS.KEY #1 ]]>,
+    LOCAL.CAT.QVAL.OBL1.LOCAL.CONT.HOOK.LTOP #4 & handle,
+    LOCAL.CAT.QVAL.OBL1.LOCAL.CONT.HOOK.VARG #vrg,
+    LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD [SELECTED +]]>,
+    LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #4 ]].
 
 ; to exclude 'non-tamed' reflexive in 'alliere seg med'
 trans-nonrefl-obl-synsem := trans-obl-synsem-sup & 
@@ -23114,6 +23134,19 @@ trans-eventarg1-equi-contr-by-obj-synsem := trans-eventarg1-synsem &
    LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 ] >,
    LKEYS.KEYREL.ARG1 #2 ].
 
+trans-obl-eventarg1-equi-contr-by-obj-obl-contr-by-obj-synsem := trans-obl-eventarg1-eventobl-synsem-sup &
+  [ LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD infin-comp & [ TRANSPAR +,
+							 DECL + ],
+                          LOCAL.CONT.HOOK.XARG #1,
+                          LOCAL.CONT.HOOK.LTOP #2 ] >,
+   LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 ] >,
+   LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, 
+                          LOCAL.CONT.HOOK.XARG #1,
+                          LOCAL.CONT.HOOK.LTOP #4,
+			  LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [TRANSPAR +]]>,
+    LKEYS.KEYREL.ARGOBLQ #4,  
+    LKEYS.KEYREL.ARG1 #2 ].
+
 trans-eventarg1-obl-synsem := eventarg1-subj-synsem & arg2-comps-synsem &
  [ LOCAL.CAT [ VAL.ICOMPS <[LOCAL.CAT.HEAD [SELECTED +,
                                            KEYS.KEY fct-spec ]]>]].
@@ -23121,6 +23154,24 @@ trans-eventarg1-decl-obl-synsem := trans-eventarg1-obl-synsem &
   [ LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD.DECL + ] > ].
 trans-eventarg1-interr-obl-synsem := trans-eventarg1-obl-synsem &
   [ LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD.DECL - ] > ].
+
+;at p ansporer ham til å ...
+trans-eventarg1-decl-obl-equi-synsem := trans-eventarg1-decl-obl-synsem &
+  [LOCAL.CAT.HEAD non-copula,
+    LOCAL.CONT.HOOK hook,
+   LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD np-head & [EXPLETIVE bool],
+                          LOCAL.CONT.HOOK.INDEX #1 ] >,
+   LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, 
+                          LOCAL.CONT.HOOK.XARG #1,
+                          LOCAL.CONT.HOOK.LTOP #2,
+			  LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [TRANSPAR +]]>,
+   LKEYS.KEYREL.ARGOBLQ #2,
+   LKEYS.KEYREL.ARG2 #1].
+
+
+
+
+
 
 trans-eventarg1-eventobl-synsem := trans-eventarg1-obl-synsem &
   [ LOCAL.CAT.QVAL.OBL1.LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -],
@@ -23768,7 +23819,7 @@ io-refl-epon-wh-synsem := io-epon-wh-synsem-sup &
 ;presentational-synsem-2
 meas-epon-synsem := presentational-synsem-2 &
    [ LOCAL.CONT.HOOK hook,
-     LOCAL.CAT ditrans-cat & [VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #2  & [ SORT measure-unit ]], 
+     LOCAL.CAT ditrans-cat & [VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #2 ], ;  & [ SORT measure-unit ]], 
                                           [LOCAL.CAT.HEAD infin-comp & [ TRANSPAR -,
                                                                          DECL +  ],
                                            LOCAL.CONT.HOOK.LTOP #1] >,
@@ -23782,7 +23833,7 @@ meas-io-epon-synsem := presentational-synsem-2 &
    [ LOCAL.CONT.HOOK hook,
      LOCAL.CAT [VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #3,
 			      LOCAL.BINDING non-bound ], 
-                            [ LOCAL.CONT.HOOK.INDEX #2  & [ SORT measure-unit ]], 
+                            [ LOCAL.CONT.HOOK.INDEX #2 ], ;  & [ SORT measure-unit ]], 
                             [LOCAL.CAT.HEAD infin-comp & [ TRANSPAR +,
                                                            DECL +  ],
                              LOCAL.CONT.HOOK.LTOP #1,
@@ -23843,12 +23894,20 @@ epon-pp-synsem := presentational-synsem-2 &
      LOCAL.CAT  [VAL.COMPS < [LOCAL.CONT.HOOK.LTOP #1] >,
 		 VAL.ICOMPS < [LOCAL.CONT.HOOK.LTOP #2,
 			       LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal,
-;			       LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX #2,
 			       LOCAL.CAT.HEAD prep &  [SELECTED +,
 						       KEYS.KEY fct-spec ],
 			       LEX -] >],
- ;    LKEYS.KEYREL [ARG1 #1,
-;		   ARGOBLQ #2],
+     LOCAL.CONT.RELS <! [ARG1 #1,
+			 ARGOBLQ #2 ], [] !>].
+
+epon-np-pp-synsem := presentational-synsem-2 &
+   [ LOCAL.CONT.HOOK hook,
+     LOCAL.CAT  [VAL.COMPS < [], [LOCAL.CONT.HOOK.LTOP #1] >,
+		 VAL.ICOMPS < [LOCAL.CONT.HOOK.LTOP #2,
+;			       LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal,
+;			       LOCAL.CAT.HEAD prep &  [SELECTED +,
+;						       KEYS.KEY fct-spec ],
+			       LEX -] >],
      LOCAL.CONT.RELS <! [ARG1 #1,
 			 ARGOBLQ #2 ], [] !>].
 
@@ -23888,6 +23947,8 @@ epon-decl-and-yn-pp-synsem := epon-pp-synsem &
    [ LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD glob-comp] > ].
 epon-wh-pp-synsem := epon-pp-synsem &
    [ LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD verb-all & [DECL -]] > ].
+epon-np-decl-and-yn-pp-synsem := epon-np-pp-synsem &
+   [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp] > ].
 
 epon-decl-and-yn-particle-pp-synsem := epon-particle-pp-synsem &
    [ LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD glob-comp] > ].

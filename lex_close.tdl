@@ -7884,6 +7884,10 @@ mange_indef-quant-pl := quant-indef-card-pl-word &
   [ STEM < "mange" >,
     SYNSEM.LKEYS.KEYREL.PRED "_mange_q_rel"].
 
+mye_indef-quant-pl := quant-indef-card-pl-word &
+  [ STEM < "mye" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mye_q_rel"].
+
 ørten_indef-quant-pl := quant-indef-card-pl-word &
   [ STEM < "ørten" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ørten_q_rel"].
@@ -7937,9 +7941,18 @@ lite_degrpos := degreepos-spec-word &
   [ STEM < "lite" >,
     SYNSEM.LKEYS.KEYREL.PRED "_litt_q_rel"].
 
+aldeles_degrpos := degreepos-spec-word &
+  [ STEM < "aldeles" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aldeles_q_rel"].
+
 tett_degrpos := degreepos-spec-word &
   [ STEM < "tett" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tett_q_rel"].
+
+; "ekstra stor"
+ekstra_degrpos := degreepos-spec-word &
+  [ STEM < "ekstra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ekstra_q_rel"].
 
 ; "svært mye", "hvor mye"
 mye_modble := quant-indef-adjcard-sg-word &
