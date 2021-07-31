@@ -482,8 +482,13 @@ v-trObl-obAbsinf_oblAbsinf := verb-lexeme &
  [SYNSEM v-trObl-obAbsinf_oblAbsinf-synsem].
 
 ;not yet correct TODO: ekvivalere med xx dages for
-v-intrOblExlnk-oblExlnkAbsinf := intrans-rais-from-pp-arg1-verb-lexeme &
- [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+;v-intrOblExlnk-oblExlnkAbsinf := intrans-rais-from-pp-arg1-verb-lexeme &
+; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+
+;v-intrOblExlnk-oblExlnkAbsinf := impersonal-presentational-obl-event-verb-lexeme.
+v-intrOblExlnk-oblExlnkAbsinf := intrans-absinf-in-pp-arg1-verb-lexeme.
+; &
+; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 ;?
 v-trOblExlnk-oblExlnkAbsinf := trans-rais-from-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].

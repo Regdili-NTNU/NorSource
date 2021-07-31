@@ -7833,6 +7833,9 @@ intrans-rais-from-pp-arg1-verb-lexeme := verb-general-lexeme &
 intrans-decl-in-pp-arg1-verb-lexeme := verb-general-lexeme &
   [ SYNSEM intrans-decl-in-pp-arg1-synsem ].
 
+intrans-absinf-in-pp-arg1-verb-lexeme := verb-general-lexeme &
+  [ SYNSEM intrans-absinf-in-pp-arg1-synsem ].
+
 trans-rais-from-pp-arg1-verb-lexeme := verb-general-lexeme &
   [ SYNSEM trans-rais-from-pp-arg1-synsem ].
 
@@ -8707,6 +8710,9 @@ impersonal-presentational-result-verb-lexeme := verb-2rel-arg12a-lexeme & top-ve
 ; coming from presentational-synsem-2, therefore replacing verb-lexeme by lexeme, and need to suplement that in the lexeme specification:
 impersonal-presentational-obl-verb-lexeme := verb-2rel-arg12aObl-lexeme &
   [ SYNSEM impersonal-presentational-obl-synsem ].
+
+impersonal-presentational-obl-event-verb-lexeme := verb-2rel-arg12aObl-lexeme &
+  [ SYNSEM impersonal-presentational-obl-event-synsem ].
 
 subject-obl-presentational-verb-lexeme := verb-2rel-arg12a1Obl-lexeme &
  [ SYNSEM subject-obl-presentational-synsem ].
@@ -12824,6 +12830,7 @@ head-verb-prepcomp-phrase := head-verb-comp-phrase-sup &
   [ SYNSEM.LOCAL.WAIT-BND-RESP #resp,
     SYNSEM.LOCAL.CLIT-SITE-OPEN -,
     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+    SYNSEM.NON-LOCAL.SLASH #nl, ; culpameaLH310721
 ;    HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-ultra & [KEYS.KEY prim-mod],    ; LH28092018 from ultra. back to ultra, to get 'synes meg som en kandidat'
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX [SORT item-specification],; han må hit
@@ -12831,7 +12838,8 @@ head-verb-prepcomp-phrase := head-verb-comp-phrase-sup &
     NON-HEAD-DTR.SYNSEM.LEX -, ; to block invisible extraction from the PP; the slash mech doesn't seem able to catch this, allowing the effect to pass tracelessly up
     NON-HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #resp,
     NON-HEAD-DTR.SYNSEM.LOCAL.BINDING [ LEX-TAME - ],
-    NON-HEAD-DTR.SYNSEM.LOCAL.CTXT.DISC-BOUND - ].
+    NON-HEAD-DTR.SYNSEM.LOCAL.CTXT.DISC-BOUND -,
+    NON-HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #nl ]. ; culpameaLH310721
 
 head-verb-som-or-for-comp-phrase := head-verb-comp-phrase-sup &
   [ SYNSEM.LOCAL.WAIT-BND-RESP #resp,
@@ -13263,6 +13271,7 @@ head-verb-advparticle-comp-phrase := basic-head-comp-phrase & head-initial & rul
     SYNSEM.LOCAL.CAT.VAL.ICOMPS #2,
     SYNSEM.LOCAL.CAT.QVAL #qval,
     SYNSEM.LOCAL.NEED-IMP-UNARY #43,
+    SYNSEM.NON-LOCAL.SLASH #slsh, ; culpameaLH310721
     HEAD-DTR.SYNSEM.LOCAL.NEED-IMP-UNARY #43,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #2,
@@ -13275,7 +13284,8 @@ head-verb-advparticle-comp-phrase := basic-head-comp-phrase & head-initial & rul
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <> ].
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+    NON-HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #slsh ]. ; culpameaLH310721
 
 ; assume KEYS.KEY index-sit is too strict: we also want "ha Ola tilbake"
 ; trying 'SELECTED -' instead of orig '+'
@@ -14351,10 +14361,10 @@ head-verb-icomp-phrase := basic-head-icomp-phrase & head-initial & rule &
     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
     SYNSEM.LOCAL.HAS-A-V-COMPLEMENT -,
     SYNSEM.LOCAL.BND-RESP #37,
-    SYNSEM.NON-LOCAL #nl,
+    SYNSEM.NON-LOCAL.SLASH #nl,
 ;    SYNSEM.LOCAL.WAIT-BND-RESP #38,
     FRONT-TO-FILL #front,
- ;   EXTRACTED-FROM #5,   ;; MHS 070713 Again, this was commented out the day before yesterday. Somehow, however, it's been reverted on the SVN.
+    EXTRACTED-FROM #5,   ;; MHS 070713 Again, this was commented out the day before yesterday. Somehow, however, it's been reverted on the SVN. Agree LH310721, but...; culpameaLH310721
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb,
     HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #qval,
     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #37,
@@ -14376,10 +14386,10 @@ head-verb-icomp-phrase := basic-head-icomp-phrase & head-initial & rule &
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #1,
-    NON-HEAD-DTR.SYNSEM.NON-LOCAL #nl,
+    NON-HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #nl,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAN-CMB-V +,
-    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -].
- ;   NON-HEAD-DTR.EXTRACTED-FROM #5 ].
+    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -, ; ].
+    NON-HEAD-DTR.EXTRACTED-FROM #5 ]. ; culpameaLH310721
 
 
 ; [KEYS.KEY fct-actv-spec --- pass-prep
@@ -20897,6 +20907,7 @@ intrans-rais-from-pp-arg1-synsem := zero-obl-synsem-sup &
     LOCAL.CAT.QVAL.OBL1 #obl1,
     LKEYS.KEYREL.ARGOBLQ #42].
 
+#|
 intrans-decl-in-pp-arg1-synsem := zero-obl-synsem-sup & 
   [ LOCAL.CONT.HOOK hook & [ XARG #5 ],
     LOCAL.CAT.HEAD verb-all,
@@ -20907,6 +20918,30 @@ intrans-decl-in-pp-arg1-synsem := zero-obl-synsem-sup &
 				      LOCAL.CONT.HOOK.XARG #5,
 				      LOCAL.CAT.HEAD prep-comp & [KEYS.KEY #4],
 				      LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD fin-comp & [DECL +] ] >,
+                   COMPS <> ],
+    LOCAL.CAT icomps-cat,
+    LOCAL.CAT.QVAL.OBL1 #obl1,
+    LKEYS.KEYREL.ARGOBLQ #42].
+|#
+
+intrans-decl-in-pp-arg1-synsem := intrans-event-in-pp-arg1-synsem &
+ [ LOCAL.CAT.VAL [ICOMPS < [ LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD fin-comp & [DECL +] ] > ]].
+
+intrans-absinf-in-pp-arg1-synsem := intrans-event-in-pp-arg1-synsem &
+ [ LOCAL.CAT.VAL [ICOMPS < [ LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [DECL +,
+										 TRANSPAR -] ] > ]].
+
+intrans-event-in-pp-arg1-synsem := zero-obl-synsem-sup & 
+  [ LOCAL.CONT.HOOK hook, ; & [ XARG #5 ],
+    LOCAL.CAT.HEAD verb-all,
+    LOCAL.CONT.HOOK.VARG #42,
+    LOCAL.KEY-SPEC #4,
+    LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX semarg,
+			   LOCAL.CAT.HEAD expl-pron]>, ; #5
+                   ICOMPS < #obl1 & [ LOCAL.CONT.HOOK.LTOP #42,
+;				      LOCAL.CONT.HOOK.XARG #5,
+				      LOCAL.CAT.HEAD prep-comp & [KEYS.KEY #4],
+				      LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp ] >,
                    COMPS <> ],
     LOCAL.CAT icomps-cat,
     LOCAL.CAT.QVAL.OBL1 #obl1,
@@ -23487,7 +23522,8 @@ impersonal-presentational-synsem := presentational-synsem &
 ;presentational-synsem-2
 impersonal-presentational-synsem := presentational-synsem-2 &
   [ LOCAL.CONT.HOOK hook,
-    LOCAL.CAT.VAL.COMPS list ].
+    LOCAL.CAT.VAL.COMPS <>,
+    LOCAL.CAT.VAL.ICOMPS <> ].
 
 ;presentational-synsem-2
 impersonal-trans-presentational-synsem := presentational-synsem-2 &
@@ -23514,10 +23550,17 @@ impersonal-presentational-obl-synsem := presentational-synsem-2 &
     LOCAL.CAT.HEAD non-copula,
     LOCAL.CAT.VAL.COMPS <>,
     LOCAL.CAT.VAL.ICOMPS <[LOCAL.CONT.HOOK.LTOP #2,
-                           LOCAL.CAT.HEAD [SELECTED bool,
-                                           KEYS.KEY #3 ]]>, ; & index-sit1
+                           LOCAL.CAT.HEAD nominal & [SELECTED bool,
+						     KEYS.KEY #3 ]]>, ; & index-sit1
     LKEYS.KEYREL.ARGOBLQ #2,
     LOCAL.KEY-SPEC #3 ].
+
+impersonal-presentational-obl-event-synsem := impersonal-presentational-obl-synsem &
+  [ LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD.DECL +,
+							     CAT.HEAD infin-comp & [ TRANSPAR +,
+									      DECL + ]]],
+   LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CONT.HOOK.LTOP #1 & handle],
+   LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1] ].
 
 impersonal-presentational-obl-loc-synsem := impersonal-presentational-obl-synsem &
   [ LOCAL.CAT.QVAL.OBL1.LOCAL.CONT.RELS.LIST.FIRST positioning-spatial-rel ].
@@ -23527,7 +23570,7 @@ impersonal-presentational-obl-loc-synsem := impersonal-presentational-obl-synsem
 ;presentational-synsem-2
 ;                          LKEYS.KEYREL.ARG1 #1
 ;
-;                          LOCAL.CONT.HOOK.XARG #1,
+;                          LOCAL.CONT.HOOK.XARG #1
 					  
 impersonal-presentational-telicparticle-synsem := presentational-synsem-2 &
   [ LOCAL.CONT.HOOK hook,
