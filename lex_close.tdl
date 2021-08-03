@@ -534,6 +534,11 @@ ved_advprtcl := adv-particle-word &
     SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY ved-pcl],
     SYNSEM.LKEYS.KEYREL.PRED "_ved_pcl_rel"].
 
+fore_advprtcl := adv-particle-word &
+  [ STEM < "fore" >,
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY fore-pcl],
+    SYNSEM.LKEYS.KEYREL.PRED "_fore_pcl_rel"].
+
 på_partcl := adv-particle-word &
   [ STEM < "på" >,
     SYNSEM [LOCAL.CAT.HEAD.KEYS.KEY på-pcl,
@@ -2685,6 +2690,10 @@ sammen_m-adv := adv-word-reg &
   [ STEM < "sammen" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sammen_adv_rel"].
 
+slik_m-adv := adv-word-reg &
+  [ STEM < "slik" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_slik_adv_rel"].
+
 overens_m-adv := adv-word-reg &
   [ STEM < "overens" >,
     SYNSEM.LKEYS.KEYREL.PRED "_overens_adv_rel"].
@@ -3266,6 +3275,11 @@ som_stille-som-n := som-n-pred-comp &
   [ STEM < "som" >,
 ;    SYNSEM.LKEYS.KEYREL.PRED "_som_eq_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY som-pred-n ].
+
+som_anse-som-adj := som-adj-pred-comp &
+  [ STEM < "som" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_som_eq_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY predcomp-adj ].
 
 som_synes-som-a := som-adj-pred-pp-comp &
   [ STEM < "som" >,
@@ -8097,9 +8111,9 @@ hvor_wh-degpos := degreewh-spec-word &
     SYNSEM.LKEYS.KEYREL.PRED "_hvor-mye_rel"].
 
 ; "hvor stor" - notausweg für 'hvor stor er Ola', ohne '?'
-;hvor_wh-degpos := degreepos-spec-word &
-;  [ STEM < "hvor" >,
-;    SYNSEM.LKEYS.KEYREL.PRED "_hvor-mye_rel"].
+hvor_wh-degpos := degreepos-spec-word &
+  [ STEM < "hvor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hvor-mye_rel"].
 
 ;;hvor_wh-degpos := wh-degrpos-spec-word &
 ;  [ STEM < "hvor" >].

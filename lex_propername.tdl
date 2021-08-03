@@ -9,6 +9,10 @@ afghanistan_propername-country := neutsg-inan-proper-name-word &
    [ STEM < "Afghanistan" >,
        SYNSEM.LKEYS.KEYREL.CARG "Afghanistan" ].
 
+afrika_propername-country := neutsg-inan-proper-name-word &
+   [ STEM < "Afrika" >,
+       SYNSEM.LKEYS.KEYREL.CARG "Afrika" ].
+
 albania_propername-country := neutsg-inan-proper-name-word &
    [ STEM < "Albania" >,
        SYNSEM.LKEYS.KEYREL.CARG "Albania" ].

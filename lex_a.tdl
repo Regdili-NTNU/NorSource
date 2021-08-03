@@ -16362,6 +16362,36 @@ fornuftig_alxm := stnd-adj-lxm &
       SYNSEM [ LKEYS.KEYREL.PRED "_fornuftig_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
+;;
+fornuftig_abs_alxm := abs0-adj-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "fornuftig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_fornuftig_a_rel" ] ].
+
+fornuftig_abs-nonepon-decl_alxm := abs-adj-nonepon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "fornuftig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_fornuftig_a_rel" ] ].
+
+fornuftig_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "fornuftig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_fornuftig_a_rel" ] ].
+
+fornuftig_abs-nonepon-inf_alxm := abs-adj-nonepon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "fornuftig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_fornuftig_a_rel" ] ].
+
+fornuftig_abs-epon-inf_alxm := abs-adj-epon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "fornuftig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_fornuftig_a_rel" ] ].
+
+
+;;
+
+
 fornuftsstridig_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
       STEM < "fornuftsstridig" >,
@@ -17994,6 +18024,16 @@ fristende_alxm := stnd-adj-lxm &
       STEM < "fristende" >,
       SYNSEM [ LKEYS.KEYREL.PRED "_fristende_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fristende_abs-nonepon-inf_alxm := abs-adj-nonepon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "fristende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_fristende_a_rel" ] ].
+
+fristende_abs-epon-inf_alxm := abs-adj-epon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "fristende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_fristende_a_rel" ] ].
 
 fritalende_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
@@ -27937,6 +27977,11 @@ interessant_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
       SYNSEM.LOCAL.CAT.HEAD adj-no_gd ].
 
 interessant_abs-nonepon-qst_alxm := abs-adj-nonepon-quest-lxm &
+  [ INFLECTION finstr,
+      STEM < "interessant" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_interessant_a_rel"] ].
+
+interessant_abs-nonepon-inf_alxm := abs-adj-nonepon-infin-lxm &
   [ INFLECTION finstr,
       STEM < "interessant" >,
       SYNSEM [ LKEYS.KEYREL.PRED "_interessant_a_rel"] ].
@@ -42445,6 +42490,31 @@ nødvendig_alxm := stnd-adj-lxm &
       SYNSEM [ LKEYS.KEYREL.PRED "_nødvendig_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
+nødvendig_abs_alxm := abs0-adj-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "nødvendig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_nødvendig_a_rel" ] ].
+
+nødvendig_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "nødvendig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_nødvendig_a_rel" ] ].
+
+nødvendig_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "nødvendig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_nødvendig_a_rel" ] ].
+
+nødvendig_abs-nonepon-inf_alxm := abs-adj-nonepon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "nødvendig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_nødvendig_a_rel" ] ].
+
+nødvendig_abs-epon-inf_alxm := abs-adj-epon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "nødvendig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_nødvendig_a_rel" ] ].
+
 nøgd_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
       STEM < "nøgd" >,
@@ -56507,6 +56577,38 @@ spennende_alxm := stnd-adj-lxm &
       SYNSEM [ LKEYS.KEYREL.PRED "_spennende_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
+;;
+spennende_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "spennende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_spennende_a_rel" ] ].
+
+spennende_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "spennende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_spennende_a_rel" ] ].
+
+spennende_abs-nonepon-inf_alxm := abs-adj-nonepon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "spennende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_spennende_a_rel" ] ].
+
+spennende_abs-epon-inf_alxm := abs-adj-epon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "spennende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_spennende_a_rel" ] ].
+
+spennende_abs-nonepon-qst_alxm := abs-adj-nonepon-quest-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "spennende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_spennende_a_rel" ] ].
+
+spennende_abs-epon-qst_alxm := abs-adj-epon-quest-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "spennende" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_spennende_a_rel" ] ].
+
+;;;
 spenstig_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
       STEM < "spenstig" >,
@@ -64146,6 +64248,41 @@ tvilsom_alxm := stnd-adj-lxm &
       SYNSEM [ LKEYS.KEYREL.PRED "_tvilsom_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
+tvilsom_abs_alxm := abs0-adj-lxm &
+  [ INFLECTION finstr-mm,
+      STEM < "tvilsom" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_tvilsom_a_rel" ] ].
+
+tvilsom_abs-nonepon-qst_alxm := abs-adj-nonepon-quest-lxm &
+  [ INFLECTION finstr-mm,
+      STEM < "tvilsom" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_tvilsom_a_rel" ] ].
+
+tvilsom_abs-epon-qst_alxm := abs-adj-epon-quest-lxm &
+  [ INFLECTION finstr-mm,
+      STEM < "tvilsom" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_tvilsom_a_rel" ] ].
+
+tvilsom_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
+  [ INFLECTION finstr-mm,
+      STEM < "tvilsom" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_tvilsom_a_rel" ] ].
+
+tvilsom_abs-epon-inf_alxm := abs-adj-epon-infin-lxm &
+  [ INFLECTION finstr-mm,
+      STEM < "tvilsom" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_tvilsom_a_rel" ] ].
+
+tvilsom_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
+  [ INFLECTION finstr-mm,
+      STEM < "tvilsom" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_tvilsom_a_rel" ] ].
+
+tvilsom_abs-nonepon-inf_alxm := abs-adj-nonepon-infin-lxm &
+  [ INFLECTION finstr-mm,
+      STEM < "tvilsom" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_tvilsom_a_rel" ] ].
+
 tvisynt_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
       STEM < "tvisynt" >,
@@ -66189,6 +66326,21 @@ ufornuftig_alxm := stnd-adj-lxm &
       STEM < "ufornuftig" >,
       SYNSEM [ LKEYS.KEYREL.PRED "_ufornuftig_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ufornuftig_abs_alxm := abs0-adj-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "ufornuftig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_ufornuftig_a_rel" ] ].
+
+ufornuftig_abs-nonepon-inf_alxm := abs-adj-nonepon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "ufornuftig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_ufornuftig_a_rel" ] ].
+
+ufornuftig_abs-epon-inf_alxm := abs-adj-epon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "ufornuftig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_ufornuftig_a_rel" ] ].
 
 uforpliktende_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
@@ -68326,6 +68478,21 @@ unødvendig_alxm := stnd-adj-lxm &
       STEM < "unødvendig" >,
       SYNSEM [ LKEYS.KEYREL.PRED "_unødvendig_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+unødvendig_abs_alxm := abs0-adj-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "unødvendig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_unødvendig_a_rel" ] ].
+
+unødvendig_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "unødvendig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_unødvendig_a_rel" ] ].
+
+unødvendig_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "unødvendig" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_unødvendig_a_rel" ] ].
 
 unøyaktig_alxm := stnd-adj-lxm &
   [ INFLECTION nonfstr,
@@ -74982,6 +75149,12 @@ viktig_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
       SYNSEM.LKEYS.KEYREL.PRED "_viktig_a_rel",
       SYNSEM.LOCAL.CAT.HEAD adj-no_gd ].
 
+viktig_abs-nonepon-inf_alxm := abs-adj-nonepon-infin-lxm &
+  [ INFLECTION nonfstr,
+      STEM < "viktig" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_viktig_a_rel",
+      SYNSEM.LOCAL.CAT.HEAD adj-no_gd ].
+
 viktig_abs_alxm := abs0-adj-lxm &
   [ INFLECTION nonfstr,
       STEM < "viktig" >,
@@ -76540,6 +76713,11 @@ zygotisk_alxm := stnd-adj-lxm &
       STEM < "åpen" >,
       SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY anonym-k,
       SYNSEM.LKEYS.KEYREL.PRED "_åpen_a_rel" ].
+
+åpen_abs-epon-qst_alxm := abs-adj-epon-quest-lxm &
+  [ INFLECTION nonfstr,
+    STEM < "åpen" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_åpen_a_rel" ].
 
 åpenbar_alxm := stnd-adj-lxm &
   [ INFLECTION finstr-norm,

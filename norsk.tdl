@@ -804,6 +804,7 @@ under-k := predsort.
 ved-k := predsort.
 uten-k := predsort.
 foruten-k := predsort.
+fore-k := predsort.
 borti-k := predsort.
 unna-k := predsort.
 ad-k := predsort.
@@ -1384,6 +1385,8 @@ med-rais := rais & med-k.
 mot-rais := rais & mot-k.
 imot-rais := rais & imot-k.
 fra-rais := rais & fra-k.
+framfor-rais := rais & framfor-k.
+fremfor-rais := rais & fremfor-k.
 uten-rais := rais & uten-k.
 av-rais := rais & av-k.
 for-rais := rais & for-k.
@@ -1743,6 +1746,7 @@ rundt-pcl := pcl & rundt-k.
 av-pcl := pcl & av-k.
 ad-pcl := pcl & ad-k.
 ved-pcl := pcl & ved-k.
+fore-pcl := pcl & fore-k.
 igjen-pcl := pcl & igjen-k.
 istykker-pcl := pcl & istykker-k.
 løs-pcl := pcl & løs-k.
@@ -3573,11 +3577,10 @@ prep-clause-word := word & lex-synsem & reg-mod-lex-item & 1arg-1comps & const-l
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
      SYNSEM.LOCAL.CAT.HEAD prep-comp & [KEYS.KEY clse,  ; LH28092018 from ultra
                                         SELECTED +],
-    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT [ HEAD verb-or-comp & [CONDITIONAL -],
-					      VAL.SUBJ list ], ;antilist
-                                  LOCAL.CONT.HOOK.LTOP #2 & semarg,
-                                  LOCAL.CONT.HOOK.INDEX.E.TENSE tense] >,
-    SYNSEM.LOCAL.CAT.VAL.COMPS < #1 >,
+    SYNSEM.LOCAL.CAT.VAL.COMPS < #1 & [LOCAL.CAT [ HEAD verb-or-comp & [CONDITIONAL -],
+						   VAL.SUBJ list ], ;antilist
+				       LOCAL.CONT.HOOK.LTOP #2 & semarg,
+				       LOCAL.CONT.HOOK.INDEX.E.TENSE tense] >,
     SYNSEM.LOCAL.CAT.QVAL.DOBJECT #1,   
     SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
     SYNSEM.LKEYS.KEYREL arg12-relation & [ARG2 #2 ] ].
@@ -7459,19 +7462,21 @@ for-comp := basic-compl &
 
 ; & 1arg-1comp & ;; MHS 080713 To be commented in after treebanking.
 
+
 som-adj-pred-comp := 1arg-1comps & lbl-ltop-lex-item & const-ltow-rule & 
 
   [ SYNSEM.LOCAL.CAT.HEAD som-or-for & [KEYS.KEY predcomp-adj ],
-    SYNSEM.LOCAL.CAT.VAL.COMPS < #5 & [ LOCAL.CAT.VAL.SUBJ antilist,
+    SYNSEM.LOCAL.CAT.VAL.COMPS < #5 & [ LOCAL.CAT.VAL.SUBJ list, ;antilist,
                                         LOCAL.CONT.HOOK.LTOP #3,
                                         LOCAL.CONT.HOOK.XARG #1 ]>, 
     SYNSEM.LOCAL.CAT.QVAL.DOBJECT #5,
     SYNSEM.LOCAL.CONT.HOOK.XARG #1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX ad-event,
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX ad-event,
 ;    SYNSEM.LOCAL.CONT.HOOK.LTOP #3,  
     SYNSEM.LOCAL.CONT.RELS <! arg1-relation & [PRED "_som_eq_rel",
 					       ARG1 #3] !>,
     SYNSEM.LOCAL.CONT.HCONS <! !> ].
+
 
 som-derivedadj-pred-comp := word & 1arg-1comps & lbl-ltop-lex-item & const-ltow-rule & 
 
@@ -7833,8 +7838,23 @@ intrans-rais-from-pp-arg1-verb-lexeme := verb-general-lexeme &
 intrans-decl-in-pp-arg1-verb-lexeme := verb-general-lexeme &
   [ SYNSEM intrans-decl-in-pp-arg1-synsem ].
 
+intrans-interr-in-pp-arg1-verb-lexeme := verb-general-lexeme &
+  [ SYNSEM intrans-interr-in-pp-arg1-synsem ].
+
 intrans-absinf-in-pp-arg1-verb-lexeme := verb-general-lexeme &
   [ SYNSEM intrans-absinf-in-pp-arg1-synsem ].
+
+;;
+trans-decl-in-pp-arg1-verb-lexeme := verb-general-lexeme &
+  [ SYNSEM trans-decl-in-pp-arg1-synsem ].
+
+trans-interr-in-pp-arg1-verb-lexeme := verb-general-lexeme &
+  [ SYNSEM trans-interr-in-pp-arg1-synsem ].
+
+trans-absinf-in-pp-arg1-verb-lexeme := verb-general-lexeme &
+  [ SYNSEM trans-absinf-in-pp-arg1-synsem ].
+
+;;
 
 trans-rais-from-pp-arg1-verb-lexeme := verb-general-lexeme &
   [ SYNSEM trans-rais-from-pp-arg1-synsem ].
@@ -7873,6 +7893,9 @@ intrans-secpred-prtcl1-rais-from-nonverbal-arg1-verb-lexeme := verb-lexeme &
 
 intrans-secpred-prtcl1a-rais-from-nonverbal-arg1-verb-lexeme := verb-lexeme &
 [ SYNSEM intrans-secpred-prtcl1a-rais-from-nonverbal-arg1-synsem ].
+
+trans-secpred-prtcl1a-rais-from-nonverbal-arg1-verb-lexeme := verb-lexeme &
+[ SYNSEM trans-secpred-prtcl1a-rais-from-nonverbal-arg1-synsem ].
 
 ; "se ut til å komme" - ut_6 := adv-particle-word; til_11 := prep-rais-word;
 ; 'non-verbal' because
@@ -8608,6 +8631,9 @@ trans-subord-expn-verb-lexeme := verb-lexeme &
 trans-particle-subord-expn-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-particle-subord-expn-synsem ].
 
+trans-secpred-subord-expn-verb-lexeme := verb-lexeme &
+[ SYNSEM trans-secpred-subord-expn-synsem ].
+
 ; overlate det til Ola å
 trans-obl-subord-expn-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-obl-subord-expn-synsem ].
@@ -8699,7 +8725,7 @@ impersonal-trans-presentational-verb-lexeme := verb-2rel-arg12a-lexeme & top-ver
                                    KEYS.KEY mainvb]].
 
 impersonal-presentational-result-verb-lexeme := verb-2rel-arg12a-lexeme & top-verb-lexeme &
-  [ SYNSEM impersonal-presentational-synsem,
+  [ SYNSEM impersonal-trans-presentational-synsem,
     SYNSEM.LOCAL.CAT.HEAD verb  & [VOICE active,
                                    KEYS.KEY resultvb]].
 
@@ -10078,6 +10104,14 @@ abs-adj-nonepon-decl-lxm := abs-adj-non-epon-lxm &
 abs-adj-nonepon-quest-lxm := abs-adj-non-epon-lxm &
   [ SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY adj-quest-selct,
     SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.DECL -,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.CONDITIONAL -,
+    SYNSEM.LOCAL.CONT.HOOK.XARG [PNG.NG neutsg]  ].
+
+abs-adj-nonepon-infin-lxm := abs-adj-non-epon-lxm &
+  [ SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY adj-quest-selct,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT [ LOCAL.CAT.HEAD infin-comp,
+				   LOCAL.CAT.HEAD.DECL +,
+				   LOCAL.CAT.HEAD.TRANSPAR -],
     SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.CONDITIONAL -,
     SYNSEM.LOCAL.CONT.HOOK.XARG [PNG.NG neutsg]  ].
 
@@ -13471,8 +13505,7 @@ head-complementizer-adj-or-prep-phrase := basic-head-comp-phrase & head-initial 
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ list,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-or-comp,
     NON-HEAD-DTR.INFLECTED +,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj & [WEAK -, 
-					      KEYS.KEY propt], ;, KEYS.KEY propt
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj & [WEAK -], ;, KEYS.KEY propt
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
@@ -20794,11 +20827,11 @@ intrans-obl2-equinf-synsem := arg1-subj-synsem & intrans-2obl-synsem-sup &
 intrans-obl-adv-equinf-synsem := arg1-subj-synsem &
   [ LOCAL.CONT.HOOK.LTOP #5,
     LOCAL.CAT.VAL.SUBJ <[LOCAL.CAT.HEAD.EXPLETIVE -]>,
-    LOCAL.CAT.QVAL.OBL1.LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -],
-                                                      CAT.HEAD infin-comp & [ TRANSPAR +,
-									      DECL +,
-									      KEYS.KEY infinit-comp ],
-                                                      CONT.HOOK.INDEX.E.TENSE infin],
+;    LOCAL.CAT.QVAL.OBL1.LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -],
+;                                                      CAT.HEAD infin-comp & [ TRANSPAR +,
+;									      DECL +,
+;									      KEYS.KEY infinit-comp ],
+ ;                                                     CONT.HOOK.INDEX.E.TENSE infin],
     LOCAL.CAT.VAL.COMPS < lex-synsem &
                            [LOCAL.CONT.HOOK.LTOP #5,
 			    LOCAL.CAT.HEAD adv-reg & [KEYS.KEY #6 & pcl,
@@ -20806,6 +20839,11 @@ intrans-obl-adv-equinf-synsem := arg1-subj-synsem &
     LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD prep-comp & [SELECTED +,
 							KEYS.KEY #3 & rais],
 			    LOCAL.CONT.HOOK.LTOP #1 & handle,
+			    LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -],
+							  CAT.HEAD infin-comp & [ TRANSPAR +,
+										  DECL +,
+										  KEYS.KEY infinit-comp ],
+							  CONT.HOOK.INDEX.E.TENSE infin],
 			    LOCAL.CONT.HOOK.XARG #4 ] >,
     LOCAL.KEY-SPEC #6,
     LOCAL.ALT-SPEC #3,
@@ -20924,6 +20962,9 @@ intrans-decl-in-pp-arg1-synsem := zero-obl-synsem-sup &
     LKEYS.KEYREL.ARGOBLQ #42].
 |#
 
+intrans-interr-in-pp-arg1-synsem := intrans-event-in-pp-arg1-synsem &
+ [ LOCAL.CAT.VAL [ICOMPS < [ LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD [DECL -] ] > ]].
+
 intrans-decl-in-pp-arg1-synsem := intrans-event-in-pp-arg1-synsem &
  [ LOCAL.CAT.VAL [ICOMPS < [ LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD fin-comp & [DECL +] ] > ]].
 
@@ -20931,21 +20972,34 @@ intrans-absinf-in-pp-arg1-synsem := intrans-event-in-pp-arg1-synsem &
  [ LOCAL.CAT.VAL [ICOMPS < [ LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [DECL +,
 										 TRANSPAR -] ] > ]].
 
-intrans-event-in-pp-arg1-synsem := zero-obl-synsem-sup & 
-  [ LOCAL.CONT.HOOK hook, ; & [ XARG #5 ],
+trans-decl-in-pp-arg1-synsem := trans-event-in-pp-arg1-synsem &
+ [ LOCAL.CAT.VAL [ICOMPS < [ LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD fin-comp & [DECL +] ] > ]].
+
+trans-absinf-in-pp-arg1-synsem := trans-event-in-pp-arg1-synsem &
+ [ LOCAL.CAT.VAL [ICOMPS < [ LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [DECL +,
+										 TRANSPAR -] ] > ]].
+
+trans-interr-in-pp-arg1-synsem := trans-event-in-pp-arg1-synsem &
+ [ LOCAL.CAT.VAL [ICOMPS < [ LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD [DECL -] ] > ]].
+
+event-in-pp-arg1-synsem := zero-obl-synsem-sup & 
+  [ LOCAL.CONT.HOOK hook,
     LOCAL.CAT.HEAD verb-all,
     LOCAL.CONT.HOOK.VARG #42,
     LOCAL.KEY-SPEC #4,
     LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX semarg,
-			   LOCAL.CAT.HEAD expl-pron]>, ; #5
+			   LOCAL.CAT.HEAD expl-pron]>,
                    ICOMPS < #obl1 & [ LOCAL.CONT.HOOK.LTOP #42,
-;				      LOCAL.CONT.HOOK.XARG #5,
-				      LOCAL.CAT.HEAD prep-comp & [KEYS.KEY #4],
-				      LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp ] >,
-                   COMPS <> ],
+				      LOCAL.CAT.HEAD prep-comp & [KEYS.KEY #4]] > ],
     LOCAL.CAT icomps-cat,
     LOCAL.CAT.QVAL.OBL1 #obl1,
     LKEYS.KEYREL.ARGOBLQ #42].
+
+intrans-event-in-pp-arg1-synsem := event-in-pp-arg1-synsem &
+ [ LOCAL.CAT.VAL.COMPS <> ].
+
+trans-event-in-pp-arg1-synsem := event-in-pp-arg1-synsem &
+ [ LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD nominal ] > ].
 
 trans-rais-from-pp-arg1-synsem := zero-obl-synsem-sup & 
   [ LOCAL.CONT.HOOK hook & [ XARG #5 ],
@@ -21217,6 +21271,28 @@ intrans-secpred-prtcl1a-rais-from-nonverbal-arg1-synsem := arg1-predicative-syns
                            [ LOCAL.CONT.HOOK.XARG #2,
                              LOCAL.CAT.HEAD [KEYS.KEY #6 & som-pred-n ],
                              LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nom] >]].
+
+trans-secpred-prtcl1a-rais-from-nonverbal-arg1-synsem := arg1-predicative-synsem & 
+  [ LOCAL.CONT.HOOK hook,
+    LOCAL.CAT.HEAD verb,
+    LOCAL.KEY-SPEC #6,
+    LOCAL.CONT.HOOK.INDEX #5,
+;    LOCAL.CAT trans-ncomps-doublesecpred1-cat,
+    LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX #2]>, 
+                   COMPS < [],
+			   [ LOCAL.CONT.HOOK.XARG #5,
+                             LOCAL.CAT.HEAD adv-reg],
+                           [ LOCAL.CONT.HOOK.XARG #2,
+                             LOCAL.CAT.HEAD [KEYS.KEY #6 & predcomp-som ]] >]].
+
+trans-secpred-prtcl1a-rais-from-nonverbal-arg1-som-pred-n-synsem := trans-secpred-prtcl1a-rais-from-nonverbal-arg1-synsem &
+ [ LOCAL.CAT.VAL.COMPS <[],[],[LOCAL.CAT.HEAD [KEYS.KEY som-pred-n ],
+                             LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nom]> ].
+
+trans-secpred-prtcl1a-rais-from-nonverbal-arg1-som-pred-adj-synsem := trans-secpred-prtcl1a-rais-from-nonverbal-arg1-synsem &
+ [ LOCAL.CAT.VAL.COMPS <[],[],[LOCAL.CAT.HEAD [KEYS.KEY som-pred-adj ],
+                             LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD adj]> ].
+
 
 
 ; ; "se ut til å komme"; 
@@ -21507,17 +21583,19 @@ subj-equi-pp-synsem-sup := arg1-subj-synsem &
                                                       KEYS.KEY #3 & rais],
                           LOCAL.CONT.HOOK.XARG #1,
                           LOCAL.CONT.HOOK.LTOP #2 ] >,
-   LOCAL.CAT.VAL.COMPS <>,
+   LOCAL.CAT.VAL.COMPS list,
    LOCAL.KEY-SPEC #3,
    LKEYS.KEYREL.ARGOBLQ #2,
    LKEYS.KEYREL.ARG1 #1].
 
 ; "be om å komme"; "snakke om å komme"
-subj-equi-pp-synsem := subj-equi-pp-synsem-sup.
+subj-equi-pp-synsem := subj-equi-pp-synsem-sup &
+ [ LOCAL.CAT.VAL.COMPS <>].
 
 ; "drive med å komme"
 subj-equi-pp-atelic-synsem := subj-equi-pp-synsem-sup &
-    [ LOCAL.CONT.HOOK.INDEX.SIT-TYPE atelic].
+    [ LOCAL.CONT.HOOK.INDEX.SIT-TYPE atelic,
+      LOCAL.CAT.VAL.COMPS <> ].
 
 
 subj-prtcl-equi-pp-atelic-synsem := arg1-subj-synsem &
@@ -21875,6 +21953,16 @@ v-trObl-obEqSuInf_oblEqSuInf-synsem := lex-synsem &
 			       LOCAL.CONT.HOOK.XARG #10],
    LKEYS.KEYREL arg12obl-rel & [ ARG2 #2,
 				 ARGOBLQ #1] ].
+
+v-trObl-oblEqSuInf-synsem := lex-synsem & 
+  [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #10 ] >,
+   LOCAL.CAT.VAL.COMPS < [] >,
+   LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CAT.QVAL.DOBJECT.LOCAL [CAT.HEAD.DECL +,
+							     CAT.HEAD infin-comp & [ TRANSPAR +,
+									      DECL + ]]],
+   LOCAL.CAT.QVAL.OBL1 #loc & [LOCAL.CONT.HOOK.LTOP #1 & handle,
+			       LOCAL.CONT.HOOK.XARG #10],
+   LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1] ].
 
 trans-refl-obl-synsem-sup := trans-obl-synsem-sup &
   [ LOCAL.CAT.HEAD non-copula,
@@ -22238,6 +22326,24 @@ obj-equi-pp-synsem-sup := arg1-subj-synsem & arg2-comps-synsem &
 
 obj-equi-pp-synsem := obj-equi-pp-synsem-sup &
   [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING nontamed ] >].
+
+#|
+subj-equi-pp-synsem-sup := arg1-subj-synsem & arg2-comps-synsem &
+  [LOCAL.CAT.HEAD non-copula,
+    LOCAL.CONT.HOOK hook,
+   LOCAL.CAT.VAL.SUBJ < [LOCAL.CAT.HEAD np-head & [EXPLETIVE bool],
+                          LOCAL.CONT.HOOK.INDEX #1 ] >,
+   LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD prep-comp, ; & [KEYS.KEY rais], ;to allow passive with head-pass-verb-icomp-phrase
+                          LOCAL.CONT.HOOK.XARG #1,
+                          LOCAL.CONT.HOOK.LTOP #2,
+			  LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [TRANSPAR +]]>,
+   LKEYS.KEYREL.ARGOBLQ #2,
+   LKEYS.KEYREL.ARG1 #1].
+|#
+
+subj-equi-obj-pp-synsem := subj-equi-pp-synsem-sup &
+  [ LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING nontamed ] >].
+
 
 
 obj-equi-pp-synsem-switch := arg1-subj-synsem & arg2-comps-synsem &
@@ -23059,6 +23165,19 @@ trans-particle-subord-expn-synsem := arg1-subj-synsem &
    LOCAL.CAT.VAL.ICOMPS <>,
    LKEYS.KEYREL.ARG2 #2 ].
 
+trans-secpred-subord-expn-synsem := arg1-subj-synsem &
+  [LOCAL.CONT.HOOK hook,
+   LOCAL.CAT.VAL.COMPS < [LOCAL[ CAT.HEAD expl-pron,
+				 CONT.HOOK.INDEX ref-ind ]],
+			 [LOCAL.CONT.HOOK.XARG #5], 
+			 [LOCAL.CAT.HEAD glob-comp & [TRANSPAR -],
+                          LOCAL.CAT.HEAD.IMPERATIVE -,
+			  LOCAL.CONT.HOOK.INDEX #5,
+			  LOCAL.CONT.HOOK.LTOP #2 & semarg] >,
+   LOCAL.CAT.VAL.ICOMPS <>,
+   LKEYS.KEYREL.ARG2 #2 ].
+
+
 ; overlate det til Ola å komme
 trans-obl-subord-expn-synsem := arg1-subj-synsem &
   [LOCAL.CONT.HOOK hook,
@@ -23586,11 +23705,11 @@ impersonal-presentational-telicparticle-synsem := presentational-synsem-2 &
 ; sitte, være - "det sitter en gutt her"
 ;  LOCAL.CONT.HOOK.XARG #1  is a bit tentative - - for the TROLL presentationals
 subject-presentational-synsem-sup := presentational-synsem-2 &
-   [ LOCAL.CAT trans-cat & [QVAL.DOBJECT.LOCAL [CAT.HEAD noun & [DEF -],
-                                                CONT.HOOK.INDEX #1,
-                                                CAT.HEAD.PRESENTED +,
-                                                DERIVED-HEAD -],
-                            VAL.COMPS < [] >],
+   [ LOCAL.CAT trans-cat & [QVAL.DOBJECT #pres & [LOCAL [CAT.HEAD noun & [DEF -],
+							 CONT.HOOK.INDEX #1,
+							 CAT.HEAD.PRESENTED +,
+							 DERIVED-HEAD -]],
+                            VAL.COMPS < #pres & [] >],
      LKEYS.KEYREL.ARG1 #1,
      LOCAL.CONT.HOOK.VARG #1 ].
 

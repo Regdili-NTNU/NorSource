@@ -1562,6 +1562,10 @@ med_dirtel-adv := dirarg-telic-to-along-adv-word &
   [ STEM < "med" >,
     SYNSEM.LKEYS.KEYREL.PRED "_med_adv-dirtel_rel"].
 
+fore_dirtel-adv := dirarg-telic-to-far-adv-word &
+  [ STEM < "fore" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fore_adv-dirtel_rel"].
+
 bort_dirtel-adv := dirarg-telic-to-far-adv-word &
   [ STEM < "bort" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bort_adv-dirtel_rel"].

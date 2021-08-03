@@ -22,10 +22,14 @@ v-trPresntLoc-obRefl := v-presntReflLoc.
 ;v-intrPresntLoc 
 ;v-intrPresnt-presDir := v-intrPresnt. ; (smette)
 v-intrPresntObl := subject-obl-presentational-verb-lexeme.
-;TODO specify these - all instantiated in lex with 'versere'
-v-intrPresntObl-oblINTERR := v-intrPresntObl.
-v-intrPresntObl-oblN := v-intrPresntObl.
-v-intrPresntObl-oblDECL := v-intrPresntObl.
+
+v-intrPresntObl-oblINTERR := v-intrPresntObl &
+ [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.DECL -] > ].
+v-intrPresntObl-oblN := v-intrPresntObl & 
+[ SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal] > ].
+v-intrPresntObl-oblDECL := v-intrPresntObl &
+ [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.DECL + ] > ].
+
 ;v-intrPresntDirShft
 
 ;can be produced v-presentReflDirShft 
@@ -254,7 +258,11 @@ v-intrPrtclObl-suWH_oblWH := v-intrprtclobl.
 ;v-intrOblExlnk-oblExlnkDECL := intrans-rais-from-pp-arg1-verb-lexeme &
 ; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 ;?
-v-trOblExlnk-oblExlnkDECL := trans-rais-from-pp-arg1-verb-lexeme &
+v-trOblExlnk-oblExlnkDECL := trans-decl-in-pp-arg1-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+v-trOblExlnk-oblExlnkAbsinf := trans-absinf-in-pp-arg1-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+v-trOblExlnk-oblExlnkINTERR := trans-interr-in-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 
 ; det beror på deg om han vil komme: (from Presentational-2)
@@ -336,13 +344,12 @@ v-intrOblRais-oblMed := v-intrOblRais &
                                            QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp]]].
 v-trOblRais-oblRaisObInf := trans-rais-from-pp-arg1-verb-lexeme.
 
-; late til at, haste med at/å: TODO wrong for DECL, see Absinf-version
+; late til at, haste med at/å, dages for: 
 v-intrOblExlnk-oblExlnkDECL := intrans-decl-in-pp-arg1-verb-lexeme &
  [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 
-; CREATE  dages for å
-;v-intrOblExlnk-oblExlnkDECL := intrans-decl-in-pp-arg1-verb-lexeme &
-; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+v-intrOblExlnk-oblExlnkINTERR := intrans-interr-in-pp-arg1-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 
 ; det beror på deg om han vil komme: (from Presentational-2)
 v-intrOblExpn-expnYN := epon-decl-and-yn-pp-verb-lexeme & top-verb-lexeme &
@@ -447,6 +454,23 @@ v-intrObl-oblEqSuInf-SUSTAINEDACTIVITY := subj-equi-pp-atelic-verb-lexeme.
 v-intrPrtclScpr-scSuNrg_scPredprtclSom := intrans-secpred-prtcl1a-rais-from-nonverbal-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
 v-intrPrtclScpr-scSuNrg_scPredprtclSom_prtclUt := v-intrPrtclScpr-scSuNrg_scPredprtclSom &
 [SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]], []>].
+v-trPrtclScpr-scSuNrg_scPredprtclSom_prtclUt := v-trPrtclScpr-scSuNrg_scPredprtclSom &
+[SYNSEM.LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]], []>].
+
+v-trPrtclScpr-scSuNrg_scPredprtclSom := trans-secpred-prtcl1a-rais-from-nonverbal-arg1-verb-lexeme.
+
+;v-trScpr-scObNrg_obRefl_scPredprtclSom
+v-trPrtclScpr-obRefl_scObNrg_scPredprtcl_scPredprtclSom := v-trPrtclScpr-scSuNrg_scPredprtclSom &
+ [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX #5,
+				 LOCAL.AGR.PNG #2 ]>, 
+			 COMPS < [LOCAL.CAT.HEAD pers-pron,
+				  LOCAL.BINDING seg-bare & [ LEX-TAME + ],
+				  LOCAL.BND-MOUNTABLE < [ ANAPH-INDX #5 ] >,
+				  LOCAL.CONT.HOOK.VARG #5,
+				  LOCAL.AGR.PNG #2  ],
+				 [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]], 
+				 [LOCAL.CAT.HEAD.KEYS.KEY predcomp-som] > ]].
+
 
 ; ; test-v;  "se ut til å komme" (til-rais), 
 ; "det ser ut til at han kommer" (til-expl
@@ -490,11 +514,14 @@ v-intrOblExlnk-oblExlnkAbsinf := intrans-absinf-in-pp-arg1-verb-lexeme.
 ; &
 ; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 ;?
-v-trOblExlnk-oblExlnkAbsinf := trans-rais-from-pp-arg1-verb-lexeme &
- [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+;v-trOblExlnk-oblExlnkAbsinf := trans-rais-from-pp-arg1-verb-lexeme &
+; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
 
 v-trObl-obEqSuInf_oblEqSuInf := verb-lexeme &
  [SYNSEM v-trObl-obEqSuInf_oblEqSuInf-synsem].
+
+v-trObl-oblEqSuInf := verb-lexeme &
+ [SYNSEM subj-equi-obj-pp-synsem].
 
 
  v-ditr-obINTERR := verb-lexeme &
@@ -523,6 +550,13 @@ v-ditr-iobRefl_obINTERR := verb-lexeme &
 ;;Potentially ok: gagne_tr-suEqObInf_vlm := v-tr-suEqObInf &
 ;;forestille_ditr-iobRefl-obINTERR_vlxm := v-ditr-iobRefl_obINTERR &
 ;;
+
+;Instead of
+;v-trScprExpnOb-scObNrg_scAdj_expnDECL := trans-particle-subord-expn-verb-lexeme.
+;use the following, all reflecting that extraposition after adjective is analysed as complementation of the adjective, not of the verb. The adjectives are catagorized as to whether they take DECL, Absinf or Quest.
+v-trScprExpnOb-scObNrg_scAdj_expnDECL := v-trScpr-scObNrg_scAdj.
+v-trScprExpnOb-scObNrg_scAdj_expnAbsinf := v-trScpr-scObNrg_scAdj.
+v-trScprExpnOb-scObNrg_scAdj_expnINTERR := v-trScpr-scObNrg_scAdj.
 
 v-trPrtclExpnOb-expnDECL := trans-particle-subord-expn-verb-lexeme.
 ;use
@@ -589,7 +623,7 @@ v-ditr-obEqIobBareinf := obj-equi-bare-verb-lexeme.
 ; be om å få
 v-trObl-oblEqSuInfSwitch := verb-general-lexeme & [ SYNSEM obj-equi-pp-synsem-switch ].
 
-v-trObl-oblEqSuInf := verb-general-lexeme & [ SYNSEM obj-equi-pp-synsem-switch ].
+;v-trObl-oblEqSuInf := verb-general-lexeme & [ SYNSEM obj-equi-pp-synsem-switch ].
 
 ; for "overlate til Ola å ..."
 v-trOblShft-obEqOblInf := trans-obl-inf-verb-lexeme.

@@ -138,7 +138,7 @@ infl-imp-verb-word &
 
 
 s-passive_s_infl_rule := 
-%suffix (* s)(s s)
+%suffix (* s)(s s)(finne fins)
 s-pass-word &
 [ ARGS < [ INFLECTION phon ] > ].
 
