@@ -8106,7 +8106,7 @@ tilstrekkelig_degpos := degreepos-spec-word &
     SYNSEM.LKEYS.KEYREL.PRED "_tilstrekkelig_q_rel"].
 
 ; "hvor stor"
-hvor_wh-degpos := degreewh-spec-word &
+hvor_wh-degwh := degreewh-spec-word &
   [ STEM < "hvor" >,
     SYNSEM.LKEYS.KEYREL.PRED "_hvor-mye_rel"].
 

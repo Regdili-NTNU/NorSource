@@ -1,0 +1,177 @@
+1 Gutten sove 1 210
+2 Gutten vil sover 1 232
+3 Gutten vil kunne sover 1 561
+4 Gutten vil kan sover 0 245
+5 Gutten vil kan sove 0 271
+6 Gutten vil måtte kunne sover 1 980
+7 Gutten vil måtte kan sove 0 410
+8 Gutten vil må kunne sove 0 570
+9 Gutten vil må kan sover 0 264
+10 Gutten har sover 1 580
+11 Gutten bli skutt 2 785
+12 Gutten bli skutte 0 1208
+13 Gutten blir skutte 0 1158
+14 Gutten ha blitt skutt 2 1165
+15 Gutten har bli skutt 2 2247
+16 Gutten har blitt skyter 2 1172
+17 Gutten vil har bli skutt 2 2949
+18 Gutten vil har bli skutt 2 2949
+19 Gutten vil ha blitt skyte 2 1338
+20 Gutten vil ha kan blitt skutt 0 1007
+21 Gutten vil ha kunne bli skutt 2 5570
+22 Gutten vil ha kunne blitt skutt 0 2128
+23 Gutten vil har skullet kunnet bli skutt 0 1301
+24 Gutten vil har skal kunnet bli skutt 0 1205
+25 Gutten vil skal kunnet hatt måtte bli skutt 0 2617
+26 Gutten vil skulle kunnet hatt måtte blitt skutt 0 1727
+27 Gutten vil skal kan ha måttet blitt skutt 0 1117
+28 Gutten ikke vil sove 1 306
+29 Gutten vil sove ikke 1 340
+30 gutten ikke vil måtte kunne sove 1 1144
+31 gutten ikke har sovet 1 955
+32 gutten ikke har skutt 1 1020
+33 gutten ikke har blitt skutt 2 1355
+34 gutten ikke vil ha blitt skutt 2 1484
+35 gutten ikke vil ha kunnet bli skutt 2 2203
+36 gutten ikke vil ha skullet kunne bli skutt 2 3539
+37 gutten ikke vil skulle kunne ha måttet bli skutt 2 7031
+38 gutten snart ikke vil sove 0 425
+39 gutten i lang tid ikke har sovet 0 1635
+40 gutten trolig ikke blir skutt 2 1070
+41 gutten trolig ikke har blitt skutt 2 1899
+42 gutten trolig ikke vil ha blitt skutt 2 1974
+43 gutten trolig ikke vil ha kunnet bli skutt 2 3007
+44 gutten trolig ikke vil ha skullet kunne bli skutt 2 5012
+45 gutten trolig ikke vil skulle kunne ha måttet bli skutt 2 10109
+46 sove gutten? 1 250
+47 vil sover gutten? 0 266
+48 vil sove gutten? 0 320
+49 vil kunne sove gutten? 0 728
+50 vil måtte kunne gutten sove? 0 955
+51 vil måtte gutten kunne sove? 0 897
+52 blir skutt gutten? 1 766 wrong message, have now neutralized mal-adjective-mod-def-m-or-f-sg-rule and str-pastpt-adj-word for this constellation.
+53 vil ha blitt skutt gutten? 0 1326
+HIT
+54 vil hatt gutten kunnet bli skutt? 2 1422 ok, but the mal-reactions based on 'hatt' as a noun. How prevent hatt from being used 'bare'? same with 'gode'. trying 'BARE -'. Now 0 parses
+55 vil gutten hatt skullet kunne bli skutt? 0 1955
+56 vil skulle kunne ha måttet bli skutt gutten? 0 5885
+57 vil ikke sove gutten? 0 411
+58 vil ikke kunne gutten sove? 1 785 mal, but hopeless advice using 'kunnede' as an adjective. TODO, probably
+59 vil ikke måtte kunne gutten sove? 0 1221
+60 blir ikke skutt gutten? 1 959 ok, but fails to see inversion point, inst skutt as non-weak adjective. TODO, perhaps
+61 har ikke blitt skutt gutten? 0 1252
+62 vil ikke ha blitt skutt gutten? 0 1659
+63 vil ikke ha kunnet bli skutt gutten? 0 2485
+64 vil ikke ha skullet kunne bli skutt gutten? 0 3662
+65 vil ikke skulle kunne ha måttet bli skutt gutten? 0 8474
+66 vil snart gutten ikke sovet? 0 892
+67 vil snart gutten ikke kunnet sove? 0 896
+68 vil snart ikke gutten måttet kunnet sove? 0 817
+69 har snart gutten ikke sove? 6 3388
+70 vil trolig gutten ikke hatt blitt skutt? 0 1482
+71 vil gutten trolig ikke hatt kunnet bli skutt? 0 1950
+72 sover på fredag gutten. 0 1206
+73 vil sove på fredag gutten. 0 1571
+74 På fredag vil gutten ikke skal kunne ha måttet bli skutt. 0 3931
+75 På fredag vil gutten snart ikke sover. 4 1108 ok and good comments
+76 På fredag vil gutten snart ikke kunnet sove. 0 1142
+77 På fredag vil gutten snart ikke må kunne sove. 0 1425
+78 På fredag ha gutten snart ikke sovet. 4 2477
+79 På fredag bli gutten trolig ikke skutt. 8 1509
+80 På fredag ha gutten trolig ikke bli skutt. 8 3905 ok, and good comments
+81 På fredag vil gutten trolig ikke blitt skutt. 0 1307
+82 Jeg antar at gutten vil ikke sove 0 539
+83 Jeg gjetter hvem gutten vil ikke treffe 0 527
+84 Jeg gjetter hvem gutten vil ikke kunne treffe 0 868
+85 Jeg gjetter hvem gutten vil ikke måtte kunne treffe 0 1342
+86 Jeg gjetter hvem gutten har ikke truffet 0 740
+87 Jeg gjetter hvem gutten har ikke skutt 0 1301
+88 Jeg gjetter hva gutten har ikke blitt gitt 0 1247
+89 Jeg gjetter hvem gutten vil snart ikke vil treffe 0 925
+90 Jeg gjetter hvem gutten har i lang tid ikke truffet 0 2420
+91 Jeg gjetter hva gutten blir trolig ikke overlatt 0 1632
+92 Jeg vet hvem ikke vil sove 0 427
+93 Jeg vet hvem vil ikke sove 0 427
+94 Jeg vet hvem som vil ikke sove 0 460
+95 Jeg vet hvem ikke vil kunne sove 0 794
+96 Jeg vet hvem ikke vil kan sove 0 418
+97 Jeg vet hvem vil ikke kunne sove 0 818
+98 Jeg vet hvem som vil ikke kunne sove 0 848
+99 Jeg vet hvem som vil ikke kan sove 0 478
+100 Jeg vet hvem som har ikke sovet 0 977
+101 Jeg vet hvem har ikke sovet 0 934
+102 Jeg vet hvem ikke har sovet 0 1103
+103 Jeg vet hvem ikke har blitt skutt 0 1521
+104 Jeg vet hvem ikke vil ha blitt skutt 0 1693
+105 Jeg vet hvem ikke vil ha kunnet bli skutt 0 2471
+106 Jeg vet hvem ikke vil ha skullet kunne bli skutt 0 3935
+107 jeg vet hva hvem som har spist 1 539  Gramm, not good. TODO
+108 jeg vet hvem har spist hva 0 704
+109 jeg ser gutten som spise eplet 2 1636 like below. A treebanking ranking relative som over prepartcle might be good. or simply delete the free object predicative...? TODO will require a different, 'edited', rules file in malscript (since the bon-grammar must have it)
+110 jeg ser gutten som spist eplet 2 1319 ok, but wild track with spm as predparticle and spist as non-weak adjective TODO improve
+111 jeg ser gutten som vil kan ha spist eplet 0 1252
+112 jeg ser eplet gutten spise 1 994
+113 jeg ser eplet gutten spist 0 610
+114 jeg ser eplet gutten ha spist 1 1413
+115 jeg ser eplet som gutten spist 0 1142
+116 jeg ser gutten som spiser kanskje eplet 0 1264
+117 jeg ser gutten som vil spise kanskje eplet 0 1306
+118 jeg ser gutten som vil neppe kunne ha spist eplet 0 2749
+119 jeg ser eplet gutten har nå spist 0 1793
+120 jeg ser eplet gutten må nå ha spist 4 2164
+121 jeg ser eplet gutten spiser ikke 1 1167 ok, but places recommended ike in main clause. TODO improve
+122 jeg ser eplet som gutten spiser ikke 12 2261 ok, but diagnosis mixes in som as predparticle, which 'kills' the also observed point about ikke TODO improve
+123 jeg ser eplet som gutten vil ikke spise 0 1495
+124 jeg ser eplet som gutten vil kanskje ikke spise 0 1688
+125 jeg ser Ola ikke 1 578
+126 han setter ikke seg 0 892
+127 unner han ikke seg den? 0 447
+128 unner seg han ikke den? 0 636
+129 unner seg ikke han den? 0 746
+130 unner ikke seg han den? 0 322
+131 ballen kastes Ola til 2 462  gramm, as topicalization
+132 det kastes ballen  0 490
+133 det kastes ballen til Ola 0 599
+134 meg ble overlatt en ball 1 560
+135 det overlates Ola ballen 0 618
+136 Ola stoles 0 268
+137 det stoles  0 353
+138 det vaskes seg 0 608
+139 det skammes seg 0 668
+140 det foraktes seg selv 0 1359
+141 ballen bli kastet 2 489
+142 ballen bli kastet til Ola 10 1365
+143 det blir kastet ballen 0 652
+144 det blir kastet ballen til Ola 1 1189 ok, but recomm is hopeless, thinking kastet is an adjective. No idea of presentationals. TODO, improve if possible
+145 det blir overlatt Ola ballen 0 680
+146 Ola fryktes drepe 1 672
+147 Ola fryktes forsøkes drept 1 1159 ok, but recommends 'å' rather than participle, so could be improved. minor todo.
+148 Ola blir fryktet forsøkes drept 1 1727
+149 Ola blir fryktet forsøkt drepes 2 1263
+150 Ola antas forutsette forsøkt drept 1 833
+151 Ola fryktes ankomme 4 760
+152 Ola fryktes overlate pistolen 1 871
+153 Ola er hyggelig snakke med 45 4292 ok, but all ungramm, advice misses the point. TODO, improve if possible
+154 maten er gode å spise 15 1093  2 gramm grunnet noun 'gode', resolved, now all ungramm. but mal-mess are with recommended 'og' TODO, improve if possible
+155 guttene er hyggelig å se 30 1751  3 gramm, which is probably ok. Malmessages all recommending 'og'.  TODO, improve if possible
+156 jeg rusler gutten 0 68
+157 Ola ligger for sove 4 635
+158 Ola ligger sove 0 302
+159 Ola ligger uten sove 2 471
+160 Ola løper glade 1 765
+161 hvis han sover Per kommer 3 893
+162 hvis han sover, Per kommer 12 1107
+163 Ola Per Kari kommer 6 672  1 gramm, interpreting as a complex name
+164 Ola ligger går rusler 0 483
+165 Ola forakter seg 0 478
+166 han skammer ham 0 456
+167 hun skammer henne 0 458
+168 den skammer den 0 457
+169 det skammer det 0 658
+170 de skammer dem 0 521
+
+;;; Total CPU time: 651080 msecs
+
+;;; Mean edges: 1390.15
+
+;;; Mean parses: 1.49
