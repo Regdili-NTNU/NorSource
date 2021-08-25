@@ -453,7 +453,8 @@ end-punct-mod-for-interjection-rule := period-mod-for-interjection-phrase.
 
 ; comm-in 260612  comm-out 300115
 ; commented out just to reduce parses
-free-subjpred-rule := free-subjpred-phrase.
+;LH250821 get crazy malinfl of adjectives
+;free-subjpred-rule := free-subjpred-phrase.
 ;LH230613 hardly ever used, makes lots of unnec parses
 ;free-objpred-rule := free-objpred-phrase.
 ;LH120613 hardly ever used, makes lots of unnec parses
