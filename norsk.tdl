@@ -1945,6 +1945,17 @@ under_n-k := predsort.
 rel-under := relinan & under_n-k.
 ved_n-k := predsort.
 reg-ved := reginan & ved_n-k.
+tøys_n-k := predsort.
+tull_n-k := predsort.
+snakk_n-k := predsort.
+snikksnakk_n-k := predsort.
+bullshit_n-k := predsort.
+
+tøys-inhcmp := inhr-comp & tøys_n-k.
+tull-inhcmp := inhr-comp & tull_n-k.
+snakk-inhcmp := inhr-comp & snakk_n-k.
+snikksnakk-inhcmp := inhr-comp & snikksnakk_n-k.
+bullshit-inhcmp := inhr-comp & bullshit_n-k.
 
 takes-pl-spc := measurnoun.
 takes-sg-spc := measurnoun.
@@ -1980,7 +1991,7 @@ day-and-meal := mealnoun & daytime-noun. ; & reginan.
 ;LH200811 - and out again, it yields 'en' combining by measure-np-rule in caes where it shouldnt (like 'en større' in 'en større mann enn...' 'til lunsj' will requirw other means...
 ;day-and-meal := mealnoun & daytime-noun & reginan.
 
-inhr-comp := non-measurnoun.
+inhr-comp := non-selct. ;non-measurnoun.
 leir-inhcmp := inhr-comp & leir-k.
 død-inhcmp := inhr-comp & død-k.
 søvn-inhcmp := inhr-comp & søvn-k.
@@ -9627,6 +9638,7 @@ masc-inher-noun-lxm := masc-noun-lxm & inher-noun-lxm.
 fem-inher-noun-lxm := fem-noun-lxm & inher-noun-lxm.
 neut-inher-noun-lxm := neut-noun-lxm & inher-noun-lxm.
 mascorfem-inher-noun-lxm := mascorfem-noun-lxm & inher-noun-lxm.
+mascorneut-inher-noun-lxm := mascorneut-noun-lxm & inher-noun-lxm.
 
 
 ; using types defined in prepsort.tdl & lex2.semlab

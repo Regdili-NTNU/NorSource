@@ -77335,11 +77335,41 @@ snakke_tr-arg12-refl-secpred_vlxm := v-trScpr-scObNrgCsd_obRefl &
       SYNSEM.LKEYS.KEYREL.PRED "_snakke_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-snakke_tv_vlxm := v-tr &
+snakke-langage_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "snakke" >,
       SYNSEM.LKEYS.KEYREL.PRED "_snakke_v-tr_rel",
       SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY langage ]]> ].
+
+snakke-bullshit_tv_vlxm := v-tr &
+  [ INFLECTION nonfstr-et,
+      STEM < "snakke" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_snakke_v-tr_rel",
+      SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY bullshit_n-k ]]> ].
+
+snakke-tøys_tv_vlxm := v-tr &
+  [ INFLECTION nonfstr-et,
+      STEM < "snakke" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_snakke_v-tr_rel",
+      SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY tøys_n-k ]]> ].
+
+snakke-tull_tv_vlxm := v-tr &
+  [ INFLECTION nonfstr-et,
+      STEM < "snakke" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_snakke_v-tr_rel",
+      SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY tull_n-k ]]> ].
+
+snakke-snakk_tv_vlxm := v-tr &
+  [ INFLECTION nonfstr-et,
+      STEM < "snakke" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_snakke_v-tr_rel",
+      SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY snakk_n-k ]]> ].
+
+snakke-snikksnakk_tv_vlxm := v-tr &
+  [ INFLECTION nonfstr-et,
+      STEM < "snakke" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_snakke_v-tr_rel",
+      SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY snikksnakk_n-k ]]> ].
 
 snappe-opp_trPrtcl_vlxm := v-trPrtcl &
   [ INFLECTION nonfstr-et,
@@ -100800,6 +100830,7 @@ vurdere_interr_vlxm := v-intrComp-compINTERR &
 vurdere_tr-secpr-som_vlxm := v-trScpr-scObNrg_scPredprtclSom &
   [ INFLECTION nonfstr-te,
       STEM < "vurdere" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_vurdere_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 

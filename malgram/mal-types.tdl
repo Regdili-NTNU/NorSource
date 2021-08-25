@@ -768,6 +768,7 @@ mal-vp-subcat-np-for-pp-phrase := head-initial & head-valence-phrase & rule &
 ; n-or-adj &
 ; LH210516 nominal, instead of np-head, to avoid at-clause and infin to be subsumed. They should, but until more clean-up with 'multiple-frame' is done, for the relevant frames, leave it be for now
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD nominal & [ ACCUSATIVE +, RELATIVPRON - ],
+  NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY non-measurnoun,
   NON-HEAD-DTR.SYNSEM.LOCAL.BINDING [LEX-TAME -, REFL-I -],
   NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #objind,
   NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
