@@ -21704,11 +21704,11 @@ gåen_alxm := stnd-adj-lxm &
       SYNSEM [ LKEYS.KEYREL.PRED "_gåen_a_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
-gående_alxm := stnd-adj-lxm &
-  [ INFLECTION nonfstr,
-      STEM < "gående" >,
-      SYNSEM [ LKEYS.KEYREL.PRED "_gående_a_rel",
-               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+;gående_alxm := stnd-adj-lxm &
+;  [ INFLECTION nonfstr,
+;      STEM < "gående" >,
+;      SYNSEM [ LKEYS.KEYREL.PRED "_gående_a_rel",
+;               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
 gåtefull_alxm := stnd-adj-lxm &
   [ INFLECTION finstr-norm,

@@ -30338,6 +30338,12 @@ gå_intr-secpred_adj_vlxm := v-intrScpr-scSuNrgCsd_scAdj &
       SYNSEM.LKEYS.KEYREL.PRED "_gå_v_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+gå_lightv_vlxm := v-intrLghtScpr-scAdj &
+  [ INFLECTION finstr-tt,
+      STEM < "gå" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_gå_v_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 gå_intrdir_vlxm := v-intr-suDir &
   [ INFLECTION finstr-tt,
       STEM < "gå" >,
@@ -43270,6 +43276,13 @@ komme_intr-dir_vlxm := v-intr-suDir &
        INFLECTION nonfstr-strong,
        SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_komme_v-intr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+komme_lightv_vlxm := v-intrLghtScpr-scAdj &
+   [ STEM < "komme" >,
+       INFLECTION nonfstr-strong,
+       SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM.LKEYS.KEYREL.PRED "_komme_v-intrLghtScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 komme_intr-obl-av_vlxm := v-intrObl-oblN &
@@ -70909,6 +70922,13 @@ sitte_subj-pres_vlxm := v-intrPresnt &
        INFLECTION nonfstr-strong,
        SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_sitte_v-intrPresnt_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+sitte_lightv_vlxm := v-intrLghtScpr-scAdj &
+   [ STEM < "sitte" >,
+       INFLECTION nonfstr-strong,
+       SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM.LKEYS.KEYREL.PRED "_sitte_v-intrLghtScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 sitte_tr-arg1-secpred-istykker_vlxm := v-trScpr-scObNrgCsd &
