@@ -6,6 +6,10 @@
 ;;; 
 ;;;    Copyright (c)  NorSource version 1.0
 ;;;
+;;;                     2014-2021
+;;;
+;;;            Lars Hellan and Tore Bruland
+;;;
 ;;;			2010-2014
 ;;;
 ;;;    Lars Hellan, Mads H. Sandøy, Elias Aamot, Tore Bruland
@@ -18,6 +22,7 @@
 ;;;            2001-2003 Lars Hellan, Petter Haugereid
 ;;;    
 ;;;
+;;;    Started at:
 ;;;    Norwegian University of Science and Technology, 7491 Trondheim
 ;;;    ==================================================================
 ;;; 
@@ -2951,6 +2956,7 @@ p-adv-connector := reg-mod-lex-item & const-ltow-rule &
                                              LOCAL.CAT.VAL.COMPS <> ]>],
      SYNSEM.LOCAL.CONT.HOOK.INDEX.ROLE xdim-to-xdim,
      SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.RELS <! [ ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
 
@@ -2959,6 +2965,7 @@ p-adv-clause-connector := reg-mod-lex-item & const-ltow-rule &
                                              LOCAL.CAT.VAL.COMPS <> ]>],
 ;     SYNSEM.LOCAL.CONT.HOOK.INDEX.ROLE xdim-to-xdim,
      SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.RELS <! [ ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
 
@@ -2966,6 +2973,7 @@ p-adv-dir-connector := reg-mod-lex-item & const-ltow-rule &
   [  SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.INDEX #mod ] >,
      SYNSEM.LKEYS.KEYREL [ ARG1 #mod ],
      SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD prep-or-adv & [KEYS.KEY dir],
                                              LOCAL.CAT.VAL.COMPS list ]>], ;<>
@@ -2996,6 +3004,7 @@ n-connector-2 := reg-mod-lex-item &
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD np-head,
                                              LOCAL.CAT.VAL.COMPS <>,
                                              LOCAL.COORD-RELEASED + ]>],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.RELS <! [ ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
 
@@ -3006,6 +3015,7 @@ n-connector := lbl-ltop-lex-item-2rel &
      SYNSEM.LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD np-head,
 				  LOCAL.DERIVED-BARE-N-FROM-ADJ -]>, ; to avoid "som ny" in oppfatte som ny to fall under this
      SYNSEM.LOCAL.CONT.HOOK.INDEX #ind, ; & [WH +], specification allowed, but no parses with the use of the rule
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LKEYS.KEYREL [ ARG0 #ind ],
      SYNSEM.LOCAL.CONT.RELS <! indef-q-rel & [ARG0 #ind,
 					      RSTR #rstr], 
@@ -3021,6 +3031,7 @@ p-clse-connector := reg-mod-lex-item &
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD prep & [KEYS.KEY der-når],
                                              LOCAL.CAT.VAL.COMPS <> ]>],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD verb-or-comp]>,
      SYNSEM.LOCAL.CONT.RELS <! [ ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
@@ -3032,6 +3043,7 @@ rel-cl-connector := reg-mod-lex-item &
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD verb-all & [KEYS.KEY vb,
                                                                         INV -],
                                              LOCAL.CAT.VAL.COMPS <> ]>],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.RELS <! [ ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
 
@@ -3040,6 +3052,7 @@ rel-cl-nonrestr-connector := lbl-ltop-lex-item &
                                                                         INV -],
                                              LOCAL.CAT.VAL.COMPS <>,
                                              LOCAL.CONT.HOOK.LTOP #1 ]>],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.RELS <! adj_rel & [PRED "_nonrestr-comment_rel",
                                                 ARG1 #1 ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
@@ -3060,6 +3073,7 @@ vcond-connector := reg-mod-lex-item &
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD verb-all & [KEYS.KEY vb],
                                              LOCAL.CAT.VAL.COMPS <>,
                                              LOCAL.CONT.HOOK.INDEX.E.MOOD indicative ]>],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.RELS <! [ ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
 
@@ -3070,13 +3084,15 @@ vcond-connector-2 := reg-mod-lex-item &
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD adjct-comp,
                                              LOCAL.CAT.VAL.COMPS <>,
                                              LOCAL.CONT.HOOK.INDEX.E.MOOD indicative ]>],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.RELS <! [ ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
 
 v-connector := reg-mod-lex-item &
   [  SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.INDEX #mod ] >,
      SYNSEM.LKEYS.KEYREL [ ARG1 #mod ],
-     SYNSEM.LOCAL.CONT.HOOK.XARG #mod, 
+     SYNSEM.LOCAL.CONT.HOOK.XARG #mod,
+     SYNSEM.LOCAL.GAPPING -, 
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD verb-or-comp & [KEYS.KEY vb], ;verb-all
                                              LOCAL.CAT.VAL.COMPS <>,
                                              LOCAL.CONT.HOOK.INDEX.E.MOOD mood ]>],
@@ -3087,7 +3103,8 @@ v-connector := reg-mod-lex-item &
 v-gap-connector := reg-mod-lex-item &
   [  SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.INDEX #mod ] >,
      SYNSEM.LKEYS.KEYREL [ ARG1 #mod ],
-     SYNSEM.LOCAL.CONT.HOOK.XARG #mod, 
+     SYNSEM.LOCAL.CONT.HOOK.XARG #mod,
+     SYNSEM.LOCAL.GAPPING -, 
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD verb-or-comp & [KEYS.KEY vb], ;verb-all
                                              LOCAL.CAT.VAL.COMPS <>,
                                              LOCAL.CONT.HOOK.INDEX.E.MOOD mood ]>], 
@@ -3099,6 +3116,7 @@ v-gap-connector := reg-mod-lex-item &
 v-comp-connector := reg-mod-lex-item &
   [  SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.INDEX #mod ] >,
      SYNSEM.LKEYS.KEYREL [ ARG1 #mod ],
+     SYNSEM.LOCAL.GAPPING -,
 ;     SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD fin-comp,
@@ -3111,7 +3129,9 @@ v-comp-connector := reg-mod-lex-item &
 v-infin-comp-connector := reg-mod-lex-item &
   [  SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.INDEX #mod ] >,
      SYNSEM.LKEYS.KEYREL [ ARG1 #mod ],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD infin-comp,
                                              LOCAL.CAT.VAL.COMPS <>,
                                              LOCAL.CONT.HOOK.INDEX.E.MOOD mood ]>],
@@ -3125,6 +3145,7 @@ a-connector := reg-mod-lex-item & const-ltow-rule &
      SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD <[ LOCAL.CAT.HEAD adj-reg ]>],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LKEYS.KEYREL arg1-relation,
      SYNSEM.LOCAL.CONT.RELS <! [ ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !>  ].
@@ -3153,6 +3174,7 @@ interject-connector := reg-mod-lex-item &
   [  SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.INDEX #mod ] >,
      SYNSEM.LKEYS.KEYREL [ ARG1 #mod ],
      SYNSEM.LOCAL.CONT.HOOK.XARG #mod, ; compensating for change to reg-mod-lex-item - see type
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD < [LOCAL.CAT.HEAD interjection & [KEYS.KEY interjct],
                                            LOCAL.CAT.VAL.COMPS <>,
 					   LOCAL.CONT.HOOK.LTOP #ltop]  >],
@@ -3179,6 +3201,7 @@ adj-interject-connector := reg-mod-lex-item &
      SYNSEM.LOCAL.CAT.HEAD connect & [MOD < [LOCAL.CAT.HEAD adj & [KEYS.KEY adj-decl-selct],
                                            LOCAL.CAT.VAL.COMPS <>,
 					   LOCAL.CONT.HOOK.LTOP #ltop]  >],
+     SYNSEM.LOCAL.GAPPING -,
      SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
      SYNSEM.LOCAL.CONT.RELS <! [ LBL #ltop ] !>,
      SYNSEM.LOCAL.CONT.HCONS <! !> ].
@@ -3978,7 +4001,8 @@ dir-prep-word := dir-mod-lex-item & prep-n-word &
 dir-prep-word := dir-mod-lex-item & prep-n-word &
   [ SYNSEM arg2-comps-synsem & [LKEYS.KEYREL prep-line-rel],
 ;    SYNSEM.LOCAL.CONT.HOOK.INDEX.ROLE spatial,
-    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY dir ],
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY dir,
+			   SELECTED -],
     SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX [SORT referential-thing],
                                    LOCAL.CAT.HEAD  nominal-or-connect-n ]>,
     SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK dir-hook ]> ].
@@ -4001,8 +4025,9 @@ dir-nonfixpoint-prep-word := dir-prep-word &
 ; SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD prep-or-adv & [SELECTED bool] - bool here to allow "han vil inn i huset", where "vil" combines by head-verb-adverb-comp-rule, which otherwise requires selected+.
 dir-prep-2-word := dir-mod-lex-item & prep-n-word &
   [ SYNSEM arg2-comps-synsem & [LKEYS.KEYREL prep-line-rel],
-    SYNSEM.LOCAL.CAT.HEAD prep & [KEYS.KEY dir2 ],
-    SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD prep-or-adv & [SELECTED bool],
+    SYNSEM.LOCAL.CAT.HEAD prep & [KEYS.KEY dir2,
+				  SELECTED -],
+    SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD prep-or-adv,
                                   LOCAL.DERIVED-HEAD -,
 				  LKEYS.KEYREL orient-adv-rel ]>,
     SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX [SORT referential-thing],
@@ -4020,7 +4045,8 @@ dir-nonfixpoint-prep-2-word := dir-prep-2-word &
 ; assumed in Predsort march08.05lh - till ;;;
 dirarg-prep-word := dir-mod-lex-item & prep-n-word &
   [ SYNSEM arg2-comps-synsem & [LKEYS.KEYREL prep-mod-relation],
-    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY dir ],
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY dir,
+			   SELECTED - ],
     SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.HEAD verb-or-noun ]>,
     SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX [SORT referential-thing],
                                    LOCAL.CAT.HEAD  np-head ]> ].
@@ -4049,7 +4075,7 @@ dirarg-atelic-prep-2-word := dirarg-prep-2-word &
 ; det er under tvil at han kommer
 prep-arg1prop-epon-lxm := lbl-ltop-lex-item & 2arg & const-ltow-rule &
   [ SYNSEM.LKEYS.KEYREL arg12-relation, ;; MHS 090813 Added ancestor 2arg as well as additional constraint "SYNSEM.LOCAL.ARG-S < #comps1, #comps2 >," to fix the grammar's SLASH shenanigans in cases such as 'det er for andre gang at han taper. The existing constraint of "SYNSEM.NON-LOCAL.SLASH 0-dlist" does not detect when there is a gap in one of the complements.
-     SYNSEM.LOCAL.CAT.HEAD prep,
+     SYNSEM.LOCAL.CAT.HEAD prep &[SELECTED -],
     SYNSEM.LKEYS.KEYREL.ARG1 #1 & handle,
     SYNSEM.LKEYS.KEYREL.ARG2 #3,
     SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD comm-noun,
@@ -4165,7 +4191,7 @@ rel-prep-word := reg-mod-lex-item & prep-n-word &
                                  LOCAL.CAT.HEAD np-head,
 				 LOCAL.CAT.POSTHEAD -]>,
     SYNSEM.LOCAL.CAT.HEAD prep & [TEL-FIXING -,
-				  SELECTED +,
+				  SELECTED -, ;from +, LH051021
 				  N-to-N-RELATIONAL-P +,
 				  KEYS.KEY predsort], ;preprel
     SYNSEM.LOCAL.CAN-CMB-V -,
@@ -7709,6 +7735,7 @@ verb-lexeme := verb-general-lexeme &
                                    KEYS.KEY mainvb],
     SYNSEM.LOCAL.CAT [VAL [ SUBJ < [LOCAL.CAT.HEAD.EXPLETIVE bool] > ]]].
 
+;abandoned
 gapping-serial-verb-lexeme := verb-general-lexeme &
   [ SYNSEM.LOCAL.CAT.HEAD verb  & [VOICE active,
 				   INV +,
@@ -7721,7 +7748,43 @@ gapping-serial-verb-lexeme := verb-general-lexeme &
     SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED +,
     SYNSEM.LOCAL.DIRECTIONAL-SHIFT-APPLIED +,
     SYNSEM.LOCAL.OBJ-DEL-APPLIED +,
+    SYNSEM.LOCAL.WH-ISLAND +,
     EXTRACTED-FROM bool ]. ; -
+
+;works with 'petko' for 'og', when gaping rules are activated. Fails for the semantics.LH041021
+gapping-conjunction := word & lbl-ltop-lex-item & 
+  [ SYNSEM.LOCAL.CAT.HEAD word-coord  & [MOD < [LOCAL.CAT.QVAL #qval & qval-valence,
+;						LOCAL.CAT.VAL #val,
+;						LKEYS.KEYREL #keyrel & relation,
+						LOCAL.CAT.HEAD verb-all,
+;						LOCAL.CONT.RELS.LIST.FIRST #keyrel,
+						LOCAL.CONT.HOOK.XLEXKEYS.KEYREL.PRED #2] >],
+    SYNSEM.LOCAL.CAT.QVAL #qval,
+;    SYNSEM.LOCAL.CAT.VAL #val,
+;    SYNSEM.LKEYS.KEYREL #keyrel,
+    SYNSEM.LKEYS.KEYREL.PRED #2,
+    SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED +,
+    SYNSEM.LOCAL.DIRECTIONAL-SHIFT-APPLIED +,
+    SYNSEM.LOCAL.OBJ-DEL-APPLIED +,
+    SYNSEM.LOCAL.CAT lex-cat & [VAL [ SUBJ < [] >,
+                                       SPR list,
+                                       SPEC <>]],
+    SYNSEM.LOCAL.CONT.HCONS <! !>,
+    SYNSEM.LKEYS.KEYREL event-relation,
+    SYNSEM.LKEYS #4,
+    SYNSEM.LOCAL.CAT [VAL [ SUBJ < [LOCAL.CONT.HOOK.INDEX #1] >]],
+    SYNSEM.LOCAL.CONT.HOOK.XARG #1,
+    SYNSEM.LOCAL.CONT.HOOK.XLEXKEYS #4,
+    SYNSEM.LOCAL.REL-CL-SOM-INIT -,
+    SYNSEM.LOCAL.GAPPING +,
+    SYNSEM.LOCAL.HAS-WH-MOVED -,
+    SYNSEM.LOCAL.HEAD-SUBJ-APPLIED -,
+    SYNSEM.LOCAL.COMPS-BEGUN -,
+    SYNSEM.LOCAL.GAPPING +,				
+    SYNSEM.LOCAL.WH-ISLAND +,
+    SYNSEM.BIND unbnd ]. ;, SYNSEM.BIND unbnd
+
+
 
 ;,
 ;    SYNSEM.LOCAL.CAT trans-qval-sup
@@ -12009,7 +12072,7 @@ name-plus-name-phrase := basic-head-spec-phrase & head-initial & rule &
     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
     HEAD-DTR.SYNSEM.LOCAL.PROPERNAME +,
     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #bndresp,
-    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #1 & [PNG.NG.NUM #3, 
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #1 & [PNG.NG #3, 
 						WH -,
 						SORT referential-thing],
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
@@ -12036,7 +12099,7 @@ name-plus-name-phrase := basic-head-spec-phrase & head-initial & rule &
     NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -, ; perhaps too strong
     NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.CAN-APP +,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #2 & ref-ind & [PNG.NG.NUM #3,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #2 & ref-ind & [PNG.NG #3,
                                                               SORT referential-thing],
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <[LOCAL.CONT.HOOK.INDEX #1]>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
@@ -12052,8 +12115,11 @@ name-plus-name-phrase := basic-head-spec-phrase & head-initial & rule &
 
 firstname-plus-firstname-phrase := name-plus-name-phrase &
  [ SYNSEM.LOCAL.FIRSTNAME +,
+   SYNSEM.LOCAL.AGR.PNG.NG #gen,
    HEAD-DTR.SYNSEM.LOCAL.FIRSTNAME +,
+   HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG #gen,
    NON-HEAD-DTR.SYNSEM.LOCAL.FIRSTNAME +,
+   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG #gen,
    C-CONT [ RELS <! [ PRED "same-first-named-individual-as-rel" ] !> ]].
 
 firstname-plus-lastname-phrase := name-plus-name-phrase &
@@ -12834,6 +12900,8 @@ head-verb-comp-phrase := head-verb-comp-phrase-sup &
   [ SYNSEM.LOCAL.CLIT-SITE-OPEN -,
     SYNSEM.LOCAL.BND-RESP #resp,
     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+    SYNSEM.LOCAL.WH-ISLAND #bool, ;LH29092021
+    HEAD-DTR.SYNSEM.LOCAL.WH-ISLAND #bool,
 ;    HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN -,
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -, ; cannot be used, blocks 'jeg ser 
 ;  ni av guttene', where 'ni' currently undergoes card-to-bare-n
@@ -12863,6 +12931,124 @@ head-verb-lightverb-comp-phrase := head-verb-comp-phrase-sup &
     NON-HEAD-DTR.SYNSEM.LOCAL.HAS-INTERJECTION -,
     NON-HEAD-DTR.SYNSEM.LOCAL.CTXT.DISC-BOUND - ].
  
+head-gapping-comp-phrase := basic-head-comp-phrase & head-initial & rule &
+  [ SYNSEM.LOCAL.CAT.HEAD #head & word-coord,
+    SYNSEM.LOCAL.CONT.HOOK.VARG #dirarg,
+    SYNSEM.LOCAL.COMPS-BEGUN +,
+    SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v-comp,
+    SYNSEM.LOCAL.HAS-WH-MOVED #hm,
+;    EXTRACTED-FROM #extracted-from,
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS #21,
+    SYNSEM.LOCAL.CAT.QVAL #qval,
+    SYNSEM.LOCAL.NEED-IMP-UNARY #43, 
+    SYNSEM.LOCAL.REL-CL-SOM-INIT #init, 
+    SYNSEM.VAL-CLASS #vc,
+    HEAD-DTR.SYNSEM.LOCAL.NEED-IMP-UNARY #43, 
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #21,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD #head,
+;    HEAD-DTR.EXTRACTED-FROM #extracted-from,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #qval,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v-comp,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
+    HEAD-DTR.SYNSEM.LOCAL.GAPPING +,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #dirarg,
+    HEAD-DTR.SYNSEM.LOCAL.REL-CL-SOM-INIT #init, 
+    HEAD-DTR.SYNSEM.VAL-CLASS #vc,
+    NON-HEAD-DTR.SYNSEM.LOCAL.COORD-RELEASED +,
+    NON-HEAD-DTR.INFLECTED +,
+    NON-HEAD-DTR.RULE card-ok,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD np-head & [ACCUSATIVE +,
+						  EXPLETIVE -],    
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ olist,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>, 
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAN-CMB-V +,
+    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-WH-MOVED #hm,
+    NON-HEAD-DTR.SYNSEM.LOCAL.SUBJ-ONLY - ].
+
+head-gapping-icomp-phrase := basic-head-icomp-phrase & head-initial & rule &
+  [ SYNSEM.LOCAL.CAT.HEAD #head & word-coord,
+    SYNSEM.LOCAL.CONT.HOOK.VARG #dirarg,
+    SYNSEM.LOCAL.COMPS-BEGUN +,
+    SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v-comp,
+    SYNSEM.LOCAL.HAS-WH-MOVED -,
+    SYNSEM.LOCAL.CAT.VAL.COMPS #21,
+    SYNSEM.LOCAL.CAT.QVAL #qval,
+    SYNSEM.LOCAL.NEED-IMP-UNARY #43, 
+    SYNSEM.LOCAL.REL-CL-SOM-INIT #init, 
+    SYNSEM.LOCAL.WH-EXTRACTION-APPLIED -,
+    SYNSEM.VAL-CLASS #vc,
+    HEAD-DTR.SYNSEM.LOCAL.NEED-IMP-UNARY #43, 
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #21,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD #head,
+    HEAD-DTR.EXTRACTED-FROM -,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #qval,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v-comp,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
+    HEAD-DTR.SYNSEM.LOCAL.GAPPING +,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #dirarg,
+    HEAD-DTR.SYNSEM.LOCAL.REL-CL-SOM-INIT #init, 
+    HEAD-DTR.SYNSEM.VAL-CLASS #vc,
+    HEAD-DTR.SYNSEM.LOCAL.WH-EXTRACTION-APPLIED -,
+    NON-HEAD-DTR.SYNSEM.LOCAL.COORD-RELEASED +,
+    NON-HEAD-DTR.INFLECTED +,
+    NON-HEAD-DTR.RULE card-ok,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep & [SELECTED +],    
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ olist,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>, 
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAN-CMB-V +,
+    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-WH-MOVED -,
+    NON-HEAD-DTR.SYNSEM.LOCAL.WH-EXTRACTION-APPLIED -,
+    NON-HEAD-DTR.SYNSEM.LOCAL.WH-ISLAND +,
+    NON-HEAD-DTR.SYNSEM.LOCAL.SUBJ-ONLY -,
+    NON-HEAD-DTR.SYNSEM.LEX - ].
+
+head-gapping-subj-phrase := another-basic-head-subj-phrase & head-initial & rule &
+  [ SYNSEM.LOCAL.CAT.HEAD #head & word-coord,
+    SYNSEM.LOCAL.CONT.HOOK.VARG #dirarg,
+    SYNSEM.LOCAL.COMPS-BEGUN +,
+    SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v-comp,
+    SYNSEM.LOCAL.HAS-WH-MOVED #hm,
+;    EXTRACTED-FROM #extracted-from,
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS #21,
+    SYNSEM.LOCAL.CAT.QVAL #qval,
+    SYNSEM.LOCAL.NEED-IMP-UNARY #43, 
+    SYNSEM.LOCAL.REL-CL-SOM-INIT #init, 
+    SYNSEM.VAL-CLASS #vc,
+    HEAD-DTR.SYNSEM.LOCAL.NEED-IMP-UNARY #43, 
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #21,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD #head,
+;    HEAD-DTR.EXTRACTED-FROM #extracted-from,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #qval,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v-comp,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #dirarg,
+    HEAD-DTR.SYNSEM.LOCAL.REL-CL-SOM-INIT #init,
+    HEAD-DTR.SYNSEM.LOCAL.GAPPING +, 
+    HEAD-DTR.SYNSEM.VAL-CLASS #vc,
+    NON-HEAD-DTR.SYNSEM.LOCAL.COORD-RELEASED +,
+    NON-HEAD-DTR.INFLECTED +,
+    NON-HEAD-DTR.RULE card-ok,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD nom & [ACCUSATIVE -,
+					      EXPLETIVE -],    
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ olist,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>, 
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAN-CMB-V +,
+    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-WH-MOVED #hm,
+    NON-HEAD-DTR.SYNSEM.LOCAL.SUBJ-ONLY - ].
+
+
+
 head-verb-allquant-comp-phrase := head-verb-comp-phrase-sup &
   [ SYNSEM.LOCAL.WAIT-BND-RESP #resp,
     SYNSEM.LOCAL.CLIT-SITE-OPEN -,
@@ -14157,7 +14343,8 @@ head-coord-comp-phrase := basic-head-comp-phrase & head-initial & rule &
     NON-HEAD-DTR.SYNSEM.LOCAL.HEAD-SUBJ-APPLIED #hs,
     NON-HEAD-DTR.FRONT-TO-FILL #8 ].
 
-;SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL.CAT.HEAD #3] >,
+;SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL.CAT.HEAD #3] >
+
 head-wordcoord-comp-phrase := head-coord-comp-phrase &
  [ SYNSEM.LOCAL.COORD-RELEASED +,
    SYNSEM.LOCAL.XCAT.HEAD #3,
@@ -15083,17 +15270,20 @@ connector-rightmod-phrase := connector-mod-phrase & head-adj-phrase. ; connector
 
 gapping-serial-phrase := head-adj-phrase &
   [ SYNSEM.LOCAL.CAT.HEAD verb-all,
+    SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    SYNSEM.LOCAL.CAT.QVAL #qval,
     EXTRACTED-FROM -,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
-    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.SF #1,
-;   HEAD-DTR.EXTRACTED-FROM -,
-;    HEAD-DTR.SYNSEM.LOCAL.HAS-WH-MOVED -,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all  & [KEYS.KEY gapping-conj],
-    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.SF #1,
-   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
+    HEAD-DTR.EXTRACTED-FROM -,
+;    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.SF #1,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #qval,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #qval,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD word-coord & [MOD <[LOCAL.CAT.QVAL #qval]>],
+;    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.SF #1,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
-;    NON-HEAD-DTR.SYNSEM.LOCAL.HAS-WH-MOVED -,
-    NON-HEAD-DTR.EXTRACTED-FROM bool ]. ; -
+    NON-HEAD-DTR.SYNSEM.LOCAL.WH-ISLAND +,
+    NON-HEAD-DTR.EXTRACTED-FROM - ]. 
 
 end-punctuation-mod-phrase := head-adj-phrase &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX #2 & [SORT #1],
@@ -15664,7 +15854,7 @@ SYNSEM canonical-synsem &
 ;;;;
 connect-n-comp-phrase := head-valence-phrase & head-compositional &
 			  phrasal & head-initial &
-  [ SYNSEM.LOCAL.CAT.HEAD nominal-or-connect-n,
+  [ SYNSEM.LOCAL.CAT.HEAD nominal-or-connect-n & [ACCUSATIVE #bool],
     SYNSEM.LOCAL.CAT.VAL.SPR <[LOCAL.CAT.HEAD nominal-or-connect-n]>,
     SYNSEM.LOCAL.WH-ISLAND +,
     SYNSEM.LOCAL.COORD-RELEASED -,
@@ -15678,7 +15868,7 @@ connect-n-comp-phrase := head-valence-phrase & head-compositional &
 				      ARG1 #2,
 				      ARG2 #1 ] !>,
     C-CONT [ HCONS <! !> ],
-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT [HEAD nominal-or-connect-n, ;np-head, to avoid complementized clauses in n-coordination. but losing quant-headed phrases, then... TODO
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT [HEAD nominal-or-connect-n & [ACCUSATIVE #bool], ;np-head, to avoid complementized clauses in n-coordination. but losing quant-headed phrases, then... TODO
 				    VAL [ SUBJ <>,
 					  SPR <>, 
 					  SPEC <>, ;olist, extra parses for "...7 dager og 52 uker"
@@ -18859,6 +19049,7 @@ extracted-comp-phrase := basic-extracted-comp-phrase &
     HEAD-DTR.SYNSEM.BIND #8,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #5,
     HEAD-DTR.SYNSEM.LOCAL.ADV-MODIFIED -,
+    HEAD-DTR.SYNSEM.LOCAL.WH-ISLAND -,
     HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #slash  ].
 
 #|
@@ -20100,12 +20291,11 @@ coordination-finite-clause := basic-head-mod-phrase-simple & head-initial & phra
      SYNSEM.LOCAL.CONT.HOOK.XARG #2,
      SYNSEM.LOCAL.CONT.HOOK.INDEX #4,
      SYNSEM.LOCAL.CONT.HOOK.LTOP #13,
-     SYNSEM.LOCAL.CAT.VAL.SUBJ #subj,			; Re-added EAA010811
+     SYNSEM.LOCAL.CAT.VAL.SUBJ #subj,		; Re-added EAA010811
      SYNSEM.LOCAL.CAT.VAL.COMPS #6,
      SYNSEM.LOCAL.CAT.VAL.ICOMPS #7,
-;     SYNSEM.LOCAL.COORD-RELEASED #10,
      SYNSEM.NON-LOCAL #5,
-	 FRONT-TO-FILL -,												; Added in, EAA010811
+	 FRONT-TO-FILL -,			  ; Added in, EAA010811
      ARGS < [ SYNSEM.LOCAL.XCAT.HEAD verb-all,
 	      SYNSEM.LOCAL.CAT.HEAD.WH-COMPLETE #compl,
 	      SYNSEM.LOCAL.CONT.HOOK.XARG #2,
@@ -20113,11 +20303,10 @@ coordination-finite-clause := basic-head-mod-phrase-simple & head-initial & phra
               SYNSEM.LOCAL.CONT.HOOK.INDEX #4,
 	      SYNSEM.LOCAL.CONT.HOOK.INDEX.SF #sf,
 ;              SYNSEM.LOCAL.CAT.VAL.SUBJ #subj & 1-list,
-		  SYNSEM.LOCAL.CAT.VAL.SUBJ #subj & < anti-synsem >,		; Added in, EAA010811
+	      SYNSEM.LOCAL.CAT.VAL.SUBJ #subj & < anti-synsem >,  ; Added in, EAA010811
 	      SYNSEM.LOCAL.CAT.VAL.COMPS #6,
               SYNSEM.LOCAL.CAT.VAL.ICOMPS #7,
-;              FRONT-TO-FILL #8,
-			  FRONT-TO-FILL -,										; Added in, EAA010811
+	      FRONT-TO-FILL -,  	; Added in, EAA010811
               SYNSEM.NON-LOCAL #5 ], 
            [ SYNSEM.LOCAL.CAT.HEAD coord,
              SYNSEM.LOCAL.CONT.HOOK.LTOP #13,
@@ -20126,18 +20315,16 @@ coordination-finite-clause := basic-head-mod-phrase-simple & head-initial & phra
 ;             SYNSEM.LOCAL.XCAT.HEAD verb-all,
              SYNSEM.LOCAL.XCAT.HEAD.COORDINABLE +,
              SYNSEM.LOCAL.XCAT.HEAD.WH-COMPLETE #compl,
-			 SYNSEM.LOCAL.XCAT.VAL [ SUBJ antilist ],				; Added in, EAA020811
-             SYNSEM.LOCAL.CAT.VAL [ SUBJ <>,
+			 SYNSEM.LOCAL.XCAT.VAL [ SUBJ antilist ], ; Added in, EAA020811 
+             SYNSEM.LOCAL.CAT.VAL [ SUBJ <>, 
 				    COMPS #6,
                                     ICOMPS #7 ],
              SYNSEM.LOCAL.XCAT.VAL [ SUBJ olist ,
 				    COMPS #6,
                                     ICOMPS #7 ],
-             SYNSEM.LOCAL.CONT.HOOK.INDEX #4 & [SORT verb-act-specification],
-;             SYNSEM.LOCAL.COORD-RELEASED #10,
+;             SYNSEM.LOCAL.CONT.HOOK.INDEX #4 & [SORT verb-act-specification],
              SYNSEM.LOCAL.HEAD-SUBJ-APPLIED +,
-;             FRONT-TO-FILL #8 & +,
-			 FRONT-TO-FILL -,										; Added in, EAA010811
+	     FRONT-TO-FILL -,	; Added in, EAA010811
 	     SYNSEM.NON-LOCAL #5  ] >,
      C-CONT.RELS <! !>,
      C-CONT.HCONS <!!>].
@@ -20148,6 +20335,81 @@ coordination-finite-1stsubjinv-clause := coordination-finite-clause &
 coordination-finite-1stsubjnoninv-clause := coordination-finite-clause &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ #subj,
     ARGS < [ SYNSEM.LOCAL.CAT.VAL.SUBJ #subj & 1-list ], [] > ].
+
+;coordination-gapping-clause := coordination-finite-clause &
+;  [ ARGS < [ SYNSEM.LOCAL.CAT.QVAL #qval], ;
+;	   [ SYNSEM.LOCAL.CAT.QVAL #qval ] > ].
+
+;coordination-gapping-rightnoderaising-clause := coordination-finite-clause &
+
+;This approach, with Object-deletion, gives right syntax for 'right node raising' but not yet right semantics, and difficult to restrict deletion. So, must rest for now. LH041021
+;Confused also for diff betwen coordination-finite-clause and s-connect-phrase-sup
+coordination-gapping-rightnoderaising-clause := s-connect-phrase-sup &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    SYNSEM.LOCAL.CONT.HOOK.VARG #4,
+    SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX #4,
+;    HEAD-DTR #arg1,
+    HEAD-DTR.SYNSEM.LOCAL.GAPPING -,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #4,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX #4,
+    HEAD-DTR.BY-DELETION + ]. 
+;,
+;    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL trans-qval,
+;    NON-HEAD-DTR #arg2,
+;    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL trans-qval,
+;    ARGS < #arg1, #arg2 > ].
+#|
+,
+    C-CONT.RELS <! arg12-relation & [LBL #lbl,
+				      PRED "coreferential_rel",
+				      ARG1 #2 & [PNG #p],
+				      ARG2 #22 & [PNG #p]],
+		       indef-q-rel & [PRED "_udef_q_rel",
+						ARG0 #22,
+						RSTR #rstr] !>,
+     C-CONT.HCONS <! [HARG #rstr,
+		      LARG #lbl] !>].
+|#
+
+; the following two from GaGr
+#|
+verb-serial-mod-tr-tr-phrase := verb-serial-mod-phrase &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    SYNSEM.LOCAL.CONT.HOOK.VARG #4,
+   SYNSEM.LOCAL.CAT.QVAL trans-qval,
+;    SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX #1,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #4,
+   HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL trans-qval,
+;    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX #1,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL trans-qval,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX semarg ].
+|#
+
+; overgenerates massively as long as not restricted to the 'rightnoderaising' environment, therefore pt not declared in lrules.tdl
+object-deletion := const-ltol-rule &
+ [ SYNSEM.LOCAL.CAT.VAL.SUBJ #3 & <[ LOCAL.CONT.HOOK.INDEX #4 ]>,
+   SYNSEM.LOCAL.CONT.HOOK.XARG #4,
+   SYNSEM.LOCAL.CONT.HOOK.VARG #index,
+   SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+   SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
+   SYNSEM.LOCAL.CAT.HEAD #2,
+   SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CONT.HOOK.INDEX #index],
+;   SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CONT.HOOK.INDEX #index],
+;			       LOCAL.CAT.HEAD verb-all,
+;			       LOCAL.CONT.HOOK.VARG #index]>,
+   BY-DELETION +,
+   DTR [ SYNSEM trans-arg1-2-synsem,
+	SYNSEM.LOCAL.CAT.VAL.SUBJ #3,
+   	SYNSEM.LOCAL.CONT.HOOK.VARG #index,
+	 SYNSEM.LOCAL.CAT.VAL.COMPS < #obj >,
+   	SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
+   	SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CONT.HOOK.INDEX #index],
+   	SYNSEM.LOCAL.CAT.HEAD #2,
+   	BY-DELETION - ],
+   C-CONT [RELS <! !>,
+           HCONS <! !>]].
+
+
 
 ; We need to distinguish between VP-coord and S-coord. In VP-coord, the subjects are identical, in S-coord they need not be. Either type may cooccur with inversion in first clause, and with comma after first clause.
 ; Specifics:
@@ -20212,8 +20474,8 @@ coordination-v-phrase-sup := basic-head-mod-phrase-simple & head-initial & phras
      SYNSEM.NON-LOCAL #5,
      ARGS < [ SYNSEM.LOCAL.CAT.HEAD verb-all,					; Changed from XCAT to CAT.
 	      	  SYNSEM.LOCAL.CAT.VAL [ SUBJ cons,
-									 COMPS #6,
-									 ICOMPS #7 ],
+					 COMPS #6,
+					 ICOMPS #7 ],
 	      	  SYNSEM.LOCAL.CONT.HOOK.XARG #2,
               SYNSEM.LOCAL.CONT.HOOK.LTOP #13,
               SYNSEM.LOCAL.CONT.HOOK.INDEX #4,
@@ -20225,10 +20487,10 @@ coordination-v-phrase-sup := basic-head-mod-phrase-simple & head-initial & phras
              SYNSEM.LOCAL.XCAT.HEAD verb-all,
              SYNSEM.LOCAL.XCAT.HEAD.COORDINABLE +,
              SYNSEM.LOCAL.CAT.VAL [ SUBJ #subj & 1-list,
-				    				COMPS #6,
+				    COMPS #6,
                                     ICOMPS #7 ],
              SYNSEM.LOCAL.XCAT.VAL [ SUBJ #subj,
-				    				COMPS #6,
+				     COMPS #6,
                                     ICOMPS #7 ],
              SYNSEM.LOCAL.CONT.HOOK.XARG #22,
              SYNSEM.LOCAL.CONT.HOOK.INDEX #4,
@@ -20753,10 +21015,12 @@ intrans-eventarg1-eventobl-decl-synsem := intrans-eventarg1-obl-synsem-sup &
     LOCAL.CAT.VAL.COMPS <>,
     LKEYS.KEYREL arg1obl-rel & [ ARGOBLQ #1 ] ].
 
+;TODO ensure that the prep governs an interr-clause LH04102021
 ; "snakke om hvorvidt/hvem..."
 intrans-obl-interr-synsem := arg1-subj-synsem & intrans-obl-synsem-sup &
   [ LOCAL.CAT intrans-with-1icomps-pp-cat,
-    LOCAL.CAT.QVAL.OBL1.LOCAL.CAT.QVAL.DOBJECT.LOCAL [BINDING nontamed & [REFL-I -],
+    LOCAL.CAT.QVAL.OBL1.LOCAL.CAT.QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event & [SF ques],
+						      BINDING nontamed & [REFL-I -],
                                                       CAT.HEAD verb-or-comp & [ DECL - ]],
     LOCAL.CAT.QVAL.OBL1.LOCAL.CONT.HOOK.LTOP #1 & handle,
    LOCAL.CAT.VAL.COMPS <>,
@@ -23444,8 +23708,7 @@ ditrans-arg1-2-3-synsem-sup := ditrans-synsem & arg1-subj-synsem & arg23-comps-s
     LKEYS.KEYREL.ARG2 #2,
     LOCAL.CAT.VAL.SUBJ < [ LOCAL.SPEC-TO-BARE-N -,
 			   LOCAL.CARD-TO-BARE-N - ]>,
-    LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX.SORT anim-thing,
-			   LOCAL.SPEC-TO-BARE-N -,
+    LOCAL.CAT.VAL.COMPS < [LOCAL.SPEC-TO-BARE-N -, ; LOCAL.CONT.HOOK.INDEX.SORT anim-thing, - naive, this can be done only once all 60,000 nouns are classified appropriately			   
 			   LOCAL.CARD-TO-BARE-N -,
 			   LOCAL.MUST-APP bool,; both were '+', for forgotten reason
 			   LOCAL.APPOSITION-COMPLEX - ], 
@@ -24706,7 +24969,7 @@ trans-1ncomps-empty-icomps-cat := trans-empty-icomps-cat &
 
 
 ditrans-cat := lex-cat &
-  [ QVAL [ DOBJECT #1,
+  [ QVAL [ DOBJECT #1, ; ditrans-qval &  not accepted
            IOBJECT #2 ],
     VAL ditrans-v-val &
          [ COMPS < #2, #1 > ] ].

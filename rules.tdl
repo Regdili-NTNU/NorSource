@@ -116,7 +116,14 @@ imperative-rule := imperative-phrase.
 ;first attempt towards gapping rules
 ;head-pero-comp-phrase-sup-rule := head-pero-comp-phrase-sup.
 ;s-connect-gap-rule := s-connect-gap-phrase.
-;for now Jan2021 put on wait
+;for now Oct2021 put on wait semantics of gapping and rightnoderaising altogether
+head-gapping-comp-rule := head-gapping-comp-phrase.
+head-gapping-subj-rule := head-gapping-subj-phrase.
+head-gapping-icomp-rule := head-gapping-icomp-phrase.
+;coordination-gapping-rule := coordination-gapping-clause.
+;coordination-gapping-rightnoderaising-rule := coordination-gapping-rightnoderaising-clause.
+
+;redundant, given v-coordination-rule
 ;gapping-serial-rule := gapping-serial-phrase.
 
 head-verb-comp-rule := head-verb-comp-phrase.
@@ -252,7 +259,7 @@ coordination-v-rule := coordination-v-phrase.
 ;coordination-v_inv-rule := coordination-v_inv-phrase.
 ;coordination-finite-rule := coordination-finite-clause.
 ; LH 120711: attempt at having a unique rule when noninverted subj in first clause, but of no avail so far...
-;coordination-finite-1stsubjinv-rule := coordination-finite-1stsubjinv-clause.
+coordination-finite-1stsubjinv-rule := coordination-finite-1stsubjinv-clause.
 ;coordination-finite-1stsubjnoninv-rule := coordination-finite-1stsubjnoninv-clause.
 ;nice to have, but only when needed
 ;coordination-with-corefobj-v-rule := coordination-with-corefobj-v-phrase.

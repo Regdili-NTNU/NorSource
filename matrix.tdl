@@ -45,7 +45,8 @@ sign := basic-sign &
     INFL-MORPH inflection,
     MORPH-SPLIT list,
     DISC-MODE discmode,
-    CAN-OCCUR-INITIAL bool].
+    CAN-OCCUR-INITIAL bool,
+    BY-DELETION bool].
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -377,7 +378,8 @@ local := local-min &
     WH-EXTRACTION-APPLIED bool,
     PARTICLE-SHIFT-APPLIED bool,
     DIRECTIONAL-SHIFT-APPLIED bool,
-    MAL-INFLECT-LEEWAY bool ].
+    MAL-INFLECT-LEEWAY bool,
+    GAPPING bool ].
 
 
 binding := avm &

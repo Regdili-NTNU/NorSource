@@ -121,8 +121,10 @@ imperative-rule := imperative-phrase.
 ;first attempt towards gapping rules
 ;head-pero-comp-phrase-sup-rule := head-pero-comp-phrase-sup.
 ;s-connect-gap-rule := s-connect-gap-phrase.
-;for now Jan2021 put on wait
-;gapping-serial-rule := gapping-serial-phrase.
+;for now Oct2021 put on wait semantics of gapping and rightnoderaising altogether
+head-gapping-comp-rule := head-gapping-comp-phrase.
+head-gapping-subj-rule := head-gapping-subj-phrase.
+head-gapping-icomp-rule := head-gapping-icomp-phrase.
 
 head-verb-comp-rule := head-verb-comp-phrase.
 ;overgenerates LH250718

@@ -5,6 +5,10 @@
 ;;;    Copyright (c)  NorSource 1.0
 ;;;                     
 ;;;
+;;;                     2014-2021
+;;;
+;;;            Lars Hellan and Tore Bruland
+;;;
 ;;;			2010-2014
 ;;;
 ;;;    Lars Hellan, Mads H. Sandøy, Elias Aamot, Tore Bruland
@@ -11651,6 +11655,12 @@ synes_intr-secpr-raistosubj-nonv-som-om_vlxm := v-intrScpr-scSuNrg_scPredprtcl_s
 ;og_cameleon-gapping_vlxm := gapping-serial-verb-lexeme &
 ;  [ INFLECTION nonfstr-strong,
 ;      STEM < "og" > ].
+
+petko_cameleon-gapping_conj := gapping-conjunction &
+  [ STEM < "petko" > ].
+
+og_gapping_conj := gapping-conjunction &
+  [ STEM < "og" > ].
 
 
 
