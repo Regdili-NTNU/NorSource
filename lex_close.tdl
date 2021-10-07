@@ -1373,11 +1373,10 @@ må-tru_s-adv := s-operadv-init-word &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY kanskje-k,
     SYNSEM.LKEYS.KEYREL.PRED "_må-tru_adv_rel"].
 
-;doubtful
-;så_s-adv := s-operadv-init-word &
-;  [ STEM < "så" >,
-;    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY så-k,
-;    SYNSEM.LKEYS.KEYREL.PRED "_så_adv_rel"].
+så_s-adv := s-operadv-init-word &
+  [ STEM < "så" >,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY så-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_så_adv_rel"].
 
 aldri_s-adv := s-operadv-init-word &
   [ STEM < "aldri" >,
@@ -1527,6 +1526,12 @@ også_s-adv := s-operadv-stnd-word &
   [ STEM < "også" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY også-k,
     SYNSEM.LKEYS.KEYREL.PRED "_også_adv_rel"].
+
+;ok, but so many og's...
+;og_s-adv := s-operadv-stnd-word &
+;  [ STEM < "og" >,
+;    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY og-k,
+;    SYNSEM.LKEYS.KEYREL.PRED "_og_adv_rel"].
 
 bare_s-adv := s-operadv-init-word &
   [ STEM < "bare" >,

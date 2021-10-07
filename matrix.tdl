@@ -680,7 +680,8 @@ event-verb := event &
   [ E tam,
     PATH-TELIC bool,
     SIT-TYPE semsort,
-    DISC-MOVE discmode ].
+    DISC-MOVE discmode,
+    WH - ].
 
 
 event-min := event.

@@ -116,12 +116,11 @@ imperative-rule := imperative-phrase.
 ;first attempt towards gapping rules
 ;head-pero-comp-phrase-sup-rule := head-pero-comp-phrase-sup.
 ;s-connect-gap-rule := s-connect-gap-phrase.
-;for now Oct2021 put on wait semantics of gapping and rightnoderaising altogether
+;for now Oct2021 put on wait semantics of gapping 
 head-gapping-comp-rule := head-gapping-comp-phrase.
-head-gapping-subj-rule := head-gapping-subj-phrase.
+head-gapping-subj-plus-obj-rule := head-gapping-subj-plus-obj-phrase.
+head-gapping-subj-plus-obl-rule := head-gapping-subj-plus-obl-phrase.
 head-gapping-icomp-rule := head-gapping-icomp-phrase.
-;coordination-gapping-rule := coordination-gapping-clause.
-;coordination-gapping-rightnoderaising-rule := coordination-gapping-rightnoderaising-clause.
 
 ;redundant, given v-coordination-rule
 ;gapping-serial-rule := gapping-serial-phrase.
@@ -308,8 +307,11 @@ card-mod-indef-with-interr-rule := card-mod-phrase-indef-with-interr.
 ; May2013 - reactivated - towards alternative coordination approach, for v
 vp-connect-rule := vp-connect-phrase. ; jeg sover og spiser 
 s-connect-rule := s-connect-phrase. ; jeg sover og spiser, jeg sover og jeg spiser
+s-connect-objdel-rule := s-connect-objdel-phrase. ; jeg fortærer og Ola sluker fisken ('Right Node Raising')
+
 s-comp-connect-rule := s-comp-connect-phrase. ; jeg vet at du sover og at du smiler, jeg vet hvorvidt du sover og hvorvidt du smiler
-s-wh-connect-rule := s-wh-connect-phrase. ; jeg vet hvem som smiler og hva du ser
+s-wh-connect-rule := s-wh-connect-phrase. ; hvem sover og spiser
+s-wh-connect-obldel-rule := s-wh-connect-objdel-phrase. ; hvem fortærer og sluker fisken ('Right Node Raising')
 s-rel-connect-rule := s-rel-connect-phrase. ; menn som smiler og som ler sover
 s-infin-connect-rule := s-infin-connect-phrase. ; du trenger å smile og å sove
 s-connect-inv-rule := s-connect-inv-phrase.
