@@ -178,7 +178,7 @@ lexeme := norm-lex-item &
 ; phrases and lexical items, constrain phrases to have empty ARG-S.
 
 phrase := phrase-or-lexrule &
-  [ SYNSEM.LOCAL.ARG-S < >,
+  [ SYNSEM.LOCAL.ARG-S list, ;< >,
     ROOT bool].
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -362,6 +362,7 @@ local := local-min &
     INHER-WH bool,
     CAN-MODIFY bool,
     CMPAR-PENDING bool,
+    CONNECT-PENDING bool,
     N-COMB-PENDING bool,
     MUST-COORD-PROJECT bool,
     MUST-CONNECT-PROJECT bool,
@@ -379,6 +380,11 @@ local := local-min &
     PARTICLE-SHIFT-APPLIED bool,
     DIRECTIONAL-SHIFT-APPLIED bool,
     MAL-INFLECT-LEEWAY bool,
+    POST-NOM-POSS-APPLIED bool,
+    HAS-SUBJ-V-INVERTED bool,
+    HAS-COMBINED-BY-V-COMP bool,
+    CAN-MAL-INFIN-INSERT bool,
+    CONTAINS-MAL-PERSPRON-OBJ bool,
     GAPPING bool ].
 
 
@@ -680,8 +686,7 @@ event-verb := event &
   [ E tam,
     PATH-TELIC bool,
     SIT-TYPE semsort,
-    DISC-MOVE discmode,
-    WH - ].
+    DISC-MOVE discmode ].
 
 
 event-min := event.

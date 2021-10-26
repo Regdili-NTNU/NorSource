@@ -24,7 +24,9 @@
 
 
 
-head-spec-quantor-rule := head-spec-quantor-phrase.
+;head-spec-quantor-rule := head-spec-quantor-phrase.
+head-spec-quantor-q-rule := head-spec-quantor-q-phrase.
+;partitive-fem-av-rule := partitive-fem-av-phrase.
 ;begge to sover
 head-spec-allquant-card-rule := head-spec-allquant-card-phrase.
 head-spec-def-quantor-rule := head-spec-def-quantor-phrase.

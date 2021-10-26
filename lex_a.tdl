@@ -26020,6 +26020,7 @@ i_stykker_regadj_alxm := stnd-non-mod-adj-lxm &
   [ STEM < "i", "stykker" >,
       SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY anonym-k,
 ;      SYNSEM.LOCAL.CAN-MODIFY -,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
     SYNSEM.LOCAL.DERIVED-BARE-N-FROM-ADJ -,
     SYNSEM.LKEYS.KEYREL.PRED "_i_stykker_adj_rel" ].
 
@@ -56193,24 +56194,28 @@ som-besatt_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
    [ INFLECTION nonfstr,
        STEM < "som", "besatt" >,
        SYNSEM.LKEYS.KEYREL.PRED "_som-besatt_a_rel",
+       SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
        SYNSEM.LOCAL.CAT.HEAD adj-no_gd ].
 
-som-besattt_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
+som-besatt_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
    [ INFLECTION nonfstr,
-       STEM < "som", "besattt" >,
+       STEM < "som", "besatt" >,
        SYNSEM.LKEYS.KEYREL.PRED "_som-besatt_a_rel",
+     SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
        SYNSEM.LOCAL.CAT.HEAD adj-no_gd ].
 
 som-bestilt_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
    [ INFLECTION nonfstr,
        STEM < "som", "bestilt" >,
        SYNSEM.LKEYS.KEYREL.PRED "_som-bestilt_a_rel",
+       SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
        SYNSEM.LOCAL.CAT.HEAD adj-no_gd ].
 
 som-bestilt_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
    [ INFLECTION nonfstr,
        STEM < "som", "bestilt" >,
        SYNSEM.LKEYS.KEYREL.PRED "_som-bestilt_a_rel",
+       SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
        SYNSEM.LOCAL.CAT.HEAD adj-no_gd ].
 
 som-bønnhørt_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
@@ -56223,16 +56228,19 @@ som-bønnhørt_abs-nonepon-dcl_alxm := abs-adj-nonepon-decl-lxm &
    [ INFLECTION nonfstr,
        STEM < "som", "bønnhørt" >,
        SYNSEM.LKEYS.KEYREL.PRED "_som-bønnhørt_a_rel",
+       SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
        SYNSEM.LOCAL.CAT.HEAD adj-no_gd ].
 
 som_bestilt_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
    [ INFLECTION finstr,
        STEM < "som", "bestilt" >,
+       SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
        SYNSEM.LKEYS.KEYREL.PRED "_som_bestilt_a_rel" ].
 
 som_en_drøm_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
    [ INFLECTION finstr,
        STEM < "som", "en", "drøm" >,
+       SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
        SYNSEM.LKEYS.KEYREL.PRED "_som_en_drøm_a_rel" ].
 
 som_en_forbannelse_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
@@ -56243,6 +56251,7 @@ som_en_forbannelse_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
 som_utgjort_abs-epon-dcl_alxm := abs-adj-epon-decl-lxm &
    [ INFLECTION finstr,
        STEM < "som", "utgjort" >,
+       SYNSEM.LOCAL.MAL-INFLECT-LEEWAY +,
        SYNSEM.LKEYS.KEYREL.PRED "_som_utgjort_a_rel" ].
 
 somalisk_alxm := stnd-adj-lxm &

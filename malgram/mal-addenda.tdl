@@ -167,19 +167,24 @@ adj-reg :+ [--GENDER-DISTINCTION bool].
 strong-adj-lxm :+ 
 [ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
   SYNSEM.ALLOWS-mal-c_sg_strong-for-n_sg #mc,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
 ; SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY -]> ,
  ARGS < [SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
          SYNSEM.ALLOWS-mal-c_sg_strong-for-n_sg #mc] > ].
 
 weak-adj-lxm :+ 
 [ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
-  ARGS < [SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd] > ].
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
+  ARGS < [SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
+    SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway] > ].
 
 adj-no_gd :+ [--GENDER-DISTINCTION -].
 
 ;;;
 
 coordination-v_inv-phrase :+ [ARGS <[SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV no-invy],...>].
+
 
 s-adv-spec-invert-v-phrase :+ [ARGS <[SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV no-invy],...>].
 
@@ -191,6 +196,29 @@ s-adv-spec-invert-v-phrase :+ [ARGS <[SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV no-invy],
 
 str-pastpt-adj-word :+ [ARGS < [SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY no-perf-flecty] >].
 
+#|
+head-verb-comp-phrase :+ [SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ +,
+ 			 NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +].
+
+head-verb-pronclit-comp-phrase :+ [SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ +,
+ 			       NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +].
+
+head-subject-phrase :+ [HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ -].
+head-subject-wh-maincl-phrase :+ [HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ -].
+
+head-subject-yn-phrase :+ [HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ -].
+|#
+#|
+head-invertsubject-decl-phrase-super :+ [HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ -].
+; [SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ #containmal,
+; HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ #containmal,
+; HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ -].
+
+head-invertsubject-interr-phrase-sup :+ [HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ -].
+;[SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ #containmal,
+; HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ -,
+; HEAD-DTR.SYNSEM.LOCAL.CONTAINS-MAL-PERSPRON-OBJ #containmal].
+|#
 
 #|
 INFO: Select malmessage_2. no key mal-ei_for_den-dem

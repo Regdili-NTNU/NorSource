@@ -438,10 +438,13 @@ mal_å_adv-p-dir-coord := p-adv-dir-connect-word &
 ;  [ STEM < "å" >,
 ;    GENRE.MALDROP no-drop ].
 
-mal_å_v-coord := v-connect-word &
-  [ STEM < "å" >,
-    SYNSEM.LKEYS.KEYREL [PRED "_og-connect_rel"],
-    GENRE.MALDROP no-drop ].
+mal_å_v-coord := v-mal-connect-word &
+  [ STEM < "å" > ].
+
+;,
+; SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY +]>,
+; SYNSEM.LKEYS.KEYREL [PRED "_og-connect_rel"],
+;    GENRE.MALDROP no-drop ].
 
 ;mal_å_v-dir-coord := coordinating-pos-v-dir-word &
 ;  [ STEM < "å" >,

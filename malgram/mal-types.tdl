@@ -106,6 +106,15 @@ no-art-to-det-changy := changy.
 
 no-critical-changy := no-spec-to-n-changy & no-adj-to-adv-changy & no-art-to-det-changy.
 
+v-mal-connect-word := v-connector &
+  [  SYNSEM.LOCAL.CAT.HEAD conn-pos,
+     SYNSEM.LOCAL.IS-PUNCT -,
+     SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY +]>,
+     SYNSEM.LKEYS.KEYREL [PRED "_og-connect_rel"],
+     GENRE.MALDROP no-drop ].
+
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 2. MAL PHRASE TYPES
 
@@ -114,12 +123,12 @@ no-critical-changy := no-spec-to-n-changy & no-adj-to-adv-changy & no-art-to-det
 ;;; MHS 290613 MALCASE - is added to block analyses of "Mannen ham frykter" that combine mal-head-subject-rule and the mal-nominative "ham" so that the only mal analysis is by way of mal-object-before-the-verb-rule.
 
 mal-head-subject-phrase := head-subject-phrase-simple &
-[ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [INV +,
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV mal-invy,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [INV +,
 					     MAIN-CL +], ;mainly a guess LH
-  SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV mal-invy,
-  FRONT-TO-FILL +,
   NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE -, 
+  FRONT-TO-FILL +,
   GENRE robust & [ MALPERM mal-invert ]].
 
 mal-head-invertsubject-decl-phrase := head-invertsubject-decl-phrase-super &
@@ -159,6 +168,13 @@ mal-adjective-mod-def-phrase := var-cc_opn-m_noid-adjective-mod-phrase &
 				   ARG0 #arg0 ] !>,
     GENRE robust].
 |#
+
+;this extension is in order to block tough movement constructions from inadvertently being analyzed as VP coordination
+mal-connect-v-mod-phrase :=  connect-v-mod-phrase-sup &
+ [SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.CAT.HEAD non-copula]>,
+  ARGS < v-mal-connect-word, [] >,
+  GENRE robust].
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;				Types for mismatch between det/art/card/quant and N'
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -246,7 +262,9 @@ mal-head-spec-phrase-cardblock := mal-head-spec-phrase-super.
 mal-head-spec-quantor-phrase := mal-head-spec-phrase-cardblock & head-spec-quantor-phrase-sup &
  [ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
-   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD quantor ].
+   HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD quantor,
+   NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
 
 mal-head-spec-art-phrase := head-spec-art-phrase-2sup & mal-head-spec-phrase-cardblock.
 
@@ -339,6 +357,7 @@ mal-vp-to-inf-cp-phrase := mal-lost-element-phrase-const-val & mal-lost-element-
 	   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE infin,
 	   SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
 	   SYNSEM.LOCAL.AGR #agr,
+	   SYNSEM.LOCAL.CAN-MAL-INFIN-INSERT +,
 	   SYNSEM.LOCAL.BINDING non-bound,
 	   SYNSEM.LOCAL.CAT.HEAD.MAIN-CL -,
            SYNSEM.LOCAL.CONT.HOOK.LTOP #4
@@ -740,6 +759,7 @@ mal-vp-subcat-np-for-pp-phrase := head-initial & head-valence-phrase & rule &
   SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v,
   SYNSEM.LOCAL.NEED-IMP-UNARY #niu,
   SYNSEM.LOCAL.REL-CL-SOM-INIT #rel-cl,
+  SYNSEM.LOCAL.CAN-MAL-INFIN-INSERT #malinf,
   SYNSEM.NON-LOCAL.SLASH <! !>,
   FRONT-TO-FILL #ftf,
   EXTRACTED-FROM -,
@@ -759,7 +779,9 @@ mal-vp-subcat-np-for-pp-phrase := head-initial & head-valence-phrase & rule &
   HEAD-DTR.SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v,
   HEAD-DTR.SYNSEM.LOCAL.REL-CL-SOM-INIT #rel-cl,
   HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
+  HEAD-DTR.SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
   HEAD-DTR.SYNSEM.VAL-CLASS v-oblique-vt,
+  HEAD-DTR.SYNSEM.LOCAL.CAN-MAL-INFIN-INSERT #malinf,
   HEAD-DTR.SYNSEM.NON-LOCAL.SLASH <! !>,
   HEAD-DTR.FRONT-TO-FILL #ftf,
   HEAD-DTR.EXTRACTED-FROM -,
@@ -773,7 +795,9 @@ mal-vp-subcat-np-for-pp-phrase := head-initial & head-valence-phrase & rule &
   NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #objind,
   NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
   NON-HEAD-DTR.SYNSEM.NON-LOCAL.SLASH <! !>,
+  HEAD-DTR.FRONT-TO-FILL #ftf,
 ;  NON-HEAD-DTR.SYNSEM.LEX -,
+  NON-HEAD-DTR.SYNSEM.LOCAL.IS-PUNCT -,
   NON-HEAD-DTR.EXTRACTED-FROM -,
   C-CONT.RELS <! arg12-relation & [ PRED "selected_prep_rel",
 ;		   LBL #handle,
@@ -813,6 +837,7 @@ mal-vp-subcat-pp-for-np-phrase := head-valence-phrase & head-initial & rule &
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
   HEAD-DTR.SYNSEM.LOCAL.BND-RESP #bresp,
   HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #wbndresp,
+  HEAD-DTR.SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
   HEAD-DTR.SYNSEM.LOCAL.NEED-IMP-UNARY #niu,
   HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
   HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
@@ -864,17 +889,29 @@ mal-s-adv-sentence-final-phrase := head-valence-phrase & head-initial &
 [ GENRE robust,
   SYNSEM.LOCAL.CAT #cat,
   SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
+  SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
+  SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CAT.HEAD.EXPLETIVE -,
+					LOCAL.CONT.HOOK.INDEX #obindex],
+  SYNSEM.LOCAL.CONT.HOOK.VARG #obindex,
+  HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #obindex,
   HEAD-DTR.SYNSEM.LOCAL.CAT #cat,
   HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV - ],
   HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ MAIN-CL + ],
   HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list,
   HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
   HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CAT.HEAD.EXPLETIVE -,
+						 LOCAL.CONT.HOOK.INDEX #obindex],
+  HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD noun,
+  HEAD-DTR.SYNSEM.LOCAL.ARG-S.REST.FIRST #obj & [LOCAL.CAT.HEAD noun],
   HEAD-DTR.SYNSEM.LOCAL.COMPS-BEGUN +,
   HEAD-DTR.SYNSEM.LOCAL.CLIT-SITE-OPEN -,
+;  HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #index & [E.TENSE finite],
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #sem,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD s-adv,
+  NON-HEAD-DTR.CAN-OCCUR-FINAL -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CONT.HOOK.LTOP #sem ] > ]. 
 
 mal-s-adv-sentence-initial-phrase := head-valence-phrase & head-final &
@@ -884,7 +921,7 @@ mal-s-adv-sentence-initial-phrase := head-valence-phrase & head-final &
   HEAD-DTR.SYNSEM.LOCAL.CAT #cat,
   HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV - ],
   HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ MAIN-CL + ],
-  HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list,
+;  HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list,
   HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
   HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
   HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN -,
@@ -892,6 +929,7 @@ mal-s-adv-sentence-initial-phrase := head-valence-phrase & head-final &
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #index & [E.TENSE finite],
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #sem,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD s-adv,
+  NON-HEAD-DTR.CAN-OCCUR-INITIAL -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CONT.HOOK.LTOP #sem ] > ]. 
 
 
@@ -965,7 +1003,7 @@ mal-object-before-the-verb-phrase := mal-head-verb-comp-phrase-sup &
 
 mal-possparticle-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-element-phrase-adj-const &
 [ GENRE robust & [ MALDROP gen-drop ],
-  SYNSEM.LOCAL.CAT.HEAD possparticle ,
+  SYNSEM.LOCAL.CAT.HEAD possparticle,
   SYNSEM.LOCAL.CAT.VAL.SPR <>,
   SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CAT.HEAD noun,
 				LOCAL.CAT.HEAD.DEF +,
@@ -986,6 +1024,7 @@ mal-possparticle-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-ele
 	   SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
 	   SYNSEM.LOCAL.MUST-APP -,
 	   SYNSEM.LOCAL.COORD-RELEASED +,
+	   SYNSEM.LOCAL.POST-NOM-POSS-APPLIED -,
 	   SYNSEM.LOCAL [DERIVED-HEAD -,
 			 DERIVED-BARE-N-FROM-ADJ -,
 			 SPEC-TO-BARE-N -,

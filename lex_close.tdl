@@ -502,7 +502,7 @@ liksom_reg-p := prep-word-reg &
 ;cases where this is needed must be built into the entry. han sover som om han er uskyldig - instead with prep-s-word-reg-irreal
 ;som_reg-p := prep-word-reg &
 ; [ STEM < "som" >,
-;   SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.CAT.HEAD verb-all]>,
+;   SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.CAT.HEAD nom]>, ; hytta som ny var vakker - must be a smallclause predprtcl som instead
 ;   SYNSEM.LKEYS.KEYREL.PRED "_som_p_rel" ].
 
 ; conjunction instead
@@ -754,6 +754,10 @@ hvis_prep-cond := prep-s-word-reg-cond &
 ; PARTITIVE PREP
 
 av_part-spec-q := part-q-prep-word &
+  [ STEM < "av" >,
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY av-partitive] ].
+
+av_part-spec-num := part-num-prep-word &
   [ STEM < "av" >,
     SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY av-partitive] ].
 
@@ -1347,7 +1351,7 @@ endog_s-adv := s-operadv-stnd-word &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY endog-k,
     SYNSEM.LKEYS.KEYREL.PRED "_endog_adv_rel"].
 
-; special marking for the purpose of s-adv-front-noninver-x-spec-v-rule, x= kanskje, så, mon, mon tro - the rule only mentions 'kanskje', hence they are all 'kanskje-k'. See also enumeration-item last in this section, such as 'enumeration-with-paranth-1'.
+; special marking for the purpose of s-adv-front-noninver-x-spec-v-rule, x= kanskje, så, mon, mon tro - . See also enumeration-item last in this section, such as 'enumeration-with-paranth-1'.
 kanskje_s-adv := s-operadv-init-word &
   [ STEM < "kanskje" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY kanskje-k,
@@ -2789,12 +2793,12 @@ selv_regadv := adv-word-reg &
   [ STEM < "selv" >,
     SYNSEM.LKEYS.KEYREL.PRED "_selv_adv_rel" ].
 
-sjølv_refl := refl-adv-word &
-  [ STEM < "sjølv" > ].
+;sjølv_refl := refl-adv-word &
+;  [ STEM < "sjølv" > ].
 
-sjølv_regadv := adv-word-reg &
-  [ STEM < "sjølv" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_sjølv_adv_rel" ].
+;sjølv_regadv := adv-word-reg &
+;  [ STEM < "sjølv" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_sjølv_adv_rel" ].
 
 sjøl_refl := refl-adv-word &
   [ STEM < "sjøl" > ].
@@ -2803,12 +2807,12 @@ sjøl_regadv := adv-word-reg &
   [ STEM < "sjøl" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sjøl_adv_rel" ].
 
-sjæl_refl := refl-adv-word &
-  [ STEM < "sjæl" > ].
+;sjæl_refl := refl-adv-word &
+;  [ STEM < "sjæl" > ].
 
-sjæl_regadv := adv-word-reg &
-  [ STEM < "sjøl" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_sjæl_adv_rel" ].
+;sjæl_regadv := adv-word-reg &
+;  [ STEM < "sjøl" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_sjæl_adv_rel" ].
 
 
 hvor_wh-regadv := wh-adv-word-reg &
@@ -5366,6 +5370,7 @@ quote_possparticle := poss-particle-word &
 hvem_interrpron := interrog-pron-word &
   [ STEM < "hvem" >,
     SYNSEM.LOCAL.SUBJ-SOM -,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG 3msg,
     SYNSEM.LKEYS.ALTKEYREL.PRED "_which_person_q_rel"].
 
 ;back to som_subjgap. 01032019 commenting out cost 45 parses in massif.
@@ -5374,16 +5379,19 @@ hvem-som_interrpron := interrog-pron-word &
     SYNSEM.LOCAL.CAT.HEAD.ACCUSATIVE -,
     SYNSEM.LOCAL.CAT.HEAD.CAN-MAIN-CLAUSE -,
     SYNSEM.LOCAL.SUBJ-SOM +,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG 3msg,
     SYNSEM.LKEYS.ALTKEYREL.PRED "_which_person_q_rel"].
 
 hva_interrpron := interrog-pron-word &
   [ STEM < "hva" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG 3nsg,
     SYNSEM.LKEYS.ALTKEYREL.PRED "_hva_q_rel"].
 
 ;back to som_subjgap.  01032019 that cost  parses in massif.
 hva-som_interrpron := interrog-pron-word &
   [ STEM < "hva", "som" >,
     SYNSEM.LOCAL.CAT.HEAD.ACCUSATIVE -,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG 3nsg,
     SYNSEM.LKEYS.ALTKEYREL.PRED "_hva_q_rel"].
 
 #|

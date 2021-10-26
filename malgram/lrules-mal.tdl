@@ -79,6 +79,7 @@ mal-de_infl-for-et-lrule := verb-lexeme &
 [ GENRE robust,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
+  SYNSEM.LOCAL.CAN-PASSIVIZE -,
   INFLECTION nonfstr-de,
   INFLECTED -,
   --MALCONJ +,
@@ -94,6 +95,7 @@ mal-te_infl-for-de-lrule := verb-lexeme &
 [ GENRE robust,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
+  SYNSEM.LOCAL.CAN-PASSIVIZE -,
   INFLECTION nonfstr-te,
   INFLECTED -,
   --MALCONJ +,
@@ -108,6 +110,7 @@ mal-te_infl-for-et-lrule := verb-lexeme &
 [ GENRE robust,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
+  SYNSEM.LOCAL.CAN-PASSIVIZE -,
   INFLECTION nonfstr-te,
   INFLECTED -,
   --MALCONJ +,
@@ -123,6 +126,7 @@ mal-et_infl-for-te-lrule := verb-lexeme &
   SYNSEM #synsem,
   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
+  SYNSEM.LOCAL.CAN-PASSIVIZE -,
   INFLECTION nonfstr-et,
   INFLECTED -,
   --MALCONJ +,
