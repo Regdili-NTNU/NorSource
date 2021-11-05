@@ -7950,8 +7950,9 @@ litt_indef-quant-sg := quant-indef-adjcard2-sg-word &
 noe_indef-quant2-sg := quant-indef-adjcard2-sg-word &
   [ STEM < "noe" >,
     SYNSEM.LOCAL.CAT.HEAD [DEGREE positive],
-    SYNSEM.LKEYS.KEYREL.PRED "_noe_q_rel",
-    SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD.ACCUSATIVE +]>].
+    SYNSEM.LKEYS.KEYREL.PRED "_noe_q_rel" ].
+;,why on earth?
+;    SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD.ACCUSATIVE +]>].
 
 ; "litt større/flere"
 litt_degcmpar := degreecmpar-spec-word &

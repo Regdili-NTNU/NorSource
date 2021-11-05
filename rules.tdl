@@ -239,6 +239,9 @@ head-part-prep-comp2-rule := head-part-prep-comp-phrase2.
 ; just for a while 07.05.05
 head-actv-verb-icomp-rule := head-actv-verb-icomp-phrase.
 head-pass-verb-icomp-rule := head-pass-verb-icomp-phrase.
+;for "overlate det til Ola å fylle bensin"
+head-actv-verb-icomp-for-expl-obj-rule := head-actv-verb-icomp-for-expl-obj-phrase.
+;are these for exlnk-const?
 head-actv-verb-icomp-infinepon-rule := head-actv-verb-icomp-infinepon-phrase.
 head-actv-verb-icomp-finepon-rule := head-actv-verb-icomp-finepon-phrase.
 head-actv-verb-icomp-fineponWH-rule := head-actv-verb-icomp-fineponWH-phrase.
@@ -403,6 +406,8 @@ s-adv-spec-v-rule := s-adv-spec-v-phrase.
 s-adv-spec-v-imperative-rule := s-adv-spec-v-imperative-phrase.
 s-adv-spec-post-v-imperative-rule := s-adv-spec-post-v-imperative-phrase.
 s-adv-spec-invert-v-rule := s-adv-spec-invert-v-phrase.
+s-adv-spec-invert-v-clit-subj-rule := s-adv-spec-invert-v-clit-subj-phrase.
+s-adv-spec-invert-v-pron-nonclit-subj-rule := s-adv-spec-invert-v-pron-nonclit-subj-phrase.
 s-adv-front-spec-v-rule := s-adv-front-spec-v-phrase.
 ; slight redundancy here...:
 s-adv-front-noninver-kanskje-spec-v-rule := s-adv-front-noninver-kanskje-spec-v-phrase.

@@ -262,9 +262,9 @@ mal-head-spec-phrase-cardblock := mal-head-spec-phrase-super.
 mal-head-spec-quantor-phrase := mal-head-spec-phrase-cardblock & head-spec-quantor-phrase-sup &
  [ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY #leeway,
-   HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
-   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD quantor,
-   NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
+ ;  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+;   NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD quantor ].
 
 mal-head-spec-art-phrase := head-spec-art-phrase-2sup & mal-head-spec-phrase-cardblock.
 
@@ -557,6 +557,7 @@ mal-refl-np-obj-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-elem
   SYNSEM.LOCAL.BND-RESP #rsp,
   SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
   SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
+  SYNSEM.LEX #lex,
   ARGS < [ SYNSEM.LOCAL.CAT.HEAD #head,
 	   SYNSEM.LOCAL.CAT.VAL.SUBJ < #subj & [ LOCAL.AGR.PNG #png ] >,
   	   SYNSEM.LOCAL.CAT.VAL.COMPS <  [ LOCAL.CAT.HEAD pers-pron & [DEF +,  
@@ -576,10 +577,9 @@ mal-refl-np-obj-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-elem
 	   SYNSEM.VAL-CLASS single-frame,
 ;	   SYNSEM.LOCAL.CAN-MAL-DROP +,
 	   SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
-	   SYNSEM.LEX +,
-	   SYNSEM.
-LOCAL.CONT.HOOK.LTOP #ltop ] >,
-GENRE.MALDROP refl-obj-drop ].
+	   SYNSEM.LEX #lex & +,
+	   SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop ] >,
+  GENRE.MALDROP refl-obj-drop ].
 
 ;; These are the concrete rule types.
 mal-3rd-refl-np-obj-drop-phrase := mal-refl-np-obj-drop-phrase &
@@ -885,14 +885,18 @@ mal-refl-pron-with-self-phrase := phrase &
 ;; Rule to accomodate wrongly placed sentence adverbs
 ;LH080911 put in HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ MAIN-CL + ],
 ; to make the rule fire as it does only in main clauses. But it doesn't seem to capture main vs subord clauses at all. TODO: make a similar rule for subordinate clauses.
+
+; for 'final' relative to an object ending the clause
 mal-s-adv-sentence-final-phrase := head-valence-phrase & head-initial &
 [ GENRE robust,
+  FRONT-TO-FILL -,
   SYNSEM.LOCAL.CAT #cat,
   SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
-  SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
+  SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval, ;"vil sove" also counts as smthg "ikke" cannot come behind
   SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CAT.HEAD.EXPLETIVE -,
 					LOCAL.CONT.HOOK.INDEX #obindex],
   SYNSEM.LOCAL.CONT.HOOK.VARG #obindex,
+  SYNSEM.LOCAL.CONNECT-PENDING #connpend,
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #obindex,
   HEAD-DTR.SYNSEM.LOCAL.CAT #cat,
   HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV - ],
@@ -910,14 +914,65 @@ mal-s-adv-sentence-final-phrase := head-valence-phrase & head-initial &
 ;  HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #index & [E.TENSE finite],
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #sem,
+  GENRE robust,
+  HEAD-DTR.SYNSEM.LOCAL.CONNECT-PENDING #connpend,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD s-adv,
   NON-HEAD-DTR.CAN-OCCUR-FINAL -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CONT.HOOK.LTOP #sem ] > ]. 
+
+; for 'final' relative to a verb or other predicate ending the clause
+mal-s-adv-sentence-final-behind-predicate-phrase := head-valence-phrase & head-initial &
+[ GENRE robust,
+  FRONT-TO-FILL -,
+  SYNSEM.LOCAL.CAT #cat,
+  SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
+  SYNSEM.LOCAL.CONNECT-PENDING #connpend,
+  HEAD-DTR.SYNSEM.LOCAL.CAT #cat,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV - ],
+  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ MAIN-CL + ],
+  HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL intrans-secpred-qval,
+  HEAD-DTR.SYNSEM.LOCAL.COMPS-BEGUN +,
+  HEAD-DTR.SYNSEM.LOCAL.CLIT-SITE-OPEN -,
+  HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #index & [E.TENSE finite],
+  HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #sem,
+  HEAD-DTR.SYNSEM.LOCAL.CONNECT-PENDING #connpend,
+  GENRE robust,
+  NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD s-adv,
+  NON-HEAD-DTR.CAN-OCCUR-FINAL -,
+  NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CONT.HOOK.LTOP #sem ] > ]. 
+
+; for 'final' relative to inverted noun subject ending the clause
+mal-s-adv-sentence-final-behind-inverted-noun-phrase := head-valence-phrase & head-initial &
+[ GENRE robust,
+  FRONT-TO-FILL -,
+  SYNSEM.LOCAL.CAT #cat,
+  SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
+  SYNSEM.LOCAL.CONNECT-PENDING #connpend,
+  HEAD-DTR.SYNSEM.LOCAL.CAT #cat,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV + ],
+  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ MAIN-CL + ],
+  HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD noun,
+;  HEAD-DTR.SYNSEM.LOCAL.COMPS-BEGUN +,
+  HEAD-DTR.SYNSEM.LOCAL.CLIT-SITE-OPEN -,
+  HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #index & [E.TENSE finite],
+  HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #sem,
+  HEAD-DTR.SYNSEM.LOCAL.CONNECT-PENDING #connpend,
+  GENRE robust,
+  NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD s-adv,
+  NON-HEAD-DTR.CAN-OCCUR-FINAL -,
+  NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CONT.HOOK.LTOP #sem ] > ]. 
+
 
 mal-s-adv-sentence-initial-phrase := head-valence-phrase & head-final &
 [ GENRE robust,
   SYNSEM.LOCAL.CAT #cat,
   SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
+  SYNSEM.LOCAL.CONNECT-PENDING #connpend,
   HEAD-DTR.SYNSEM.LOCAL.CAT #cat,
   HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV - ],
   HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ MAIN-CL + ],
@@ -928,6 +983,7 @@ mal-s-adv-sentence-initial-phrase := head-valence-phrase & head-final &
   HEAD-DTR.SYNSEM.LOCAL.CLIT-SITE-OPEN -,
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #index & [E.TENSE finite],
   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #sem,
+  HEAD-DTR.SYNSEM.LOCAL.CONNECT-PENDING #connpend,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD s-adv,
   NON-HEAD-DTR.CAN-OCCUR-INITIAL -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CONT.HOOK.LTOP #sem ] > ]. 

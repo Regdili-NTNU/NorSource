@@ -21,14 +21,14 @@ mal-f_spec-m_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 ; Number mismatch 1  'disse gutten smiler'
 mal-pl_spec-sg_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg,
-  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+;  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl ].
 
 ; Number mismatch 2  'denne guttene smiler'
 ; TODO: for neuter plural short form we get absurd results - "det snille barn sover" gets punished by this rule, with "barn" read as plural
 mal-sg_spec-pl_noun-head-spec-det-rule := mal-head-spec-det-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
-  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+;  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG sg ].
 
 ;; mal article
@@ -49,22 +49,22 @@ mal-fem_spec-m_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 ;'et hytte smiler
 mal-n_spec-f_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG fem,
-  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+;  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut ].
 
 ;'en fjell smiler' 'ei fjell smiler'
 mal-m_or_f_spec-n_noun-head-spec-art-rule := mal-head-spec-art-phrase &
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
-  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem,
-  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem ].
+;  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
 
 ;; mal quantor
 
 ;'hvert gutt smiler'
 mal-n_spec-m_or_f_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
-[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-or-fem & [ NUM #num ],
-  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
-  NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+[  HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-or-fem & [ NUM #num ],
+;  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ,
+  NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ,
   NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut & [ NUM sing & #num ] ].
 
 ;'hver fjell smiler'
@@ -76,9 +76,9 @@ mal-m_or_f_spec-n_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase &
 ;'noen gutt smiler'
 mal-pl_spec-sg_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
 [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg,
-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
-  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl,
-NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ].
+;HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+;NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl ].
 
 ;'hver gutter smiler' 'hver fjell smiler'
 mal-sg_spec-pl_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
@@ -96,20 +96,20 @@ mal-head-invertsubject-decl-rule := mal-head-invertsubject-decl-phrase.
 ;; Rules related definite adj-n-constructions with a dropped det.
 
 mal-adjective-mod-def-neut-sg-rule := mal-adjective-mod-def-phrase &
-[ HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
-  NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+[ NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+;  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   C-CONT.RELS <! [ PRED "_deict_rel", ARG0.PNG.NG [GEN n, NUM sing]] !>  ].
 
 mal-adjective-mod-def-m-or-f-sg-rule := mal-adjective-mod-def-phrase &
 [ SYNSEM.LOCAL.HAS-SUBJ-V-INVERTED -,
     SYNSEM.LOCAL.HAS-COMBINED-BY-V-COMP -,
-    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+;    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   C-CONT.RELS <! [ PRED "_deict_rel", ARG0.PNG.NG [GEN m-or-f, NUM sing]] !>  ].
 
 mal-adjective-mod-def-plur-rule := mal-adjective-mod-def-phrase &
-[ HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
-  NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+[ NON-HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+;  HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
   C-CONT.RELS <! [ PRED "_deict_rel", ARG0.PNG.NG.NUM plur] !>].
 
 ;;;  Rules related to lacking elements, or elements in excess
@@ -171,6 +171,8 @@ mal-refl-pron-with-self-rule := mal-refl-pron-with-self-phrase.
 ;mal-perf-marker-drop-rule := mal-perf-marker-drop-phrase.
 ;Big trouble with preventing intuitive misfires for "hun unner meg den ikke", with "den" as non-clitic; TODO:
 mal-s-adv-sentence-final-rule := mal-s-adv-sentence-final-phrase.
+mal-s-adv-sentence-final-behind-predicate-rule := mal-s-adv-sentence-final-behind-predicate-phrase.
+mal-s-adv-sentence-final-behind-inverted-noun-rule := mal-s-adv-sentence-final-behind-inverted-noun-phrase.
 ;only for 'nok'
 ;mal-quant-adv-final-rule := mal-quant-adv-final-phrase.
 mal-s-adv-sentence-initial-rule := mal-s-adv-sentence-initial-phrase.

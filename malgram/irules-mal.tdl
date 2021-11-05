@@ -248,8 +248,8 @@ mal-c_sg_strong-for-n_sg_strong-infl_rule :=
 neutsg-infl-adj-word-const &
 [GENRE robust & [MALFLECT mal-flect],
  SYNSEM.ALLOWS-mal-c_sg_strong-for-n_sg +,
- SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
- SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY -]>,
+; SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+; SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY -]>,
  SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
 
 ; and new, which hopefully does better LH11032019
@@ -269,13 +269,13 @@ mal-c_sg_strong-for-pl_strong-infl_rule := strongpl-adj-word-const &
 [ GENRE robust & [MALFLECT mal-flect],
  SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION -, ;from '+' to get glad jenter
  SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY -]>,
- SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ]. 
+ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY bool ]. ;-
 
 mal-c_sg_strong-for-weak-infl_rule := weak-adj-word-const & 
 [ GENRE robust & [MALFLECT mal-flect], 
- SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+; SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
  SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION -, ;from '+' to get 'en glad jenta
- ARGS < [SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+ ARGS < [SYNSEM.LOCAL.MAL-INFLECT-LEEWAY bool, ;-
          SYNSEM.LOCAL.CAT.HEAD.ORDINAL -]> ]. ; to exempt ordinals from this rule
 
 ;;
@@ -313,7 +313,7 @@ mal-n_sg_strong-for-weak-finstr_infl_rule :=
 %suffix (e ett)(ø øtt)(å ått)(i idt)(i itt)(æ ætt)(y ytt)(d dt)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(at att)
 weak-adj-word & 
 [ GENRE robust & [MALFLECT mal-flect],
- SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+; SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
  SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
 
 ;;
@@ -326,7 +326,7 @@ mal-plural_or_weak-for-c_sg_strong-finstr_infl_rule :=
 %suffix (r re)(l le)(n ne)(d de)(g ge)(k ke)(p pe)(t te)(s se)(v ve)(e ee)(a ae)(o oe)(ø øe)(å åe)(u ue)(i ie)(æ æe)(y ye)(m me)(am amme)(em emme)(im imme)(om omme)(um umme)(øm ømme)(ym ymme)
 orth-alter-masc-or-fem-sg-adj-word &
 [GENRE robust & [MALFLECT mal-flect],
- SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+; SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
  SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY -]> ].
 
 ; (e e)

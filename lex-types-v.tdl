@@ -478,7 +478,8 @@ v-trPrtclScpr-scSuNrg_scPredprtclSom := trans-secpred-prtcl1a-rais-from-nonverba
 
 ;v-trScpr-scObNrg_obRefl_scPredprtclSom
 v-trPrtclScpr-obRefl_scObNrg_scPredprtcl_scPredprtclSom := v-trPrtclScpr-scSuNrg_scPredprtclSom &
- [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX #5,
+ [  SYNSEM.LOCAL.CAN-PASSIVIZE -,
+    SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX #5,
 				 LOCAL.AGR.PNG #2 ]>, 
 			 COMPS < [LOCAL.CAT.HEAD pers-pron,
 				  LOCAL.BINDING seg-bare & [ LEX-TAME + ],
@@ -653,7 +654,8 @@ v-trScpr-scObNrg_obRefl_scBareinf := trans-secpred-rais-refl-from-verbal-arg2-ve
 ;se ham komme:
 v-trScpr-scObNrg_scBareinf := trans-secpred-rais-from-verbal-arg2-verb-lexeme.
 ; "han viser seg å komme"
-v-trNrfScpr-obReflExpl_scSuNrg_scInf := trans-secpred-rais-refl-tosubj-from-infinmarked-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+v-trNrfScpr-obReflExpl_scSuNrg_scInf := trans-secpred-rais-refl-tosubj-from-infinmarked-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAN-PASSIVIZE -,
+			     SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
 ; fortone seg syk (not specific for sc pos)
 v-trNrfScpr-obReflExpl_scSuNrg := trans-secpred-refl-argx-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
 ; la seg se
@@ -1117,6 +1119,7 @@ v-trPrtclObl-obRefl_oblN := v-trprtclobl &
 				LOCAL.CAN-MAL-DROP +, ; for reflexive object - for mal-gram uses!
 				LOCAL.BND-MOUNTABLE < [ ANAPH-INDX #1 ] >,
 				LOCAL.AGR.PNG #2], [] >,
+	 LOCAL.CAN-PASSIVIZE -,
 	 LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nominal] >]].
 ;TODO fix:
 v-trPrtclObl-obRefl_oblEqObInf := v-trprtclobl & 
@@ -1136,6 +1139,7 @@ v-trPrtclObl-obRefl_oblEqObInf := v-trprtclobl &
 				LOCAL.CONT.HOOK.XARG #1,
 				LOCAL.CONT.HOOK.LTOP #2,
 				LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD infin-comp & [TRANSPAR +]]>,
+	 LOCAL.CAN-PASSIVIZE -,
 	 LKEYS.KEYREL.ARGOBLQ #2,
 	 LKEYS.KEYREL.ARG2 #1 ]].
 ;TODO fix:
@@ -1155,6 +1159,7 @@ v-trPrtclObl-obRefl_oblDECL := v-trprtclobl &
 				     LOCAL.CONT.HOOK.LTOP #1 & handle],
 	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
 							KEYS.KEY clse ]]>,
+	 LOCAL.CAN-PASSIVIZE -,
 	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
 ;TODO fix:
 v-trPrtclObl-obRefl_oblINTERR := v-trprtclobl & 
@@ -1174,6 +1179,7 @@ v-trPrtclObl-obRefl_oblINTERR := v-trprtclobl &
 				     LOCAL.CONT.HOOK.LTOP #1 & handle],
 	 LOCAL.CAT.VAL.ICOMPS < #loc & [LOCAL.CAT.HEAD [SELECTED +,
 							KEYS.KEY clse ]]>,
+	 LOCAL.CAN-PASSIVIZE -,
 	 LKEYS.KEYREL arg12obl-rel & [ ARGOBLQ #1 ]] ].
 
 

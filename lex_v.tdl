@@ -94115,6 +94115,7 @@ undre_ditr-yn-refl_vlxm := v-ditr-iobRefl_obYN &
   [ INFLECTION nonfstr-et,
       STEM < "undre" >,
       SYNSEM.LKEYS.KEYREL.PRED "_undre_v-ditr_rel",
+    SYNSEM.LOCAL.CAN-PASSIVIZE -,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 undre_tr-decl_vlxm := v-tr-suDECL &
