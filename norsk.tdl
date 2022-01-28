@@ -1009,8 +1009,9 @@ kanskje-k := predsort.
 selv-k := predsort.
 bare-sadv-k := predsort.
 til-og-med-k := predsort.
-neppe-k := predsort.
 heller-k := predsort.
+neppe-k := predsort.
+overhodet-k := predsort.
 sannsynligvis-k := predsort.
 virkelig-k := predsort.
 antakeligvis-k := predsort.
@@ -1119,6 +1120,7 @@ has-k := predsort.
 mål-k := predsort.
 død-k := predsort.
 smil-k := predsort.
+latter-k := predsort.
 dagtid-k := predsort.
 søvn-k := predsort.
 ting-k := predsort.
@@ -1810,6 +1812,7 @@ kanskje-adv-s := adv-s & kanskje-k.
 så-adv-s := adv-s & så-k.
 mon-adv-s := adv-s & mon-k.
 neppe-adv-s := adv-s & neppe-k.
+overhodet-adv-s := adv-s & overhodet-k.
 heller-adv-s := adv-s & heller-k.
 sannsynligvis-adv-s := adv-s & sannsynligvis-k.
 virkelig-adv-s := adv-s & virkelig-k.
@@ -2011,6 +2014,7 @@ inhr-comp := non-selct. ;non-measurnoun.
 leir-inhcmp := inhr-comp & leir-k.
 død-inhcmp := inhr-comp & død-k.
 smil-inhcmp := inhr-comp & smil-k.
+latter-inhcmp := inhr-comp & latter-k.
 søvn-inhcmp := inhr-comp & søvn-k.
 ting-inhcmp := inhr-comp & ting-k.
 ;rundtur-inhcmp := inhr-comp.
@@ -20719,7 +20723,8 @@ object-deletion := const-ltol-rule &
 	 SYNSEM.LOCAL.CAT.VAL.COMPS < #obj >,
    	SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
    	SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CAT.HEAD.EXPLETIVE -,
-					      LOCAL.CONT.HOOK.INDEX #index],
+					      LOCAL.CONT.HOOK.INDEX #index,
+					      LOCAL.CAT.HEAD.KEYS.KEY anonym-k],; to avoid inher-comp nouns undergoing the rule, like smil, død etc
    	SYNSEM.LOCAL.CAT.HEAD #2,
    	SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
 	 SYNSEM.VAL-CLASS #valclass ], ; BY-DELETION -

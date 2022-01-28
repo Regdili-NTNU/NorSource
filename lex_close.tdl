@@ -348,6 +348,11 @@ hvorvidt_subord := y-n-quest-subord-comp &
 ;    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY om-pathconsumpt-dir]].
 
 ; PREP-SEL
+dummy_sel := prep-word-sel &
+  [ STEM < "PREPOSITION" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_selected_prep_rel",
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY selct ]].
+
 om_sel := prep-word-sel &
   [ STEM < "om" >,
     SYNSEM.LKEYS.KEYREL.PRED "_om_p-sel_rel",
@@ -1216,10 +1221,10 @@ slett-ikke_s-adv := s-operadv-stnd-word &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY ikke-k,
     SYNSEM.LKEYS.KEYREL.PRED "_slett-ikke-neg_adv_rel"].
 
-overhodet-ikke_s-adv := s-operadv-stnd-word &
-  [ STEM < "overhodet","ikke" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY ikke-k,
-    SYNSEM.LKEYS.KEYREL.PRED "_overhodet-ikke-neg_adv_rel"].
+overhodet_s-adv := s-operadv-stnd-word &
+  [ STEM < "overhodet" >,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY overhodet-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_overhodet-neg_adv_rel"].
 
 ikke-lenger_s-adv := s-operadv-stnd-word &
   [ STEM < "ikke", "lenger" >,
@@ -11670,8 +11675,8 @@ synes_intr-secpr-raistosubj-nonv-som-om_vlxm := v-intrScpr-scSuNrg_scPredprtcl_s
 ;  [ INFLECTION nonfstr-strong,
 ;      STEM < "og" > ].
 
-petko_cameleon-gapping_conj := gapping-conjunction &
-  [ STEM < "petko" > ].
+;petko_cameleon-gapping_conj := gapping-conjunction &
+;  [ STEM < "petko" > ].
 
 og_gapping_conj := gapping-conjunction &
   [ STEM < "og" > ].

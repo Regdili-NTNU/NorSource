@@ -26,7 +26,7 @@ lost_subject := noun-lexeme &
 
 lost_preposition := prep-word-sel &
 [ STEM < "preposition" >,
-  SYNSEM.LKEYS.KEYREL.PRED "selected_prep_rel",
+  SYNSEM.LKEYS.KEYREL.PRED "_selected_prep_rel",
   SYNSEM.LOCAL.CAT.HEAD.KEYS keys_min ].
 
 ;; EAA: Single def. is again accepted by the general grammar.

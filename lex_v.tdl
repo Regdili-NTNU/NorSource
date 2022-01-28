@@ -47726,20 +47726,24 @@ le_iv_vlxm := v-intr &
 le_trScpr-obRefl-scObCsd_vlxm := v-trScpr-obRefl_scObCsd &
   [ INFLECTION finstr-dd,
       STEM < "le" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_le_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 le_tr-detachposs_vlxm := v-trObl-oblPRTOFob &
   [ INFLECTION finstr-dd,
       STEM < "le" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_le_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-le_tv_vlxm := v-tr &
+le_tr-eventunit_vlxm := v-tr-obEventunit &
   [ INFLECTION finstr-dd,
       STEM < "le" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_le_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY latter-inhcmp ]]> ].
 
 lease_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -76959,12 +76963,14 @@ smile_intr-obl-til_vlxm := v-intrObl-oblN &
 smile_intr_vlxm := v-intr &
   [ INFLECTION nonfstr-te,
       STEM < "smile" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_smile_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-smile_tr_vlxm := v-tr &
+smile_tr-eventunit_vlxm := v-tr-obEventunit &
   [ INFLECTION nonfstr-te,
       STEM < "smile" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_smile_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
     SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY smil-inhcmp ]]>  ].
