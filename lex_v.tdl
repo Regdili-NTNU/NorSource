@@ -46324,6 +46324,7 @@ kunne_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-strong,
       STEM < "kunne" >,
       SYNSEM.LKEYS.KEYREL.PRED "_kunne_v-tr_rel",
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.MODIFICATION-PERFORMED -] >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 kunngjøre_tr-subord_vlxm := v-tr-obDECL &

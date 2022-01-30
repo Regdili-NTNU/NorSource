@@ -15129,6 +15129,7 @@ adjective-mod-phrase-sup := a-mod-phrase-sup & rule & no-slash &
   [  RULE #3,
      SYNSEM.LOCAL.DERIVED-HEAD #2,
      SYNSEM.LOCAL.CONT.HOOK.LTOP #1,
+     SYNSEM.LOCAL.MODIFICATION-PERFORMED +,
 ;     SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
      HEAD-DTR.RULE #3,
      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
