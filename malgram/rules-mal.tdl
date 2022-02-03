@@ -90,8 +90,10 @@ mal-sg_spec-pl_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase &
 ;; Rules related to wrong use of inversion
 
 ; LH080911: tentatively rule out, since they misfire a lot on the s-test-neg suite
+; this one seems ok: LH03022022
 mal-head-subject-rule := mal-head-subject-phrase.
-mal-head-invertsubject-decl-rule := mal-head-invertsubject-decl-phrase.
+; this one is not ok - there are simply too many declarative constructions where an inversion is part, cannot be navigated by rules, and treeebanking is always a blunt measure: LH03022022
+;mal-head-invertsubject-decl-rule := mal-head-invertsubject-decl-phrase.
 
 ;; Rules related definite adj-n-constructions with a dropped det.
 

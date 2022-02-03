@@ -131,11 +131,12 @@ mal-head-subject-phrase := head-subject-phrase-simple &
   FRONT-TO-FILL +,
   GENRE robust & [ MALPERM mal-invert ]].
 
+;rather suspicious - applies in når kommer du and kommer du, without quest-mark TODO, or comment out LH02022022
 mal-head-invertsubject-decl-phrase := head-invertsubject-decl-phrase-super &
 [ SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV mal-invy,
-  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all& [INV -,
-					     MAIN-CL +], ;mainly a guess LH,
-  FRONT-TO-FILL -,
+  HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all& [INV -, ; -
+					    MAIN-CL +], ;mainly a guess LH,
+  FRONT-TO-FILL -, ; from '-' to prevent fire for "sover du"
   NON-HEAD-DTR.SYNSEM.LOCAL.CTXT non-pron-discbnd,
   GENRE robust & [ MALDROP no-drop ] ].
 

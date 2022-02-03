@@ -12756,6 +12756,7 @@ head-resumptsubject-interr-phrase := basic-head-subj-phrase-super & head-final &
 head-invertsubject-decl-phrase-super := another-basic-head-subj-phrase & head-initial & rule &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS #3 & list,
     SYNSEM.LOCAL.CAT.VAL.ICOMPS #30,
+;    SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV + ],
     SYNSEM.LOCAL.CONT.HOOK #40,
     SYNSEM.LOCAL.CONT.HOOK.INDEX #8,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop,
@@ -12775,7 +12776,7 @@ head-invertsubject-decl-phrase-super := another-basic-head-subj-phrase & head-in
     HEAD-DTR.SYNSEM.LOCAL.WH-ISLAND -,
     HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ DECL +,
-					        WH-COMPLETE -],
+					        WH-COMPLETE -], 
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ < [LOCAL.CAT.HEAD.EXPLETIVE #expl] >,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #3,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #30,
