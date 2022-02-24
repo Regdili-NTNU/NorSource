@@ -26,7 +26,8 @@ root := phrase &
   SYNSEM.LOCAL.MUST-COORDINATE -,
   SYNSEM.LOCAL.BND-RESP <>,  ;;LH020216 Refl binding is now a bit out of control, so temporarily suspending these constraints. See head-verb-tame-comp-phrase and trans-arg1-2refl-synsem.
   SYNSEM.LOCAL.WAIT-BND-RESP <>,
-  SYNSEM.LOCAL.MUST-COORD-PROJECT -,
+SYNSEM.LOCAL.MUST-COORD-PROJECT -,
+SYNSEM.LOCAL.INV-DECL-PRECARIOUS -,
   SYNSEM.LOCAL.NEED-Q-MARK -, ;; MHS 120713 This line only has effect in the mal-grammar.
 ;  SYNSEM.LOCAL.IS-A-COMPLEMENT -, ;; MHS 120713 Experimenting with using this type to reduce spurious parses that arise in main clause extraction.
   SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],

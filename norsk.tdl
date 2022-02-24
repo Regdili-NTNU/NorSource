@@ -12813,8 +12813,9 @@ head-invertsubject-decl-phrase-super := another-basic-head-subj-phrase & head-in
 
 
 head-invertsubject-decl-phrase-simple-sup := head-invertsubject-decl-phrase-super &
-[ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV + ], ; the mal-counterpart has -
-;  FRONT-TO-FILL +, ;; will be overridden by head-filler and adv-mod-front-vp-phrase, and 'conceiled' by correlative-inv rule. To prevent 'kommer han' from being accepted as a freestanding declarative clause.
+[ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ INV + ],
+  SYNSEM.LOCAL.INV-DECL-PRECARIOUS +, 
+;  FRONT-TO-FILL +, ;; will be overridden by head-filler and adv-mod-front-vp-phrase, and 'conceiled' by correlative-inv rule. To prevent 'kommer han' from being accepted as a freestanding declarative clause. As for INV+, the mal-counterpart has -
 ;  FRONT-TO-FILL bool, ;; MHS 060813 Temporary change. This needs to be moved down the hierarchy.
   HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAIN-CL bool ].; from '+', to allow spec as '-' in correlative 'sover du, kommer jeg'; ,
 ;HEAD-DTR.SYNSEM.NON-LOCAL.SLASH <!!>
@@ -15659,8 +15660,10 @@ period-mod-for-v-phrase := period-mod-phrase &
                            ICOMPS #2,
                            SPR #3,
                            SPEC #4 ],
+    SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec,
     SYNSEM.LOCAL.HAS-PERIOD +,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop-or-comm,
+    HEAD-DTR.SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [MAIN-CL +],
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL [ SUBJ #0 & antilist,
                                     COMPS #1 & null,
@@ -18413,6 +18416,8 @@ adv-mod-vp-phrase := adv-mod-phrase & rule &
     HEAD-DTR.FRONT-TO-FILL #33,
     HEAD-DTR.SYNSEM.LOCAL.HIGHEST-V-PROJ #proj,
     SYNSEM.LOCAL.NEED-IMP-UNARY #43,
+    SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec,
+    HEAD-DTR.SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
 ;    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb,
     HEAD-DTR.SYNSEM.LOCAL.NEED-IMP-UNARY #43,
@@ -18445,7 +18450,7 @@ adv-mod-vp-phrase := adv-mod-phrase & rule &
 
 adv-mod-front-vp-phrase := adv-mod-front-phrase &
   [ SYNSEM.LOCAL.CAT.HEAD verb-all & [INV +,
-                                      DECL +],
+                                      DECL bool], ; from +
     SYNSEM.LOCAL.CAT.VAL.COMPS #2,
     SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
     SYNSEM.LOCAL.CAT.VAL.ICOMPS #3,
@@ -18453,7 +18458,7 @@ adv-mod-front-vp-phrase := adv-mod-front-phrase &
     FRONT-TO-FILL -,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #3,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [INV +,
-                                               DECL +],
+                                               DECL bool], ; from +
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #2,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.CAT.HEAD verb-all & [INV +],
@@ -19576,7 +19581,7 @@ var-non_inv-head-filler-topic-phrase := head-filler-topic-phrase-sup &
 head-filler-topic-phrase := basic-head-filler-phrase & head-final &
   [ SYNSEM.LOCAL.CAT.HEAD verb-all & [INV +,
 				      MAIN-CL +, ;; MHS 090813 Adding this block fronting in subordinate clauses, which, as far I know, doesn't occur in Norwegian. See sentences such as 'vi muliggjorde det at han fikk innreisetillatelse'.
-                                      DECL +],
+                                      DECL bool], ; from +
     SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD #6,
     SYNSEM.LOCAL.CONT.HOOK.INDEX #5,
     SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
