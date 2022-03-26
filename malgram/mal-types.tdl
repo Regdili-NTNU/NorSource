@@ -843,7 +843,8 @@ mal-vp-subcat-pp-for-np-phrase := head-valence-phrase & head-initial & rule &
   HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
   HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
   HEAD-DTR.SYNSEM.NON-LOCAL.SLASH <! !>,
-;  HEAD-DTR.SYNSEM.VAL-CLASS v-oblique-vt,  
+;  HEAD-DTR.SYNSEM.VAL-CLASS v-oblique-vt,  ;here needed is a type for oblig-tr
+  HEAD-DTR.SYNSEM.VAL-CLASS v-tr-only-vt,
   HEAD-DTR.FRONT-TO-FILL #ftf,
   HEAD-DTR.EXTRACTED-FROM -,
   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-ultra,

@@ -23558,6 +23558,7 @@ fortynne_tv_vlxm := v-tr &
 fortære_tr_vlxm := v-tr &
    [ STEM < "fortære" >,
      INFLECTION nonfstr-te,
+     SYNSEM.VAL-CLASS v-tr-only-vt,
      SYNSEM.LKEYS.KEYREL.PRED "_fortære_v-tr_rel",
      SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
@@ -62644,10 +62645,10 @@ prøve_tr-refl_vlxm := v-tr-obRefl &
       SYNSEM.LKEYS.KEYREL.PRED "_prøve_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-prøve_intr_vlxm := v-intr &
-  [ STEM < "prøve" >,
+prøve-og-feile_intr_vlxm := v-intr &
+  [ STEM < "prøve", "og", "feile" >,
       INFLECTION nonfstr-et_or_de,
-      SYNSEM.LKEYS.KEYREL.PRED "_prøve_v-intr_rel",
+      SYNSEM.LKEYS.KEYREL.PRED "_prøve-og-feile_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 prøve_tr_vlxm := v-tr &

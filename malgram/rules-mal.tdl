@@ -160,7 +160,7 @@ mal-redundant-med-with-sammen-rule := mal-redundant-med-with-sammen-phrase.
 
 ;The noun following the verb "GET-WORD-RIGHT" should not be introduced by a preposition.
 ; this can operate only on verbs with object as their unique frame
-;mal-vp-subcat-pp-for-np-rule := mal-vp-subcat-pp-for-np-phrase.
+mal-vp-subcat-pp-for-np-rule := mal-vp-subcat-pp-for-np-phrase.
 
 ;IN:
 ;The noun following the verb "GET-WORD-RIGHT" should always be introduced by a preposition.

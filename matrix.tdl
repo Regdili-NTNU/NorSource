@@ -242,6 +242,7 @@ single-frame := val-class.
 multi-frame := val-class.
 v-tr-obRefl-vt := single-frame.
 v-oblique-vt := single-frame.
+v-tr-only-vt := single-frame.
 
 
 lex-or-phrase-synsem := synsem-min &
