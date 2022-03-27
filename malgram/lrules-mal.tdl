@@ -74,7 +74,6 @@ mal-de_infl-for-te-lrule := verb-lexeme &
 		   INFLECTED - ]>].
 
  
-; LH201115 it wrongly rules 'jeg prøvde...' as having wrong ending. Of course the form is also recognized as correct, but that rule is ranked lower than the mal-rule. Until treebanking anew, rather neutralize the rule, by a vague message.
 mal-de_infl-for-et-lrule := verb-lexeme & 
 [ GENRE robust,
   SYNSEM #synsem,

@@ -536,14 +536,15 @@ mal-np-obj-drop-phrase := mal-lost-element-phrase-const-idx & mal-lost-element-p
 		   BODY handle ] !>,
   C-CONT.HCONS <! [ HARG #rstr, LARG #label ] !>,
   ARGS < [ SYNSEM.LOCAL.CAT.HEAD #head,
-	  	   SYNSEM.LOCAL.CAT.VAL.SUBJ #subj,
-  	 	   SYNSEM.LOCAL.CAT.VAL.COMPS < unexpressed & [ LOCAL.CAT.HEAD np-head, ;& n-or-adj,
-														LOCAL.CAT.VAL.SPR <>,
-														LOCAL.BINDING.LEX-TAME - ] >,
-  		    SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps,
-  		    SYNSEM.LOCAL.CAT.VAL.SPR #spr,
-		    SYNSEM.LOCAL.CONT.HOOK.VARG #argo,
-		    SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop ] >,
+	   SYNSEM.LOCAL.CAT.VAL.SUBJ #subj,
+	   SYNSEM.LOCAL.CAT.VAL.COMPS < unexpressed & [ LOCAL.CAT.HEAD np-head, ;& n-or-adj,
+							LOCAL.CAT.VAL.SPR <>,
+							LOCAL.BINDING.LEX-TAME - ] >,
+	   SYNSEM.VAL-CLASS v-tr-only-vt,
+	   SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps,
+	   SYNSEM.LOCAL.CAT.VAL.SPR #spr,
+	   SYNSEM.LOCAL.CONT.HOOK.VARG #argo,
+	   SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop ] >,
   GENRE.MALDROP obj-drop ].
 
 
