@@ -123,6 +123,23 @@ mal-te_infl-for-et-lrule := verb-lexeme &
 mal-et_infl-for-te-lrule := verb-lexeme & 
 [ GENRE robust,
   SYNSEM #synsem,
+  SYNSEM.LOCAL.OBJ-DEL-APPLIED bool, ;-,
+  SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
+  SYNSEM.LOCAL.CAN-PASSIVIZE bool, ;-,
+  INFLECTION nonfstr-et,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED bool, ;-,
+	     SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-te,
+		   INFLECTED - ]>].
+
+
+#|
+mal-et_infl-for-te-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   SYNSEM.LOCAL.CAN-PASSIVIZE -,
@@ -134,6 +151,7 @@ mal-et_infl-for-te-lrule := verb-lexeme &
 	       --MALCONJ -,
 		   INFLECTION nonfstr-te,
 		   INFLECTED - ]>].
+|#
 
 ;LH121215 Commented away, for reason explained in 'malrules, messages, examples 121215'
 #|
