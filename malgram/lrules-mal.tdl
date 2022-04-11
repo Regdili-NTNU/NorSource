@@ -120,6 +120,8 @@ mal-te_infl-for-et-lrule := verb-lexeme &
 		   INFLECTION nonfstr-et,
 		   INFLECTED - ]>].
 
+#|
+; experiment 110422 - aborted
 mal-et_infl-for-te-lrule := verb-lexeme & 
 [ GENRE robust,
   SYNSEM #synsem,
@@ -134,9 +136,10 @@ mal-et_infl-for-te-lrule := verb-lexeme &
 	       --MALCONJ -,
 		   INFLECTION nonfstr-te,
 		   INFLECTED - ]>].
+		 
+|#
 
 
-#|
 mal-et_infl-for-te-lrule := verb-lexeme & 
 [ GENRE robust,
   SYNSEM #synsem,
@@ -151,7 +154,7 @@ mal-et_infl-for-te-lrule := verb-lexeme &
 	       --MALCONJ -,
 		   INFLECTION nonfstr-te,
 		   INFLECTED - ]>].
-|#
+
 
 ;LH121215 Commented away, for reason explained in 'malrules, messages, examples 121215'
 #|
