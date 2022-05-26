@@ -12823,7 +12823,9 @@ head-invertsubject-decl-phrase-simple-sup := head-invertsubject-decl-phrase-supe
 
 head-invertsubject-decl-phrase := head-invertsubject-decl-phrase-simple-sup &
   [ NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX [ WH - ],
-    NON-HEAD-DTR.SYNSEM.LOCAL.CTXT non-pron-discbnd ].
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ACCUSATIVE -,
+					MAL.MALCASE -],
+   NON-HEAD-DTR.SYNSEM.LOCAL.CTXT non-pron-discbnd ].
 
 
 head-clit-invertsubject-decl-phrase := head-invertsubject-decl-phrase-simple-sup &
@@ -12832,7 +12834,8 @@ head-clit-invertsubject-decl-phrase := head-invertsubject-decl-phrase-simple-sup
    SYNSEM.LOCAL.CLIT-PRON-CONFIRMED -,
    HEAD-DTR.SYNSEM.LOCAL.CLIT-SITE-OPEN +,
    HEAD-DTR.SYNSEM.LEX +,
-   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD pers-pron,
+   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD pers-pron & [ACCUSATIVE -,
+						   MAL.MALCASE -],
    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX [ WH - ],
    NON-HEAD-DTR.SYNSEM.LEX +,
    NON-HEAD-DTR.SYNSEM.LOCAL.CTXT pron-discbnd ].
@@ -12883,6 +12886,7 @@ head-invertsubject-interr-phrase-sup := another-basic-head-subj-phrase & head-in
     NON-HEAD-DTR.RULE card-ok,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX individual,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD poss-subj-head & [ ACCUSATIVE -,
+							  MAL.MALCASE -,
                                                           KEYS.KEY adhoc-norm,
 							  RELATIVPRON -   ],
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
