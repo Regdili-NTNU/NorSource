@@ -12808,6 +12808,7 @@ head-invertsubject-decl-phrase-super := another-basic-head-subj-phrase & head-in
     NON-HEAD-DTR.SYNSEM.LOCAL.MUST-APP +,
 ;    NON-HEAD-DTR.FRONT-TO-FILL #ff & -, ;no wh-mov out of subject, esp not inverted
 ;    FRONT-TO-FILL #ff,
+    GENRE regular,
     C-CONT [ RELS <! !>,
              HCONS <! !> ] ].
 
@@ -12896,6 +12897,7 @@ head-invertsubject-interr-phrase-sup := another-basic-head-subj-phrase & head-in
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX individual & [ WH - ],; rules out "igår kom ikke hvem", perhaps too strong
     NON-HEAD-DTR.SYNSEM.LOCAL.HAS-SUBJ-V-INVERTED +,
     NON-HEAD-DTR.SYNSEM.LOCAL.DERIVED-BARE-N-FROM-ADJ -,
+    GENRE regular,
     C-CONT [ RELS <! !>,
             HCONS <! !> ] ].
 

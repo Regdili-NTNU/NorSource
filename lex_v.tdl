@@ -30373,7 +30373,7 @@ gå_intrdir_vlxm := v-intr-suDir &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 gå_road_vlxm := v-tr-suDir &
-  [ INFLECTION nonfstr-strong,
+  [ INFLECTION finstr-tt,
       STEM < "gå" >,
       SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.KEYS.KEY path-of-locomotion-inhcmp,
       SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX.SORT one-dim-thing-path,
@@ -30394,14 +30394,14 @@ gå_tr-secpred-arg1-refl_vlxm := v-trScpr-scObNrgCsd_obRefl &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 gå_trip_vlxm := v-tr-suDir &
-  [ INFLECTION nonfstr-strong,
+  [ INFLECTION finstr-tt,
       STEM < "gå" >,
       SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.KEYS.KEY locomotion-event-inhcmp,
       SYNSEM.LKEYS.KEYREL.PRED "_gå_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 gå_tv_vlxm := v-tr-suDir_obLengthunit &
-  [ INFLECTION nonfstr-strong,
+  [ INFLECTION finstr-tt,
       STEM < "gå" >,
       SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.KEYS.KEY measnoun,
       SYNSEM.LKEYS.KEYREL.PRED "_gå_v-tr_rel",

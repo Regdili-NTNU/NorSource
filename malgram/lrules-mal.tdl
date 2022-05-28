@@ -19,12 +19,14 @@ mal-sg-indef-bare-noun-lxm-lrule := sg-indef-bare-noun-lxm &
 
 mal-et_infl-for-strong-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   INFLECTION nonfstr-et,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
 	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	     SYNSEM #synsem,
 	       --MALCONJ -,
@@ -33,12 +35,14 @@ mal-et_infl-for-strong-lrule := verb-lexeme &
 
 mal-te_infl-for-strong-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   INFLECTION nonfstr-te,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
 	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	     SYNSEM #synsem,
 	       --MALCONJ -,
@@ -47,12 +51,14 @@ mal-te_infl-for-strong-lrule := verb-lexeme &
 
 mal-de_infl-for-strong-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   INFLECTION nonfstr-de,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
 	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	     SYNSEM #synsem,
 	       --MALCONJ -,
@@ -61,12 +67,14 @@ mal-de_infl-for-strong-lrule := verb-lexeme &
 
 mal-de_infl-for-te-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   INFLECTION nonfstr-de,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
 	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	     SYNSEM #synsem,
 	       --MALCONJ -,
@@ -76,13 +84,15 @@ mal-de_infl-for-te-lrule := verb-lexeme &
  
 mal-de_infl-for-et-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   SYNSEM.LOCAL.CAN-PASSIVIZE -,
   INFLECTION nonfstr-de,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
 	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	     SYNSEM #synsem,
 	       --MALCONJ -,
@@ -92,28 +102,32 @@ mal-de_infl-for-et-lrule := verb-lexeme &
 
 mal-te_infl-for-de-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   SYNSEM.LOCAL.CAN-PASSIVIZE -,
   INFLECTION nonfstr-te,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.OBJ-DEL-APPLIED -, 
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
 	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-de,
 		   INFLECTED - ]>].
 
-mal-te_infl-for-et-lrule := verb-lexeme &
+mal-te_infl-for-et-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   SYNSEM.LOCAL.CAN-PASSIVIZE -,
   INFLECTION nonfstr-te,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
 	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
 	     SYNSEM #synsem,
 	       --MALCONJ -,
@@ -122,6 +136,7 @@ mal-te_infl-for-et-lrule := verb-lexeme &
 
 mal-et_infl-for-te-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
@@ -129,46 +144,25 @@ mal-et_infl-for-te-lrule := verb-lexeme &
   INFLECTION nonfstr-et,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
-	   SYNSEM #synsem,
-	      --MALCONJ -,
-		   INFLECTION nonfstr-te,
-		   INFLECTED - ]>].
-
-#|
-;resultless experimenting 110422
-mal-et_infl-for-te-lrule := verb-lexeme & 
-[ GENRE robust,
-  SYNSEM #synsem,
-  ;SYNSEM.LOCAL.OBJ-DEL-APPLIED bool, ;-,
-  SYNSEM.LOCAL.OBJ-DEL-APPLIED #obdel, ;new,
-  SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED #psh, ;new,
-  SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
-  ;SYNSEM.LOCAL.CAN-PASSIVIZE bool, ;-,
-  SYNSEM.LOCAL.CAN-PASSIVIZE #canp, ;-,
-  INFLECTION nonfstr-et,
-  INFLECTED -,
-  --MALCONJ +,
-  ARGS < [ SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED #psh, ;new,
-	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED bool, ;-,
-	   SYNSEM #synsem,
-	   SYNSEM.LOCAL.OBJ-DEL-APPLIED #obdel, ;new,
-	   SYNSEM.LOCAL.CAN-PASSIVIZE #canp, ;-,
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+	     SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-te,
 		   INFLECTED - ]>].
-|#
 
 ;LH121215 Commented away, for reason explained in 'malrules, messages, examples 121215'
 #|
 mal-et_infl-for-de-lrule := verb-lexeme & 
 [ GENRE robust,
+  STEM #stem,
   SYNSEM #synsem,
   SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pret,  ; LH191115 line added, to make sure this does not come into play as perfect participle
   INFLECTION nonfstr-et,
   INFLECTED -,
   --MALCONJ +,
-  ARGS < [ SYNSEM #synsem,
+  ARGS < [ STEM #stem,
+	   SYNSEM #synsem,
 	       --MALCONJ -,
 		   INFLECTION nonfstr-de,
 		   INFLECTED - ]>].
