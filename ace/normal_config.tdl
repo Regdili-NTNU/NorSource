@@ -74,4 +74,7 @@ lattice-mapping-position-path := +POSITION.
 ;; compilation error: ran out of room in the freezer; try a larger `freezer-megabytes' value.
 freezer-megabytes := 512.
 
+irregular-forms           := ../irregs.tab ../malgram/mal_irregs.irreg.
+
+
 

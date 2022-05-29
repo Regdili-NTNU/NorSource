@@ -67076,6 +67076,12 @@ rulle_subjdir-pres-path_vlxm := v-intrPresntDirShft &
       SYNSEM.LKEYS.KEYREL.PRED "_rulle_v-intrPresntPath_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+rulle_tr-arg1-refl_vlxm := v-tr-obRefl &
+  [ INFLECTION nonfstr-et,
+      STEM < "rulle" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_rulle_v-tr-obRefl_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 rulle_tr-arg1-refl-telicpart-opp_vlxm := v-trPrtcl-obRefl &
   [ INFLECTION nonfstr-et,
       STEM < "rulle" >,
