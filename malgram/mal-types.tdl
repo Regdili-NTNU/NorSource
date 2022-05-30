@@ -138,7 +138,8 @@ mal-head-invertsubject-decl-phrase := head-invertsubject-decl-phrase-super &
 					    MAIN-CL +], ;mainly a guess LH,
   FRONT-TO-FILL -, ; from '-' to prevent fire for "sover du"
   NON-HEAD-DTR.SYNSEM.LOCAL.CTXT non-pron-discbnd,
-  GENRE robust & [ MALDROP no-drop ] ].
+  GENRE regular ]. ;,
+;  GENRE robust & [ MALDROP no-drop ] ].
 
 ;; Opening for an adjective-modified N to not be modified by a DET
 ;; adjective-mod-phrase-sup & adj-head-phrase-sup & head-mod-phrase-simple-sup &
