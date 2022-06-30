@@ -80517,18 +80517,21 @@ spøke_iv_vlxm := v-intr &
 spørre_ditr-wh_vlxm := v-ditr-obwh &
    [ STEM < "spørre" >,
        INFLECTION nonfstr-strong,
-       SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-ditr-obwh_rel",
+       SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-ditr-obwh_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 spørre_interr_vlxm := v-intrComp-compINTERR &
    [ STEM < "spørre" >,
        INFLECTION nonfstr-strong,
-       SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-intrComp_rel",
+       SYNSEM.VAL-CLASS multi-frame,
+      SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 spørre_intr-obl-INTERR-om_vlxm := v-intrObl-oblINTERR &
   [ INFLECTION nonfstr-strong,
       STEM < "spørre" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM [ LKEYS.KEYREL.PRED "_spørre_v-intrObl_rel",
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC om-k ] ].
@@ -80536,6 +80539,7 @@ spørre_intr-obl-INTERR-om_vlxm := v-intrObl-oblINTERR &
 spørre_intr-obl-eq-om_vlxm := v-intrObl-oblEqSuInf &
   [ INFLECTION nonfstr-strong,
       STEM < "spørre" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM [ LKEYS.KEYREL.PRED "_spørre_v-intrObl_rel",
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC om-k ] ].
@@ -80543,6 +80547,7 @@ spørre_intr-obl-eq-om_vlxm := v-intrObl-oblEqSuInf &
 spørre_intr-obl-om_vlxm := v-intrObl-oblN &
   [ INFLECTION nonfstr-strong,
       STEM < "spørre" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM [ LKEYS.KEYREL.PRED "_spørre_v-intrObl_rel",
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC om-k ] ].
@@ -80550,18 +80555,21 @@ spørre_intr-obl-om_vlxm := v-intrObl-oblN &
 spørre_iv_vlxm := v-intr &
   [ INFLECTION nonfstr-strong,
       STEM < "spørre" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 spørre_obl-interr-om_vlxm := v-trObl-oblINTERR &
    [ STEM < "spørre" >,
        INFLECTION nonfstr-strong,
+      SYNSEM.VAL-CLASS multi-frame,
        SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 spørre_tr-arg1-refl-telicpart-ferdig_vlxm := v-trPrtcl-obRefl &
   [ INFLECTION nonfstr-strong,
       STEM < "spørre" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-trPrtcl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC ferdig-k ].
@@ -80569,6 +80577,7 @@ spørre_tr-arg1-refl-telicpart-ferdig_vlxm := v-trPrtcl-obRefl &
 spørre-ut_trPrtcl_vlxm := v-trPrtcl &
   [ INFLECTION nonfstr-strong,
       STEM < "spørre" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC ut-k ].
@@ -80576,6 +80585,7 @@ spørre-ut_trPrtcl_vlxm := v-trPrtcl &
 spørre-ut-om_trPrtclObl-oblINTERR_vlxm := v-trPrtclObl-oblINTERR &
   [ INFLECTION nonfstr-strong,
       STEM < "spørre" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC ut-k,
@@ -80584,6 +80594,7 @@ spørre-ut-om_trPrtclObl-oblINTERR_vlxm := v-trPrtclObl-oblINTERR &
 spørre-ut-om_trPrtclObl-oblN_vlxm := v-trPrtclObl-oblN &
   [ INFLECTION nonfstr-strong,
       STEM < "spørre" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_spørre_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC ut-k,
