@@ -227,6 +227,7 @@ mal-n_sg_strong-for-c_sg_strong-finstr_infl_rule :=
 %suffix (e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y ytt)(d dt)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rr rt)(s st)(v vt)(øt øtt)(et ett)(at att)
 orth-alter-masc-or-fem-sg-adj-word &
 [GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
  SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
 
 ;(t t)(es es)(ig ig)(nde nde)(rne rne)(ille ille)
@@ -235,7 +236,7 @@ mal-n_sg_strong-for-c_sg_strong-nonfstr_infl_rule :=
 %suffix (d dt)(g gt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(v vt)(sk sk)(e et)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)
 orth-alter-masc-or-fem-sg-adj-word &
 [GENRE robust & [MALFLECT mal-flect],
-	 SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
  SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
 
 ;;
@@ -248,7 +249,7 @@ mal-c_sg_strong-for-n_sg_strong-infl_rule :=
 neutsg-infl-adj-word-const &
 [GENRE robust & [MALFLECT mal-flect],
  SYNSEM.ALLOWS-mal-c_sg_strong-for-n_sg +,
-; SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
+ SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
 ; SYNSEM.LOCAL.CAT.HEAD.MOD <[LOCAL.MAL-INFLECT-LEEWAY -]>,
  SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
 
@@ -288,7 +289,9 @@ mal-n_sg_strong-for-pl_strong-nonfstr_infl_rule :=
 %suffix (d dt)(g gt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(v vt)(e et)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)
 strongpl-adj-word & 
 [ GENRE robust & [MALFLECT mal-flect],
- SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+ INFLECTION #inf & nonfstr,
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION +,
+ ARGS < [INFLECTION #inf] > ].
 
 ;(t t)(a a)(o o)(u u)(dd dd)(ad ad)(id id)(øyd øyd)(gs gs)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(norsk norsk)(kt kt)(glad glad)(rød rød)
 
@@ -296,7 +299,9 @@ mal-n_sg_strong-for-pl_strong-finstr_infl_rule :=
 %suffix (e ett)(ø øtt)(å ått)(i idt)(i itt)(æ ætt)(y ytt)(d dt)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rr rt)(s st)(v vt)(øt øtt)(et ett)(at att)
 strongpl-adj-word & 
 [ GENRE robust & [MALFLECT mal-flect],
- SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+ INFLECTION #inf & finstr,
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION +,
+ ARGS < [INFLECTION #inf] > ].
 
 ;(t t)(es es)(ig ig)(sk sk)(nde nde)(rne rne)(ille ille)
 
@@ -304,6 +309,7 @@ mal-n_sg_strong-for-weak-nonfstr_infl_rule :=
 %suffix (t t)(es es)(ig ig)(d dt)(g gt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(v vt)(e et)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)
 weak-adj-word & 
 [ GENRE robust & [MALFLECT mal-flect],
+ INFLECTION nonfstr,
  SYNSEM.LOCAL.MAL-INFLECT-LEEWAY -,
  SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
 

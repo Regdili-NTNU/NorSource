@@ -7358,6 +7358,8 @@ nominalized-ing-verb-word := verb-word & infl-ltow-rule &
 
 imp-verb-word := verb-word & rule &
   [ DTR imperative-verb-lexeme,
+    DTR.SYNSEM.VAL-CLASS #vc,
+    SYNSEM.VAL-CLASS #vc,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD imperative,
     SYNSEM.LOCAL.CAT.HEAD.IMPERATIVE +].
 
@@ -9303,6 +9305,7 @@ imperative-verb-lexeme := const-ltol-rule &
     SYNSEM.LOCAL.REL-CL-SOM-INIT #init,
     SYNSEM.LOCAL.OBJ-DEL-APPLIED +,
     SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED +,
+    SYNSEM.VAL-CLASS #vc,
     DTR.SYNSEM.LOCAL.REL-CL-SOM-INIT #init,
     DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ COP #10,
 					   KEYS.KEY #key,
@@ -9318,7 +9321,8 @@ imperative-verb-lexeme := const-ltol-rule &
     DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <[LOCAL.CONT.HOOK.INDEX #2 ]>,
     DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #9 & list,
     DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #19,
-    DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>].
+    DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
+    DTR.SYNSEM.VAL-CLASS #vc].
 
 
 ;;;;;;;;;;;;; NOUN ITEMS ;;;;;;;;;;;;;;;;;
@@ -11769,7 +11773,7 @@ general-genitive-phrase := general-genitive-phrase-sup & head-final &
     SYNSEM.LOCAL.CONT.HOOK.XARG #2,
     SYNSEM.LOCAL.BINDING #35,
     SYNSEM.LOCAL.BND-RESP #bnd,
-    SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+ ;   SYNSEM.LOCAL.ADJ-SITE-OPEN -, ; to enable jeg gir min katt mitt pinnsvin
     SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK [INDEX #1 & [ SORT semsort ],
                                      LTOP #7 ],
@@ -11940,7 +11944,7 @@ poss-genitive-posspron-phrase := poss-general-genitive-phrase &
 postnom-poss-phrase := poss-general-genitive-post-phrase & 
 [ SYNSEM.LOCAL.BND-RESP #3,
   SYNSEM.LOCAL.POST-NOM-POSS-APPLIED +,
-;    SYNSEM.LOCAL.CAT.VAL.SPR < [] >, ;"*glade gutten min" is accepted if SPR-requirement is removed. But keeping it rules "gutten min" out.
+;  SYNSEM.LOCAL.CAT.VAL.SPR < [] >, ;"*glade gutten min" is accepted if SPR-requirement is removed. But keeping it rules "gutten min" out.
     SYNSEM.LOCAL.CMPAR-PENDING -,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD noun,
     HEAD-DTR.SYNSEM [LOCAL.CAT.HEAD.DEFINITE +,
@@ -12849,7 +12853,8 @@ head-clit-invertsubject-decl-phrase := head-invertsubject-decl-phrase-simple-sup
 head-invertsubject-interr-phrase-sup := another-basic-head-subj-phrase & head-initial & rule &
   [ SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
    SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
-   SYNSEM.LOCAL.CONT.HOOK.INDEX #8,
+   SYNSEM.LOCAL.NEED-Q-MARK +,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX #8,
    SYNSEM.LOCAL.CONT.HOOK.INDEX.SF ques,
    SYNSEM.LOCAL.CAT.HEAD verb-all & [ MAIN-CL +,
                                        INV +,
@@ -12952,7 +12957,8 @@ head-verb-comp-phrase-sup := basic-head-comp-phrase & head-initial & rule &
     SYNSEM.LOCAL.ARG-S #arg-s,
     SYNSEM.LOCAL.BND-RESP #resp,  ;this identity blocked 'det setter seg en gutt', forcing collision in gender between 'det' and 'gutt' due to seg bound to gutt, by the subtype of this rule. Instead we lose the semantics of 'han ga seg selv seg selv', but we have to live with that...
     SYNSEM.LOCAL.NEED-IMP-UNARY #43, 
-    SYNSEM.LOCAL.REL-CL-SOM-INIT #init, 
+    SYNSEM.LOCAL.REL-CL-SOM-INIT #init,
+    SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     SYNSEM.LOCAL.ARG-S #arg-s, 
     SYNSEM.VAL-CLASS #vc,
     SYNSEM.NON-LOCAL.SLASH #slash,  ; this just a desperate attempt...; MHS 070713 This kind of re-entrancy of SLASH values shouldn't occur. (I had commented out this re-entrancy the day before yesterday, as well as remarking that these "tricks" shouldn't be used, but it's been somehow reverted on the SVN, or so it would seem. )
@@ -12968,6 +12974,7 @@ head-verb-comp-phrase-sup := basic-head-comp-phrase & head-initial & rule &
 ;    HEAD-DTR.EXTRACTED-FROM #extracted-from,
 ;    HEAD-DTR.SYNSEM.LOCAL.BND-RESP #resp,
     HEAD-DTR.SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #has-a-v-comp,
+    HEAD-DTR.SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #dirarg,
     HEAD-DTR.SYNSEM.LOCAL.REL-CL-SOM-INIT #init, 
@@ -16816,7 +16823,11 @@ telic-mod-vp-phrase := head-adj-phrase &
 
 
 atelic-mod-vp-phrase := head-adj-phrase &
-  [ HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+  [ SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
+    SYNSEM.LOCAL.NEED-Q-MARK #qm, 
+    HEAD-DTR.SYNSEM.LOCAL.NEED-Q-MARK #qm, 
+    HEAD-DTR.SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
+    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.PATH-TELIC bool,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.SORT non-fix-point ].
@@ -17703,6 +17714,8 @@ pp-mod-vp-or-derivadj-phrase := pp-mod-phrase &
 ;    SYNSEM.NON-LOCAL.SLASH #8,
 ;    NON-HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #8,
 ;    HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #8,
+    SYNSEM.LOCAL.NEED-Q-MARK #qm, 
+    HEAD-DTR.SYNSEM.LOCAL.NEED-Q-MARK #qm, 
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #12,
 ;    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #comp,
@@ -18814,6 +18827,8 @@ first-verb-specification := basic-binary-headed-phrase &
 first-verb-modification := first-verb-specification &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS #2,
     SYNSEM.LOCAL.CAT.HEAD verb-all,
+    SYNSEM.LOCAL.NEED-Q-MARK #qm,
+    HEAD-DTR.SYNSEM.LOCAL.NEED-Q-MARK #qm,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #2 ].
 
 ;;;;;;;;;;;;;;;
@@ -18825,7 +18840,9 @@ adv-p-first-verb-mod :=  first-verb-modification &
   [ SYNSEM.LOCAL.CAT.HEAD verb-all,
     SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #30,
     SYNSEM.LOCAL.INVERT-SITE-OPEN -,
+    SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     HEAD-DTR.SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #30,
+    HEAD-DTR.SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-or-adv & [KEYS.KEY canbefirstafterverb-index-sit1,
                                                       SELECTED -],
     NON-HEAD-DTR.SYNSEM.LOCAL.WH-EXTRACTION-APPLIED -,
@@ -18878,8 +18895,10 @@ main-cl-first-verb-spec-phrase := first-verb-specification & basic-head-spec-phr
 main-cl-first-verb-mod := first-verb-modification & head-adj-phrase & 
   [ SYNSEM.LOCAL.CLIT-SITE-OPEN -,
     SYNSEM.LOCAL.WAIT-BND-RESP #1,
+    SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     FRONT-TO-FILL #12,
     HEAD-DTR.FRONT-TO-FILL #12,
+    HEAD-DTR.SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all & [ MAIN-CL +],
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE finite,
     HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #1,

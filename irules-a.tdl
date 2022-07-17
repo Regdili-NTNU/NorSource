@@ -243,9 +243,9 @@ superlat-adv_st-nonfstr_infl_rule :=
 adv-from-adj-superlat-word &
 [ ARGS.FIRST adv-from-adj-superlat-lxm & [ INFLECTION nonfstr ]].
 
-
+;(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(rsk rsk)(msk msk)
 adv-from-adj-pos-finstr_infl_rule :=
-%suffix (t tt)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y y)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rt rt)(nt nt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(rsk rsk)(msk msk)(lsk lskt)(rsk rskt)(msk mskt)(kt kt)
+%suffix (t tt)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y y)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rt rt)(nt nt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(gt gt)(lsk lskt)(rsk rskt)(msk mskt)(kt kt)
 adv-from-adj-t-pos-word & 
   [ ARGS.FIRST.INFLECTION finstr ].
 

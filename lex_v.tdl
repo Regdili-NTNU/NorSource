@@ -81,6 +81,7 @@ abortere_iv_vlxm := v-intr &
 abortere-fra_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
   [ INFLECTION nonfstr-te,
       STEM < "abortere" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_abortere_v-intrObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC fra-k ].
@@ -88,6 +89,7 @@ abortere-fra_intrObl-oblEqSuInf_vlxm := v-intrObl-oblEqSuInf &
 abortere-fra_intrObl-oblN_vlxm := v-intrObl-oblN &
   [ INFLECTION nonfstr-te,
       STEM < "abortere" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_abortere_v-intrObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC fra-k ].
@@ -277,6 +279,7 @@ advare_intrObl-mot_vlxm := v-intrObl &
 advare_obj-eq-pp-mot_vlxm := v-trObl-oblEqObInf &
   [ INFLECTION nonfstr-te,
       STEM < "advare" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_advare_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC mot-k ].
@@ -284,6 +287,7 @@ advare_obj-eq-pp-mot_vlxm := v-trObl-oblEqObInf &
 advare-om_intrObl-oblN_vlxm := v-intrObl-oblN &
   [ INFLECTION nonfstr-te,
       STEM < "advare" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_advare_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC om-k ].
@@ -291,6 +295,7 @@ advare-om_intrObl-oblN_vlxm := v-intrObl-oblN &
 advare-om_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
   [ INFLECTION nonfstr-te,
       STEM < "advare" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_advare_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC om-k ].
@@ -298,6 +303,7 @@ advare-om_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
 advare-mot_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
   [ INFLECTION nonfstr-te,
       STEM < "advare" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_advare_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC mot-k ].
@@ -305,6 +311,7 @@ advare-mot_intrObl-oblDECL_vlxm := v-intrObl-oblDECL &
 advare-mot_intrObl-oblAbsinf_vlxm := v-intrObl-oblAbsinf &
   [ INFLECTION nonfstr-te,
       STEM < "advare" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_advare_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC mot-k ].
@@ -312,6 +319,7 @@ advare-mot_intrObl-oblAbsinf_vlxm := v-intrObl-oblAbsinf &
 advare-mot_trObl-oblN_vlxm := v-trObl-oblN & 
   [ INFLECTION nonfstr-te,
       STEM < "advare" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM.LKEYS.KEYREL.PRED "_advare_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC mot-k ].
@@ -1169,7 +1177,8 @@ animalisere_tv_vlxm := v-tr &
 animere_tr-obl-til_vlxm := v-trObl &
   [ INFLECTION nonfstr-te,
       STEM < "animere" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_animere_v-trObl_rel",
+    SYNSEM.VAL-CLASS multi-frame,
+    SYNSEM.LKEYS.KEYREL.PRED "_animere_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC til-k ].
 
@@ -2347,14 +2356,16 @@ automatisere_tv_vlxm := v-tr &
 autorisere-for_trObl-oblEqObInf := v-trObl-oblEqObInf &
   [ INFLECTION nonfstr-te,
       STEM < "autorisere" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_autorisere_v-trObl_rel",
+    SYNSEM.VAL-CLASS multi-frame,
+    SYNSEM.LKEYS.KEYREL.PRED "_autorisere_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC for-k ].
 
 autorisere-for_trObl-oblN_vlxm := v-trObl-oblN &
   [ INFLECTION nonfstr-te,
       STEM < "autorisere" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_autorisere_v-trObl_rel",
+    SYNSEM.VAL-CLASS multi-frame,
+    SYNSEM.LKEYS.KEYREL.PRED "_autorisere_v-trObl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC for-k ].
 
@@ -2783,7 +2794,6 @@ avhenge_intrOblExpn-oblYN_expnYN-av_vlxm := v-intrOblExpn-oblYN_expnYN &
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC av-k ] ].
 
-
 avhenge_intrOblExpn-oblN_expnYN-av_vlxm := v-intrOblExpn-expnYN &
   [ INFLECTION nonfstr-strong,
       STEM < "avhenge" >,
@@ -2799,7 +2809,6 @@ avhenge_intrOblExpn-oblN_expnWH-av_vlxm := v-intrOblExpn-expnWH &
       SYNSEM [ LKEYS.KEYREL.PRED "_avhenge_v-intrObl_rel",
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC av-k ] ].
-
 
 avhenge_subj-equi-pp-av_vlxm := v-intrObl-oblEqSuInf &
    [ INFLECTION nonfstr-strong,
