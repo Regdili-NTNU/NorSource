@@ -385,6 +385,7 @@ local := local-min &
     POST-NOM-POSS-APPLIED bool,
     HAS-SUBJ-V-INVERTED bool,
     HAS-COMBINED-BY-V-COMP bool,
+    HAS-COMBINED-WITH-WEAK-ADJ bool,
     CAN-MAL-INFIN-INSERT bool,
     CONTAINS-MAL-PERSPRON-OBJ bool,
     GAPPING bool ].
@@ -1713,6 +1714,7 @@ basic-head-comp-phrase := head-valence-phrase & head-compositional &
 	     LOCAL.HAS-WH-MOVED #front,
              NON-LOCAL [ REL 0-dlist  ]
 		       ],
+    SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     FRONT-TO-FILL #front,
     HEAD-DTR.SYNSEM [ LOCAL.CAT [ VAL [ SUBJ #subj,
                                         COMPS < #synsem . #comps >,
@@ -1721,6 +1723,7 @@ basic-head-comp-phrase := head-valence-phrase & head-compositional &
                                   POSTHEAD #ph ],
 		      LOCAL.HAS-WH-MOVED #front],
     HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
+    HEAD-DTR.SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     HEAD-DTR.SYNSEM.LOCAL.HAS-PERIOD -,
     HEAD-DTR.FRONT-TO-FILL #front, 
     NON-HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,

@@ -11954,6 +11954,15 @@ postnom-poss-phrase := poss-general-genitive-post-phrase &
     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG #8,
     NON-HEAD-DTR.SYNSEM.LOCAL.BND-RESP #3].
 
+
+postnom-with-weakadj-poss-phrase := postnom-poss-phrase &
+  [ SYNSEM.LOCAL.CAT.VAL.SPR < [] > ,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-COMBINED-WITH-WEAK-ADJ +].
+
+postnom-sine-weakadj-poss-phrase := postnom-poss-phrase &
+  [ HEAD-DTR.SYNSEM.LOCAL.HAS-COMBINED-WITH-WEAK-ADJ -].
+    
+
 #|
 ;LH070416 experm - here the contextual-q-rel and HCONS must be induced in C-CONT. One just has to make sure that the identities of contextual-q-rel and HCONS in old poss-pron-word-sup will carry over.
 poss-genitive-posspron-phrase := poss-general-genitive-phrase & head-final &
@@ -15269,7 +15278,8 @@ card-cum-prep-or-adv-mod-phrase := card-mod-phrase-sup &
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #1 ].
 
 adjective-mod-def-phrase := a-mod-def-phrase & adjective-mod-phrase &
-  [ SYNSEM.LOCAL.CAT.POSTHEAD -].
+  [ SYNSEM.LOCAL.HAS-COMBINED-WITH-WEAK-ADJ +,
+    SYNSEM.LOCAL.CAT.POSTHEAD -].
 ;    HEAD-DTR.SYNSEM.LOCAL.MAL-INFLECT-LEEWAY - ]. ; , NON-HEAD-DTR weak-adj-word-sup
 
 ; After shifting to counting these as indef. adjective-mod-indef-rule covers "rette løsning er å...", without need for pseudoweak-superlative-adj-word. Same for adjective-mod-superlative-indef-rule. So, the following two rules are now commented out in rules.tdl. Well, not quite. 02032019

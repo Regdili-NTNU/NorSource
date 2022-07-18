@@ -297,7 +297,9 @@ adjective-mod-pseudoweak-indef-rule := adjective-mod-pseudoweak-indef-phrase.
 adjective-mod-superlative-indef-rule := adjective-mod-superlative-indef-phrase.
 adjective-mod-indef-postnom-rule := adjective-mod-indef-postnom-phrase.
 adjective-mod-indef-rule := adjective-mod-indef-phrase.
-postnom-poss-rule := postnom-poss-phrase.
+;postnom-poss-rule := postnom-poss-phrase.
+postnom-with-weakadj-poss-rule := postnom-with-weakadj-poss-phrase.
+postnom-sine-weakadj-poss-rule := postnom-sine-weakadj-poss-phrase.
 
 card-mod-def-rule := card-mod-phrase-def.
 card-mod-indef-rule := card-mod-phrase-indef.
