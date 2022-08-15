@@ -230,7 +230,8 @@ synsem-min := avm &
     CAN-WTOW bool,
     DERIV-POT avm,
     ALLOWS-mal-c_sg_strong-for-n_sg bool,
-    VAL-CLASS val-class ].
+    VAL-CLASS val-class,
+    WH-MOVE-PERFORMED bool ].
 bind-min := avm.
 bind := bind-min.
 unbnd-min := bind.

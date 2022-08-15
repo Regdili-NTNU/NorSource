@@ -12483,6 +12483,7 @@ head-subject-phrase-super := basic-head-subj-phrase-sup & head-final & rule &
 ;   SYNSEM.LOCAL.BND-RESP #bndresp,
    SYNSEM.LOCAL.OBJ-DEL-APPLIED #bool,
    SYNSEM.LOCAL.CONNECT-PENDING #connectpend,
+   SYNSEM.WH-MOVE-PERFORMED -,
    HEAD-DTR.SYNSEM.LOCAL.CONNECT-PENDING #connectpend,
    HEAD-DTR.SYNSEM.LOCAL.OBJ-DEL-APPLIED #bool,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #12,
@@ -12822,7 +12823,7 @@ head-invertsubject-decl-phrase-super := another-basic-head-subj-phrase & head-in
     NON-HEAD-DTR.SYNSEM.LOCAL.MUST-APP +,
 ;    NON-HEAD-DTR.FRONT-TO-FILL #ff & -, ;no wh-mov out of subject, esp not inverted
 ;    FRONT-TO-FILL #ff,
-    GENRE regular,
+    GENRE regular, ;;LH150822 slightly abject move, to prevent obscure incursion of mal rules. Satz: "det er en lengre reise"
     C-CONT [ RELS <! !>,
              HCONS <! !> ] ].
 
@@ -13472,7 +13473,8 @@ head-verb-perf-comp-phrase := head-verb-verbal-comp-phrase &
     NON-HEAD-DTR.SYNSEM.LOCAL.BND-RESP #2,
     NON-HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #3,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONNECT-PENDING #cp,
-    NON-HEAD-DTR.FRONT-TO-FILL #ff ].
+    NON-HEAD-DTR.FRONT-TO-FILL #ff,
+    NON-HEAD-DTR.GENRE regular ].  ; to avoid mal-rule inf-to-perf recruiting VPs for this rule
 
     
 head-verb-indirwhquest-comp-phrase := basic-head-comp-phrase & head-initial & rule &
@@ -13480,7 +13482,7 @@ head-verb-indirwhquest-comp-phrase := basic-head-comp-phrase & head-initial & ru
 ;    SYNSEM.LOCAL.ADJ-SITE-SUBORD-OPEN bool,
     SYNSEM.LOCAL.ADJ-SITE-SUBORD-OPEN #cop,; out, otherwise blocking 'han vil fortelle oss hvorvidt han hoster'. But we then also allow '*han vil fortelle oss ikke hvorvidt han hoster'
 ;    SYNSEM.LOCAL.HAS-A-V-COMPLEMENT -,
-;    SYNSEM.NON-LOCAL #4,
+    SYNSEM.NON-LOCAL #4,
     SYNSEM.LOCAL.COMPS-BEGUN +,
     SYNSEM.LOCAL.CAT.VAL.ICOMPS #1,
     SYNSEM.LOCAL.NEED-IMP-UNARY #43,
@@ -13497,10 +13499,12 @@ head-verb-indirwhquest-comp-phrase := basic-head-comp-phrase & head-initial & ru
     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #3,
     EXTRACTED-FROM #10,
  ;   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAIN-CL -
+    NON-HEAD-DTR.SYNSEM.NON-LOCAL #4,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
     NON-HEAD-DTR.EXTRACTED-FROM #10,
     NON-HEAD-DTR.INFLECTED +,
+    NON-HEAD-DTR.SYNSEM.WH-MOVE-PERFORMED +,
     NON-HEAD-DTR.RULE card-ok,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ MAIN-CL -,
 					 DECL - ],
@@ -19268,10 +19272,12 @@ adverbial-invert-first-verb-mod-phrase := adv-p-first-verb-mod & maincl-invert-f
     HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN +,
     HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
     HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+    HEAD-DTR.GENRE regular,
     HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,				; has-punct and -period required for NorMal, but
     HEAD-DTR.SYNSEM.LOCAL.HAS-PERIOD -  ].			; probably useful also for NorSource. EAA.
 
-adverbial-subordcl-first-verb-mod-phrase := adv-p-first-verb-mod & index-sit-mod & head-mod-phrase-simple-extra & subord-cl-first-verb-mod. 
+adverbial-subordcl-first-verb-mod-phrase := adv-p-first-verb-mod & index-sit-mod & head-mod-phrase-simple-extra & subord-cl-first-verb-mod &
+  [ HEAD-DTR.GENRE regular ]. ; LH150822 slightly abject move, to prevent obscure incursion of mal rules. Satz: "det er en lengre reise"
 ;;;;;;;;;;;;;;;;;;;;;;
 
 
@@ -20751,6 +20757,7 @@ object-deletion := const-ltol-rule &
    SYNSEM.LOCAL.CONT.HOOK.XARG #4,
    SYNSEM.LOCAL.CONT.HOOK.VARG #index,
    SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+   SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps,
    SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
    SYNSEM.LOCAL.CAT.HEAD #2 & non-copula,
    SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CONT.HOOK.INDEX #index],
@@ -20765,7 +20772,8 @@ object-deletion := const-ltol-rule &
 	SYNSEM.LOCAL.CAT.VAL.SUBJ #3,
    	SYNSEM.LOCAL.CONT.HOOK.VARG #index,
 	 SYNSEM.LOCAL.CAT.VAL.COMPS < #obj >,
-   	SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
+   	SYNSEM.LOCAL.CAT.VAL.ICOMPS #icomps,
+	 SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
    	SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CAT.HEAD.EXPLETIVE -,
 					      LOCAL.CONT.HOOK.INDEX #index,
 					      LOCAL.CAT.HEAD.KEYS.KEY anonym-k],; to avoid inher-comp nouns undergoing the rule, like smil, død etc
@@ -26087,7 +26095,10 @@ str-pastpt-adj-word := pastparticpl-adj-word &
                             WEAK -,
                             DEGREE positive ]].
                                     
-strsg-pastpt-adj-word := str-pastpt-adj-word & const-wtow-rule &			 [ SYNSEM.LOCAL.AGR.PNG.NG sg ].    
+strsg-pastpt-adj-word := str-pastpt-adj-word & const-wtow-rule & 
+   [ SYNSEM.LOCAL.AGR.PNG.NG sg,
+     ARGS < [GENRE regular ] >]. ;;LH150822 slightly abject move, to prevent obscure incursion of mal rules. Satz: "det er en lengre reise"
+    
 strpl-pastpt-adj-word := str-pastpt-adj-word & infl-wtow-rule &			 [ SYNSEM.LOCAL.AGR.PNG.NG pl ].
 
 pastparticpl-from-active-adj-word := pastparticpl-adj-word-sup & adjective-word &
