@@ -2957,63 +2957,73 @@ det_subord := pre-subord-comp &
 ;    SYNSEM.LKEYS.KEYREL.PRED "_som-om_rel"].
 
 ; "virke som" ;ok det virker som han kommer
-som_subord := decl-subord-comp &
+som_low-veridic := decl-subord-comp &
   [ STEM < "som" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som, 
     SYNSEM.LKEYS.KEYREL.PRED "_som_rel"].
 
+; low-veridic-subord-comp
 ;ok  det virker som om han kommer
-som-om_subord := decl-subord-comp &  
+som-om_low-veridic := decl-subord-comp &  
   [ STEM < "som", "om" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_som-om_rel"].
 
-som-at_subord := decl-subord-comp &  ;ok  det virker som om han kommer
+; low-veridic-subord-comp
+som-at_low-veridic := decl-subord-comp &  ;ok  det virker som at han kommer
   [ STEM < "som", "at" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_som-at_rel"].
 
-ut-til-at_subord := decl-subord-comp &  ;ok  det ser ut til han kommer
+; low-veridic-subord-comp
+ut-til-at_low-veridic := decl-subord-comp &  ;ok  det ser ut til at han kommer
   [ STEM < "ut", "til", "at" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_ut-til-at_rel"].
 
-til-at_subord := decl-subord-comp &  ;ok  det ser ut til han kommer
+; low-veridic-subord-comp
+til-at_low-veridic := decl-subord-comp &  ;ok  det ser ut til han kommer
   [ STEM < "til", "at" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_til-at_rel"].
 
-med-at_subord := decl-subord-comp &  ;ok  det haster med at han kommer
-  [ STEM < "med", "at" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
-    SYNSEM.LKEYS.KEYREL.PRED "_med-at_rel"].
+; low-veridic-subord-comp
+;med-at_low-veridic := low-veridic-subord-comp &  ;ok  det haster med at han kommer
+;  [ STEM < "med", "at" >,
+;    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
+;    SYNSEM.LKEYS.KEYREL.PRED "_med-at_rel"].
 
-ut-som-om_subord := decl-subord-comp &  ;ok  det ser ut som om han kommer
+; low-veridic-subord-comp
+ut-som-om_low-veridic := decl-subord-comp &  ;ok  det ser ut som om han kommer
   [ STEM < "ut", "som", "om" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_ut-som-om_rel"].
 
-ut-som_subord := decl-subord-comp &  ;ok  det ser ut som om han kommer
+; low-veridic-subord-comp
+ut-som_low-veridic := decl-subord-comp &  ;ok  det ser ut som han kommer
   [ STEM < "ut", "som" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_ut-som_rel"].
 
-ut-som-at_subord := decl-subord-comp &  ;ok  det ser ut som om han kommer
+; low-veridic-subord-comp
+ut-som-at_low-veridic := decl-subord-comp &  ;ok  det ser ut som at han kommer
   [ STEM < "ut", "som", "at" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_ut-som-at_rel"].
 
 
+; low-veridic-subord-comp
 ; "virke som"
-likesom_subord := decl-subord-comp &
+likesom_low-veridic := decl-subord-comp &
   [ STEM < "likesom" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_likesom_rel"].
 
 ; "virke som"
-liksom_subord := decl-subord-comp &
+; only instance where 'low-veridic-subord-comp' is still used- LH200822  not yet working
+liksom_low-veridic := low-veridic-subord-comp &
   [ STEM < "liksom" >,
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
+;    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY finit-comp-som,
     SYNSEM.LKEYS.KEYREL.PRED "_liksom_rel"].
 
 ;LH180718
@@ -3127,6 +3137,10 @@ førenn_prep-time := prep-s-word-vmod-reg-time &
 rett-som_prep-time := prep-s-word-vmod-reg-time &
  [ STEM < "rett", "som" >,
    SYNSEM.LKEYS.KEYREL.PRED "_rett-som_c_rel" ].
+
+som_prep-time := prep-s-word-vmod-reg-time &
+ [ STEM < "som" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_same-time-som_c_rel" ].
 
 i_fall_comp := prep-s-word-reg-cond &
  [ STEM < "i", "fall" >,
@@ -3273,6 +3287,7 @@ for_anse-for-å := for-comp &
    SYNSEM.LOCAL.CONT.RELS <! [PRED "_for_eq_rel"] !>,
    SYNSEM.LOCAL.CONT.HCONS <!  !>].
 
+#|
 som-om_prep-irreal := prep-s-word-reg-irreal &
   [ STEM < "som", "om" >,
     SYNSEM.LKEYS.KEYREL.PRED "_som-om-irreal_rel" ].
@@ -3288,6 +3303,8 @@ liksom_prep-irreal := prep-s-word-reg-irreal &
 likesom_prep-irreal := prep-s-word-reg-irreal &
   [ STEM < "likesom" >,
     SYNSEM.LKEYS.KEYREL.PRED "_likesom_eq_rel" ].
+|#
+
 
 som_stille-som-n := som-n-pred-comp &
   [ STEM < "som" >,

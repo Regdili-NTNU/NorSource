@@ -876,7 +876,8 @@ v-trExpnSu-expnYN := v-trExpnSu-expnYN-sup &
   [SYNSEM.LOCAL.CAT.HEAD verb].
 ;(from Presentational-2)
 v-trExpnSu-expnWH-sup := io-epon-wh-verb-lexeme & top-verb-lexeme&
-   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD verb-all ] > ].
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD verb-all,
+					WH-MOVE-PERFORMED + ] > ].
 v-trExpnSu-expnWH := v-trExpnSu-expnWH-sup &
   [SYNSEM.LOCAL.CAT.HEAD verb].
 v-trExpnSu-expnINTERR := io-epon-verb-lexeme & top-verb-lexeme &
@@ -1421,7 +1422,7 @@ v-copExpnAdj := v-intrScprExpn-scAdj &
 v-copExpnN-expnDECL := v-trExpnSu-expnDECL-sup &
  [ SYNSEM.LOCAL.CAT.HEAD copula,
    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.DERIVED-HEAD -,
-				 LOCAL.DERIVED-BARE-N-FROM-ADJ -], [] > ].
+				 LOCAL.DERIVED-BARE-N-FROM-ADJ -], [LOCAL.CAT.HEAD.KEYS.KEY comptizer] > ].
 v-copExpnN-expnAbsinf := io-epon-verb-lexeme  &
  [SYNSEM.LOCAL.CAT.HEAD copula,
   SYNSEM [ LOCAL.CAT [VAL.COMPS < [], 

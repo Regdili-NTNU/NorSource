@@ -1775,6 +1775,7 @@ sammen-pcl := pcl & sammen-k.
 omkring-pcl := pcl & omkring-k.
 overfor-pcl := pcl & overfor-k.
 
+low-veridic := selct.
 comptizer := selct.
 predcomp := comptizer & prim-mod.
 predcomp-inf := predcomp.
@@ -7361,7 +7362,8 @@ imp-verb-word := verb-word & rule &
     DTR.SYNSEM.VAL-CLASS #vc,
     SYNSEM.VAL-CLASS #vc,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD imperative,
-    SYNSEM.LOCAL.CAT.HEAD.IMPERATIVE +].
+    SYNSEM.WH-MOVE-PERFORMED -,
+   SYNSEM.LOCAL.CAT.HEAD.IMPERATIVE +].
 
 infl-imp-verb-word := imp-verb-word & infl-ltow-rule.
 
@@ -7392,6 +7394,7 @@ const-pret-verb-word := const-ltow-verb-word & pret-verb-word.
 perf-part-verb-word := indicative-verb-word &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE perf,
     SYNSEM.LOCAL.CAT.HEAD.VOICE #1,
+    SYNSEM.WH-MOVE-PERFORMED -,
     DTR.SYNSEM.LOCAL.CAT.HEAD.VOICE #1 ].
 
 infl-perf-part-verb-word := infl-ltow-verb-word & perf-part-verb-word.
@@ -7525,6 +7528,7 @@ inf-arbref-comp := basic-compl &
 ; a preposition - "...for å .." (rais), with feature transportation from V velow to V above as main purpose
 ; KEYS.KEY predcomp-inf,
 ;                                        SELECTED +,
+
 
 for-comp := basic-compl &
   [ SYNSEM.LOCAL.CAT.HEAD for-cmp & [ DECL +],
@@ -7710,6 +7714,31 @@ decl-subord-comp := subord-comp &
 				   LOCAL.CAT.HEAD.INV -,
 				   LOCAL.CONT.HOOK.INDEX.SF prop ] >].
 
+low-veridic-subord-comp := basic-compl &
+  [ SYNSEM.LOCAL.CAT.HEAD fin-comp & [ TRANSPAR -,
+                                       KEYS.KEY low-veridic ],
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD.DECL +,
+				   LOCAL.CAT.HEAD.INV -,
+				   LOCAL.CONT.HOOK.INDEX.SF prop,
+				   LOCAL.CAT.VAL.SUBJ antilist,    
+                                   LOCAL.CAT.VAL.COMPS olist,
+                                   LOCAL.CAT.VAL [SPR <>,
+                                                  SPEC <>,
+                                                  ICOMPS <>],
+                                   LOCAL.CAT.HEAD.MAIN-CL -,
+                                   LOCAL.CAT.HEAD verb-all,
+                                   LOCAL.CAT.HEAD.IMPERATIVE -,
+                                   LOCAL.CAT.HEAD.WH-COMPLETE -,
+                                   LOCAL.CONT.HOOK.INDEX.E.TENSE finite,
+                                   LOCAL.CONT.HOOK.LTOP #4 ]>,
+   SYNSEM.LOCAL.CONT.HOOK.LTOP semarg,
+   SYNSEM.LOCAL.CONT.RELS <! arg1-relation & [LBL semarg,
+                                              ARG1 #4] !>,
+   SYNSEM.LOCAL.CONT.HCONS <!  !>,
+    SYNSEM.LOCAL.CAT.HEAD.DECL +,
+    SYNSEM.LOCAL.CAT.HEAD.CONDITIONAL -,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop ].
+
 y-n-quest-subord-comp := subord-comp &
   [ SYNSEM.LOCAL.CAT.HEAD.DECL -,
     SYNSEM.LOCAL.CAT.HEAD.CONDITIONAL -,
@@ -7759,7 +7788,8 @@ interjection-lexeme := lexeme & lbl-ltop-lex-item &
 
  ;  LEXEME TYPES
 
-top-verb-lexeme := lexeme.
+top-verb-lexeme := lexeme &
+  [ SYNSEM.WH-MOVE-PERFORMED - ].
 
 ; lexeme, inheriting from norm-lex-item, allows for many rels; verb-lexeme,
 ; by assumption, only one
@@ -7776,6 +7806,7 @@ verb-general-lexeme := top-verb-lexeme & lbl-ltop-lex-item &
     SYNSEM.LOCAL.CONT.HOOK.XARG #1,
     SYNSEM.LOCAL.CONT.HOOK.XLEXKEYS #4,
     SYNSEM.LOCAL.REL-CL-SOM-INIT -,
+    SYNSEM.WH-MOVE-PERFORMED -,
     SYNSEM.LOCAL.HAS-WH-MOVED -,
     SYNSEM.LOCAL.HEAD-SUBJ-APPLIED -,
     SYNSEM.LOCAL.COMPS-BEGUN -,				;; Added to avoid s-final. EAA030811
@@ -12971,6 +13002,7 @@ head-verb-comp-phrase-sup := basic-head-comp-phrase & head-initial & rule &
     SYNSEM.LOCAL.INV-DECL-PRECARIOUS #prec, 
     SYNSEM.LOCAL.ARG-S #arg-s, 
     SYNSEM.VAL-CLASS #vc,
+    SYNSEM.WH-MOVE-PERFORMED #whm,
     SYNSEM.NON-LOCAL.SLASH #slash,  ; this just a desperate attempt...; MHS 070713 This kind of re-entrancy of SLASH values shouldn't occur. (I had commented out this re-entrancy the day before yesterday, as well as remarking that these "tricks" shouldn't be used, but it's been somehow reverted on the SVN, or so it would seem. )
 ;    HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #slash,
     SYNSEM.LOCAL.CAN-MAL-INFIN-INSERT #malinf,
@@ -12989,6 +13021,7 @@ head-verb-comp-phrase-sup := basic-head-comp-phrase & head-initial & rule &
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #dirarg,
     HEAD-DTR.SYNSEM.LOCAL.REL-CL-SOM-INIT #init, 
     HEAD-DTR.SYNSEM.VAL-CLASS #vc,
+    HEAD-DTR.SYNSEM.WH-MOVE-PERFORMED #whm,
     HEAD-DTR.SYNSEM.LOCAL.ARG-S #arg-s, 
     NON-HEAD-DTR.SYNSEM.LOCAL.BND-RESP #resp,
     NON-HEAD-DTR.SYNSEM.LOCAL.BND-MOUNTABLE #resp,
@@ -13473,8 +13506,9 @@ head-verb-perf-comp-phrase := head-verb-verbal-comp-phrase &
     NON-HEAD-DTR.SYNSEM.LOCAL.BND-RESP #2,
     NON-HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #3,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONNECT-PENDING #cp,
+    NON-HEAD-DTR.SYNSEM.WH-MOVE-PERFORMED -,
     NON-HEAD-DTR.FRONT-TO-FILL #ff,
-    NON-HEAD-DTR.GENRE regular ].  ; to avoid mal-rule inf-to-perf recruiting VPs for this rule
+    NON-HEAD-DTR.GENRE wellfrmd ].  ; to avoid mal-rule inf-to-perf recruiting VPs for this rule
 
     
 head-verb-indirwhquest-comp-phrase := basic-head-comp-phrase & head-initial & rule &
@@ -19235,7 +19269,8 @@ s-adv-spec-v-subord-phrase := first-verb-specification & basic-head-spec-tweak-p
     HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN #open,
      HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT #hpu,
     HEAD-DTR.SYNSEM.LOCAL.HIGHEST-V-PROJ +,
-    HEAD-DTR.SYNSEM.LOCAL.HAS-PERIOD #hp,
+    HEAD-DTR.SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+   HEAD-DTR.SYNSEM.LOCAL.HAS-PERIOD #hp,
 ;    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE finite,
 ;    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #hook,
 ;    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
@@ -22195,7 +22230,8 @@ intrans-secpred-rais-from-perfect-verbal-arg1-synsem := arg1-predicative-synsem 
     LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX #5 & semarg]>, 
                    COMPS < [ LOCAL.CAT.HEAD verb-all,
                              LOCAL.CAT.VAL.SUBJ < synsem & [LOCAL.CONT.HOOK.INDEX #5] >,    
-                            LOCAL.CONT.HOOK.INDEX.E.TENSE perf ]>]].
+			     LOCAL.CONT.HOOK.INDEX.E.TENSE perf,
+			     WH-MOVE-PERFORMED - ]>]].
 
 
 ; for "jeg lader opp"
@@ -24626,7 +24662,8 @@ io-epon-wh-synsem-sup := presentational-synsem-2 &
      LOCAL.CAT ditrans-cat & [VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #2,
 					    LOCAL.DERIVED-HEAD - ], 
                                           [LOCAL.CAT.HEAD verb-all & [DECL -],
-                                           LOCAL.CONT.HOOK.LTOP #1] >,
+                                           LOCAL.CONT.HOOK.LTOP #1,
+					   WH-MOVE-PERFORMED +] >,
                               VAL.ICOMPS <> ],
      LKEYS.KEYREL [ARG1 #1,
                    ARG2 #2 ]].
@@ -25542,6 +25579,7 @@ passive-lexeme := const-ltol-rule & lbl-ltop-lex-item-3rel &
   SYNSEM.LOCAL.HEAD-SUBJ-APPLIED -,
   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
   SYNSEM.LOCAL.COMPS-BEGUN -,		  ;; Added to avoid s-final. EAA030811
+  SYNSEM.WH-MOVE-PERFORMED -,
   SYNSEM.BIND unbnd,
   ARGS < [ INFLECTION #infl,
            SYNSEM.LOCAL.CAN-PASSIVIZE +,

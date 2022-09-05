@@ -1,0 +1,39 @@
+NEW types 2022:
+gå-god-for__intrScprObl-scSuArg & vi går god for søkeren &
+gå__tr-obNbnd   gå konkurs, gå fiskebein
+ha__trScpr-obExpl-scObNrg-scPred &  hun har det bra &
+ha-klart-for__trScprOblExpnOb-obMuet-oblRefl-scSuArg-expnDECL & han har klart for seg at det er for sent &
+ha-klart-for__trScprOblExpnOb-obMuet-oblRefl-scSuArg-expnINTERR & han har klart for seg hva som vil skje &
+ha-klart-for__trScprOblExpnOb-oblRefl-scSuArg-expnDECL & han har det klart for seg at det er for sent &
+ha-klart-for__trScprOblExpnOb-oblRefl-scSuArg-expnINTERR & han har det klart for seg hva som vil skje &
+ha-med-å__intrOblXtrComp-compEqSuInf & han har med meg å gjøre &
+ha-np-å__trXtrComp-compEqSuInf & han har mange munner å mette &
+ha__intrComp-compEqSuInf & han har å innfinne seg &
+holde__trScpr-scObArg-scPred & vi holder ham ansvarlig &
+holde__trScpr-obRefl-scObArg-scPred & han holder seg sprek &
+holde-opp__intrPrtclScpr-scSuNrg-scRaisInf & det holder opp å regne &
+holde-opp-med__intrPrtclOblRais-oblRaisInf & det holder opp med å regne &
+la__trScpr-scObNrg-scPerf & vi lar noe usagt &
+slå__impersOblLoc & det slår i dørene &
+sømme-for__trOblExpnSu-obRefl-oblN-expnEqOblInf & det sømmer seg for besøkende å ta av lua &
+sømme-for__trOblExpnSu-obRefl-oblN-expnDECL & det sømmer seg for besøkende at detar av lua &
+være-til__copPrtcl & de parallelle verdener er til &
+proppe-i-med__intrObl2-obl1Refl &
+søke-ut__ditrPrtcl-obRefl &
+tynge-på__intrOblExpnSu-oblN-expnDECL & 
+knyte-i__trImpersObl-obRefl & det knyter seg i magen hans &
+knyte-i-på__trImpersObl2-obRefl-obl1PRTOFobl2 & det knyter seg i magen på ham &
+knyte-sammen-i__trImpersPrtclObl-obRefl & det knyter seg sammen i magen hans &
+knyte-sammen-i-på__trImpersPrtclObl2-obRefl-obl1PRTOFobl2 & det knyter seg sammen i magen på ham &
+tilkomme__tr-suRec & vi tilkommer erstatning &
+vente__tr-obRec & gode nyheter venter deltagerne &
+tjene-2-som__trScprExpnSu-scPredprtcl-expnAbsinf & det tjener som eksempel å vise barmhjertighet &
+tjene-2-som__trScprExpnSu-scPredprtcl-expnDECL & det tjener som eksempel at demonstrantene henrettes &
+tjene-2-til__intrObl-suAbsinf-oblAbsinf & å øke produksjonen tjener til å styrke førstelinjeforsvaret &
+tjene-2-til__intrObl-suAbsinf-oblDECL & å senke rentene tjener til at det skal bli utjevning &
+tjene-2-til__intrOblExpnSu-oblAbsinf-expnAbsinf & det tjener til å styrke førstelinjeforsvaret å øke produksjonen &
+tjene-2-til__intrOblExpnSu-oblAbsinf-expnDECL & et tjener til å styrke førstelinjeforsvaret at vi øker produksjonen &
+tjene-2-til__intrOblExpnSu-oblDECL-expnAbsinf & det tjener til å styrke førstelinjeforsvaret at vi øker produksjonen &
+tjene-2-til__intrOblExpnSu-oblDECL-expnDECL & det tjener til at førstelinjeforsvaret styrkes at vi øker produksjonen &
+
+
