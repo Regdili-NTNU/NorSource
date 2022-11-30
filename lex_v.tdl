@@ -34165,6 +34165,12 @@ håpe_subord_vlxm := v-tr-obDECL &
        SYNSEM.LKEYS.KEYREL.PRED "_håpe_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+håpe_obV_vlxm := v-tr-obDECL_obV &
+   [ STEM < "håpe" >,
+       INFLECTION nonfstr-te,
+       SYNSEM.LKEYS.KEYREL.PRED "_håpe_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 håpe_tr-obl-decl-på_vlxm := v-trObl-oblDECL &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "håpe" >,
@@ -51950,6 +51956,12 @@ mene_tr-subord_vlxm := v-tr-obDECL &
       STEM < "mene" >,
       SYNSEM.LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD fin-comp]>,  ; not really true, but to avoid catastrophe with 'men han har snakket med en konsulent på telefonen' ('men' as imperative)
       SYNSEM.LKEYS.KEYREL.PRED "_mene_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+mene_obV_vlxm := v-tr-obDECL_obV &
+  [ INFLECTION nonfstr-te,
+      STEM < "mene" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mene_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 mene_tv_vlxm := v-tr &
@@ -99600,6 +99612,12 @@ ville_tr-subord_vlxm := v-tr-obDECL &
       SYNSEM.LKEYS.KEYREL.PRED "_ville_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+ville_obV_vlxm := v-tr-obDECL_obV &
+  [ INFLECTION nonfstr-strong,
+      STEM < "ville" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ville_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 villede_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "villede" >,
@@ -102024,6 +102042,12 @@ ytre_tv_vlxm := v-tr &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 ønske_tr-subord_vlxm := v-tr-obDECL &
+  [ INFLECTION nonfstr-et,
+      STEM < "ønske" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_ønske_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+ønske_obV_vlxm := v-tr-obDECL_obV &
   [ INFLECTION nonfstr-et,
       STEM < "ønske" >,
       SYNSEM.LKEYS.KEYREL.PRED "_ønske_v-tr_rel",
