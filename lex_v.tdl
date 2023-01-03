@@ -10809,6 +10809,21 @@ bytte-bort_trPrtcl_vlxm := v-trPrtcl &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC bort-k ].
 
+bytte-ut_trPrtcl_vlxm := v-trPrtcl &
+  [ INFLECTION nonfstr-et,
+      STEM < "bytte" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_bytte_v-trScpr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC ut-k ].
+
+bytte-ut-med_trPrtclObl_vlxm := v-trPrtclObl &
+  [ INFLECTION nonfstr-et,
+      STEM < "bytte" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_bytte_v-trScpr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+      SYNSEM.LOCAL.KEY-SPEC ut-k,
+      SYNSEM.LOCAL.ALT-SPEC med-k ].
+
 bytte_tr-obl-med_vlxm := v-trObl &
   [ INFLECTION nonfstr-et,
       STEM < "bytte" >,
@@ -11109,7 +11124,7 @@ bøye-av-for_intrPrtclObl-oblN_vlxm := v-intrPrtclObl-oblN &
       SYNSEM.LKEYS.KEYREL.PRED "_bøye_v-intrPrtcl_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC av-k,
-      SYNSEM.LOCAL.ALT-SPEC av-k ].
+      SYNSEM.LOCAL.ALT-SPEC for-k ].
 
 bøye_tr-dir_vlxm := v-tr-obDir &
   [ INFLECTION nonfstr-et_or_de,
@@ -11711,6 +11726,12 @@ dekke-til_trPrtcl-obINTERR_vlxm := v-trPrtcl-obINTERR &
       SYNSEM.LOCAL.KEY-SPEC til-k ].
 
 dekke_iv_vlxm := v-intr &
+  [ INFLECTION nonfstr-et_or_te,
+      STEM < "dekke" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_dekke_v-intr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+dekke_impl-obj_vlxm := v-intrScpr-scObimplNrgRes_scPP-PLACEMENT &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "dekke" >,
       SYNSEM.LKEYS.KEYREL.PRED "_dekke_v-intr_rel",
@@ -47980,6 +48001,12 @@ legge_tr-secpred-arg1-refl-ned_vlxm := v-trScpr-scObNrgCsd_obRefl &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC ned-k ].
 
+legge_tr-obDir_vlxm := v-tr-obDir &
+  [ INFLECTION nonfstr-strong,
+      STEM < "legge" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_legge_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
 legge_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-strong,
       STEM < "legge" >,
@@ -81745,6 +81772,12 @@ stille_trObl-refl_vlxm := v-trObl-obRefl-oblLoc &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "stille" >,
       SYNSEM.LKEYS.KEYREL.PRED "_stille_v-trPath_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+stille_tr-obDir_vlxm := v-tr-obDir &
+  [ INFLECTION nonfstr-et_or_te,
+      STEM < "stille" >,
+      SYNSEM.LKEYS.KEYREL.PRED "_stille_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 stille_tv_vlxm := v-tr &
