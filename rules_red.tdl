@@ -20,6 +20,8 @@
 ;; compared to rules.tdl, the following are commented out, destroying rel-clause analysis:
 ;free-subjpred-som-rule := free-subjpred-som-phrase.
 ;free-objpred-som-rule := free-objpred-som-phrase.
+;free-subjpred-rule := free-subjpred-phrase.
+
 
 
 
