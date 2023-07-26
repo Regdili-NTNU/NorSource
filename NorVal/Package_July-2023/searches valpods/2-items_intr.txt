@@ -1,0 +1,730 @@
+VALPOD & abonnere:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & absolvere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & adlyde:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & agglutinere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & agitere:V__intrXX V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & akkedere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & akkompagnere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & akkordere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & akselerere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & allitterere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & alternere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & amme:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & amputere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & angripe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & anholde:V__trXX V-om__intrObl-oblN & MULTIEND_2-items
+VALPOD & animere:V-til__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & anke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ankomme:V__intr-suDir & V__tr-suDir & MULTIEND_2-items
+VALPOD & ankre:V-opp__intrPrtcl & V__trXX  MULTIEND_2-items
+VALPOD & annonsere:V-om__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & appellere:V-til__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & applaudere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & applikere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & apportere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & aspirere:V-til__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & avertere:V-for__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & avgå:V__intrXX V-fra__intrObl-oblN & MULTIEND_2-items
+VALPOD & avkoble:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & avle:V__trXX V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & avmønstre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & avreagere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & avruste:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & avskalle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & avspasere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & avspore:V__intrXX V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-fra__trObl-suDECL-oblEqObInf & V-fra__trObl-suDECL-oblN & V-fra__trObl-suEqObInf-oblEqObInf & V-fra__trObl-suEqObInf-oblN & V-fra__trOblExpnSu-oblEqObInf-expnDECL & V-fra__trOblExpnSu-oblN-expnDECL & V-fra__trOblExpnSu-oblEqObInf-expnEqObInf & V-fra__trOblExpnSu-oblN-expnEqObInf & V__trXX MULTIEND_12-items
+VALPOD & bade:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & bakse:V-med__intrObl-oblN & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & balansere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & banne:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & be:V__ditr-obEqIobBareinf & V__intrXX V-om__intrObl-oblEqSuInf & V-om__intrObl-oblN & V-for__intrObl-oblN & V__trXX V-om__trObl-oblEqObInf & V-om__trObl-oblEqSuInf & V-om__trObl-oblEqSuInf & V-om__trObl-oblN & V-på__trObl-oblN & V-til__intrObl-oblN & MULTIEND_12-items
+VALPOD & begeistre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & beinflyge:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & beite:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & beklage:V__intrXX V__trXX V__tr-obEqSuInf & V__trExpnOb-expnCOND & V__trExpnOb-expnDECL & V__tr-obDECL & V__tr-obRefl & V-for__trObl-obRefl-oblN & V-over__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & MULTIEND_12-items
+VALPOD & belje:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & bie:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & bile:V__intr-suDir & V__tr-obDir & MULTIEND_2-items
+VALPOD & blomstre:V__intrXX V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & blote:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & blunde:V__intrXX V-av__intrPrtcl & MULTIEND_2-items
+VALPOD & bo:V__intrObl-oblLoc & V__intrPresntLoc & MULTIEND_2-items
+VALPOD & boble:V__intrXX V-over__intrPrtcl & MULTIEND_2-items
+VALPOD & bokse:V__intrXX V__tr-obDir & MULTIEND_2-items
+VALPOD & bortløpe:V__intr-RESULT & V__intrPresnt-RESULT & MULTIEND_2-items
+VALPOD & bosse:V-med__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & brake:V__impers & V__intr-suDir & MULTIEND_2-items
+VALPOD & brase:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & bravere:V__intrXX V-med__intrObl-oblEqSuInf & MULTIEND_2-items
+VALPOD & breste:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & brife:V-med__intrObl-oblN & V__trXX  V-om__trObl-oblN & MULTIEND_2-items
+VALPOD & briste:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & bronsere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & brosjere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & brumle:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & brygge:V-på__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & bråke:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & bråne:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & bråstanse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & budsjettere:V-med__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & bugne:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & buldre:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & bule:V__int & V-ut__intrPrtcl & MULTIEND_2-items
+VALPOD & bulke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & bulne:V__intrXX V-ut__intrPrtcl & MULTIEND_2-items
+VALPOD & bure:V__intrXX V-inne__trPrtcl & MULTIEND_2-items
+VALPOD & byde:V__ditr-obEqIobInf & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & bysse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & bæsje:V__intrXX V-ut__trPrtcl-obRefl & MULTIEND_2-items
+VALPOD & bølge:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & bølle:V-med__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & dale:V__intrXX V-ned__intrPrtcl & MULTIEND_2-items
+VALPOD & dampkoke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & dangle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & danse:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & debattere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & debutere:V__intrXX V-som__intrLghtScpr-scPredprtcl & MULTIEND_2-items
+VALPOD & deflatere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & degge:V-for__intrObl-oblN & V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & dekortere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & deles:V__intrXX V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & delje:V__intrXX V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & deppe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & detonere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & dette:V__intrXX V-av__intrPrtcl & MULTIEND_2-items
+VALPOD & deviere:V__intrXX V-fra__intrObl-oblN & MULTIEND_2-items
+VALPOD & die:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & dikke:V-borti__intrObl-oblN & V__trObl-oblPRTOFob & MULTIEND_2-items
+VALPOD & dille:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & dilte:V__intrXX V-etter__intrObl-oblN & MULTIEND_2-items
+VALPOD & dingle:V__intrXX V-etter__intrObl-oblN & MULTIEND_2-items
+VALPOD & dispensere: V-fra__intrObl-oblN & V-fra__intrObl-oblAbsinf & MULTIEND_2-items
+VALPOD & disponere:V-over__intrObl & V_trXX MULTIEND_2-items
+VALPOD & disse:V__intrXX V__tr-obRefl & MULTIEND_2-items
+VALPOD & dissonere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & divergere:V__intrXX V-fra__intrObl-oblN & MULTIEND_2-items
+VALPOD & dobbeltklikke:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & dogge:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & dokke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & dorme:V__intrXX V-av__intrPrtcl & MULTIEND_2-items
+VALPOD & drage:V__intr-suDir & V__tr-obRefl & MULTIEND_2-items
+VALPOD & drages:V-mot__intrObl-oblEqSuInf & V-mot__intrObl-oblN & MULTIEND_2-items
+VALPOD & dras:V-mot__intrObl-oblEqSuInf & V-mot__intrObl-oblN & MULTIEND_2-items
+VALPOD & dregge:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & drifte:V__intr-su Dir & V__trXX MULTIEND_2-items
+VALPOD & drille:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & drodle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & drypptørke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & drønne:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & dubbe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & duellere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & dufte:V__intrXX V__intrAdv & MULTIEND_2-items
+VALPOD & dugge:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & dulte:V-borti__intrObl-oblN & V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & dundre:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & dunste:V__intrXX V-bort__intrPrtcl & MULTIEND_2-items
+VALPOD & duppe:V__intrXX V-av__intrPrtcl & MULTIEND_2-items
+VALPOD & dure:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & dvele:V__intrXX V-ved__intrObl-oblN & MULTIEND_2-items
+VALPOD & dø:V__intrXX V__tr-obEventunit & MULTIEND_2-items
+VALPOD & dønne:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & ebbe:V__impers & V-ut__intrPrtcl & MULTIEND_2-items
+VALPOD & ejakulere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & eksellere:V__intrXX V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & eksistere:V__intrXX V__intrPresnt & MULTIEND_2-items
+VALPOD & ekspandere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & eksplodere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ekstemporere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & embarkere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & emigrere:V__intrXX V-til__trObl-oblN & MULTIEND_2-items
+VALPOD & emittere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & enes:V__intrXX V-om__intrObl-oblN & MULTIEND_2-items
+VALPOD & erigere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & erodere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ese:V__intrXX V-ut__intrPrtcl & MULTIEND_2-items
+VALPOD & eskalere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & eskapere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & estetisere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & evakuere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & falme:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & famne:V__trXX V-om__intrObl-oblN & MULTIEND_2-items
+VALPOD & fangste:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & fantegå:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & farge:V-av__intrPrtcl & V__trXX MULTIEND_2-items
+VALPOD & farte:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & farve:V-av__intrPrtcl & V__trXX MULTIEND_2-items
+VALPOD & favne:V__trXX V-om__intrObl-oblN & MULTIEND_2-items
+VALPOD & fekte:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ferge:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ferje:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & fermentere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & fikle:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & filere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & filetere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & fingermale:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & fingre:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & finne:V__ditr-iobRefl & V__intr-suDir & V__trXX V__trScpr-scObNrg-scPred & V-i__trObl-obRefl-oblDECL & V-i__trObl-obRefl-oblEqObInf & V-i__trObl-obRefl-oblN & V-på__trPrtcl & V-på__trPrtcl-obEqSuInf & V-ut__trPrtcl & V-ut__trPrtcl-obDECL & V-ut__trPrtcl-obINTERR & MULTIEND_12-items
+VALPOD & finnes:V__intrXX V__intrPresnt & MULTIEND_2-items
+VALPOD & finregne:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & finrekne:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & fise:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & fisjonere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & fisle:V__intrXX V-ut__intrPrtcl & MULTIEND_2-items
+VALPOD & fjolle:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & flasse:V__intrXX V-av__intrPrtcl & MULTIEND_2-items
+VALPOD & flikke:V__trXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & flimre:V-for__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & flippe:V__intrXX V-ut__intrPrtcl & MULTIEND_2-items
+VALPOD & flire:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & flomme:V__intrXX V-over__intrPrtcl & MULTIEND_2-items
+VALPOD & floragrafere:V__intrXX V__tr-obDir & MULTIEND_2-items
+VALPOD & fluorescere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & flyge:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & flykte:V__intr-suDir & V-fra__intrObl-oblEqSuInf & MULTIEND_2-items
+VALPOD & flø:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & flømme:V__intrXX V-over__intrPrtcl & MULTIEND_2-items
+VALPOD & flørte:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & fløyte:V__intrXX V__tr-obDir & MULTIEND_2-items
+VALPOD & fomle:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & fordampe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & foreligge:V__intrXX V__intrPresnt & MULTIEND_2-items
+VALPOD & forfalle:V__intrXX V__intrObl-oblN & MULTIEND_2-items
+VALPOD & forklare:V__ditrXX V__ditr-obDECL & V__intrXX V__tr-obINTERR & V__trXX V__tr-obDECL & V__tr-obRefl &  V-om__trObl-oblINTERR & V-om__trObl-oblN & V-om__trObl-obRefl-oblDECL & V-om__trObl-obRefl-oblEqObInf & V-om__trObl-obRefl-oblINTERR & V-om__trObl-obRefl-oblN & MULTIEND_12-items
+VALPOD & forkulle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & forlise:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & forrette:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & forsikre:V__trXX V__tr-obRefl & V-mot__intrObl-oblN & V-mot__trObl-oblN & V-mot__trObl-obRefl-oblDECL & V-mot__trObl-obRefl-oblEqObInf & V-mot__trObl-obRefl-oblN & V-om__trObl-oblN & V-om__trObl-obRefl-oblDECL & V-om__trObl-obRefl-oblEqObInf & V-om__trObl-obRefl-oblINTERR & V-om__trObl-obRefl-oblN & MULTIEND_12-items
+VALPOD & forstøve:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & forsvinne:V__intr-RESULT & V__intrPresnt-RESULT & MULTIEND_2-items
+VALPOD & forvelle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & fotografere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & frafalle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & frasere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & frastå:V-fra__intrObl-oblEqSuInf & V-fra__intrObl-oblN & MULTIEND_2-items
+VALPOD & fraternisere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & frette:V__trXX V-om__intrObl-oblN & MULTIEND_2-items
+VALPOD & friske:V-opp__trPrtcl & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & friskne:V__intrXX V-til__intrPrtcl & MULTIEND_2-items
+VALPOD & furasjere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & fusjonere:V__intrXX V-med__trObl-oblN & MULTIEND_2-items
+VALPOD & føde:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & føre:V__intr-suDir & V-til__intrObl-oblDECL & V-til__intrObl-oblN & V__tr-obDir & V__tr-obRefl & V-på__trObl-oblN & V-inn__trPrtcl & V-inn__trPrtcl-obDECL & V-inn__trPrtcl-obINTERR &  V-opp__trPrtcl & V-opp__trPrtcl-obDECL & V-opp__trPrtcl-obINTERR & V-som__trScpr-scPredprtcl & MULTIEND_12-items
+VALPOD & ganne:V__intrXX V-mot__trObl-oblN & MULTIEND_2-items
+VALPOD & geipe:V__intrXX V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & gestikulere:V__intrXX V__tr-obDECL & MULTIEND_2-items
+VALPOD & gi:V__ditrXX V__ditr-iobRefl & V__ditr-suEqIobInf & V__ditr-suDECL & V-etter__intrPrtcl & V-etter-for__intrPrtclObl & V-til__intrObl-oblN & V__trXX V__tr-obDECL & V__tr-obRefl & V-avkall-på__trObl-oblN & V-avkall-på__trObl-oblEqSuInf & V-bort__trPrtcl & V-for__trObl-obRefl-oblN & V-fra_trObl-oblRefl & V-opp__intrPrtcl & V-opp__trPrtcl & V-ut__trPrtcl & V-over__trPrtcl-obRefl & V-til__intrObl-oblN & V-til__trObl-oblN & V-til__trObl-obRefl-oblEqObInf & MULTIEND_22-items
+VALPOD & gildre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & gire:V__intr-suDir & V-om__intrPrtcl & MULTIEND_2-items
+VALPOD & gispe:V__intrXX V-etter__intrObl-oblN & MULTIEND_2-items
+VALPOD & gjære:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & glane:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & gli:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & glimre:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & glimte:V__intrXX V-til__intrPrtcl & MULTIEND_2-items
+VALPOD & glippe:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & glitre:V__intrXX V-i__impersObl-oblN & MULTIEND_2-items
+VALPOD & gløtte:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & gnisse:V__intrXX V-mot__intrObl-oblN & MULTIEND_2-items
+VALPOD & gomle:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & graduere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & grassere:V__intrXX V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & gry:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & grøfte:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & gråne:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & gulpe:V__intrXX V-opp__trPrtcl & MULTIEND_2-items
+VALPOD & gurgle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & gynge:V__intrXX V__tr-obRefl & MULTIEND_2-items
+VALPOD & gyse:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & gyte:V__intrXX V-ut__trPrtcl & MULTIEND_2-items
+VALPOD & gyve:V-løs-på__intrPrtclObl-oblN & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & gøyse:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & hamstre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & handhelse:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & handhilse:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & hangle:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & hardne:V__intrXX V-til__intrPrtcl & MULTIEND_2-items
+VALPOD & harke:V__intrXX V-opp__trPrtcl & MULTIEND_2-items
+VALPOD & harmonere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & heade:V__intrXX V__tr-obDir & MULTIEND_2-items
+VALPOD & heimfalle:V-til__intrObl-oblN & & V__trXX MULTIEND_2-items
+VALPOD & hekle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & henfalle:V-til__intrObl-oblEqSuInf & V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & henløpe:V__intr-RESULT & V__intrPresnt-RESULT & MULTIEND_2-items
+VALPOD & hensvinne:V__intr-RESULT & V__intrPresnt-RESULT & MULTIEND_2-items
+VALPOD & henvise:V-til__intrObl-oblN & V-til__trObl-oblN & MULTIEND_2-items
+VALPOD & herje:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & herme:V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN & MULTIEND_2-items
+VALPOD & hesje:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & hestehandle:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & hike:V__intr-suDir & V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & hilde:V__trXX V__intrXX MULTIEND_2-items
+VALPOD & himle:V__trXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & hjemfalle:V__trXX V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & horve:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & hospitere:V__intrXX V__intrObl-oblLoc & MULTIEND_2-items
+VALPOD & hoste:V__intrXX V-opp__trPrtcl & MULTIEND_2-items
+VALPOD & hovne:V__intrXX V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & hufse:V__intr-suDir & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & huie:V__intr-suDir & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & huje:V__intr-suDir & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & hulevandre:V__intr-suDir & V__intrObl-oblLoc & MULTIEND_2-items
+VALPOD & hutre:V__intrXX V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_2-items
+VALPOD & hvese:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & høkre:V__intrXX V-ut__trPrtcl & MULTIEND_2-items
+VALPOD & håndhilse:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & hånflire:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & hånle:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & idest:V__intrXX V__tr-obEqSuInf & MULTIEND_2-items
+VALPOD & ile:V__intr-suDir & V-til__intrPrtcl & MULTIEND_2-items
+VALPOD & improvisere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & inhalere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & inklinere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & innestå:V-for__intrObl-oblDECL & V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & innflytte:V__intrXX V-fra__intrObl-oblN & MULTIEND_2-items
+VALPOD & innkomme:V__intr-RESULT & V__intrPresnt-RESULT & MULTIEND_2-items
+VALPOD & innløpe:V__intr-RESULT & V__intrPresnt-RESULT & MULTIEND_2-items
+VALPOD & innovere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & inntre:V__intr-RESULT & V__intrPresnt-RESULT & MULTIEND_2-items
+VALPOD & innånde:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & intervenere:V__intrXX V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & intonere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & irre:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & jamme:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & jasse:V__intrXX V-opp__trPrtcl & MULTIEND_2-items
+VALPOD & jazze:V__intrXX V-opp__trPrtcl & MULTIEND_2-items
+VALPOD & jibbe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kadreie:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kaldflire:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & kaldsmi:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kampere:V__intrXX V__intrObl-oblLoc & MULTIEND_2-items
+VALPOD & kannelere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kante:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kapitulere:V__intrXX V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & kapseise:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & karde:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & katekisere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & keike:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & kime:V__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & kippe:V__intrXX V__tr-obDir & MULTIEND_2-items
+VALPOD & kive:V__intrXX V-om__intrObl-oblN & MULTIEND_2-items
+VALPOD & kjase:V__intrXX V-ut__trPrtcl-obRefl & MULTIEND_2-items
+VALPOD & kjefte:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & kjekle:V__intrXX V-om__intrObl-oblN & MULTIEND_2-items
+VALPOD & kjerve:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kjese:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kjæle:V__trXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & kjæle:V-med__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & kjøpslå:V__intrXX V-om__intrObl-oblN & MULTIEND_2-items
+VALPOD & kjøre:V__intr-suDir & V-av__intrObl-oblN & V-inn__trPrtcl-obRefl & V-opp__intrPrtcl & V-over__intrObl-oblN & V-på__intrObl-oblN & V-road__tr-obDir & V-trip__tr-suDir & V-ut__trPrtcl-obRefl & V-vehicle__trXX V__trScpr-scObCsd & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_12-items
+VALPOD & klake:V__intrXX V__tr-obRefl & MULTIEND_2-items
+VALPOD & klampe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & klatte:V-over__intrObl-oblN & V-til__trPrtcl & MULTIEND_2-items
+VALPOD & klattemale:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & klikke:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & klimpre:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & kline:V__intrXX V-på__trPrtcl & MULTIEND_2-items
+VALPOD & klinge:V__intrXX V-i__impersObl-oblN & MULTIEND_2-items
+VALPOD & klukke:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & klundre:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & klusse:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & klynke:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & klyve:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & kløne:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & klå:V-på__intrObl-oblN & V__trObl-oblPRTOFob & MULTIEND_2-items
+VALPOD & knaske:V-på__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & knatre:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & knatte:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & kniple:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & knirke:V-i__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & knitre:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & knuffe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kollaborere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & kolle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kollidere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & kollsegle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kollseile:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & komparere:V__trXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & kompe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kompostere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kondensere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kongruere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & konke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kontre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & konvergere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kore:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & koreografere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & koste-2:V-av__intrObl-oblN & V__tr-obDir & MULTIEND_2-items
+VALPOD & krasle:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & kraume:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & kravle:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & krible:V-i__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & krikle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kritle:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & krokere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & krongle:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & krungle:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & kry:V-av__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & krype:V__intr-suDir & V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & krysses:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & kullsegle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kullseile:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kumulere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & kvakke:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & kvelde:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & kveles:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & kveppe:V-i__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & lakkere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & lalle:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & lamme:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & lauve:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & lave:V__intrXX V-ned__intrPrtcl & MULTIEND_2-items
+VALPOD & layoute:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & lee:V__tr-obRefl & V-på__intrObl-oblRefl & MULTIEND_2-items
+VALPOD & leite:V__intrXX V-etter__intrObl-oblN & MULTIEND_2-items
+VALPOD & lindre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & linnkoke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & livne:V-til__intrPrtcl & V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & loe:V__intrXX V-av__trPrtcl & MULTIEND_2-items
+VALPOD & loffe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & losjere:V__intrObl-oblLoc & V__trXX MULTIEND_2-items
+VALPOD & losse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & lulle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & luse:V__intr-suDir & V-av__trPrtcl & MULTIEND_2-items
+VALPOD & lye:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & lykkes:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & lyne:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & lysne:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & lystre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & løye:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & magre:V-av__intrPrtcl & V__tr-obRefl & MULTIEND_2-items
+VALPOD & manipulere:V__trXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & manudusere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & manøvrere:V__intr-suDir & V__trXX manøvrere__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & marsjere:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & maskinskrive:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & maskinstrikke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & maule:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & mekke:V__trXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & mellomlande:V__intrXX V__intrObl-oblLoc & MULTIEND_2-items
+VALPOD & midle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & mildne:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & mime:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & minere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & minere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & missnakke:V__intrXX V__tr-obRefl & MULTIEND_2-items
+VALPOD & modne:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & modulere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & monne:V__intrXX V__intrAdv & MULTIEND_2-items
+VALPOD & moppe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & morse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & mosjonere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & motdemonstrere:V__intrXX V-mot__intrObl-oblN & MULTIEND_2-items
+VALPOD & motspionere:V__intrXX V-mot__intrObl-oblN & MULTIEND_2-items
+VALPOD & mumse:V__trXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & mute:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & mutere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & mynte:V-på__intrObl-oblN & V-på__trObl-oblN & MULTIEND_2-items
+VALPOD & myse:V__intrXX V-mot__intrObl-oblN & MULTIEND_2-items
+VALPOD & mæle:V__tr-obDir & V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & mørkne:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & møtes:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & måtte:V__intrAuxmodScpr-scSuNrg-scBareinf & V__intrScpr-scSuNrg-scDir & MULTIEND_2-items
+VALPOD & nage:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & naube:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & navigere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & nedkomme:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & neie:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & nevehelse:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & nevehilse:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & nippe:V__intrXX V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & nistirre:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & nuppe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & nuske:V__intrXX V-bort__trPrtcl & MULTIEND_2-items
+VALPOD & nusse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & nype:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & nøle:V__intrXX V-med__intrObl-oblEqSuInf & MULTIEND_2-items
+VALPOD & nøre:V__trXX V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & nå:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & oksidere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & olme:V__intrXX V__tr-obRefl & MULTIEND_2-items
+VALPOD & omkomme:V__intrXX V__intrPresnt & MULTIEND_2-items
+VALPOD & omrekne:V__trXX V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & opphøre:V__intrXX V__intrScpr-scSuNrg-scRaisInf & MULTIEND_2-items
+VALPOD & oppstå:V__intrXX V__intrPresnt & MULTIEND_2-items
+VALPOD & opptre:V__intrXX V-som__intrScpr-scSuNrg-scPredprtclN & MULTIEND_2-items
+VALPOD & orge:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & orkestrere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & oscillere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ose:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & overdrive:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & overlappe:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & overspille:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & overta:V__trXX V-som__intrLghtScpr-scSuNrg-scPredprtcl & MULTIEND_2-items
+VALPOD & pace:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & paffe:V__intrXX V-ned__trPrtcl & MULTIEND_2-items
+VALPOD & patruljere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & patte:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & pense:V__intr-suDir & V__tr-obDir & MULTIEND_2-items
+VALPOD & perse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & pikke:V-i__intrObl-oblN & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & pilke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & pimpe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & pipe:V__intrXX V-ut__trPrtcl & MULTIEND_2-items
+VALPOD & piple:V__intrXX V-frem__intrPrtcl & MULTIEND_2-items
+VALPOD & plinge:V-i__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & plumpe:V__intr-suDir & V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & pløse:V__intrXX V__tr-obRefl & MULTIEND_2-items
+VALPOD & polymerisere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & presidere:V__intrXX V-over__intrObl-oblN & MULTIEND_2-items
+VALPOD & promenere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & proviantere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & puge:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & pugge:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & pukke:V__trXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & pulse:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & punche:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & punktere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & pusle:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & pæle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & pønse:V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & pønske:V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & rafte:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & rage:V__intr-suDir & V-over__intrObl-oblN & MULTIEND_2-items
+VALPOD & rakne:V__intrXX V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & ramle:V__intr-suDir & V-sammen__intrPrtcl & MULTIEND_2-items
+VALPOD & rapportere:V__trXX V-til__intrObl-oblN & MULTIEND_2-items
+VALPOD & rapse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & rasle:rasle-i__impersObl-oblN & V__intrXX rasle-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & rede:V__intrXX V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & redgjøre:V-for__intr-oblINTERR & V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & redgjøre:V-for__intr-oblINTERR & V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & reduseres:V__intrXX V-med__tr-oblN & MULTIEND_2-items
+VALPOD & regenerere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & reie:V__trXX V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & reinjisere:V__tr-obDir & V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & reinvestere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & reke:V__intr-suDir & V-omkring__intrPrtcl & MULTIEND_2-items
+VALPOD & rekognosere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & rekombinere:V__trXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & rekreere:V__intrXX V__tr-obRefl & MULTIEND_2-items
+VALPOD & replisere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & resistere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & restarte:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & resultere:V-i__intrObl-oblDECL & V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & retardere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & reversere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ringe:V__impers & V-i__impersObl-oblN & V__intrXX V-av__intrPrtcl & V-for__intrObl-oblAbsinf & V-for__intrObl-oblN & V-til__intrObl-oblN & V__trXX V__tr-obRefl & V-inn__trPrtcl & V-inn__trPrtcl-obRefl & V-opp__trPrtcl & MULTIEND_12-items
+VALPOD & rispe:V__trXX V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & rite:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ruges:V__intrXX V-ut__intrPrtcl & MULTIEND_2-items
+VALPOD & rugle:V__intrXX V__intr-suDir & rugle__trXX MULTIEND_2-items
+VALPOD & rukke:V__trXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & rullere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & rushe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & rusle:V__intrPresntDir & V__intr-suDir & MULTIEND_2-items
+VALPOD & ruste-2:V__intrXX V-bort__intrPrtcl & MULTIEND_2-items
+VALPOD & ry:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & røyne:V__trXX V-på__intrPrtcl & MULTIEND_2-items
+VALPOD & rådlegge:V__intrXX V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & sabbe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & safte:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & salutere:V__intrXX V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & sammenkoble:V__trXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & sammenstøte:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & samsvare:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & sandwiche:V__trXX V-mellom__intrObl-oblN & MULTIEND_2-items
+VALPOD & score:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & segne:V__intrXX V-om__intrPrtcl & MULTIEND_2-items
+VALPOD & seinke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sekundere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & semaforere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & serve:V__intrXX V__tr-obDir & MULTIEND_2-items
+VALPOD & sesongdebutere:V__intrXX V-som__intrLghtScpr-scSuNrg-scPredprtcl & MULTIEND_2-items
+VALPOD & shoppe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sige:V__intrXX V-sammen__intrPrtcl & MULTIEND_2-items
+VALPOD & signe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & signere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sikksakke:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & sitre:V-i__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & sjangle:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & sjaue:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & sjefe:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & sjeide:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sjofle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sjokke:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & sjokkåpne:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sjonglere:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & sjukne:V__intrXX V-bort__intrPrtcl & MULTIEND_2-items
+VALPOD & skalte:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & skandere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & skare:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & skarre:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & skeine:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & skeive:V-borti__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & skofte:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & skoggerle:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & skore:V__trXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & skramle:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & skrattle:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & skreve:V__intrXX V-over__intrObl-oblN & MULTIEND_2-items
+VALPOD & skritte:V-ut__intrPrtcl & V-opp__trPrtcl & MULTIEND_2-items
+VALPOD & skrive:V__ditrXX V__intrXX V-av__intrObl-oblN & V-om__intrObl-oblN & V-på__intrObl-oblN & V-til__intrObl-oblN & V-for__intrObl-oblN & V-i__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-over__intrObl-oblN & V-ferdig__intrPrtcl & V__trXX V-ferdig__trPrtcl & V-inn__trPrtcl-obDECL & V-inn__trPrtcl & V-ned__trPrtcl & V-om__trPrtcl & V-opp__trPrtcl & V-ut__trPrtcl & MULTIEND_22-items
+VALPOD & skrøfte:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & skråne:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & skue:V__trXX V-mot__intrObl-oblN & MULTIEND_2-items
+VALPOD & skulke:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & skumlese:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & skumple:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & skvulpe:V__intrXX V-over__intrPrtcl & MULTIEND_2-items
+VALPOD & skyggebokse:V__intrXX V-med__trObl-oblN & MULTIEND_2-items
+VALPOD & skyte:V__intr-suDir & V-på__intrObl-oblN & V-av__intrPrtcl & V__tr-obDir & V__tr-obRefl & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-på__trObl-oblN & V-inn__trPrtcl-obDECL & V-inn__trPrtcl-obINTERR & V-til__trPrtcl-obDECL & V__trScpr-scObCsd & MULTIEND_12-items
+VALPOD & skøye:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & sladde:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & slafse:V__intrXX V-i__trScpr-scPPrefl & MULTIEND_2-items
+VALPOD & slagge:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & slamme:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & slampe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & slaske:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & slegge:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & slure:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & sløre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sløve:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & smalne:V__intrXX V-inn__intrPrtcl & MULTIEND_2-items
+VALPOD & smiske:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & småbite:V__trXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & smågnage:V__trXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & småløpe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & småprate:V__intrXX V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2DECL & V-med-om__intrObl2-oblEqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & MULTIEND_12-items
+VALPOD & sneie:V__trXX V-borti__intrObl-oblN & MULTIEND_2-items
+VALPOD & snekkerere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & snerre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & snerte:V__trXX V-borti__intrObl-oblN & MULTIEND_2-items
+VALPOD & snubbe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & snørekjøre:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & sollisitere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sondere:V-mellom__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & sordinere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & spane:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & spankulere:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & spasere:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & spekke:V__trXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & spionere:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & sprade:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & sprake:V-i__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & sprinte:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & spurte:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & spøke:V__intrXX V-med__intrObl-oblAbsinf & V-med__intrObl-oblDECL & V-med__intrObl-oblINTERR & V-med__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2DECL & V-med-om__intrObl2-obl1N-obl2INTERR & V-om__intrObl-oblN & MULTIEND_12-items
+VALPOD & stabbe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & stamme:V__intrXX V-fra__intrObl-oblN & MULTIEND_2-items
+VALPOD & stanse-2:V__trXX V-ut__intrPrtcl & MULTIEND_2-items
+VALPOD & steike:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & steke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & stole:V-på__intrObl-oblDECL & V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & streame:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & streife:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & strutte:V__intrXX V-av__intrObl-oblN & MULTIEND_2-items
+VALPOD & stråle:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & stumpe:V__intr-suDir & V__trXX MULTIEND_2-items
+VALPOD & stylte:V__intr-suDir & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & styltre:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & styrkes:V__intrXX V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & subbe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & sufflere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & surkle:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & suse:V__impers & V__intr-suDir & MULTIEND_2-items
+VALPOD & susle:V__intrXX V-bort__trPrtcl & MULTIEND_2-items
+VALPOD & susse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & svanse:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & svarve:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & sveipe:V-over__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & svelle:V__intrXX V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & sveve:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & svikte:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & svime:V__intr-suDir & V-av__intrPrtcl & MULTIEND_2-items
+VALPOD & svimle:V-for__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & svimre:V-for__impersObl-oblN & V__intrXX MULTIEND_2-items
+VALPOD & svinse:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & svirre:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & svive:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & svømme:V__intrObl-oblLoc & V__intr-suDir & MULTIEND_2-items
+VALPOD & synde:V__intrXX V-mot__intrObl-oblN & MULTIEND_2-items
+VALPOD & synke:V__intr-suDir & V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & sysle:V-med__intrObl-oblN & V-med__intrObl-oblEqSuInf & MULTIEND_2-items
+VALPOD & søple:V-til__intrPrtcl & V-til__trPrtcl & MULTIEND_2-items
+VALPOD & så:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tasse:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & teleksere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tjelde:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tjene-1:V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V-til__intrObl-oblN & V-på__trObl-oblDECL & V-på__trObl-oblEqSuInf & V-på__trObl-oblN & V__trXX V-til__trObl-oblEqSuInf & V-til__trObl-oblN & V-netto__trScpr-scObArg & V-brutto__trScpr-scObArg & MULTIEND_12-items
+VALPOD & tjenestegjøre:V__intrXX V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & tjenstgjøre:V__intrXX V-for__intrObl-oblN & MULTIEND_2-items
+VALPOD & tjone:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tjukne:V__intrXX V-til__intrPrtcl & MULTIEND_2-items
+VALPOD & tjuve:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tralle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & traske:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & trave:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & trikke:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & trikse:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & trine:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & trinse:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & trippe:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & trone:V__intrXX V__intrObl-oblLoc & MULTIEND_2-items
+VALPOD & trøstespise:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tråle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tråve:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & tusje:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tusse:V__impers & V__intrXX MULTIEND_2-items
+VALPOD & tute:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & tverrsnu:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tverrstanse:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tverrvende:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & tykne:V-til__impersPrtcl & V__intrXX MULTIEND_2-items
+VALPOD & tyste:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & tørrkoke:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & underby:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & underdrive:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & undergjære:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & utgå:V__intrXX V-på__intrObl-oblN & MULTIEND_2-items
+VALPOD & utligne:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & utlikne:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & utløpe:V__intr-RESULT & V__intrPresnt-RESULT & MULTIEND_2-items
+VALPOD & uttvære:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & utvandre:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & utvaskes:V__intrXX V-for__trObl-oblN & MULTIEND_2-items
+VALPOD & vadre:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & vagge:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & vagle:V__intrXX V__tr-obRefl & MULTIEND_2-items
+VALPOD & vake:V__intrXX V-over__intrObl-oblN & MULTIEND_2-items
+VALPOD & vakle:V__intr-suDir & V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & vakne:V__intrXX V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & valte:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & vanke:V__intrObl-oblLoc & V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & vanstelle:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & vanstyre:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & varpe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & varte:V-opp__trPrtcl & V-opp-med__intrPrtclObl-oblN & MULTIEND_2-items
+VALPOD & vasse:V__intr-suDir & V-i__intrObl-oblN & MULTIEND_2-items
+VALPOD & vedbli:V__intrXX V__intrScpr-scSuNrg-scRaisInf & MULTIEND_2-items
+VALPOD & vedvare:V__intrXX V__intrScpr-scSuNrg-scRaisInf & MULTIEND_2-items
+VALPOD & veide:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & veite:V__intrXX V__tr-obDir & MULTIEND_2-items
+VALPOD & veive:V__intrXX V-med__intrObl-oblN & MULTIEND_2-items
+VALPOD & verpe:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & vildre:V__intrXX V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & vime:V__intr-suDir & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & vimre:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & vimse:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & vingle:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & virre:V__intr-suDir & V-bort__trPrtcl-obRefl & MULTIEND_2-items
+VALPOD & vivisektere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & vogge:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & voldgiftsdømme:V-i__intrObl-oblN & V__trXX MULTIEND_2-items
+VALPOD & vralte:V__intrXX V__intr-suDir & MULTIEND_2-items
+VALPOD & våkne:V__intrXX V-opp__intrPrtcl & MULTIEND_2-items
+VALPOD & xerografere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & xylografere:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & ynkes:V-over__intrObl-oblN & V-over__intrObl-oblDECL & MULTIEND_2-items
+VALPOD & yppe:V-til__intrObl-oblN & V__tr-obRefl & MULTIEND_2-items
+VALPOD & yste:V__intrXX V__trXX MULTIEND_2-items
+VALPOD & zoome:V__intr-suDir & V__tr-obDir & MULTIEND_2-items

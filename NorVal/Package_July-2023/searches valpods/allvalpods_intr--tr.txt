@@ -1,0 +1,819 @@
+VALPOD & abortere:V__intr & V-fra__intrObl-oblEqSuInf & V-fra__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & absolvere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & abstrahere:V__intr & V-fra__intrObl-oblN & V__tr & V-fra__trObl-oblN & MULTIEND_4-items
+VALPOD & adlyde:V__intr & V__tr & MULTIEND_2-items
+VALPOD & agglutinere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & akkompagnere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & akselerere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & allitterere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & amme:V__intr & V__tr & MULTIEND_2-items
+VALPOD & amputere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ane:V__intr & V__tr-obINTERR & V__tr & ane__trExpnSu-expnDECL & V__trExpnSu-expnINTERRwh & V__trExpnSu-expnINTERRyn & V__tr-obDECL & V__tr-suDECL & V__tr-suINTERR & MULTIEND_8-items
+VALPOD & angre:V__intr & V-for__intrObl-oblN & V-for__trObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__trObl-obRefl-oblN & V-på__intrObl-oblN & V__tr & V__tr-obRefl & V__tr-obEqSuInf & V__tr-obDECL & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblINTERR & V-på__intrObl-oblDECL & V-på__intrObl-oblN & MULTIEND_14-items
+VALPOD & angripe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & anke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ankomme:V__intr-suDir & V__tr-suDir & MULTIEND_2-items
+VALPOD & anløpe:V__intr-RESULT & V__intrPresnt-RESULT & V__tr & MULTIEND_3-items
+VALPOD & applaudere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & applikere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & apportere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & arbeide:V__intr-suDir & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V-som__intrLghtScpr-scSuNrg-scPredprtcl &  V__tr & V-inn__trPrtcl-obDECL & MULTIEND_6-items
+VALPOD & auke:V__intr & V__tr & V-på__intrPrtcl & MULTIEND_3-items
+VALPOD & ause-1:V__intr-suDir & V__tr & V__tr-obDir & MULTIEND_3-items
+VALPOD & avansere:V__intr & V-mot__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & avkoble:V__intr & V__tr & MULTIEND_2-items
+VALPOD & avmønstre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & avruste:V__intr & V__tr & MULTIEND_2-items
+VALPOD & avskalle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & avspasere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & avspore:V__intr & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-fra__trObl-suDECL-oblEqObInf & V-fra__trObl-suDECL-oblN & V-fra__trObl-suEqObInf-oblEqObInf & V-fra__trObl-suEqObInf-oblN & V-fra__trOblExpnSu-oblEqObInf-expnDECL & V-fra__trOblExpnSu-oblN-expnDECL & V-fra__trOblExpnSu-oblEqObInf-expnEqObInf & V-fra__trOblExpnSu-oblN-expnEqObInf & V__tr & MULTIEND_12-items
+VALPOD & avstraffe:V__tr & V__intr & V__tr & MULTIEND_3-items
+VALPOD & bade:V__intr & V__tr & MULTIEND_2-items
+VALPOD & bake:V__ditr & V__intr & V__tr & MULTIEND_3-items
+VALPOD & bakke:V-ut__intrPrtcl & V__intr & V__tr & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & balansere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & banke:V__intr & V-på__intrObl-oblN & V__tr & banke-opp__trPrtcl & MULTIEND_3-items
+VALPOD & be:V__ditr-obEqIobBareinf & V__intr & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblN & V-for__intrObl-oblN & V__tr & V-om__trObl-oblEqObInf & V-om__trObl-oblEqSuInf & V-om__trObl-oblEqSuInf & V-om__trObl-oblN & V-på__trObl-oblN & V-til__intrObl-oblN & MULTIEND_12-items
+VALPOD & begeistre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & begynne:V__intr & V-med__intrObl-oblDECL & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V__tr & V__intrScpr-scSuNrg-scRaisInf & MULTIEND_8-items
+VALPOD & beite:V__intr & V__tr & MULTIEND_2-items
+VALPOD & beklage:V__intr & V__tr & V__tr-obEqSuInf & V__trExpnOb-expnCOND & V__trExpnOb-expnDECL & V__tr-obDECL & V__tr-obRefl & V-for__trObl-obRefl-oblN & V-over__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & MULTIEND_12-items
+VALPOD & belje:V__intr & V__tr & MULTIEND_2-items
+VALPOD & bestemme:V__intr & V__tr-obINTERR & V__tr & bestemme__tr-obDECL & V__tr-obRefl & V-for__trObl-obRefl-oblEqObInf & V-til__trObl-oblN & V-til__trObl-oblEqObInf & MULTIEND_7-items
+VALPOD & bestå:V__intr & V-av__intrObl-oblAbsinf & V-av__intrObl-oblN & V-i__intrObl-oblAbsinf & V__tr & MULTIEND_5-items
+VALPOD & betale:V__ditr & V__intr & V-for__intrObl-oblN & V-for__trObl-oblN & V__tr & V__tr-obRefl & MULTIEND_6-items
+VALPOD & bikke:V__intr & V-på_intrObl-oblN & V-på_intrObl-oblRefl & V__tr & MULTIEND_4-items
+VALPOD & bile:V__intr-suDir & V__tr-obDir & MULTIEND_2-items
+VALPOD & bite:V__intr & V-i__intrObl-oblN & V-i__trScpr-scPPrefl & V__tr & V-av__trPrtcl & V-sammen__trPrtcl & V-fast__trPrtcl-obRefl & MULTIEND_7-items
+VALPOD & blinke:V__intr & V__tr & V-ut__trPrtcl & MULTIEND_3-items
+VALPOD & blogge:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_7-items
+VALPOD & blote:V__intr & V__tr & MULTIEND_2-items
+VALPOD & blø:V__intr & V-for__intrObl-oblN & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V__tr & MULTIEND_5-items
+VALPOD & bløffe:V__intr & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V-fram__trPrtcl-obRefl & V-frem__trPrtcl-obRefl & MULTIEND_8-items
+VALPOD & blånekte:V__intr & V__tr-obDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN & MULTIEND_6-items
+VALPOD & blåse:V__impers & V-bort__intrPrtcl & V-i__intrObl-oblN & V-i__intrObl-oblDECL & V-i__intrObl-oblEqSuInf & V-i__intrObl-oblINTERR & V-på__intrObl-oblN & V__tr-obDir & V__intrPresntDir & V-opp_trPrtcl-obRefl & MULTIEND_10-items
+VALPOD & bokse:V__intr & V__tr-obDir & MULTIEND_2-items
+VALPOD & bore:V__intr-suDir & V__tr & V__trPath-obRefl-obDir & V-i__intrObl-oblN & V-ut__trPrtcl & MULTIEND_5-items
+VALPOD & botne:V__intr & V__tr & V-i__intrObl-oblN & MULTIEND_3-items
+VALPOD & braute:V__intr & braute-med__intrObl-oblDECL & V-med__intrObl-oblN & V__trPath-obRefl-obDir & MULTIEND_3-items
+VALPOD & brekke:V__intr & V-av__intrPrtcl & V-av-på__intrPrtclObl-oblN & V__tr & V__tr-obRefl & V-av__trPrtcl & V-av-på__trPrtclObl-oblN & V-opp__trPrtcl & MULTIEND_8-items
+VALPOD & bremse:V__intr & V-ned__intrPrtcl & V-opp__intrPrtcl & V__tr & V-ned__trPrtcl & MULTIEND_5-items
+VALPOD & brenne:V__impers & V__intr & V__tr & V__tr-obRefl & V-for__intrObl-oblN & V-for__intrObl-oblEqSuInf & V__intrPresnt & V-ned__intrPrtcl & V-ned__trPrtcl & V-opp__intrPrtcl & V-opp__trPrtcl & MULTIEND_11-items
+VALPOD & breste:V__intr & V__tr & MULTIEND_2-items
+VALPOD & brodere:V__intr & V-på__intrObl-oblN & V__tr & V-ut__trPrtcl & MULTIEND_4-items
+VALPOD & bronsere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & brosjere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & bryte:V__intr & V__tr & V-inn__trPrtcl-obRefl & V-med__intrObl-oblN & V-ned__trPrtcl & V-opp__intrPrtcl & V-opp__trPrtcl & V-ut__trPrtcl-obRefl & MULTIEND_8-items
+VALPOD & brøle:V__intr-suDir & V__tr & V__tr-obDECL & MULTIEND_3-items
+VALPOD & bråne:V__intr & V__tr & MULTIEND_2-items
+VALPOD & bråstanse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & bukke:V__intr & V-under__intrPrtcl & V__tr-obRefl & MULTIEND_3-items
+VALPOD & bulke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & bunkre:V__intr & V-opp__intrPrtcl & V__tr & MULTIEND_3-items
+VALPOD & bygge:V__intr & V__tr & V-ned__trPrtcl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & V-på__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & MULTIEND_8-items
+VALPOD & bysse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & bytte:V__intr & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V__tr & V-bort__trPrtcl & V-med__trObl-oblN & V-mot__trObl-oblN & MULTIEND_7-items
+VALPOD & bære:V__intr & V__tr-obDir & V__tr-obRefl & V-på__intrObl-oblN & MULTIEND_4-items
+VALPOD & celebrere:V__intr & V__tr & V__tr-obDECL & MULTIEND_3-items
+VALPOD & dagdrømme:V__intr & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V__tr-obDECL & V__trPath-obRefl-obDir & MULTIEND_8-items
+VALPOD & dampe:V__intr & V__intr-suDir & dampe__intrScpr-scSuNrgCsd & V-på__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & dampkoke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & dangle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & danse:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & debattere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & deflatere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & deklamere:V__intr & V__tr & V__tr-obDECL & MULTIEND_3-items
+VALPOD & dekortere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & dele:V__intr & V-med__intrObl-oblN & V__tr & V__tr-obRefl &  V-i__trObl-oblN & V-i__trObl-obRefl-oblN & V-med__trObl-oblN & V-opp__trPrtcl & V-ut__trPrtcl & MULTIEND_8-items
+VALPOD & demonstrere:V__intr & V__tr & V-for__intrObl-oblN & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-mot__intrObl-oblN & V-mot__intrObl-oblDECL & V-mot__intrObl-oblEqSuInf & MULTIEND_8-items
+VALPOD & deppe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & derivere:V__intr & V__tr & V-fra__trObl-oblN & V-fra__trObl-oblDECL & MULTIEND_4-items
+VALPOD & desorientere:V__intr & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V-om__trObl-oblINTERR & V-om__trObl-oblN & MULTIEND_6-items
+VALPOD & detonere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & die:V__intr & V__tr & MULTIEND_2-items
+VALPOD & dikte:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & dimme:V__impers & V__intr & V__tr & MULTIEND_3-items
+VALPOD & diskutere:V__tr-obINTERR & V__intr-suDir & V-med__intrObl-oblN & V-om__intrObl-oblN & V__tr & V-imellom__trPrtcl-obRefl & MULTIEND_6-items
+VALPOD & disputere:V__intr & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & disse:V__intr & V__tr-obRefl & MULTIEND_2-items
+VALPOD & dissonere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & dokke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & dorge:V__intr & V__tr & V-etter__intrObl-oblN & MULTIEND_3-items
+VALPOD & dra:V__intr-suDir & V__tr-obDir & V__tr-obRefl & V-fra__intrObl-oblN & V-sammen__trPrtcl & MULTIEND_5-items
+VALPOD & drage:V__intr-suDir & V__tr-obRefl & MULTIEND_2-items
+VALPOD & dregge:V__intr & V__tr & MULTIEND_2-items
+VALPOD & dreie:V__intr-suDir & V__tr & V-om__trObl-obRefl-oblN & V-om__trObl-obRefl-oblAbsinf & V-om__trObl-obRefl-oblDECL & V-om__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & drible:V__intr & V__tr & V-av__trPrtcl & V-unna__trPrtcl & MULTIEND_4-items
+VALPOD & drifte:V__intr-su Dir & V__tr & MULTIEND_2-items
+VALPOD & drikke:V__intr & V__tr & V__trScpr-scObNrgCsd-scPred & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_4-items
+VALPOD & drille:V__intr & V__tr & MULTIEND_2-items
+VALPOD & drive:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V-på__intrPrtcl & V-på-med__intrPrtclObl-oblEqSuInf & V-på-med__intrPrtclObl-oblN & V__tr & MULTIEND_7-items
+VALPOD & drodle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & drukne:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & dryppe:V__impers & V__intr & V__tr & MULTIEND_3-items
+VALPOD & drypptørke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & drømme:V__intr & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V__tr-obDECL & V__trPath-obRefl-obDir & MULTIEND_8-items
+VALPOD & dubbe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & dumpe:V__intr & V__tr & V-oppi__intrObl-oblN & MULTIEND_3-items
+VALPOD & dunke:V__intr & V-borti__intrObl-oblN & V__trObl-oblPRTOFob & MULTIEND_3-items
+VALPOD & dusje:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & dø:V__intr & V__tr-obEventunit & MULTIEND_2-items
+VALPOD & egge:V__intr & V__tr & V-opp__trPrtcl & V-til__trObl-oblEqObInf & V-til__trObl-oblN & MULTIEND_5-items
+VALPOD & ejakulere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & eksklamere:V__intr & V__tr & V__tr-obDECL & MULTIEND_3-items
+VALPOD & ekspandere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & eksperimentere:V__intr & V__trPath-obRefl-obDir & V-med__intrObl-oblAbsinf & V-med__intrObl-oblN & MULTIEND_4-items
+VALPOD & eksplodere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ekstemporere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & elske:V__intr & V__tr & V__tr-obDECL & V__tr-obEqSuInf & MULTIEND_4-items
+VALPOD & embarkere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & emittere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ende:V__intr & V__intrAdv & V__tr & V-med__intrOblRais-oblRaisInf & V-med__intrObl-oblDECL & MULTIEND_5-items
+VALPOD & engasjere:V__intr & V__tr & V__tr-obRefl & V-i__trObl-obRefl-oblN & V-i__trObl-obRefl-oblAbsinf & MULTIEND_5-items
+VALPOD & erigere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & erodere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & eskalere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & eskapere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & estetisere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ete:V__intr & V-av__intrObl-oblN-ACTIVITY & V-på__intrObl-oblN-ACTIVITY & V__tr & V-innpå__trObl-obRefl-oblN & V-opp__trPrtcl & V__trScpr-scObNrgCsd-scPred & V__trScpr-obRefl-scObNrgCsd-scPred & V-i__trScpr-scPPrefl & MULTIEND_9-items
+VALPOD & etse:V__intr-suDir & V__tr & V__tr-obRefl-obDir & V-opp__trPrtcl & V__trScpr-scObCsd & MULTIEND_5-items
+VALPOD & evakuere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & falme:V__intr & V__tr & MULTIEND_2-items
+VALPOD & famle:V__intr & V__trPath-obRefl-obDir & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & MULTIEND_4-items
+VALPOD & fascinere:V__intr & V__tr & V__tr-suAbsinf & V__tr-suDECL & MULTIEND_4-items
+VALPOD & feie:V__intr & V__intr-suDir & V__tr & V__tr-obDir & V-av__trPrtcl & MULTIEND_5-items
+VALPOD & feire:V__intr & V__tr & V__tr-obDECL & MULTIEND_3-items
+VALPOD & fekte:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ferge:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ferje:V__intr & V__tr & MULTIEND_2-items
+VALPOD & fermentere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & feste:V__intr & V__tr & V__tr-obRefl & V-ved__trObl-obRefl-oblN & MULTIEND_4-items
+VALPOD & figurere:V__intr & V-i__intrObl-oblN & V-som__intrScpr-scSuNrg-scPredprtclN & V__tr & MULTIEND_4-items
+VALPOD & filere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & filetere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & filme:V__intr & V__tr & V__tr-obDECL & V__tr-obINTERR & MULTIEND_4-items
+VALPOD & fingermale:V__intr & V__tr & MULTIEND_2-items
+VALPOD & finne:V__ditr-iobRefl & V__intr-suDir & V__tr & V__trScpr-scObNrg-scPred & V-i__trObl-obRefl-oblDECL & V-i__trObl-obRefl-oblEqObInf & V-i__trObl-obRefl-oblN & V-på__trPrtcl & V-på__trPrtcl-obEqSuInf & V-ut__trPrtcl & V-ut__trPrtcl-obDECL & V-ut__trPrtcl-obINTERR & MULTIEND_12-items
+VALPOD & fire:V__intr & V__tr & V__trPath-obRefl-obDir & V-ned__trPrtcl & MULTIEND_4-items
+VALPOD & fise:V__intr & V__tr & MULTIEND_2-items
+VALPOD & fisjonere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & fiske:V__intr & V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN & V__tr & V-opp__trPrtcl & MULTIEND_5-items
+VALPOD & flagge:V__intr & V-med__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & floragrafere:V__intr & V__tr-obDir & MULTIEND_2-items
+VALPOD & fluorescere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & flyge:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & flytte:V__intr & V__tr-obDir & V__tr-obRefl & V-på__intrObl-oblN & V-på__intrObl-oblRefl & MULTIEND_5-items
+VALPOD & fløyte:V__intr & V__tr-obDir & MULTIEND_2-items
+VALPOD & fokusere:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V__tr & V-på__trObl-oblDECL & V-på__trObl-oblEqSuInf & V-på__trObl-oblINTERR & V-på__trObl-oblN & MULTIEND_10-items
+VALPOD & forbrenne:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & fordampe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & fordunste:V__intr & V-bort__intrPrtcl & V__tr & MULTIEND_3-items
+VALPOD & foredra:V__ditr & V__intr & V-for__intrObl-oblN & V__tr & V-for__trObl-oblN & MULTIEND_5-items
+VALPOD & forekomme:V__intr & V__intr-suDECL & V__intrAdvExpn-expnDECL & V_intrExpn-expnDECL & V__trScpr-scSuNrg-scInf & V__trScpr-scSuNrg-scPred & V_intrExpn-expnDECL & V__trExpnSu-expnINTERRwh & V-som__trScpr-scSuNrg-scPredprtcl & MULTIEND_9-items
+VALPOD & forhandle:V__intr & V-om__intrObl-oblINTERR & V-med-om__intrObl2-obl1N-obl2EqSuInf & V-om__intrObl-oblEqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-om__trObl-oblN & V__tr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2N & V-til__trObl-obRefl-oblN & MULTIEND_10-items
+VALPOD & forklare:V__ditr & V__ditr-obDECL & V__intr & V__tr-obINTERR & V__tr & V__tr-obDECL & V__tr-obRefl &  V-om__trObl-oblINTERR & V-om__trObl-oblN & V-om__trObl-obRefl-oblDECL & V-om__trObl-obRefl-oblEqObInf & V-om__trObl-obRefl-oblINTERR & V-om__trObl-obRefl-oblN & MULTIEND_12-items
+VALPOD & forkulle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & forkynne:V__ditr & V__intr & V__tr-obINTERR & V__tr & V__tr-obDECL & MULTIEND_5-items
+VALPOD & forlise:V__intr & V__tr & MULTIEND_2-items
+VALPOD & forløpe:V__intr & V__tr-obRefl & V-mot__trObl-obRefl-oblN & MULTIEND_3-items
+VALPOD & forplikte:V__intr & V__tr & V-til__trObl-obRefl-oblDECL & V-til__trObl-oblEqObInf & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & forrette:V__intr & V__tr & MULTIEND_2-items
+VALPOD & forstøve:V__intr & V__tr & MULTIEND_2-items
+VALPOD & forstå:V__intr & V__tr-obINTERR & V__tr & forstå__tr-obDECL & V-på__trObl-oblEqObInf & V-på__trObl-oblINTERR & V-på__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & fortsette:V__intr-suDir & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V-på__intrObl-oblN & V__intrScpr-scSuNrg-scPred & V__intrScpr-scSuNrg-scRaisInf & V__tr & V__tr-obEqSuInf & MULTIEND_8-items
+VALPOD & forvelle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & fotografere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & frafalle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & frasere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & frese:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & fri:V__intr & V__tr & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblEqObInf & V-fra__trObl-obRefl-oblN & V-til__intrObl-oblN & MULTIEND_7-items
+VALPOD & fryse:V__intr & V__intrObl-oblPRTOFsu & V__tr & V-ned__trPrtcl & V-til__intrPrtcl & V-ut__trPrtcl & MULTIEND_6-items
+VALPOD & furasjere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & føde:V__intr & V__tr & MULTIEND_2-items
+VALPOD & føre:V__intr-suDir & V-til__intrObl-oblDECL & V-til__intrObl-oblN & V__tr-obDir & V__tr-obRefl & V-på__trObl-oblN & V-inn__trPrtcl & V-inn__trPrtcl-obDECL & V-inn__trPrtcl-obINTERR &  V-opp__trPrtcl & V-opp__trPrtcl-obDECL & V-opp__trPrtcl-obINTERR & V-som__trScpr-scPredprtcl & MULTIEND_12-items
+VALPOD & få:V__ditr-iobRefl & V__intrAuxperfScpr-scSuNrg-scPerf & V__tr & V__tr-obDir & V__tr-obEqBareinf & V__trScpr-scObCsd & V-av__trObl-oblN & V-bort__trScpr-scObNrgCsd-scPred & V-fatt-i__trObl-oblN & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblEqObInf & V-til__trObl-oblEqObInf & V-til__trObl-obRefl-oblEqObInf & V-til__trOblRais-oblRaisInf & V-til__trPrtclExpnOb-expnDECL & MULTIEND_16-items
+VALPOD & gestikulere:V__intr & V__tr-obDECL & MULTIEND_2-items
+VALPOD & gidde:V__intr & V__tr & V__tr-obEqSuInf & MULTIEND_3-items
+VALPOD & gildre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & gisse:V__intr & V__trPath-obRefl-obDir & V-på__intrObl-oblN & MULTIEND_3-items
+VALPOD & gjelde:V__intr & V__tr & V_intrExpn-expnDECL & V-for__intrObl-oblN & MULTIEND_4-items
+VALPOD & gjette:V__intr & V__tr-obINTERR & V__tr & gjette__tr-obDECL & V-til__trObl-obRefl-oblDECL & V-til__trObl-obRefl-oblINTERR & V-til__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & gjære:V__intr & V__tr & MULTIEND_2-items
+VALPOD & gjø:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & glide:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & glømme:V__tr-obINTERR & V__intrObl-oblN & V__tr & V__tr-obEqSuInf & V__tr-obRefl & V-bort__trPrtcl-obRefl & MULTIEND_6-items
+VALPOD & gnage:V__intr & V__tr & V-av__trPrtcl & V-bort__trPrtcl & V-opp__trPrtcl & V-vekk__trPrtcl & V-på__intrObl-oblN & MULTIEND_7-items
+VALPOD & graduere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & grave:V__intr & V__tr & V-fram__trPrtcl & V-frem__trPrtcl & V-ned__trPrtcl & V-ned__trPrtcl-obRefl & V-opp__trPrtcl & V-ut__trPrtcl & MULTIEND_8-items
+VALPOD & grunne:V__intr & V__tr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & MULTIEND_8-items
+VALPOD & grynte:V__intr & V__tr-obDECL & V__tr & MULTIEND_3-items
+VALPOD & grøfte:V__intr & V__tr & MULTIEND_2-items
+VALPOD & gråte:V__intr & V__tr & V-for__intrObl-oblN & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN & MULTIEND_6-items
+VALPOD & gurgle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & gynge:V__intr & V__tr-obRefl & MULTIEND_2-items
+VALPOD & gå:V-i__impersObl-oblN & V__intr-suDir & V-med_intrAdvObl-oblN & V-av__intrObl-oblN & V__intrPresnt & V-med_intrPresntPrtcl & V-med_intrPrtcl & V-ut-fra__intrPrtclObl-oblDECL & V__intrScpr-scSuNrgCsd-scPred & V-god-for__intrScprObl-scSuArg & V__tr-obEventunit & V__tr-suDir-obLengthunit & V__trScpr-obRefl-scObNrgCsd-scPred & V-bort__trPrtcl-obRefl & V-road__tr-suDir & V__tr-obBnd & V-trip__tr-suDir & MULTIEND_17-items_17-items
+VALPOD & ha:V__ditr-iobRefl & V-perf__intrAuxperfScpr-scSuNrg-scPerf & V__intrComp-compEqSuInf & V-med-å__intrOblXtrComp-compEqSuInf & V__tr & V-np-å__trXtrComp-compEqSuInf & V-til__trObl-oblEqObInf & V-til__trOblRais-oblRaisObInf & V-med__trPrtcl & V-bort__trPrtcl-obRefl & V-til__trPrtclExpnOb-expnDECL & V-klart-for__trScprOblExpnOb-obMuet-oblRefl-scSuArg-expnDECL & V-klart-for__trScprOblExpnOb-oblRefl-scSuArg-expnDECL & V-klart-for__trScprOblExpnOb-obMuet-oblRefl-scSuArg-expnINTERR & V-klart-for__trScprOblExpnOb-oblRefl-scSuArg-expnINTERR & V__trScpr-obExpl-scObNrg-scPred & V__trScpr-scObLoc & MULTIEND_17-items
+VALPOD & hakke:V__intr & V__tr & V-ned__trPrtcl & V-opp__trPrtcl & V-på__intrObl-oblN & MULTIEND_5-items
+VALPOD & hale:V__intr & V__tr-obDir & V-innpå__intrObl-oblN & MULTIEND_3-items
+VALPOD & hallusinere:V__intr & V__tr & V__tr-obDECL & MULTIEND_3-items
+VALPOD & halte:V__intr & V__intr-suDir & V-på__intrObl-oblN & V__trPath-obRefl-obDir & MULTIEND_4-items
+VALPOD & hamre:V__intr & V__tr-obDir & V__trScpr-scObCsd & V-med__intrObl-oblN & MULTIEND_4-items
+VALPOD & hamstre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & handle:V__intr & V__tr & V-med__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & MULTIEND_7-items
+VALPOD & hangle:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & harve:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & heade:V__intr & V__tr-obDir & MULTIEND_2-items
+VALPOD & heie:V__intr & V__tr-obDir & V-på__intrObl-oblN & MULTIEND_3-items
+VALPOD & heise:V__intr & V__tr-obDir & V-ned__trPrtcl-obRefl & V-opp__trPrtcl-obRefl & MULTIEND_4-items
+VALPOD & hekle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & helle:V__intr & V-mot__intrObl-oblDECL & V-mot__intrObl-oblEqSuInf & V-mot__intrObl-oblN & V__tr-obDir & MULTIEND_5-items
+VALPOD & henge:V__intr & V-over__intrObl-oblN & V-etter__intrPrtcl & V-sammen__intrPrtcl & V__tr & V__tr-obRefl & V-opp__trPrtcl-obRefl & V-opp__trPrtcl & V-på__intrObl-oblN & V-på__trObl-obRefl-oblN & MULTIEND_10-items
+VALPOD & hesje:V__intr & V__tr & MULTIEND_2-items
+VALPOD & hilde:V__tr & V__intr & MULTIEND_2-items
+VALPOD & hilse:V__intr & V-på__intrObl-oblN & V__tr & V-fra__trObl-oblN & MULTIEND_4-items
+VALPOD & hinke:V__intr & V__intr-suDir & V__trPath-obRefl-obDir & MULTIEND_3-items
+VALPOD & hive:V__intr & V__tr & V__tr-obDir & V-etter__trObl-obRefl-oblN & V-med__trPrtcl-obRefl & V-med-på__trPrtclObl-obRefl-oblEqObInf & V-med-på__trPrtclObl-obRefl-oblN & V-på__trObl-obRefl-oblN & V-på__trPrtcl-obRefl & V-rundt__trPrtcl-obRefl & MULTIEND_10-items
+VALPOD & hjelpe:V__ditr-obEqIobInf & V__intr & V__tr & V_intrExpn-expnAbsinf & V-med__trObl-oblEqObInf & V-med__trObl-oblN & V-mot__intrObl-oblN & V-til__intrPrtcl & V-til__trObl-oblEqObInf & V-til-med__intrPrtclObl-oblEqSuInf & V-til-med__intrPrtclObl-oblN & MULTIEND_11-items
+VALPOD & holde:V__intr & V-fast-ved_intrAdvObl-oblN & V-av__intrObl-oblN & V-for__intrObl-oblN & V-opp__intrPrtcl & V-opp-med__intrPrtclOblRais-oblRaisInf & V-opp-med__intrPrtclObl-oblN & V-på__intrPrtcl-SUSTAINEDACTIVITY & V-på-med__intrPrtclObl-oblEqSuInf & V-opp__intrPrtclScpr-scSuNrg-scRaisInf & V-ved__intrPrtclScpr-scSuNrg-scRaisInf & V__tr & V__tr-obDir & V-fast_trAdv-obRefl & V-fast-i_intrAdvObl-oblN & V-fast-i_trAdvObl-obRefl-oblN & V__trObl-obRefl-oblPRTOFob & V__trScpr-scObLoc & V_trScpr-scObArg-scPred & V__trScpr-obRefl-scObArg-scPred & V__trScpr-scObNrg-scPred & V__trScpr-obRefl-scObLoc & V__trScpr-obRefl-scObNrg-scPred & V-for__trScpr-scPredprtcl & V-for__trScpr-scPredprtclInf & V-for__trScpr-obRefl-scPredprtclInf & V-som__trScpr-scPredprtcl & V-som__trScpr-obRefl-scPredprtcl & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_29-items
+VALPOD & hoppe:V__intr-suDir & V__trScpr-scObNrgCsd-scPred & V__trScpr-obRefl-scObNrgCsd-scPred & V__tr-suDir-obLengthunit & MULTIEND_4-items
+VALPOD & horve:V__intr & V__tr & MULTIEND_2-items
+VALPOD & hufse:V__intr-suDir & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & humpe:V__intr & V__intr-suDir & V__trPath-obRefl-obDir & MULTIEND_3-items
+VALPOD & huske:V__intr & V__tr-obINTERR & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obEqSuInf & MULTIEND_9-items
+VALPOD & hutre:V__intr & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_2-items
+VALPOD & hvelve:V__intr & V__tr & V-over__trObl-obRefl-oblN & MULTIEND_3-items
+VALPOD & hvese:V__intr & V__tr & MULTIEND_2-items
+VALPOD & hvile:V__intr & V__tr-obRefl & V-ut__intrPrtcl & MULTIEND_3-items
+VALPOD & hviske:V__ditr & V__intr & V__tr & V__tr-obDECL & V__tr-obINTERR & V-i__intrObl-oblN & V-i__trObl-oblN & MULTIEND_7-items
+VALPOD & hykle:V__intr & V-med__intrObl-oblN & V-over__intrObl-oblDECL & V-over__intrObl-oblN & V__tr & V__trPath-obRefl-obDir & MULTIEND_6-items
+VALPOD & høre:V__intr & V__tr-obINTERR &  V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN & V-fra__intrObl-oblN & V-med__intrObl-oblN & V-med__intrPrtclExpn-expnAbsinf & V-med__intrPrtclExpn-expnDECL & V-på__intrObl-oblN & V-etter__intrPrtcl & V-hjemme__intrPrtcl & V-til__intrPrtcl & V__tr & V__tr-obDECL & V__trScpr-scObNrg-scBareinf & MULTIEND_14-items
+VALPOD & høve:V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V-til__intrObl-oblAbsinf & V-til__intrObl-oblDECL & V-til__intrObl-oblN & V__tr & V__tr-suAbsinf & V__tr-suDECL & V__trExpnSu-expnAbsinf & V__trExpnSu-expnDECL & V__tr-obRefl & V__trImpers-obRefl & V__trExpnSu-obRefl-expnAbsinf & V__trExpnSu-obRefl-expnDECL &  V-for__trOblExpnSu-obRefl-oblN-expnEqOblInf & V-for__trOblExpnSu-obRefl-oblN-expnDECL & MULTIEND_18-items
+VALPOD & idest:V__intr & V__tr-obEqSuInf & MULTIEND_2-items
+VALPOD & improvisere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & inhalere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & inklinere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & innovere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & innrapportere:V__intr & V__tr & V__tr-obDECL & V__tr-obINTERR & V-til__trObl-oblN & V-til__trObl-obDECL-oblN & V-til__trObl-oblINTERR & MULTIEND_7-items
+VALPOD & innrykke:V__intr & V__tr & V__tr-obDECL & V__trScpr-scObLoc & MULTIEND_4-items
+VALPOD & innskrenke:V__intr & V__tr & V__tr-obRefl & V-til__trObl-obRefl-oblEqObInf & MULTIEND_4-items
+VALPOD & innånde:V__intr & V__tr & MULTIEND_2-items
+VALPOD & inseminere:V__intr & V__tr & V-i__trObl-oblN & MULTIEND_3-items
+VALPOD & interpolere:V__intr & V__tr & V-i__trObl-oblN & MULTIEND_3-items
+VALPOD & intonere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & invitere:V__intr & V__tr & V-til_trObl-oblEqObInf & invitere-til__trObl-oblN & MULTIEND_3-items
+VALPOD & istemme:V__intr & V__tr & V-i__intrObl-oblEqSuInf & V-i__intrObl-oblN & MULTIEND_4-items
+VALPOD & jage:V__intr-suDir & V__tr-obDir & V-etter__intrObl-oblN & MULTIEND_3-items
+VALPOD & jamme:V__intr & V__tr & MULTIEND_2-items
+VALPOD & jamre:V__intr & V__tr-obRefl & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN & MULTIEND_10-items
+VALPOD & jibbe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & jobbe:V__intr-suDir & V-med__intrObl-oblAbsinf & V-med__intrObl-oblN & V-som__intrLghtScpr-scSuNrg-scPredprtcl & V__tr & MULTIEND_5-items
+VALPOD & joike:V__intr & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V__tr & MULTIEND_5-items
+VALPOD & kadreie:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kaldsmi:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kalkulere:V__intr & V__tr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & MULTIEND_4-items
+VALPOD & kalle:V__intr & V-på__intrObl-oblN & V__tr-obDir &  V-for__trObl-oblN & V-sammen__trPrtcl & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scN & V__trScpr-scObNrg-scN &MULTIEND_7-items
+VALPOD & kannelere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kante:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kantre:V__intr & V-over__intrPrtcl & V__tr & V-over__trPrtcl & MULTIEND_4-items
+VALPOD & kapseise:V__intr & V__tr & MULTIEND_2-items
+VALPOD & karde:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kastebytte:V__intr & V__tr & V-med__intrObl-oblN & MULTIEND_3-items
+VALPOD & katekisere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kave:V__intr & V-etter__intrObl-oblEqSuInf & V-etter__intrObl-oblN & V__trPath-obRefl-obDir & MULTIEND_4-items
+VALPOD & keike:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & kippe:V__intr & V__tr-obDir & MULTIEND_2-items
+VALPOD & kisle:V-i__impersObl-oblN & V__intr & V__tr & V__trObl-oblPRTOFob & MULTIEND_4-items
+VALPOD & kitle:V-i__impersObl-oblN & V__intr & V__tr & V__trObl-oblPRTOFob & MULTIEND_4-items
+VALPOD & kjempe:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEgSuInf & V-for__intrObl-oblN &  V-mot__intrObl-oblDECL & V-mot__intrObl-oblEgSuInf & V-mot__intrObl-oblN &  V-om__intrObl-oblEgSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V__tr-obRefl-obDir & MULTIEND_10-items
+VALPOD & kjerve:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kjese:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kjøre:V__intr-suDir & V-av__intrObl-oblN & V-inn__trPrtcl-obRefl & V-opp__intrPrtcl & V-over__intrObl-oblN & V-på__intrObl-oblN & V-road__tr-obDir & V-trip__tr-suDir & V-ut__trPrtcl-obRefl & V-vehicle__tr & V__trScpr-scObCsd & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_12-items
+VALPOD & klabbe:V__intr & V__trObl-obRefl-oblPRTOFob & V-til__intrObl-oblN & MULTIEND_3-items
+VALPOD & klake:V__intr & V__tr-obRefl & MULTIEND_2-items
+VALPOD & klappe:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblN & V-i__intrObl-oblN & V-igjen__intrPrtcl & V__tr & V__trObl-oblPRTOFob & V__trScpr-scObCsd & V__trObl-obRefl-oblPRTOFob & MULTIEND_9-items
+VALPOD & klare:V__intr & V-opp__intrPrtcl & V-opp-i__intrPrtclObl-oblN & V__tr & V__tr-obDir & V__tr-obEqSuInf & V__tr-obRefl & MULTIEND_7-items
+VALPOD & klatre:V__intr & V__intr-suDir & V-i__intrObl-oblMed & V__tr & MULTIEND_4-items
+VALPOD & klattemale:V__intr & V__tr & MULTIEND_2-items
+VALPOD & klenge:V__intr & V__tr & V-til__trObl-obRefl-oblN & MULTIEND_3-items
+VALPOD & klinke:V__intr & V__tr & V-til__intrObl-oblN & MULTIEND_3-items
+VALPOD & klive:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & klore:V__intr & V__tr & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V__tr-obRefl & V-opp__trPrtcl & MULTIEND_6-items
+VALPOD & klubbe:V__intr & V__tr & V__trObl-oblPRTOFob & V-gjennom__trPrtcl & V-ned__trPrtcl & MULTIEND_5-items
+VALPOD & klø:V__intr & V__intrObl-oblPRTOFsu & V-etter__intrObl-oblEqSuInf & V__tr & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V__tr-obRefl & MULTIEND_7-items
+VALPOD & kløne:V__intr & V__tr & MULTIEND_2-items
+VALPOD & knappe:V__intr & V__tr & V-igjen__trPrtcl & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & knase:V__impers & V__intr & V__tr & MULTIEND_3-items
+VALPOD & knekke:V__intr & V-av__intrPrtclObl-oblPRTOFsu & V-sammen__intrPrtcl & V__tr & V__trObl-oblPRTOFob & V-av__trPrtclObl-oblPRTOFob & V-av__trPrtcl & MULTIEND_7-items
+VALPOD & kniple:V__intr & V__tr & MULTIEND_2-items
+VALPOD & knipse:V__intr & V-med__intrObl-oblN & V__trObl-oblPRTOFob & V-bort__trPrtcl & MULTIEND_4-items
+VALPOD & knuffe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & knulle:V__intr & V__tr & V-med__intrObl-oblN & MULTIEND_3-items
+VALPOD & koke:V__intr & V-bort__intrPrtcl & V-opp__intrPrtcl & V-opp__intrPrtcl & V__intrScpr-scSuNrgCsd-scPred & V__tr & V__trScpr-scObCsd & MULTIEND_7-items
+VALPOD & kolle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kollsegle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kollseile:V__intr & V__tr & MULTIEND_2-items
+VALPOD & komme:V__intr-suDir & V__intrObl-oblLoc & V-av__intrObl-oblN & V-borti__intrObl-oblN & V-med__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf &  V-på__intrObl-oblINTERR & V-til__intrOblRais-oblRaisObInf & V__intrPresntDir & V-bort__intrPrtcl & V-flott__intrPrtcl & V-an-på__intrPrtclOblExpn-expnDECL & V-an-på__intrPrtclOblExpn-expnINTERRwh & V-an-på__intrPrtclOblExpn-expnINTERRyn & V-an-på__intrPrtclOblExpn-oblINTERRwh-expnINTERRwh & V-an-på__intrPrtclOblExpn-oblINTERRwh-expnINTERRyn & V-an-på__intrPrtclOblExpn-oblINTERRyn-expnINTERRwh & V-an-på__intrPrtclOblExpn-oblINTERRyn-expnINTERRyn & V-an-på__intrPrtclObl-oblDECL & V-an-på__intrPrtclObl-oblN & V-an-på__intrPrtclObl-oblINTERRwh & V-an-på__intrPrtclObl-oblINTERRyn & V-an-på__intrPrtclObl-suDECL-oblN & V-an-på__intrPrtclObl-suINTERR-oblINTERR & V-an-på__intrPrtclObl-suINTERR-oblN & V__tr-obRefl & V_trObl-oblPRTOFob & V-til__trObl-obRefl-oblEqObInf & V-unna__trPrtcl-obRefl & V__trScpr-obRefl-scObDir & MULTIEND_30-items
+VALPOD & kommunisere:V__intr & V-med__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_7-items
+VALPOD & kompe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kompostere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kondensere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kondolere:V__intr & V__tr & V-med__trObl-oblDECL & V-med__trObl-oblEqObInf & V-med__trObl-oblN & MULTIEND_5-items
+VALPOD & konferere:V__intr & V__tr & V-med__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2DECL & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & MULTIEND_11-items
+VALPOD & konke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & konkludere:V__intr & V-med__intrObl-oblDECL & V-med__intrObl-oblEqSuInf & V__tr & V__tr-obDECL & MULTIEND_5-items
+VALPOD & kontinuere:V__intr & V-i__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & kontrastere:V__intr & V-med__intrObl-oblN & V__tr & V-med__trObl-oblAbsinf & V-med__trObl-oblN & MULTIEND_5-items
+VALPOD & kontre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & konvergere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & konversere:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V__tr & V-med__intrObl-oblN & MULTIEND_9-items
+VALPOD & konvertere:V__intr & V__tr & V-til__intrObl-oblN & MULTIEND_3-items
+VALPOD & kopulere:V__intr & V-med__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & kore:V__intr & V__tr & MULTIEND_2-items
+VALPOD & koreografere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kose:V__intr & V-med__intrObl-oblN & V__tr-obRefl & V-med__trObl-obRefl-oblEgObInf & V-med__trObl-obRefl-oblN & MULTIEND_5-items
+VALPOD & koste-1:V__ditrExpnSu-obMeas-expnEqIobInf & V__intr & V__intr-suAbsinf & V-på__trObl-obEqInf-oblRefl & V-på__trObl-oblRefl & V__tr & V__trExpnSu-obMeas-expnInfabs & V__tr-suAbsinf & MULTIEND_8-items
+VALPOD & krasje:V__intr & V__tr & V-i__intrObl-oblN & V-med__intrObl-oblN & MULTIEND_4-items
+VALPOD & kraume:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & kravle:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & krenge:V__intr & V-over__intrPrtcl & V__tr & V-på__intrObl-oblRefl & MULTIEND_4-items
+VALPOD & krikle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & krille:V__intr & V__tr & V__trObl-oblPRTOFob & MULTIEND_3-items
+VALPOD & kroke:V__intr-suDir & V__tr-obRefl & V-sammen__trPrtcl-obRefl & MULTIEND_3-items
+VALPOD & krokere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & krongle:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & krote:V__intr & V__tr & V-ned__trPrtcl & V-ned__trPrtcl-obDECL & V-ned__trPrtcl-obINTERR & V-sammen__trPrtcl & MULTIEND_6-items
+VALPOD & krungle:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & kruse:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & krympe:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & krysse:V__intr & V-av__intrObl-oblN & V__tr & V-av__trPrtcl & V-ut__trPrtcl & MULTIEND_5-items
+VALPOD & krølle:V__intr & V__tr & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & V-sammen__trPrtcl & MULTIEND_5-items
+VALPOD & kullsegle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kullseile:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kumulere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & kunne:V__intrAuxmodScpr-scSuNrg-scBareinf & V__intrAuxperfScpr-scSuNrg-scPerf & V__tr & MULTIEND_3-items
+VALPOD & kvede:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_6-items
+VALPOD & kvelve:V__intr & V__tr & V-på__trObl-obRefl-oblN & MULTIEND_3-items
+VALPOD & kverve:V__intr & V__tr & V-bort__intrPrtcl & MULTIEND_3-items
+VALPOD & kvile:V__intr & V__tr-obRefl & V-ut__intrPrtcl & V-ut__trPrtcl-obRefl & MULTIEND_4-items
+VALPOD & kysse:V__intr & V__tr & V__trObl-oblPRTOFob & MULTIEND_3-items
+VALPOD & lakke:V-mot__impersObl-oblN & V__intr & V__intr-suDir & V__tr & MULTIEND_4-items
+VALPOD & lakkere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & lamme:V__intr & V__tr & MULTIEND_2-items
+VALPOD & lauve:V__intr & V__tr & MULTIEND_2-items
+VALPOD & layoute:V__intr & V__tr & MULTIEND_2-items
+VALPOD & le:V__intr & V-av__intrObl-oblDECL & V-av__intrObl-oblN & V__tr & V__trObl-oblPRTOFob & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_6-items
+VALPOD & lede:V__intr-suDir & V__tr & V__tr-obDir & V__trScpr-scObCsd & MULTIEND_4-items
+VALPOD & legge:V__intr-suDir & V-opp__intrPrtcl & V__tr & V__tr-obDir & V__tr-obRefl & V-bort__trPrtcl & V-inn__trPrtcl-obDECL & V__trScpr-scObArg-scPred & V__trScpr-scObLoc & V__trScpr-obRefl-scObDir & V-til__trPrtcl-obDECL & MULTIEND_11-items
+VALPOD & leike:V__intr & V-i__intrObl-oblN & V-med__intrObl-oblN & V__tr & V__tr-obAbsinf & V__tr-obDECL & V__tr-obINTERR & V__tr-obRefl & V-i__trObl-obRefl-oblN & V-med__trObl-obRefl-oblN & MULTIEND_10-items
+VALPOD & leke:V__intr & V-i__intrObl-oblN & V-med__intrObl-oblN & V__tr & V__tr-obRefl & V__tr-obAbsinf & V__tr-obDECL & V__tr-obINTERR & V-i__trObl-obRefl-oblN & V-med__trObl-obRefl-oblN & MULTIEND_10-items
+VALPOD & lekke:V__intr & V__intr-suDir & V-ut__intrPrtcl & V__tr & MULTIEND_4-items
+VALPOD & lense:V__intr & V__tr & V-for__trObl-oblN & V-for__trObl-obRefl-oblN & MULTIEND_4-items
+VALPOD & lese:V__intr & V-gjennom__intrObl-oblN & V-i__intrObl-oblN & V-igjennom__intrObl-oblN & V-på__intrObl-oblN & V__tr & V-inn__trPrtcl & V-opp__trPrtcl & V-til__intrObl-oblN & V-ut__trPrtcl & MULTIEND_10-items
+VALPOD & lette:V__intr & V__tr & V-fra__intrObl-oblN & V-på__intrObl-oblRefl & V-fra__trObl-oblN & V-for__trObl-oblN & V-for__trObl-obRefl-oblN & MULTIEND_7-items
+VALPOD & leve:V__intr & V__intrObl-oblLoc & V-opp__intrPrtcl & V-opp-til__intrPrtclObl-oblEqSuInf & V-opp-til__intrPrtclObl-oblINTERR & V-opp-til__intrPrtclObl-oblN &  V-på__intrObl-oblN & V-på__intrObl-oblEqSuInf & V__tr & V-inn__trPrtcl-obRefl & V-inn-i__trPrtclObl-obRefl & MULTIEND_10-items
+VALPOD & lide:V__intr & V-av__intrObl-oblN & V-under__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & ligne:V__intr & V__tr & V-på__intrObl-oblN & MULTIEND_3-items
+VALPOD & likne:V__intr & V-på__intrObl-oblN & V__tr & V-med__trObl-oblN & MULTIEND_4-items
+VALPOD & lindre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & linnkoke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & lokke-1:V__intr & V-med__intrObl-oblDECL & V-med__intrObl-oblN & V__tr-obDir & V-til__trObl-oblRefl & V-til__trObl-oblEqObInf & MULTIEND_6-items
+VALPOD & losjere:V__intrObl-oblLoc & V__tr & MULTIEND_2-items
+VALPOD & losse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & love:V__ditr & V__ditr-obDECL & V__ditr-obEqIobInf & V__ditr-obEqSuInf & V__intr & V__tr & V__tr-obDECL & V__tr-obEqSuInf & MULTIEND_8-items
+VALPOD & lugge:V__impers & V__intr & V__tr & V__trObl-oblPRTOFob & MULTIEND_4-items
+VALPOD & luke:V__intr & V__tr & V-bort__trPrtcl & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & lukte:V__intrAdv & V__tr & V-på__intrObl-oblN & MULTIEND_3-items
+VALPOD & lulle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & lunke:V__intr-suDir & V__tr & V-på__intrObl-oblN & MULTIEND_3-items
+VALPOD & lyde:V__intr & V__intrScpr-scSuNrg-scPred & V-som__intrScpr-scSuNrg-scPredprtclN & V-som__intrScpr-scSuNrg-scPredprtclS & V-som-om__intrScpr-scSuNrg-scPredprtclS & V__tr & MULTIEND_6-items
+VALPOD & lye:V__intr & V__tr & MULTIEND_2-items
+VALPOD & lyse:V__intr & V__tr & V-i-bann__trScpr-scObNrgCsd-scPred & V-opp__intrPrtcl & V-opp__trPrtcl & MULTIEND_5-items
+VALPOD & lystre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & løpe:V__intrPresntDir & V__intr-suDir & V__trScpr-scObNrgCsd-scPred & V__trScpr-obRefl-scObNrgCsd-scPred & V-length__tr-suDir-obLengthunit & V-road__tr & V-trip__tr & MULTIEND_7-items
+VALPOD & løsne:V__intr & V-fra__intrObl-oblN & V-på__intrObl-oblN & V__tr & V-opp__trPrtcl & MULTIEND_5-items
+VALPOD & male:V__intr & V-over__intrObl-oblN & V-på__intrObl-oblN & V__tr & V__tr-obRefl & V__trScpr-scObCsd & MULTIEND_6-items
+VALPOD & mangle:V__intr & V__intrPresnt & V__tr & V__trPresnt & V__trExpnSu-expnAbsinf & V__trExpnSu-expnDECL & V-på__trObl-oblDECL & V-på__trObl-oblEqSuInf & V-på__trObl-oblN & V-på__trOblExlnk-oblExlnkDECL & V-på__trOblExlnk-oblExlnkAbsinf & MULTIEND_11-items
+VALPOD & manudusere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & manøvrere:V__intr-suDir & V__tr & manøvrere__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & marsjere:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & maskinskrive:V__intr & V__tr & MULTIEND_2-items
+VALPOD & maskinstrikke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & maule:V__intr & V__tr & MULTIEND_2-items
+VALPOD & megle:V__intr & V-til__intrObl-oblAbsinf & V-til__intrObl-oblDECL & V-til__intrObl-oblN & V__tr & MULTIEND_5-items
+VALPOD & messe:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V__tr & MULTIEND_5-items
+VALPOD & midle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & mildne:V__intr & V__tr & MULTIEND_2-items
+VALPOD & mime:V__intr & V__tr & MULTIEND_2-items
+VALPOD & minere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & minere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & missnakke:V__intr & V__tr-obRefl & MULTIEND_2-items
+VALPOD & modne:V__intr & V__tr & MULTIEND_2-items
+VALPOD & modulere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & moppe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & morse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & mosjonere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & mudre:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & mukke:V__intr & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & MULTIEND_3-itemsVALPOD & mulde:V__tr-obRefl & V-til__trPrtcl-obRefl & MULTIEND_4-items
+VALPOD & mure:V__intr & V-igjen__trPrtcl & V-inn__trPrtcl & V-inne__trPrtcl & V__trScpr-obRefl-scObLoc & MULTIEND_5-items
+VALPOD & mute:V__intr & V__tr & MULTIEND_2-items
+VALPOD & mutere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & nage:V__intr & V__tr & MULTIEND_2-items
+VALPOD & nappe:V__intr & V__tr & V-av__trObl-oblN & V-bort__trPrtcl & V-ut__trPrtcl & V-fra__trObl-oblN & V-til__trScpr-scPPrefl & MULTIEND_7-items
+VALPOD & naske:V__intr & V__tr & V-til__trScpr-scPPrefl & MULTIEND_3-items
+VALPOD & naube:V__intr & V__tr & MULTIEND_2-items
+VALPOD & navigere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & neie:V__intr & V__tr & MULTIEND_2-items
+VALPOD & nekte:V__ditr & V__ditr-iobRefl & V__ditr-obEqIobInf & V__ditr-iobRefl-obEqIobInf & V__intr & V__tr & V__tr-obEqSuInf & V__trScpr-obRefl-scObNrg-scPred & MULTIEND_8-items
+VALPOD & nuppe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & nusse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & nynne:V__intr & V__tr & V-på__intrObl-oblN & V-til__intrObl-oblN & MULTIEND_4-items
+VALPOD & nype:V__intr & V__tr & MULTIEND_2-items
+VALPOD & nytte:V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V__tr & V__tr-suAbsinf & V__tr-suDECL & V__trExpnSu-expnAbsinf & V__trExpnSu-expnDECL & V-av__trObl-obRefl-oblDECL & V-av__trObl-obRefl-oblEqObInf & V-av__trObl-obRefl-oblINTERR & V-av__trObl-obRefl-oblN & MULTIEND_14-items
+VALPOD & nødlande:V__intr & V__intrObl-oblLoc & V__tr & MULTIEND_3-items
+VALPOD & nå:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & oie:V__intr & V__tr-obRefl & V-for__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & okke:V__intr & V__tr-obRefl & V-for__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & oksidere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & olme:V__intr & V__tr-obRefl & MULTIEND_2-items
+VALPOD & omgåes:V__intr & V__tr & V-med__intrObl-oblN & MULTIEND_3-items
+VALPOD & omgås:V__intr & V__tr & V-med__intrObl-oblN & MULTIEND_3-items
+VALPOD & omprioritere:V__intr & V__tr & V-til__trObl-oblEqObInf & V-til__trObl-oblN & MULTIEND_4-items
+VALPOD & operere:V__intr & V__tr & V-på__intrObl-oblN & V-som__intrLghtScpr-scSuNrg-scPredprtcl & MULTIEND_4-items
+VALPOD & oppvarte:V__intr & V__tr & V-med__trObl-oblN & MULTIEND_3-items
+VALPOD & orge:V__intr & V__tr & MULTIEND_2-items
+VALPOD & orkestrere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & oscillere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & overdrive:V__intr & V__tr & MULTIEND_2-items
+VALPOD & overleve:V__intr & V-på__intrObl-oblN & V-på__intrObl-oblEqSuInf & V__tr & V__tr-obDECL & V__tr-obEqSuInf & MULTIEND_6-items
+VALPOD & overraske:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & V__trExpnSu-expnDECL & V__trExpnSu-expnINTERRwh & V__tr-suDECL & V-med__trObl-oblEqSuInf & V-med__trObl-oblN & MULTIEND_9-items
+VALPOD & overspille:V__intr & V__tr & MULTIEND_2-items
+VALPOD & pace:V__intr & V__tr & MULTIEND_2-items
+VALPOD & padle:V__intr-suDir & V__tr & V__trPath-obRefl-obDir & MULTIEND_3-items
+VALPOD & pakke:V__intr &  V-om__intrPrtcl & V-opp__intrPrtcl & V-sammen__intrPrtcl &  V__tr & V__tr-obRefl & V-om__intrPrtcl & V-opp__trPrtcl & V-sammen__trPrtcl & V-ut__intrPrtcl &V__trScpr-scObLoc &  MULTIEND_8-items
+VALPOD & parkere:V__intr & V__intrObl-oblLoc & V__tr & MULTIEND_3-items
+VALPOD & parlere:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_7-items
+VALPOD & passe:V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V-sammen__intrPrtcl & V__tr & V__tr-suAbsinf & V__tr-suDECL & V__trExpnSu-expnAbsinf & V__trExpnSu-expnDECL & V__tr-obRefl & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN & V__trExpnSu-obRefl-expnDECL & V__trImpers-obRefl & V__trExpnSu-obRefl-expnAbsinf & MULTIEND_23-items
+VALPOD & passere:V__intr-RESULT & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & patruljere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & peise:V__intr-suDir & V-på__intrPrtcl & V__tr & MULTIEND_3-items
+VALPOD & pense:V__intr-suDir & V__tr-obDir & MULTIEND_2-items
+VALPOD & perse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & pigge:V__intr & V-av__intrPrtcl & V-unna__intrPrtcl & V__trPath-obRefl-obDir & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & MULTIEND_6-items
+VALPOD & pilke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & pimpe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & pisse:V__intr & V__trObl-oblPRTOFob & V-ut__trPrtcl-obRefl & MULTIEND_3-items
+VALPOD & plyndre:V__intr & V__tr & V-for__trObl-oblN & MULTIEND_3-items
+VALPOD & plystre:V__intr & V-etter__intrObl-oblN & V-på__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & pløse:V__intr & V__tr-obRefl & MULTIEND_2-items
+VALPOD & pløye:V__intr-suDir & V__tr & V__trPath-obRefl-obDir & V-opp__trPrtcl &  MULTIEND_4-items
+VALPOD & polymerisere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & poppe:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & prate:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2EqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-med-om__intrObl2-obl1N-obl2DECL & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_11-items
+VALPOD & predike:V__intr & V-for__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_7-items
+VALPOD & preke:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-til__intrObl-oblN & V-til-om__intrObl2-obl1N-obl2Absinf & V-til-om__intrObl2-obl1N-obl2DECL & V-til-om__intrObl2-obl1N-obl2INTERR & V-til-om__intrObl2-obl1N-obl2N & V__tr & MULTIEND_11-items
+VALPOD & prikke:V-i__impersObl-oblN & V__intrObl-oblLoc & V__tr & V__trObl-oblPRTOFob & V-inn__trPrtcl & MULTIEND_5-items
+VALPOD & prognosere:V__intr & V__tr & V__tr-obDECL & V__tr-obINTERR & MULTIEND_4-items
+VALPOD & prognostisere:V__intr & V__tr & V__tr-obDECL & V__tr-obINTERR & MULTIEND_4-items
+VALPOD & promenere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & proviantere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & puffe:V__intr & V__tr-obDir & V-til__intrObl-oblN & MULTIEND_3-items
+VALPOD & puge:V__intr & V__tr & MULTIEND_2-items
+VALPOD & pugge:V__intr & V__tr & MULTIEND_2-items
+VALPOD & pumpe:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & punche:V__intr & V__tr & MULTIEND_2-items
+VALPOD & punktere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & pæle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & rable:V-for__impersObl-oblN & V__intr & V__tr & V-ned__trPrtcl & MULTIEND_4-items
+VALPOD & rafte:V__intr & V__tr & MULTIEND_2-items
+VALPOD & rake:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & rangere:V__intrObl-oblLoc & V__tr & V__trAdv & V__trObl-oblLoc & MULTIEND_4-items
+VALPOD & rappe:V__intr & V-fra__intrObl-oblN & V__tr & V__tr-obRefl & V-fra__trObl-oblN & V-til__trScpr-scPPrefl & MULTIEND_6-items
+VALPOD & rapse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & redde:V__intr & V__tr & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & MULTIEND_4-items
+VALPOD & regenerere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & regjere:V__intr & V__tr & V-over__intrObl-oblN & MULTIEND_3-items
+VALPOD & regne:V__impers & V__intr & V-med__intrObl-oblDECL & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & V__intrPresnt & V-som__trScpr-scPredprtcl & V-ut__trPrtcl & V-ut__trPrtcl-obDECL & MULTIEND_10-items
+VALPOD & reinvestere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & reise:V__intr-suDir & V__tr & V__tr-obRefl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & MULTIEND_5-items
+VALPOD & rekke:V__ditr & V__intr-suDir & V-fram__intrPrtcl & V-frem__intrPrtcl & V-over__intrObl-oblN & V__tr & V__tr-obDir & V__tr-obEqSuInf & MULTIEND_8-items
+VALPOD & reklamere:V__intr & V__tr & V-for__intrObl-oblAbsinf & V-for__intrObl-oblDECL & V-for__intrObl-oblN & MULTIEND_5-items
+VALPOD & rekognosere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & rekreere:V__intr & V__tr-obRefl & MULTIEND_2-items
+VALPOD & reminisere:V__intr & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & V__tr & MULTIEND_6-items
+VALPOD & replisere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & resistere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & respondere:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V-til__intrObl-oblN & V__tr & MULTIEND_7-items
+VALPOD & restarte:V__intr & V__tr & MULTIEND_2-items
+VALPOD & retardere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & returnere:V__intr-suDir & V__tr & V-til__trObl-oblN & MULTIEND_3-items
+VALPOD & reversere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ri:V__intr-suDir & V-på__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & ride:V__intr-suDir & V-på__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & ringe:V__impers & V-i__impersObl-oblN & V__intr & V-av__intrPrtcl & V-for__intrObl-oblAbsinf & V-for__intrObl-oblN & V-til__intrObl-oblN & V__tr & V__tr-obRefl & V-inn__trPrtcl & V-inn__trPrtcl-obRefl & V-opp__trPrtcl & MULTIEND_12-items
+VALPOD & ringle:V__intr & V-med__intrObl-oblN & V__trPath-obRefl-obDir & MULTIEND_3-items
+VALPOD & riste:V__intr & V__tr & V__trScpr-scObCsd & V-med__intrObl-oblN & V-på__intrObl-oblN & MULTIEND_5-items
+VALPOD & rite:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ro:V__intr-suDir & V__tr & V__tr-obDir & V__trPath-obRefl-obDir & MULTIEND_4-items
+VALPOD & rokke:V__intr & V__tr & V-ved__intrObl-oblN & MULTIEND_3-items
+VALPOD & rope:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-til__intrObl-oblN & V-ut__intrPrtcl & V__tr & V__tr-obDECL & V__tr-obINTERR & V-inn__trPrtcl & V-opp__trPrtcl & V-ut__trPrtcl & MULTIEND_13-items
+VALPOD & ruge:V-på__intrObl-oblN & V__intr & V__tr & V-ut__trPrtcl & MULTIEND_4-items
+VALPOD & rugge:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & rulle:V__intrPresntDir & V__intr-suDir & V__tr-obDir & V__tr-suDir-obLengthunit & V-opp__trPrtcl-obRefl & V-ut__trPrtcl & MULTIEND_6-items
+VALPOD & rullere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ruse:V__intr-suDir & V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN & MULTIEND_5-items
+VALPOD & rydde:V__intr & V-i__intrObl-oblN & V-opp__intrPrtcl & V-opp-i__intrPrtclObl-oblN & V__tr & V-bort__trPrtcl & MULTIEND_6-items
+VALPOD & rygge:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & rykke:V__intr-suDir & V-fra__intrObl-oblN & V-i__intrObl-oblN & V-ut__intrPrtcl & V__tr-obDir & MULTIEND_5-items
+VALPOD & røke:V__intr & V__tr & V-inn__trPrtcl & V-ut__trPrtcl & MULTIEND_4-items
+VALPOD & rømme:V__intr & V__tr & V__tr-obRefl & V-fra__intrObl-oblEqSuInf & V-fra__intrObl-oblN & MULTIEND_5-items
+VALPOD & røyke:V__intr & V__tr & V-inn__trPrtcl & V-ut__trPrtcl & MULTIEND_4-items
+VALPOD & safte:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sage:V__intr & V__tr & V-av__trPrtcl & V-opp__trPrtcl & V-over__trPrtcl & MULTIEND_5-items
+VALPOD & sakse:V__intr & V-fra__intrObl-oblN & V__tr & V-fra__trObl-oblN & V-bort__trPrtcl & MULTIEND_5-items
+VALPOD & saktne:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & saluttere:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & samstemme:V__intr & V__tr & V-med__intrObl-oblN & MULTIEND_3-items
+VALPOD & satse:V__intr & V__tr & V-med__intrObl-oblN & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V-på__trObl-oblAbsinf & V-på__trObl-oblDECL & V-på__trObl-oblN & MULTIEND_9-items
+VALPOD & sause:V__intr & V__tr & V-til__trPrtcl & V-til__trPrtcl-obRefl & MULTIEND_4-items
+VALPOD & score:V__intr & V__tr & MULTIEND_2-items
+VALPOD & se:V__intr-suDir & V__tr-obINTERR & V-over__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V-til__intrObl-oblDECL & V-opp__intrPrtcl & V-bort-fra__intrPrtclObl-oblDECL & V-bort-fra__intrPrtclObl-oblEqSuInf & V-bort-fra__intrPrtclObl-oblINTERR & V-bort-fra__intrPrtclObl-oblN & V-ned-på__intrPrtclObl-oblN & V-ut-til__intrPrtclOblExlnk-oblExlnkDECL & V-ut-til__intrPrtclOblRais-oblRaisInf & V-ut__intrPrtclScpr-scSuNrg-scAdj & V-ut-som__intrPrtclScpr-scSuNrg-scPredprtclN & V-ut-som__intrPrtclScpr-scSuNrg-scPredprtclS & V-ut-som-om__intrPrtclScpr-scSuNrg-scPredprtclS & V__tr & V__tr-obDECL & V__tr-obDECL-obV & V-for__trObl-oblRefl & V-for__trObl-obDECL-oblRefl & V-for__trObl-obEqSuInf-oblRefl & V-tilbake__trPrtcl-obRefl & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & MULTIEND_27-items
+VALPOD & segle:V__intr-suDir & V__tr & V__tr-obDir & MULTIEND_3-items
+VALPOD & seile:V__intr-suDir & V__tr & V__tr-obDir & MULTIEND_3-items
+VALPOD & seinke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sekundere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & semaforere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & serve:V__intr & V__tr-obDir & MULTIEND_2-items
+VALPOD & servere:V__ditr & V__intr & V__tr & V-med__trObl-oblN & V-til__trObl-oblN & MULTIEND_5-items
+VALPOD & shoppe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & signe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & signere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sikksakke:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & sikle:V__impersObl-oblN & V__intr & V__tr & V-etter__intrObl-oblEqSuInf & V-etter__intrObl-oblN & MULTIEND_5-items
+VALPOD & sile:V__intr & V__tr & V-unna__intrPrtcl & V-ut__trPrtcl & MULTIEND_4-items
+VALPOD & sinke:V__intr & V__tr & V-bort__trPrtcl & MULTIEND_3-items
+VALPOD & sirkulere:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & sjeide:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sjekke:V__intr & V-inn__intrPrtcl & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2INTERR & V-om__intrObl-oblINTERR & V-ut__intrPrtcl & V__tr & V__tr-obDECL & V__tr-obINTERR & V-opp__trPrtcl & V-opp__trPrtcl-obINTERR & V-opp-om__trPrtclObl-oblINTERR & V-ut__trPrtcl & MULTIEND_13-items
+VALPOD & sjofle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sjokkåpne:V__intr & V__tr & MULTIEND_2-items
+VALPOD & skaffe:V__ditr & V__ditr-iobRefl & V__intr & V__tr & V-for__trObl-oblAbsinf & V-for__trObl-oblN & V-til__trObl-oblAbsinf & V-til__trObl-oblN & MULTIEND_8-items
+VALPOD & skake:V__intr & V-på__intrObl-oblN & V__tr & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & skalle:V__intr & V-i__intrObl-oblN & V-av__intrPrtcl & V__tr & V__trObl-oblPRTOFob & V-ned__trPrtcl & MULTIEND_6-items
+VALPOD & skandere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & skare:V__intr & V__tr & MULTIEND_2-items
+VALPOD & skeivle:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & skifte:V__intr & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V-ned__intrPrtcl & V__tr & V-ut__trPrtcl & MULTIEND_6-items
+VALPOD & skimle:V__intr & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & skjelle:V__intr & V-på__intrObl-oblN & V__tr & V-ut__trPrtcl & MULTIEND_4-items
+VALPOD & skjerpe:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & skofte:V__intr & V__tr & MULTIEND_2-items
+VALPOD & skrelle:V-i__impersObl-oblN & V__intr & V__tr & V-av__trPrtcl & V-bort__trPrtcl & MULTIEND_5-items
+VALPOD & skrible:V__intr & V__tr & V-ned__trPrtcl & MULTIEND_3-items
+VALPOD & skrifte:V__intr & V-for__intrObl-oblN & V-for-om__intrObl2-obl1N-obl2Absinf & V-for-om__intrObl2-obl1N-obl2DECL & V-for-om__intrObl2-obl1N-obl2INTERR & V-for-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_11-items
+VALPOD & skrike:V__intr & V-om__intrObl-oblDECL & V-om__intrObl-oblN & V-til__intrObl-oblN & V-ut__intrPrtcl & V__tr & V__tr-obDECL & V-til__trObl-oblN & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_9-items
+VALPOD & skrive:V__ditr & V__intr & V-av__intrObl-oblN & V-om__intrObl-oblN & V-på__intrObl-oblN & V-til__intrObl-oblN & V-for__intrObl-oblN & V-i__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-over__intrObl-oblN & V-ferdig__intrPrtcl & V__tr & V-ferdig__trPrtcl & V-inn__trPrtcl-obDECL & V-inn__trPrtcl & V-ned__trPrtcl & V-om__trPrtcl & V-opp__trPrtcl & V-ut__trPrtcl & MULTIEND_22-items
+VALPOD & skru:V__intr & V-på__intrObl-oblN & V__tr & V-i__trPrtcl & V-av__trPrtcl & V-opp__trPrtcl & V-på__trPrtcl & V-sammen__trPrtcl & MULTIEND_8-items
+VALPOD & skrue:V__intr & V-på__intrObl-oblN & V__tr & V-i__trPrtcl & V-av__trPrtcl & V-opp__trPrtcl & V-på__trPrtcl & V-sammen__trPrtcl & MULTIEND_8-items
+VALPOD & skrumpe:V__intr & V-inn__intrPrtcl & V-sammen__intrPrtcl & V-inn__trPrtcl & V__tr & MULTIEND_5-items
+VALPOD & skruve:V__intr & V__tr & V-i__intrObl-oblN & MULTIEND_3-items
+VALPOD & skrøfte:V__intr & V__tr & MULTIEND_2-items
+VALPOD & skrå:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & skuffe:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__trExpnSu-expnDECL & V__tr & V__tr-suDECL & V__trExpnSu-expnINTERRwh & V-med__trObl-oblEqSuInf & V-med__trObl-oblN & MULTIEND_9-items
+VALPOD & skulke:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & skumlese:V__intr & V__tr & MULTIEND_2-items
+VALPOD & skumme:V__intr & V__tr & V-av__trPrtcl & MULTIEND_3-items
+VALPOD & skumple:V__intr & V__tr & MULTIEND_2-items
+VALPOD & skvette:V-i__impersObl-oblN & V__intr & V__intr-suDir & V-av__intrObl-oblDECL & V-av__intrObl-oblEqSuInf & V-av__intrObl-oblN & V__tr-obDir & MULTIEND_7-items
+VALPOD & skyte:V__intr-suDir & V-på__intrObl-oblN & V-av__intrPrtcl & V__tr-obDir & V__tr-obRefl & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-på__trObl-oblN & V-inn__trPrtcl-obDECL & V-inn__trPrtcl-obINTERR & V-til__trPrtcl-obDECL & V__trScpr-scObCsd & MULTIEND_12-items
+VALPOD & skåre:V__intr & V-på__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & skåte:V__intr & V-med__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & sladde:V__intr & V__tr & MULTIEND_2-items
+VALPOD & slagge:V__intr & V__tr & MULTIEND_2-items
+VALPOD & slakte:V__intr & V-for__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & slamme:V__intr & V__tr & MULTIEND_2-items
+VALPOD & slegge:V__intr & V__tr & MULTIEND_2-items
+VALPOD & slenge:V__intr & V-med__intrObl-oblN & V__tr-obDir & V-etter__trObl-obRefl-oblPRTOFob & MULTIEND_4-items
+VALPOD & slippe:V__intr-suDir & V-opp-for__intrPrtclObl-oblN & V-opp-på__intrPrtclObl-oblN & V-på__intrObl-oblN & V-unna__intrPrtcl & V__tr-obDir & V__tr-obEqSuInf & V-løs__trPrtcl & V-løs__trPrtcl-obRefl & MULTIEND_9-items
+VALPOD & slippe:V-inn__intrPrtcl & V-opp__intrPrtcl & V-opp-for__inVALPOD & slite:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & V__trPath-obRefl-obDir & V-ut__trPrtcl & V-ut__trPrtcl-obRefl & MULTIEND_9-items
+VALPOD & slurke:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & slurpe:V__intr & V__tr & V-i__trScpr-scPPrefl & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & slutte:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V-opp__intrPrtcl & V-på__intrObl-oblN & V__tr & V__intrScpr-scSuNrg-scRaisInf & V-til__trObl-obRefl-oblN & V-ut__trPrtcl-obRefl & MULTIEND_9-items
+VALPOD & sløre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sløve:V__intr & V__tr & MULTIEND_2-items
+VALPOD & slå:V__impersObl-oblM & V__intr & V__intrObl-oblPRTOFob & V-på__intrObl-oblN & V-igjen__intrPrtcl & V-tilbake__intrPrtcl & V-løs-på__intrPrtclObl & V-om-til__intrPrtclObl-oblN & V-om-til__intrPrtclOblRais-oblRaisInf & V-over-til__intrPrtclObl-oblN & intrPrtclOblRais-oblRaisInf & V-opp__intrPrtcl & V-opp-med__intrPrtclObl-oblN & V__tr-obDir & V__tr-obRefl & V__trExpnSu-expnDECL & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-til__trObl-oblN & V-løs__trPrtcl-obRefl & V-av__trPrtcl & V-på__trPrtcl & V-sammen__trPrtcl & V-til__trPrtcl-obRefl & V__trScpr-scObCsd & V-som__trScpr-scSuNrg-scPredprtcl & MULTIEND_25-items
+VALPOD & smake:V__intr & V__intrScpr-scSuNrg-scPred & V-på__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & smaske:V__intr & V__tr & V__trObl-oblPRTOFob & MULTIEND_3-items
+VALPOD & smekke:V__intr & V__trObl-oblPRTOFob & V-igjen__trPrtcl & MULTIEND_3-items
+VALPOD & smelte:V__intr & V-bort__intrPrtcl & V__tr & V-om__trPrtcl & V-sammen__trPrtcl & MULTIEND_5-items
+VALPOD & smerte:V__intr & V__intr-suDECL & V__intr-suAbsinf & V__intrExpn-expnAbsinf & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & V__tr-suDECL & MULTIEND_7-items
+VALPOD & smi:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & smigre:V__intr & V__intr-suDECL & V__intr-suAbsinf & V_intrExpn-expnAbsinf & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & V__tr-suDECL & MULTIEND_7-items
+VALPOD & smile:V__intr & V-til__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & smitte:V__intr & V__tr & V-med__trObl-oblN & MULTIEND_3-items
+VALPOD & snakke:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2DECL & V-med-om__intrObl2-obl1N-obl2EqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-til__intrObl-oblN & V-ut__intrPrtcl & V-sammen__intrPrtcl & V__tr & V__trScpr-obRefl-scObNrgCsd-scPred & V-til__trScpr-scPPrefl & V-til__trScpr-obRefl-scPP & MULTIEND_19-items
+VALPOD & snaske:V__intr & V__tr & V-til__trScpr-scPPrefl & MULTIEND_3-items
+VALPOD & sne:V__impers & V__intr & V__intrPresntDir & V-inne__intrScpr-scSuNrgCsd-scAdv & V-ned__intrScpr-scSuNrgCsd-scAdv & V__trImpers & MULTIEND_6-items
+VALPOD & snekkerere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & snekre:V__intr & V__tr & V-på__intrObl-oblN & V-sammen__trPrtcl & MULTIEND_4-items
+VALPOD & snerpe:V__intr & V__tr & V-igjen__trPrtcl & V-sammen__trPrtcl & MULTIEND_4-items
+VALPOD & snerre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sniffe:V__intr & V-på__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & snike:V__intr-suDir & V__trPresntDir-obRefl & V__trPath-obRefl-obDir & V-til__trScpr-scPPrefl & MULTIEND_4-items
+VALPOD & snu:V__intr-suDir & V-om__intrPrtcl & V-på__intrObl-oblN & V-opp-ned-på__intrPrtclObl-oblN & V__tr-obDir & V__tr-obRefl & V-bort__trPrtcl-obRefl & MULTIEND_7-items
+VALPOD & snubbe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sollisitere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sope:V__intr & V__tr & V-inn__trPrtcl & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & sordinere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sote:V__intr & V__tr & V-til__trPrtcl & V-til__trPrtcl-obRefl & MULTIEND_4-items
+VALPOD & sove:V__intr & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V-ut__intrPrtcl & V__tr-obEventunit & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_6-items
+VALPOD & spa:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & spandere:V__intr & V__tr & V-på__trObl-oblN & V-på__trScpr-obDECL-scPPrefl & V-på__trScpr-obEqSuInf-scPPrefl & V-på__trScpr-scPPrefl & MULTIEND_6-items
+VALPOD & spare:V__intr & V-på__intrObl-oblN & -til__intrObl-oblDECL & V-til__intrObl-oblEqSuInf & V-til__intrObl-oblN & V__tr & V-opp__trPrtcl & V-til__trObl-oblDECL & V-til__trObl-oblEqSuInf & V-til__trObl-oblN & MULTIEND_9-items
+VALPOD & sparke:V__intr & V-på__intrObl-oblN & V-ut__intrPrtcl & V__tr-obDir & V__trObl-oblPRTOFob & V__trScpr-obRefl-scObNrgCsd-scPred & V__trScpr-scObCsd & MULTIEND_7-items
+VALPOD & spasere:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & spenne:V__intr & V-av__intrPrtcl & V-mot__intrObl-oblN & V__tr & V-over__trObl-oblN & V-fast__trPrtcl & V-for__trPrtcl & V-fra__trPrtcl & MULTIEND_8-items
+VALPOD & spikke:V__intr & V-på__intrObl-oblN & V__tr & V-sammen__trPrtcl & V-til__trPrtcl & MULTIEND_5-items
+VALPOD & spikre:V__intr & V-med__intrObl-oblN & V-på__intrObl-oblN & V__tr & V-på__trObl-oblN & V-opp__trPrtcl & V-på__trPrtcl & V-sammen__trPrtcl & MULTIEND_8-items
+VALPOD & spille:V__ditr & V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-på__intrObl-oblN & V-til__intrObl-oblN & V-opp__intrPrtcl & V-opp-til__intrPrtclObl-oblAbsinf & V-opp-til__intrPrtclObl-oblN & V__tr & V__tr-obDir & V-inn__trPrtcl & V-om__trPrtcl & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_15-items
+VALPOD & spinne:V__intr & V-på__intrObl-oblN & V-rundt__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & spise:V__intr & V-av__intrObl-oblN-ACTIVITY & V-på__intrObl-oblN-ACTIVITY & V__tr & V-innpå__trObl-obRefl-oblN & V-opp__trPrtcl & V__trScpr-scObNrgCsd-scPred & V__trScpr-obRefl-scObNrgCsd-scPred & V-i__trScpr-scPPrefl & MULTIEND_9-items
+VALPOD & sprekke:V-i__impersObl-oblN & V__intr & V__tr & MULTIEND_3-items
+VALPOD & sprenglese:V__intr & V-i__intrObl-oblN & V-igjennom__intrObl-oblN & V-på__intrObl-oblN & V__tr & MULTIEND_5-items
+VALPOD & sprette:V__intrPresntDir & V__intr-suDir & V__tr-obDir & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & sprute:V__intr & V-på__intrObl-oblN & V__tr-obDir & V-med__trObl-oblN & V-på__trObl-oblN & MULTIEND_5-items
+VALPOD & spytte:V__intr & V-på__intrObl-oblN & V-ut__intrPrtcl & V__tr & V-på__trObl-oblN & V-ut__trPrtcl & MULTIEND_6-items
+VALPOD & spørre:V__ditr-obINTERR & V__intr & V__tr-obINTERR & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V__trScpr-obRefl-scObNrg-scPred & V-om__trObl-oblEqObInf & V-om__trObl-oblINTERR & V-om__trObl-oblN & V-om__trObl-obRefl-oblINTERR & V-om__trObl-obRefl-oblN & V-ut__trPrtcl & V-ut-om__trPrtclObl-oblINTERR & V-ut-om__trPrtclObl-oblN & MULTIEND_16-items
+VALPOD & spå:V__ditr & V__ditr-obDECL & V__ditr-obINTERR & V__intr & V-i__intrObl-oblN & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V-om__trObl-oblINTERR & MULTIEND_11-items
+VALPOD & stampe:V__intr & V__intrObl-oblLoc & V__tr & V__trScpr-scObCsd & MULTIEND_4-items
+VALPOD & stange:V__intr & V__intr-suDir & V__tr-obDir & V__trPath-obRefl-obDir & MULTIEND_4-items
+VALPOD & starte:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V-opp__intrPrtcl & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN-activity & V__tr & MULTIEND_7-items
+VALPOD & stave:V__intr & V__tr & V__trPath-obRefl-obDir & MULTIEND_3-items
+VALPOD & steike:V__intr & V__tr & MULTIEND_2-items
+VALPOD & steke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & stele:V__intr & V__tr & V-fra__trObl-oblN & V-til__trObl-oblN & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & stemme:V__intr & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblDECL & V-for__intrObl-oblN & V-overens__intPrtcl & V-overens-med__intPrtclrObl-oblN & V-på__intrObl-oblN & V__tr-obDir & MULTIEND_8-items
+VALPOD & stemne:V__intr-suDir & V__tr & V-for__trObl-oblN & V-som__trScpr-scPredprtcl & MULTIEND_4-items
+VALPOD & stenge:V__intr & V-for__intrObl-oblN & V__tr & V-av__trPrtcl & V-inn__trPrtcl & V-inne__trPrtcl & V-ut__trPrtcl & V-ute__trPrtcl & MULTIEND_8-items
+VALPOD & steve:V__intr & V-for__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & stevje:V__intr & V-for__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & stevne:V__intr-suDir & V__tr & V-for__trObl-oblEqObInf & V-for__trObl-oblDECL & V-for__trObl-oblN & V-for-for__trObl2-obl1N-obl2DECL & V-for-for__trObl2-obl1N-obl2EqObInf & V-som__trScpr-scPredprtcl & MULTIEND_8-items
+VALPOD & stikke:V__intr & V-med__intrObl-oblN & V-av__intrPrtcl & V__tr-obDir & V__trObl-oblPRTOFob & V-med__trObl-oblN & V-bort__trPrtcl & V-fram__trPrtcl-obRefl & V-frem__trPrtcl-obRefl & V-ut__trPrtcl-obRefl & MULTIEND_10-items
+VALPOD & stime:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & stjele:V__intr & V__tr & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblEqSuInf & V-fra__trObl-obRefl-oblN & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & MULTIEND_7-items
+VALPOD & stoppe:V__intr & V-opp__intrPrtcl & V__tr & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-igjen__trPrtcl & V-til__trPrtcl & MULTIEND_7-items
+VALPOD & storme:V__impers & V__impersObl-oblN & V__intr-suDir & V__tr & MULTIEND_4-items
+VALPOD & straffeforfølge:V__intr & V__tr & V-med__trObl-oblEqSuInf & V-med__trObl-oblN & MULTIEND_4-items
+VALPOD & stramme:V__intr & V__tr & V-igjen__trPrtcl & V-inn__trPrtcl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & MULTIEND_6-items
+VALPOD & streame:V__intr & V__tr & MULTIEND_2-items
+VALPOD & streife:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & stri:V__intr & V-for__intrObl-oblEqSuInf & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__trPath-obRefl-obDir & MULTIEND_5-items
+VALPOD & stride:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__trPath-obRefl-obDir & MULTIEND_7-items
+VALPOD & strikke:V__ditr & V__intr & V-på__intrObl-oblN & V__tr & V__trScpr-scObCsd & MULTIEND_5-items
+VALPOD & studere:V__intr & V-til__intrObl-oblN & V__tr & V__tr-obINTERR & MULTIEND_4-items
+VALPOD & stumpe:V__intr-suDir & V__tr & MULTIEND_2-items
+VALPOD & stusse:V__intr & V__tr & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V__tr-obDir & V__tr-obRefl & MULTIEND_10-items
+VALPOD & stylte:V__intr-suDir & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & styltre:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & styre:V__intr & V__intr-suDir & V-med__intrObl-oblN & V-over__intrObl-oblN & V__tr-obDir & MULTIEND_5-items
+VALPOD & styrte:V__intr & V__intr-suDir & V__tr-obDir & MULTIEND_3-items
+VALPOD & stø:V__intr & V__tr-obDir & V-på__trObl-obRefl-oblDECL & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblINTERR & V-på__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & støe:V__intr & V__tr-obDir & V-på__trObl-obRefl-oblDECL & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblINTERR & V-på__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & støkke:V-i__impersObl-oblN & V__intr & V__tr & MULTIEND_3-items
+VALPOD & støvsuge:V__intr & V__intrObl-oblLoc & V__tr & V__trScpr-scObCsd & MULTIEND_4-items
+VALPOD & stå:V__intr & V__intrLghtScpr-scAdj & V__intrObl-oblLoc & V__intrPresnt & V__intrPresntLoc & V-for__intrObl-oblAbsinf & V-for__intrObl-oblDECL & V-for__intrObl-oblINTERR & V-for__intrObl-oblN & V-av__intrPrtcl &V-opp__intrPrtcl & V-opp-for__intrPrtclObl-oblDECL & V-opp-for__intrPrtclObl-oblEqInf & V-opp-for__intrPrtclObl-oblN & V-over__intrObl-oblN & V-på__intrObl-oblN & V-ved__intrObl-oblDECL & V-ved__intrObl-oblEqSuInf & V-ved__intrObl-oblN & V__tr-obRefl & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_20-items
+VALPOD & subtrahere:V__intr & V__tr & V-fra__trObl-oblN & MULTIEND_3-items
+VALPOD & sufflere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & suge:V__intr & V-på__intrObl-oblN & V__tr-obDir & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & sulle:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & sulte:V__intr & V__tr & V__tr-obRefl & V-ut__trPrtcl & MULTIEND_4-items
+VALPOD & summe:V__intr & V__tr-obRefl & V-til__trObl-obRefl-oblEqObInf & MULTIEND_3-items
+VALPOD & supe:V__intr & V__tr & V-opp__trPrtcl & MULTIEND_3-items
+VALPOD & surre:V-i__impersObl-oblN & V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & V-fast__trPrtcl & V-sammen__trPrtcl & MULTIEND_7-items
+VALPOD & susse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & svare:V__ditr & V__ditr-obDECL & V__ditr-obINTERR & V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblINTERR & V-for__intrObl-oblN & V-med__intrObl-oblN & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V-til__intrObl-oblAbsinf & V-til__intrObl-oblDECL & V-til__intrObl-oblN & V__tr-obDECL & V__tr-obINTERR & V__tr-obRefl & MULTIEND_17-items
+VALPOD & svarve:V__intr & V__tr & MULTIEND_2-items
+VALPOD & sveise:V__intr & V__tr & V-sammen__trPrtcl & MULTIEND_3-items
+VALPOD & svelge:V__intr & V__tr & V-ned__trPrtcl & MULTIEND_3-items
+VALPOD & svelgje:V__intr & V__tr & V-ned__trPrtcl & MULTIEND_3-items
+VALPOD & svelte:V__intr & V__tr-obRefl & V-ihjel__intrPrtcl & V-ihjel__trPrtcl & MULTIEND_4-items
+VALPOD & sverge:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V__tr & V__tr-obDECL & MULTIEND_6-items
+VALPOD & sverje:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V__tr-obDECL & MULTIEND_5-items
+VALPOD & svi:V__impers & V__impersObl-oblN & V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblINTERR & V-for__intrObl-oblN & V__tr & MULTIEND_8-items
+VALPOD & svikte:V__intr & V__tr & MULTIEND_2-items
+VALPOD & svinge:V__intr-suDir & V__tr & V__tr-obDir & V__trPath-obRefl-obDir & MULTIEND_4-items
+VALPOD & sy:V__intr-suDir & V__tr & V-om__trPrtcl & V-sammen__trPrtcl & MULTIEND_4-items
+VALPOD & sykle:V__intr & V__intr-suDir & V__tr-obDir & V-road__tr & V-trip__tr & V-vehicle__tr & MULTIEND_6-items
+VALPOD & sylte:V__intr & V__tr & V-ned__trPrtcl & MULTIEND_3-items
+VALPOD & syne:V__intr & V__tr & V__trExpnSu-obRefl-expnDECL & V__trExpnSu-obRefl-expnINTERRwh & V__trExpnSu-obRefl-expnINTERRyn & MULTIEND_5-items
+VALPOD & synes:V-godt-om__intrAdvObl-oblDECL & V-godt-om__intrAdvObl-oblN & V-ille-om__intrAdvObl-oblDECL & V-ille-om__intrAdvObl-oblN & V-synd-på__intrAdvObl-oblN & V__intrExpn-expnDECL & V-om__intrObl-oblN & V-som__intrScpr-scSuNrg-scPredprtclS & V-som__intrScpr-scSuNrg-scPredprtclN & V__intrScpr-scSuNrg-scPred & V__intrScpr-scSuNrg-scInf & V__intrScpr-scSuNrg-scN & V-som-om__intrScpr-scSuNrg-scPredprtclS & V__intrScpr-suAbsinf-scSuNrg-scPred & V__intrScpr-suDECL-scSuNrg-scPred & V__intrScpr-suINTERR-scSuNrg-scPred & V__intrScprExpn-scAdj-expnAbsinf & V__intrScprExpn-scAdj-expnDECL & V__intrScprExpn-scAdj-expnINTERR & V__tr-obDECL & V__trExpnSu-expnDECL & V__trScpr-scSuNrg-scInf & V__trScpr-scSuNrg-scN & V__trScpr-scSuNrg-scPred & V-som__trScpr-scSuNrg-scPredprtcl & V__trScpr-suDECL-scSuNrg-scPred & V__trScpr-suINTERR-scSuNrg-scPred & V__trScprExpnSu-scSuNrg-scAdj-expnAbsinf & V__trScprExpnSu-scSuNrg-scAdj-expnAbsinf & V__trScprExpnSu-scSuNrg-scAdj-expnDECL & V__trScprExpnSu-scSuNrg-scAdj-expnINTERR & MULTIEND_31-items
+VALPOD & synge:V__impersObl-oblN &  V-i__impersObl-oblN & V__intr & V-for__intrObl-oblN & V-med__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-ut__intrPrtcl & V-ut-om__intrPrtclObl-oblAbsinf & V-ut-om__intrPrtclObl-oblDECL & V-ut-om__intrPrtclObl-oblINTERR & V-ut-om__intrPrtclObl-oblN & V-ut-om__intrPrtclObl-oblN & V__trScpr-scObNrgCsd-scPred & V__trScpr-obRefl-scObNrgCsd-scPred & V-sang__tr & MULTIEND_17-items
+VALPOD & synse:V__intr & V__tr & V-om__intrObl-oblN & MULTIEND_3-items
+VALPOD & søke:V-ut__ditrPrtcl-iobRefl & V__intr & V-etter__intrObl-oblEqSuInf & V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN & V-etter__intrObl-oblN & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblN & V-om_intrObl-oblEqSuInf & V-på__intrObl-oblN & V-ut__trPrtcl & V__tr & V__tr-obEqSuInf & MULTIEND_14-items
+VALPOD & søkke:V-i__impersObl-oblN & V__intr & V-ned__intrPrtcl & V__tr & MULTIEND_4-items
+VALPOD & søle:V__intr & V-med__intrObl-oblN & V-på__intrObl-oblN & V__tr & V-bort__trPrtcl & V-til__trPrtcl & V-til__trPrtcl-obRefl & MULTIEND_7-items
+VALPOD & sømme-2:V__intr & V__tr & V-ned__trPrtcl & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & så:V__intr & V__tr & MULTIEND_2-items
+VALPOD & ta:V__ditrExpnSu-obMeas-expnEqIobInf & V__ditr-iobRefl & V__intr-suDir & V-på__intrObl-oblN & V__tr & V__tr-obDir & V__tr-suDir & V__tr-obDir & V__trExpnSu-obMeas-expnAbsinf & V__trObl-oblPRTOFob & V-på__trObl-oblN & V-fatt-i__trObl-oblN & V-avstand-fra__trObl-oblAbsinf & V-avstand-fra__trObl-oblDECL & V-avstand-fra__trObl-oblN & V-enerett-på__trObl-oblN & V-enerett-på__trObl-oblN & V-kontakt-med__trObl-oblN & V-livet-av__trObl-oblN & V-motet-fra__trObl-oblN & V-parti-for__trObl-oblN & V-sikte-på__trObl-oblEqSuInf & V__trObl-obRefl-oblPRTOFob & V-i-vare-for__trObl-obRefl-oblEqSuInf & V-av__trObl-obRefl-oblAbsinf & V-av__trObl-obRefl-oblINTERR & V-av__trObl-obRefl-oblN & V-imot__trPrtcl & V-inn__trPrtcl-obDECL & V-inn__trPrtcl-obRefl & V-sammen__trPrtcl-obRefl & V-med__trPrtcl & V-med__trPrtcl-obDECL & V-med__trPrtcl-obINTERR & V-opp__trPrtcl & V-ut__trPrtcl-obDECL & V-ut__trPrtcl-obRefl & V-alvorlig__trScpr & V-alvorlig__trScpr-obDECL & V-alvorlig__trScpr-obINTERR & 
+VALPOD & takke:V__intr & V__tr & V-av__intrPrtcl & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V-for__trObl-oblDECL & V-for__trObl-oblEqObInf & V-for__trObl-oblN & MULTIEND_9-items
+VALPOD & tale:V__intr & V__tr & V-for__intrObl-oblAbsinf & V-for__intrObl-oblDECL & V-for__intrObl-oblN & V-til__intrObl-oblN & MULTIEND_6-items
+VALPOD & tanke:V__intr & V-opp__intrPrtcl & V__tr & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & tape:V__intr & V__tr & V__tr-obRefl & MULTIEND_3-items
+VALPOD & tegne:V__intr & V-til__intrOblRais-oblRaisInf & V-til__intrOblExlnk-oblExlnkDECL & V__tr & V__tr-obDir & V-ned__trPrtcl & V-om__trPrtcl & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & MULTIEND_9-items
+VALPOD & telefonere:V__intr-suDir & V-med__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & telegrafere:V__intr-suDir & V-med__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & teleksere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & telle:V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intr-suINTERR & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V__intrExpn-expnINTERR & V-over__intrObl-oblN & V-som__intrLghtScpr-scSuNrg-scPredprtcl & V__tr & V-opp__trPrtcl & MULTIEND_11-items
+VALPOD & tenke:V__ditr-iobRefl-obDECL & V__ditr-iobRefl-obEqIobInf & V__ditr-iobRefl-obINTERR & V__ditr-iobRefl & V__intr & V__intr-suDir & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obEqSuInf & V-i__trObl-obRefl-oblDECL & V-i__trObl-obRefl-oblEqSuInf & V-i__trObl-obRefl-oblINTERR & V-i__trObl-obRefl-oblN & V-til__trObl-obRefl-oblDECL & V-til__trObl-obRefl-oblEqSuInf & V-til__trObl-obRefl-oblINTERR & V-til__trObl-obRefl-oblN & V-om__trPrtcl-obRefl & V-ut__trPrtcl & MULTIEND_26-items
+VALPOD & tetne:V__intr & V-til__intrPrtcl & V__tr & MULTIEND_3-items
+VALPOD & tine:V__intr & V-opp__intrPrtcl & V__tr & V-opp__trPrtcl & MULTIEND_4-items
+VALPOD & tippe:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V-over__trPrtcl & MULTIEND_7-items
+VALPOD & tjelde:V__intr & V__tr & MULTIEND_2-items
+VALPOD & tjone:V__intr & V__tr & MULTIEND_2-items
+VALPOD & tjuve:V__intr & V__tr & MULTIEND_2-items
+VALPOD & tjuvstarte:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & tralle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & trasse:V__intr & V__tr & V__tr-obDECL & V__tr-obINTERR & MULTIEND_4-items
+VALPOD & trekke:V__impers & V__intr-suDir & V-i__intrObl-oblN & V-på__intrObl-oblN & V__tr & V__tr-obDir & V__tr-obRefl & V__trPath-obRefl-obDir & V-fra__trObl-obRefl-oblEqObInf & V-fra__trObl-obRefl-oblINTERR & V-fra__trObl-obRefl-oblN & V-inn__trPrtcl-obDECL & V-opp__trPrtcl & MULTIEND_13-items
+VALPOD & trene:V__intr & V-i__intrObl-oblEqSuInf & V-i__intrObl-oblN & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V__tr & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & V-opp-til__trPrtclObl-obRefl-oblEqObInf & V-til__trobl-obrefl-obleqobinf & V-til__trobl-obrefl-oblN & MULTIEND_11-items
+VALPOD & trenge:V__intr-suDir & V__trPresntDir-obRefl & V__tr & V__tr-obDir & V__tr-obEqSuInf & V-bort__trPrtcl & V-fram__trPrtcl-obRefl & V-frem__trPrtcl-obRefl & V-på__trPrtcl-obRefl & MULTIEND_9-items
+VALPOD & trille:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
+VALPOD & trimme:V__intr & V__tr & MULIEND
+VALPOD & tro:V__intr & V-på__intrObl-oblAbsinf & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obDECL-obV & MULTIEND_7-items
+VALPOD & tromme:V__intr & V-med__intrObl-oblN & V-på__intrObl-oblN & V__tr & V-sammen__trPrtcl & MULTIEND_5-items
+VALPOD & tru:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obDECL-obV & MULTIEND_6-items
+VALPOD & trø:V__intr & V-i__intrObl-oblN & V-på__intrObl-oblN & V-til__intrPrtcl & V__tr & MULTIEND_5-items
+VALPOD & trøstespise:V__intr & V__tr & MULTIEND_2-items
+VALPOD & trå:V__intr & V__intrObl-oblLoc & V-til__intrPrtcl & V__tr & MULTIEND_4-items
+VALPOD & tråkke:V__intr & V__intr-suDir & V-i__intrObl-oblN & V-på__intrObl-oblN & V-til__intrPrtcl & V__tr & V__trObl-oblPRTOFob & MULTIEND_7-items
+VALPOD & tråkle:V__intr & V__tr & V-sammen__trPrtcl & MULTIEND_3-items
+VALPOD & tråle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & turnere:V__intr & V__tr & V-med__intrObl-oblN & MULTIEND_3-items
+VALPOD & tusje:V__intr & V__tr & MULTIEND_2-items
+VALPOD & tverrsnu:V__intr & V__tr & MULTIEND_2-items
+VALPOD & tverrstanse:V__intr & V__tr & MULTIEND_2-items
+VALPOD & tverrvende:V__intr & V__tr & MULTIEND_2-items
+VALPOD & tygge:V__intr & V-på__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & tykkes:V__intrScpr-scSuNrg-scPred & V__trExpnSu-expnDECL & V__trScpr-scSuNrg-scPred & V__trScpr-scSuNrg-scInf & V-som__trScpr-scSuNrg-scPredprtcl & MULTIEND_5-items
+VALPOD & tynge:V__intr & V-på__intrObl-suAbsinf-oblN & V-på__intrObl-suDECL-oblN & V-på__intrOblExpnSu-oblN-expnAbsinf & V-på__intrOblExpnSu-oblN-expnDECL & V-på__intrObl-oblN & V__tr & MULTIEND_7-items
+VALPOD & tyvstarte:V__intr & V__tr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & MULTIEND_4-items
+VALPOD & tøffe:V__intr & V__intr-suDir & V__tr-obRefl & MULTIEND_3-items
+VALPOD & tømre:V__intr & V__tr & V-sammen__trPrtcl & MULTIEND_3-items
+VALPOD & tørke:V__intr & V-inn__intrPrtcl & V-ut__intrPrtcl & V__tr & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V__tr-obRefl & V__trScpr-scObCsd & V-bort__trPrtcl & MULTIEND_9-items
+VALPOD & tørrkoke:V__intr & V__tr & MULTIEND_2-items
+VALPOD & underby:V__intr & V__tr & MULTIEND_2-items
+VALPOD & underdrive:V__intr & V__tr & MULTIEND_2-items
+VALPOD & undergjære:V__intr & V__tr & MULTIEND_2-items
+VALPOD & underkommunisere:V__intr & V__tr & V__tr-obINTERR & MULTIEND_3-items
+VALPOD & undervise:V__intr & V-i__intrObl-oblAbsinf & V-i__intrObl-oblN & V__tr & V-i__trObl-oblEqObInf & V-i__trObl-oblN & MULTIEND_6-items
+VALPOD & undres:V__intr & V__tr-obINTERR & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & MULTIEND_5-items
+VALPOD & unnsleppe:V__intr & V__tr & V__tr-obDECL & V__tr-obEqSuInf & MULTIEND_4-items
+VALPOD & unnslippe:V__intr & V__tr & V__tr-obDECL & V__tr-obEqSuInf & MULTIEND_4-items
+VALPOD & utbryte:V__intr & V__tr & V__tr-obDECL & MULTIEND_3-items
+VALPOD & utligne:V__intr & V__tr & MULTIEND_2-items
+VALPOD & utlikne:V__intr & V__tr & MULTIEND_2-items
+VALPOD & uttvære:V__intr & V__tr & MULTIEND_2-items
+VALPOD & utvide:V__intr-suDir & V__tr-obDir & V__tr-obRefl & V__tr-obRefl-obDir &V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & MULTIEND_5-items
+VALPOD & vadre:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & vagle:V__intr & V__tr-obRefl & MULTIEND_2-items
+VALPOD & valne:V__intr & V__tr & V-bort__intrPrtcl & MULTIEND_3-items
+VALPOD & valse:V__intr & V__intr-suDir & V-over_intrObl-oblN & V__tr & V-ut__trPrtcl & MULTIEND_5-items
+VALPOD & vanstelle:V__intr & V__tr & MULTIEND_2-items
+VALPOD & vanstyre:V__intr & V__tr & MULTIEND_2-items
+VALPOD & vare-1:V__intr-suDirTemp & V-ved__intrPrtcl & V-ved__intrPrtclScpr-scSuNrg-scRaisInf & V__tr &
+VALPOD & variere:V__intr & V-med__intrObl-oblN & V-mellom__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & varpe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & varsle:V__intr & V__tr & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-om__trObl-oblDECL & V-om__trObl-oblINTERR & V-om__trObl-oblN & MULIEND
+VALPOD & vaske:V__intr & V-i__intrObl-oblN & V-med__intrObl-oblN & V-opp__intrPrtcl & V__tr & V__trObl-obRefl-oblPRTOFob & V__trScpr-scObCsd & V-seg__tr-obRefl & MULTIEND_8-items
+VALPOD & vedde:V__intr & V-med-på__intrObl2-obl1N-obl2DECL & V-med-på__intrObl2-obl1N-obl2N & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V-med-på__trObl2-obl1N-obl2N & V-med-på__trObl2-obl1N-obl2DECL & V-på__trObl-oblDECL & V-på__trObl-oblN & MULTIEND_16-items
+VALPOD & veide:V__intr & V__tr & MULTIEND_2-items
+VALPOD & veie:V__intr & V-mot__intrObl-oblDECL & V-mot__intrObl-oblN & V-mot__intrObl-suDECL-oblDECL & V-mot__intrObl-suDECL-oblN & V-mot__intrOblExpnSu-oblDECL & V-mot__intrOblExpnSu-oblN & V-thing__tr & V-measure__tr & V__tr-obRefl & MULTIEND_10-items
+VALPOD & veite:V__intr & V__tr-obDir & MULTIEND_2-items
+VALPOD & velte:V__intr & V__intr-suDir & V__tr & V-over__trObl-obRefl-oblN & V-over__trPrtcl & MULTIEND_5-items
+VALPOD & vende:V__ditr & V__intr-suDir & V__tr & V__tr-obDir & V-fra__trobl-obrefl-obleqobinf & V-fra__trObl-obRefl-oblN & MULTIEND_6-items
+VALPOD & vente:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obRec & V__tr-obEqSuInf & V__trPresnt & MULTIEND_10-items
+VALPOD & verpe:V__intr & V__tr & MULTIEND_2-items
+VALPOD & veve:V__intr & V__tr & V-sammen__trPrtcl & MULTIEND_3-items
+VALPOD & vildre:V__intr & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & ville:V__intrAuxmodScpr-scSuNrg-scBareinf & V__intrAuxperfScpr-scSuNrg-scPerf & V__intrScpr-scSuNrg-scDir & V__tr-obDECL & V__tr-obDECL-obV & MULTIEND_5-items
+VALPOD & vime:V__intr-suDir & V__trPath-obRefl-obDir & MULTIEND_2-items
+VALPOD & vinne:V__intr & V-over__intrObl-oblN & V-fram__intrPrtcl & V-fram-med__intrPrtclObl-oblEqInf & V-fram-med__intrPrtclObl-oblN & V-frem__intrPrtcl & V-frem-med__intrPrtclObl-oblEqInf & V-frem-med__intrPrtclObl-oblN & V__tr & V__tr-obRefl & MULTIEND_10-items
+VALPOD & vippe:V__intr-suDir & V-på__intrObl-oblN & V__tr-obDir & V-over__trPrtcl & MULTIEND_4-items
+VALPOD & vise:V__ditr & V__ditr-obDECL & V__ditr-obINTERR & V__ditr-suDECL & V__ditr-suDECL-obDECL & V__ditr-suDECL-obINTERR & V__ditr-suINTERR & V__ditr-suINTERR-obINTERR &  V__tr-obINTERR & V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__intrPath-suDir-PUREORIENTATION & V__tr & V__tr-obDECL & V__tr-obRefl & V__tr-suDECL & V__tr-suINTERR-obINTERR & V__trExpnSu-obRefl-expnDECL & V__trExpnSu-obRefl-expnINTERRwh & V__trExpnSu-obRefl-expnINTERRyn & V__trScpr-obRefl-scSuNrg-scInf & V-til__trObl-oblN & V-bort__trPrtcl & V-fram__trPrtcl & V-frem__trPrtcl & V-som__trScpr-obRefl-scPredprtcl & MULTIEND_26-items
+VALPOD & vite:V__intr & V__tr-obINTERR & V-om__intrObl-oblDECL & V-om__intrObl-oblAbsinf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obDECL-obV & V__tr-obEqSuInf & V-om__trObl-oblN & MULTIEND_11-items
+VALPOD & vivisektere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & vogge:V__intr & V__tr & MULTIEND_2-items
+VALPOD & vokse:V__intr-suDir & V-fra__intrObl-oblN & V-igjen__intrPrtcl & V-sammen__intrPrtcl & V-til__intrPrtcl & V__tr-suDir-obLengthunit & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_7-items
+VALPOD & vrikke:V__intr-suDir & V-på__intrObl-oblN & V__tr & V__trPath-obRefl-obDir & V-løs__trPrtcl & MULTIEND_5-items
+VALPOD & vugge:V__intr & V-med__intrObl-oblN & V-på__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & være:V__copAdj & V__copAdj-suDECL & V__copAdj-suINTERR & V__copAdv & V__copExpnAdj-expnAbsinf & V__copExpnAdj-expnDECL & V__copExpnAdj-expnINTERRwh & V__copExpnAdj-expnINTERRyn & V__copExpnN-expnAbsinf & V__copExpnN-expnDECL & V__copExpnN-expnINTERRwh & V__copExpnN-expnINTERRyn & V__copExpnPP-expnDECL & V__copExpnPP-expnINTERRyn & V__copIdAbsinf & V__copIdAbsinf-suAbsinf & V__copIdDECL & V__copIdN & V__copIdINTERRwh & V__copIdINTERRyn & V__copImpersAdjLoc & V__copN & V__copN-suAbsinf & V__copN-suDECL & V__copN-suINTERRwh & V__copN-suINTERRyn & V__copPP & V__copPP-suDECL & V__copPredprtcl & V-av__copPrtcl & V-igjen__copPrtcl & V-på__copPrtcl & V-til__copPrtcl & V__copToFind & V__copToughAdj & V__intrAuxpassScpr-scSuNrg-scPass & V__intrAuxperfScpr-scSuNrg-scPerf & V__intrPresnt & V__intr-suDirTemp & V__tr & MULTIEND_38-items
+VALPOD & vøle:V__intr & V-på__intrObl-oblN & V__tr & MULTIEND_3-items
+VALPOD & xerografere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & xylografere:V__intr & V__tr & MULTIEND_2-items
+VALPOD & yste:V__intr & V__tr & MULTIEND_2-items
+VALPOD & zoome:V__intr-suDir & V__tr-obDir & MULTIEND_2-items
+VALPOD & æresforplikte:V__intr & V__tr & V__tr-obRefl & V-til__trObl-oblEqObInf & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-oblN & MULTIEND_6-items
+VALPOD & øke:V__intr & V-på__intrPrtcl & V-på-med__intrPrtclObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & økonomisere:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & øse-1:V__intr-suDir & V__tr & V__tr-obDir & MULTIEND_3-items
+VALPOD & øve:V__intr & V-i__trObl-oblN & V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN & V-til__trobl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & MULTIEND_8-items
+VALPOD & åpne:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V__tr & V__tr-obRefl & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN & V_trPresnt-obRefl & MULTIEND_10-items

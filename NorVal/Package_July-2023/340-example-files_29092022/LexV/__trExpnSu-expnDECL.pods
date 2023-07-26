@@ -1,0 +1,52 @@
+VALPOD & ane:V__intr & V__intrComp-compINTERR & V__tr & ane__trExpnSu-expnDECL & V__trExpnSu-expnINTERRwh & V__tr-obDECL & V__tr-suDECL & V__tr-suINTERR & MULTIEND
+VALPOD & angå:V__tr & V__tr-suDECL & V__tr-suINTERR & V__trExpnSu-expnDECL & V__trExpnSu-expnINTERRwh & V__trExpnSu-expnINTERRyn & MULTIEND
+VALPOD & bedrøve:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & bekymre:V__tr & V__trExpnSu-expnDECL & V__tr-obRefl & V__tr-suDECL & V-for__trObl-obRefl-oblN & V-over__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & MULTIEND
+VALPOD & forbause:V__tr & V__tr-suDECL & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN & MULTIEND
+VALPOD & forbløffe:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND  
+VALPOD & foresveve:V__trExpnSu-expnDECL & V__trExpnSu-expnINTERR & V__trScpr-scSuNrg-scInf & V-som__trScpr-scSuNrg-scPredprtcl & MULTIEND
+VALPOD & forferde:V__tr & V__tr-suDECL & __trExpnSu-expnDECL & MULTIEND
+VALPOD & forfjamse:V__tr & V__tr-suDECL & __trExpnSu-expnDECL & MULTIEND
+VALPOD & forskrekke:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & forstyrre:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & forundre:V__tr & V__trExpnSu-expnCOND & V__trExpnSu-expnDECL & V__tr-obRefl & V__tr-suDECL & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN & MULTIEND
+VALPOD & frustrere:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & gagne:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & MULTIEND
+VALPOD & gavne:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & MULTIEND
+VALPOD & gle:V__tr & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & V__tr-obRefl & V-til__trObl-obRefl-oblDECL & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN & MULTIEND
+VALPOD & glede:V__tr & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & V__tr-obRefl & V-til__trObl-obRefl-oblDECL & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN & MULTIEND
+VALPOD & huge:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & MULTIEND
+VALPOD & hugsvale:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & MULTIEND
+VALPOD & hugta:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & MULTIEND
+VALPOD & husvale:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & MULTIEND
+VALPOD & høve:V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V-til__intrObl-oblAbsinf & V-til__intrObl-oblDECL & V-til__intrObl-oblN & V__tr & V__tr-suAbsinf & V__tr-suDECL & V__trExpnSu-expnAbsinf & V__trExpnSu-expnDECL & V__tr-obRefl & V__trImpers-obRefl & V__trExpnSu-obRefl-expnAbsinf & V__trExpnSu-obRefl-expnDECL & V-for__trOblExpnSu-obRefl-oblN-expnEqOblInf & V-for__trOblExpnSu-obRefl-oblN-expnDECL & MULTIEND
+VALPOD & kjennetegne:V__tr & V__tr-suEqObInf & V__tr-suDECL & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & mangle:V__intr & V__intrPresnt & V__tr & V__trPresnt & V__trExpnSu-expnAbsinf & V__trExpnSu-expnDECL & V-på__trObl-oblDECL & V-på__trObl-oblEqSuInf & V-på__trObl-oblN & V-på__trOblExlnk-oblExlnkDECL & V-på__trOblExlnk-oblExlnkAbsinf & MULTIEND
+VALPOD & nytte:V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V__tr & V__tr-suAbsinf & V__tr-suDECL & V__trExpnSu-expnAbsinf & V__trExpnSu-expnDECL & V-av__trObl-obRefl-oblDECL & V-av__trObl-obRefl-oblEqObInf & V-av__trObl-obRefl-oblINTERR & V-av__trObl-obRefl-oblN & MULTIEND
+VALPOD & opprøre:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & oppskake:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & oppta-2:V__trExpnSu-expnDECL & V__tr & V__tr-suDECL & V__trExpnSu-expnINTERRwh & MULTIEND
+VALPOD & overraske:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & V__trExpnSu-expnDECL & V__trExpnSu-expnINTERRwh & V__tr-suDECL & V-med__trObl-oblEqSuInf & V-med__trObl-oblN & MULTIEND
+VALPOD & passe:V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V-sammen__intrPrtcl & V__tr & V__tr-suAbsinf & V__tr-suDECL & V__trExpnSu-expnAbsinf & V__trExpnSu-expnDECL & V__tr-obRefl & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN & V__trExpnSu-obRefl-expnDECL & V__trImpers-obRefl & V__trExpnSu-obRefl-expnAbsinf & MULTIEND 
+VALPOD & plage:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V__trScpr-scObArgCsd & V-med__trObl-oblEqSuInf & V-med__trObl-oblEqobInf & MULTIEND
+VALPOD & prege:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & V-inn__trPrtcl & V-inn__trPrtcl-obRefl & MULTIEND
+VALPOD & ryste:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V__trExpnSu-expnINTERR & MULTIEND
+VALPOD & sjarmere:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & sjenere:V__tr & V__tr-obRefl & V__tr-suDECL & V__trExpnSu-expnDECL & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN & MULTIEND
+VALPOD & sjokkere:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & skremme:V__tr & V__tr-suDECL & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-bort__trPrtcl & V-vekk__trPrtcl & MULTIEND
+VALPOD & skuffe:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__trExpnSu-expnDECL & V__tr & V__tr-suDECL & V__trExpnSu-expnINTERRwh & V-med__trObl-oblEqSuInf & V-med__trObl-oblN & MULTIEND
+VALPOD & skyldes:V__tr & V__tr-suDECL & V__tr-obDECL & V__tr-suDECL-obDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & slå:V__impersObl-oblN & V__intr & V__intrObl-oblPRTOFob & V-på__intrObl-oblN & V-igjen__intrPrtcl & V-tilbake__intrPrtcl & V-løs-på__intrPrtclObl & V-om-til__intrPrtclObl-oblN & V-om-til__intrPrtclOblRais-oblRaisInf & V-over-til__intrPrtclObl-oblN & V__intrPrtclOblRais-oblRaisInf & V-opp__intrPrtcl & V-opp-med__intrPrtclObl-oblN & V__tr-obDir & V__tr-obRefl & V__trExpnSu-expnDECL & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-til__trObl-oblN & V-løs__trPrtcl-obRefl & V-av__trPrtcl & V-på__trPrtcl & V-sammen__trPrtcl & V-til__trPrtcl-obRefl & V__trScpr-scObCsd & V-som__trScpr-scSuNrg-scPredprtcl & MULTIEND
+VALPOD & smerte:V__intr & V__intr-suDECL & V__intr-suAbsinf & V__intrExpn-expnAbsinf & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & V__tr-suDECL & MULTIEND
+VALPOD & smigre:V__intr & V__intr-suDECL & V__intr-suAbsinf & V_intrExpn-expnAbsinf & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & V__tr-suDECL & MULTIEND
+VALPOD & synes:V-godt-om__intrAdvObl-oblDECL & V-godt-om__intrAdvObl-oblN & V-ille-om__intrAdvObl-oblDECL & V-ille-om__intrAdvObl-oblN & V-synd-på__intrAdvObl-oblN & V__intrExpn-expnDECL & V-om__intrObl-oblN & V-som__intrScpr-scSuNrg-scPredprtclS & V-som__intrScpr-scSuNrg-scPredprtclN & V__intrScprExpn-scAdj & V__intrScpr-scSuNrg-scPred & V__intrScpr-scSuNrg-scInf & V__intrScpr-scSuNrg-scN & V__intrScpr-scSuNrg-scPP & V-som-om__intrScpr-scSuNrg-scPredprtclS & V__tr-obDECL & V__trExpnSu-expnDECL & V__trScpr-scSuNrg-scInf & V__trScpr-scSuNrg-scN & V__trScpr-scSuNrg-scPred & V-som__trScpr-scSuNrg-scPredprtcl & V__trScprExpn-scSuNrg-scAdj-expnDECL & V__trScprExpn-scSuNrg-scAdj-expnINTERR & V__trScprExpn-scSuNrg-scAdj-expnAbsinf & MULTIEND
+VALPOD & såre:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V__trObl-oblPRTOFob & MULTIEND
+VALPOD & tilfredsstille:V__tr & V__tr-suDECL & V__tr-suAbsinf & V__trExpnSu-expnDECL & V__trExpnSu-expnAbsinf & MULTIEND
+VALPOD & times:V__tr & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & MULTIEND
+VALPOD & tykkes:V__intrScpr-scSuNrg-scPred & V__trExpnSu-expnDECL & V__trScpr-scSuNrg-scPred & V__trScpr-scSuNrg-scInf & V-som__trScpr-scSuNrg-scPredprtcl & MULTIEND
+VALPOD & undre:V__ditr-iobRefl-obINTERR & V__tr-obRefl & V__tr-suDECL & V__trExpnSu-expnDECL & V-over__trObl-obRefl-oblDECL & V-over__trobl-obrefl-obleqobinf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN & MULTIEND
+VALPOD & uroe:V__tr & V__tr-obRefl & V__tr-suDECL & V__trExpnSu-expnDECL & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN & MULTIEND
+VALPOD & vederfares:V__tr & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & MULTIEND
+VALPOD & vedkomme:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & MULTIEND
+VALPOD & vekke:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V-opp__trPrtcl & MULTIEND

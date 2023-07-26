@@ -1,0 +1,1 @@
+VALPOD & spille:V__ditr & V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-på__intrObl-oblN & V-til__intrObl-oblN & V-opp__intrPrtcl & V-opp-til__intrPrtclObl-oblAbsinf & V-opp-til__intrPrtclObl-oblN & V__tr & V__tr-obDir & V-inn__trPrtcl & V-om__trPrtcl & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_15-items

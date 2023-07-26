@@ -1,0 +1,1 @@
+gjøre_ditrScpr & vi gjør naboen livet vanskelig	(we make life difficult for the neighbor)

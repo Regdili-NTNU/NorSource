@@ -1,0 +1,9 @@
+befinne__trAdv-obRefl & hun befinner seg utmerket &
+beskikke__trAdv-obRefl & han beskikker seg vel &
+bete__trAdv-obRefl & hun beter seg vel &
+greie__trAdv-obRefl & hun greier seg fint &
+holde-fast_trAdv-obRefl & hun holder seg fast &
+oppføre-3__trAdv-obRefl & han oppfører seg pent &
+skikke__trAdv-obRefl & han skikker seg vel &
+skjule__trAdv-obRefl & flyktningene skjuler seg godt &
+te__trAdv-obRefl & han ter seg vel &
