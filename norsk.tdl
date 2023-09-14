@@ -6309,8 +6309,8 @@ som-resumpt-word := lbl-ltop-lex-item & rule & bindable-word & const-ltow-rule &
 
 interrog-pron-word := lbl-ltop-lex-item-2rel & rule & no-slash & const-ltow-rule &
   [ SYNSEM.LOCAL.CAT.HEAD pers-pron & [KEYS.KEY interr-word],
-    SYNSEM.LOCAL.CONT.HOOK.INDEX ref-ind & [ WH +,
-                                             SORT referential-thing],
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX ref-ind & [ WH +,
+;                                             SORT referential-thing],
     SYNSEM.LOCAL.CAT.VAL [ SUBJ <>,
                            SPR < >,
                            SPEC <>,
@@ -19915,7 +19915,7 @@ head-subjfiller-subord-wh-phrase := basic-head-filler-phrase & head-final &
 ;    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ antilist,
     HEAD-DTR.EXTRACTED-FROM -,
 ;    HEAD-DTR.SYNSEM.NON-LOCAL #nonloc,
-    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX ref-ind & [WH +],
+;    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX ref-ind & [WH +],
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD nominal & [ACCUSATIVE - ],
     NON-HEAD-DTR.SYNSEM.LOCAL.SUBJ-SOM +,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
