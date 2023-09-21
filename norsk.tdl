@@ -13507,8 +13507,12 @@ head-verb-perf-comp-phrase := head-verb-verbal-comp-phrase &
     NON-HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #3,
     NON-HEAD-DTR.SYNSEM.LOCAL.CONNECT-PENDING #cp,
     NON-HEAD-DTR.SYNSEM.WH-MOVE-PERFORMED -,
-    NON-HEAD-DTR.FRONT-TO-FILL #ff,
-    NON-HEAD-DTR.GENRE wellfrmd ].  ; to avoid mal-rule inf-to-perf recruiting VPs for this rule
+    NON-HEAD-DTR.FRONT-TO-FILL #ff ].
+
+;attached to the above:
+; the outcommented prevented 'har Ola kommet' and other inversions with "ha". So must be sacrificed, at the cost of non-wanted mal-actions - - whatever they were/are in this case. LH16092023
+;,
+;    NON-HEAD-DTR.GENRE wellfrmd ].  ; to avoid mal-rule inf-to-perf recruiting VPs for this rule
 
     
 head-verb-indirwhquest-comp-phrase := basic-head-comp-phrase & head-initial & rule &
@@ -19062,7 +19066,7 @@ s-adv-spec-v-phrase-sup := main-cl-first-verb-spec-phrase & head-initial &
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ INV -,
 				     MAIN-CL #main & + ] ].	
 
-; for position after first verb
+; for position after first verb; for declaratives, that also holds when pronouns are cliticized to theverb
 s-adv-spec-v-phrase := s-adv-spec-v-phrase-sup &
   [  SYNSEM.LOCAL.ADJ-SITE-OPEN #open,
      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ < synsem >,
