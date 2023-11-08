@@ -1094,6 +1094,7 @@ ergo-k := predsort.
 endatil-k := predsort.
 attpåtil-k := predsort.
 endog-k := predsort.
+visst-k := predsort.
 deriblant-k := predsort.
 engang-k := predsort.
 for-det-meste-k := predsort.
@@ -1871,6 +1872,7 @@ dog-adv-s := adv-s & dog-k.
 nylig-adv-s := adv-s & nylig-k.
 jevnlig-adv-s := adv-s & jevnlig-k.
 endog-adv-s := adv-s & endog-k.
+visst-adv-s := adv-s & visst-k.
 slik-adv-s := adv-s & slik-k.
 imidlertid-adv-s := adv-s & imidlertid-k.
 

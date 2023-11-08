@@ -1362,6 +1362,11 @@ kanskje_s-adv := s-operadv-init-word &
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY kanskje-k,
     SYNSEM.LKEYS.KEYREL.PRED "_kanskje_adv_rel"].
 
+visst_s-adv := s-operadv-init-word &
+  [ STEM < "visst" >,
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY visst-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_visst_adv_rel"].
+
 mon_s-adv := s-operadv-init-word &
   [ STEM < "mon" >,
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY kanskje-k,
