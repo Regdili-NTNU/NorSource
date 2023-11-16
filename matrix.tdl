@@ -244,6 +244,10 @@ multi-frame := val-class.
 v-tr-obRefl-vt := single-frame.
 v-oblique-vt := single-frame.
 v-tr-only-vt := single-frame.
+intr--tr-valpod := multi-frame &
+  [INTR-TR bool].
+intr-tr := intr--tr-valpod &
+  [INTR-TR +]. 
 
 
 lex-or-phrase-synsem := synsem-min &

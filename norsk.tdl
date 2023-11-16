@@ -1124,6 +1124,7 @@ smil-k := predsort.
 latter-k := predsort.
 dagtid-k := predsort.
 søvn-k := predsort.
+gråt-k := predsort.
 ting-k := predsort.
 bryllup-k := predsort.
 måte-k := relinan.
@@ -2019,6 +2020,7 @@ død-inhcmp := inhr-comp & død-k.
 smil-inhcmp := inhr-comp & smil-k.
 latter-inhcmp := inhr-comp & latter-k.
 søvn-inhcmp := inhr-comp & søvn-k.
+gråt-inhcmp := inhr-comp & gråt-k.
 ting-inhcmp := inhr-comp & ting-k.
 ;rundtur-inhcmp := inhr-comp.
 fløyten-inhcmp := inhr-comp & fløyten-k.
@@ -20817,10 +20819,10 @@ object-deletion := const-ltol-rule &
 	 SYNSEM.LOCAL.CAT.QVAL #1 & trans-qval,
    	SYNSEM.LOCAL.CAT.QVAL.DOBJECT #obj & [LOCAL.CAT.HEAD.EXPLETIVE -,
 					      LOCAL.CONT.HOOK.INDEX #index,
-					      LOCAL.CAT.HEAD.KEYS.KEY anonym-k],; to avoid inher-comp nouns undergoing the rule, like smil, død etc
+					      LOCAL.CAT.HEAD.KEYS.KEY anonym-k],; to avoid inher-comp nouns undergoing the rule, like smil, død etc, which instead of anonym-k have noun-specific KEY values
    	SYNSEM.LOCAL.CAT.HEAD #2,
    	SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
-	 SYNSEM.VAL-CLASS #valclass ], ; BY-DELETION -
+	 SYNSEM.VAL-CLASS #valclass & [INTR-TR -] ], ; BY-DELETION -
    C-CONT [RELS <! !>,
            HCONS <! !>]].
 

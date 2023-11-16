@@ -1,4 +1,4 @@
-;;;;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;; -*- Mode: tdl; Coding: utf-8; -*-
 ;;;
 ;;;              - NorSource -
 ;;; 
@@ -30036,11 +30036,12 @@ gråte_iv_vlxm := v-intr &
       SYNSEM.LKEYS.KEYREL.PRED "_gråte_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
-gråte_tv_vlxm := v-tr &
+gråte_tv_vlxm := v-tr-obEventunit &
   [ INFLECTION nonfstr-strong,
       STEM < "gråte" >,
       SYNSEM.LKEYS.KEYREL.PRED "_gråte_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+       SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY gråt-inhcmp ]]> ].
 
 grø_iv_vlxm := v-intr &
   [ INFLECTION finstr-dd,
@@ -42959,20 +42960,24 @@ kokaindømme_tv_vlxm := v-tr &
       SYNSEM.LKEYS.KEYREL.PRED "_kokaindømme_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+#|
 koke_intr-arg-secpred-opp_vlxm := v-intrScpr-scSuArgCsd &
   [ INFLECTION nonfstr-te,
       STEM < "koke" >,
       SYNSEM.LKEYS.KEYREL.PRED "_koke_v-intrScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC opp-k ].
+|#
 
+; ,
+;      SYNSEM.LOCAL.KEY-SPEC tom-k
 koke-tom_intr-secpred_adj_vlxm := v-intrScpr-scSuNrgCsd_scAdj &
   [ INFLECTION nonfstr-te,
       STEM < "koke" >,
       SYNSEM.LKEYS.KEYREL.PRED "_koke_v-intrScpr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-      SYNSEM.LOCAL.KEY-SPEC tom-k ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+#|
 koke-tørr_intr-secpred_adj_vlxm := v-intrScpr-scSuNrgCsd_scAdj &
   [ INFLECTION nonfstr-te,
       STEM < "koke" >,
@@ -42986,6 +42991,7 @@ koke_intr-secpred_opp_vlxm := v-intrScpr-scSuNrgCsd_scAdv &
       SYNSEM.LKEYS.KEYREL.PRED "_koke_v-intrScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC opp-k ].
+|#
 
 koke_intr_vlxm := v-intr &
    [ STEM < "koke" >,
@@ -65302,19 +65308,22 @@ rengjøre_tv_vlxm := v-tr &
       SYNSEM.LKEYS.KEYREL.PRED "_rengjøre_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+;,
+;      SYNSEM.LOCAL.KEY-SPEC full-k
 renne-full_intr-secpred_adj_vlxm := v-intrScpr-scSuNrgCsd_scAdj &
   [ INFLECTION nonfstr-strong,
       STEM < "renne" >,
       SYNSEM.LKEYS.KEYREL.PRED "_renne_v-intrScpr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-      SYNSEM.LOCAL.KEY-SPEC full-k ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+#|
 renne-tom_intr-secpred_adj_vlxm := v-intrScpr-scSuNrgCsd_scAdj &
   [ INFLECTION nonfstr-strong,
       STEM < "renne" >,
       SYNSEM.LKEYS.KEYREL.PRED "_renne_v-intrScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
       SYNSEM.LOCAL.KEY-SPEC tom-k ].
+|#
 
 ;superfluous
 ;renne_intr-secpred_vlxm := v-intrScpr-scSuNrgCsd_scAdv &
@@ -77012,6 +77021,7 @@ smikke_intr-obl-etter_vlxm := v-intrObl-oblN &
 smile_intr-obl-til_vlxm := v-intrObl-oblN &
   [ INFLECTION nonfstr-te,
       STEM < "smile" >,
+      SYNSEM.VAL-CLASS multi-frame,
       SYNSEM [ LKEYS.KEYREL.PRED "_smile_v-intrObl_rel",
 	       LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
                LOCAL.KEY-SPEC til-k ] ].
@@ -79659,6 +79669,7 @@ spise_tr-secpred-arg1-refl_vlxm := v-trScpr-scObNrgCsd_obRefl &
 spise_tr-secpred-arg1_vlxm := v-trScpr-scObNrgCsd &
   [ INFLECTION nonfstr-te,
       STEM < "spise" >,
+      SYNSEM.VAL-CLASS intr-tr,
       SYNSEM.LKEYS.KEYREL.PRED "_spise_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
@@ -101829,6 +101840,7 @@ ytre_tv_vlxm := v-tr &
    [ INFLECTION nonfstr-et,
        STEM < "åpne" >,
        SYNSEM.VAL-CLASS multi-frame,
+       SYNSEM.VAL-CLASS.INTR-TR +,
        SYNSEM.LKEYS.KEYREL.PRED "_åpne_v-tr_rel",
      SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
