@@ -71,7 +71,7 @@
 :end :instance.
 
 :begin :instance :status lex-rule.
-:include "lrules_red".
+:include "lrules".
 :include "irules-v".
 :include "irules-n".
 :include "irules-a".
