@@ -30839,7 +30839,8 @@ hakke_tr-arg12-secpred_vlxm := v-trScpr-scObArgCsd &
 hakke_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "hakke" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hakke_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hakke_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hale-innpå_intrObl_vlxm := v-intrObl-oblN &
@@ -30865,7 +30866,8 @@ hale_iv_vlxm := v-intr &
 hale_tr-obDir_vlxm := v-tr-obDir &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "hale" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hale_v-trScpr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hale_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 halle_iv_vlxm := v-intr &
@@ -30889,7 +30891,8 @@ hallusinere_tr-obDECL_vlxm := v-tr-obDECL &
 hallusinere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
       STEM < "hallusinere" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hallusinere_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hallusinere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 halse_iv_vlxm := v-intr &
@@ -31014,7 +31017,8 @@ hamre-trScpr_vlxm := v-trScpr-scObArgCsd &
 hamre_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "hamre" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hamre_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hamre_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hamse_tv_vlxm := v-tr &
@@ -31032,7 +31036,8 @@ hamstre_iv_vlxm := v-intr &
 hamstre_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "hamstre" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hamstre_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hamstre_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 handfare_tv_vlxm := v-tr &
@@ -31131,7 +31136,8 @@ handle_intr-obl-n-om_vlxm := v-intrObl-oblN &
 handle_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "handle" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_handle_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_handle_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 handplukke_tv_vlxm := v-tr &
@@ -31321,7 +31327,8 @@ harve-opp_trPrtcl_vlxm := v-trPrtcl &
 harve_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "harve" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_harve_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_harve_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 haspe-opp_trPrtcl_vlxm := v-trPrtcl &
@@ -31476,7 +31483,8 @@ heade_iv_vlxm := v-intr &
 heade-tr-obDir_vlxm := v-tr-obDir &
   [ INFLECTION nonfstr-et,
       STEM < "heade" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_heade_v-trScpr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_heade_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 heade_trdir_vlxm := v-tr-obDir &
@@ -31731,13 +31739,15 @@ heise_tr-arg1-refl-telicpart-opp_vlxm := v-trPrtcl-obRefl &
 heise_tr-obDir_vlxm := v-tr-obDir &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "heise" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_heise_v-trScpr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_heise_v-trScpr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 heise_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "heise" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_heise_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_heise_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 heitne_iv_vlxm := v-intr &
@@ -31761,7 +31771,8 @@ hekle_iv_vlxm := v-intr &
 hekle_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "hekle" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hekle_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hekle_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hekse_iv_vlxm := v-intr &
@@ -32052,7 +32063,8 @@ henge_tr-refl_vlxm := v-tr-obRefl &
 henge_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-strong,
       STEM < "henge" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_henge_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_henge_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hengi_tr-refl-obl-til_vlxm := v-trObl-obRefl &
@@ -32451,7 +32463,8 @@ hesje_iv_vlxm := v-intr &
 hesje_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "hesje" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hesje_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hesje_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hespe-opp_trPrtcl_vlxm := v-trPrtcl &
@@ -32730,7 +32743,8 @@ hilse_tr-obl-fra_vlxm := v-trObl &
 hilse_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "hilse" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hilse_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hilse_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 himle_intr-obl-med_vlxm := v-intrObl-oblN &
@@ -32913,7 +32927,8 @@ hive_tr-arg1-refl-telicpart-rundt_vlxm := v-trPrtcl-obRefl &
 hive_tr-dir_vlxm := v-tr-obDir &
   [ INFLECTION nonfstr-strong,
       STEM < "hive" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hive_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hive_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hive_tr-refl-obl-etter_vlxm := v-trObl-obRefl &
@@ -32935,7 +32950,8 @@ hive_tr-refl-obl-på_vlxm := v-trObl-obRefl &
 hive_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-strong,
       STEM < "hive" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hive_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hive_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hivsmitte_tv_vlxm := v-tr &
@@ -33016,7 +33032,8 @@ hjelpe_tr-obl-med_vlxm := v-trObl &
 hjelpe_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-strong,
       STEM < "hjelpe" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hjemfalle_intr-obl-til_vlxm := v-intrObl-oblN &
@@ -33225,7 +33242,8 @@ holde_obladv-refl_vlxm := v-trAdv-obRefl &
 holde_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-strong,
       STEM < "holde" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_holde_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_holde_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 holke_tv_vlxm := v-tr &
@@ -33360,7 +33378,8 @@ horve_iv_vlxm := v-intr &
 horve_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "horve" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_horve_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_horve_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hospitalisere_tv_vlxm := v-tr &
@@ -33904,7 +33923,8 @@ huske_tr-subord_vlxm := v-tr-obDECL &
 huske_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "huske" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_huske2_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_huske2_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hustre_iv_vlxm := v-intr &
@@ -33978,7 +33998,8 @@ hvelve_tr-refl-obl-over_vlxm := v-trObl-obRefl &
 hvelve_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "hvelve" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hvelve_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hvelve_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hvese_iv_vlxm := v-intr &
@@ -34074,7 +34095,8 @@ hviske_tr-subord_vlxm := v-tr-obDECL &
 hviske_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "hviske" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hviske_v-intr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hviske_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hvitne_iv_vlxm := v-intr &
@@ -34152,7 +34174,8 @@ hykle_tr-refl-dir_vlxm := v-trNrf-suDir_obReflExpl &
 hykle_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
       STEM < "hykle" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_hykle_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_hykle_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 hyle_iv_vlxm := v-intr &
@@ -34571,7 +34594,8 @@ høre_tr-interr_vlxm := v-intrComp-compINTERR &
 høre_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
       STEM < "høre" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_høre_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_høre_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 høres_iv_vlxm := v-intr &
@@ -34620,7 +34644,8 @@ høve_intr-obl-til_vlxm := v-intrObl-oblN &
 høve_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et_or_de,
       STEM < "høve" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_høve_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_høve_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 høve_trExpnSu-obRefl-expnAbsinf_vlxm := v-trExpnSu-obRefl_expnAbsinf &
@@ -35166,7 +35191,8 @@ improvisere_iv_vlxm := v-intr &
 improvisere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
       STEM < "improvisere" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_improvisere_v-tr_rel",
+      SYNSEM.VAL-CLASS.INTR-TR +,
+       SYNSEM.LKEYS.KEYREL.PRED "_improvisere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
 imøtegå_tv_vlxm := v-tr &

@@ -178,7 +178,7 @@ mal-s-adv-sentence-final-behind-inverted-noun-rule := mal-s-adv-sentence-final-b
 ;only for 'nok'
 ;mal-quant-adv-final-rule := mal-quant-adv-final-phrase.
 mal-s-adv-sentence-initial-rule := mal-s-adv-sentence-initial-phrase.
-mal-possparticle-drop-rule := mal-possparticle-drop-phrase.
+;mal-possparticle-drop-rule := mal-possparticle-drop-phrase.
 
 ;; 'Support'-rules
 
