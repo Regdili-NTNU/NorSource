@@ -1,1 +1,0 @@
-gjøre_ditrScpr-iobRefl & hun gjør seg livet behagelig (she makes life pleasant for herself)

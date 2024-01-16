@@ -1,1 +1,0 @@
-ha-klart-for__trScprOblExpnOb-oblRefl-scSuArg-expnINTERR & han har det klart for seg hva som vil skje &
