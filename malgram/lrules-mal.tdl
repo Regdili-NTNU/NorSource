@@ -167,3 +167,23 @@ mal-et_infl-for-de-lrule := verb-lexeme &
 		   INFLECTION nonfstr-de,
 		   INFLECTED - ]>].
 |#
+
+; LH111223 Trying to create mal-rules for 'mannene'. So far changes in lex-closed (defining iranskmannene), irregs-tab, norsk and lrules-mal.
+;plur-def-
+mal-ene_infl-for-strong-lrule := noun-lexeme & 
+[ GENRE robust,
+  STEM #stem,
+  SYNSEM #synsem,
+;  SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,  
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED -,
+  INFLECTION final-full,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ STEM #stem,
+	   SYNSEM.LOCAL.OBJ-DEL-APPLIED +,
+	   SYNSEM.LOCAL.PARTICLE-SHIFT-APPLIED +,
+	     SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION final-full-strong,
+		   INFLECTED - ]>].

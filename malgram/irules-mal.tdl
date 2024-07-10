@@ -16,6 +16,16 @@
 ;%(letter-set (!a abcdefghijklmnopqrstuvwxyzæøå)) ; any letter
 ;%(letter-set (!k bcdfghjklmnpqrstvwxz)) ; not vowel
 
+#|
+starting to make a malrule for "mannene". (No idea how, so far.)
+pl_def_n_final-full-nlong_irule :=
+%suffix (* a)(* ene)(er erne)(tre trærne)(el lene)(ddel dlene)(ffel flene)(kkel klene)(mmel mlene)(mmar mrene)(ppel plene)(ssel slene)(ttel tlene)
+pl-def-noun-word &
+[ ARGS < plur-def-noun-lexeme &
+         [ SYNSEM.LOCAL.CAT.HEAD [DEF +,
+				  DEFINITE +],
+	   INFLECTION final-full-nlong & [NUMB plur, DEFINITENESS def, GEND n] ] > ].
+|#
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;			Wrongly definite noun rules
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -393,6 +403,8 @@ infl-perf-part-verb-word &
 
 ;; Makes infintivals look like tensed verbs. 
 
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
 
 mal-present-inf-like_infl_rule :=
 %suffix (* r)(s s)

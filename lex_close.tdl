@@ -145,6 +145,12 @@ prosent_neut-meas_nlxm := mascorneut-measure-amount-noun-lxm &
 ;   SYNSEM.LKEYS.KEYREL.PRED "_prosent_n_rel",
 ;   SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY nom-k ].
 
+iranskmann_n_masc_nlxm := masc-reginan-noun-lxm &
+  [ INFLECTION final-full-strong,
+      STEM < "iranskmann" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_iranskmann_n_rel",
+               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
 
 
 ; "sett telefonen på Stille"

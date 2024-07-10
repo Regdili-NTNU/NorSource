@@ -66,7 +66,7 @@ sup-adj-cum-part-lxm-lrule := sup-adj-cum-part-lxm.
 ;obj-del-stnd-verb-rule := obj-del-stnd-verb-lxm.
 ;obj-del-ditr-verb-rule := obj-del-ditr-verb-lxm.
 
-; overgenerates massively, therefore pt not declared in lrules.tdl
+; overgenerates less massively, therefore now declared in lrules.tdl
 object-deletion-lrule := object-deletion.
 
 pass-ncomps1-lrule := passive-ncomps1.

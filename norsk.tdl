@@ -10061,7 +10061,8 @@ nonleak-pl-indef-noun-lexeme := pl-indef-noun-lexeme &
     RULE.NEEDS-CARD + ].
 
 ; designed for combination with cardinals (to, tre...)
-;    SYNSEM.LOCAL.CAT.VAL.SPR cons & [FIRST [LOCAL.CONT.HOOK.INDEX.SORT card-unit,
+;    SYNSEM.LOCAL.CAT.VAL.SPR cons & [FIRST [LOCAL.CONT.HOOK.INDEX.SORT card-unit
+
 cum-card-pl-indef-noun-lexeme := quant-pl-indef-noun-lexeme & nonleak-pl-indef-noun-lexeme &
   [ SYNSEM.LOCAL.MUST-CONNECT-PROJECT -,
     SYNSEM.LOCAL.CAT.HEAD.DEF -,
@@ -13598,7 +13599,7 @@ head-verb-adj-comp-phrase := basic-head-comp-phrase & head-initial & rule &
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #2,
-    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+;    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
     NON-HEAD-DTR.SYNSEM.LOCAL.BND-RESP #37,
 ;    HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #38,
     HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
@@ -14825,7 +14826,7 @@ head-verb-icomp-phrase := basic-head-icomp-phrase & head-initial & rule &
     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #comps,
  ;   HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
  ;   HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #1,
-    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+;    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
     HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
     HEAD-DTR.SYNSEM.VAL-CLASS #valcl,
  ;   HEAD-DTR.SYNSEM.LOCAL.BND-RESP #37,
@@ -14932,7 +14933,7 @@ head-verb-loc-icomp-phrase := basic-head-icomp-phrase & head-initial & rule &
     FRONT-TO-FILL #front,
     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #1,
-    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+;    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #37,
     HEAD-DTR.FRONT-TO-FILL #front,
     NON-HEAD-DTR.SYNSEM.LOCAL.BND-RESP #37,
@@ -14997,7 +14998,7 @@ head-verb-preprais-comp-phrase := basic-head-icomp-phrase & head-initial & rule 
 						    LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD.EXPLETIVE #expl] >,
     HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL.OBL1 #obl1,
     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #varg,
-    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+;    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #37,
     HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #38,
     HEAD-DTR.FRONT-TO-FILL #front,
@@ -18626,7 +18627,7 @@ adjective-mod-vp-phrase := head-initial & rule &
     HEAD-DTR.SYNSEM.LOCAL.HAS-A-V-COMPLEMENT #30,
     HEAD-DTR.SYNSEM.LOCAL.IS-A-COMPLEMENT #31,
     HEAD-DTR.SYNSEM.LOCAL.NEED-IMP-UNARY #43,
-    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+ ;   HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
     HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
@@ -19314,7 +19315,7 @@ adverbial-invert-first-verb-mod-phrase := adv-p-first-verb-mod & maincl-invert-f
   [ HEAD-DTR.SYNSEM.LOCAL.CAN-CMB-INDEX-SIT +,
     HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN +,
     HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
-;    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
     HEAD-DTR.GENRE regular,
     HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,				; has-punct and -period required for NorMal, but
     HEAD-DTR.SYNSEM.LOCAL.HAS-PERIOD -  ].			; probably useful also for NorSource. EAA.
@@ -20983,7 +20984,7 @@ coordination-modal-dir-phrase := head-adj-phrase & rule & coordinating-phrase &
               SYNSEM.LOCAL.CONT.HOOK.INDEX #4,
               SYNSEM.LOCAL.CAT.VAL [ COMPS #6,
                                      ICOMPS #7 ],
-              SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+;              SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
               SYNSEM.NON-LOCAL #5,
               FRONT-TO-FILL #8 ], 
             head-wordcoord-nonequal-comp-phrase &
@@ -21046,7 +21047,7 @@ coordination-to-v-by-coord-phrase := head-adj-phrase & rule & coordinating-phras
               SYNSEM.LOCAL.CAT.VAL.SUBJ antilist,
               SYNSEM.LOCAL.CAT.VAL [ COMPS #6,
                                      ICOMPS #7 ],
-              SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+ ;             SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
               SYNSEM.NON-LOCAL #5,
               FRONT-TO-FILL #8 ], 
            [ SYNSEM.LOCAL.CAT.HEAD coord,
@@ -26733,7 +26734,10 @@ interj := inflection.
 subst_fork-t := non-phon.
 subst_fork := non-phon.
 konj_fork := non-phon.
-adj_fork := non-phon.
+adj_fork := non-phon.  
+
+;; The type final-full-strong is implemented to make sure that strong (i.e., irregular) nouns only follow strong patterns. First with a view to 'mennene' vs. '*mannene'.
+final-full-strong:= final-full.
 
 ; for neuter nouns
 final-full-mm-nshort := infl_nshort & final-full-mm.
