@@ -287,6 +287,7 @@ ansøke-om__trObl-oblEqSuInf &
 ansøke-om__trObl-oblN &
 anta__tr &
 anta__tr-obDECL &
+anta__tr-obEqSuInf & 
 anta__tr-obINTERR &
 anta__trScpr-scObNrg-scInf &
 anta__trScpr-scPasscmplx &
@@ -408,6 +409,7 @@ autokorrigere__tr &
 automatisere__tr &
 autorisere-for__trObl-oblEqObInf &
 autorisere-for__trObl-oblN &
+autorisere-til__trObl-oblEqObInf & 
 autorisere__tr &
 avansere-mot__intrObl-oblN &
 avansere__intr &
@@ -1080,6 +1082,7 @@ berømme__tr &
 berømme__tr-obDECL &
 berøre-med__trObl-oblN &
 berøre__tr &
+berøre__trExpnSu-expnEqObInf & 
 berøre__trObl-oblPRTOFob &
 berøve-for__trObl-oblN &
 berøve__ditr &
@@ -2636,6 +2639,7 @@ endre-på__intrObl-oblN &
 endre__tr &
 endre__tr-obRefl &
 enervere__tr &
+enes-om__intrObl-oblEqSuInf & 
 enes-om__intrObl-oblN &
 enes__intr &
 engasjere-i__trObl-obRefl-oblAbsinf &
@@ -2643,6 +2647,8 @@ engasjere-i__trObl-obRefl-oblN &
 engasjere__intr &
 engasjere__tr &
 engasjere__tr-obRefl &
+engste-for__trObl-obRefl-oblDECL & 
+engste-for__trObl-obRefl-oblEqObInf & 
 engste-for__trObl-obRefl-oblN &
 engste__tr &
 engste__tr-obRefl &
@@ -2685,6 +2691,7 @@ erkjenne__trScpr-obRefl-scObNrg-scPred &
 erklære-som__trScpr-obRefl-scPredprtcl &
 erklære__tr &
 erklære__tr-obDECL &
+erklære__tr-obEqSuInf &
 erklære__tr-obINTERR &
 erklære__trScpr-obRefl-scObNrg-scPred &
 erklære__trScpr-scObNrg-scInf & 
@@ -3332,6 +3339,7 @@ forarme__tr &
 forbanne-på__trObl-obRefl-oblDECL &
 forbanne-på__trObl-obRefl-oblEqObInf &
 forbanne-på__trObl-obRefl-oblN &
+forbanne-til__trObl-oblEqObInf & 
 forbanne__tr &
 forbarme-over__trObl-obRefl-oblN &
 forbarme__tr-obRefl &
@@ -3842,6 +3850,7 @@ forminske__tr &
 forminskes__intr &
 formode__tr &
 formode__tr-obDECL &
+formode__tr-obEqSuInf & 
 formode__tr-obINTERR &
 formode__trScpr-scObNrg-scInf &
 formolde__intr &
@@ -3996,6 +4005,7 @@ forstå__intr &
 forstå__tr-obINTERR &
 forstå__tr &
 forstå__tr-obDECL &
+forstå__tr-obEqSuInf & 
 forståle__tr &
 forsumpe__tr &
 forsure__tr &
@@ -4032,6 +4042,7 @@ forsøke__tr-obRefl &
 forsøke__trScpr-scPasscmplx &
 forsølve__tr &
 forsømme__tr &
+forsømme__tr-obEqSuInf & 
 forsømme__tr-obRefl &
 forsøple__tr &
 forsørge-på__trObl-oblEqObInf &
@@ -4701,6 +4712,7 @@ gi-etter-for__intrPrtclObl &
 gi-etter__intrPrtcl &
 gi-for__trObl-obRefl-oblN &
 gi-fra_trObl-oblRefl &
+gi-fullmakt-til__trObl-oblEqSuInf & 
 gi-opp__intrPrtcl &
 gi-opp__trPrtcl &
 gi-over__trPrtcl-obRefl &
@@ -4930,6 +4942,9 @@ gjøre_ditrScpr-iobRefl &
 gjøre__tr &
 gjøre__tr-obDECL &
 gjøre__tr-suDECL-obDECL &
+gjøre-noe__trExpnSu-expnAbsinf & 
+gjøre-noe__trExpnSu-expnDECL & 
+gjøre-noe__trExpnSu-expnINTERR & 
 gjøre__trScpr-obRefl-scObNrg-scPred &
 gjøre__trScpr-scObNrg-scPred &
 gjøre__trScprExpnOb-scObNrg-scAdj-expnAbsinf & 
@@ -6152,6 +6167,7 @@ innbetale__tr &
 innbille__ditr &
 innbille__ditr-iobRefl &
 innbille__ditr-iobRefl-obDECL &
+innbille__ditr-iobRefl-obEqObInf & 
 innbille__ditr-iobRefl-obINTERR &
 innbille__ditr-obDECL &
 innbinde__tr &
@@ -8528,6 +8544,7 @@ lyge-om__intrObl-oblN &
 lyge-til__intrObl-oblN &
 lyge__intr &
 lykkes-med__intrObl-oblN &
+lykkes-med__intrObl-oblEqSuInf & 
 lykkes__intr &
 lykkønske__tr &
 lyne__impers &
@@ -8782,6 +8799,7 @@ medføre__tr-obDECL &
 medføre__tr-suDECL-obDECL &
 medgi__tr &
 medgi__tr-obDECL &
+medgi__tr-obEqSuInf & 
 medisinere__tr &
 meditere-over__intrObl-oblAbsinf &
 meditere-over__intrObl-oblDECL &
@@ -11674,6 +11692,7 @@ røre-1-på__intrObl-oblN &
 røre-1-på__intrObl-oblRefl &
 røre-1-ved__intrObl-oblN &
 røre-1__tr &
+røre-1__trExpnSu-expnEqObInf & 
 røre-1__tr-obRefl &
 røre-2-opp__trPrtcl &
 røre-2-rundt__trPrtcl &
@@ -12081,6 +12100,9 @@ sette-møte__tr &
 sette-mål__ditr-iobRefl &
 sette-opp-mot__trPrtclObl &
 sette-opp-mot__trPrtclObl-obRefl &
+sette-pris-på__trObl-oblDECL & 
+sette-pris-på__trObl-oblEqSuInf & 
+sette-pris-på__trObl-oblN & 
 sette-sammen__trPrtcl &
 sette-standard__tr &
 sette__tr &
@@ -14745,7 +14767,6 @@ ta-sikte-på__trObl-oblEqSuInf &
 ta-som__trScpr-scPredprtcl &
 ta-til__intrOblRais-oblRaisInf & 
 ta-til__intrPrtcl & lekene tar til & 
-ta-til__intrPrtclExpn-expnAbsinf & 
 ta-til-med__intrPrtclOblRais-oblRaisInf & 
 ta-ut__trPrtcl-obDECL &
 ta-ut__trPrtcl-obRefl &
@@ -15136,6 +15157,7 @@ tilsikte__tr &
 tilskjøte__ditr &
 tilskrive__ditr &
 tilskrive__ditr-obDECL &
+tilskrive__ditr-obEqIobInf &
 tilskrive__tr &
 tilskvette__tr &
 tilskye__impers &
@@ -15972,6 +15994,7 @@ underskru__tr &
 underslå-fra__trObl-oblN &
 underslå__tr &
 underslå__tr-obDECL &
+underslå__tr-obEqSuInf & 
 underspesifisere__tr &
 underspesifisere__tr-obINTERR & 
 underspille__intr &

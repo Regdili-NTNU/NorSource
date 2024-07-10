@@ -289,6 +289,7 @@ ansøke-om__trObl-oblEqSuInf & hun ansøker dem om å få stillingen &
 ansøke-om__trObl-oblN & de ansøker dem om stillingene &
 anta__tr & vi antar forslaget &
 anta__tr-obDECL & vi antar at det går bra &
+anta__tr-obEqSuInf & jeg antar å kunne komme &
 anta__tr-obINTERR & jeg antar hva det betyr &
 anta__trScpr-scObNrg-scInf & vi antar henne å være kompetent &
 anta__trScpr-scPasscmplx & vi antar arten utryddet &
@@ -409,6 +410,7 @@ ause-2-opp__trPrtcl-obRefl & hun auser seg opp &
 autokorrigere__tr & maskinen autokorrigerte avsnittet &
 automatisere__tr & vi automatiserer tjenestene &
 autorisere-for__trObl-oblEqObInf & vi autoriserer dem for å behandle kjemikalier &
+autorisere-til__trObl-oblEqObInf & vi autoriserer dem til å behandle kjemikalier &
 autorisere-for__trObl-oblN & vi autoriserer dem for skadebehandling &
 autorisere__tr & vi autoriserer advokatene &
 avansere-mot__intrObl-oblN & troppene avanserer mot byen &
@@ -691,6 +693,7 @@ avtale__tr-obINTERR & de avtaler hvem som skal komme &
 avtale__tr & de avtaler møtene &
 avtale__tr-obDECL & de avtaler at vi møtes &
 avtale__tr-obEqSuInf & de avtaler å møtes &
+avtale-med__trObl-oblEqObInf & de avtaler med hverandre å møtes &
 avtalefeste__tr & de avtalefester overtidsgodtgjørelse &
 avtalefeste__tr-obDECL & de avtalefester at man har krav på overtidsgodtgjørelse &
 avtalefeste__tr-obEqSuInf & de avtalefester å ha krav på overtidsgodtgjørelse &
@@ -984,7 +987,7 @@ bemerke__tr & vi bemerker manglene &
 bemerke__tr-obDECL & vi bemerker at byggetillatelsen mangler &
 bemyndige-til__trObl-oblEqObInf & vi bemyndiger henne til å sitte i komitéen &
 bemyndige-til__trObl-oblN & vi bemyndiger henne til komitéarbeid &
-bemøye-med__trObl-obRefl-oblEqObInf & hun bemøyer seg med skrive riktig &
+bemøye-med__trObl-obRefl-oblEqObInf & hun bemøyer seg med å skrive riktig &
 bemøye-med__trObl-obRefl-oblN & hun bemøyer seg med skrivingen &
 bende__tr & vi bender reglene &
 bene__tr-obDir & han bener ballen hit &
@@ -1082,6 +1085,7 @@ berømme__tr & vi berømmer mannskapet &
 berømme__tr-obDECL & de berømmer at vi kjempet &
 berøre-med__trObl-oblN & vi berører den med hånden &
 berøre__tr & bena berører bakken &
+berøre__trExpnSu-expnEqObInf & det berører oss å høre om dette &
 berøre__trObl-oblPRTOFob & tungen berører ham i ansiktet &
 berøve-for__trObl-oblN & resultatet berøver deg for nye muligheter &
 berøve__ditr & hun berøver deg roen &
@@ -2638,6 +2642,7 @@ endre-på__intrObl-oblN & vi endrer på teksten &
 endre__tr & de endrer leveforholdene &
 endre__tr-obRefl & hun endrer seg &
 enervere__tr & de enerverer naboene &
+enes-om__intrObl-oblEqSuInf & partene enes om å enes &
 enes-om__intrObl-oblN & partene enes om en avtale &
 enes__intr & partene enes &
 engasjere-i__trObl-obRefl-oblAbsinf & hun engasjerer seg i å skape støtte for bevaringen &
@@ -2645,6 +2650,8 @@ engasjere-i__trObl-obRefl-oblN & hun engasjerer seg i saken &
 engasjere__intr & fortellingen engasjerer &
 engasjere__tr & firmaet engasjerer konsulenter &
 engasjere__tr-obRefl & hun engasjerer seg &
+engste-for__trObl-obRefl-oblDECL & hun engster seg for at demningen kan briste &
+engste-for__trObl-obRefl-oblEqObInf & hun engster seg for å gå ut i gatene &
 engste-for__trObl-obRefl-oblN & hun engster seg for flyktningene &
 engste__tr & situasjonen engster meg &
 engste__tr-obRefl & hun engster seg &
@@ -2687,6 +2694,7 @@ erkjenne__trScpr-obRefl-scObNrg-scPred &  han erkjenner seg skyldig &
 erklære-som__trScpr-obRefl-scPredprtcl & hun erklærer seg som verdig for embetet &
 erklære__tr & de erklærer støtte &
 erklære__tr-obDECL & jeg erklærer at byen er smittefri &
+erklære__tr-obEqSuInf & jeg erklærer å ha fått nok &
 erklære__tr-obINTERR & hun erklærer hvem som vil få hjelp &
 erklære__trScpr-obRefl-scObNrg-scPred & hun erklærer seg kompetent &
 erklære__trScpr-scObNrg-scInf & jeg erklærer henne å være kompetent &
@@ -3337,6 +3345,7 @@ forarge__tr-suDECL & at han sang foran kirkedøren forarget mange &
 forarme__tr & liberalismen forarmer landbruket &
 forbanne-på__trObl-obRefl-oblDECL & de forbanner seg på at det skal gå bedre neste gang &
 forbanne-på__trObl-obRefl-oblEqObInf & hun forbanner seg på å gjøre det bedre neste gang &
+forbanne-til__trObl-oblEqObInf & hun forbanner ham til å lide evig &
 forbanne-på__trObl-obRefl-oblN & hun forbanner seg på det &
 forbanne__tr & vi forbanner utviklingen &
 forbarme-over__trObl-obRefl-oblN & hun forbarmer seg over dem &
@@ -3779,6 +3788,7 @@ forkynne__tr-obDECL & vi forkynner at kirken bygges &
 forlange-for__trObl-oblN & vi forlanger mye for huset &
 forlange__tr & mafiaen forlanger penger &
 forlange__tr-obDECL & vi forlanger at huset bygges &
+forlange__tr-obEqSuInf & vi forlanger å få rive huset &
 forlate-1__ditr & hun forlater deg din synd &
 forlate-1__tr & vi forlater våre skyldnere &
 forlate-2__tr & vi forlater åstedet &
@@ -3848,6 +3858,7 @@ forminske__tr & vi forminsker risikoen &
 forminskes__intr & volumet forminskes &
 formode__tr & legene formoder en indre blødning &
 formode__tr-obDECL & vi formoder at huset bygges &
+formode__tr-obEqSuInf & jeg formoder å være i stand til det &
 formode__tr-obINTERR & vi formoder hvem som har gjort det &
 formode__trScpr-scObNrg-scInf & jeg formoder henne å være kompetent &
 formolde__intr & plantene formolder &
@@ -4002,6 +4013,7 @@ forstå__intr & rådgiveren forstår &
 forstå__tr-obINTERR & hun forstår hva som vil skje &
 forstå__tr & rådgiveren forstår setningen &
 forstå__tr-obDECL & vi forstår at huset må bygges &
+forstå__tr-obEqSuInf & han forstår å kunne sno seg &
 forståle__tr & de forståler legeringen &
 forsumpe__tr & regnet forsumper markene &
 forsure__tr & regnet forsurer jordsmonnet &
@@ -4038,6 +4050,7 @@ forsøke__tr-obRefl & hun forsøker seg &
 forsøke__trScpr-scPasscmplx & jeg forsøker den utryddet &
 forsølve__tr & de forsølver bestikket &
 forsømme__tr & de forsømmer pliktene &
+forsømme__tr-obEqSuInf & de forsømmer å ta seg av renholdet &
 forsømme__tr-obRefl & hun forsømmer seg &
 forsøple__tr & cruisebåtene forsøpler havnebassenget &
 forsørge-på__trObl-oblEqObInf & hun forsørger seg på å lage munnbind &
@@ -4707,6 +4720,7 @@ gi-etter-for__intrPrtclObl & de gir etter for presset &
 gi-etter__intrPrtcl & konkurrentene gir etter &
 gi-for__trObl-obRefl-oblN & hun gir seg for overmakten &
 gi-fra_trObl-oblRefl & de gir fra seg kontrollen &
+gi-fullmakt-til__trObl-oblEqSuInf & de gir fullmakt til å starte graving &
 gi-opp__intrPrtcl & konkurrentene gir opp &
 gi-opp__trPrtcl & vi gir opp forsøket &
 gi-over__trPrtcl-obRefl & hun gir seg over &
@@ -4936,6 +4950,9 @@ gjøre_ditrScpr-iobRefl & hun gjør seg livet behagelig (she makes life pleasant f
 gjøre__tr & de gjør oppgavene &
 gjøre__tr-obDECL & vi gjør at huset bygges &
 gjøre__tr-suDECL-obDECL & at det blir varmere gjør at vinden snur &
+gjøre-noe__trExpnSu-expnAbsinf & det gjør noe å bli ignorert &
+gjøre-noe__trExpnSu-expnDECL & det gjør noe at man blir oversett &
+gjøre-noe__trExpnSu-expnINTERR & det gjør noe hvorvidt man blir oversett &
 gjøre__trScpr-obRefl-scObNrg-scPred & hun gjør seg valgbar &
 gjøre__trScpr-scObNrg-scPred & hun gjør oss glad &
 gjøre__trScprExpnOb-scObNrg-scAdj-expnAbsinf & vi gjør det ufornuftig å nekte all skyld &
@@ -4970,7 +4987,7 @@ gle__tr-suDECL & at vi blir omtalt slik gler oss &
 gle__trExpnSu-expnDECL & det gler oss at du kommer &
 gle__trExpnSu-expnEqObInf & det gler oss å være kommet så langt &
 glede-over__trObl-obRefl-oblDECL & de gleder seg over at det kommer i orden &
-glede-over__trObl-obRefl-oblEqObInf & hun gleder seg til å komme &
+glede-over__trObl-obRefl-oblEqObInf & hun gleder seg over å bli innstilt &
 glede-over__trObl-obRefl-oblN & de gleder seg over resultatet &
 glede-til__trObl-obRefl-oblDECL & de gleder seg til at arbeidet begynner &
 glede-til__trObl-obRefl-oblEqObInf & hun gleder seg til å komme &
@@ -5916,6 +5933,7 @@ hysse-på__intrObl-oblN & vi hysser på forsamlingen &
 hysse__intr & læreren hysser &
 hytte-med__intrObl-oblN & protestantene hytter med nevene &
 hæle__tr & deltagerne hæler kulden &
+hæle__tr-obEqSuInf & deltagerne hæler å løpe i kulden &
 hælsparke__tr & han hælsparker ballen &
 hærta__tr & generalene hærtar landet &
 høkre-ut__trPrtcl & eierne høkrer ut bedriften &
@@ -6157,6 +6175,7 @@ innbetale__tr & de innbetaler pengene &
 innbille__ditr & hun innbiller deg hele historien &
 innbille__ditr-iobRefl & hun innbiller seg hendelsen &
 innbille__ditr-iobRefl-obDECL & hun innbiller seg at du kommer &
+innbille__ditr-iobRefl-obEqObInf & hun innbiller seg å ha talent &
 innbille__ditr-iobRefl-obINTERR & hun innbiller seg hva hun så &
 innbille__ditr-obDECL & de innbiller henne at det skjedde &
 innbinde__tr & de innbinder bøkene &
@@ -8534,6 +8553,7 @@ lyge-om__intrObl-oblN & ledelsen lyger om arbeidsforholdene &
 lyge-til__intrObl-oblN & ledelsen lyger til de tilsatte &
 lyge__intr & ledelsen lyger &
 lykkes-med__intrObl-oblN & vi lykkes med forsøket &
+lykkes-med__intrObl-oblEqSuInf & vi lykkes med å formulere et forslag &
 lykkes__intr & forsøket lykkes &
 lykkønske__tr & vi lykkønsker deltagerne &
 lyne__impers & det lyner &
@@ -8788,6 +8808,7 @@ medføre__tr-obDECL & vedtaket medfører at huset bygges &
 medføre__tr-suDECL-obDECL & at du ombestemmer deg medfører at vi må planlegge på nytt &
 medgi__tr & de medgir forholdet &
 medgi__tr-obDECL & vi medgir at det blir vanskelig &
+medgi__tr-obEqSuInf & de medgir å ha oversett problemet &
 medisinere__tr & de medisinerer pasientene &
 meditere-over__intrObl-oblAbsinf & vi mediterer over å tro &
 meditere-over__intrObl-oblDECL & vi mediterer over at universet har form som et pulserende kremmerhus &
@@ -9087,7 +9108,7 @@ mule__intr & mennene muler &
 muliggjøre__tr & de muliggjør prosjektet &
 muliggjøre__tr-obAbsinf & de muliggjør å bygge bredere veier &
 muliggjøre__tr-obDECL & de muliggjør at vi får bo her &
-muliggjøre__trExpnOb-expnAbsinf & de muliggjør å kunne bo her &
+muliggjøre__trExpnOb-expnAbsinf & de muliggjør det å kunne bo her &
 muliggjøre__trExpnOb-expnDECL & de muliggjør det at vi får bo her &
 muljere__tr & de muljerer mange lyder &
 mulkte-for__trObl-oblEqObInf & vi mulkter dem for å ha overtrådt fartsgrensen &
@@ -11676,6 +11697,7 @@ røre-1-på__intrObl-oblN & vi rører på statuen &
 røre-1-på__intrObl-oblRefl & statuen rører på seg &
 røre-1-ved__intrObl-oblN & vi rører ved statuen &
 røre-1__tr & forestillingen rører publikum &
+røre-1__trExpnSu-expnEqObInf & det rører oss å høre om dette &
 røre-1__tr-obRefl & statuen rører seg &
 røre-2-opp__trPrtcl & hun rører opp grøten &
 røre-2-rundt__trPrtcl & hun rører rundt sleiva &
@@ -12083,6 +12105,9 @@ sette-møte__tr & de setter møtet &
 sette-mål__ditr-iobRefl & hun setter seg mål &
 sette-opp-mot__trPrtclObl & vi setter bøndene opp mot adelen &
 sette-opp-mot__trPrtclObl-obRefl & hun setter seg opp mot undertrykkerne &
+sette-pris-på__trObl-oblDECL & vi setter pris på at du kom &
+sette-pris-på__trObl-oblEqSuInf & vi setter pris på å bli innbudt &
+sette-pris-på__trObl-oblN & vi setter pris på gavene &
 sette-sammen__trPrtcl & vi setter delene sammen &
 sette-standard__tr & de setter en ny standard &
 sette__tr & de setter møtet &
@@ -14744,9 +14769,8 @@ ta-på__trObl-oblN & vi tar nye klær på oss &
 ta-sammen__trPrtcl-obRefl & gutten tar seg sammen &
 ta-sikte-på__trObl-oblEqSuInf & vi tar sikte på å komme &
 ta-som__trScpr-scPredprtcl & vi tar seieren som selvsagt &
-ta-til__intrOblRais-oblRaisInf & han tar til å gråte &
+ta-til__intrOblRais-oblRaisInf & det tar til å regne &
 ta-til__intrPrtcl & lekene tar til & 
-ta-til__intrPrtclExpn-expnAbsinf & det tar til å regne &
 ta-til-med__intrPrtclOblRais-oblRaisInf & det tar til med å regne &
 ta-ut__trPrtcl-obDECL & hun vil ta ut at det skjedde &
 ta-ut__trPrtcl-obRefl & hun tar seg ut &
@@ -15137,6 +15161,7 @@ tilsikte__tr & de tilsikter denne virkningen &
 tilskjøte__ditr & de tilskjøter nevøen eiendommen &
 tilskrive__ditr & hun tilskriver deg en erklæring &
 tilskrive__ditr-obDECL & vi tilskriver uhellet at han manglet innføringskurs &
+tilskrive__ditr-obEqIobInf & vi tilskriver dem å la seg lede av profitthensyn &
 tilskrive__tr & advokaten tilskriver arvingene &
 tilskvette__tr & vi tilskvetter bilen &
 tilskye__impers & det tilskyer &
@@ -15191,7 +15216,7 @@ tiltre__tr & han tiltrer stillingen &
 tiltrekke__ditr-iobRefl & hun tiltrekker seg tilhørere &
 tiltro__ditr & hun tiltror deg oppgaven &
 tiltro__ditr-obDECL & hun tiltror deg at du kan gjøre det &
-tiltro__ditr-obEqIobInf & hun tiltror deg å ville det &
+tiltro__ditr-obEqIobInf & hun tiltror deg å ville bryte regler &
 tiltru__ditr & hun tiltrur deg oppgaven &
 tiltru__ditr-obDECL & hun tiltrur deg at du kan gjøre det &
 tiltru__ditr-obEqIobInf & hun tiltrur deg å ville det &
@@ -15973,6 +15998,7 @@ underskru__tr & hun underskrur ballen &
 underslå-fra__trObl-oblN & de underslår penger fra firmaet &
 underslå__tr & de underslår pengene &
 underslå__tr-obDECL & vi underslår at problemet består &
+underslå__tr-obEqSuInf & vi underslår å ha kjent til avtalen &
 underspesifisere__tr & de underspesifiserer kravene &
 underspesifisere__tr-obINTERR & de underspesifiserer hva som må gjøres først &
 underspille__intr & skuespilleren underspiller &
