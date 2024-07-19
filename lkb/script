@@ -25,8 +25,7 @@
 ;;;
 (load-irregular-spellings
  (list
-  (lkb-pathname 
-     (parent-directory) "irregs.tab")
+  (lkb-pathname (parent-directory) "irregs.tab")
 ;;  (lkb-pathname (parent-directory) "sg_def_m_subst.irreg") 
 ;;  (lkb-pathname (parent-directory) "pl_ind_m_subst.irreg")
 ;;  (lkb-pathname (parent-directory) "pl_def_m_subst.irreg")
@@ -150,7 +149,7 @@
  :filter nil :task :fixup :edges 200) 
 
 ;;; semi mapping
-;(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
+(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
 
 ;;;
 ;;; A few more LKB-specific settings, this time for MRS post-processing and

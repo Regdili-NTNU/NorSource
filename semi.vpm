@@ -74,6 +74,7 @@ E.TENSE : E.TENSE
 
 E.MOOD : E.MOOD 
   indicative      <> indicative
+  imperative      <> imperative
   * >> indicative
   ! << *
 
