@@ -1,0 +1,133 @@
+betrakte & ('consider') &  	{Sustain & Perceiving & Cogn & Procedure & Perform & PhysBod} & VALPOD: {betrakte:V__tr & V__trScpr-scObNrg-scBareinf & V-som__trScpr-scPredprtcl}_3-items	
+
+bivåne & ('watch') &  	{Sustain & Perceiving & Cogn & Procedure & Perform & PhysBod} & VALPOD: {bivåne:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+
+fiksere & ('fixate') &  	{Sustain & Perceiving & Cogn & Perform} & VALPOD: {fiksere:V__tr & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V-på__trObl-oblN}_6-items	
+
+glo & ('stare') &  	{Sustain & Perceiving & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {glo:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+
+hallusinere & ('hallucinate') &  	{Sustain & Perceiving & Impact & Emotion & SymbVal & PhysBod} & VALPOD: {hallusinere:V__intr & V__tr & V__tr-obDECL}_3-items	
+
+iaktta & ('observe') &  	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & VALPOD: {iaktta:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+
+kike & ('look') &  	{Perceiving & Unfold & Perform & Criterial & PhysBod} & VALPOD: {kike:V__intr-suDir & V-etter__intrObl-oblN & V-i__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_5-items	
+
+kikke & ('look') &  	{Perceiving & Unfold & Perform & Criterial & PhysBod} & VALPOD: {kikke:V__intr-suDir & V-etter__intrObl-oblN & V-i__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_5-items	
+
+'kjenne' is also on ImpactSensoryVal and on MedByPrceptVal
+kjenne & ('feel, know') &  	{Sustain & ImpactSensory & MedByPrcept & Perceiving & Cogn & Impact & Response & Perform & SymbVal & PhysBod} & VALPOD: {kjenne:V-på__intrObl-oblN & V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & V-igjen__trPrtcl & V-igjen__trPrtcl-obINTERR & V-igjen__trPrtcl-obRefl & V-som__trScpr-obRefl-scPredprtcl & V-som__trScpr-scPredprtcl}_15-items	
+kjenne_SUB_EXP & ('feel') &  	{Sustain & ImpactSensory & MedByPrcept & Cogn & Impact & Response & SymbVal & PhysBod} & VALPOD: {kjenne:V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf}_2-items	& EX: hun kjenner seg stivne & jeg kjenner det stivne &	ENDex
+kjenne_SUB_AG & ('feel') & {Sustain & Perceiving & Response & Perform & PhysBod} & VALPOD: {kjenne:V-på__intrObl-oblN}_1-items & EX: hun kjenner på pakken & ENDex
+kjenne_SUB_COG & ('feel, know') & {Sustain & MedByPrcept & Cogn & Response & SymbVal & PhysBod} & VALPOD: {kjenne:V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & V-igjen__trPrtcl & V-igjen__trPrtcl-obINTERR & V-igjen__trPrtcl-obRefl & V-som__trScpr-obRefl-scPredprtcl & V-som__trScpr-scPredprtcl}_14-items & EX: hun kjenner til at vi kommer & hun kjenner til hvem som kommer & vi kjenner til problemet & vi kjenner komitéformannen & vi kjenner at det blir varmere & han kjenner hvor smerten oppstår & hun kjenner seg trygg &  hun kjenner seg stivne & jeg kjenner det stivne & hun kjenner igjen ansiktet & de kjenner igjen hva som er i ferd med å skje & hun kjenner seg igjen & hun kjenner seg som en vinner & vi kjenner dem som konkurrenter & ENDex	
+
+'lukte' is also on ImpactSensoryVal
+lukte & ('smell') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {lukte:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv &  V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V__trImpers & V-av__trImpersObl-oblN}_10-items
+lukte_SUB_AG & ('smell') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {lukte:V-på__intrObl-oblN}_1-items & EX: vi lukter på blomstene & 
+lukte_SUB_COG & ('smell') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {lukte:V__tr & V__tr-obDECL & V__tr-obINTERR & }_3-items & EX: hun lukter blomstene & hun lukter at noen har vært der & hunden lukter om det har vært katter der & ENDex
+lukte_SUB_EXP & ('smell') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Criterial & SymbVal & PhysBod} & VALPOD: {lukte:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv & V__trImpers & V-av__trImpersObl-oblN}_6-items & EX: det lukter & det lukter godt & det lukter av barnåler & blomstene lukter godt & det lukter barnåler & det lukter dårlig samvittighet av ham & ENDex
+
+lytte & ('listen') &  	{Sustain & Perceiving & Procedure & Response & Perform & Criterial & PhysBod} & VALPOD: {lytte:V__intr & V-på__intrObl-oblN & V-til__intrObl-oblN}_3-items	
+
+observere & ('observe') &  	{Perceiving & Cogn & Procedure & Perform} & VALPOD: {observere:V__tr-obINTERR & V__tr & V__tr-obDECL & V__trScpr-scObNrg-scBareinf}_4-items	
+
+persipere & ('perceive') &  	{Sustain & Perceiving & Response & Perform & SymbVal & PhysBod} & VALPOD: {persipere:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+
+sanse & ('sense') &  	{Init & Perceiving & SymbVal & PhysBod} & VALPOD: {sanse:V__tr & V__tr-obDECL & V__tr-obINTERR & V__tr-obRefl}_4-items	
+
+skimte & ('glimpse') &  	{Sustain & Perceiving & Cogn & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {skimte:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+
+skotte & ('peek') &  	{Dir & Perceiving & Perform & Criterial & PhysBod} & VALPOD: {skotte:V__intr & V__intr-suDir & V-på__intrObl-oblN}_3-items	
+
+skule & ('scowl') &  	{Dir & Perceiving & Emotion & Perform & Criterial & PhysBod} & VALPOD: {skule:V__intr & V-mot__intrObl-oblN & V-på__intrObl-oblN}_3-items	
+
+'smake' is also on ImpactSensoryVal
+smake & ('taste') &  	{Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv &  V-på__intrObl-oblN & V__tr & V__trImpers & V-av__trImpersObl-oblN}_8-items
+smake_SUB_AG & ('taste') &  	{Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V-på__intrObl-oblN}_1-items & EX: vi smaker på suppen & 
+smake_SUB_COG & ('taste') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V__tr}_1-items & EX: hun smaker tilsetningene & ENDex
+smake_SUB_EXP & ('taste') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv & V__tr & V__trImpers & V-av__trImpersObl-oblN}_7-items & EX: det smaker & det smaker godt & det smaker av sardiner & suppen smaker godt & suppen smaker buljong & det smaker tran & det smaker tran av suppen & ENDex
+
+snuse & ('sniff') &  	{Perceiving & Perform & PhysBod} & VALPOD: {snuse:V__intr & V-i__intrObl-oblINTERR & V-i__intrObl-oblN & V-på__intrObl-oblN & V-opp__trPrtcl}_5-items
+
+speide & ('scout') &  	{Sustain & Perceiving & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {speide:V__intr & V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN}_3-items	
+
+stirre & ('stare') &  	{Sustain & Dir & Perceiving & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {stirre:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+
+titte & ('peek') &  	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & VALPOD: {titte:V__intr-suDir & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+
+tjuvlytte & ('eavesdrop') &  	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {tjuvlytte:V__intr & V-på__intrObl-oblN & V-til__intrObl-oblN}_3-items	
+
+tjuvtitte & ('peek') &  	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {tjuvtitte:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+
+tyvlytte & ('eavesdrop') &  	{Imped & Perceiving & Cogn & Procedure & Response & Perform & SymbVal & PhysBod} & VALPOD: {tyvlytte:V__intr & V-på__intrObl-oblN & V-til__intrObl-oblDECL & V-til__intrObl-oblN}_4-items	
+
+tyvtitte & ('peek') &  	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {tyvtitte:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+
+26 verbs with Perceiving in their total sempod:
+In their Total valpoda, they have altogether 112 lexvals.
+Distributed over their subsense valpods (only 'kjenne', 'lukte', 'smake' have subsenses, same as in the ImpactSensory list)), they have altogether 117 lexvals
+From the valpods Total, there are 18 DECL, 5 inf (4 Bareinf and 1 oblEq-inf), 12 INTERR
+
+All in all, there are 35 inf-or DECL-or-INTERR lexvals distributed over the subsense valpods
+
+
+alltokens in total and subsenses together
+Bareinf 8
+
+0 oblEqObInf 
+1 oblEqSuInf 
+ 
+0 suEqObInf  
+0 obEqSuInf  
+0 scInf  
+0 expnEqObInf
+
+DECL 
+expnDECL 0
+obDECL 11
+suDECL 0
+oblDECL 11
+
+INTERR 
+expnINTERR 0
+obINTERR 12
+suINTERR 0
+oblINTERR 6
+
+total-tokens - just in main semvalpod
+Bareinf 3
+
+0 oblEqObInf 
+1 oblEqSuInf 
+ 
+0 suEqObInf  
+0 obEqSuInf  
+0 scInf  
+0 expnEqObInf
+
+DECL 
+expnDECL 0
+obDECL 10
+suDECL 0
+oblDECL 10
+
+INTERR 
+expnINTERR 0
+obINTERR 10
+suINTERR 0
+oblINTERR 5
+
+
+Perform
+SymbVal
+VerbalAct
+Cogn
+Emotion
+PhysBod
+Unfold
+Response
+Impact
+Further
+Sustain
+Imped
+Creation
+Criterial

@@ -1,0 +1,154 @@
+akte-1 & ('be wary, be aware') &  	{Sustain & MedByPrcept & Cogn & Procedure & Perform & PhysBod} & VALPOD: {akte:V-på__intrObl-oblInterr & V-på__intrObl-oblN & V__tr & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN}_5-items	
+akte-2 & ('intend') &  	{Further & MedByPrcept & Cogn & Perform & SymbVal} & VALPOD: {akte:V__tr-obEqSuInf & V__tr-obRefl-obDir}_2-items	
+aktes & ('be wary') &  	{Sustain & MedByPrcept & Cogn & Procedure & Perform & PhysBod} & VALPOD: {aktes:V-for__intrObl-oblEqSuInf & V-for__intrObl-oblINTERR & V-for__intrObl-oblN}_3-items	
+ane & ('have a hunch') &  	{Further & MedByPrcept & Cogn & Emotion & Response & Unfold & Perform & SymbVal} & VALPOD: {ane:V__intr & V__tr-obINTERR & V__tr & ane__trExpnSu-expnDECL & V__trExpnSu-expnINTERRwh & V__trExpnSu-expnINTERRyn & V__tr-obDECL & V__tr-suDECL & V__tr-suINTERR}_8-items	
+erfare & ('experience') &  	{Further & MedByPrcept & Cogn & Procedure & Creation & Response & SymbVal} & VALPOD: {erfare:V__tr & V__tr-obDECL & V__tr-obEqSuInf}_3-items	
+erkjenne & ('recognize') &  	{Further & MedByPrcept & Cogn & Impact & Creation & Response & Perform & SymbVal} & VALPOD: {erkjenne:V__tr-obINTERR & V__tr & V__tr-obDECL & V__tr-obEqSuInf & V__tr-obINTERR & V__trScpr-scObNrg-scInf & V__trScpr-scObNrg_scPred & V__trScpr-obRefl-scObNrg-scPred & V-som__trScpr-obRefl-scPredprtcl}_9-items	
+fascinere & ('fascinate') &  	{MedByPrcept & Cogn & Impact & Emotion & SymbVal & PhysBod} & VALPOD: {fascinere:V__intr & V__tr & V__tr-suAbsinf & V__tr-suDECL}_4-items	
+fatte & ('grasp, comprehend') &  	{MedByPrcept & Cogn & Response & SymbVal} & VALPOD: {fatte:V-om__intrObl-oblN & V__tr-obINTERR & V__tr & fatte__tr-obDECL & V__tr-obRefl & V-om__intrObl-oblN}_5-items	
+forbause & ('surprise') &  	{Sustain & MedByPrcept & Cogn & Impact & Emotion & SymbVal} & VALPOD: {forbause:V__tr & V__tr-suDECL & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN}_8-items	
+forbløffe & ('astound') &  	{MedByPrcept & Cogn & Emotion & SymbVal & PhysBod} & VALPOD: {forbløffe:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL}_3-items	
+forekomme & ('occur, seem') &  	{Further & MedByPrcept & Cogn & SymbVal} & VALPOD: {forekomme:V__intr & V__intr-suDECL & V__intrAdvExpn-expnDECL & V_intrExpn-expnDECL & V__trScpr-scSuNrg-scInf & V__trScpr-scSuNrg-scPred & V_intrExpn-expnDECL & V__trExpnSu-expnINTERRwh & V-som__trScpr-scSuNrg-scPredprtcl}_9-items	
+foresveve & ('seem, appear') &  	{Sustain & MedByPrcept & Cogn & Response & SymbVal & PhysBod} & VALPOD: {foresveve:V__trExpnSu-expnDECL & V__trExpnSu-expnINTERRwh & V__trScpr-scSuNrg-scInf & V-som__trScpr-scSuNrg-scPredprtcl}_4-items	
+fornemme & ('sense') &  	{Further & MedByPrcept & Cogn & Emotion & Response & PhysBod} & VALPOD: {fornemme:V__tr-obINTERR & V__tr & V__tr-obDECL}_3-items	
+forskrekke & ('startle') &  	{Imped & MedByPrcept & Impact & Emotion & Response & SymbVal & PhysBod} & VALPOD: {forskrekke:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL}_3-items	
+forundre & ('wonder') &  	{Sustain & MedByPrcept & Cogn & Impact & Emotion & Response & SymbVal} & VALPOD: {forundre:V__tr & V__trExpnSu-expnCOND & V__trExpnSu-expnDECL & V__tr-obRefl & V__tr-suDECL & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN}_9-items	
+forutane & ('foresee') &  	{Sustain & MedByPrcept & Cogn & SymbVal} & VALPOD: {forutane:V__tr-obINTERR & V__tr & V__tr-obDECL}_3-items	
+forutse & ('predict') &  	{Sustain & MedByPrcept & Cogn & Response & Perform & SymbVal} & VALPOD: {forutse:V__tr-obINTERR & V__tr & V__tr-obDECL}_3-items	
+frykte & ('fear') &  	{Sustain & MedByPrcept & Cogn & Impact & Emotion & Response & SymbVal} & VALPOD: {frykte:V__tr & V__tr-obDECL & V__tr-obEqSuInf & V__trScpr-scObNrg-scInf & V__trScpr-scPasscmplx & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblINTERR & V-for__intrObl-oblN}_9-items	
+føle & ('feel, know') &  	{Further & MedByPrcept & Cogn & Emotion & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {føle:V__tr & V__tr-obDECL & V__trObl-oblPRTOFob & V__trPath-obRefl-obDir & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V-på__intrObl-oblN & V-som__trScpr-obRefl-scPredprtcl}_11-items	
+gjennomskue & ('see through') &  	{Sustain & MedByPrcept & Cogn & Response & SymbVal} & VALPOD: {gjennomskue:V__tr-obDECL & V__tr-obINTERR & V__tr}_3-items	
+gjenoppleve & ('relive') &  	{MedByPrcept & Impact & Creation & Response & SymbVal & PhysBod} & VALPOD: {gjenoppleve:V__tr-obDECL & V__tr-obEqSuInf & V__tr-obINTERR & V__tr}_4-items	
+gle & ('please, look forward') &  	{Sustain & MedByPrcept & Cogn & Emotion & Unfold & Criterial & SymbVal & PhysBod} & VALPOD: {gle:V__tr & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & V__tr-obRefl & V-til__trObl-obRefl-oblDECL & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN}_10-items	
+glede & ('please, look forward') &  	{Sustain & MedByPrcept & Cogn & Emotion & Unfold & Criterial & SymbVal & PhysBod} & VALPOD: {glede:V__tr & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf & V__tr-obRefl & V-til__trObl-obRefl-oblDECL & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN}_10-items	
+huge & ('please') &  	{Init & MedByPrcept & Cogn & Emotion & SymbVal} & VALPOD: {huge:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf}_5-items	
+hugsvale & ('please') &  	{Init & MedByPrcept & Cogn & Emotion & SymbVal} & VALPOD: {hugsvale:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf}_5-items	
+hugta & ('please') &  	{Init & MedByPrcept & Cogn & Emotion & SymbVal}  & VALPOD: {hugta:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf}_5-items	
+hungre & ('hunger') &  	{Imped & MedByPrcept & Impact & Emotion & Response & Unfold & SymbVal & PhysBod} & VALPOD: {hungre:V__intr & V-etter__intrObl-oblDECL & V-etter__intrObl-oblEqSuInf & V-etter__intrObl-oblN}_4-items	
+husvale & ('please') &  	{Init & MedByPrcept & Cogn & Emotion & SymbVal}  & VALPOD: {husvale:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf}_5-items	
+høre & ('hear') &  	{Sustain & MedByPrcept & Cogn & Criterial & SymbVal & PhysBod} & VALPOD: {høre:V__intr & V__tr-obINTERR &  V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN & V-fra__intrObl-oblN & V-med__intrObl-oblN & V-med__intrPrtclExpn-expnAbsinf & V-med__intrPrtclExpn-expnDECL & V-på__intrObl-oblN & V-etter__intrPrtcl & V-hjemme__intrPrtcl & V-til__intrPrtcl & V__tr & V__tr-obDECL & V__trScpr-scObNrg-scBareinf}_14-items	
+høres & ('sound') &  	{Further & MedByPrcept & Criterial & SymbVal & PhysBod} & VALPOD: {høres:V__intr & V-ut__intrPrtclScpr-scSuNrg-scAdj & V-ut-som__intrPrtclScpr-scSuNrg-scPredprtclN & V-ut-som__intrPrtclScpr-scSuNrg-scPredprtclS & V-ut-som-om__intrPrtclScpr-scSuNrg-scPredprtclS}_5-items	
+innbille & ('imagine') &  	{MedByPrcept & Cogn & SymbVal & PhysBod} & VALPOD: {innbille:V__ditr & V__ditr-iobRefl & V__ditr-iobRefl-obDECL & V__ditr-iobRefl-obINTERR & V__ditr-obDECL}_5-items	
+innse & ('realize') &  	{Further & MedByPrcept & Cogn & Response & Perform & SymbVal} & VALPOD: {innse:V__tr & V__tr-obDECL & V__tr-obEqSuInf & V__tr-obINTERR}_4-items	
+'kjenne' is also on ImpactSensoryVal and on PerceivingVal
+kjenne & ('feel, know') &  	{Sustain & ImpactSensory & MedByPrcept & Perceiving & Cogn & Impact & Response & Perform & SymbVal & PhysBod} & VALPOD: {kjenne:V-på__intrObl-oblN & V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & V-igjen__trPrtcl & V-igjen__trPrtcl-obINTERR & V-igjen__trPrtcl-obRefl & V-som__trScpr-obRefl-scPredprtcl & V-som__trScpr-scPredprtcl}_15-items	
+kjenne_SUB_EXP & ('feel') &  	{Sustain & ImpactSensory & MedByPrcept & Cogn & Impact & Response & SymbVal & PhysBod} & VALPOD: {kjenne:V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf}_2-items	& EX: hun kjenner seg stivne & jeg kjenner det stivne &	ENDex
+kjenne_SUB_AG & ('feel') & {Sustain & Perceiving & Response & Perform & PhysBod} & VALPOD: {kjenne:V-på__intrObl-oblN}_1-items & EX: hun kjenner på pakken & ENDex
+kjenne_SUB_COG & ('feel, know') & {Sustain & MedByPrcept & Cogn & Response & SymbVal & PhysBod} & VALPOD: {kjenne:V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & V-igjen__trPrtcl & V-igjen__trPrtcl-obINTERR & V-igjen__trPrtcl-obRefl & V-som__trScpr-obRefl-scPredprtcl & V-som__trScpr-scPredprtcl}_14-items & EX: hun kjenner til at vi kommer & hun kjenner til hvem som kommer & vi kjenner til problemet & vi kjenner komitéformannen & vi kjenner at det blir varmere & han kjenner hvor smerten oppstår & hun kjenner seg trygg &  hun kjenner seg stivne & jeg kjenner det stivne & hun kjenner igjen ansiktet & de kjenner igjen hva som er i ferd med å skje & hun kjenner seg igjen & hun kjenner seg som en vinner & vi kjenner dem som konkurrenter & ENDex	
+From subsense valpods - 27 items
+kvege & ('soothe') &  	{Further & MedByPrcept & Impact & Emotion & SymbVal & PhysBod} & VALPOD: {kvege:V__tr & V__tr-suAbsinf & V__trExpnSu-expnAbsinf}_3-items	
+lenges & ('long') &  	{MedByPrcept & Cogn & Dependence & Emotion & Response & Unfold & SymbVal & PhysBod} & VALPOD: {lenges:V__intr & V-etter__intrObl-oblDECL & V-etter__intrObl-oblEqSuInf & V-etter__intrObl-oblN}_4-items	
+lese & ('read') &  	{Sustain & MedByPrcept & Cogn & Procedure & Creation & Perform & SymbVal} & VALPOD: {lese:V__intr & V-gjennom__intrObl-oblN & V-i__intrObl-oblN & V-igjennom__intrObl-oblN & V-på__intrObl-oblN & V__tr & V-inn__trPrtcl & V-opp__trPrtcl & V-til__intrObl-oblN & V-ut__trPrtcl}_10-items	
+ligne-1 & ('resemble') &  	{Sustain & MedByPrcept & Cogn & SymbVal & PureRel} & VALPOD: {ligne-1:V__intr & V-på__intrObl-oblN & V__tr}_3-items	
+likne-1 & ('resemble') &  	{Sustain & MedByPrcept & Cogn & SymbVal & PureRel} & VALPOD: {likne-1:V__intr & V-på__intrObl-oblN & V__tr & V-med__trObl-oblN}_4-items
+lokke-1 & ('lure') &  	{MedByPrcept & Impact & Domin & SymbVal} & VALPOD: {lokke-1:V__intr & V-med__intrObl-oblDECL & V-med__intrObl-oblN & V__tr-obDir & V-til__trObl-oblRefl & V-til__trObl-oblEqObInf}_6-items	
+lyde-1 & ('sound') &  	{MedByPrcept & Criterial & SymbVal & PhysBod} & VALPOD: {lyde-1:V__intr & V__intrPresnt & V__intrScpr-scSuNrg-scPred & V-som__intrScpr-scSuNrg-scPredprtclN & V-som__intrScpr-scSuNrg-scPredprtclS & V-som-om__intrScpr-scSuNrg-scPredprtclS}_6-items	
+merke-2 & ('notice') &  	{MedByPrcept & Cogn & Response & Perform & SymbVal & PhysBod} & VALPOD: {merke-2:V__ditr-iobRefl & V__ditr-iobRefl-obDECL & V__tr-obINTERR & V__tr & V__tr-obDECL & V__trScpr-scObNrg-scBareinf}_6-items	
+minnes & ('remember') &  	{Sustain & MedByPrcept & Cogn & Emotion & Perform & SymbVal} & VALPOD: {minnes:V__tr-obINTERR & V__tr & V__tr-obDECL}_3-items	
+nyte & ('enjoy') &  	{Sustain & MedByPrcept & Impact & Procedure & Emotion & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & VALPOD: {nyte:V__tr & V__tr-obDECL & V__tr-obEqSuInf}_3-items	
+oppdage & ('discover') &  	{Further & MedByPrcept & Cogn & Creation & Response & Perform & SymbVal} & VALPOD: {oppdage:V__tr-obINTERR & V__tr & V__tr-obDECL}_3-items	
+oppfatte & ('perceive') &  	{Sustain & MedByPrcept & Cogn & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {oppfatte:V__tr-obINTERR & V__tr & V__tr-obDECL & V-som__trScpr-obRefl-scPredprtcl & V-som__trScpr-scPredprtcl}_5-items	
+oppleve & ('experience') &  	{MedByPrcept & Impact & SymbVal} & VALPOD: {oppleve:V__tr-obINTERR & V__tr & V__tr-obDECL & V__tr-obEqSuInf}_4-items	
+overhøre & ('overhear') &  	{Sustain & MedByPrcept & Cogn & Perform & SymbVal & PhysBod} & VALPOD: {overhøre:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+overse-1 & ('overlook') &  	{Imped & MedByPrcept & Response & Perform & SymbVal} & VALPOD: {overse-1:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+overvåke & ('monitor') &  	{Sustain & MedByPrcept & Cogn & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & VALPOD: {overvåke:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+peile & ('gauge') &  	{Sustain & MedByPrcept & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & VALPOD: {peile:V__tr & V-inn__trPrtcl & V-inn__trPrtcl-obRefl & V-inn-på__trPrtclObl-obRefl-oblINTERR & V-inn-på__trPrtclObl-obRefl-oblN}_5-items	
+sakne & ('miss') &  	{Imped & MedByPrcept & Cogn & Emotion & Response & Unfold & SymbVal & PhysBod} & VALPOD: {sakne:V__tr & V__tr-obDECL & V__tr-obEqSuInf}_3-items	
+sanne & ('realize') &  	{Sustain & MedByPrcept & Cogn & Response & SymbVal} & VALPOD: {sanne:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+savne & ('miss') &  	{Imped & MedByPrcept & Cogn & Emotion & Response & Unfold & PhysBod} & VALPOD: {savne:V__tr & V__tr-obDECL & V__tr-obEqSuInf}_3-items	
+signalere & ('signal') &  	{Sustain & MedByPrcept & Cogn & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & VALPOD: {signalere:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+signalisere & ('signal') &  	{Sustain & MedByPrcept & Cogn & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & VALPOD: {signalisere:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+skjelne & ('discern') &  	{Sustain & MedByPrcept & Perform & SymbVal & PhysBod} & VALPOD: {skjelne:V-mellom__intrObl-oblN & V__tr & V-fra__trObl-oblAbsinf & V-fra__trObl-obAbsinf-oblAbsinf & V-fra__trObl-oblN}_5-items	
+speile & ('mirror') &  	{Sustain & MedByPrcept & Cogn & Dependence & Procedure & Response & Perform & PhysBod} & VALPOD: {speile:V__tr & V__tr-obRefl & V-i__trObl-obRefl-oblN}_3-items	
+stusse & ('be puzzled') &  	{MedByPrcept & Cogn & Emotion & Response & Criterial & SymbVal & PhysBod} & VALPOD: {stusse:V__intr & V__tr & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V__tr-obDir & V__tr-obRefl}_10-items	
+stygges & ('be disgusted') &  	{Imped & MedByPrcept & Emotion & Response & SymbVal} & VALPOD: {stygges:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN & V-ved__intrObl-oblDECL & V-ved__intrObl-oblEqSuInf & V-ved__intrObl-oblN}_7-items	
+suggerere & ('') &  	{Sustain & MedByPrcept & Cogn & Dependence & Impact & Procedure & Emotion & Perform & Domin & SymbVal & PhysBod} & VALPOD: {suggerere:V-til__intrObl-oblAbsinf & V__tr & V-til__trObl-oblEqObInf}_3-items	
+sulte & ('hunger') &  	{Sustain & ImpactSensory & MedByPrcept & Impact & Emotion & Unfold & Domin & PhysBod} & VALPOD: {sulte:V__intr & V__tr & V__tr-obRefl & V-ut__trPrtcl}_4-items	
+svelte & ('hunger') &  	{Sustain & ImpactSensory & MedByPrcept & Impact & Emotion & Unfold & Domin & PhysBod} & VALPOD: {svelte:V__intr & V__tr-obRefl & V-ihjel__intrPrtcl & V-ihjel__trPrtcl}_4-items	
+svi & ('burn, suffer') &  	{Sustain & ImpactSensory & MedByPrcept & Impact & Unfold & Criterial & SymbVal & PhysBod} & VALPOD: {svi:V__impers & V__impersObl-oblPRTOFexper & V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V__tr}_7-items	
+syne & ('show, appear') &  	{MedByPrcept & Cogn & SymbVal & PhysBod} & VALPOD: {syne:V__intr & V__tr & V__trExpnSu-obRefl-expnDECL & V__trExpnSu-obRefl-expnINTERRwh & V__trExpnSu-obRefl-expnINTERRyn}_5-items	
+synliggjøre & ('highlight') &  	{Sustain & MedByPrcept & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & VALPOD: {synliggjøre:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+tolke & ('interpret') &  	{Sustain & MedByPrcept & Cogn & Procedure & Creation & Response & Perform & SymbVal} & VALPOD: {tolke:V__tr & V__tr-obINTERR & V-som__trScpr-scPredprtcl}_3-items	
+trives & ('thrive') &  	{Sustain & MedByPrcept & Emotion & Response & Unfold & SymbVal} & VALPOD: {trives:V__intr & V__intrObl-oblLoc & V-med__intrObl-oblDECL & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN}_5-items	
+tåle & ('endure') &  	{Sustain & MedByPrcept & Dependence & Procedure & Emotion & Domin & SymbVal & PhysBod} & VALPOD: {tåle:V__tr & V__tr-obDECL & V__tr-obEqSuInf & V__tr-obINTERR}_4-items	
+uffe & ('complain') &  	{Imped & MedByPrcept & Emotion & VerbalAct & Criterial & SymbVal & PhysBod} & VALPOD: {uffe:V__tr-obRefl & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN}_5-items	
+undre & ('wonder') &  	{Sustain & MedByPrcept & Cogn & Emotion & Response & Unfold & SymbVal} & VALPOD: {undre:V__ditr-iobRefl-obINTERR & V__tr-obRefl & V__tr-suDECL & V__trExpnSu-expnDECL & V-over__trObl-obRefl-oblDECL & V-over__trobl-obrefl-obleqobinf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN}_8-items	
+uroe & ('disquiet') &  	{Imped & MedByPrcept & Cogn & Impact & Emotion & SymbVal} & VALPOD: {uroe:V__tr & V__tr-obRefl & V__tr-suDECL & V__trExpnSu-expnDECL & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN}_12-items	
+validere & ('validate') &  	{Sustain & MedByPrcept & Cogn & Procedure & Creation & VerbalAct & Domin & SymbVal} & VALPOD: {validere:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+vansmekte & ('languish') &  	{Imped & MedByPrcept & Cogn & Impact & Emotion & Response & Unfold & Domin & Criterial & PhysBod} & VALPOD: {vansmekte:V__intr & V-av__intrObl-oblEqSuInf & V-av__intrObl-oblN}_3-items	
+vederkvege & ('soothe') &  	{Sustain & MedByPrcept & Cogn & Impact & Emotion & Creation & Perform & Criterial & PhysBod} & VALPOD: {vederkvege:V__tr & V__tr-suAbsinf & V__trExpnSu-expnAbsinf}_3-items	
+verke & ('ache') &  	{Further & ImpactSensory & MedByPrcept & Impact & Emotion & Response & Domin & Criterial & SymbVal & PhysBod}  & VALPOD: {verke:V-i__impersObl-oblN & V__intr & V-etter__intrObl-oblEqSuInf}_3-items	
+vise & ('show') &  	{Dir & MedByPrcept & Cogn & Impact & Procedure & Unfold & SymbVal & PureRel} & VALPOD: {vise:V__ditr & V__ditr-obDECL & V__ditr-obINTERR & V__ditr-suDECL & V__ditr-suDECL-obDECL & V__ditr-suDECL-obINTERR & V__ditr-suINTERR & V__ditr-suINTERR-obINTERR &  V__tr-obINTERR & V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__intrPath-suDir-PUREORIENTATION & V__tr & V__tr-obDECL & V__tr-osbRefl & V__tr-suDECL & V__tr-suINTERR-obINTERR & V__trExpnSu-obRefl-expnDECL & V__trExpnSu-obRefl-expnINTERRwh & V__trExpnSu-obRefl-expnINTERRyn & V__trScpr-obRefl-scSuNrg-scInf & V-til__trObl-oblN & V-bort__trPrtcl & V-fram__trPrtcl & V-frem__trPrtcl & V-som__trScpr-obRefl-scPredprtcl}_26-items	
+vredes & ('get angry') &  	{Sustain & MedByPrcept & Cogn & Impact & Emotion & Response & Domin & SymbVal & PhysBod} & VALPOD: {vredes:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN}_4-items	
+våke & ('watch') &  	{Sustain & Perceiving & Impact & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {våke:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblN}_4-items	
+
+
+557 lexvals - 545 discounting subsenses of kjenne
+79 verbs
+29 with Perform
+almost all with SymbVal
+2 with VerbalAct
+60  with Cogn (but is more)
+37 with Emotion
+47 with PhysBod
+17 with Unfold
+40 with Response
+34 with Impact, including 6 ImpactSensory duplicating Impact
+12 Further
+43 Sustain
+4 Init (not clear)
+9 Imped
+12 Creation
+13 Criterial
+
+
+alltokens in total and subsenses together
+
+Bareinf 8
+EqInf 53 - 
+
+13 oblEqObInf 
+13 oblEqSuInf 
+ 
+4 suEqObInf  
+11 obEqSuInf  
+5 scInf  
+7 expnEqObInf
+
+DECL 103
+expnDECL 21
+obDECL 39
+suDECL 18
+oblDECL 25
+
+INTERR 66
+expnINTERR 8
+obINTERR 38
+suINTERR 4
+oblINTERR 16
+
+
+total-tokens - just in main semvalpod
+
+Bareinf 5
+
+13 oblEqObInf 
+13 oblEqSuInf 
+ 
+4 suEqObInf  
+11 obEqSuInf  
+5 scInf  
+7 expnEqObInf
+
+DECL 101
+expnDECL 21
+obDECL 38
+suDECL 18
+oblDECL 24
+
+INTERR 63
+expnINTERR 8
+obINTERR 36
+suINTERR 4
+oblINTERR 15
+

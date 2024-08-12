@@ -1,0 +1,19 @@
+svartne & ('blacken') &  	sight	{ImpactSensory & Impact & Response & Criterial & PhysBod} & VALPOD: {svartne:V__impers & V-for__impersObl-oblN & V__intr}_3-items & EX: det svartner & det svartner for øynene & det svartner for ham & horisonten svartner & ENDex	
+betrakte & ('consider') &  	sight	{Sustain & Perceiving & Cogn & Procedure & Perform & PhysBod} & VALPOD: {betrakte:V__tr & V__trScpr-scObNrg-scBareinf & V-som__trScpr-scPredprtcl}_3-items	
+bivåne & ('watch') &  	sight	{Sustain & Perceiving & Cogn & Procedure & Perform & PhysBod} & VALPOD: {bivåne:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+glo & ('stare') &  	sight	{Sustain & Perceiving & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {glo:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+iaktta & ('observe') &  	sight	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & VALPOD: {iaktta:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+kike & ('look') &  	sight	{Perceiving & Unfold & Perform & Criterial & PhysBod} & VALPOD: {kike:V__intr-suDir & V-etter__intrObl-oblN & V-i__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_5-items	
+kikke & ('look') &  	sight	{Perceiving & Unfold & Perform & Criterial & PhysBod} & VALPOD: {kikke:V__intr-suDir & V-etter__intrObl-oblN & V-i__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_5-items	
+observere & ('observe') &  	sight	{Perceiving & Cogn & Procedure & Perform} & VALPOD: {observere:V__tr-obINTERR & V__tr & V__tr-obDECL & V__trScpr-scObNrg-scBareinf}_4-items	
+skimte & ('glimpse') &  	sight	{Sustain & Perceiving & Cogn & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {skimte:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+skotte & ('peek') &  	sight	{Dir & Perceiving & Perform & Criterial & PhysBod} & VALPOD: {skotte:V__intr & V__intr-suDir & V-på__intrObl-oblN}_3-items	
+skule & ('scowl') &  	sight	{Dir & Perceiving & Emotion & Perform & Criterial & PhysBod} & VALPOD: {skule:V__intr & V-mot__intrObl-oblN & V-på__intrObl-oblN}_3-items	
+speide & ('scout') &  	sight	{Sustain & Perceiving & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {speide:V__intr & V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN}_3-items	
+stirre & ('stare') &  	sight	{Sustain & Dir & Perceiving & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {stirre:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+titte & ('peek') &  	sight	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & VALPOD: {titte:V__intr-suDir & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+tjuvtitte & ('peek') &  	sight	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {tjuvtitte:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+tyvtitte & ('peek') &  	sight	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {tyvtitte:V__intr & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_3-items	
+signalere & ('signal') &  	sight	{Sustain & MedByPrcept & Cogn & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & VALPOD: {signalere:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+signalisere & ('signal') &  	sight	{Sustain & MedByPrcept & Cogn & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & VALPOD: {signalisere:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
+	sight - 1 Impact, 15 Perceiving, 2 MedBy		

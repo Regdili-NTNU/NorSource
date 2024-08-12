@@ -848,6 +848,7 @@ beflitte-på__trObl-obRefl-oblN &
 befolke__tr &
 befordre__tr &
 befrakte__tr &
+befri-fra__trObl-oblEqObInf & 
 befri-fra__trObl-oblN &
 befri-fra__trObl-obRefl-oblN &
 befri__tr &
@@ -3490,7 +3491,7 @@ forekomme__intrAdvExpn-expnDECL &
 forekomme__trExpnSu-expnINTERRwh &
 forekomme__trScpr-scSuNrg-scInf &
 forekomme__trScpr-scSuNrg-scPred &
-forekomme_intrExpn-expnDECL &
+forekomme__intrExpn-expnDECL &
 foreldes__intr &
 forelegge__ditr &
 forelegge__tr &
@@ -4262,7 +4263,10 @@ framholde__tr-obEqSuInf &
 framkalle__tr &
 framkaste__tr &
 framkomme-av__intrObl-oblN &
+framkomme-med__intrObl-oblN & 
 framkomme__intr &
+framkomme__intrPresnt & 
+framkomme__intrExpn-expnDECL &
 framlegge__tr &
 framleie-til__trObl-oblN &
 framleie__tr &
@@ -4340,6 +4344,8 @@ fremkaste__tr &
 fremkomme-av__intrObl-oblN &
 fremkomme-med__intrObl-oblN &
 fremkomme__intr &
+framkomme__intrPresnt & 
+framkomme__intrExpn-expnDECL &
 fremlegge__tr &
 fremleie-til__trObl-oblN &
 fremleie__tr &
@@ -4755,7 +4761,7 @@ gjekke__tr &
 gjelde-for__intrObl-oblN &
 gjelde__intr &
 gjelde__tr &
-gjelde_intrExpn-expnDECL &
+gjelde__intrExpn-expnDECL &
 gjelle__intr &
 gjemme-bort__trPrtcl &
 gjemme-bort__trPrtcl-obRefl &
@@ -4800,9 +4806,9 @@ gjeninnlegge__tr &
 gjeninnpakke__tr &
 gjeninnpode__tr &
 gjeninnsette__tr &
-gjeninnskrive_tr &
+gjeninnskrive__tr &
 gjeninnta__tr &
-gjeninstallere_tr &
+gjeninstallere__tr &
 gjenkalle__tr &
 gjenkjenne__tr &
 gjenlegge__tr &
@@ -5515,7 +5521,7 @@ hende__intr &
 hende__intr-suDECL &
 hende__intrAdv-suDECL &
 hende__intrAdvExpn-expnDECL &
-hende_intrExpn-expnDECL &
+hende__intrExpn-expnDECL &
 henfalle-til__intrObl-oblEqSuInf &
 henfalle-til__intrObl-oblN &
 henføre-til__trObl-oblN &
@@ -5687,7 +5693,7 @@ hjelpe-til__trObl-oblEqObInf &
 hjelpe__ditr-obEqIobInf &
 hjelpe__intr &
 hjelpe__tr &
-hjelpe_intrExpn-expnAbsinf &
+hjelpe__intrExpn-expnAbsinf &
 hjemfalle-til__intrObl-oblN &
 hjemfalle__tr &
 hjemføre__tr &
@@ -7459,7 +7465,7 @@ komme__intrObl-oblLoc &
 komme__intrPresntDir &
 komme__tr-obRefl &
 komme__trScpr-obRefl-scObLoc &
-komme_trObl-oblPRTOFob &
+komme__trObl-oblPRTOFob &
 kommentere__tr-obINTERR &
 kommentere__tr &
 kommentere__tr-obDECL &
@@ -8350,7 +8356,7 @@ likne__intr &
 likne__tr &
 likvidere__tr &
 lime__trScpr-scObCsd &
-lime_tr-obDir &
+lime__tr-obDir &
 lindre__intr &
 lindre__tr &
 linjere__tr &
@@ -11755,7 +11761,7 @@ råke-ut-for__intrPrtclObl-oblEqSuInf &
 råke-ut-for__intrPrtclObl-oblN &
 råkjøre__intr &
 råkjøre__intr-suDir &
-råkjøre_tr &
+råkjøre__tr &
 råle__intr &
 råne__intr &
 råtne-bort__intrPrtcl &
@@ -12113,7 +12119,7 @@ sette__trObl-obRefl-oblLoc &
 sette__trPresntLoc-obRefl &
 sette__trScpr-obRefl-scObArg-scPred & 
 sette__trScpr-scObLoc &
-sette_trScpr-scObArg-scPred & 
+sette__trScpr-scObArg-scPred & 
 settle-for__intrObl-oblAbsinf &
 settle-for__intrObl-oblN &
 settle__tr &
@@ -12241,7 +12247,7 @@ sitte-ned__intrPrtcl &
 sitte__intr &
 sitte__intrObl-oblLoc &
 sitte__intrPresntLoc &
-sitte_trScpr-scObNrgCsd-scPred & 
+sitte__trScpr-scObNrgCsd-scPred & 
 sive__intr-suDir &
 sivilisere__tr &
 sjablonere__tr &
@@ -12480,7 +12486,7 @@ skje__intrAdvExpn-expnDECL &
 skje__intrAdvPresnt &
 skje__intrObl-oblLoc &
 skje__intrPresnt &
-skje_intrExpn-expnDECL &
+skje__intrExpn-expnDECL &
 skjefte__tr &
 skjele-til__intrObl-oblDECL &
 skjele-til__intrObl-oblINTERR &
@@ -14259,7 +14265,7 @@ støte-på__intrObl-oblN &
 støte-til__intrPresntPrtcl &
 støte-til__intrPrtcl &
 støte__tr &
-støte_tr-obDir &
+støte__tr-obDir &
 støtte-opp-om__intrPrtclObl-oblAbsinf &
 støtte-opp-om__intrPrtclObl-oblDECL &
 støtte-opp-om__intrPrtclObl-oblN &
@@ -16363,11 +16369,12 @@ utse-til__trObl-oblN &
 utse__ditr-iobRefl &
 utse__tr &
 utsende__tr &
-utsette-for__trObl-oblEqObInf &
-utsette-for__trObl-oblN &
-utsette-for__trobl-obrefl-oblEqObInf &
-utsette-for__trObl-obRefl-oblN &
-utsette__tr &
+utsette-1-for__trObl-oblEqObInf &
+utsette-1-for__trObl-oblN &
+utsette-1-for__trobl-obrefl-oblEqObInf &
+utsette-1-for__trObl-obRefl-oblN &
+utsette-2__tr &
+utsette-2__tr-obEqSuInf & 
 utsi__tr &
 utsi__tr-obDECL &
 utsi__tr-obINTERR &
@@ -17301,7 +17308,7 @@ zoome__tr-obDir &
 øye__tr &
 øyne__tr &
 åle__tr-obRefl-obDir &
-ånde_intr-suDir &
+ånde__intr-suDir &
 åpenbare-for__trObl-obRefl-oblN &
 åpenbare-som__trScpr-obRefl-scPredprtcl &
 åpenbare__tr &

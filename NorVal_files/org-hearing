@@ -1,0 +1,5 @@
+lyde-1 & ('sound') &  	hearing	{MedByPrcept & Criterial & SymbVal & PhysBod} & VALPOD: {lyde-1:V__intr & V__intrPresnt & V__intrScpr-scSuNrg-scPred & V-som__intrScpr-scSuNrg-scPredprtclN & V-som__intrScpr-scSuNrg-scPredprtclS & V-som-om__intrScpr-scSuNrg-scPredprtclS}_6-items	
+lytte & ('listen') &  	hearing	{Sustain & Perceiving & Procedure & Response & Perform & Criterial & PhysBod} & VALPOD: {lytte:V__intr & V-på__intrObl-oblN & V-til__intrObl-oblN}_3-items	
+tjuvlytte & ('eavesdrop') &  	hearing	{Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {tjuvlytte:V__intr & V-på__intrObl-oblN & V-til__intrObl-oblN}_3-items	
+tyvlytte & ('eavesdrop') &  	hearing	{Imped & Perceiving & Cogn & Procedure & Response & Perform & SymbVal & PhysBod} & VALPOD: {tyvlytte:V__intr & V-på__intrObl-oblN & V-til__intrObl-oblDECL & V-til__intrObl-oblN}_4-items	
+	hearing - 1 Impact, 3 Perceiving, 		

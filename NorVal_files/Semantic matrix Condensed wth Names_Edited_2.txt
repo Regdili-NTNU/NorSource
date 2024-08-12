@@ -1,0 +1,1972 @@
+verb & ('English') & {SEMPOD} & number-of-frames
+
+abortere & ('abort') &  {Prevent & Impact & Procedure & Response & Perform & SymbVal} & 4
+abstrahere & ('abstract') &  {Further & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 4
+adherere & ('adhere') &  {Sustain & Dependence & Domin & SymbVal} & 3
+adskille & ('separate') &  {Further & Dependence & Impact & Perform & Domin} & 3
+advare & ('warn') &  {Further & Cogn & VerbalAct & SymbVal} & 10
+agere & ('act') &  {Sustain & Unfold & PhysBod} & 3
+akke & ('complain') &  {Imped & Perceptible & Cogn & Emotion & Unfold & VerbalAct & SymbVal & PhysBod} & 5
+aksjonere & ('campaign') &  {Sustain & Impact & Unfold & Perform & Domin & PhysBod} & 3
+akte-1 & ('be wary, be aware') &  {Sustain & MedByPrcept & Cogn & Procedure & Perform & PhysBod} & 5
+akte-2 & ('intend') &  {Further & MedByPrcept & Cogn & Perform & SymbVal} & 2
+aktes & ('be wary, be aware') &  {Sustain & MedByPrcept & Cogn & Procedure & Perform & PhysBod} & 3
+aktualisere & ('actualize') &  {Further & Impact & SymbVal} & 3
+ale & ('raise') &  {Sustain & Impact & Procedure & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+alienere & ('alienate') &  {Imped & Dependence & Impact & Procedure & Emotion} & 3
+anbefale & ('recommend') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 5
+andra & ('apply') &  {Init & Cogn & Procedure & VerbalAct & SymbVal} & 5
+ane & ('have a hunch') &  {Further & MedByPrcept & Cogn & Emotion & Response & Unfold & Perform & SymbVal} & 8
+anføre-2 & ('state') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+angre & ('repent') &  {Further & Cogn & Emotion & Response & SymbVal} & 14
+angå & ('concern') &  {Dependence & SymbVal & PureRel} & 6
+anklage & ('accuse') &  {Init & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+anløpe & ('arrive, call') &  {Sustain & Procedure & PhysBod} & 3
+anmode & ('request') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 3
+anse & ('consider') &  {Cogn & Response & SymbVal} & 18
+anskaffe & ('acquire') &  {Sustain & Impact & Procedure & Creation & Perform & Domin & Poss & PhysBod} & 3
+anspore & ('encourage') &  {Further & Cogn & Impact & Emotion & Creation & Perform & Domin & SymbVal} & 11
+anstå & ('be appropriate') &  {Dependence & SymbVal & PureRel} & 6
+ansøke & ('apply') &  {Init & Cogn & Procedure & VerbalAct & SymbVal} & 4
+anta & ('assume') &  {Init & Cogn & VerbalAct & SymbVal} & 5
+antyde & ('suggest') &  {Further & Cogn & SymbVal} & 6
+anvise & ('indicate') &  {Further & Cogn & Dependence & Procedure & Creation & VerbalAct & SymbVal & PhysBod} & 3
+arbeide & ('work') &  {Sustain & Procedure & Creation & Unfold & Perform & SymbVal & PhysBod} & 6
+argumentere & ('argue') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 8
+arrangere & ('arrange') &  {Further & Impact & Procedure & Creation & Perform & SymbVal} & 4
+assurere & ('insure') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+atskille & ('separate') &  {Further & Dependence & Impact & Perform & Domin} & 3
+attachere & ('attach') &  {Sustain & Impact & Procedure & Response & Perform} & 3
+auke & ('increase') &  {Further & Procedure & Domin & SymbVal & PhysBod} & 3
+ause-1 & ('scoop') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & 3
+ause-2 & ('anger') &  {Cogn & Emotion & Response & Perform & SymbVal & PhysBod} & 5
+autorisere & ('autorize') &  {Further & Cogn & Dependence & Impact & Procedure & Creation & VerbalAct & Domin & SymbVal} & 3
+avansere & ('advance') &  {Further & Dependence & Impact & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+avfinne & ('put up with') &  {Further & Cogn & Response & Domin & SymbVal} & 4
+avgjøre & ('decide') &  {Further & Cogn & Dependence & Impact & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+avhenge & ('depend') &  {Init & Dependence & SymbVal & PureRel} & 16
+avholde-1 & ('abstain') &  {Prevent & Dependence & Impact & Domin & SymbVal} & 12
+avkle & ('strip') &  {Imped & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+avlede-2 & ('deduce') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 3
+avleie-2 & ('deduce') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 3
+avlevere & ('deliver') &  {Sustain & Impact & Procedure & Response & Perform & Poss & PhysBod} & 3
+avpasse & ('adjust') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal & PhysBod} & 3
+avskjære & ('intercept') &  {Prevent & Dependence & Impact & Procedure & Response & Perform & Domin & PhysBod} & 3
+avskrekke & ('det er') &  {Imped & Impact & Procedure & Emotion & Response & Domin & PhysBod} & 3
+avsky & ('detest') &  {Imped & Emotion & Response & SymbVal & PhysBod} & 4
+avsløre & ('reveal, disclose') &  {Imped & Cogn & Impact & SymbVal} & 6
+avspeile & ('reflect') &  {Sustain & Dependence & Procedure & Response & SymbVal & PhysBod} & 3
+avspore & ('derail') &  {Prevent & Impact & Domin & SymbVal} & 12
+avstedkomme & ('engender') &  {Further & Impact & SymbVal & PhysBod} & 4
+avstraffe & ('punish') &  {Imped & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 3
+avstå & ('abstain') &  {Sustain & Cogn & Procedure & Response & Perform & Domin} & 3
+avtale & ('agree') &  {Further & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+avtalefeste & ('make an agreement') &  {Further & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+avvente & ('await') &  {Sustain & Cogn & Dependence & Procedure & Response & Unfold & Perform & PhysBod} & 3
+avvike & ('deviate') &  {Imped & Procedure & SymbVal} & 3
+avvise & ('reject') &  {Prevent & Cogn & Dependence & Impact & Procedure & Response & Perform & Domin & PhysBod} & 3
+bable & ('babble') &  {Imped & Unfold & VerbalAct} & 5
+bake & ('bake') &  {Sustain & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 3
+banke & ('knock, beat') &  {Impact & Procedure & Perform & Domin & PhysBod} & 3
+bare & ('restrain') &  {Sustain & Dependence & Impact & Response & Perform & Domin & PhysBod} & 3
+barke & ('bark') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+barrikadere & ('barricade') &  {Sustain & Impact & Procedure & Creation & Response & Perform & Domin & PhysBod} & 3
+basere & ('base') &  {Sustain & Dependence & Perform & Domin & SymbVal} & 4
+be & ('ask') &  {Further & Cogn & Dependence & Procedure & VerbalAct & Domin & SymbVal} & 12
+bebreide & ('blame') &  {Imped & Cogn & Emotion & Response & VerbalAct & SymbVal} & 4
+bedrøve & ('disappoint') &  {Imped & Impact & Emotion & Unfold & SymbVal & PhysBod} & 3
+befale & ('command') &  {Further & Cogn & Dependence & Impact & Procedure & VerbalAct & Domin & PhysBod} & 3
+beflitte & ('apply oneself') &  {Sustain & Procedure & Creation & Response & Unfold & Perform & SymbVal & PhysBod} & 3
+befri & ('liberate') &  {Sustain & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 3
+begjære & ('desire') &  {Sustain & Dependence & Impact & Emotion & Response & Unfold & Domin & PhysBod} & 3
+begrense & ('limit') &  {Sustain & Dependence & Impact & Domin} & 3
+begripe & ('grasp, understand') &  {Init & Cogn & VerbalAct & SymbVal} & 5
+begrunne & ('justify') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+begynne & ('begin') &  {Init & SymbVal} & 8
+behøve & ('need') &  {Init & Impact & Emotion & Domin & SymbVal} & 3
+bekjenne & ('confess') &  {Cogn & Procedure & verbal & SymbVal} & 6
+bekjentgjøre & ('announce') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 4
+beklage & ('regret') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 12
+bekrefte & ('confirm') &  {Further & Cogn & Response & SymbVal} & 3
+bekymre & ('worry') &  {Imped & Cogn & Impact & Emotion & Response & Unfold & SymbVal & PhysBod} & 9
+belage & ('settle') &  {Sustain & Cogn & Procedure & Emotion & Response & SymbVal} & 3
+benekte & ('deny') &  {Sustain & Cogn & Dependence & Procedure & Response & VerbalAct & Domin & SymbVal} & 3
+benytte & ('utilize') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+beordre & ('order') &  {Further & Cogn & Dependence & Procedure & Response & VerbalAct & Domin & SymbVal & PhysBod} & 4
+beregne & ('estimate, calculate') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 7
+berekne & ('estimate, calculate') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 7
+berette & ('tell, report') &  {Sustain & Cogn & Procedure & Creation & verbal & SymbVal} & 7
+berettige & ('entitle') &  {Further & Dependence & Domin & SymbVal & PureRel} & 7
+berge & ('rescue') &  {Sustain & Cogn & Impact & Response & Perform & Loc & PhysBod} & 5
+berike & ('enrich') &  {Sustain & Impact & Perform & Poss} & 5
+bero & ('depend') &  {Init & Dependence & SymbVal & PureRel} & 17
+berolige & ('reassure') &  {Sustain & Impact & Procedure & Emotion & Response & Domin & SymbVal & PhysBod} & 3
+beruse & ('intoxicate') &  {Imped & Impact & Emotion & Perform & PhysBod} & 4
+berømme & ('praise') &  {Further & Cogn & Procedure & Emotion & Response & VerbalAct & Domin & SymbVal} & 3
+berøre & ('touch') &  {Sustain & Perceptible & Impact & PhysBod} & 3
+beskjeftige & ('employ') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 4
+beskrive & ('describe') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 4
+beskylde & ('accuse') &  {Sustain & Cogn & Impact & Procedure & Emotion & Response & VerbalAct & Domin & SymbVal & PhysBod} & 3
+beskytte & ('protect') &  {Sustain & Dependence & Response & Domin & SymbVal & PhysBod} & 4
+beslutte & ('decide') &  {Further & Cogn & Perform & SymbVal} & 5
+bestemme & ('decide') &  {Sustain & Cogn & Dependence & Impact & Perform & Domin & SymbVal} & 7
+bestri & ('dispute') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 3
+bestride & ('dispute') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 3
+bestå-1 & ('consist') &  {Sustain & Dependence & Procedure & SymbVal} & 3
+besvare & ('answer') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+besvære & ('complain') &  {Imped & Cogn & Perform & Domin & SymbVal} & 5
+betakke & ('refrain') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+betale & ('pay') &  {Sustain & SymbVal} & 6
+bete & ('behave') &  {Sustain & Procedure & Unfold & Perform & SymbVal & PhysBod} & 3
+betenke & ('consider') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+betjene & ('serve') &  {Sustain & Cogn & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 3
+betrakte & ('consider') &  {Sustain & Perceiving & Cogn & Procedure & Perform & PhysBod} & 3
+betro & ('confide') &  {Sustain & Cogn & Dependence & Procedure & Emotion & Response & VerbalAct & SymbVal & PhysBod} & 3
+betvile & ('doubt') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+bety & ('mean, signify') &  {Further & Cogn & SymbVal} & 5
+beundre & ('admire') &  {Sustain & Emotion & Unfold & SymbVal} & 4
+bevege & ('move') &  {Further & Dir & Impact & Procedure & Domin & PhysBod} & 3
+bevilge & ('grant, allocate') &  {Further & Cogn & Procedure & Perform & Poss & SymbVal} & 5
+bevise & ('prove') &  {Further & Cogn & Procedure & Creation & Response & SymbVal} & 4
+bevæpne & ('arm') &  {Further & Impact & Perform & PhysBod} & 4
+bidra & ('contribute') &  {Further & Perform & SymbVal} & 19
+bikke & ('topple') &  {Response & Loc & PhysBod} & 4
+billige & ('accept') &  {Sustain & Cogn & Dependence & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 3
+binde & ('bind') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & SymbVal} & 8
+bistå & ('assist') &  {Sustain & Procedure & Perform & SymbVal} & 6
+bite & ('bite') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 7
+bivåne & ('watch') &  {Sustain & Perceiving & Cogn & Procedure & Perform & PhysBod} & 3
+bla & ('blade') &  {Sustain & Dir & Cogn & Procedure & Unfold & Perform & PhysBod} & 8
+blande & ('blend, mix') &  {Sustain & Impact & Perform & PhysBod} & 9
+bli & ('become') &  {SymbVal & PureRel} & 35
+blinke & ('blink') &  {Sustain & Impact & Procedure & PhysBod} & 3
+blogge & ('blog') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 7
+blottlegge & ('expose') &  {Sustain & Perceptible & Cogn & Impact & SymbVal & PhysBod} & 4
+blottstille & ('expose') &  {Sustain & Cogn & Impact & SymbVal & PhysBod} & 3
+blyges & ('be shy') &  {Sustain & Perceptible & Emotion & SymbVal} & 5
+blø & ('bleed') &  {Sustain & Impact & Unfold & Criterial & PhysBod} & 5
+bløffe & ('bluff') &  {Imped & Cogn & Creation & Perform & SymbVal} & 8
+bløte & ('soak') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+blåholde & ('insist') &  {Sustain & Impact & Response & Perform & Domin & Criterial & SymbVal & PhysBod} & 4
+blånekte & ('deny') &  {Imped & Cogn & Procedure & Response & verbal & SymbVal & PhysBod} & 6
+blåse & ('blow') &  {Sustain & Perceptible & Response & Unfold & Perform & Domin & SymbVal} & 10
+bolte & ('bolt') &  {Sustain & Impact & Procedure & Creation & Perform & Domin & PhysBod} & 3
+bomme-1 & ('miss') &  {Imped & Response & Perform & PhysBod} & 3
+bomme-2 & ('scam') &  {Sustain & Dependence & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & 3
+bore & ('drill') &  {Sustain & Dir & Perceptible & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+borge & ('guarantee') &  {Further & Cogn & Dependence & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+bortse & ('ignore') &  {Sustain & Cogn & Procedure & Response & Perform} & 3
+bortvise & ('expel') &  {Imped & Impact & Perform & Domin & PhysBod} & 4
+botlegge & ('fine') &  {Imped & Impact & Response & Perform & Domin & SymbVal} & 4
+botne & ('reside') &  {Dependence} & 3
+braute & ('brag') &  {Sustain & Impact & Perform & Domin & PhysBod} & 3
+bre-2 & ('wrap') &  {Sustain & Dir & Cogn & Impact & Unfold & Perform & Criterial & PhysBod} & 6
+bre-2 & ('spread') &  {x & x & x & x & x & x & x} & 2
+breie-2 & ('wrap') &  {Sustain & Dir & Cogn & Impact & Unfold & Perform & Criterial & PhysBod} & 6
+breie-2 & ('spread') &  {x & x & x & x & x & x & x} & 2
+brekke & ('break') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 8
+bremse & ('brake') &  {Sustain & Perceptible & Impact & Perform & PhysBod} & 5
+brenne & ('burn') &  {Prevent & Impact & Unfold & Domin & Criterial & PhysBod} & 11
+brette & ('fold') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+brevveksle & ('correspond') &  {Cogn & Procedure & Response & Perform & SymbVal & PhysBod} & 4
+briljere & ('excel') &  {Sustain & Procedure & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+bringe & ('bring') &  {Further & Dir & Procedure & Perform & PhysBod} & 4
+briske & ('brag') &  {Imped & Perceptible & Cogn & Emotion & Unfold & Perform & SymbVal} & 5
+brodere & ('embroider') &  {Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 4
+bruke & ('use') &  {Sustain & Procedure & Perform & SymbVal} & 4
+bruse & ('fizz, roar') &  {Perceptible & Unfold & PhysBod} & 3
+bry & ('bother') &  {Further & Cogn & Emotion & Response & Perform & SymbVal} & 14
+bryne & ('sharpen') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal & PhysBod} & 4
+bryte & ('break') &  {Sustain & Perceptible & Impact & Procedure & Perform & Criterial & PhysBod} & 8
+brøle & ('shout') &  {Sustain & Perceptible & Perform & PhysBod} & 3
+brøyte & ('plow') &  {Sustain & Impact & Perform & Domin & PhysBod} & 3
+bu & ('live, reside') &  {Sustain & Procedure & Unfold & SymbVal & PhysBod} & 3
+bukke & ('bow') &  {Procedure & Response & Perform & PhysBod} & 3
+bunkre & ('bunker') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & 3
+burde & ('ought') &  {Init & Cogn & Dependence & SymbVal} & 3
+buse & ('bust') &  {Dir & Impact & Perform & Criterial & SymbVal & PhysBod} & 5
+by & ('bid, invite, offer') &  {Further & Cogn & Procedure & Perform & SymbVal} & 13
+bygge & ('build') &  {Further & Cogn & Impact & Procedure & Creation & Unfold & Perform & PhysBod} & 8
+bytte & ('exchange') &  {Further & Cogn & Impact & Procedure & Response & Perform & PhysBod} & 7
+bære & ('carry') &  {Sustain & Impact & Procedure & Unfold & Domin & SymbVal & PhysBod} & 4
+bønnfalle & ('plead') &  {Sustain & Cogn & Dependence & Procedure & Emotion & Perform & PhysBod} & 3
+børste & ('brush') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal & PhysBod} & 4
+bøte & ('pay, repair') &  {Sustain & Response & SymbVal} & 6
+bøtelegge & ('fine') &  {Imped & Cogn & Dependence & Impact & Procedure & Response & Perform & SymbVal} & 4
+bøtlegge & ('fine') &  {Imped & Cogn & Dependence & Impact & Procedure & Response & Perform & SymbVal} & 4
+bøye & ('bend') &  {Sustain & Dir & Perceptible & Dependence & Impact & Perform & Criterial & PhysBod} & 8
+celebrere & ('celebrate') &  {Sustain & Cogn & Procedure & Emotion & Response & Unfold & Perform & SymbVal} & 3
+chatte & ('chat') &  {Cogn & Procedure & VerbalAct & SymbVal} & 4
+dagdrømme & ('daydream') &  {Sustain & Cogn & Unfold & Perform & SymbVal} & 8
+dages & ('the time comes that') &  {Init & SymbVal} & 3
+dampe & ('steam') &  {Dir & Impact & Unfold & Criterial & PhysBod} & 5
+datere & ('date') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 3
+debrife & ('debrief') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+dedusere & ('deduce') &  {Further & Cogn & Procedure & Creation & Perform & SymbVal} & 4
+definere & ('define') &  {Init & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 4
+dekke-1 & ('conceal, cover') &  {Sustain & Perceptible & Impact & Procedure & Perform & Domin & SymbVal & PhysBod} & 9
+dekke-3 & ('la, set the table') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+deklamere & ('recite') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal & PhysBod} & 3
+dekretere & ('decree') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 3
+dele & ('divide, share') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & PhysBod} & 8
+delta & ('partake, participate') &  {Further & Dependence & Impact & Procedure & Perform & Domin & PhysBod} & 3
+demme & ('dam') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 5
+demonstrere & ('demonstrate') &  {Sustain & Cogn & Procedure & Response & Perform & Domin & SymbVal} & 8
+demre & ('dawn') &  {Further & Cogn & SymbVal & PhysBod} & 7
+derivere & ('derive') &  {Further & Cogn & Procedure & Creation & Perform & SymbVal} & 4
+desinformere & ('desinform') &  {Imped & Cogn & Procedure & verbal & SymbVal} & 6
+desorientere & ('desorient') &  {Imped & Procedure & Perform & SymbVal} & 6
+differensiere & ('differentiate') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 3
+dikte & ('compose') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 3
+diktere & ('dictate') &  {Sustain & Cogn & Impact & Procedure & Creation & VerbalAct & SymbVal} & 4
+dimme & ('dim') &  {Sustain & Procedure & Perform & Domin & PhysBod} & 3
+diskriminere & ('discriminate') &  {Imped & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 4
+diskutere & ('discuss') &  {Sustain & Cogn & Procedure & Response & verbal & SymbVal} & 6
+diskvalifisere & ('disqualify') &  {Imped & Cogn & Impact & Procedure & VerbalAct & SymbVal} & 5
+disputere & ('dispute') &  {Sustain & Cogn & Procedure & Response & Unfold & VerbalAct & SymbVal} & 4
+distansere & ('distance') &  {Dir & Procedure & Response & Perform & SymbVal} & 4
+dobbeltsjekke & ('doublecheck') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+domfelle & ('convict') &  {Imped & Cogn & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+dorge & ('fish with hook') &  {Sustain & Procedure & Perform & PhysBod} & 3
+dosere & ('teach') &  {Sustain & Cogn & Procedure & Creation & Unfold & VerbalAct & SymbVal} & 4
+dra & ('pull, drag, og') &  {Further & Dir & Perform & PhysBod} & 5
+dreie & ('turn') &  {Further & Impact & Perform & Criterial} & 6
+drible & ('dribble') &  {Further & Dir & Impact & Procedure & Perform & Domin & PhysBod} & 4
+drikke & ('drink') &  {Sustain & Impact & Procedure & Perform} & 4
+driste & ('dare') &  {Further & Impact & Procedure & Perform & Domin & PhysBod} & 3
+drite & ('shit') &  {Imped & Procedure & Response & Perform & Criterial & SymbVal} & 7
+drive & ('drive') &  {Further & Dir & Procedure & Creation & Unfold & SymbVal} & 7
+droppe & ('drop') &  {Sustain & Dir & Procedure & Response & Perform & PhysBod} & 3
+drukne & ('drown') &  {Prevent & Impact & Procedure & Domin & PhysBod} & 3
+dryge & ('delay') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal} & 3
+dryppe & ('drip') &  {Impact & Procedure & Unfold & PhysBod} & 3
+drømme & ('dream') &  {Sustain & Cogn & Procedure & Emotion & Unfold & SymbVal & PhysBod} & 8
+drøye & ('delay') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal} & 3
+duge & ('be able, fit') &  {Sustain & Impact & SymbVal} & 3
+dukke & ('duck') &  {Sustain & Dir & Perform & PhysBod} & 3
+dumpe & ('dump') &  {Imped & Impact & PhysBod} & 3
+dunke & ('pound') &  {Sustain & Impact & Domin & PhysBod} & 3
+dusje & ('shower') &  {Sustain & Impact & Procedure & Unfold & Perform & PhysBod} & 3
+dynge & ('heap') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & 3
+dølge & ('hide') &  {Imped & Cogn & Procedure & Perform & Domin & SymbVal} & 3
+dømme & ('judge') &  {Sustain & Impact & Procedure & Response & verbal & Domin & SymbVal} & 6
+egge & ('egg') &  {Imped & Impact & Emotion & Perform & Criterial & PhysBod} & 5
+egne & ('assign, be suited') &  {Further & Procedure & Response & Unfold & Perform & SymbVal} & 4
+eime & ('reek') &  {Imped & Perceptible & Unfold & SymbVal & PhysBod} & 3
+eksklamere & ('exclaim') &  {Sustain & Cogn & Procedure & VerbalAct & PhysBod} & 3
+ekskludere & ('exclude') &  {Prevent & Dependence & Impact & Procedure & Domin} & 6
+eksperimentere & ('experiment') &  {Further & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 4
+eksponere & ('expose') &  {Further & Impact & Procedure & SymbVal} & 4
+ekstrapolere & ('extrapolate') &  {Further & Dir & Procedure} & 6
+ekvipere & ('equip') &  {Further & Cogn & Impact & Procedure & Perform & PhysBod} & 4
+ekvivalere & ('equivalate') &  {Cogn & VerbalAct & SymbVal} & 5
+elske & ('love') &  {Further & Cogn & Emotion & Response & Unfold & SymbVal} & 4
+emaile & ('email') &  {Dir & Cogn & Procedure & Perform & SymbVal} & 4
+ende & ('end') &  {Init & SymbVal} & 5
+endre & ('change') &  {Further & Impact & Procedure & PhysBod} & 3
+engasjere & ('engage') &  {Further & Cogn & Emotion & Unfold & Perform & SymbVal} & 5
+engste & ('worry') &  {Imped & Perceptible & Impact & Emotion & Unfold & SymbVal & PhysBod} & 3
+erfare & ('experience') &  {Further & MedByPrcept & Cogn & Procedure & Creation & Response & SymbVal} & 3
+ergre & ('annoy') &  {Imped & Perceptible & Cogn & Impact & Emotion & Unfold & Criterial & SymbVal & PhysBod} & 9
+erkjenne & ('recognize') &  {Further & MedByPrcept & Cogn & Impact & Creation & Response & Perform & SymbVal} & 9
+erklære & ('declare') &  {Sustain & Cogn & Procedure & VerbalAct & Domin & SymbVal} & 7
+ernære & ('nourish') &  {Sustain & Perform} & 7
+erte & ('tease') &  {Sustain & Cogn & Impact & Procedure & Emotion & Unfold & Perform} & 7
+esle & ('commit') &  {Further & Unfold & SymbVal} & 6
+estimere & ('estimate') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 3
+etablere & ('establish') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 4
+ete & ('eat') &  {Sustain & Perceptible & Impact & Procedure & Perform & Criterial & PhysBod} & 9
+etle & ('commit') &  {Further & Unfold & SymbVal} & 6
+etse & ('etch') &  {Imped & Perceptible & Impact & Criterial & PhysBod} & 5
+etterlate & ('leave behind') &  {Sustain & Response & Poss & SymbVal} & 3
+etterse & ('look after') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal & PhysBod} & 3
+ettersende & ('resend') &  {Sustain & Procedure & Response & Perform & SymbVal & PhysBod} & 3
+fable & ('fabulate') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 5
+fabulere & ('fabulate') &  {Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 5
+fakturere & ('invoice') &  {Cogn & Procedure & VerbalAct & SymbVal} & 5
+famle & ('fumble') &  {Imped & Dir & Unfold & Perform & PhysBod} & 4
+fange & ('catch') &  {Sustain & Impact & Procedure & Perform & Domin & PhysBod} & 4
+fantasere & ('fantasize') &  {Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 5
+fare & ('fare') &  {Dir & Procedure & Unfold & Perform} & 3
+fascinere & ('fascinate') &  {MedByPrcept & Cogn & Impact & Emotion & SymbVal & PhysBod} & 4
+fastholde & ('maintain') &  {Sustain & Procedure & Response & Perform & Domin & SymbVal} & 4
+fastslå & ('determine') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 3
+fatte & ('grasp, comprehend') &  {MedByPrcept & Cogn & Response & SymbVal} & 5
+feie & ('sweep') &  {Sustain & Dir & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+feire & ('celebrate') &  {Sustain & Procedure & Emotion & Response & Unfold & Perform & SymbVal} & 3
+feite & ('fatten') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+fenge & ('catch') &  {Further & Impact & Response & SymbVal & PhysBod} & 3
+feste & ('fasten') &  {Sustain & Impact & Procedure & Response & Perform & Domin & PhysBod} & 4
+figurere & ('figure') &  {Cogn & Unfold & SymbVal} & 4
+fiksere & ('fixate') &  {Sustain & Perceiving & Cogn & Perform} & 6
+file & ('file') &  {Impact & Procedure & Perform & PhysBod} & 4
+filme & ('film') &  {Procedure & Creation & Perform & SymbVal & PhysBod} & 4
+filosofere & ('filospphize') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 6
+finne & ('find') &  {Sustain & Cogn & Perform & SymbVal} & 12
+fire & ('lower, yield') &  {Sustain & Dir & Procedure & Perform & PhysBod} & 4
+fiske & ('fish') &  {Sustain & Cogn & Impact & Procedure & Unfold & Perform & PhysBod} & 5
+fjase & ('be silly') &  {Unfold & verbal & SymbVal & PhysBod} & 6
+fjerne & ('remove') &  {Prevent & Impact & Procedure & Response} & 4
+fjuske & ('cheat') &  {Imped & Cogn & Procedure & Perform & SymbVal} & 4
+flagge & ('flag') &  {Sustain & Impact} & 3
+flakke & ('stray') &  {Dir & Procedure & Unfold & SymbVal & PhysBod} & 3
+flakse & ('flap') &  {Dir & Procedure & Perform & PhysBod} & 3
+fleipe & ('joke') &  {Imped & Cogn & Procedure & VerbalAct & SymbVal & PhysBod} & 5
+flekke & ('stain') &  {Imped & Impact & PhysBod} & 3
+flenge & ('tear') &  {Imped & Impact & SymbVal & PhysBod} & 3
+flette & ('braid') &  {Sustain & Impact & Procedure & Creation & Perform} & 6
+flise & ('unravel') &  {Impact & Procedure & PhysBod} & 3
+floke & ('tangle') &  {Imped & Impact & Criterial & PhysBod} & 5
+fly & ('fly') &  {Further & Dir & Procedure & Unfold & Perform & PhysBod} & 4
+flyte & ('fleet') &  {Sustain & Dir & Perceptible & Unfold & Criterial & PhysBod} & 5
+flytte & ('move') &  {Sustain & Dir & Impact & Procedure & Perform & PhysBod} & 5
+flåse & ('joke') &  {Imped & Cogn & VerbalAct & SymbVal} & 5
+fnise & ('giggle') &  {Perceptible & Emotion & Response & Unfold & Criterial & SymbVal & PhysBod} & 4
+fnyse & ('sneeze') &  {Perceptible & Emotion & Response & SymbVal & PhysBod} & 4
+fokusere & ('focus') &  {Sustain & Cogn & Perform & SymbVal} & 10
+folde & ('fold') &  {Sustain & Impact & PhysBod} & 3
+forakte & ('despise') &  {Imped & Cogn & Emotion & Response & Unfold & SymbVal} & 4
+forandre & ('change') &  {Further & Impact & Perform & SymbVal} & 5
+forankre & ('ground, base') &  {Sustain & Dependence & Impact & Procedure & Perform & SymbVal} & 7
+forarge & ('anger, outrage') &  {Imped & Cogn & Impact & Emotion & Domin & SymbVal} & 6
+forbanne & ('curse') &  {Imped & Cogn & Procedure & Emotion & Response & VerbalAct & Domin & SymbVal} & 4
+forbause & ('surprise') &  {Sustain & MedByPrcept & Cogn & Impact & Emotion & SymbVal} & 8
+forberede & ('prepare') &  {Further & Procedure & Response & Perform & SymbVal} & 24
+forbli & ('remain') &  {Further & Unfold} & 3
+forbløffe & ('astound') &  {MedByPrcept & Cogn & Emotion & SymbVal & PhysBod} & 3
+forbrenne & ('incinerate') &  {Sustain & Impact & Procedure & PhysBod} & 3
+forby & ('forbid') &  {Imped & Cogn & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+fordjupe & ('immerse') &  {Further & Cogn & Procedure & Creation & Perform & SymbVal} & 4
+fordre & ('demand') &  {Sustain & Cogn & VerbalAct & SymbVal} & 5
+fordriste & ('dare') &  {Further & Cogn & Emotion & SymbVal & PhysBod} & 3
+fordunste & ('evaporate') &  {Impact & Response & PhysBod} & 3
+fordype & ('immerse') &  {Further & Cogn & Procedure & Creation & Perform & SymbVal} & 4
+fordømme & ('condemn') &  {Sustain & Cogn & VerbalAct & Domin & SymbVal} & 5
+fore-1 & ('feed') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+fôre-1 & ('feed') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+foredra & ('recite') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 5
+forefalle & ('occur') &  {Init & SymbVal} & 3
+forefinnes & ('exist') &  {Init & Procedure & SymbVal} & 3
+foregi & ('pretend') &  {Sustain & Cogn & Creation & Perform & SymbVal} & 3
+foregå & ('take place') &  {Init & SymbVal} & 3
+foreholde & ('impose') &  {Further & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+forekomme & ('occur, seem') &  {Further & MedByPrcept & Cogn & SymbVal} & 9
+forelese & ('lecture') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct} & 5
+forene & ('unite') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 3
+foresette & ('intend') &  {Further & Cogn & Perform & SymbVal} & 3
+foreskrive & ('prescribe') &  {Sustain & Cogn & Dependence & Procedure & Creation & Perform & Domin & SymbVal} & 8
+foreslå & ('propose') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 13
+forespeile & ('make expect, foreshadow') &  {Further & Cogn & VerbalAct & SymbVal} & 5
+forespørre & ('request') &  {Init & Cogn & Procedure & verbal & SymbVal} & 6
+forestille & ('show, depict, present') &  {Further & Cogn & SymbVal} & 6
+foresveve & ('seem, appear') &  {Sustain & MedByPrcept & Cogn & Response & SymbVal & PhysBod} & 4
+foretrekke & ('prefer') &  {Further & Cogn & Emotion & Response & SymbVal} & 3
+forflytte & ('move, relocate') &  {Dir & Impact & Procedure & Perform & Domin & PhysBod} & 4
+forfriske & ('refresh') &  {Sustain & Impact & Response & Perform & PhysBod} & 3
+forføre & ('seduce') &  {Imped & Impact & Procedure & Emotion & Perform & SymbVal & PhysBod} & 3
+forgå & ('perish') &  {Prevent & Impact & SymbVal} & 3
+forhandle & ('negotiate') &  {Sustain & Cogn & Dependence & Procedure & Response & Unfold & VerbalAct & SymbVal} & 10
+forhindre & ('prevent') &  {Imped & Response & Perform & SymbVal} & 18
+forholde & ('relate') &  {Unfold & SymbVal} & 6
+forhøre & ('interrogate') &  {Cogn & Procedure & verbal & Domin & SymbVal} & 6
+forklare & ('explain') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 12
+forkle & ('disguise') &  {Sustain & Procedure & Perform & SymbVal} & 3
+forkynne & ('preach') &  {Further & Cogn & VerbalAct & SymbVal} & 5
+forlange & ('demand') &  {Further & Cogn & Procedure & VerbalAct & Domin & SymbVal} & 4
+forlate-3 & ('be sure about') &  {Imped & Cogn & Emotion & Response & SymbVal} & 3
+forlede & ('lure') &  {Imped & Impact & Domin & SymbVal} & 4
+forlike & ('reconcile') &  {Further & Cogn & Impact & Procedure & Creation & Response & VerbalAct & SymbVal} & 4
+forlikes & ('reconcile') &  {Further & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 10
+forlyste & ('amuse') &  {Sustain & Impact & Procedure & Emotion & Perform} & 4
+formane & ('impose') &  {Further & Cogn & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+forme & ('form') &  {Further & Impact & Procedure & Perform & Domin & SymbVal} & 4
+formidle & ('mediate') &  {Sustain & Cogn & Impact & Procedure & Perform & SymbVal} & 3
+formode & ('assume') &  {Further & Cogn & Creation & VerbalAct & SymbVal} & 4
+fornedre & ('humiliate') &  {Imped & Impact & Emotion & Perform & SymbVal & PhysBod} & 3
+fornemme & ('sense') &  {Further & MedByPrcept & Cogn & Emotion & Response & PhysBod} & 3
+forordne & ('ordain') &  {Sustain & Cogn & Dependence & Impact & Procedure & VerbalAct & Domin & SymbVal} & 3
+forplikte & ('oblige') &  {Further & Cogn & verbal & SymbVal} & 6
+forsikre & ('assure') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 12
+forskanse & ('entrench') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & 3
+forske & ('reseach') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & 3
+forskrekke & ('startle') &  {Imped & MedByPrcept & Impact & Emotion & Response & SymbVal & PhysBod} & 3
+forskåne & ('spare') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal} & 3
+forsone & ('reconcile') &  {Sustain & Emotion & Response & SymbVal} & 6
+forstrekke & ('advance') &  {Sustain & Impact & Response & Perform & PhysBod} & 3
+forstyrre & ('disturb') &  {Imped & Dependence & Impact & Emotion & Domin & SymbVal & PhysBod} & 3
+forstå & ('understand') &  {Further & Cogn & Creation & Response & SymbVal} & 6
+forsvare & ('defend') &  {Sustain & Cogn & Dependence & Impact & Procedure & Response & Perform & SymbVal} & 9
+forsverge & ('foresvear') &  {Sustain & Cogn & Response & VerbalAct & SymbVal} & 3
+forsverje & ('foresvear') &  {Sustain & Cogn & VerbalAct & SymbVal} & 3
+forsyne & ('provide') &  {Sustain & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 4
+forsøke & ('try') &  {Init & Cogn & Creation & Unfold & Perform & SymbVal} & 7
+forsørge & ('support') &  {Sustain & Dependence & Impact & Procedure & Perform & SymbVal} & 4
+fortape & ('lose') &  {Imped & Impact & Response & Domin & SymbVal} & 3
+fortelle & ('tell') &  {Sustain & Cogn & Creation & VerbalAct & SymbVal} & 14
+fortenke & ('suspect') &  {Imped & Cogn & Response & Domin & SymbVal} & 4
+fortjene & ('deserve') &  {Further & Dependence & Response & SymbVal} & 3
+fortsette & ('presuppose') &  {Further & Unfold & SymbVal} & 8
+fortvile & ('despair') &  {Imped & Emotion & Response & PhysBod} & 4
+forundre & ('wonder') &  {Sustain & MedByPrcept & Cogn & Impact & Emotion & Response & SymbVal} & 9
+forunne & ('indulge') &  {Sustain & Cogn & Response & Perform & SymbVal} & 3
+forutane & ('foresee') &  {Sustain & MedByPrcept & Cogn & SymbVal} & 3
+forutberegne & ('precalculate') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 3
+forutberekne & ('precalculate') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 3
+forutbestemme & ('predetermine') &  {Sustain & Cogn & Impact & Perform & Domin & SymbVal} & 3
+forutse & ('predict') &  {Sustain & MedByPrcept & Cogn & Response & Perform & SymbVal} & 3
+forutsette & ('presuppose') &  {Further & Cogn & Dependence & Procedure & Response & VerbalAct & Domin & SymbVal & PureRel} & 12
+forutsi & ('predict') &  {Sustain & Cogn & Perform & SymbVal} & 3
+forvandle & ('transform') &  {Further & Impact & Perform & SymbVal} & 3
+forvente & ('expect') &  {Sustain & Cogn & Response & SymbVal} & 4
+forvise & ('banish') &  {Imped & Cogn & Impact & Procedure & Response & Perform & Domin & PhysBod} & 3
+forvisse & ('ensure, make sure') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 5
+forvolde & ('cause') &  {Imped & Impact & Perform & SymbVal & PhysBod} & 3
+framheve & ('highlight') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 3
+framholde & ('maintain') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 3
+framkomme & ('appear') &  {Further & Response & SymbVal} & 3
+fraskille & ('separate') &  {Sustain & Impact & Perform & PhysBod} & 3
+frastøte & ('repel') &  {Sustain & Dependence & Impact & PhysBod} & 3
+fravike & ('deviate') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+frelse & ('save') &  {Sustain & Impact & Emotion & Response & Perform & Domin & SymbVal} & 3
+fremholde & ('maintain') &  {Further & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+fremkomme & ('appear') &  {Further & Response & SymbVal} & 3
+frese-2 & ('hiss') &  {Sustain & Perceptible & Emotion & Criterial} & 1
+fri-1 & ('free, release') &  {Further & Dependence & Impact & Response & Perform & Domin & SymbVal} & 5
+frifinne & ('acquit') &  {Further & Cogn & Dependence & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+frigjøre & ('liberate') &  {Further & Impact & Procedure & Response & Perform & SymbVal} & 4
+frikjenne & ('acquit') &  {Sustain & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 3
+friste & ('tempt') &  {Sustain & Impact & Emotion & Unfold & Domin & SymbVal & PhysBod} & 3
+frita & ('exempt') &  {Further & Cogn & Procedure & Response & Perform & Domin & SymbVal} & 3
+fritte & ('ask, query') &  {Further & Cogn & Impact & Procedure & Response & VerbalAct & SymbVal} & 4
+frustrere & ('frustrate') &  {Imped & Impact & Procedure & Emotion & Response & SymbVal & PhysBod} & 3
+fryde & ('rejoice') &  {Further & Emotion & Response & Unfold & SymbVal & PhysBod} & 6
+frykte & ('fear') &  {Sustain & MedByPrcept & Cogn & Impact & Emotion & Response & SymbVal} & 9
+fryse & ('freeze') &  {Imped & ImpactSensory & Response & Perform & Unfold & PhysBod} & 6 
+fråtse & ('glutton') &  {Sustain & Impact & Procedure & Unfold & Perform & PhysBod} & 3
+fuge & ('grout') &  {Further & Impact & Procedure & Creation & PhysBod} & 4
+fullrose & ('laud') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal & PhysBod} & 4
+fulltakke & ('thank') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+fundere & ('ponder') &  {Cogn & Procedure & Response & VerbalAct} & 5
+fungere & ('function') &  {Sustain & Impact & Procedure & Response & Unfold & SymbVal} & 3
+funke & ('function') &  {Sustain & Impact & Procedure & Response & Unfold & SymbVal} & 3
+funksjonere & ('function') &  {Sustain & Impact & Procedure & Response & Unfold & SymbVal} & 3
+furte & ('sulk') &  {Emotion & Unfold & Perform & Criterial & SymbVal & PhysBod} & 7
+fuske & ('cheat') &  {Imped & Perform & SymbVal & PhysBod} & 6
+fylke & ('rally') &  {Sustain & Dependence & Impact & Procedure & Creation & Response & Perform & Domin & PhysBod} & 3
+fylle & ('fill') &  {Sustain & Dir & Procedure & Unfold} & 7
+fyre & ('fire, heat+B844') &  {Sustain & Impact & Perform & PhysBod} & 5
+fæle & ('shudder') &  {Imped & Emotion & Domin & SymbVal & PhysBod} & 4
+føle & ('feel, know') &  {Further & MedByPrcept & Cogn & Emotion & Response & Perform & Criterial & SymbVal & PhysBod} & 11
+følge & ('follow') &  {Sustain & Dir & Dependence & Procedure & Response & Perform & SymbVal & PhysBod} & 11
+følgje & ('follow') &  {Sustain & Dir & Dependence & Procedure & Response & Perform & SymbVal & PhysBod} & 11
+føre-1 & ('enter, write') &  {Sustain & Dir & Cogn & Impact & Procedure & Perform & SymbVal} & 8
+føre-2 & ('lead') &  {Sustain & Dir & Cogn & Procedure & Perform & Domin & PhysBod} & 4
+førebu & ('prepare') &  {Further & Cogn & Procedure & Creation & Perform & SymbVal} & 10
+føye & ('join, add, concede') &  {Further & Dependence & Response & Unfold & Domin} & 7
+få & ('get') &  {Init & Poss} & 16
+gagne & ('benefit') &  {Sustain & SymbVal & PureRel} & 5
+gamble & ('gamble') &  {Sustain & Perform & Poss & SymbVal} & 3
+gape & ('gape') &  {Procedure & Unfold & Criterial & PhysBod} & 3
+garantere & ('guarantee') &  {Further & Cogn & Procedure & Perform & SymbVal} & 10
+gardere & ('guard') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 5
+gasse-1 & ('gas') &  {Impact & Perform & PhysBod} & 3
+gasse-2 & ('glee') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 5
+gavne & ('benefit') &  {SymbVal & PureRel} & 5
+gi & ('give') &  {Init & Cogn & Procedure & Creation & Perform & Poss & SymbVal} & 22
+gidde & ('bother') &  {Sustain & Response & Perform & PhysBod} & 3
+gifte & ('marry') &  {Sustain & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 3
+gisse & ('guess') &  {Cogn & Procedure & Response & Perform} & 3
+gjelde & ('concern, be urgent') &  {Dependence & Response & Domin & SymbVal} & 4
+gjemme & ('conceal, cover') &  {Sustain & Prevent & Unfold} & 7
+gjengi & ('reproduce') &  {Further & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+gjengjelde & ('reciprocate') &  {Sustain & Cogn & Dependence & Impact & Response & Perform} & 7
+gjennomgå & ('og through') &  {Sustain & Cogn & Procedure & Response} & 3
+gjennomskue & ('see through') &  {Sustain & MedByPrcept & Cogn & Response & SymbVal} & 3
+gjenoppdage & ('rediscover') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+gjenoppleve & ('relive') &  {MedByPrcept & Impact & Creation & Response & SymbVal & PhysBod} & 4
+gjenstå & ('remain') &  {Further & Dependence & Response & SymbVal} & 3
+gjenta & ('repeat') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+gjenutspørre & ('re-interrogate') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+gjespe & ('yawn') &  {Emotion & Response & PhysBod} & 4
+gjette & ('guess') &  {Further & Cogn & Response & Perform & SymbVal} & 6
+gjømme & ('conceal, cover') &  {Sustain & Prevent & Unfold & SymbVal} & 7
+gjøre & ('do') &  {Sustain & Perform & SymbVal} & 16
+gle & ('please, look forward') &  {Sustain & MedByPrcept & Cogn & Emotion & Unfold & Criterial & SymbVal & PhysBod} & 12
+glede & ('please, look forward') &  {Sustain & MedByPrcept & Cogn & Emotion & Unfold & Criterial & SymbVal & PhysBod} & 12
+glefse & ('gulp, bite') &  {Impact & Perform & Criterial & PhysBod} & 3
+glemme & ('forget') &  {Further & Cogn & SymbVal} & 7
+glo & ('stare') &  {Sustain & Perceiving & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+glømme & ('forget') &  {Imped & Cogn & SymbVal} & 6
+gnage & ('gnaw') &  {Perceptible & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & 7
+gni & ('rub') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & PhysBod} & 3
+gnu & ('rub') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & PhysBod} & 3
+gnåle & ('nag') &  {Imped & Cogn & Response & VerbalAct & SymbVal & PhysBod} & 4
+godgjøre & ('treat oneself to') &  {Further & Impact & Procedure & Emotion & Response & Perform} & 4
+godkjenne & ('approve') &  {Sustain & Cogn & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 3
+godta & ('accept') &  {Sustain & Cogn & Impact & Procedure & Response & VerbalAct & SymbVal} & 3
+godte & ('glee') &  {Imped & Cogn & Emotion & Response & Perform & SymbVal & PhysBod} & 4
+gotte & ('glee') &  {Imped & Cogn & Emotion & Response & Perform & SymbVal & PhysBod} & 4
+grafse & ('?') &  {Imped & Impact & Procedure & Perform & SymbVal} & 3
+gratulere & ('congratulate') &  {Further & Cogn & Procedure & Emotion & Response & VerbalAct & SymbVal} & 4
+grave & ('dig') &  {Sustain & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & 8
+gre & ('comb') &  {Dir & Impact & Perform & PhysBod} & 4
+greie & ('manage') &  {Sustain & Procedure & Perform & SymbVal} & 7
+gremme & ('fret') &  {Sustain & Emotion & Response & Unfold & Criterial & SymbVal} & 5
+gremmes & ('resent') &  {Imped & Cogn & Impact & Emotion & Response & SymbVal & PhysBod} & 4
+gripe & ('grasp') &  {Init & Cogn & Impact & Perform & Criterial & PhysBod} & 5
+grise & ('mess') &  {Imped & Impact & Procedure & Perform & SymbVal & PhysBod} & 3
+gro & ('grow') &  {Sustain & Impact & Procedure & Creation & Unfold & SymbVal & PhysBod} & 3
+gruble & ('ponder') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & 7
+grue & ('dread') &  {Sustain & Cogn & Emotion & SymbVal & PhysBod} & 5
+grunne-2 & ('ponder') &  {Sustain & Cogn & Unfold & Perform & SymbVal} & 7
+grunngi & ('justify') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+gruppere & ('group') &  {Sustain & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+grynte & ('grunt') &  {Sustain & Perform & Criterial & PhysBod} & 3
+grøsse & ('shudder') &  {Sustain & Perceptible & Cogn & Emotion & SymbVal & PhysBod} & 5
+gråte & ('weep') &  {Perceptible & Emotion & Response & Unfold & Criterial} & 6
+gå & ('walk') &  {Unfold & Perform} & 17
+ha & ('have') &  {Init & Dependence & Unfold & Poss & PureRel} & 17
+hagle & ('hail') &  {Impact & Procedure & Unfold & PhysBod} & 4
+haike & ('hitchhike') &  {Sustain & Dir & Procedure & Perform & PhysBod} & 3
+hakke & ('hack') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 5
+hale & ('haul, pull') &  {Sustain & Dir & Impact & Procedure & Response & Unfold & Perform & PhysBod} & 3
+hallusinere & ('hallucinate') &  {Sustain & Perceiving & Impact & Emotion & SymbVal & PhysBod} & 3
+halte & ('limp') &  {Dir & Procedure & Unfold & Perform & PhysBod} & 4
+hamre & ('hammer') &  {Further & Impact & Procedure & Perform & PhysBod} & 4
+handle-3 & ('concern, be about') &  {Cogn & SymbVal} & 4
+hardwire & ('hardwire') &  {Sustain & Impact & Procedure & Creation & Perform & PhysBod} & 3
+harme & ('anger, outrage') &  {Emotion & Response & Unfold & Criterial & SymbVal} & 6
+harmes & ('resent') &  {Imped & Cogn & Emotion & Response & Unfold & SymbVal & PhysBod} & 4
+harselere & ('mock') &  {Imped & Cogn & Procedure & VerbalAct & SymbVal} & 4
+harve & ('harrow') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & 3
+haste & ('rush, be urgent') &  {Dir & Unfold & Perform} & 6
+hastevedta & ('approve') &  {Cogn & Response & VerbalAct & SymbVal} & 4
+hate & ('hate') &  {Sustain & Cogn & Impact & Emotion & Response & Unfold & Domin & SymbVal & PhysBod} & 3
+hedre & ('honor') &  {Further & Cogn & Impact & Procedure & Emotion & Response & Perform & SymbVal} & 5
+hefte & ('attach') &  {Sustain & Dependence & Impact & Unfold} & 4
+heie & ('cheer') &  {Sustain & Impact & Procedure & Emotion & Response & Perform & PhysBod} & 3
+heilgardere & ('double-guard') &  {Sustain & Cogn & Procedure & Response & Perform} & 4
+heimle & ('warrant') &  {Further & Cogn & Procedure} & 4
+heise & ('hoist') &  {Dir & Dependence & Impact & Procedure & Perform & PhysBod} & 4
+hekte & ('hook, hitch') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+helgardere & ('double-guard') &  {Sustain & Cogn & Procedure & Response & Perform} & 4
+helle-1 & ('lean') &  {Sustain & Dir & SymbVal} & 3
+hemmeligholde & ('keep secret') &  {Sustain & Cogn & Procedure & Response & Perform & Domin & SymbVal} & 3
+hende & ('happen') &  {Init & SymbVal & PureRel} & 5
+henge & ('hang') &  {Sustain & Dir & Dependence & Impact & Unfold & Criterial & PhysBod} & 10
+henholde & ('observe') &  {Cogn & Dependence & Procedure & Response & Perform & SymbVal} & 4
+henstille & ('request') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+hentyde & ('allude') &  {Cogn & SymbVal} & 4
+hevde & ('claim') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+heve-1 & ('raise') &  {Sustain & Dir & Impact & Procedure & Perform & SymbVal & PhysBod} & 4
+hevne & ('revenge, retaliate') &  {Sustain & Cogn & Impact & Procedure & Emotion & Response & Perform & SymbVal} & 7
+hige & ('long') &  {Further & Cogn & Emotion & Response & Unfold & Perform & SymbVal & PhysBod} & 3
+hilse & ('greet') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+hindre & ('prevent') &  {Imped & Impact & Procedure & Perform & SymbVal} & 21
+hinke & ('limp') &  {Sustain & Dir & Procedure & Perform & Criterial & PhysBod} & 3
+hisse & ('anger') &  {Imped & Perceptible & Emotion & Unfold & Perform & Domin & SymbVal & PhysBod} & 6
+hive & ('throw') &  {Dir & Perceptible & Impact & Perform & Domin & Criterial & PhysBod} & 10
+hjelpe & ('help') &  {Further & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 11
+hjemle & ('warrant') &  {Further & Cogn & Impact & Procedure & Creation & Response & VerbalAct & Poss & SymbVal} & 4
+hofferde & ('look down on') &  {Imped & Cogn & Emotion & SymbVal} & 3
+hogge & ('chop') &  {Sustain & Perceptible & Cogn & Impact & Perform & Criterial & PhysBod} & 7
+hoie & ('call') &  {Sustain & Response & VerbalAct & Criterial & SymbVal & PhysBod} & 3
+holde & ('hold') &  {Sustain & Impact & Unfold & Perform & Domin & Criterial & SymbVal & PhysBod & PureRel} & 29
+honorere & ('honor') &  {Sustain & Cogn & Impact & Procedure & Response & VerbalAct & Poss & SymbVal} & 5
+hope & ('heap') &  {Sustain & Impact & Procedure & PhysBod} & 3
+hoppe & ('jump') &  {Dir & Impact & Perform & Criterial & PhysBod} & 4
+hovere & ('glee') &  {Imped & Cogn & Emotion & Response & Unfold & Perform & Domin & SymbVal} & 3
+hovmode & ('be arrogant') &  {Imped & Cogn & Emotion & Response} & 3
+huge & ('please') &  {Init & MedByPrcept & Cogn & Emotion & SymbVal} & 5
+hugge & ('chop') &  {Sustain & Perceptible & Cogn & Impact & Perform & PhysBod} & 7
+hugse & ('remember') &  {Further & Cogn & Response & Perform & SymbVal} & 7
+hugsvale & ('please') &  {Init & MedByPrcept & Cogn & Emotion & SymbVal} & 5
+hugta & ('please') &  {Init & MedByPrcept & Cogn & Emotion & SymbVal} & 5 
+huke-1 & ('hook ') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+humpe & ('humpe') &  {Dir & Impact & Procedure & PhysBod} & 3
+humre & ('hum') &  {Sustain & Perceptible & Cogn & Emotion & Perform & Criterial & SymbVal & PhysBod} & 5
+hungre & ('hunger') &  {Imped & MedByPrcept & Impact & Emotion & Response & Unfold & SymbVal & PhysBod} & 4
+huske & ('remember') &  {Sustain & Cogn & Emotion & Creation & Response & Perform & SymbVal} & 9
+husvale & ('please') &  {Init & MedByPrcept & Cogn & Emotion & SymbVal} & 5 
+hvelve & ('vault') &  {Sustain & Criterial & PhysBod} & 3
+hvile & ('rest') &  {Sustain & Impact & Procedure & Response & Unfold & SymbVal} & 3
+hviske & ('whisper') &  {Sustain & VerbalAct & Criterial & SymbVal} & 7
+hygge & ('enjoy oneself') &  {Sustain & Emotion & Unfold & Perform & SymbVal & PhysBod} & 6
+hykle & ('be hypocritical') &  {Imped & Cogn & Procedure & Unfold & verbal & SymbVal} & 6
+hylle & ('praise') &  {Further & Procedure & Emotion & Response & Unfold & Perform & SymbVal & PhysBod} & 4
+hyre & ('hire') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & 9
+hysje & ('hush') &  {Sustain & Procedure & Response & VerbalAct & PhysBod} & 3
+hysse & ('hush') &  {Sustain & Procedure & Response & VerbalAct & PhysBod} & 3
+hølje & ('pour') &  {Impact & Procedure & Unfold & Domin & PhysBod} & 3
+hør & ('should') &  {Sustain & Cogn & SymbVal} & 3
+høre & ('hear') &  {Sustain & MedByPrcept & Cogn & Criterial & SymbVal & PhysBod} & 14
+høres & ('sound') &  {Further & MedByPrcept & Criterial & SymbVal & PhysBod} & 5
+høve & ('suit, care') &  {Init & SymbVal & PureRel} & 18
+høvle & ('plane') &  {Sustain & Impact & Procedure & Creation & Perform & PhysBod} & 3
+håne & ('mock') &  {Imped & Procedure & Emotion & Response & Unfold & Perform & SymbVal & PhysBod} & 4
+håpe & ('hope') &  {Further & Cogn & Emotion & Response & SymbVal} & 6
+iaktta & ('observe') &  {Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+identifisere & ('identify') &  {Further & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 4
+ignorere & ('ignore') &  {Sustain & Cogn & Procedure & Response & Unfold & Perform & Domin & SymbVal} & 3
+ildne & ('fire up') &  {Further & Impact & Emotion & Response & Perform & SymbVal & PhysBod} & 4
+immunisere & ('immunize') &  {Init & Impact & Procedure & Perform & Domin} & 6
+implisere & ('imply, implicate') &  {Further & Dependence & SymbVal} & 4
+imponere & ('impress') &  {Sustain & Cogn & Impact & Emotion & Response & Domin & SymbVal} & 3
+incitere & ('incite') &  {Sustain & Cogn & Impact & Emotion & Creation & Perform & SymbVal} & 3
+indikere & ('indicate') &  {Further & Cogn & SymbVal} & 7
+individuere & ('individuate') &  {Sustain & Cogn & Procedure & Creation & Response & Perform} & 3
+infiltrere & ('infiltrate') &  {Imped & Impact & Procedure & Perform & Domin & Criterial & SymbVal} & 3
+influere & ('influence') &  {Sustain & Impact & Procedure & Domin} & 3
+informere & ('inform') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 9
+innanke & ('appeal') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 3
+innarbeide & ('incorporate') &  {Further & Impact & Procedure & Creation & Response & Perform & SymbVal} & 4
+innavle & ('inbreed') &  {Imped & Impact & Procedure & Perform & SymbVal & PhysBod} & 3
+innberette & ('report') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+innbille & ('imagine') &  {MedByPrcept & Cogn & SymbVal & PhysBod} & 5
+innblande & ('involve') &  {Further & Impact & Procedure & Perform} & 6
+innby & ('invite') &  {Further & Dependence & Procedure & Perform & Domin} & 3
+innebære & ('imply') &  {Dependence & SymbVal & PureRel} & 5
+innfiltre & ('infiltrate') &  {Imped & Impact & Procedure & Perform & SymbVal} & 3
+innforlive & ('immerse') &  {Further & Cogn & Emotion & Response & Perform} & 4
+inngå & ('enter into') &  {Further & Cogn & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+innkalkulere & ('factor in') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+innkalle & ('summon') &  {Further & Dir & Dependence & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+innklage & ('sue') &  {Imped & Impact & Procedure & Perform & Domin} & 6
+innlede & ('initiate') &  {Further & Procedure & Response & SymbVal} & 3
+innlosjere & ('accommodate') &  {Sustain & Impact & Procedure & Response & Perform & Criterial} & 3
+innordne & ('accommodate') &  {Further & Impact & Procedure & Perform} & 6
+innpasse & ('accommodate') &  {Sustain & Dir & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 8
+innpode & ('instill') &  {Impact & Procedure & Creation & Perform & PhysBod} & 4
+innprente & ('') &  {Sustain & Cogn & Dependence & Impact & Procedure & Perform & SymbVal} & 8
+innrapportere & ('report') &  {Further & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 7
+innrette & ('adapt') &  {Further & Cogn & Impact & Procedure & Perform & PhysBod} & 5
+innrykke & ('move in') &  {Impact & Procedure & Perform} & 4
+innrømme & ('admit') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+innse & ('realize') &  {Further & MedByPrcept & Cogn & Response & Perform & SymbVal} & 4
+innsikte & ('sight') &  {Dir & Cogn & Procedure & Perform & PhysBod} & 4
+innskrenke & ('restrict') &  {Imped & Impact & Procedure & Response & Perform} & 4
+innskrive & ('enroll') &  {Sustain & Cogn & Dependence & Procedure & Creation & Perform & Domin & SymbVal} & 3
+innskyte & ('add note') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+innstemne & ('subpoena') &  {Further & Dir & Cogn & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+innstevne & ('subpoena') &  {Further & Dir & Cogn & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+innstille & ('prepare, tune, stop') &  {Prevent & Impact & Procedure & Perform & Domin} & 6
+inntreffe & ('occur') &  {Init & Impact & Loc} & 4
+innvarsle & ('herald') &  {Sustain & Cogn & SymbVal} & 3
+innvelge & ('elect') &  {Impact & Procedure & Perform & SymbVal} & 5
+innvende & ('object') &  {Imped & Cogn & VerbalAct} & 5
+innvie & ('inaugurate') &  {Init & Impact & Procedure & Creation & Perform & SymbVal} & 6
+inseminere & ('inseminate') &  {Sustain & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 3
+insinuere & ('insinuate') &  {Imped & Cogn & Impact & Procedure & Emotion & VerbalAct & SymbVal} & 3
+insistere & ('insist') &  {Sustain & Cogn & Procedure & Response & VerbalAct} & 4
+installere & ('install') &  {Further & Impact & Procedure & Perform & PhysBod} & 4
+instruere & ('instruct') &  {Further & Cogn & Impact & Procedure & Perform & SymbVal} & 7
+interagere & ('interact') &  {Sustain & Dependence & Procedure & Response & Perform & SymbVal} & 3
+interessere & ('interest') &  {Sustain & Cogn & Emotion & SymbVal} & 9
+interferere & ('interfere') &  {Sustain & Dependence & Impact & Procedure & Response & SymbVal} & 3
+interpellere & ('interpellate') &  {Sustain & Cogn & Procedure & VerbalAct & Domin & SymbVal} & 3
+interpolere & ('interpolate') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 3
+introdusere & ('introduce') &  {Further & Procedure & VerbalAct & SymbVal} & 5
+investere & ('invest') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & Poss & SymbVal} & 3
+invitere & ('invite') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 3
+involvere & ('involve') &  {Further & Impact & SymbVal} & 5
+irettesette & ('reprimand') &  {Imped & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+ironisere & ('ironize') &  {Imped & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+irritere & ('irritate') &  {Imped & Impact & Emotion & Domin & PhysBod} & 6
+ise & ('ice') &  {Sustain & Impact & PhysBod} & 4
+isolere & ('isolate') &  {Sustain & Impact & Procedure & Response} & 4
+ispe & ('add  ') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+istemme & ('sing') &  {Sustain & Cogn & Procedure & Response & VerbalAct} & 4
+ivre & ('be eager') &  {Further & Cogn & Perform & SymbVal} & 7
+jabbe & ('chatter') &  {Imped & Cogn & Procedure & Response & VerbalAct & SymbVal & PhysBod} & 4
+jage & ('hunt') &  {Sustain & Dir & Dependence & Impact & Procedure & Unfold & Perform & Domin & PhysBod} & 3
+jakte & ('hunt') &  {Init & Procedure & Perform & Domin & PhysBod} & 4
+jamføre & ('compare') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+jamre & ('moan') &  {Imped & Perceptible & Cogn & Perform & Criterial & SymbVal & PhysBod} & 10
+jamstille & ('equal') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 3
+jatte & ('lip serve') &  {Imped & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+jekke & ('jack') &  {Impact & Procedure & Perform & Criterial & PhysBod} & 4
+jenke & ('yield') &  {Sustain & Dependence & Impact & Response & Domin} & 4
+jevnføre & ('compare') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+jobbe & ('work') &  {Sustain & Cogn & Procedure & Unfold & Perform & PhysBod} & 5
+joike & ('joik') &  {Cogn & Procedure & VerbalAct & SymbVal & PhysBod} & 5
+juble & ('cheer') &  {Sustain & Procedure & Response & Perform & SymbVal & PhysBod} & 4
+jukse & ('cheat') &  {Imped & Procedure & Response & Perform & SymbVal} & 4
+jumpe & ('jump') &  {Dir & Impact & Perform & Criterial & PhysBod} & 3
+kable & ('wire') &  {Sustain & Dependence & Impact & Procedure & Creation & Perform & PhysBod} & 3
+kakke & ('knock') &  {Perceptible & Impact & Procedure & Perform & Criterial & PhysBod} & 4
+kalkulere & ('calculate') &  {Cogn & Procedure & Creation & Response & Perform & SymbVal} & 4
+kalle-1 & ('name, call') &  {Init & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 4
+kalle-2 & ('call') &  {Further & Cogn & Dependence & Procedure & Response & VerbalAct & Domin} & 4
+kandidere & ('be candidate') &  {Init & Procedure & SymbVal} & 5
+kantre & ('capsize') &  {Imped & Impact & Response & PhysBod} & 4
+kappdrikke & ('cup drink') &  {Sustain & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 4
+kappe & ('chop, cut') &  {Impact & Procedure & Perform} & 6
+kappes & ('compete') &  {Sustain & Procedure & Response & Perform & Domin & SymbVal} & 4
+kappkjøre & ('race') &  {Procedure & Perform & Domin & PhysBod} & 6
+kaste & ('throw') &  {Sustain & Dir & Perceptible & Impact & Perform & Criterial & PhysBod} & 5
+kastebytte & ('exchange') &  {Sustain & Procedure & Response & Perform & Poss & SymbVal & PhysBod} & 3
+kausjonere & ('vouch') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & Poss & SymbVal & PhysBod} & 3
+kave & ('fumble') &  {Imped & Dir & PhysBod} & 4
+kike & ('look') &  {Perceiving & Unfold & Perform & Criterial & PhysBod} & 5
+kikke & ('look') &  {Perceiving & Unfold & Perform & Criterial & PhysBod} & 5
+kile-2 & ('tickle') &  {ImpactSensory & Impact & Perform & Criterial & PhysBod} & 6     
+kimse & ('ignore, belittle') &  {Cogn & Response & Perform & SymbVal} & 3
+kisle & ('tickle') &  {Imped & ImpactSensory & Impact & Unfold & PhysBod} & 4	
+kitle & ('tickle') &  {Imped & ImpactSensory & Impact & Unfold & PhysBod} & 4	
+kives & ('fight') &  {Sustain & Cogn & Procedure & Response & Unfold & Perform & Domin} & 4
+kjangse & ('risk, take a chance') &  {Further & Cogn & Perform & SymbVal} & 5
+kjempe & ('fight') &  {Sustain & Cogn & Dependence & Impact & Response & Perform & Domin & Criterial & SymbVal & PhysBod} & 10
+kjenne & ('feel, know') &  {Sustain & ImpactSensory & MedByPrcept & Perceiving & Cogn & Impact & Response & Perform & SymbVal & PhysBod} & 16  
+kjennetegne & ('characterize') &  {SymbVal & PureRel} & 5
+kjøle & ('cool') &  {Sustain & ImpactSensory & Impact & Perform & Unfold & PhysBod} & 4	
+kjøpe & ('buy') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & Perform & Poss} & 10
+kjøre & ('drive') &  {Sustain & Dir & Cogn & Procedure & Perform & Criterial & PhysBod} & 12
+klage & ('complain') &  {Sustain & Cogn & Procedure & Emotion & Response & Perform & SymbVal} & 7
+klamre & ('clutch') &  {Sustain & Procedure & Response & Perform & PhysBod} & 4
+klandre & ('blame') &  {Imped & Cogn & Procedure & Emotion & Response & VerbalAct & Domin & SymbVal} & 4
+klappe & ('clap. Pat') &  {Sustain & Perceptible & Impact & Perform & PhysBod} & 9
+klapre & ('rattle') &  {Perceptible & Impact & Procedure & Criterial & PhysBod} & 3
+klare & ('manage') &  {Further & Impact & Response & Perform & SymbVal} & 7
+klarere & ('cle+B466ar, prepare') &  {Further & Procedure & Creation & verbal & SymbVal} & 6
+klargjøre & ('clear, prepare') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & PhysBod} & 7
+klarne & ('clear') &  {Sustain & Perceptible & Impact & Unfold & Criterial & PhysBod} & 3
+klaske & ('slap') &  {Sustain & Impact & Perform & Domin & Criterial & PhysBod} & 3
+klatre & ('climb') &  {Sustain & Dir & Procedure & Perform & PhysBod} & 4
+kle & ('dress') &  {Sustain & Cogn & Impact & Procedure & Unfold & Perform & PhysBod} & 10
+klebe & ('glue') &  {Sustain & Perceptible & Impact & Criterial & PhysBod} & 5
+klemme & ('squeeze') &  {Sustain & Impact & Criterial & PhysBod} & 3
+klenge & ('cling') &  {Imped & Impact & Response & Unfold & Criterial & PhysBod} & 3
+klinke & ('clink') &  {Impact & Criterial & PhysBod} & 3
+klippe & ('cut, clip') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 5
+klirre & ('clink') &  {Sustain & Perceptible & Response & Unfold & PhysBod} & 4
+klisse & ('make a sticky mess') &  {Imped & Perceptible & Impact & Unfold & SymbVal & PhysBod} & 4
+klistre & ('glue') &  {Sustain & Perceptible & Impact & Criterial & PhysBod} & 7
+klive & ('step, climb') &  {Dir & Perform & Criterial & PhysBod} & 3
+klore & ('claw') &  {Perceptible & Impact & Procedure & Perform & Criterial & PhysBod} & 6
+klubbe & ('club') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 5
+kludre & ('meddle') &  {Imped & Impact & Perform & Criterial & PhysBod} & 3
+klukkle & ('chuckle') &  {Perceptible & Response & Unfold & Perform & Criterial & PhysBod} & 3
+klunke & ('strum?') &  {Impact & Unfold & Perform & Criterial & PhysBod} & 3
+klynge & ('cluster') &  {Sustain & Response & Perform & Criterial & PhysBod} & 3
+klø & ('itch') &  {Imped & ImpactSensory & Perceptible & Criterial & PhysBod} & 7	  
+knake & ('croak') &  {Perceptible & Impact & Response & Unfold & Criterial & PhysBod} & 3
+knalle & ('bang') &  {Perceptible & Impact & Criterial & PhysBod} & 3
+knappe-1 & ('button') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+knappe-2 & ('reduce') &  {Sustain & Impact & Procedure & Perform & SymbVal} & 3
+knase & ('crush') &  {Perceptible & Impact & Criterial & PhysBod} & 3
+kneise & ('crane, hold high') &  {Criterial & PhysBod} & 3
+knekke & ('break') &  {Imped & Perceptible & Impact & Unfold & Perform & Criterial & PhysBod} & 7
+knele & ('kneel') &  {Sustain & Procedure & Perform & Criterial & PhysBod} & 3
+kneppe & ('button') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+knipe & ('squeeze') &  {Imped & Perceptible & Impact & PhysBod} & 4
+knipse & ('snap') &  {Impact & Perform & PhysBod} & 4
+knives & ('fight') &  {Procedure & Response & Perform & Domin & SymbVal} & 4
+knulle & ('fuck') &  {Sustain & Dependence & Impact & Procedure & Emotion & Unfold & Perform & Criterial & PhysBod} & 3
+knyste & ('make a sound') &  {Imped & Cogn & Response & Perform & Criterial & SymbVal & Loc & PhysBod} & 5
+knyte & ('knit') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 9
+knytte & ('knit') &  {Sustain & Impact & Perform & Criterial & PhysBod} & 9
+koble & ('couple') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 13
+kode & ('code') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 7
+kodifisere & ('codify') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 3
+koke & ('boil, cook') &  {Sustain & Perceptible & Impact & Unfold & Criterial & PhysBod} & 7
+kokettere & ('coqueteer') &  {Imped & Cogn & Procedure & Unfold & Perform & PhysBod} & 9
+kollokvere & ('colloquiate') &  {Sustain & Cogn & Procedure & Unfold & verbal} & 6
+kombinere & ('combine') &  {Sustain & Procedure & Creation & Perform & SymbVal} & 4
+kommandere & ('command') &  {Further & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal & PhysBod} & 3
+komme & ('come') &  {Dir & PhysBodly} & 30
+kommentere & ('comment') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+kommunisere & ('communicate') &  {Further & Cogn & Procedure & Perform & SymbVal} & 7
+kompensere & ('compensate') &  {Sustain & Impact & Response & Perform & SymbVal} & 9
+komplimentere & ('compliment') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+kompromittere & ('compromise') &  {Imped & Impact & SymbVal} & 7
+kondolere & ('condole') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+konferere & ('confer') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 11
+konfirmere-1 & ('confirm') &  {x & x & x & x & vocal & x} & 2
+konfrontere & ('confront') &  {Imped & Impact & Procedure & Response & Perform & Domin & SymbVal} & 4
+konkludere & ('conclude') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 5
+konkurrere & ('compete') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & 8
+konsentrere & ('concentrate') &  {Sustain & Creation & Perform & SymbVal} & 6
+konspirere & ('conspire') &  {Further & Cogn & Procedure & Perform & Domin} & 4
+konstatere & ('ascertain') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+konstituere & ('constitute') &  {Init & Cogn & Impact & Procedure & Perform & Domin & SymbVal} & 4
+kontinuere & ('continue') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+kontrastere & ('contrast') &  {SymbVal} & 5
+kontrollere & ('control') &  {Sustain & Cogn & Procedure & Response & Perform & Domin & SymbVal} & 4
+konversere & ('converse') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 9
+konvertere-1 & ('convert') &  {x & x & x & x & x & x} & 2
+konvertere-2 & ('convert') &  {x & x & x & x & x & x} & 2
+kooperere & ('cooperate') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & 8
+koordinere & ('coordinate') &  {Further & Cogn & Procedure & Response & Perform & SymbVal} & 4
+kople & ('couple') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 11
+kopulere & ('copulate') &  {Sustain & Dependence & Impact & Procedure & Emotion & Unfold & Perform & SymbVal & PhysBod} & 3
+korrespondere-1 & ('correspond') &  {Sustain & Cogn & Procedure & Creation & Unfold & Perform & SymbVal} & 8
+korte & ('shorten') &  {Imped & Impact & SymbVal} & 4
+kose & ('enjoy') &  {Sustain & Procedure & Emotion & Unfold & SymbVal & PureRel} & 5
+koseprate & ('smalltalk') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 10
+koste-1 & ('afford, cost') &  {Sustain & Cogn & Impact & SymbVal} & 8
+krafse & ('cram') &  {Imped & Unfold & Perform & Criterial & PhysBod} & 3
+kramme & ('squeeze, hug') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+krangle & ('argue') &  {Imped & Cogn & Procedure & Emotion & Response & VerbalAct & SymbVal} & 13
+krasje & ('crash') &  {Prevent & Impact & Domin & PhysBod} & 4
+kreditere & ('credit') &  {Procedure & Perform & SymbVal} & 6
+krenge & ('lean') &  {Impact & Response & PhysBod} & 4
+kreve & ('demand') &  {Sustain & Cogn & Dependence & Procedure & Perform & Domin & SymbVal} & 11
+krille & ('tickle, itch') &  {Imped & ImpactSensory & Emotion & Unfold & Criterial & PhysBod} & 3	
+kringkaste & ('broadcast') &  {Cogn & Procedure & Perform} & 6
+krisle & ('tickle, itch') &  {ImpactSensory & Unfold & Criterial & PhysBod} & 3	
+kritisere & ('criticize') &  {Further & Cogn & Impact & Procedure & Response & VerbalAct & SymbVal} & 5
+kroke & ('crouch') &  {Impact & Unfold & Perform & Criterial & PhysBod} & 3
+krote & ('scratch') &  {Imped & Cogn & Procedure & verbal & Criterial & PhysBod} & 6
+kruse & ('curl') &  {Impact & Unfold & Criterial & PhysBod} & 3
+krympe & ('shrink') &  {Impact & Procedure & Unfold & Criterial & PhysBod} & 3
+krysse-1 & ('check') &  {Sustain & Cogn & Impact & Perform & Criterial & PhysBod} & 3
+kryssforhøre & ('crossexamine') &  {Imped & Cogn & Procedure & Response & VerbalAct & Domin} & 4
+krøke & ('crouch') &  {Impact & Unfold & Perform & Criterial & PhysBod} & 3
+krølle & ('curl, crumple') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+kultivere & ('cultivate') &  {Further & Impact & Procedure & Creation & Perform & SymbVal} & 4
+kunne & ('could') &  {Init & Domin & SymbVal} & 3
+kunngjøre & ('announce') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+kurere & ('cure') &  {Sustain & Impact & Procedure & Creation & Response & SymbVal & PhysBod} & 3
+kurse & ('course') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & 3
+kutte & ('cut') &  {Prevent & Impact & Perform & Criterial & Loc & PhysBod} & 5
+kvalifisere & ('qualify') &  {Further & Procedure & Perform & SymbVal} & 6
+kvede & ('sing') &  {Cogn & Procedure & verbal} & 6
+kvege & ('sooth') &  {Further & MedByPrcept & Impact & Emotion & SymbVal & PhysBod} & 3
+kvekke-2 & ('croak') &  {x & x & x & x & x & x} & 1
+kvelve & ('capsize') &  {Imped & Impact & Criterial & PhysBod} & 3
+kverve & ('fade') &  {Imped & Impact & SymbVal & PhysBod} & 3
+kvi & ('refrain') &  {Imped & Emotion & Response & Domin & SymbVal & PhysBod} & 3
+kvie & ('refrain') &  {Imped & Emotion & Response & Domin & SymbVal & PhysBod} & 3
+kvikke & ('quicken') &  {Further & Impact & Emotion & Response & Criterial & SymbVal & PhysBod} & 3
+kvile & ('restrict') &  {Sustain & Procedure & Response & PhysBod} & 4
+kvittere & ('sign for receipt') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal & PhysBod} & 5
+kysse & ('kiss') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & Criterial & SymbVal & PhysBod} & 3
+kyte & ('complain') &  {Imped & Procedure & Response & VerbalAct & PhysBod} & 4
+kødde & ('provoke') &  {Imped & Cogn & Procedure & Perform & SymbVal & PhysBod} & 9
+kåre & ('choose') &  {Further & Cogn & Impact & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+kåsere & ('talk') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+la-1 & ('let') &  {Dependence & SymbVal & PuRel} & 5
+lade & ('load') &  {Sustain & Impact & Procedure & Unfold & PhysBod} & 6
+lage-1 & ('make, create') &  {Init & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 4
+lange & ('provide, hand') &  {Sustain & Dir & Impact & Perform & Criterial & PhysBod} & 5
+lansere & ('launch') &  {Further & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 4
+lappe & ('patch') &  {Sustain & Impact & Procedure & Creation & Response & Perform & Criterial & SymbVal} & 3
+laste & ('load') &  {Cogn & Impact & Procedure & Perform & PhysBod} & 6
+late-1 & ('seem, pretend') &  {Sustain & Cogn & Unfold & SymbVal} & 4
+le & ('laugh') &  {Sustain & Perceptible & Cogn & Emotion & Unfold & verbal & Criterial & SymbVal & PhysBod} & 6
+lede & ('lead') &  {Further & Dir & Procedure & SymbVal} & 4
+ledes & ('be bored') &  {Sustain & Cogn & Impact & Emotion & Response & Unfold & SymbVal} & 7
+legalisere & ('legalize') &  {Sustain & Cogn & Impact & Procedure & Creation & VerbalAct & Domin & SymbVal} & 4
+legge & ('lay') &  {Dir & Perform & Criterial & SymbVal & Loc & PhysBod} & 11
+legitimere & ('legitimate') &  {Sustain & Cogn & Procedure & VerbalAct & Domin & SymbVal} & 4
+leie-1 & ('rent') &  {Further & Cogn & Procedure & VerbalAct & Domin & Poss & SymbVal} & 4
+leike & ('play') &  {Sustain & Procedure & Response & Perform & Criterial & PhysBod} & 10
+leke & ('play') &  {Sustain & Procedure & Response & Perform & Criterial & PhysBod} & 10
+lekke & ('leak') &  {Imped & Unfold & PhysBod} & 4
+lekse & ('list up') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+lemme & ('close') &  {Sustain & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & 3
+lempe & ('throw') &  {Dir & Impact & Perform & Criterial & PhysBod} & 5
+lenges & ('long') &  {MedByPrcept & Cogn & Dependence & Emotion & Response & Unfold & SymbVal & PhysBod} & 4
+lengte & ('long') &  {Further & Cogn & Emotion & Unfold & SymbVal & PhysBod} & 3
+lenke & ('link, chain') &  {Sustain & Dependence & Procedure & Response & Perform & PhysBod} & 3
+lense & ('drain') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & 4
+lese & ('read') &  {Sustain & MedByPrcept & Cogn & Procedure & Creation & Perform & SymbVal} & 10
+leske & ('refresh') &  {Sustain & ImpactSensory & Response & SymbVal & PhysBod} & 3	  
+lesse & ('unload') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & 3
+lete & ('search') &  {Sustain & Cogn & Procedure & Response & Unfold & Perform & PhysBod} & 3
+letne & ('lighten') &  {Sustain & Impact & Procedure & Unfold & PhysBod} & 3
+lette & ('lighten') &  {Sustain & Impact & PhysBod} & 7
+leve & ('live') &  {Init & Unfold & SymbVal} & 10
+levere & ('deliver') &  {Sustain & Cogn & Impact & Procedure & Perform & Poss & SymbVal} & 3
+levne & ('leave') &  {Sustain & Perform & Poss} & 3
+lide & ('suffer') &  {Imped & Perceptible & Impact & Emotion & Response & Unfold & PhysBod} & 4
+ligge & ('lie') &  {Perceptible & Unfold & Criterial & PhysBod} & 5
+ligne-1 & ('resemble') &  {Further & MedByPrcept & Cogn & SymbVal & PureRel} & 3	
+like & ('like') &  {Cogn & Emotion & Response & SymbVal PureRel} & 4 
+likne-1 & ('resemble') &  {Sustain & MedByPrcept & Cogn & SymbVal PureRel} & 4 
+lirke & ('pry') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+lisensiere & ('licence') &  {Further & Cogn & Dependence & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+livberge & ('make a living') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & 6
+livnære & ('nourish, make a living') &  {Sustain & Impact & Unfold & Perform & PhysBod} & 7
+livsforsikre & ('take out life insurance') &  {Sustain & Cogn & Dependence & Procedure & Response & VerbalAct & Poss & SymbVal} & 4
+ljome & ('sound') &  {Sustain & Perceptible & Impact & Unfold & Criterial & PhysBod} & 3
+ljuge & ('lie') &  {Imped & Response & verbal & SymbVal & PhysBod} & 6
+logge & ('log') &  {Sustain & Cogn & Procedure & Perform & PhysBod} & 9
+lokalisere & ('localize') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+lokke-1 & ('lure') &  {MedByPrcept & Impact & Domin & SymbVal} & 6
+love & ('promise') &  {Further & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 8
+lovfeste & ('legislate') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & Domin & SymbVal} & 3
+lovheimle & ('legalize') &  {Sustain & Cogn & Dependence & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+lovhjemle & ('legalize') &  {Sustain & Cogn & Dependence & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+lufte & ('air') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & 4
+lugge & ('lug') &  {Imped & Impact & PhysBod} & 4
+luke & ('weed') &  {Sustain & Procedure & Response & Perform & PhysBod} & 4
+lukke & ('close') &  {Impact & Procedure & Response & Perform} & 4
+lukte & ('smell') &  {Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & 8
+lure-1 & ('sneak, lure') &  {Imped & Impact & SymbVal} & 5
+lyde-1 & ('sound') &  {MedByPrcept & Criterial & SymbVal & PhysBod} & 5
+lyge & ('lie') &  {Imped & verbal & SymbVal & PhysBod} & 6
+lykkeønske & ('congratulate') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+lykkønske & ('congratulate') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+lyse-1 & ('lighten') &  {Sustain & Perceptible & Unfold & PhysBod} & 3
+lytte & ('listen') &  {Sustain & Perceiving & Procedure & Response & Perform & Criterial & PhysBod} & 3
+lyve & ('lie') &  {Imped & verbal & SymbVal & PhysBod} & 6
+lære & ('learn, teach') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Domin & SymbVal} & 14
+løfte & ('lift') &  {Sustain & Dir & Impact & Perform} & 5
+lønne & ('reward, pay wages') &  {Sustain & Cogn & Impact & Creation & Response & Perform & Domin & Poss & SymbVal} & 7
+løpe & ('run') &  {Dir & Procedure & Unfold & Perform} & 7
+løse & ('solve') &  {Sustain & Dependence & Impact & Perform & Criterial & PhysBod} & 5
+løsgjøre & ('loosen') &  {Sustain & Dependence & Impact & Perform} & 3
+løskjøpe & ('buy out') &  {Sustain & Impact & Procedure & Perform & Domin & Poss & SymbVal} & 3
+løsne & ('loosen') &  {Sustain & Dependence & Impact & Criterial & PhysBod} & 5
+løyse & ('solve, loosen') &  {Further & Dependence & Impact & Response & Perform & Domin & PhysBod} & 4
+låne & ('lend') &  {Sustain & Cogn & Dependence & Procedure & Perform & Poss} & 5
+låse & ('lock') &  {Sustain & Cogn & Impact & Perform & Domin & Criterial & PhysBod} & 10
+låte & ('sound') &  {Perceptible & Unfold & Criterial & SymbVal & PhysBod} & 5
+male & ('paint') &  {Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 6
+mane & ('urge') &  {Further & Cogn & Procedure & VerbalAct & Domin & SymbVal} & 4
+mangle & ('lack') &  {Sustain & Cogn & SymbVal} & 11
+manifestere & ('manifest') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 4
+mankere & ('lack') &  {Imped & Dependence & Domin & SymbVal} & 4
+markedsføre & ('market') &  {Sustain & Cogn & Procedure & Response & Perform & Poss & SymbVal} & 4
+markere & ('mark') &  {Sustain & Cogn & Dependence & Perform & SymbVal} & 5
+mase & ('nag') &  {Imped & verbal & Criterial & SymbVal} & 6
+maskere & ('mask') &  {Procedure & Response & Perform & SymbVal & PhysBod} & 4
+mate & ('feed') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal & PhysBod} & 3
+medbestemme & ('co-determine') &  {Sustain & Dependence & Procedure & Response & Domin & SymbVal} & 3
+meddele & ('communicate') &  {Cogn & Procedure & VerbalAct & SymbVal} & 5
+medføre & ('entail') &  {Further & Dependence & Domin & SymbVal & PureRel} & 3
+meditere & ('meditate') &  {Sustain & Cogn & Procedure & Emotion & Unfold & Perform & SymbVal & PhysBod} & 5
+medundertegne & ('co-sign') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+medvirke & ('contribute') &  {Further & Dependence & Procedure & Response & Perform & Domin & SymbVal} & 4
+megle & ('mediate') &  {Sustain & Cogn & Dependence & Impact & Procedure & VerbalAct & SymbVal} & 5
+mekle & ('mediate') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+melde & ('report') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 16
+mene & ('mean') &  {Sustain & Cogn & Response & SymbVal} & 4
+merke-1 & ('mark, brand') &  {Sustain & Cogn & Impact & Procedure & Perform & SymbVal} & 3
+merke-2 & ('notice') &  {MedByPrcept & Cogn & Response & Perform & SymbVal & PhysBod} & 6
+messe & ('mass') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 5
+mimre & ('reminisce') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & Criterial & SymbVal} & 5
+minne & ('remind') &  {Sustain & Cogn & Unfold & Perform & SymbVal} & 8
+minnes & ('remember') &  {Sustain & MedByPrcept & Cogn & Emotion & Perform & SymbVal} & 3
+misjonere & ('mission') &  {Sustain & Cogn & Procedure & Unfold & Perform & Domin & SymbVal} & 3
+mislike & ('dislike') &  {Imped & Cogn & Emotion & Response & SymbVal} & 3
+mislykkes & ('fail') &  {Imped & Impact & SymbVal} & 3
+misse & ('miss') &  {Imped & Impact & SymbVal} & 3
+mista & ('err, mistake') &  {Imped & Cogn & Impact & SymbVal} & 3
+mistenke & ('suspect') &  {Sustain & Cogn & Response & Perform & SymbVal} & 3
+misunne & ('envy') &  {Imped & Cogn & Emotion & Response & Unfold & SymbVal} & 4
+mobbe & ('mob') &  {Imped & Impact & Procedure & Emotion & Response & Perform & Domin & SymbVal & PhysBod} & 3
+mobilisere & ('mobilize') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & Domin & SymbVal & PhysBod} & 3
+montere & ('install') &  {Sustain & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 3
+moralisere & ('moralize') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+more & ('amuse') &  {Sustain & Cogn & Impact & Emotion & Unfold & Perform & SymbVal} & 8
+motivere & ('motivate') &  {Cogn & Impact & Procedure & Emotion & Creation & Perform & SymbVal} & 6
+motsette & ('oppose') &  {Imped & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+mudre & ('dredge') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+mukke & ('mumble') &  {Imped & Cogn & Response & VerbalAct & Domin & SymbVal} & 4
+mukke & ('mumble') &  {Imped & Cogn & Emotion & Response & Perform & Domin & SymbVal} & 3
+muliggjøre & ('enable') &  {Further & Cogn & Dependence & Impact & Procedure & Creation & Perform & SymbVal} & 5
+mulkte & ('fine') &  {Sustain & Cogn & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+mulktere & ('fine') &  {Sustain & Cogn & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+mulle & ('mull') &  {Imped & Response & VerbalAct & PhysBod} & 4
+multiplisere & ('multiply') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 3
+mumle & ('mumble') &  {Sustain & Cogn & Procedure & Response & VerbalAct & PhysBod} & 4
+munnhogges & ('quarrel') &  {Cogn & Procedure & Response & VerbalAct & PhysBod} & 4
+munnhugges & ('quarrel') &  {Cogn & Procedure & Response & VerbalAct & PhysBod} & 4
+muntre & ('cheer up') &  {Sustain & Impact & Emotion & Response & Perform & PhysBod} & 3
+mure & ('wall') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 5
+murre & ('murmur') &  {Imped & Perceptible & Unfold & Perform & Criterial & SymbVal} & 5
+myldre & ('swarm') &  {Sustain & Dir & Procedure & Unfold & Criterial & PhysBod} & 3
+møte & ('meet') &  {Init} & 4
+måle & ('measure') &  {Procedure & Perform & SymbVal} & 4
+målrette & ('target') &  {Sustain & Dir & Cogn & Perform & SymbVal} & 3
+nagle & ('rivet') &  {Sustain & Impact & Procedure & Criterial & PhysBod} & 3
+nappe & ('pinch') &  {Sustain & Dir & Perceptible & Impact & Perform & Criterial & PhysBod} & 7
+narre & ('fool') &  {Imped & Cogn & Impact & Procedure & SymbVal} & 3
+naske & ('steal') &  {Imped & Impact & Procedure & Perform & SymbVal} & 3
+nedfelle & ('enshrine ?') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+nedskrive-1 & ('write down') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 3
+nedverdige & ('degrade') &  {Imped & Cogn & Impact & Emotion & Response & Perform & Domin & SymbVal} & 3
+neglisjere & ('neglect') &  {Imped & Cogn & Procedure & Emotion & Response & Perform & Domin & SymbVal} & 3
+nekte & ('deny') &  {Further & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 8
+nevne & ('mention') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+nikke & ('nod') &  {Response & Perform & PhysBod} & 4
+nominere & ('nominate') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & Domin & SymbVal} & 4
+notere & ('note') &  {Sustain & Cogn & Procedure & Perform} & 7
+nynne & ('hum') &  {Procedure & VerbalAct & PhysBod} & 4
+nyse & ('sneeze') &  {Sustain & Impact & Response & Perform & Criterial & PhysBod} & 3
+nyte & ('enjoy') &  {Sustain & MedByPrcept & Impact & Procedure & Emotion & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+nytte & ('serve, take advantage') &  {Further & Impact & Response & SymbVal} & 14
+nyttiggjøre & ('utilize') &  {Further & Procedure & Response & SymbVal} & 6
+nære & ('nourish') &  {Sustain & Impact & Procedure & SymbVal & PhysBod} & 4
+nærme & ('approach') &  {Dir & Procedure & SymbVal & PhysBod} & 3
+nødlande & ('emergency land') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+nødvendiggjøre & ('necessitate') &  {Further & Dependence & Domin & SymbVal} & 4
+nøste & ('wind') &  {Sustain & Dir & Impact & Procedure & Perform & PhysBod} & 3
+nøye & ('settle') &  {Sustain & Emotion & Response} & 5
+observere & ('observe') &  {Perceiving & Cogn & Procedure & Perform} & 4
+ofre & ('sacrifice') &  {Sustain & Cogn & Impact & Procedure & Perform & SymbVal} & 8
+oie & ('complain') &  {Perceptible & Procedure & Emotion & verbal & SymbVal & PhysBod} & 6
+okke & ('complain') &  {Perceptible & Procedure & Emotion & verbal & SymbVal & PhysBod} & 6
+omdanne & ('transform') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 3
+omforme & ('transform') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 3
+omgjøre & ('convert, redo') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 3
+omgåes & ('socialize with') &  {Sustain & Cogn & Procedure & Unfold & Perform} & 3
+omgås & ('socialize with') &  {Sustain & Cogn & Procedure & Unfold & Perform} & 3
+omhandle & ('concern') &  {Sustain & Cogn & Creation & SymbVal} & 3
+omprioritere & ('reprioritize') &  {Sustain & Dependence & Procedure & Perform & Domin & SymbVal} & 4
+omregne & ('recalculate') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+omsette-1 & ('translate') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+omskape & ('remake') &  {Further & Impact & Creation & Perform & SymbVal} & 5
+omskole & ('re-educate') &  {Sustain & Procedure & Perform & SymbVal} & 4
+omskolere & ('re-educate') &  {Sustain & Procedure & Perform & SymbVal} & 4
+omstille & ('readjust') &  {Sustain & Dir & Cogn & Impact & Response & Perform & SymbVal} & 7
+omstrukturere & ('restructure') &  {Further & Impact & Creation & Perform & SymbVal} & 5
+omtale & ('mention') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 3
+omvandle & ('transform') &  {Sustain & Impact & Perform & Domin} & 3
+omvende & ('convert') &  {Further & Impact & Perform & SymbVal} & 6
+operere & ('operate') &  {Further & Impact & Procedure & Perform & Domin & SymbVal & PhysBod} & 4
+oppdage & ('discover') &  {Further & MedByPrcept & Cogn & Creation & Response & Perform & SymbVal} & 3
+oppdatere & ('update') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 8
+oppfatte & ('perceive') &  {Sustain & MedByPrcept & Cogn & Perform & Criterial & SymbVal & PhysBod} & 5
+oppflaske & ('bottle up') &  {Impact & Procedure & Perform & PhysBod} & 4
+oppfordre & ('urge') &  {Further & Cogn & Procedure & VerbalAct & Domin & SymbVal} & 3
+oppfostre & ('foster') &  {Sustain & Impact & Procedure & Creation & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+oppgi-2 & ('state') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+opphisse & ('excite') &  {Emotion & Response & Perform & SymbVal & PhysBod} & 4
+oppildne & ('incite') &  {Sustain & Impact & Procedure & Emotion & Perform & Domin & SymbVal & PhysBod} & 3
+oppjustere & ('adjust up') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & Domin & SymbVal} & 3
+oppleve & ('experience') &  {MedByPrcept & Impact & SymbVal} & 4
+opplive & ('enliven') &  {Sustain & Impact & Procedure & Creation & Response & Perform & PhysBod} & 3
+opplyse & ('communicate, enlighten') &  {Sustain & Cogn & Impact & VerbalAct & SymbVal} & 5
+opplære & ('educate') &  {Sustain & Cogn & Impact & Procedure & Creation & Unfold & Perform & Domin & SymbVal} & 3
+oppløse & ('dissolve, disband') &  {Dependence & Impact & Domin & PhysBod} & 4
+oppløyse & ('dissolve, disband') &  {Dependence & Impact & Domin & PhysBod} & 4
+oppmuntre & ('encourage') &  {Cogn & Impact & Emotion & Response & SymbVal} & 4
+oppnå & ('achieve') &  {Further & Cogn & Impact & Creation & Response & Perform & SymbVal} & 3
+oppofre & ('sacrifice') &  {Sustain & Cogn & Impact & Procedure & Perform & SymbVal & PhysBod} & 3
+opponere & ('oppose') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 5
+opprøre & ('revolt') &  {Sustain & Cogn & Impact & Emotion & Response & Domin & SymbVal & PhysBod} & 3
+opprøres & ('upset') &  {Impact & Emotion & Response & SymbVal} & 4
+oppskake & ('shake up') &  {Sustain & Cogn & Impact & Emotion & Response & Criterial & SymbVal & PhysBod} & 3
+oppta-2 & ('occupy, worry') &  {Sustain & Cogn & SymbVal} & 5
+oppøve & ('train') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Unfold & Perform & PhysBod} & 7
+ordinere & ('ordain') &  {Sustain & Cogn & Impact & Procedure & Creation & VerbalAct & Domin & SymbVal} & 3
+ordne & ('arrange, order') &  {Further & Cogn & Impact & Procedure & Perform & Domin & SymbVal} & 10
+orientere & ('orient') &  {Further & Dir & Cogn & Procedure & Perform & SymbVal} & 9
+overanstrenge & ('overexert') &  {Imped & Impact & Perform & SymbVal & PhysBod} & 4
+overbebyrde & ('overburden') &  {Sustain & Cogn & Impact & Procedure & Domin & PhysBod} & 3
+overbetone & ('overemphasize') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 3
+overbevise & ('convince') &  {Sustain & Cogn & Impact & Creation & Perform & Domin & SymbVal} & 13
+overbringe & ('convey') &  {Further & Procedure & Perform & Poss & PhysBod} & 3
+overgi & ('surrender') &  {Further & Procedure & Response & Perform & Domin & Poss & SymbVal} & 4
+overgå & ('surpass') &  {Further & SymbVal & PureRel} & 3
+overhøre & ('overhear') &  {Sustain & MedByPrcept & Cogn & Perform & SymbVal & PhysBod} & 3
+overinvestere & ('overinvest') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+overlate & ('give') &  {Further & Procedure & Response & Perform & Poss & SymbVal} & 4
+overleve & ('survive') &  {Further & Impact & Response & SymbVal} & 6
+overlevere & ('hand over') &  {Further & Cogn & Procedure & Perform & SymbVal & PhysBod} & 3
+overraske & ('surprise') &  {Sustain & Impact & Emotion & Perform & SymbVal} & 9
+overreagere & ('overreact') &  {Imped & Impact & Response & Perform} & 4
+overse-1 & ('overlook') &  {Imped & MedByPrcept & Response & Perform & SymbVal} & 3
+oversende & ('transmit') &  {Further & Cogn & Procedure & Perform & SymbVal & PhysBod} & 3
+oversette & ('translate') &  {Further & Dir & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 5
+overspesialisere & ('overspecialize') &  {Imped & Impact & Unfold & Perform & SymbVal} & 3
+overstimulere & ('overstimulate') &  {Imped & Impact & SymbVal} & 3
+overtale & ('persuade') &  {Sustain & Cogn & Impact & VerbalAct & Domin & SymbVal} & 3
+overtrene & ('overtrain') &  {Imped & Impact & Procedure & Unfold & Perform & PhysBod} & 4
+overtyde & ('convince') &  {Further & Cogn & Impact & Procedure & Perform & SymbVal} & 4
+overvåke & ('monitor') &  {Sustain & MedByPrcept & Cogn & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+padle & ('paddle') &  {Dir & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+pakke & ('pack') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Criterial} & 11
+pare & ('pair') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+parkere & ('park') &  {Sustain & Impact & Procedure & Perform & Criterial & Loc & PhysBod} & 3
+parlamentere & ('parley') &  {Further & Cogn & Procedure & verbal & SymbVal} & 6
+parlere & ('parley') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 7
+parre & ('couple') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 4
+partisipere & ('participate') &  {Sustain & Cogn & Procedure & Unfold & Perform} & 3
+passe & ('suit, care') &  {Sustain & Cogn & Response & Perform & SymbVal} & 23
+passere & ('pass') &  {Dir & Procedure & Perform & Domin} & 3
+passiare & ('converse') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 7
+peile & ('gauge') &  {Sustain & MedByPrcept & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 5
+peise & ('whip') &  {Sustain & Dir & Impact & Perform & Domin & Criterial & PhysBod} & 3
+peke & ('point') &  {Further & Dir & Criterial & PhysBod} & 7
+perfeksjonere & ('perfect') &  {Sustain & Impact & Procedure & Creation & Perform & SymbVal} & 4
+persipere & ('perceive') &  {Sustain & Perceiving & Response & Perform & SymbVal & PhysBod} & 3
+pigge-1 & ('pole') &  {Dir & Procedure & Perform & PhysBod} & 4
+pille & ('pill') &  {Sustain & Perceptible & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+pine & ('torment') &  {Imped & Perceptible & MedByPrcept & Impact & Procedure & Emotion & Unfold & PhysBod} & 4 
+pirke & ('poke') &  {Init & Impact & Procedure & Unfold & Perform} & 4
+piske & ('whip') &  {Sustain & Impact & Procedure & Perform & Domin & Criterial & PhysBod} & 3
+pisse & ('piss, pee') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & 3
+plage & ('bother ') &  {Imped & Perceptible & MedByPrcept & Impact & Emotion & Unfold & PhysBod} & 6  
+planlegge & ('plan') &  {Further & Cogn & Procedure & Creation & Perform & SymbVal} & 4
+plapre & ('babble') &  {Imped & Perceptible & Cogn & Unfold & VerbalAct & Criterial & SymbVal & PhysBod} & 5
+plaske & ('splash') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+plassere & ('place, locate') &  {Sustain & Impact & Criterial & Loc & PhysBod} & 3
+pledere & ('plead') &  {Sustain & Cogn & Procedure & Response & Unfold & VerbalAct & Domin & SymbVal} & 4
+plotte & ('plot') &  {Init & Cogn & Procedure & Creation & Perform & SymbVal} & 4
+plugge & ('plug') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & 3
+plukke & ('pick') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+plundre & ('fool around') &  {Imped & Procedure & Unfold & Perform & Criterial & SymbVal & PhysBod} & 3
+plyndre & ('plunder') &  {Sustain & Impact & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & 3
+plystre & ('whistle') &  {Creation & Unfold & PhysBod} & 4
+pløye & ('plough') &  {Sustain & Impact & Procedure & Perform & Domin & PhysBod} & 4
+poengtere & ('point out') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 3
+polemisere & ('argue') &  {Sustain & Cogn & Procedure & Creation & Response & Unfold & VerbalAct & Domin & SymbVal} & 4
+polstre & ('polster') &  {Sustain & Impact & Procedure & Creation & Perform & PhysBod} & 3
+poppe & ('pop') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 3
+poste & ('poste') &  {Sustain & Dir & Cogn & Procedure & Perform & PhysBod} & 3
+prakkes & ('be bothered') &  {Imped & Impact & Response & Unfold & PhysBod} & 4
+praktisere & ('practice') &  {Sustain & Procedure & Unfold & Perform & SymbVal} & 4
+prale & ('boast') &  {Imped & Procedure & Emotion & Unfold & Perform & SymbVal} & 4
+prange & ('bosst') &  {Imped & Procedure & Emotion & Unfold & Perform & SymbVal} & 4
+prate & ('talk') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & SymbVal & PhysBod} & 11
+predestinere & ('predestinate') &  {Sustain & Cogn & Dependence & Impact & Domin & SymbVal} & 3
+predeterminere & ('predetermine') &  {Sustain & Cogn & Dependence & Impact & Procedure & Domin & SymbVal} & 3
+predike & ('preach') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & SymbVal} & 7
+predikere & ('foretell') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 3
+predisponere & ('predispose') &  {Sustain & Dependence & Domin & SymbVal} & 4
+preferere & ('prefer') &  {Further & Cogn & Procedure & Response & SymbVal} & 3
+prege & ('mark') &  {Sustain & Impact & SymbVal} & 7
+preke & ('preach') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal & PhysBod} & 11
+premiere & ('reward') &  {Sustain & Procedure & Response & Perform & SymbVal} & 4
+prente & ('print') &  {Sustain & Cogn & Impact & Procedure & Response & Domin & SymbVal & PhysBod} & 4
+preparere & ('prepare') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal & PhysBod} & 9
+presentere & ('present') &  {Further & Cogn & Procedure & SymbVal} & 6
+presisere & ('specify') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 3
+presse & ('press, squeeze') &  {Sustain & Dir & Impact & Procedure & Perform & Domin & Criterial & SymbVal & PhysBod} & 9
+presumere & ('presume') &  {Sustain & Cogn & SymbVal} & 3
+presupponere & ('presuppose') &  {Sustain & Cogn & SymbVal} & 3
+pretendere & ('pretend') &  {Imped & Cogn & Procedure & Perform & SymbVal} & 3
+prikke & ('poke') &  {Sustain & Cogn & Impact & Perform & Criterial & PhysBod} & 5
+prioritere & ('prioritize') &  {Further & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 5
+prisbelønne & ('reward') &  {Sustain & Procedure & Response & Perform & SymbVal} & 4
+prise-1 & ('price') &  {Sustain & Cogn & Impact & Procedure & Perform & Poss & SymbVal} & 3
+problematisere & ('problematize') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+profetere & ('prophesy') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 3
+profilere & ('profile') &  {Sustain & Procedure & Unfold & Perform & SymbVal} & 4
+prognosere & ('prognostisize') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+prognostisere & ('prognostisize') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+programfeste & ('program') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+proklamere & ('proclaim') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 4
+propagandere & ('propagandize') &  {Sustain & Cogn & Procedure & VerbalAct & Domin & SymbVal} & 3
+proponere & ('propose') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 3
+proppe & ('cram, stuff') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 6
+prosedere & ('procede') &  {Sustain & Cogn & Procedure & Unfold & Perform & Domin & SymbVal} & 7
+protestere & ('protest') &  {Further & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 4
+protokollere & ('record') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+providere & ('provide') &  {Further & Dependence & Response & Perform & SymbVal} & 4
+provosere & ('provoke') &  {Sustain & Cogn & Impact & Procedure & Emotion & Perform & SymbVal} & 5
+prute & ('haggle') &  {Sustain & Cogn & Dependence & Procedure & Response & VerbalAct & Domin & Poss & SymbVal} & 4
+pryde & ('adorn') &  {Sustain & ImpactAesthetic & Creation & Unfold & PhysBod} & 5 
+prøve & ('try') &  {Sustain & Cogn & Perform & SymbVal} & 10
+psyke & ('psych') &  {Sustain & Impact & Emotion & Response & VerbalAct & Domin & SymbVal & PhysBod} & 4
+psykologisere & ('psychologize') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+publisere & ('publish') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 3
+puffe & ('push') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 3
+pumpe & ('pump') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+purre & ('remind') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+pusse & ('polish') &  {Sustain & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+puste & ('breathe') &  {Sustain & Impact & Procedure & Creation & Unfold & Perform & Criterial & SymbVal & PhysBod} & 3
+pynte & ('decorate') &  {Sustain & Cogn & ImpactAesthetic & Procedure & Creation & Perform & Criterial & PhysBod} & 5 
+pælme & ('throw') &  {x & x & x & x & x} & 1
+pøse & ('pour') &  {Sustain & Impact & Procedure & Unfold & Criterial & PhysBod} & 3
+påberope & ('invoke') &  {Further & Cogn & Dependence & Impact & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+påby & ('order') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+pålegge & ('impose') &  {Sustain & Cogn & Dependence & Impact & Procedure & VerbalAct & Domin & SymbVal} & 3
+påpeke & ('point out') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 3
+påskjønne & ('praise') &  {Further & Cogn & Procedure & Response & VerbalAct & SymbVal} & 5
+påstå & ('assert') &  {Further & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 4
+påvirke & ('influence') &  {Sustain & Dependence & Impact & Procedure & Domin & SymbVal} & 3
+påvise & ('demonstrate') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+rable-2 & ('scratch') &  {Sustain & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+raljere & ('be sarcastic') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 5
+rane & ('rob') &  {Imped & Cogn & Impact & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & 3
+rangere & ('rank') &  {Sustain & Cogn & Procedure & Response & Perform & Domin & SymbVal} & 4
+rappe-1 & ('steal') &  {Imped & Impact & Perform & Domin & Poss & SymbVal & Loc & PhysBod} & 4
+rase-1 & ('be angry') &  {Sustain & Cogn & Impact & Emotion & Response & Unfold & Perform & Criterial & SymbVal & PhysBod} & 5
+rasjonere & ('ration') &  {Sustain & Dependence & Impact & Procedure & Response & Perform & Domin & Poss & SymbVal} & 4
+rasle & ('rattle') &  {Perceptible & Unfold & Criterial & Loc & PhysBod} & 3
+raspe & ('grate') &  {Sustain & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+ratle & ('rattle') &  {Perceptible & Unfold & Criterial & PhysBod} & 3
+re & ('lay') &  {Sustain & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+reagere & ('react') &  {Sustain & Response & Perform & SymbVal} & 11
+redde & ('save') &  {Sustain & Dependence & Impact & Response & Perform & Domin & SymbVal & PhysBod} & 4
+redegjøre & ('explain') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+referere & ('refer') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 5
+reflektere & ('reflect') &  {Init & Cogn & Dependence & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & 5
+refokusere & ('refocus') &  {Further & Cogn & Perform & SymbVal} & 6
+refse & ('chastise') &  {Sustain & Cogn & Impact & Procedure & Response & VerbalAct & SymbVal} & 5
+registrere & ('register') &  {Sustain & Cogn & Dependence & Procedure & Perform & SymbVal} & 5
+regjere & ('reign') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & Unfold & Perform & Domin & SymbVal} & 3
+regne-1 & ('rain') &  {Sustain & Impact & Procedure & Unfold & Criterial & PhysBod} & 3
+regne-2 & ('count') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 10
+regne-2 & ('count, calculate') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 8
+reindeksere & ('re-index') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+reinske & ('clean') &  {Sustain & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 3
+reinvaske & ('clean') &  {Sustain & Impact & SymbVal} & 7
+reise & ('raise, travel') &  {Sustain & Dir & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & 5
+rekke-1 & ('reach') &  {Further & Response & SymbVal} & 6
+reklamere & ('advertise') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+rekne-1 & ('rain') &  {Sustain & Impact & Procedure & Unfold & Criterial & PhysBod} & 3
+rekne-2 & ('count, calculate') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 8
+rekruttere & ('recruit') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & Perform & Domin} & 3
+rekvalifisere & ('re-qualify') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 3
+relatere & ('relate') &  {Further & Cogn & Dependence & SymbVal} & 3
+reminisere & ('reminisce') &  {Sustain & Cogn & Perform & SymbVal} & 6
+renne & ('run') &  {Init & Dir & Impact & Procedure & Unfold & PhysBod} & 4
+renominere & ('re-nominate') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 3
+rense & ('clean') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & SymbVal} & 4
+renske & ('clean') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & SymbVal} & 4
+renvaske & ('clean') &  {Sustain & Impact & SymbVal} & 7
+repetere & ('repeat') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+reservere & ('reserve') &  {Sustain & Cogn & Impact & Perform & SymbVal} & 5
+resignere & ('resign') &  {Imped & Cogn & Impact & Emotion & Response & Domin & Criterial & SymbVal & PhysBod} & 3
+resonnere & ('reason') &  {Further & Cogn & Procedure & Creation & Perform & SymbVal} & 5
+respektere & ('respect') &  {Further & Cogn & Emotion & Response & SymbVal} & 5
+respondere & ('respond') &  {Further & Response & SymbVal} & 7
+rette & ('direct, correct, follow') &  {Further & Dir & Cogn & Impact & Procedure & Response & Perform} & 8
+rettferdiggjøre & ('justify') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 5
+rettlede & ('guide') &  {Sustain & Cogn & Dependence & Procedure & Creation & Unfold & VerbalAct & Domin & SymbVal} & 4
+rettleie & ('guide') &  {Sustain & Cogn & Dependence & Procedure & Creation & Unfold & VerbalAct & Domin & SymbVal} & 4
+revoltere & ('revolt') &  {Further & Cogn & Dependence & Impact & Procedure & Emotion & Response & Perform & Domin & SymbVal & PhysBod} & 4
+ri & ('ride') &  {Sustain & Dir & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+ribbe & ('rib, rip off') &  {Sustain & Impact & Procedure & Perform & Domin & Poss & Criterial & PhysBod} & 3
+ride & ('ride') &  {Sustain & Dir & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+rigge & ('rig') &  {Further & Impact & Procedure & Perform & Domin & PhysBod} & 4
+rikke & ('move') &  {Dir & Impact & Perform & Criterial & PhysBod} & 4
+ringe-1 & ('ring, call') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & 10
+ringle & ('ring') &  {Perceptible & Response & Criterial & PhysBod} & 3
+rippe & ('rip') &  {Perceptible & Impact & Perform & Criterial & SymbVal & PhysBod} & 3
+risikere & ('risk') &  {Further & Dependence & Domin & SymbVal} & 3
+riste & ('shake') &  {Sustain & Perceptible & Impact & Procedure & Perform & PhysBod} & 5
+rive & ('tear') &  {Imped & Impact & Procedure & Perform & Domin & PhysBod} & 10
+ro & ('row') &  {Sustain & Dir & Procedure & Unfold & Perform & PhysBod} & 4
+roe & ('calm') &  {Sustain & Procedure & Response & SymbVal & PhysBod} & 4
+rokke & ('shake') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+rope & ('shout') &  {Sustain & Perceptible & Cogn & VerbalAct & Criterial & SymbVal & PhysBod} & 13
+rose & ('praise') &  {Sustain & Cogn & Impact & Emotion & Response & Perform & SymbVal} & 11
+rote & ('mess up') &  {Imped & Impact & SymbVal & PhysBod} & 7
+ruge & ('nest') &  {Further & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 4
+rugge & ('shake') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+ruinere & ('ruin') &  {Prevent & Impact & Procedure & Domin & Poss & SymbVal} & 4
+rulle & ('roll') &  {Sustain & Dir & Perceptible & Unfold & Criterial & PhysBod} & 6
+rumle & ('rumble') &  {Perceptible & Unfold & Criterial & PhysBod} & 3
+runge & ('resound') &  {Perceptible & Unfold & Criterial & PhysBod} & 3
+ruse-1 & ('get high') &  {Imped & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & 3
+ruske & ('ruffle') &  {Init & Impact & Procedure & Domin & PhysBod} & 4
+ruste-1 & ('arm') &  {Further & Procedure & Unfold & Perform & Domin} & 7
+rydde & ('clear, prepare') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 6
+rygge & ('back') &  {x & x & x & x & x & x & x} & 2
+rykke & ('pull, move') &  {Sustain & Dir & Impact & Perform & Criterial & Loc & PhysBod} & 5
+ryktes & ('be rumored') &  {Sustain & Cogn & Unfold & VerbalAct & SymbVal} & 4
+rynke & ('wrinkle') &  {Sustain & Perceptible & Impact & Response & Criterial & PhysBod} & 4
+ryste & ('shake') &  {Init & Perceptible & Cogn & Dependence & Impact & Emotion & Domin & SymbVal & PhysBod} & 4
+røke & ('smoke') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 4
+rømme & ('escape') &  {Sustain & Dir & Impact & Response & Perform & PhysBod} & 5
+røpe & ('reveal') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 5
+røre-1 & ('touch, move') &  {Perceptible & Impact & Perform & Criterial & PhysBod} & 5
+røre-2 & ('stir') &  {Sustain & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+røske & ('stir') &  {Sustain & Dir & Perceptible & Impact & Perform & Loc & PhysBod} & 5
+røyke & ('smoke') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 4
+rå-1 & ('advise') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 4
+råde-1 & ('advise') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 4
+rådføre & ('consult') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 5
+rådslå & ('plan, negotiate') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 8
+rådspørre & ('consult') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 4
+råke & ('happen, come across') &  {Init & Impact & Domin & PhysBod} & 4
+råkjøre & ('drive recklessly') &  {Imped & Dir & Procedure & Unfold & Perform & Criterial & SymbVal & PhysBod} & 3
+råtne & ('rotten') &  {Sustain & Perceptible & Impact & Procedure & Unfold & Criterial & PhysBod} & 3
+sage & ('saw') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+sakke & ('sag') &  {Sustain & Unfold & Criterial & PhysBod} & 3
+sakne & ('miss') &  {Imped & MedByPrcept & Cogn & Emotion & Response & Unfold & SymbVal & PhysBod} & 3
+sakse & ('cut, scissor') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+saksøke & ('sue') &  {Sustain & Cogn & Impact & Procedure & Response & VerbalAct & SymbVal} & 5
+saktne & ('slow down') &  {Sustain & Impact & Procedure & Unfold & PhysBod} & 3
+sale & ('saddle') &  {Sustain & Cogn & Impact & Procedure & Perform & PhysBod} & 3
+saluttere & ('salute') &  {Sustain & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 4
+samarbeide & ('cooperate') &  {Further & Cogn & Procedure & Unfold & Perform & SymbVal} & 6
+samle & ('collect') &  {Sustain & Dir & Impact & Procedure & Creation & Unfold & Perform & Criterial & SymbVal & Loc & PhysBod} & 10
+samles & ('gather') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & Loc & PhysBod} & 3
+sammenholde & ('compare, sum up') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 5
+sammenkalle & ('convene') &  {Sustain & Cogn & Procedure & Perform} & 5
+sammenligne & ('compare') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 5
+sammenlikne & ('compare') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 5
+samordne & ('coordinate') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & Perform & SymbVal} & 9
+samrå & ('consult') &  {Further & Cogn & Procedure & verbal & SymbVal} & 6
+samstemme & ('agree') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+samtale & ('converse') &  {Sustain & Cogn & Procedure & Creation & Unfold & VerbalAct & SymbVal} & 10
+samtykke & ('consent') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 3
+sanke & ('gather') &  {Sustain & Impact & Procedure & Unfold & Perform & SymbVal & PhysBod} & 4
+sanksjonere & ('sanction') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 4
+sanne & ('realize') &  {Sustain & MedByPrcept & Cogn & Response & SymbVal} & 3
+sanse & ('sense') &  {Init & Perceiving & SymbVal & PhysBod} & 4
+satirisere & ('satirize') &  {Sustain & Cogn & Procedure & Creation & Unfold & VerbalAct & SymbVal} & 4
+satse & ('bet, risk') &  {Sustain & Dependence & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & 9
+sause & ('mess up') &  {Sustain & Impact & Procedure & PhysBod} & 4
+savne & ('miss') &  {Imped & MedByPrcept & Cogn & Emotion & Response & Unfold & PhysBod} & 3
+se & ('see') &  {visual & Perform & SymbVal & PhysBod} & 27
+segle & ('sail') &  {Dir & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+seile & ('sail') &  {Dir & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+seire & ('win') &  {Sustain & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+seksjonere & ('section') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & SymbVal & PhysBod} & 4
+sele & ('harness') &  {Sustain & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+selge & ('sell') &  {Further & Cogn & Impact & Procedure & Perform & Poss & SymbVal & PhysBod} & 6
+selvstendiggjøre & ('make independent') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Domin & SymbVal} & 3
+senke & ('sink') &  {Sustain & Impact & Perform & PhysBod} & 5
+separere & ('separate') &  {Sustain & Cogn & Impact & Procedure & Perform & PhysBod} & 3
+sertifisere & ('certify') &  {Sustain & Cogn & Impact & Procedure & Creation & VerbalAct & Domin & SymbVal} & 3
+servere & ('serve') &  {Sustain & Procedure & Perform & PhysBod} & 5
+sette & ('set') &  {Impact & Perform & Criterial & Loc & PhysBod} & 20
+settle & ('settle') &  {Sustain & Cogn & Impact & Procedure & Creation & VerbalAct & Domin & SymbVal} & 3
+si & ('say') &  {Cogn & Procedure & Creation & VerbalAct & SymbVal} & 25
+sideordne & ('align, juxtapose') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 5
+sidestille & ('juxtapose') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & Perform & Domin & SymbVal} & 4
+signalere & ('signal') &  {Sustain & MedByPrcept & Cogn & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & 3
+signalisere & ('signal') &  {Sustain & MedByPrcept & Cogn & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & 3
+sikkerhetsklarere & ('security clear') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+sikle & ('drool') &  {Perceptible & Unfold & Criterial & PhysBod} & 5
+sikre & ('ensure, secure') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 6
+sikte-1 & ('aim') &  {Sustain & Dir & Cogn & Procedure & Perform & PhysBod} & 8
+sildre & ('trickle') &  {Sustain & Dir & Perceptible & Procedure & Unfold & Criterial & PhysBod} & 3
+sile & ('strain') &  {Sustain & Impact & Procedure & PhysBod} & 4
+simulere & ('simulate') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 4
+sirkle & ('circle') &  {Sustain & Dir & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+sirkulere & ('circulate') &  {Sustain & Procedure & Unfold & SymbVal & Loc} & 3
+sitte & ('sit') &  {Sustain & Perceptible & Unfold & Perform & Criterial & PhysBod} & 5
+sjalte & ('shift') &  {Sustain & Impact & Response & Loc & PhysBod} & 4
+sjanse & ('risk') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 3
+sjarmere & ('charm') &  {Sustain & Impact & Emotion & Domin & Criterial & SymbVal & PhysBod} & 3
+sjaske & ('mess') &  {Imped & Impact & Perform & Criterial & PhysBod} & 3
+sjekke & ('check') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 13
+sjenere & ('embarrass') &  {Imped & Cogn & Emotion & SymbVal} & 8
+sjokkere & ('shock') &  {Sustain & Cogn & Impact & Emotion & Domin & SymbVal & PhysBod} & 3
+ska & ('hurt') &  {Imped & Impact & SymbVal & Loc & PhysBod} & 4
+skade & ('hurt') &  {Imped & Impact & SymbVal} & 4
+skaffe-1 & ('provide, get') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 8
+skake & ('shake') &  {Imped & Impact & PhysBod} & 4
+skalle-2 & ('skull?') &  {Sustain & Impact & Perform & Domin & Criterial & PhysBod} & 4
+skamme & ('shame') &  {Imped & Cogn & Emotion & Response & Unfold & Perform & SymbVal} & 9
+skape & ('create') &  {Further & Impact & Creation & Perform & SymbVal} & 9
+skatte & ('tax') &  {Procedure & SymbVal} & 7
+skave & ('rub') &  {Sustain & Impact & Procedure & Perform & Domin & Criterial & PhysBod} & 3
+skeie & ('skid') &  {Dir & Impact & Criterial & PhysBod} & 3
+skifte & ('shift, change') &  {Sustain & Cogn & Impact & Procedure & Perform & PhysBod} & 6
+skildre & ('describe') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+skille & ('divide, distinguish') &  {Procedure} & 7
+skilte & ('market') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 4
+skimte & ('glimpse') &  {Sustain & Perceiving & Cogn & Perform & Criterial & SymbVal & PhysBod} & 3
+skinne & ('shine') &  {Perceptible & Impact & Unfold & SymbVal & PhysBod} & 4
+skite & ('shit') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 4
+skje & ('happen') &  {Unfold & SymbVal} & 7
+skjele & ('squint') &  {Perceptible & Response & Perform & PhysBod} & 4
+skjelle & ('scold') &  {Imped & Procedure & Emotion & VerbalAct & Domin & SymbVal & PhysBod} & 4
+skjelne & ('discern') &  {Sustain & MedByPrcept & Perform & SymbVal & PhysBod} & 5
+skjelve & ('shake') &  {Impact & Response & Unfold & PhysBod} & 4
+skjemme & ('shame') &  {Imped & Cogn & Emotion & Response & Unfold & Perform & SymbVal} & 9
+skjemmes & ('be ashamed') &  {Imped & Emotion & Response & Unfold & SymbVal & PhysBod} & 5
+skjemte & ('joke') &  {Sustain & Emotion & verbal & Criterial & SymbVal & PhysBod} & 6
+skjene & ('rail ?') &  {Dir & Impact & Response & Perform & Criterial & PhysBod} & 3
+skjenke-2 & ('pour') &  {Sustain & Dir & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 8
+skjenne & ('scold') &  {Sustain & Procedure & VerbalAct & Criterial & SymbVal} & 5
+skjerme & ('protect') &  {Sustain & Impact & Response & Unfold & Perform & SymbVal & PhysBod} & 10
+skjule & ('hide') &  {Imped & SymbVal} & 7
+skjære & ('cut') &  {Impact & Procedure & Perform & PhysBod} & 7
+skjønne & ('understand') &  {Further & Cogn & Response & Perform & SymbVal} & 5
+skjøte & ('splice') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & 4
+skli & ('skid') &  {Dir & Perceptible & Impact & Response & Criterial & PhysBod} & 3
+sko & ('shoe') &  {Sustain & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & 5
+skolere & ('school') &  {Further & Cogn & Impact & Procedure & Unfold & Perform & SymbVal} & 6
+skotte & ('peek') &  {Dir & Perceiving & Perform & Criterial & PhysBod} & 3
+skrangle & ('rattle') &  {Imped & Perceptible & Procedure & Unfold & PhysBod} & 4
+skrape & ('scrape, scratch') &  {Sustain & Impact & Perform & PhysBod} & 5
+skravle & ('chatter') &  {Imped & Unfold & verbal & Criterial & SymbVal & PhysBod} & 6
+skreddersy & ('tailormake') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 3
+skrelle & ('peel') &  {Sustain & Impact & Procedure & Perform & Poss & PhysBod} & 5
+skremme & ('frighten') &  {Imped & Impact & Emotion & SymbVal & PhysBod} & 8
+skrense & ('skid') &  {Dir & Perceptible & Impact & Response & Criterial & PhysBod} & 3
+skrible & ('scribble') &  {Sustain & Perceptible & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+skrifte & ('confess') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 11
+skrike & ('cry') &  {Sustain & Perceptible & VerbalAct & Criterial & SymbVal} & 9
+skrive & ('write') &  {Sustain & Cogn & Procedure & Creation & Unfold & VerbalAct & Criterial & SymbVal} & 22
+skru & ('screw') &  {Sustain & Dir & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 8
+skrubbe & ('scrub') &  {Sustain & Perceptible & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 8
+skrue & ('screw') &  {Sustain & Dir & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 8
+skrumpe & ('shrink') &  {Sustain & Impact & Unfold & PhysBod} & 5
+skruve & ('screw') &  {Sustain & Dir & Impact & Procedure & Perform & PhysBod} & 3
+skryte & ('boast') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+skrå & ('slant') &  {Dir & Criterial & PhysBod} & 3
+skubbe & ('push') &  {Sustain & Dir & Impact & Perform & Domin & Criterial & PhysBod} & 3
+skuffe-1 & ('disappoint') &  {Imped & Cogn & Impact & Emotion & Perform & SymbVal} & 9
+skule & ('scowl') &  {Dir & Perceiving & Emotion & Perform & Criterial & PhysBod} & 3
+skulle & ('should') &  {Further & Cogn & Dependence & Domin & SymbVal} & 3
+skumle & ('murmur') &  {Cogn & Emotion & VerbalAct & SymbVal} & 5
+skumme & ('foam') &  {Sustain & Impact & Criterial & PhysBod} & 3
+skumpe & ('hump') &  {Sustain & Dir & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+skuve & ('push') &  {Sustain & Dir & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+skvaldre & ('gossip') &  {Imped & Cogn & VerbalAct & Criterial & SymbVal} & 5
+skvalpe & ('splash') &  {Sustain & Perceptible & Response & Criterial & PhysBod} & 3
+skvette-1 & ('splash') &  {Sustain & Dir & Perceptible & Impact & Response & Criterial & PhysBod} & 3
+skvette-2 & ('startle') &  {Impact & Emotion & Response & Loc & PhysBod} & 5
+skvære & ('settle, agree') &  {Sustain & Cogn & Impact & Procedure & Emotion & Response & VerbalAct & SymbVal & PhysBod} & 4
+skylde & ('owe, blame') &  {Imped & Cogn & Response & VerbalAct & SymbVal} & 5
+skyldes & ('be due to') &  {Dependence & SymbVal & PureRel} & 5
+skylle & ('rinse') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & 4
+skynde & ('hurry, hasten') &  {Further} & 5
+skyte & ('shoot') &  {Sustain & Dir & Cogn & Impact & Perform & Criterial & PhysBod} & 12
+skyve & ('push') &  {Further & Dir & Impact & Perform & PhysBod} & 4
+skåle & ('toast') &  {Sustain & Procedure & Response & Perform & SymbVal & PhysBod} & 5
+skåne & ('spare') &  {Sustain & Cogn & Impact & Procedure & Response & VerbalAct & Domin & SymbVal & PhysBod} & 4
+skåre & ('score') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & SymbVal & PhysBod} & 3
+skåte & ('slow or turn a rowboat around with the oars') &  {Sustain & Dir & Cogn & Impact & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & 3
+sladre & ('gossip') &  {Imped & Response & verbal & SymbVal & PhysBod} & 7
+slakke & ('slack') &  {Sustain & Impact & Perform & Criterial & SymbVal & PhysBod} & 5
+slakte & ('slaughter') &  {Sustain & Impact & Procedure & Perform & Domin & Criterial & PhysBod} & 3
+slamre & ('slam') &  {Imped & Perceptible & Impact & Criterial & PhysBod} & 5
+slappe & ('relax') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & 3
+slarve & ('chat carelessly') &  {Imped & Unfold & VerbalAct & Criterial & SymbVal & PhysBod} & 3
+sleike & ('lick') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 6
+sleive & ('be careless') &  {Imped & Procedure & SymbVal & PhysBod} & 3
+slenge & ('sling') &  {Dir & Impact & Perform & Domin & PhysBod} & 4
+slepe & ('drag') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & Domin & Criterial & PhysBod} & 3
+sleppe & ('drop, let loose') &  {Sustain & Cogn & Impact & Response & Perform & PhysBod} & 12
+slette & ('delete') &  {Prevent & Impact & Perform & Domin & Criterial & PhysBod} & 3
+slikke & ('lick') &  {Impact & Procedure & Perform & PhysBod} & 7
+slime & ('slime') &  {Sustain & Impact & Procedure & Criterial & PhysBod} & 3
+slingre & ('wobble') &  {Imped & Dir & Dependence & Impact & Unfold & Criterial & PhysBod} & 3
+slipe & ('grind') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+slippe & ('drop, let loose') &  {Sustain & Cogn & Impact & Response & Perform & PhysBod} & 12
+slumpe & ('chance') &  {Further & SymbVal} & 3
+sluntre & ('shirk') &  {Imped & Impact & Response & Perform & Criterial & PhysBod} & 4
+slurke & ('slurp') &  {Sustain & Perceptible & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+slurpe & ('slurp') &  {Imped & Procedure & Perform & SymbVal & PhysBod} & 4
+slurve & ('be sloppy') &  {Imped & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & 3
+slutte & ('stop, end') &  {Further & Dependence & Impact & Perform & SymbVal} & 9
+sløse & ('waste') &  {Imped & Impact & Procedure & Unfold & Perform & Poss & SymbVal} & 3
+slå & ('beat, turn') &  {Impact & Perform & Domin & SymbVal & PhysBod} & 25
+slåss & ('fight') &  {Imped & Sustain & Impact & Unfold & Perform & Domin & PhysBod} & 7
+smake & ('taste') &  {Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & 8
+smaske & ('smack') &  {Imped & Perceptible & Procedure & Perform & Criterial & PhysBod} & 3
+smatte & ('smack') &  {Imped & Perceptible & Procedure & Perform & Criterial & PhysBod} & 3
+smekke & ('smack') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & 3
+smelle & ('bang') &  {Sustain & Perceptible & Unfold & Criterial & Loc & PhysBod} & 7
+smelte & ('melt') &  {Impact & Criterial & PhysBod} & 5
+smerte & ('hurt') &  {Sustain & ImpactSensory & Cogn & Impact & Emotion & SymbVal} & 9
+smette & ('slip') &  {Dir & Response & Perform & Criterial & PhysBod} & 3
+smi & ('forge') &  {Sustain & Impact & Procedure & Creation & Unfold & Perform & SymbVal & PhysBod} & 4
+smigre & ('compliment') &  {Further & Cogn & Impact & Procedure & Emotion & verbal & SymbVal & Loc} & 9
+smile & ('smile') &  {Sustain & Perceptible & Cogn & Procedure & Emotion & Response & Unfold & Perform & Criterial & SymbVal & PhysBod} & 3
+sminke & ('put on make-up') &  {Sustain & Perceptible & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 3
+smitte & ('infect') &  {Sustain & Impact & Procedure & Domin & Criterial & PhysBod} & 3
+smugle & ('smuggle') &  {Imped & Cogn & Impact & Procedure & Perform & Poss & SymbVal & PhysBod} & 3
+smuldre & ('crumble') &  {Imped & Impact & Response & Unfold & Criterial & PhysBod} & 3
+smøre & ('smear, lubricate') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & 4
+småprate & ('smalltalk') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 12
+småspise & ('snack') &  {Sustain & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+snakke & ('speak') &  {Perceptible & Cogn & Unfold & VerbalAct & Criterial & SymbVal & PhysBod} & 19
+snappe & ('grab') &  {Impact & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & 4
+sne & ('snow') &  {Sustain & Perceptible & Procedure & Unfold & Criterial & PhysBod} & 6
+snekre & ('carpentry') &  {Sustain & Impact & Procedure & Unfold & Perform & SymbVal & PhysBod} & 4
+sniffe & ('sniff') &  {Perceptible & Procedure & Perform & Criterial & SymbVal & PhysBod} & 3
+snike & ('sneak') &  {Dir & Procedure & Unfold & Perform & PhysBod} & 4
+snitte & ('cut') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+sno & ('wiggle') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+snobbe & ('snob') &  {Imped & Procedure & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+snoke & ('snoop') &  {Imped & Cogn & Procedure & Perform & SymbVal} & 4
+snu & ('turn') &  {Sustain & Dir & Response & Perform} & 7
+snuble & ('stumble') &  {Imped & Perceptible & Impact & Response & Perform & Criterial & SymbVal & PhysBod} & 3
+snurpe & ('snort, snare') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+snurre & ('spin') &  {Dir & Perceptible & Impact & Procedure & Unfold & Criterial & PhysBod} & 3
+snuse & ('sniff') &  {Perceiving & Perform & PhysBod} & 5
+snuske & ('embezzle, dirty up') &  {Imped & Procedure & SymbVal & PhysBod} & 3
+snylte & ('parasitize') &  {Imped & Dependence & Impact & Procedure & Unfold & SymbVal & PhysBod} & 3
+snyte-1 & ('cheat') &  {Imped & Cogn & Impact & Procedure & Perform & Poss & SymbVal} & 5
+snø & ('snow') &  {Perceptible & Impact & Unfold & Criterial & PhysBod} & 5
+snøre & ('lace, knit') &  {Sustain & Dir & Perceptible & Cogn & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & 8
+sole & ('bask') &  {Sustain & Unfold & Perform & PhysBod} & 6
+somle & ('procrastinate') &  {Imped & Procedure & Response & Unfold & SymbVal & PhysBod} & 4
+sone & ('serve') &  {Sustain & Dependence & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & 4
+sope & ('sweep') &  {Sustain & Impact & Procedure & Perform & Domin & PhysBod} & 4
+sortere & ('sort') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 5
+sose & ('delay') &  {Imped & Procedure & Unfold & PhysBod} & 4
+sote & ('soot') &  {Sustain & Impact & Domin & PhysBod} & 4
+sove & ('sleep') &  {Sustain & Impact & Unfold & Criterial & PhysBod} & 6
+sovne & ('fall asleep') &  {Sustain & Impact & Response & SymbVal & PhysBod} & 4
+spa & ('spade') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+spandere & ('spend') &  {Sustain & Cogn & Procedure & Response & Unfold & Perform & Poss} & 6
+spare & ('save, spare') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Poss & SymbVal} & 9
+sparke & ('kick') &  {Sustain & Impact & Perform & Criterial & Loc & PhysBod} & 7
+spe & ('stir, add') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal & PhysBod} & 4
+speede & ('speed') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & PhysBod} & 3
+speide & ('scout') &  {Sustain & Perceiving & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+speile & ('mirror') &  {Sustain & MedByPrcept & Cogn & Dependence & Procedure & Response & Perform & PhysBod} & 3
+spekulere & ('speculate') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & 6
+spenne & ('span, buckle') &  {Sustain & Dependence & Impact & Procedure & Perform & Criterial & PhysBod} & 8
+sperre & ('block') &  {Imped & Prevent & Impact & PhysBod} & 9
+spesialisere & ('specialize') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 6
+spesifisere & ('specify') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 4
+spikke & ('cut') &  {Sustain & Perceptible & Impact & Procedure & Perform & Criterial & PhysBod} & 5
+spikre & ('nail') &  {Sustain & Perceptible & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 8
+spille & ('play') &  {Sustain & Cogn & Procedure & Creation & Unfold & Perform & SymbVal & PhysBod} & 15
+spinne & ('spin') &  {Sustain & Impact & Procedure & Creation & Unfold & Perform & SymbVal & PhysBod} & 4
+spire & ('sprout') &  {Init & Impact & Procedure & Creation & Unfold & SymbVal & PhysBod} & 4
+spise & ('eat') &  {Sustain & Perceptible & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 9
+spleise & ('splice, join') &  {Sustain & Impact & Procedure & Creation & Perform & Domin & SymbVal & PhysBod} & 4
+spole & ('wind') &  {Sustain & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 3
+spore-2 & ('track') &  {x & x & x & x & x & x & x} & 2
+spotte & ('mock') &  {Imped & Cogn & Emotion & Response & VerbalAct & Domin & SymbVal & PhysBod} & 4
+spraye & ('spray') &  {Sustain & Impact & Unfold & Perform & PhysBod} & 7
+spre & ('spread') &  {Sustain & Impact & Response & Perform & PhysBod} & 4
+sprede & ('spread') &  {Sustain & Impact & Response & Perform & PhysBod} & 4
+spreie & ('spread') &  {Sustain & Impact & Response & Perform & PhysBod} & 4
+sprekke & ('burst, crack') &  {Imped & Impact & Response & Domin & Criterial & PhysBod} & 3
+sprelle & ('splash?') &  {Sustain & Dir & Procedure & Response & Domin & Criterial & PhysBod} & 3
+sprenge & ('blast') &  {Prevent & Impact & Procedure & Perform & Domin & PhysBod} & 3
+sprenglese & ('read') &  {Sustain & Cogn & Impact & Unfold & Perform} & 5
+sprette & ('bounce') &  {Sustain & Dir & Impact & Response & Criterial & Loc & PhysBod} & 4
+sprike & ('spread') &  {Dir & Criterial & PhysBod} & 3
+springe & ('run, spring') &  {Sustain & Dir & Impact & Perform & Criterial & PhysBod} & 4
+sprute & ('splash') &  {Sustain & Impact & Unfold & Criterial & PhysBod} & 5
+sprøyte & ('inject, spray') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & PhysBod} & 4
+spy & ('puke') &  {Imped & Dir & Impact & PhysBod} & 4
+spyle & ('flush') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & PhysBod} & 4
+spytte & ('spit') &  {Sustain & Dir & Perceptible & Impact & Perform & Criterial & PhysBod} & 6
+spøke-1 & ('joke') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 12
+spørre & ('ask') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 16
+spørs & ('depend, be a question') &  {Init & Cogn & Dependence & SymbVal} & 3
+spå & ('tell, predict') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 11
+stable & ('stack') &  {Sustain & Dependence & Impact & Procedure & Creation & Perform & Domin & Criterial & PhysBod} & 3
+stadfeste & ('confirm') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & Domin & SymbVal} & 3
+stake & ('stake') &  {Sustain & Dir & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+stampe & ('stomp') &  {Sustain & Dir & Impact & Perform & Criterial & PhysBod} & 4
+stange & ('bar') &  {Further & Impact & Procedure & Perform & Domin & PhysBod} & 4
+stanse-1 & ('stop') &  {Sustain & Perceptible & Impact & Procedure & Perform & PhysBod} & 5
+stappe & ('cram, stuff') &  {Sustain & Perceptible & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 6
+starte & ('start') &  {Init & Perform} & 7
+stave & ('spell') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 3
+steile & ('rear, prance') &  {Perceptible & Impact & Response & Perform & SymbVal & PhysBod} & 5
+stele & ('steal') &  {Imped & Cogn & Impact & Perform & Poss & SymbVal} & 6
+stelle & ('nurse, groom') &  {Sustain & Impact & Response & Perform & Criterial & PhysBod} & 4
+stemme-1 & ('vote') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+stemme-2 & ('agree') &  {Sustain & Cogn & Procedure & SymbVal} & 3
+stemne & ('sue, lead') &  {Sustain & Cogn & Dependence & Impact & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+stemple & ('stamp') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+stenge & ('close') &  {Sustain & Cogn & Dependence & Impact & Response & Criterial & PhysBod} & 8
+stenke & ('sprinkle') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+steppe & ('step') &  {Dir & Procedure & Perform & Criterial & PhysBod} & 3
+steve & ('sing') &  {Sustain & Perceptible & Cogn & Procedure & Unfold & VerbalAct & Criterial & PhysBod} & 3
+stevje & ('sing') &  {Sustain & Perceptible & Cogn & Procedure & Unfold & VerbalAct & Criterial & PhysBod} & 3
+stikke-1 & ('sting') &  {Sustain & ImpactSensory & Perceptible & Impact & Perform & Criterial & PhysBod} & 5    
+stikke-2 & ('stick') &  {Imped & Dir & Cogn & Perform & PhysBod} & 5
+stile & ('direct') &  {Dir & Cogn & Procedure & Perform & SymbVal} & 3
+stille & ('pose') &  {Sustain & Impact & Perform & Criterial & PhysBod} & 13
+stilne & ('still') &  {Sustain & Perceptible & Impact & PhysBod} & 4
+stime & ('school') &  {Sustain & Dir & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+stimle & ('crowd') &  {Sustain & Dir & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+stimulere & ('stimulate') &  {Further & Impact & SymbVal} & 9
+stinke & ('stink') &  {Imped & ImpactSensory & Unfold & Criterial & SymbVal & PhysBod} & 5	
+stipulere & ('stipulate') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & 5
+stirre & ('stare') &  {Sustain & Dir & Perceiving & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+stive & ('stiffen') &  {Sustain & Impact & Procedure & Domin & PhysBod} & 7
+stjele & ('steal') &  {Imped & Cogn & Procedure & Perform & Poss} & 7
+stokke & ('shuffle') &  {Sustain & Impact & Procedure & Perform} & 5
+stoppe & ('stop') &  {Sustain & Impact & Response & Domin & Loc} & 7
+storme & ('storm') &  {Sustain & Impact & Unfold & Domin & PhysBod} & 4
+straffe & ('punish') &  {Imped & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 8
+straffeforfølge & ('prosecute') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & 4
+stramme & ('tighten') &  {Sustain & Impact & Perform & Criterial & PhysBod} & 6
+strebe & ('strive') &  {Sustain & Cogn & Procedure & Emotion & Domin & SymbVal} & 3
+strekke & ('stretch') &  {Sustain & Impact & Perform & PhysBod} & 5
+stresse & ('stress') &  {Imped & Cogn & Impact & Perform & PhysBod} & 6
+streve & ('struggle') &  {Sustain & Procedure & Perform & SymbVal & PhysBod} & 7
+stri & ('struggle') &  {Sustain & Impact & Unfold & Domin} & 5
+stride & ('fight') &  {Impact & Procedure & Perform & Domin & Criterial & SymbVal & PhysBod} & 7
+strides & ('contend') &  {Imped & Impact & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+strikke & ('knit') &  {Sustain & Cogn & Impact & Procedure & Creation & Unfold & Perform & Criterial & PhysBod} & 5
+stritte & ('resist, bristle') &  {Sustain & Dir & Impact & Response & Perform & Domin & Criterial & SymbVal & PhysBod} & 8
+stryke-1 & ('caress, stroke') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & PhysBod} & 4
+strømme & ('stream') &  {Dir & Impact & Procedure & Unfold & Criterial & PhysBod} & 3
+studere & ('study') &  {Sustain & Cogn & Procedure & Creation & Unfold & Perform & SymbVal} & 4
+stue & ('stow') &  {Sustain & Impact & Procedure & Unfold & Perform & PhysBod} & 5
+stulle & ('tinker') &  {Sustain & Procedure & Unfold & Perform & PhysBod} & 4
+stunde & ('long') &  {Further & Cogn & Dependence & SymbVal} & 4
+stupe & ('dive') &  {Sustain & Dir & Dependence & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+stusse & ('be puzzled') &  {MedByPrcept & Cogn & Emotion & Response & Criterial & SymbVal & PhysBod} & 10
+stuve & ('stow') &  {Sustain & Dependence & Impact & Procedure & Perform & PhysBod} & 4
+stygges & ('be disgusted') &  {Imped & MedByPrcept & Emotion & Response & SymbVal} & 7
+styre & ('steer, control') &  {Sustain & Dir & Cogn & Impact & Procedure & Unfold & Perform & Domin & SymbVal} & 5
+styrke & ('strengthen') &  {Further & Sustain & Impact & SymbVal} & 5
+styrte & ('crash') &  {Sustain & Dir & Dependence & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+stø & ('balance') &  {Sustain & Cogn & Dependence & Impact & Perform & Criterial & PhysBod} & 6
+støe & ('balance') &  {Sustain & Cogn & Dependence & Impact & Perform & Criterial & PhysBod} & 6
+støkke & ('startle, hit') &  {Imped & Impact & Emotion & Response & Criterial & PhysBod} & 3
+stønne & ('groan') &  {Sustain & Cogn & Emotion & Response & VerbalAct & Criterial & SymbVal & PhysBod} & 6
+støte & ('push') &  {Sustain & Dir & Perceptible & Impact & Perform & PhysBod} & 9
+støtte & ('support') &  {Sustain & Cogn & Perform & Domin & SymbVal} & 9
+støve & ('dust') &  {Sustain & Impact & Unfold & PhysBod} & 4
+støvsuge & ('vacuum') &  {Sustain & Impact & Procedure & Unfold & Perform & PhysBod} & 4
+støyte & ('push, bump') &  {Sustain & Dir & Impact & Response & Criterial & PhysBod} & 3
+stå & ('stand') &  {Perform & Criterial & Loc & PhysBod} & 20
+ståke & ('struggle') &  {Imped & Perceptible & Impact & Criterial & PhysBod} & 3
+stålsette & ('steel') &  {Sustain & Cogn & Impact & PhysBod} & 5
+subordinere & ('subordinate') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+subsidiere & ('subsidize') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Domin & SymbVal} & 3
+subspesialisere & ('subspecialize') &  {Sustain & Cogn & Procedure & Perform & Domin & SymbVal} & 4
+subtrahere & ('subtract') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 3
+suge & ('suck') &  {Sustain & Impact & Procedure & Perform & Domin & PhysBod} & 4
+suggerere & ('') &  {Sustain & MedByPrcept & Cogn & Dependence & Impact & Procedure & Emotion & Perform & Domin & SymbVal & PhysBod} & 3
+sukke & ('sigh') &  {Emotion & Response & PhysBod} & 5
+sulle & ('tinker') &  {Imped & Unfold & SymbVal & PhysBod} & 4
+sulte & ('hunger') &  {Sustain & MedByPrcept & Impact & Emotion & Unfold & Domin & PhysBod} & 4	
+summe-2 & ('collect oneself') &  {x & x & x & x & x & x & x} & 2
+summere & ('summarize') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 3
+supe & ('sip') &  {Sustain & Impact & Procedure & Unfold & Perform & Criterial & SymbVal} & 3
+surfe & ('surf') &  {Sustain & Dir & Procedure & Unfold & Perform & PhysBod} & 4
+surre-1 & ('buzz') &  {x & x & x & x & x} & 2
+surre-2 & ('tie') &  {x & x & x & x & x & x & x} & 2
+surre-3 & ('fool around') &  {x & x & x} & 2
+surre-4 & ('lash') &  {x & x & x & x & x & x & x & x} & 1
+suspendere & ('suspend') &  {Further & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+sutre & ('whine') &  {Imped & Emotion & Response & SymbVal & PhysBod} & 4
+svare & ('answer') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 17
+svartne & ('blacken') &  {ImpactSensory & Impact & Response & Criterial & PhysBod} & 3    
+sveise & ('weld') &  {Sustain & Impact & Procedure & Perform & Domin & PhysBod} & 3
+svelge & ('swallow') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+svelgje & ('swallow') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+svelte & ('hunger') &  {Sustain & MedByPrcept & Impact & Emotion & Unfold & Domin & PhysBod} & 4	
+sverge & ('svear') &  {Sustain & Cogn & Impact & Emotion & Response & VerbalAct & SymbVal} & 6
+sverje & ('svear') &  {Further & Cogn & Procedure & Response & VerbalAct & SymbVal} & 5
+sverme & ('swarm') &  {Sustain & Dir & Unfold & PhysBod} & 4
+sverte & ('blacken') &  {Sustain & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & 3
+svette & ('sweat') &  {Sustain & Impact & Response & Unfold & Criterial & PhysBod} & 3
+svi & ('burn, suffer') &  {Sustain & ImpactSensory & MedByPrcept & Impact & Unfold & Criterial & SymbVal & PhysBod} & 8	
+svindle & ('swindle') &  {Imped & Cogn & Impact & Procedure & Perform & Domin & SymbVal} & 3
+svinge & ('swing') &  {Dir & Unfold & PhysBod} & 4
+svinne & ('fade') &  {Imped & Perceptible & Impact & Unfold & Criterial & SymbVal & PhysBod} & 3
+svulme & ('swell') &  {Sustain & Perceptible & Impact & Procedure & Criterial & PhysBod} & 3
+sy & ('sew') &  {Sustain & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 4
+sykle & ('bike, cycle') &  {Dir & Procedure & Unfold & Perform & PhysBod} & 6
+sykne & ('sicken') &  {Imped & Impact & Response & Criterial & SymbVal & PhysBod} & 3
+sylte & ('pickle') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 3
+symbolisere & ('symbolize') &  {Cogn & SymbVal} & 4
+sympatistreike & ('sympathy strike') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & 5
+syne & ('show, appear') &  {MedByPrcept & Cogn & SymbVal & PhysBod} & 5
+synes & ('seem') &  {SymbVal & PureRel} & 31
+synge & ('sing') &  {VerbalAct & Criterial & SymbVal & PhysBod} & 17
+synliggjøre & ('highlight') &  {Sustain & MedByPrcept & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 3
+synse & ('') &  {Imped & Cogn & Procedure & Response & Perform & SymbVal} & 3
+sysselsette & ('employ') &  {Sustain & Cogn & Dependence & Procedure & Creation & Perform & Domin & SymbVal} & 6
+syte-1 & ('provide') &  {Sustain & Cogn & Creation & Response & Perform & Domin & SymbVal} & 4
+syte-2 & ('moan') &  {Imped & Emotion & Unfold & Perform & Criterial & PhysBod} & 4
+søke & ('seek') &  {Further & Cogn & Perform & SymbVal} & 14
+søkke & ('sink') &  {Dir & Dependence & Impact & PhysBod} & 4
+søle & ('spill, spoil') &  {Imped & Impact & Perform & Criterial & PhysBod} & 7
+sømme-1 & ('be appropriate') &  {Init & Dependence & SymbVal & PureRel} & 6
+sømme-2 & ('seam') &  {Sustain & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 4
+sørge-1 & ('provide') &  {Sustain & Cogn & Creation & Response & Perform & Domin & SymbVal} & 4
+sørge-2 & ('moan, grieve') &  {Sustain & Emotion & Unfold & Perform & Criterial & PhysBod} & 4
+såre & ('wound') &  {Imped & Impact & SymbVal & PhysBod} & 4
+ta & ('take') &  {Init & Domin & PureRel} & 44
+takke & ('thank') &  {Sustain & Cogn & Response & VerbalAct & SymbVal} & 9
+takle & ('tackle') &  {Sustain & Impact & Procedure & Response & Perform & Domin & Criterial & PhysBod} & 3
+taksere & ('appraise') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & Perform & Domin & SymbVal} & 3
+tale & ('talk') &  {Further & Cogn & VerbalAct & SymbVal} & 6
+tanke & ('tank') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 4
+tape & ('lose') &  {Prevent & Dependence & Impact & Procedure & Domin & SymbVal} & 3
+tappe-1 & ('tap') &  {x & x & x & x & x & x} & 2
+tappe-2 & ('tap') &  {x & x & x & x & x & x} & 2
+taste & ('enter') &  {Sustain & Cogn & Impact & Procedure & Perform & SymbVal & PhysBod} & 4
+taue & ('tow') &  {Sustain & Dir & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+tegne & ('draw') &  {Sustain & Cogn & Procedure & Creation & Perform & Criterial & SymbVal} & 9
+tekste & ('text') &  {Sustain & Dir & Cogn & Procedure & Creation & Perform & Criterial & SymbVal} & 8
+telefonere & ('call') &  {Sustain & Cogn & Procedure & Perform & Criterial & PhysBod} & 3
+telegrafere & ('telegraph') &  {Sustain & Cogn & Procedure & Perform & Criterial & PhysBod} & 3
+telekommunikere & ('telecommunicate') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 4
+telle & ('count') &  {Sustain & Cogn & Procedure & Perform & SymbVal & PureRel} & 11
+tendere & ('tend') &  {Further & SymbVal & PureRel} & 4
+tenke & ('think') &  {Cogn & Procedure & Perform & SymbVal} & 26
+tenne & ('ignite') &  {Sustain & Impact & Procedure & Creation & Domin & Criterial & PhysBod} & 3
+teoretisere & ('theoretize') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 7
+terpe & ('harp') &  {Sustain & Cogn & Impact & Procedure & Unfold & Perform & Domin & SymbVal} & 8
+terrorisere & ('terrorize') &  {Imped & Impact & Procedure & Emotion & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+testamentere & ('testament') &  {Sustain & Cogn & Impact & Procedure & VerbalAct & Domin & Poss & SymbVal} & 4
+teste & ('test') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 5
+tetne & ('tighten') &  {Imped & Impact & Response & Criterial & PhysBod} & 3
+tette & ('tighten, plug') &  {Sustain & Impact & Procedure & Perform & PhysBod} & 4
+tevle & ('compete') &  {Sustain & Cogn & Impact & Procedure & Unfold & Perform & Domin & SymbVal} & 8
+tie & ('be quiet, shut up') &  {Sustain & Cogn & Response & VerbalAct & SymbVal & PhysBod} & 5
+tigge & ('beg') &  {Sustain & Dependence & Procedure & Perform & Poss & SymbVal & PhysBod} & 5
+tilbakebetale & ('repay') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Poss & SymbVal} & 3
+tilby & ('offer') &  {Further & Cogn & Procedure & VerbalAct & SymbVal} & 5
+tilegne & ('dedicate') &  {Further & Cogn & Procedure & Perform & Poss & SymbVal} & 4
+tilfredsstille & ('satisfy') &  {Sustain & Impact & Response & SymbVal} & 5
+tilføre & ('add') &  {Sustain & Dir & Cogn & Impact & Procedure & Perform & Domin & SymbVal} & 3
+tilføye & ('add') &  {Further & Cogn & Procedure & Response & Perform & SymbVal} & 5
+tilgi & ('forgive') &  {Further & Cogn & Emotion & Creation & Response & Perform & SymbVal} & 7
+tilkjennegi & ('declare') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+tilknytte & ('associate') &  {Sustain & Cogn & Dependence & Impact & Procedure & Perform & Domin & SymbVal} & 3
+tilkomme & ('accede?') &  {Further & Dependence & Poss & SymbVal} & 3
+tillate & ('allow') &  {Further & Cogn & Procedure & Response & Perform & SymbVal} & 7
+tillempe & ('adapt, accommodate') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal} & 5
+tilligge & ('incur') &  {Further & Dependence & Poss & SymbVal} & 3
+tilpasse & ('adapt') &  {Further & Cogn & Dependence & Impact & Procedure & Creation & Response & Perform & Domin & SymbVal} & 10
+tilrettelegge & ('facilitate') &  {Further & Cogn & Impact & Procedure & Creation & Response & Perform & Domin & SymbVal} & 4
+tilrå & ('advise') &  {Further & Cogn & Procedure & Perform & SymbVal} & 5
+tilsette & ('hire') &  {Sustain & Cogn & Dependence & Impact & Perform & Domin} & 4
+tilsi & ('imply, mean') &  {Further & Cogn & Dependence & SymbVal} & 4
+tilskynde & ('urge') &  {Further & Cogn & Perform & SymbVal} & 7
+tilstede & ('grant') &  {Sustain & Cogn & Dependence & Impact & Procedure & Perform & Domin & Poss & SymbVal} & 4
+tilstille & ('provide') &  {Dir & Cogn & Procedure & Perform & SymbVal} & 3
+tilstrebe & ('strive') &  {Further & Cogn & Emotion & Unfold & SymbVal} & 3
+tilstå & ('confess') &  {Further & Cogn & Procedure & Response & VerbalAct & SymbVal} & 6
+tiltale & ('prosecute') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & 4
+tiltenke & ('intend') &  {Further & Cogn & Creation & Unfold & SymbVal} & 3
+tiltro & ('trust') &  {Further & Cogn & Creation & SymbVal} & 3
+tiltru & ('trust') &  {Further & Cogn & Creation & SymbVal} & 3
+times & ('be the hour') &  {Init & Impact & SymbVal} & 3
+tine & ('thaw') &  {Sustain & Impact & Procedure & Unfold & Domin & PhysBod} & 4
+tinge & ('claim') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 3
+tippe-1 & ('bet') &  {Cogn & Procedure & Response & Perform & SymbVal} & 5
+tipse & ('tip') &  {Further & Cogn & VerbalAct & SymbVal} & 6
+tiske & ('whisper') &  {Imped & Cogn & VerbalAct & Criterial & PhysBod} & 5
+titte & ('peek') &  {Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & 3
+tjene-1 & ('earn') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Poss & SymbVal} & 12
+tjene-2 & ('serve') &  {Further & Dependence & SymbVal & PureRel} & 17
+tjore & ('tether') &  {Sustain & Cogn & Dependence & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+tjuvlytte & ('eavesdrop') &  {Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & 3
+tjuvstarte & ('false start') &  {Imped & Procedure & Response & Perform & PhysBod} & 4
+tjuvtitte & ('peek') &  {Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & 3
+tjuvtrene & ('train stealthily') &  {Sustain & Cogn & Impact & Procedure & Perform & PhysBod} & 3
+tolke & ('interpret') &  {Sustain & MedByPrcept & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 3
+tordne & ('thunder') &  {Init & Perceptible & Impact & PhysBod} & 4
+tore & ('dare') &  {Further & Cogn & Emotion & SymbVal} & 3
+trakte-1 & ('pursue') &  {Further & Cogn & Emotion & SymbVal} & 3
+trampe & ('trample') &  {Init & Dir & Impact & Perform & Domin & PhysBod} & 4
+translitterere & ('transliterate') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 4
+trappe & ('step') &  {Dir & Procedure & Perform} & 3
+trasse & ('defy') &  {Further & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 4
+tre-1 & ('step') &  {Dir & Procedure & Response & Perform} & 3
+treffe & ('hit') &  {Further & Impact & Domin & Criterial & PhysBod} & 3
+trekke & ('pull') &  {Dir & Impact & Procedure & Perform & PhysBod} & 12
+trelle & ('slave') &  {Imped & Dependence & Procedure & Unfold & Perform & Domin & SymbVal & PhysBod} & 3
+trene & ('train') &  {Perform} & 11
+trenge-1 & ('push') &  {Sustain & Dir & Impact & Procedure & Perform & PhysBod} & 7
+trenge-2 & ('need') &  {Init & Dependence & SymbVal} & 3
+trenges & ('be needed') &  {Init & Dependence & SymbVal & PureRel} & 3
+trengs & ('be needed') &  {Init & Dependence & SymbVal & PureRel} & 3
+trette & ('argue') &  {Imped & Cogn & Procedure & Emotion & Unfold & VerbalAct & SymbVal & PhysBod} & 10
+trevle & ('tear, unravel') &  {Sustain & Impact & Procedure & Unfold & Domin & Criterial & PhysBod} & 3
+trille & ('roll') &  {Dir & Procedure & Unfold & Criterial & PhysBod} & 3
+triumfere & ('triumph') &  {Sustain & Cogn & Procedure & Emotion & Response & Perform & SymbVal} & 4
+trives & ('thrive') &  {Sustain & MedByPrcept & Emotion & Response & Unfold & SymbVal} & 5
+tro & ('believe') &  {Sustain & Cogn & Unfold & SymbVal} & 7
+tromme & ('drum') &  {Sustain & Perceptible & Procedure & Perform & Criterial & PhysBod} & 5
+tru & ('believe') &  {Sustain & Cogn & SymbVal} & 6
+truge & ('threaten') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & SymbVal} & 10
+trumfe & ('trump') &  {Sustain & Domin & SymbVal} & 7
+trygge & ('secure') &  {Sustain & Impact & Response & SymbVal & PhysBod} & 7
+trygle & ('beg, beseach') &  {Imped & Cogn & Dependence & verbal & SymbVal & PhysBod} & 7
+trykke-1 & ('push, squeeze') &  {Sustain & Perceptible & Impact & Procedure & Domin & Criterial & PhysBod} & 3
+trylle & ('conjure') &  {Sustain & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & 4
+træ & ('thread') &  {Sustain & Dir & Perceptible & Cogn & Procedure & Creation & Unfold & Perform & Criterial & PhysBod} & 3
+trø & ('step') &  {Dir & Perceptible & Procedure & Perform & Criterial & PhysBod} & 5
+trøste & ('comfort') &  {Sustain & Emotion & Response & Perform & SymbVal} & 5
+trå & ('step') &  {Dir & Perform & Criterial & PhysBod} & 4
+tråkke & ('step, tramp') &  {Sustain & Impact & Perform & Criterial & PhysBod} & 7
+tråkle & ('baste ?') &  {Sustain & Dir & Perceptible & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+tufte & ('tuft') &  {Sustain & Cogn & Dependence & Impact & Procedure & Perform & Domin & SymbVal & PhysBod} & 3
+tulle & ('be kidding') &  {Imped & Cogn & verbal & SymbVal & PhysBod} & 7
+ture & ('conduct') &  {Sustain & Dir & Impact & Unfold & Perform & SymbVal & PhysBod} & 7
+tvangspålegge & ('compel') &  {Sustain & Cogn & Dependence & Impact & Procedure & Perform & Domin & SymbVal} & 3
+tvile & ('doubt') &  {Further & Cogn & Procedure & Emotion & Creation & Response & Perform & SymbVal} & 4
+tvinge & ('force') &  {Sustain & Cogn & Impact & Perform & Domin & PhysBod} & 10
+tvinne & ('twist, twine') &  {Sustain & Dependence & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+tviste & ('dispute') &  {Sustain & Cogn & Dependence & Procedure & Response & VerbalAct & Poss & SymbVal} & 3
+ty & ('resort') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 3
+tyde & ('interpret, decipher') &  {Further & Cogn & Procedure & Perform & SymbVal} & 6
+tygge & ('chew') &  {Sustain & Perceptible & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & 3
+tykke & ('think') &  {Init & Cogn & Response & Perform & SymbVal} & 3
+tykkes & ('seem, appear') &  {Further & Cogn & SymbVal} & 5
+tyne & ('squeeze') &  {Imped & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 4
+tynge & ('burden') &  {Imped & Impact & Unfold & Domin & SymbVal & PhysBod} & 7
+tyte & ('ooze') &  {Dir & Perceptible & Impact & Procedure & Response & Domin & Criterial & PhysBod} & 3
+tyvlytte & ('eavesdrop') &  {Imped & Perceiving & Cogn & Procedure & Response & Perform & SymbVal & PhysBod} & 4
+tyvstarte & ('false start') &  {Imped & Procedure & Response & Perform & PhysBod} & 4
+tyvtitte & ('peek') &  {Sustain & Perceiving & Cogn & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & 3
+tyvtrene & ('cheat') &  {Imped & Procedure & Response & Perform & PhysBod} & 4
+tære & ('tear, devour') &  {Sustain & Dependence & Impact & Procedure & Emotion & Unfold & Criterial & PhysBod} & 3
+tø & ('thaw') &  {Perceptible & Impact & Procedure & Response & Criterial & PhysBod} & 3
+tømme & ('empty') &  {Sustain & Impact & Criterial & PhysBod} & 6
+tømre & ('build, carpenter') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 3
+tørke & ('dry') &  {Sustain & ImpactSensory & Perceptible & Impact & Unfold & PhysBod} & 9 
+tørre & ('dare') &  {Further & Cogn & Emotion & SymbVal} & 3
+tørrtrene & ('train') &  {Sustain & Procedure & Response & Perform & PhysBod} & 4
+tørste & ('thirst') &  {Sustain & ImpactSensory & Perceptible & Impact & Emotion & PhysBod} & 4   
+tøye & ('stretch') &  {Sustain & Dir & Impact & Perform & Domin & Criterial & PhysBod} & 3
+tøyse & ('joke') &  {Sustain & Cogn & Procedure & Emotion & Perform & SymbVal & PhysBod} & 3
+tåle & ('endure') &  {Sustain & MedByPrcept & Dependence & Procedure & Emotion & Domin & SymbVal & PhysBod} & 4
+uffe & ('complain') &  {Imped & MedByPrcept & Emotion & VerbalAct & Criterial & SymbVal & PhysBod} & 5
+uleilige & ('inconvenience') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & 4
+ulme & ('smolder') &  {Sustain & Perceptible & Unfold & Criterial & PhysBod} & 3
+umake & ('inconvenience') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & 4
+umuliggjøre & ('make impossible') &  {Prevent & Impact & SymbVal} & 5
+underbygge & ('substantiate') &  {Sustain & Cogn & Dependence & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 3
+underforstå & ('imply') &  {Sustain & Cogn & VerbalAct & SymbVal} & 3
+underhandle & ('negotiate') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 8
+underholde & ('entertain') &  {Sustain & Impact & Procedure & Emotion & Perform} & 5
+underkommunisere & ('undercommunicate') &  {Imped & Cogn & SymbVal} & 3
+underordne & ('subordinate') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+underrette & ('inform') &  {Further & Cogn & verbal & SymbVal} & 7
+underslå & ('embezzle ') &  {Imped & Cogn & Impact & Procedure & Perform & SymbValSymbVal} & 3
+understreke & ('underline') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+understryke & ('underline') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+understå & ('allow') &  {Sustain & Cogn & Procedure & Emotion & Perform & Domin & SymbVal} & 3
+undersøke & ('investigate') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 3
+undervise & ('teach') &  {Sustain & Cogn & Impact & Procedure & Unfold & Perform & SymbVal} & 6
+undre & ('wonder') &  {Sustain & MedByPrcept & Cogn & Emotion & Response & Unfold & SymbVal} & 8
+undres & ('wonder') &  {Further & Cogn & SymbVal} & 5 & 
+unndra & ('evade') &  {Sustain & Impact & Perform} & 5
+unne & ('be happy that someone gets something') &  {Further & Cogn & Impact & Emotion & Creation & Response & Perform & SymbVal} & 4
+unngjelde & ('be punished') &  {Sustain & Cogn & Dependence & Impact & Response & SymbVal} & 4
+unngå & ('avoid') &  {Sustain & Dependence & Procedure & Response & Perform & Domin & SymbVal} & 3
+unnskylde & ('excuse') &  {Sustain & Cogn & Dependence & Procedure & Emotion & Response & VerbalAct & SymbVal} & 10
+unnsleppe & ('escape') &  {Sustain & Dependence & Response & Domin & PhysBod} & 4
+unnslippe & ('escape') &  {Sustain & Dependence & Response & Domin & PhysBod} & 4
+unnta & ('exempt') &  {Sustain & Cogn & Impact & Procedure & SymbVal} & 3
+uroe & ('disquiet') &  {Imped & MedByPrcept & Cogn & Impact & Emotion & SymbVal} & 12
+utarte & ('turn into') &  {Imped & Response & PhysBod} & 5
+utbasunere & ('trumpet') &  {Sustain & Cogn & Perform & SymbVal} & 3
+utbe & ('ask for') &  {Further & Cogn & Impact & Procedure & VerbalAct & Domin & SymbVal} & 3
+utbetale & ('pay out') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & 3
+utbre & ('propagate, spread') &  {Further & Dir & Impact & Procedure & Response & Domin & Loc & PhysBod} & 3
+utbreie & ('propagste, spread') &  {Further & Dir & Impact & Procedure & Response & Domin & Loc & PhysBod} & 3
+utdanne & ('educate') &  {Further & Cogn & Impact & Procedure & Perform & SymbVal} & 6
+utebli & ('be absent') &  {Further & Impact & SymbVal} & 3
+utelate & ('omit') &  {Sustain & Response & Perform & SymbVal} & 5
+utelukke & ('exclude') &  {Prevent & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+uteske & ('ask for') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 3
+utestenge & ('ban') &  {Prevent & Cogn & Dependence & Impact & Procedure & Response & Perform & Domin & PhysBod} & 3
+utfolde & ('unfold') &  {Further & Cogn & Creation & Perform & SymbVal} & 3
+utfordre & ('challenge') &  {Further & Cogn & Dependence & Procedure & Creation & Response & Perform & Domin & SymbVal} & 4
+utfritte & ('interrogate') &  {Further & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 4
+utgyde-1 & ('rant') &  {Imped & Cogn & Procedure & Emotion & VerbalAct & SymbVal & PhysBod} & 5
+utgyte-1 & ('rant') &  {Imped & Cogn & Procedure & Emotion & VerbalAct & SymbVal & PhysBod} & 5
+utheve & ('highlight') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+utholde & ('endure') &  {Sustain & Response & Perform & SymbVal & PhysBod} & 3
+utkalle & ('call out') &  {Sustain & Cogn & Impact & Procedure & VerbalAct & Domin & SymbVal} & 3
+utkrystallisere & ('crystallize') &  {Procedure & SymbVal} & 6
+utkåre & ('select') &  {Sustain & Cogn & Impact & Procedure & Creation & VerbalAct & Domin & SymbVal} & 3
+utlevere & ('deliver') &  {Sustain & Impact & Procedure & Response & Perform & Poss & SymbVal & PhysBod} & 4
+utlove & ('promise') &  {Further & Cogn & Procedure & Response & VerbalAct & SymbVal} & 4
+utmale & ('imagine, sketch') &  {Cogn & Procedure & Creation & VerbalAct} & 5
+utmerke & ('excel') &  {Further & Response & Unfold & SymbVal} & 5
+utnevne & ('appoint') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & VerbalAct & Domin & SymbVal} & 3
+utnytte & ('exploit') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Domin & SymbVal & PhysBod} & 3
+utpeke & ('designate, assign') &  {Sustain & Perform & SymbVal} & 6
+utrope & ('announce') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 4
+utruste & ('equip') &  {Sustain & Impact & Perform & SymbVal & PhysBod} & 7
+utrydde & ('extinguish') &  {Prevent & Cogn & Impact & Procedure & Perform & Domin & PhysBod} & 3
+utse & ('choose') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 4
+utsette & ('postpone') &  {Imped & Impact & Procedure & Perform & SymbVal} & 5
+utsi & ('utter, pronounce') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & 3
+utsmykke & ('embellish') &  {Sustain & ImpactAesthetic & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & 4 
+utspørre & ('interrogate') &  {Sustain & Cogn & Impact & Procedure & VerbalAct & Domin & SymbVal} & 3
+utstaffere & ('dress up') &  {Sustain & Cogn & Impact & Procedure & Perform & SymbVal & PhysBod} & 3
+utstyre & ('equip') &  {Sustain & Cogn & Impact & Procedure & Perform & SymbVal & PhysBod} & 3
+uttale & ('pronounce') &  {Sustain & VerbalAct & SymbVal} & 6
+uttrykke & ('express') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 5
+uttømme & ('exhaust') &  {Sustain & Impact & Procedure & Response & Perform} & 4
+utvide & ('expand') &  {Further & Impact & SymbVal & PhysBod} & 5
+utvikle & ('develop') &  {Further & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 4
+utøse & ('rant') &  {Sustain & Cogn & Emotion & Unfold & VerbalAct & SymbVal} & 5
+vaksinere & ('vaccinate') &  {Sustain & Impact & Procedure & Perform} & 7
+validere & ('validate') &  {Sustain & MedByPrcept & Cogn & Procedure & Creation & VerbalAct & Domin & SymbVal} & 3
+valne & ('become numb') &  {Imped & ImpactSensory & Perceptible & Impact & Response & Domin & Criterial & Loc & PhysBod} & 3    
+valse-1 & ('roll out') &  {Sustain & Impact & Procedure & Perform & Domin & PhysBod} & 3
+vansmekte & ('languish') &  {Imped & MedByPrcept & Cogn & Impact & Emotion & Response & Unfold & Domin & Criterial & PhysBod} & 3
+vantrives & ('be uncomfortable') &  {Imped & Impact & Emotion & Response & Unfold & Domin & SymbVal & PhysBod} & 4
+variere & ('vary') &  {Sustain & Procedure & Creation & Unfold & Perform & SymbVal} & 4
+varme & ('heat') &  {Sustain & ImpactSensory & Perceptible & MedByPrcept & Impact & Procedure & Unfold & PhysBod} & 4 
+varsku & ('warn') &  {Sustain & Cogn & Impact & VerbalAct & SymbVal & PhysBod} & 5
+vase & ('get tangled') &  {Imped & Impact & Procedure & SymbVal & PhysBod} & 4
+vaske & ('wash') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & Criterial & PhysBod} & 8
+vedde & ('bet') &  {Sustain & Cogn & VerbalAct & SymbVal} & 16
+vederfares & ('happen to, suffer') &  {Init & Impact & Unfold & Domin & SymbVal & PhysBod} & 3
+vederkvege & ('soothe') &  {Sustain & MedByPrcept & Cogn & Impact & Emotion & Creation & Perform & Criterial & PhysBod} & 3
+vedgå & ('admit') &  {Further & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & 4
+vedkjenne & ('acknowledge') &  {Sustain & Cogn & Response & VerbalAct & SymbVal} & 5
+vedkomme & ('concern') &  {Init & Dependence & SymbVal} & 3
+vedta & ('decide') &  {Further & Cogn & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 4
+vegre & ('be hesitant') &  {Sustain & Cogn & Impact & Emotion & Response & verbal & Domin & SymbVal} & 7
+veie & ('weigh') &  {Sustain & Impact & Perform & SymbVal & PhysBod} & 10
+veilede & ('supervise') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & Domin & SymbVal} & 4
+vekke & ('wake') &  {Further & Dependence & Impact & Perform & Domin & PhysBod} & 4
+veksle & ('shift, exchange') &  {Sustain & Dependence & Impact & Procedure & Response & Unfold & Perform & Poss & SymbVal & PhysBod} & 9
+vektlegge & ('emphasize') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & 3
+velge & ('choose, elect') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 16
+vemmes & ('be disgusted') &  {Imped & Impact & Emotion & Response & SymbVal & PhysBod} & 4
+vende & ('turn') &  {Further & Dir & Perform} & 6
+venne & ('get used to') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & 6
+vente & ('wait') &  {Sustain & Procedure & Response & Unfold & Perform & SymbVal} & 10
+verbalisere & ('verbalize') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 3
+verdige & ('offer') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & 3
+verdsette & ('appreciate') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & 4
+verge & ('protect') &  {Sustain & Cogn & Dependence & Response & Perform & Domin & Criterial & SymbVal & PhysBod} & 8
+verifisere & ('verify') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & 3
+verje & ('protect') &  {Sustain & Dependence & Impact & Procedure & Emotion & Response & Perform} & 11
+verke & ('ache') &  {Further & ImpactSensory & MedByPrcept & Impact & Emotion & Response & Domin & Criterial & SymbVal & PhysBod} & 3 
+verne & ('protect') &  {Sustain & Cogn & Dependence & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & 8
+versere & ('verse') &  {Sustain & Unfold & SymbVal} & 7
+verve & ('recruit') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 6
+veve & ('weave') &  {Sustain & Cogn & Impact & Procedure & Creation & Unfold & Perform & PhysBod} & 3
+viderefortelle & ('pass on') &  {Sustain & Dir & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal & PhysBod} & 3
+videreutdanne & ('do furthereducation') &  {Further & Cogn & Impact & Procedure & Perform & SymbVal} & 6
+videreutvikle & ('furthe develop') &  {Sustain & Cogn & Impact & Procedure & Creation & Unfold & Perform & SymbVal} & 3
+vie-1 & ('devote') &  {Further & Cogn & Procedure & Creation & Perform & SymbVal} & 4
+vigsle & ('marry') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creation & Response & Perform & Domin & SymbVal} & 3
+vikariere & ('substitute') &  {Sustain & Cogn & Procedure & Response & Perform & Domin} & 3
+vike & ('concede') &  {Sustain & Dir & Impact & Response & Perform & Domin & PhysBod} & 7
+vikle & ('wrap') &  {Sustain & Perceptible & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & 6
+vinke & ('wave') &  {Sustain & Perceptible & Procedure & Response & Perform & Criterial & PhysBod} & 3
+vinne & ('win') &  {Further & Dependence & Impact & Procedure & Perform & Domin & SymbVal} & 10
+vippe & ('tip') &  {Dir & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 4
+virke & ('work') &  {Init & Unfold & SymbVal} & 13
+vise & ('show') &  {Dir & MedByPrcept & Cogn & Impact & Procedure & Unfold & SymbVal & PureRel} & 26
+viske & ('erase') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & 3
+visne & ('fade') &  {Imped & Perceptible & Impact & Procedure & Response & Unfold & Criterial & PhysBod} & 3
+vispe & ('whisk ?') &  {Sustain & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & 3
+visualisere & ('visualize') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & 3
+vite & ('know') &  {Further & Cogn & SymbVal} & 11
+vitne & ('witness') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & 4
+vokse & ('grow') &  {Further & Dir & Perceptible & Impact & Procedure & Unfold & PhysBod} & 7
+vokte & ('guard') &  {Sustain & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & 4
+votere & ('vote') &  {Sustain & Cogn & Procedure & Perform & Domin & SymbVal} & 10
+vredes & ('get angry') &  {Sustain & MedByPrcept & Cogn & Impact & Emotion & Response & Domin & SymbVal & PhysBod} & 4
+vrenge & ('turn') &  {Sustain & Perceptible & Impact & Procedure & Response & Perform & Domin & Criterial & PhysBod} & 3
+vri & ('twist') &  {Impact & Procedure & Perform & Domin & PhysBod} & 4
+vrimle & ('crowd') &  {Perceptible & Impact & Unfold & PhysBod} & 4
+vugge & ('cradle') &  {Sustain & Dependence & Impact & Procedure & Perform & SymbVal & PhysBod} & 4
+vurdere & ('evaluate') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & 13
+væpne & ('arm') &  {Sustain & Impact & Response & Perform & Domin & PhysBod} & 3
+være & ('be') &  {SymbVal & PureRel} & 38
+væte & ('wet') &  {Sustain & Perceptible & Impact & Procedure & Criterial & PhysBod} & 3
+vøle & ('repair') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & Criterial & PhysBod} & 3
+våge & ('dare') &  {Further & Cogn & Emotion & Creation & Perform & Domin & SymbVal} & 6
+våke & ('watch') &  {Sustain & Perceiving & Impact & Procedure & Response & Unfold & Perform & SymbVal & PhysBod} & 4
+ydmyke & ('humiliate') &  {Imped & Dependence & Impact & Emotion & Perform & SymbVal & PhysBod} & 3
+ymte & ('mumble') &  {Sustain & Cogn & VerbalAct & SymbVal & PhysBod} & 6
+ynde & ('favor, like') &  {Further & PerceptibleDELERE & Cogn & Emotion & Response & SymbVal} & 3
+yre & ('drizzle') &  {Perceptible & Impact & Unfold & Criterial & PhysBod} & 3
+ytre & ('utter') &  {Sustain & Cogn & verbal & SymbVal} & 7
+æresforplikte & ('honorably commit') &  {Further & Dependence & Impact & Procedure & Perform & SymbVal} & 6
+ødelegge & ('destroy') &  {Prevent & Impact & Domin & SymbVal & PhysBod} & 3
+ødsle & ('squander') &  {Imped & Impact & Unfold & SymbVal & PhysBod} & 3
+øke & ('increase') &  {Further & Impact & Unfold & SymbVal} & 4
+økonomisere & ('economize') &  {Sustain & Cogn & Procedure & Response & Perform & Poss} & 4
+øse-1 & ('empty, scoop') &  {Sustain & Dir & Impact & Procedure & Response & Perform & Criterial & PhysBod} & 3
+øve & ('practice') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Unfold & Perform & SymbVal} & 8
+åpenbare & ('reveal') &  {Init & Cogn & Impact & Creation & Domin & SymbVal & PhysBod} & 4
+åpne & ('open') &  {Further & Cogn & Impact & Perform & SymbVal & PhysBod} & 10
+TRUE & ('threaten') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & SymbVal} & 10

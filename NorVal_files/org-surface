@@ -1,0 +1,3 @@
+kile-2_SUB_EXP & ('tickle') &  	surface	{ImpactSensory & Impact & Criterial & PhysBod}      & VALPOD: {kile-2:V__impersObl-oblPRTOFexper & V__tr & V__trObl-oblPRTOFob}_3-items	& EX: det kiler i nesen & tråden kiler henne i ansiktet & stoffet kiler huden & ENDex
+svi & ('burn, suffer') &  	surface	{Sustain & ImpactSensory & MedByPrcept & Impact & Unfold & Criterial & SymbVal & PhysBod} & VALPOD: {svi:V__impers & V__impersObl-oblPRTOFexper & V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V__tr}_7-items	
+	surface - 2 ImpactSensory		

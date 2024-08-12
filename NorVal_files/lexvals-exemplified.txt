@@ -851,6 +851,7 @@ beflitte-på__trObl-obRefl-oblN & hun beflitter seg på oppsummeringen &
 befolke__tr & de befolker byen &
 befordre__tr & vi befordrer varebestillinger &
 befrakte__tr & vi befrakter varer &
+befri-fra__trObl-oblEqObInf & vi befrir dem fra å måtte ofre familiemedlemmer &
 befri-fra__trObl-oblN & vi befrir dem fra okkupantene &
 befri-fra__trObl-obRefl-oblN & hun befrir seg fra overgriperen &
 befri__tr & vi befrir fangene &
@@ -3497,7 +3498,7 @@ forekomme__intrAdvExpn-expnDECL & det forekommer ofte at slike ting skjer &
 forekomme__trExpnSu-expnINTERRwh & det forekommer meg hva som skjedde &
 forekomme__trScpr-scSuNrg-scInf & oppskriften forekommer meg å fungere &
 forekomme__trScpr-scSuNrg-scPred & motoren forekommer meg i orden &
-forekomme_intrExpn-expnDECL & det forekommer at de kommer &
+forekomme__intrExpn-expnDECL & det forekommer at de kommer &
 foreldes__intr & ordene foreldes &
 forelegge__ditr & hun forelegger dem bevisene &
 forelegge__tr & politiet forelegger bevis &
@@ -4270,7 +4271,10 @@ framholde__tr-obEqSuInf & de framholder å ha prinsipper &
 framkalle__tr & de framkaller bildene &
 framkaste__tr & de framkaster forslaget &
 framkomme-av__intrObl-oblN & løsningen framkommer av beskrivelsen &
+framkomme-med__intrObl-oblN & de framkommer med nye opplysninger &
 framkomme__intr & løsningen framkommer &
+framkomme__intrPresnt & det framkommer nye bevis &
+framkomme__intrExpn-expnDECL & & det framkommer at komitéen allerede hadde opplysningene &
 framlegge__tr & de framlegger bevis &
 framleie-til__trObl-oblN & vi framleier bilen til firmaet &
 framleie__tr & de framleier leiligheten &
@@ -4348,6 +4352,8 @@ fremkaste__tr & de fremkaster et forslag &
 fremkomme-av__intrObl-oblN & løsningen fremkommer av beskrivelsen &
 fremkomme-med__intrObl-oblN & politiet fremkommer med bevis &
 fremkomme__intr & konsekvensene fremkommer &
+fremkomme__intrPresnt & det fremkommer nye bevis &
+fremkomme__intrExpn-expnDECL & & det fremkommer at komitéen allerede hadde opplysningene &
 fremlegge__tr & politiet fremlegger bevisene &
 fremleie-til__trObl-oblN & vi fremleier leiligheten til kamerater &
 fremleie__tr & firmaet fremleier leiligheten &
@@ -4763,7 +4769,7 @@ gjekke__tr & guttene gjekker jentene &
 gjelde-for__intrObl-oblN & loven gjelder for meg &
 gjelde__intr & lovene gjelder &
 gjelde__tr & klagene gjelder oksen &
-gjelde_intrExpn-expnDECL & det gjelder at de kommer & 
+gjelde__intrExpn-expnDECL & det gjelder at de kommer & 
 gjelle__intr & hornene gjeller &
 gjemme-bort__trPrtcl & vi gjemmer bort bøkene &
 gjemme-bort__trPrtcl-obRefl & hun gjemmer seg bort &
@@ -4808,9 +4814,9 @@ gjeninnlegge__tr & de gjeninnlegger pasientene &
 gjeninnpakke__tr & hun gjeninnpakker flasken &
 gjeninnpode__tr & hun gjeninnpoder stiklingen &
 gjeninnsette__tr & de gjeninnsetter ledelsen &
-gjeninnskrive_tr & de gjeninnskriver pasientene &
+gjeninnskrive__tr & de gjeninnskriver pasientene &
 gjeninnta__tr & de gjeninntar elevene &
-gjeninstallere_tr & vi gjeninstallerer programmet &
+gjeninstallere__tr & vi gjeninstallerer programmet &
 gjenkalle__tr & de gjenkaller bilene &
 gjenkjenne__tr & de gjenkjenner demonstrantene &
 gjenlegge__tr & de gjenlegger dokumentene &
@@ -5425,7 +5431,7 @@ haste-med__intrOblExlnk-oblExlnkAbsinf & det haster med å bli ferdig &
 haste-med__intrOblExlnk-oblExlnkDECL & det haster med at han kommer &
 haste__intr & saksbehandlerne haster &
 haste__intrExpn-expnAbsinf & det haster å stable opp sandsekker &
-haste_intrExpn-expnDECL & det haster at de kommer &
+haste__intrExpn-expnDECL & det haster at de kommer &
 hastevedta__tr & politikerne hastevedtar forslaget &
 hastevedta__tr-obAbsinf & politikerne hastevedtar å sette opp bygget &
 hastevedta__tr-obDECL & politikerne hastevedtar at bygget skal settes opp &
@@ -5694,7 +5700,7 @@ hjelpe-til__trObl-oblEqObInf & vi hjelper dem til å få et bedre liv &
 hjelpe__ditr-obEqIobInf & jeg hjelper dem å skrive &
 hjelpe__intr & medisinen hjelper &
 hjelpe__tr & naboene hjelper familien &
-hjelpe_intrExpn-expnAbsinf & det hjelper å organisere seg &
+hjelpe__intrExpn-expnAbsinf & det hjelper å organisere seg &
 hjemfalle-til__intrObl-oblN & gravstedet hjemfaller til kommunen &
 hjemfalle__tr & hun hjemfaller floskler &
 hjemføre__tr & de hjemfører kunstgjenstandene &
@@ -7466,7 +7472,7 @@ komme__intrObl-oblLoc & de kommer her &
 komme__intrPresntDir & det kommer en katt hitover &
 komme__tr-obRefl & pasienten kommer seg &
 komme__trScpr-obRefl-scObDir & hun kommer seg fremover &
-komme_trObl-oblPRTOFob & politiet kommer de kriminelle i forkjøpet & 
+komme__trObl-oblPRTOFob & politiet kommer de kriminelle i forkjøpet & 
 kommentere__tr-obINTERR & hun kommenterer hvem som kommer &
 kommentere__tr & journalistene kommenterer hendelsen &
 kommentere__tr-obDECL & vi kommenterer at huset bygges &
@@ -11760,7 +11766,7 @@ råke-ut-for__intrPrtclObl-oblEqInf & vi råker ut for å miste kontrollen &
 råke-ut-for__intrPrtclObl-oblN & vi råker ut for mange ting &
 råkjøre__intr & guttene råkjører &
 råkjøre__intr-suDir & guttene råkjører gjennom byen &
-råkjøre_tr & guttene råkjører bilen &
+råkjøre__tr & guttene råkjører bilen &
 råle__intr & guttene råler &
 råne__intr & bilene råner &
 råtne-bort__intrPrtcl & eplene råtner bort &
@@ -12118,7 +12124,7 @@ sette__trObl-obRefl-oblLoc & hun setter seg i stolen &
 sette__trPresntLoc-obRefl & det setter seg en katt på bordet &
 sette__trScpr-obRefl-scObArg-scPred & han setter seg sjakk matt &
 sette__trScpr-scObLoc & vi setter ledelsen i en gisselsituasjon &
-sette_trScpr-scObArg-scPred & vi setter lederen fast &
+sette__trScpr-scObArg-scPred & vi setter lederen fast &
 settle-for__intrObl-oblAbsinf & de settler for å legge grus &
 settle-for__intrObl-oblN & vi settler for uavgjort &
 settle__tr & partene settler uenigheten &
@@ -12247,7 +12253,7 @@ sitte-ned__intrPrtcl & deltagerne sitter ned &
 sitte__intr & deltagerne sitter &
 sitte__intrObl-oblLoc & deltagerne sitter på gangen &
 sitte__intrPresntLoc & det sitter en katt i stolen &
-sitte_trScpr-scObNrgCsd-scPred & han sitter stolen varm &
+sitte__trScpr-scObNrgCsd-scPred & han sitter stolen varm &
 sive__intr-suDir & røyken siver ut gjennom vinduet &
 sivilisere__tr & de siviliserer barbarene &
 sjablonere__tr & han sjablonerer utførelsen &
@@ -12486,7 +12492,7 @@ skje__intrAdvExpn-expnDECL & det skjer ofte at folk blir syke &
 skje__intrAdvPresnt & det skjer ofte ulykker &
 skje__intrObl-oblLoc & slikt skjer ikke her &
 skje__intrPresnt & det skjer en ulykke &
-skje_intrExpn-expnDECL & det skjer at folk blir syke &
+skje__intrExpn-expnDECL & det skjer at folk blir syke &
 skjefte__tr & de skjefter redskapene &
 skjele-til__intrObl-oblDECL & de skjeler til at dette er en hyppig praksis &
 skjele-til__intrObl-oblINTERR & de skjeler til hva eliten gjør &
@@ -14263,7 +14269,7 @@ støte-på__intrObl-oblN & vi støter på gamle bekjente &
 støte-til__intrPresntPrtcl & det støter til et uhell &
 støte-til__intrPrtcl & uhellene støter til &
 støte__tr & bemerkningene støter deltagerne &
-støte_tr-obDir & vi støter hjelpen fra oss &
+støte__tr-obDir & vi støter hjelpen fra oss &
 støtte-opp-om__intrPrtclObl-oblAbsinf & de støtter opp om å hjelpe i nærområdene &  
 støtte-opp-om__intrPrtclObl-oblDECL & de støtter opp om at det etableres en foreldreforening &
 støtte-opp-om__intrPrtclObl-oblN & de støtter opp om forsøkene & 
@@ -16367,11 +16373,12 @@ utse-til__trObl-oblN & vi utser dem til deltagelse &
 utse__ditr-iobRefl & hun utser seg fordeler &
 utse__tr & de utser lokasjoner &
 utsende__tr & de utsender spioner &
-utsette-for__trObl-oblEqObInf & vi utsetter dem for å bli smittet &
-utsette-for__trObl-oblN & vi utsetter dem for fare &
-utsette-for__trobl-obrefl-obleqobinf & de utsetter seg for å bli smittet &
-utsette-for__trObl-obRefl-oblN & hun utsetter seg for faren &
-utsette__tr & de utsetter kampene &
+utsette-1-for__trObl-oblEqObInf & vi utsetter dem for å bli smittet &
+utsette-1-for__trObl-oblN & vi utsetter dem for fare &
+utsette-1-for__trobl-obrefl-obleqobinf & de utsetter seg for å bli smittet &
+utsette-1-for__trObl-obRefl-oblN & hun utsetter seg for faren &
+utsette-2__tr & de utsetter fristen &
+utsette-2__tr-obEqSuInf & de utsetter å innføre de nye reglene &
 utsi__tr & de utsier bønnene &
 utsi__tr-obDECL & de utsier at det fortsatt er håp &
 utsi__tr-obINTERR & de utsier hva skjebnen har i vente for oss &
@@ -17305,7 +17312,7 @@ zoome__tr-obDir & vi zoomer søkeren inn på figuren &
 øye__tr & de øyer stokken &
 øyne__tr & de øyner mulighetene &
 åle__tr-obRefl-obDir & de åler seg fremover &
-ånde_intr-suDir & pasienten ånder inn &
+ånde__intr-suDir & pasienten ånder inn &
 åpenbare-for__trObl-obRefl-oblN & hun åpenbarer seg for menigheten &
 åpenbare-som__trScpr-obRefl-scPredprtcl & hun åpenbarer seg som engel &
 åpenbare__tr & skriftene åpenbarer sannheten &

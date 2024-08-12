@@ -1,0 +1,161 @@
+Verbs marked for ImpactSensory. 
+In defining subsenses and more, updates are made on 'sempods-and-valpods', and the other two files with sem.
+
+
+fryse & ('freeze') &  		  
+	
+fryse & ('freeze') &  	{Imped & ImpactSensory & Response & Perform & Unfold & PhysBod}  & VALPOD: {fryse:V__intr & V__intrObl-oblPRTOFsu & V__tr & V-ned__trPrtcl & V-til__intrPrtcl & V-ut__trPrtcl}_6-items 
+fryse_SUB_EXP & ('be cold') &  	{Imped & ImpactSensory & Response & Unfold & PhysBod}  & VALPOD: {fryse:V__intr & V__intrObl-oblPRTOFsu}_2-items	& EX: tilskuerne fryser & tilskuerne fryser på bena & ENDex
+fryse_SUB_AG & ('freeze') &  	{Perform & Unfold & PhysBod}  & VALPOD: {fryse:V__tr & V-ned__trPrtcl & V-ut__trPrtcl}_3-items	&  EX: de fryser filetene & vi fryser ned filetene & vi fryser ut protestantene & ENDex
+fryse_SUB_UND & ('freeze') &  	{Response & Unfold & PhysBod}  & VALPOD: {fryse:V__intr & V-til__intrPrtcl}_2-items	& EX: vannet fryser, innsjøen fryser til & ENDex
+From subsense valpods - 7 items
+
+kile-2 & ('tickle') &  	{ImpactSensory & Impact & Perform & Criterial & PhysBod}      & VALPOD: {kile-2:V__impersObl-oblPRTOFexper & V__tr & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob}_4-items	
+kile-2_SUB_EXP & ('tickle') &  	{ImpactSensory & Impact & Criterial & PhysBod}      & VALPOD: {kile-2:V__impersObl-oblPRTOFexper & V__tr & V__trObl-oblPRTOFob}_3-items	& EX: det kiler i nesen & tråden kiler henne i ansiktet & stoffet kiler huden & ENDex
+kile-2_SUB_AG & ('tickle') &  	{ImpactSensory & Impact & Perform & Criterial & PhysBod}      & VALPOD: {kile-2:& V__tr & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob}_3-items	& EX: gutten kiler henne & gutten kiler henne under foten & hun kiler seg under nesen & ENDex
+From subsense valpods - 6 items	
+
+'kjenne' is also on PerceivingVal and on MedByPrceptVal
+kjenne & ('feel, know') &  	{Sustain & ImpactSensory & MedByPrcept & Perceiving & Cogn & Impact & Response & Perform & SymbVal & PhysBod} & VALPOD: {kjenne:V-på__intrObl-oblN & V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & V-igjen__trPrtcl & V-igjen__trPrtcl-obINTERR & V-igjen__trPrtcl-obRefl & V-som__trScpr-obRefl-scPredprtcl & V-som__trScpr-scPredprtcl}_15-items	
+kjenne_SUB_EXP & ('feel') &  	{Sustain & ImpactSensory & MedByPrcept & Cogn & Impact & Response & SymbVal & PhysBod} & VALPOD: {kjenne:V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf}_2-items	& EX: hun kjenner seg stivne & jeg kjenner det stivne &	ENDex
+kjenne_SUB_AG & ('feel') & {Sustain & Perceiving & Response & Perform & PhysBod} & VALPOD: {kjenne:V-på__intrObl-oblN}_1-items & EX: hun kjenner på pakken & ENDex
+kjenne_SUB_COG & ('feel, know') & {Sustain & MedByPrcept & Cogn & Response & SymbVal & PhysBod} & VALPOD: {kjenne:V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & V-igjen__trPrtcl & V-igjen__trPrtcl-obINTERR & V-igjen__trPrtcl-obRefl & V-som__trScpr-obRefl-scPredprtcl & V-som__trScpr-scPredprtcl}_14-items & EX: hun kjenner til at vi kommer & hun kjenner til hvem som kommer & vi kjenner til problemet & vi kjenner komitéformannen & vi kjenner at det blir varmere & han kjenner hvor smerten oppstår & hun kjenner seg trygg &  hun kjenner seg stivne & jeg kjenner det stivne & hun kjenner igjen ansiktet & de kjenner igjen hva som er i ferd med å skje & hun kjenner seg igjen & hun kjenner seg som en vinner & vi kjenner dem som konkurrenter & ENDex	
+From subsense valpods - 27 items
+
+kjøle & ('cool') &  	{Sustain & ImpactSensory & Impact & Perform & Unfold & PhysBod} & VALPOD: {kjøle:V__tr & V__tr-obRefl & V-ned__trPrtcl & V-ned__trPrtcl-obRefl}_4-items
+kjøle_SUB_EXP & ('cool') &  	{Sustain & ImpactSensory & Impact & Unfold & PhysBod} & VALPOD: {kjøle:V__tr}_1-item	& EX: vinden kjøler pannen & ENDex	
+kjøle_SUB_AG & ('cool') &  	{Sustain & ImpactSensory & Impact & Perform & Unfold & PhysBod} & VALPOD: {kjøle:V__tr & V__tr-obRefl & V-ned__trPrtcl & V-ned__trPrtcl-obRefl}_4-items	& EX: politiet kjøler gemyttene & hun kjøler seg & vi kjøler ned fisken & hun kjøler seg ned & ENDex
+From subsense valpods - 5 items
+
+'lukte' is also on PerceivingVal
+lukte & ('smell') &  	{Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {lukte:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv &  V-på__intrObl-oblN & V__tr &  V__tr-obDECL & V__tr-obINTERR & V__trImpers & V-av__trImpersObl-oblN}_8-items
+lukte_SUB_AG & ('smell') &  	{Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {lukte:V-på__intrObl-oblN}_1-items & EX: vi lukter på blomstene & 
+lukte_SUB_COG & ('smell') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {lukte:V__tr &  V__tr-obDECL & V__tr-obINTERR}_3-items & EX: hun lukter blomstene &  hun lukter at noen har vært der & hunden lukter om det har vært katter der & ENDex
+lukte_SUB_EXP & ('smell') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Criterial & SymbVal & PhysBod} & VALPOD: {lukte:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv & V__tr & V__trImpers & V-av__trImpersObl-oblN}_7-items & EX: det lukter & det lukter godt & buketten lukter krysantemum & det lukter av barnåler & blomstene lukter godt & det lukter barnåler & det lukter dårlig samvittighet av ham & ENDex
+From subsense valpods - 11 items
+
+'smake' is also on PerceivingVal
+smake & ('taste') &  	{Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv &  V-på__intrObl-oblN & V__tr & V__trImpers & V-av__trImpersObl-oblN}_8-items
+smake_SUB_AG & ('taste') &  	{Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V-på__intrObl-oblN}_1-items & EX: vi smaker på suppen & 
+smake_SUB_COG & ('taste') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V__tr}_1-items & EX: hun smaker tilsetningene & ENDex
+smake_SUB_EXP & ('taste') &  	{Sustain & Perceiving & ImpactSensory & Cogn & Response & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv & V__tr & V__trImpers & V-av__trImpersObl-oblN}_7-items & EX: det smaker & det smaker godt & det smaker av sardiner & suppen smaker godt & suppen smaker buljong & det smaker tran & det smaker tran av suppen & ENDex
+From subsense valpods - 9 items
+
+smerte & ('hurt') &  	{Sustain & ImpactSensory & Cogn & Impact & Emotion & SymbVal} & VALPOD: {smerte:V__impersObl-oblPRTOFexper & V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf}_10-items
+smerte_SUB_EXP_SENSORY & ('hurt') &  	{ImpactSensory}_1-items & VALPOD: {smerte:V__impersObl-oblPRTOFexper} & EX: det smerter i armen & ENDex	
+smerte_SUB_COG & ('hurt') &  	{Sustain & Cogn & Impact & Emotion & SymbVal} & VALPOD: {smerte:V__intr & V__intr-suAbsinf & V__intr-suDECL & V__intrExpn-expnAbsinf & V__intrExpn-expnDECL & V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf}_9-items & EX: nyheten smerter & miste sine kjære smerter & at han gikk bort smerter & & det smerter å miste sine kjære & det smerter at han gikk bort & nyheten smerter dem & at han gikk bort smerter oss & det smerter oss alle at han gikk bort & det smerter ham å bli tiltalt & ENDex
+From subsense valpods - 10 items
+
+stikke-1 & ('sting') &  	{Sustain & ImpactSensory & Perceptible & Impact & Perform & Criterial & PhysBod}     & VALPOD: {stikke-1:V-i__impersObl-oblN & V__intr & V-med__intrObl-oblN & V__tr & V__tr-obDir & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-med__trObl-oblN & V-på__trObl-obRefl-oblN}_9-items	
+stikke-1_SUB_EXP & ('sting') &  	{Sustain & ImpactSensory & Perceptible & Impact & Criterial & PhysBod}     & VALPOD: {stikke-1:V__impersObl-oblPRTOFexper & V__intr & V__tr & V__trObl-obRefl-oblPRTOFob & V-på__trObl-obRefl-oblN}_5-items & EX: det stikker i albuen & tornene stikker & tornene stikker sauene & prinsessen stikker seg i armen & prinsessen stikker seg på nålen &	ENDex
+stikke-1_SUB_AG & ('sting') &  	{Sustain & ImpactSensory & Perceptible & Impact & Perform & Criterial & PhysBod}     & VALPOD: {stikke-1:V-med__intrObl-oblN & V__tr-obDir & V__trObl-oblPRTOFob & V-med__trObl-oblN}_4-items & EX: vi stikker med pinner & han stikker nålen inn & hun stikker ham i armen & vi stikker dem med nåler & ENDex	
+From subsense valpods - 9 items
+
+stinke & ('stink') &  	{Imped & ImpactSensory & Unfold & Criterial & SymbVal & PhysBod} & VALPOD: {stinke:V-av__impersObl-oblN & V__intr & V__intr-suAbsinf & V__intrExpn-expnAbsinf & V-av__intrObl-oblN}_5-items	
+stinke_SUB1_EXP & ('stink') &  	{Imped & ImpactSensory & Unfold & Criterial & PhysBod} & VALPOD: {stinke:V-av__impersObl-oblN & V__intr & V-av__intrObl-oblN}_3-items & EX: det stinker av fiskelim & fisken stinker & huset stinker av fisk & ENDex
+stinke_SUB_ABSTR & ('stink') &  	{Imped & Unfold & Criterial & SymbVal} & VALPOD: {stinke:V__intr-suAbsinf & V__intrExpn-expnAbsinf & V-av__intrObl-oblN}_3-items & EX: å tjene penger på slikt stinker & det stinker å tjene penger på slikt & planen stinker av grådighet & ENDex
+From subsense valpods - 6 items
+
+svartne & ('blacken') &  	{ImpactSensory & Impact & Response & Criterial & PhysBod} & VALPOD: {svartne:V__impers & V-for__impersObl-oblN & V__intr}_3-items & EX: det svartner & det svartner for øynene & det svartner for ham & horisonten svartner & ENDex	
+From subsense valpods - 3 items
+
+svi & ('burn, suffer') &  	{Sustain & ImpactSensory & MedByPrcept & Impact & Unfold & Criterial & SymbVal & PhysBod} & VALPOD: {svi:V__impers & V__impersObl-oblPRTOFexper & V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V__tr}_7-items	
+svi_SUB_EXP & ('burn, suffer') &  	{Sustain & ImpactSensory & Impact & Unfold & Criterial & PhysBod} & VALPOD: {svi:V__impers & impersObl-oblPRTOFexper & V__intr} 3-items & EX: det svir & det svir i hodebunnen & hodebunnen svir & ENDex
+svi_SUB_PAT & ('burn') &  	{Sustain & MedByPrcept & Impact & Unfold & Criterial & PhysBod} & VALPOD: {svi:V__tr}_1-items & EX: de svir vaflene & ENDex
+svi_SUB_ABSTR & ('suffer') &  	{Sustain & MedByPrcept & Impact & Unfold & Criterial & SymbVal} & VALPOD: {svi:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN}_3-items & EX: hun svir for at hun gikk med på det & hun svir for å ha vært med på innbruddet & hun svir for det hele & ENDex
+From subsense valpods - 7 items
+
+valne & ('become numb') &  	{Imped & ImpactSensory & Perceptible & Impact & Response & Domin & Criterial & Loc & PhysBod}     & VALPOD: {valne:V__intr & V__tr & V-bort__intrPrtcl}_3-items & EX: fingrene valner bort & fingrene valner & kulden valner fingrene & ENDex
+From subsense valpods - 3 items
+	
+varme & ('heat, warm') &  	{Sustain & ImpactSensory & Perceptible & MedByPrcept & Impact & Procedure & Unfold & SymbVal & PhysBod}  & VALPOD: {varme:V__impersObl-oblPRTOFexper & V__intr & V-opp__intrPrtcl & V__tr & V__tr-obRefl & V__trOblObl-suDECL-oblPRTOFob & V__trOblOblExpn-oblPRTOFob-expnDECL & V-opp__trPrtcl}_8-items	
+varme_SUB_EXP & ('heat') &  	{Sustain & ImpactSensory & Perceptible & Impact & Procedure & Unfold & PhysBod}  & VALPOD: {varme:V__impersObl-oblPRTOFexper & V__intr & V__tr}_3-items & EX: det varmer i brystet & solen varmer &  solen varmer føttene & ENDex
+varme_SUB_AG & ('heat') &  	{Sustain & Perceptible & MedByPrcept & Impact & Procedure & Unfold & PhysBod}  & VALPOD: {varme:V-opp__intrPrtcl & V__tr-obRefl &  V-opp__trPrtcl}_3-items	& EX: spillerne varmer opp & hun varmer seg & vi varmer opp rommet & ENDex
+varme_SUB_ABSTR & ('heat') &  	{Sustain & Perceptible & MedByPrcept & Impact & Procedure & Unfold & SymbVal & PhysBod}  & VALPOD: {varme: V__trOblObl-suDECL-oblPRTOFob & V__trOblOblExpn-oblPRTOFob-expnDECL}_2-items	& EX: at laget endelig vant varmer oss i hjertet & det varmer oss i hjertet at laget endelig vant & ENDex
+From subsense valpods - 8 items
+
+verke & ('ache') &  	{Further & ImpactSensory & MedByPrcept & Impact & Emotion & Response & Domin & Criterial & SymbVal & PhysBod}  & VALPOD: {verke:V__impersObl-oblPRTOFexper & V__intr & V-etter__intrObl-oblEqSuInf}_3-items
+verke_SUB_EXP & ('ache') &  	{Further & ImpactSensory & Impact & Emotion & Response & Domin & Criterial & PhysBod}  & VALPOD: {verke:V__impersObl-oblPRTOFexper & V__intr}_2-items & EX: det verker i leddene & tannen verker & ENDex
+verke_SUB_ABSTR & ('ache') &  	{Further & MedByPrcept & Impact & Emotion & Response & Domin & Criterial & SymbVal & PhysBod}  & VALPOD: {verke:V-etter__intrObl-oblEqSuInf}_1-items & EX: hun verker etter å komme igang & ENDex
+From subsense valpods - 3 items
+
+14 verbs with ImpactSensory in their total sempod:
+In their Total valpoda, they have altogether 97 lexvals.
+Distributed over their subsense valpods, they have altogether 112 lexvals.
+With subsense COG two of these verbs have inf-constructions - 'kjenne' with 2 Bareinf, and 'smerte' with 2 Absinf and oneEq-inf. With DECL, 3 and 5, respectively. [4-7]
+With subsense ABSTR three of these verbs have inf-constructions 2-1-1 - 'stinke' with 2 Absinf and 'svi' and 'verke' with 1 oblEq-inf each. With DECL, 1 with 'svi' and 2 with 'varme'. [4-3]
+With subsense EXP one of these verbs has two inf-constructions - 'kjenne' with 2 Bareinf. None with DECL. [2-0]
+None of the other subsenses - AG, PAT, UND, or the two with no subsenses, ie 'svartne' and 'valne' - have inf-or DECL-constructions.
+4 INTERR, with 'kjenne' and with 'lukte', with COG.
+
+In more detail:
+With all constructions for subsense EXP, there are 38 constructions (lexvals) together, 2 of them for 'kjenne' being Bareinf, and none Inf.
+With all constructions for subsense ABSTR, there are 10 constructions (lexvals) together, 'stinke' with 2 Absinf and 'svi' and 'verke' with 1 oblEq-inf each.
+With all constructions for subsense COG, there are 27 constructions (lexvals) together, 'kjenne' with 2 Bareinf, and 'smerte' with 2 Absing and oneEq-inf.
+
+All in all, there are 25 inf-or DECL-or-INTERR lexvals distributed over the subsense valpods
+
+alltokens, in total and subsenses together
+
+Bareinf 6  
+
+0 oblEqObInf 
+5 oblEqSuInf 
+ 
+0 suEqObInf  
+0 obEqSuInf  
+0 scInf  
+2 expnEqObInf
+
+DECL 
+expnDECL 6
+obDECL 4
+suDECL 6
+oblDECL 5
+
+INTERR 
+expnINTERR 0
+obINTERR 6
+suINTERR 0
+oblINTERR 2
+
+total-tokens - just in main semvalpod
+
+Bareinf 2
+
+0 oblEqObInf 
+2 oblEqSuInf 
+ 
+0 suEqObInf  
+0 obEqSuInf  
+0 scInf  
+2 expnEqObInf
+
+DECL 
+expnDECL 2
+obDECL 2
+suDECL 3
+oblDECL 2
+
+INTERR 
+expnINTERR 0
+obINTERR 3
+suINTERR 0
+oblINTERR 1
+
+
+Perform
+SymbVal
+VerbalAct
+Cogn
+Emotion
+PhysBod
+Unfold
+Response
+Impact
+Further
+Sustain
+Imped
+Creation
+Criterial
+

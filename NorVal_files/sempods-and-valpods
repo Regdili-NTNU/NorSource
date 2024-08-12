@@ -35,16 +35,16 @@ arrangere & ('arrange') &  {Further & Impact & Procedure & Creation & Perform & 
 assurere & ('insure') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & VALPOD: {assurere:V__tr & V__tr-obRefl & V-mot__trObl-oblN & V-mot__trObl-obRefl-oblN}_4-items	
 atskille & ('separate') &  {Further & Dependence & Impact & Perform & Domin} & VALPOD: {atskille:V__tr & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblN}_3-items	
 attachere & ('attach') &  {Sustain & Impact & Procedure & Response & Perform} & VALPOD: {attachere:V__ditr-iobRefl & V__tr & V-til__trObl-oblN}_3-items	
-auke & ('increase') &  {Further & Procedure & Domin & SymbVal & PhysBod} & VALPOD: {auke:V__intr & V__tr & V-på__intrPrtcl}_3-items	
+auke & ('increase') &  {Further & Procedure & Domin & PhysBod} & VALPOD: {auke:V__intr & V__tr & V-på__intrPrtcl}_3-items	
 ause-1 & ('scoop') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & VALPOD: {ause-1:V__intr-suDir & V__tr & V__tr-obDir}_3-items	
 ause-2 & ('anger') &  {Cogn & Emotion & Response & Perform & SymbVal & PhysBod} & VALPOD: {ause-2:V-opp__trPrtcl-obRefl & V-opp-over__trPrtclObl-obRefl-oblDECL & V-opp-over__trPrtclObl-obRefl-oblEqObInf & V-opp-over__trPrtclObl-obRefl-oblINTERR & V-opp-over__trPrtclObl-obRefl-oblN}_5-items	
 autorisere & ('autorize') &  {Further & Cogn & Dependence & Impact & Procedure & Creation & VerbalAct & Domin & SymbVal} & VALPOD: {autorisere:V__tr & V-for__trObl-oblEqObInf & V-for__trObl-oblN}_3-items	
-avansere & ('advance') &  {Further & Dependence & Impact & Procedure & Response & Unfold & Perform & Domin & SymbVal & PhysBod} & VALPOD: {avansere:V__intr & V-mot__intrObl-oblN & V__tr}_3-items	
+avansere & ('advance') &  {Further & Dependence & Impact & Procedure & Response & Unfold & Perform & Domin & PhysBod} & VALPOD: {avansere:V__intr & V-mot__intrObl-oblN & V__tr}_3-items	
 avfinne & ('put up with') &  {Further & Cogn & Response & Domin & SymbVal} & VALPOD: {avfinne:V-med__trObl-obRefl-oblDECL & V-med__trObl-obRefl-oblEqObInf & V-med__trObl-obRefl-oblINTERR & V-med__trObl-obRefl-oblN}_4-items	
 avgjøre & ('decide') &  {Further & Cogn & Dependence & Impact & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & VALPOD: {avgjøre:V__tr-obINTERR & V__tr & V__tr-obDECL}_3-items	
 avhenge & ('depend') &  {Init & Dependence & SymbVal & PureRel} & VALPOD: {avhenge:V-av__intrOblExpn-expnDECL & V-av__intrOblExpn-expnINTERRwh & V-av__intrObl-oblINTERRyn & V-av__intrOblExpn-expnINTERRyn & V-av__intrOblExpn-oblINTERRwh-expnINTERRwh & V-av__intrOblExpn-oblINTERRwh-expnINTERRyn & V-av__intrOblExpn-oblINTERRyn-expnINTERRwh & V-av__intrOblExpn-oblINTERRyn-expnINTERRyn & V-av__intrObl-oblDECL & V-av__intrObl-oblEqSuInf & V-av__intrObl-oblN & V-av__intrObl-oblINTERRwh & V-av__intrObl-suDECL-oblDECL & V-av__intrObl-suDECL-oblN & V-av__intrObl-suINTERR-oblINTERR & V-av__intrObl-suINTERR-oblN}_16-items	
 avholde-1 & ('abstain') &  {Prevent & Dependence & Impact & Domin & SymbVal} & VALPOD: {avholde-1:V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-fra__trObl-suDECL-oblEqObInf & V-fra__trObl-suDECL-oblN & V-fra__trObl-suEqObInf-oblEqObInf & V-fra__trObl-suEqObInf-oblN & V-fra__trObl-obRefl-oblEqObInf & V-fra__trObl-obRefl-oblN & V-fra__trOblExpnSu-oblEqObInf-expnDECL & V-fra__trOblExpnSu-oblN-expnDECL & V-fra__trOblExpnSu-oblEqObInf-expnEqObInf & V-fra__trOblExpnSu-oblN-expnEqObInf}_12-items	
-avkle & ('strip') &  {Imped & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal} & VALPOD: {avkle:V__ditr & V__ditr-iobRefl & V__tr}_3-items	
+avkle & ('strip') &  {Imped & Dependence & Impact & Procedure & Response & Perform & Domin} & VALPOD: {avkle:V__ditr & V__ditr-iobRefl & V__tr}_3-items	
 avlede-2 & ('deduce') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & VALPOD: {avlede-2:V__tr & V__tr-obDECL & V-fra__trObl-oblN}_3-items	
 avleie-2 & ('deduce') &  {Sustain & Cogn & Procedure & Creation & Response & VerbalAct & SymbVal} & VALPOD: {avleie-2:V__tr & V__tr-obDECL & V-fra__trObl-oblN}_3-items	
 avlevere & ('deliver') &  {Sustain & Impact & Procedure & Response & Perform & Poss & PhysBod} & VALPOD: {avlevere:V__ditr & V__tr & V-til__trObl-oblN}_3-items	
@@ -75,7 +75,7 @@ bebreide & ('blame') &  {Imped & Cogn & Emotion & Response & VerbalAct & SymbVal
 bedrøve & ('disappoint') &  {Imped & Impact & Emotion & Unfold & SymbVal & PhysBod} & VALPOD: {bedrøve:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL}_3-items	
 befale & ('command') &  {Further & Cogn & Dependence & Impact & Procedure & VerbalAct & Domin & PhysBod} & VALPOD: {befale:V__ditr-obEqIobInf & V-over__intrObl-oblN & V__tr-obDECL}_3-items	
 beflitte & ('apply oneself') &  {Sustain & Procedure & Creation & Response & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {beflitte:V-med__trObl-obRefl-oblN & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN}_3-items	
-befri & ('liberate') &  {Sustain & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & VALPOD: {befri:V__tr & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblN}_3-items	
+befri & ('liberate') &  {Sustain & Dependence & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & VALPOD: {befri:V__tr & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblN}_4-items	
 begjære & ('desire') &  {Sustain & Dependence & Impact & Emotion & Response & Unfold & Domin & PhysBod} & VALPOD: {begjære:V__tr & V__tr-obDECL & V__trScpr-scPasscmplx}_3-items	
 begrense & ('limit') &  {Sustain & Dependence & Impact & Domin} & VALPOD: {begrense:V__tr & V__tr-obRefl & V-til__trObl-obRefl-oblN}_3-items	
 begripe & ('grasp, understand') &  {Init & Cogn & VerbalAct & SymbVal} & VALPOD: {begripe:V__tr-obINTERR & V__tr & V__tr-obDECL & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN}_5-items	
@@ -115,7 +115,7 @@ besvare & ('answer') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Sym
 besvære & ('complain') &  {Imped & Cogn & Perform & Domin & SymbVal} & VALPOD: {besvære:V__tr & V__tr-obRefl & V-over__trObl-obRefl-oblN & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf}_5-items	
 betakke & ('refrain') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & VALPOD: {betakke:V__tr-obRefl & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN}_3-items	
 betale & ('pay') &  {Sustain & SymbVal} & VALPOD: {betale:V__ditr & V__intr & V-for__intrObl-oblN & V-for__trObl-oblN & V__tr & V__tr-obRefl}_6-items	
-bete & ('behave') &  {Sustain & Procedure & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {bete:V__tr-obRefl & V__trAdv-obRefl & V-som__trScpr-obRefl-scPredprtcl}_3-items	
+bete & ('behave') &  {Sustain & Procedure & Unfold & Perform & PhysBod} & VALPOD: {bete:V__tr-obRefl & V__trAdv-obRefl & V-som__trScpr-obRefl-scPredprtcl}_3-items	
 betenke & ('consider') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & VALPOD: {betenke:V__tr & V__tr-obRefl & V-med__trObl-oblN}_3-items	
 betjene & ('serve') &  {Sustain & Cogn & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & VALPOD: {betjene:V__tr & V-av__trObl-obRefl-oblN & V-av__trObl-obRefl-oblEqObInf}_3-items	
 betrakte & ('consider') &  {Sustain & Perceiving & Cogn & Procedure & Perform & PhysBod} & VALPOD: {betrakte:V__tr & V__trScpr-scObNrg-scBareinf & V-som__trScpr-scPredprtcl}_3-items	
@@ -150,7 +150,7 @@ blånekte & ('deny') &  {Imped & Cogn & Procedure & Response & verbal & SymbVal &
 blåse & ('blow') &  {Sustain & Perceptible & Response & Unfold & Perform & Domin & SymbVal} & VALPOD: {blåse:V__impers & V-bort__intrPrtcl & V-i__intrObl-oblN & V-i__intrObl-oblDECL & V-i__intrObl-oblEqSuInf & V-i__intrObl-oblINTERR & V-på__intrObl-oblN & V__tr-obDir & V__intrPresntDir & V-opp_trPrtcl-obRefl}_10-items	
 bolte & ('bolt') &  {Sustain & Impact & Procedure & Creation & Perform & Domin & PhysBod} & VALPOD: {bolte:V__tr & V-igjen__trPrtcl & V-sammen__trPrtcl}_3-items	
 bomme-1 & ('miss') &  {Imped & Response & Perform & PhysBod} & VALPOD: {bomme-1:V__intr & V-med__intrObl-oblN & V-på__intrObl-oblN}_3-items	
-bomme-2 & ('scam') &  {Sustain & Dependence & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & VALPOD: {bomme-2:V__tr & V-av__trObl-oblN & V-for__trObl-oblN}_3-items	
+bomme-2 & ('scam') &  {Sustain & Dependence & Procedure & Perform & Domin & Poss & PhysBod} & VALPOD: {bomme-2:V__tr & V-av__trObl-oblN & V-for__trObl-oblN}_3-items	
 bore & ('drill') &  {Sustain & Dir & Perceptible & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {bore:V__intr-suDir & V__tr & V__trPath-obRefl-obDir & V-i__intrObl-oblN & V-ut__trPrtcl}_5-items	
 borge & ('guarantee') &  {Further & Cogn & Dependence & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & VALPOD: {borge:V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN}_3-items	
 bortse & ('ignore') &  {Sustain & Cogn & Procedure & Response & Perform} & VALPOD: {bortse:V-fra__intrObl-oblDECL & V-fra__intrObl-oblINTERR & V-fra__intrObl-oblN}_3-items	
@@ -168,7 +168,7 @@ brevveksle & ('correspond') &  {Cogn & Procedure & Response & Perform & SymbVal 
 briljere & ('excel') &  {Sustain & Procedure & Unfold & Perform & Domin & SymbVal & PhysBod} & VALPOD: {briljere:V__intr & V-med__intrObl-oblN & V-med__intrObl-oblEqSuInf}_3-items	
 bringe & ('bring') &  {Further & Dir & Procedure & Perform & PhysBod} & VALPOD: {bringe:V__ditr & V__tr-obDir & V-med__intrObl-oblRefl & V-sammen__trPrtcl}_4-items	
 briske & ('brag') &  {Imped & Perceptible & Cogn & Emotion & Unfold & Perform & SymbVal} & VALPOD: {briske:V__tr-obRefl & V-med__trObl-obRefl-oblDECL & V-med__trObl-obRefl-oblEqObInf & V-med__trObl-obRefl-oblINTERR & V-med__trObl-obRefl-oblN}_5-items	
-brodere & ('embroider') &  {Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & VALPOD: {brodere:V__intr & V-på__intrObl-oblN & V__tr & V-ut__trPrtcl}_4-items	
+brodere & ('embroider') &  {Impact & Procedure & Creation & Perform & PhysBod} & VALPOD: {brodere:V__intr & V-på__intrObl-oblN & V__tr & V-ut__trPrtcl}_4-items	
 bruke & ('use') &  {Sustain & Procedure & Perform & SymbVal} & VALPOD: {bruke:V__tr & V__tr-obEqSuInf & V__tr-obRefl & V-på__trObl-obRefl-oblN}_4-items	
 bruse & ('fizz, roar') &  {Perceptible & Unfold & PhysBod} & VALPOD: {bruse:V__intr & V-i__impersObl-oblN & V-opp__intrPrtcl}_3-items	
 bry & ('bother') &  {Further & Cogn & Emotion & Response & Perform & SymbVal} & VALPOD: {bry:V__tr & V__tr-obRefl & V-med__trObl-oblAbsinf & V-med__trObl-oblDECL & V-med__trObl-oblINTERR & V-med__trObl-oblN & V-med__trObl-obRefl-oblAbsinf & V-med__trObl-obRefl-oblDECL & V-med__trObl-obRefl-oblINTERR & V-med__trObl-obRefl-oblN & V-om__trObl-obRefl-oblDECL & V-om__trObl-obRefl-oblEqObInf & V-om__trObl-obRefl-oblINTERR & V-om__trObl-obRefl-oblN}_14-items	
@@ -243,12 +243,12 @@ dukke & ('duck') &  {Sustain & Dir & Perform & PhysBod} & VALPOD: {dukke:V__intr
 dumpe & ('dump') &  {Imped & Impact & PhysBod} & VALPOD: {dumpe:V__intr & V__tr & V-oppi__intrObl-oblN}_3-items	
 dunke & ('pound') &  {Sustain & Impact & Domin & PhysBod} & VALPOD: {dunke:V__intr & V-borti__intrObl-oblN & V__trObl-oblPRTOFob}_3-items	
 dusje & ('shower') &  {Sustain & Impact & Procedure & Unfold & Perform & PhysBod} & VALPOD: {dusje:V__intr & V__tr & V__tr-obRefl}_3-items	
-dynge & ('heap') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & VALPOD: {dynge:V__tr & V-ned__trPrtcl & V-ned-i__trPrtclObl-oblN}_3-items	
+dynge & ('heap') &  {Sustain & Impact & Procedure & Perform & PhysBod} & VALPOD: {dynge:V__tr & V-ned__trPrtcl & V-ned-i__trPrtclObl-oblN}_3-items	
 dølge & ('hide') &  {Imped & Cogn & Procedure & Perform & Domin & SymbVal} & VALPOD: {dølge:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
 dømme & ('judge') &  {Sustain & Impact & Procedure & Response & verbal & Domin & SymbVal} & VALPOD: {dømme:V__tr & V-for__intrObl-oblN & V-for__trObl-oblEqObInf & V-for__trObl-oblN & V-til__trObl-oblEqObInf & V-til__trObl-oblN}_6-items	
 egge & ('egg') &  {Imped & Impact & Emotion & Perform & Criterial & PhysBod} & VALPOD: {egge:V__intr & V__tr & V-opp__trPrtcl & V-til__trObl-oblEqObInf & V-til__trObl-oblN}_5-items	
 egne & ('assign, be suited') &  {Further & Procedure & Response & Unfold & Perform & SymbVal} & VALPOD: {egne:V__tr-obRefl & V-til__trObl-oblN & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN}_4-items	
-eime & ('reek') &  {Imped & Perceptible & Unfold & SymbVal & PhysBod} & VALPOD: {eime:V-av__impersObl-oblN & V__intr & V-av__intrObl-oblN}_3-items	
+eime & ('reek') &  {Imped & Perceptible & Unfold & PhysBod} & VALPOD: {eime:V-av__impersObl-oblN & V__intr & V-av__intrObl-oblN}_3-items	
 eksklamere & ('exclaim') &  {Sustain & Cogn & Procedure & VerbalAct & PhysBod} & VALPOD: {eksklamere:V__intr & V__tr & V__tr-obDECL}_3-items	
 ekskludere & ('exclude') &  {Prevent & Dependence & Impact & Procedure & Domin} & VALPOD: {ekskludere:V__tr & V-for__trObl-oblEqObInf & V-for__trObl-oblN & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblN}_6-items	
 eksperimentere & ('experiment') &  {Further & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & VALPOD: {eksperimentere:V__intr & V__trPath-obRefl-obDir & V-med__intrObl-oblAbsinf & V-med__intrObl-oblN}_4-items	
@@ -291,7 +291,7 @@ fatte & ('grasp, comprehend') &  {MedByPrcept & Cogn & Response & SymbVal} & VAL
 feie & ('sweep') &  {Sustain & Dir & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {feie:V__intr & V__intr-suDir & V__tr & V__tr-obDir & V-av__trPrtcl}_5-items	
 feire & ('celebrate') &  {Sustain & Procedure & Emotion & Response & Unfold & Perform & SymbVal} & VALPOD: {feire:V__intr & V__tr & V__tr-obDECL}_3-items	
 feite & ('fatten') &  {Sustain & Impact & Procedure & Perform & PhysBod} & VALPOD: {feite:V__tr-obRefl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl}_3-items	
-fenge & ('catch') &  {Further & Impact & Response & SymbVal & PhysBod} & VALPOD: {fenge:V__intr & V-an__intrPrtcl & fenge__tr}_3-items	
+fenge & ('catch') &  {Further & Impact & Response & PhysBod} & VALPOD: {fenge:V__intr & V-an__intrPrtcl & fenge__tr}_3-items	
 feste & ('fasten') &  {Sustain & Impact & Procedure & Response & Perform & Domin & PhysBod} & VALPOD: {feste:V__intr & V__tr & V__tr-obRefl & V-ved__trObl-obRefl-oblN}_4-items	
 figurere & ('figure') &  {Cogn & Unfold & SymbVal} & VALPOD: {figurere:V__intr & V-i__intrObl-oblN & V-som__intrScpr-scSuNrg-scPredprtclN & V__tr}_4-items	
 fiksere & ('fixate') &  {Sustain & Perceiving & Cogn & Perform} & VALPOD: {fiksere:V__tr & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V-på__trObl-oblN}_6-items	
@@ -305,7 +305,7 @@ fjase & ('be silly') &  {Unfold & verbal & SymbVal & PhysBod} & VALPOD: {fjase:V
 fjerne & ('remove') &  {Prevent & Impact & Procedure & Response} & VALPOD: {fjerne:V__tr & V__tr-obRefl & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblN}_4-items	
 fjuske & ('cheat') &  {Imped & Cogn & Procedure & Perform & SymbVal} & VALPOD: {fjuske:V__intr & V-i__intrObl-oblAbsinf & V-i__intrObl-oblN & V-til__intrObl-oblN}_4-items	
 flagge & ('flag') &  {Sustain & Impact} & VALPOD: {flagge:V__intr & V-med__intrObl-oblN & V__tr}_3-items	
-flakke & ('stray') &  {Dir & Procedure & Unfold & SymbVal & PhysBod} & VALPOD: {flakke:V__intr & V__intr-suDir & V-med__intrObl-oblN}_3-items	
+flakke & ('stray') &  {Dir & Procedure & Unfold & PhysBod} & VALPOD: {flakke:V__intr & V__intr-suDir & V-med__intrObl-oblN}_3-items	
 flakse & ('flap') &  {Dir & Procedure & Perform & PhysBod} & VALPOD: {flakse:V__intr & V__intr-suDir & V-med__intrObl-oblN}_3-items	
 fleipe & ('joke') &  {Imped & Cogn & Procedure & VerbalAct & SymbVal & PhysBod} & VALPOD: {fleipe:V__intr & V-med__intrObl-oblAbsinf & V-med__intrObl-oblDECL & V-mes__intrObl-oblINTERR & V-med__intrObl-oblN}_5-items	
 flekke & ('stain') &  {Imped & Impact & PhysBod} & VALPOD: {flekke-1:V__tr & V-til__trPrtcl & V-til__trPrtcl-obRefl}_3-items	
@@ -501,7 +501,7 @@ godkjenne & ('approve') &  {Sustain & Cogn & Impact & Procedure & Response & Ver
 godta & ('accept') &  {Sustain & Cogn & Impact & Procedure & Response & VerbalAct & SymbVal} & VALPOD: {godta:V__tr & V__tr-obDECL & godta__tr-obEqSuInf & V-som__trScpr-scPredprtcl}_3-items	
 godte & ('glee') &  {Imped & Cogn & Emotion & Response & Perform & SymbVal & PhysBod} & VALPOD: {godte:V__tr-obRefl & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN}_4-items	
 gotte & ('glee') &  {Imped & Cogn & Emotion & Response & Perform & SymbVal & PhysBod} & VALPOD: {gotte:V__tr-obRefl & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblN}_4-items	
-grafse & ('?') &  {Imped & Impact & Procedure & Perform & SymbVal} & VALPOD: {grafse:V__intr & V-i__intrObl-oblN & V-til__trScpr-scPPrefl}_3-items	
+grafse & ('?') &  {Imped & Impact & Procedure & Perform} & VALPOD: {grafse:V__intr & V-i__intrObl-oblN & V-til__trScpr-scPPrefl}_3-items	
 gratulere & ('congratulate') &  {Further & Cogn & Procedure & Emotion & Response & VerbalAct & SymbVal} & VALPOD: {gratulere:V__tr & V-med__trObl-oblDECL & V-med__trObl-oblEqObInf & V-med__trObl-oblN}_4-items	
 grave & ('dig') &  {Sustain & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {grave:V__intr & V__tr & V-fram__trPrtcl & V-frem__trPrtcl & V-ned__trPrtcl & V-ned__trPrtcl-obRefl & V-opp__trPrtcl & V-ut__trPrtcl}_8-items	
 gre & ('comb') &  {Dir & Impact & Perform & PhysBod} & VALPOD: {gre:V__tr & V__tr-obRefl & V-til__trPrtcl & V-ut__trPrtcl}_4-items	
@@ -509,8 +509,8 @@ greie & ('manage') &  {Sustain & Procedure & Perform & SymbVal} & VALPOD: {greie
 gremme & ('fret') &  {Sustain & Emotion & Response & Unfold & Criterial & SymbVal} & VALPOD: {gremme:V__tr-obRefl & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN}_5-items	
 gremmes & ('resent') &  {Imped & Cogn & Impact & Emotion & Response & SymbVal & PhysBod} & VALPOD: {gremmes:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN}_4-items	
 gripe & ('grasp') &  {Init & Cogn & Impact & Perform & Criterial & PhysBod} & VALPOD: {gripe:V__tr & V-etter__intrObl-oblN & V-inn__intrPrtcl & V-inn-i__intrPrtclObl-oblN & V-inn-overfor__intrPrtclObl-oblN}_5-items	
-grise & ('mess') &  {Imped & Impact & Procedure & Perform & SymbVal & PhysBod} & VALPOD: {grise:V__intr & V-til__trPrtcl & V-til__trPrtcl-obRefl}_3-items	
-gro & ('grow') &  {Sustain & Impact & Procedure & Creation & Unfold & SymbVal & PhysBod} & VALPOD: {gro:V__intr & V-igjen__intrPrtcl & V-opp__intrPrtcl}_3-items	
+grise & ('mess') &  {Imped & Impact & Procedure & Perform & hysBod} & VALPOD: {grise:V__intr & V-til__trPrtcl & V-til__trPrtcl-obRefl}_3-items	
+gro & ('grow') &  {Sustain & Impact & Procedure & Creation & Unfold & PhysBod} & VALPOD: {gro:V__intr & V-igjen__intrPrtcl & V-opp__intrPrtcl}_3-items	
 gruble & ('ponder') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & VALPOD: {gruble:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & V-på__intrObl-oblINTERR & V-på__intrObl-oblN}_7-items	
 grue & ('dread') &  {Sustain & Cogn & Emotion & SymbVal & PhysBod} & VALPOD: {grue:V__tr-obRefl & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN}_5-items	
 grunne-2 & ('ponder') &  {Sustain & Cogn & Unfold & Perform & SymbVal} & VALPOD: {grunne-2:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & V-på__intrObl-oblINTERR & V-på__intrObl-oblN}_7-items	
@@ -533,7 +533,7 @@ hardwire & ('hardwire') &  {Sustain & Impact & Procedure & Creation & Perform & 
 harme & ('anger, outrage') &  {Emotion & Response & Unfold & Criterial & SymbVal} & VALPOD: {harme:V__tr & V__tr-obRefl & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqSuInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN}_6-items	
 harmes & ('resent') &  {Imped & Cogn & Emotion & Response & Unfold & SymbVal & PhysBod} & VALPOD: {harmes:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN}_4-items	
 harselere & ('mock') &  {Imped & Cogn & Procedure & VerbalAct & SymbVal} & VALPOD: {harselere:V__intr & V-med__intrObl-oblAbsinf & V-med__intrObl-oblDECL & V-med__intrObl-oblN}_4-items	
-harve & ('harrow') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & VALPOD: {harve:V__intr & V__tr & V-opp__trPrtcl}_3-items	
+harve & ('harrow') &  {Sustain & Impact & Procedure & Perform & PhysBod} & VALPOD: {harve:V__intr & V__tr & V-opp__trPrtcl}_3-items	
 haste & ('rush, be urgent') &  {Dir & Unfold & Perform} & VALPOD: {haste:V__intr & V__intrExpn-expnDECL & V__intrExpn-expnAbsinf & V-med__intrOblExlnk-oblExlnkAbsinf & V-med__intrOblExlnk-oblExlnkDECL & V-med__intrObl-oblN}_6-items	
 hastevedta & ('approve') &  {Cogn & Response & VerbalAct & SymbVal} & VALPOD: {hastevedta:V__tr-obDECL & V__tr-obAbsinf & V__tr-obINTERR & V__tr}_4-items	
 hate & ('hate') &  {Sustain & Cogn & Impact & Emotion & Response & Unfold & Domin & SymbVal & PhysBod} & VALPOD: {hate:V__tr & V__tr-obDECL & V__tr-obEqSuInf}_3-items	
@@ -584,7 +584,7 @@ hungre & ('hunger') &  {Imped & MedByPrcept & Impact & Emotion & Response & Unfo
 huske & ('remember') &  {Sustain & Cogn & Emotion & Creation & Response & Perform & SymbVal} & VALPOD: {huske:V__intr & V__tr-obINTERR & V-på__intrObl-oblDECL & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblINTERR & V-på__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obEqSuInf}_9-items	
 husvale & ('please') &  {Init & MedByPrcept & Cogn & Emotion & SymbVal}  & VALPOD: {husvale:V__tr & V__tr-suDECL & V__tr-suEqObInf & V__trExpnSu-expnDECL & V__trExpnSu-expnEqObInf}_5-items	
 hvelve & ('vault') &  {Sustain & Criterial & PhysBod} & VALPOD: {hvelve:V__intr & V__tr & V-over__trObl-obRefl-oblN}_3-items	
-hvile & ('rest') &  {Sustain & Impact & Procedure & Response & Unfold & SymbVal} & VALPOD: {hvile:V__intr & V__tr-obRefl & V-ut__intrPrtcl}_3-items	
+hvile & ('rest') &  {Sustain & Impact & Procedure & Response & Unfold} & VALPOD: {hvile:V__intr & V__tr-obRefl & V-ut__intrPrtcl}_3-items	
 hviske & ('whisper') &  {Sustain & VerbalAct & Criterial & SymbVal} & VALPOD: {hviske:V__ditr & V__intr & V__tr & V__tr-obDECL & V__tr-obINTERR & V-i__intrObl-oblN & V-i__trObl-oblN}_7-items	
 hygge & ('enjoy oneself') &  {Sustain & Emotion & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {hygge:V__tr-obRefl & V-med__trObl-obRefl-oblEqObInf & V-med__trObl-obRefl-oblN & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN}_6-items	
 hykle & ('be hypocritical') &  {Imped & Cogn & Procedure & Unfold & verbal & SymbVal} & VALPOD: {hykle:V__intr & V-med__intrObl-oblN & V-over__intrObl-oblDECL & V-over__intrObl-oblN & V__tr & V__trPath-obRefl-obDir}_6-items	
@@ -615,7 +615,7 @@ influere & ('influence') &  {Sustain & Impact & Procedure & Domin} & VALPOD: {in
 informere & ('inform') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & VALPOD: {informere:V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V-om__trObl-oblEqObInf & V-om__trObl-oblDECL & V-om__trObl-oblINTERR & V-om__trObl-oblN}_9-items	
 innanke & ('appeal') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & VALPOD: {innanke:V__tr-obDir & V-for__trObl-oblN & V-hos__trObl-oblN}_3-items	
 innarbeide & ('incorporate') &  {Further & Impact & Procedure & Creation & Response & Perform & SymbVal} & VALPOD: {innarbeide:V__tr & V-hos__trObl-obRefl-oblN & V-i__trObl-obDECL-oblN & V-i__trObl-oblN}_4-items	
-innavle & ('inbreed') &  {Imped & Impact & Procedure & Perform & SymbVal & PhysBod} & VALPOD: {innavle:V-blant__intrObl-oblN & V-mellom__intrObl-oblN & V__tr}_3-items	
+innavle & ('inbreed') &  {Imped & Impact & Procedure & Perform & PhysBod} & VALPOD: {innavle:V-blant__intrObl-oblN & V-mellom__intrObl-oblN & V__tr}_3-items	
 innberette & ('report') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & VALPOD: {innberette:V__ditr & V__tr & V__tr-obDECL & V__tr-obINTERR & V-til__trObl-oblN}_5-items	
 innbille & ('imagine') &  {MedByPrcept & Cogn & SymbVal & PhysBod} & VALPOD: {innbille:V__ditr & V__ditr-iobRefl & V__ditr-iobRefl-obDECL & V__ditr-iobRefl-obINTERR & V__ditr-obDECL}_5-items	
 innblande & ('involve') &  {Further & Impact & Procedure & Perform} & VALPOD: {innblande:V__tr & V-i__trObl-oblINTERR & V-i__trObl-oblN & V-i__trObl-obRefl-oblINTERR & V-i__trObl-obRefl-oblN & V-med__trObl-oblN}_6-items	
@@ -699,7 +699,7 @@ kappe & ('chop, cut') &  {Impact & Procedure & Perform} & VALPOD: {kappe:V__tr &
 kappes & ('compete') &  {Sustain & Procedure & Response & Perform & Domin & SymbVal} & VALPOD: {kappes:V__intr & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN}_4-items	
 kappkjøre & ('race') &  {Procedure & Perform & Domin & PhysBod} & VALPOD: {kappkjøre:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2N & V-med-om__intrObl2-obl1N-obl2Absinf & V-om__intrObl-oblAbsinf & V-om__intrObl-oblN}_6-items	
 kaste & ('throw') &  {Sustain & Dir & Perceptible & Impact & Perform & Criterial & PhysBod} & VALPOD: {kaste:V__ditrObl-oblPRTOFiob & V-på__intrObl-oblPRTOFsu & V__tr-obDir & V__tr-obRefl & V-opp__intrPrtcl}_5-items	
-kastebytte & ('exchange') &  {Sustain & Procedure & Response & Perform & Poss & SymbVal & PhysBod} & VALPOD: {kastebytte:V__intr & V__tr & V-med__intrObl-oblN}_3-items	
+kastebytte & ('exchange') &  {Sustain & Procedure & Response & Perform & Poss & PhysBod} & VALPOD: {kastebytte:V__intr & V__tr & V-med__intrObl-oblN}_3-items	
 kausjonere & ('vouch') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & Poss & SymbVal & PhysBod} & VALPOD: {kausjonere:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblN}_3-items	
 kave & ('fumble') &  {Imped & Dir & PhysBod} & VALPOD: {kave:V__intr & V-etter__intrObl-oblEqSuInf & V-etter__intrObl-oblN & V__trPath-obRefl-obDir}_4-items	
 kike & ('look') &  {Perceiving & Unfold & Perform & Criterial & PhysBod} & VALPOD: {kike:V__intr-suDir & V-etter__intrObl-oblN & V-i__intrObl-oblN & V-på__intrObl-oblDECL & V-på__intrObl-oblN}_5-items	
@@ -734,7 +734,7 @@ klenge & ('cling') &  {Imped & Impact & Response & Unfold & Criterial & PhysBod}
 klinke & ('clink') &  {Impact & Criterial & PhysBod} & VALPOD: {klinke:V__intr & V__tr & V-til__intrObl-oblN}_3-items	
 klippe & ('cut, clip') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & VALPOD: {klippe:V__tr & V__tr-obRefl & V-av__trPrtcl & V-bort__trPrtcl & V-ut__trPrtcl}_5-items	
 klirre & ('clink') &  {Sustain & Perceptible & Response & Unfold & PhysBod} & VALPOD: {klirre:V__impers & V-i__impersObl-oblN & V__intr & V-med__intrObl-oblN}_4-items	
-klisse & ('make a sticky mess') &  {Imped & Perceptible & Impact & Unfold & SymbVal & PhysBod} & VALPOD: {klisse:V__intr & V-med__intrObl-oblN & V-til__trPrtcl & V-til__trPrtcl-obRefl}_4-items	
+klisse & ('make a sticky mess') &  {Imped & Perceptible & Impact & Unfold & PhysBod} & VALPOD: {klisse:V__intr & V-med__intrObl-oblN & V-til__trPrtcl & V-til__trPrtcl-obRefl}_4-items	
 klistre & ('glue') &  {Sustain & Perceptible & Impact & Criterial & PhysBod} & VALPOD: {klistre:V__tr & V-på__trObl-oblN & V-på__trObl-obRefl-oblN & V-på__trPrtcl & V-opp__trPrtcl & V-igjen__trPrtcl & V-sammen__trPrtcl}_7-items	
 klive & ('step, climb') &  {Dir & Perform & Criterial & PhysBod} & VALPOD: {klive:V__intr & V__intr-suDir & V__tr}_3-items	
 klore & ('claw') &  {Perceptible & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {klore:V__intr & V__tr & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V__tr-obRefl & V-opp__trPrtcl}_6-items	
@@ -789,9 +789,9 @@ konversere & ('converse') &  {Sustain & Cogn & Procedure & Unfold & VerbalAct & 
 ooperere & ('cooperate') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & VALPOD: {kooperere:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-med__intrObl-oblN}_8-items	
 koordinere & ('coordinate') &  {Further & Cogn & Procedure & Response & Perform & SymbVal} & VALPOD: {koordinere:V-med__intrObl-oblN & V__tr & V-med__trObl-oblINTERR & V-med__trObl-oblN}_4-items	
 kople & ('couple') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & VALPOD: {kople:V-av__intrPrtcl & V__tr & V__tr-obDir &V-til__trObl-oblAbsinf & V-til__trObl-oblDECL & V-til__trObl-oblINTERR & V-til__trObl-oblN &  V-av__trPrtcl & V-fast__trPrtcl & V-fra__trPrtcl & V-på__trPrtcl & V-sammen__trPrtcl & V-til__trPrtcl}_11-items	
-kopulere & ('copulate') &  {Sustain & Dependence & Impact & Procedure & Emotion & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {kopulere:V__intr & V-med__intrObl-oblN & V__tr}_3-items	
+kopulere & ('copulate') &  {Sustain & Dependence & Impact & Procedure & Emotion & Unfold & Perform & PhysBod} & VALPOD: {kopulere:V__intr & V-med__intrObl-oblN & V__tr}_3-items	
 korrespondere-1 & ('correspond') &  {Sustain & Cogn & Procedure & Creation & Unfold & Perform & SymbVal} & VALPOD: {korrespondere-1:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-med__intrObl-oblN}_8-items	
-korte & ('shorten') &  {Imped & Impact & SymbVal} & VALPOD: {korte:V__tr & V-av__trPrtcl & V-ned__trPrtcl & V-ned-med__trPrtclObl-oblN}_4-items	
+korte & ('shorten') &  {Imped & Impact} & VALPOD: {korte:V__tr & V-av__trPrtcl & V-ned__trPrtcl & V-ned-med__trPrtclObl-oblN}_4-items	
 kose & ('enjoy') &  {Sustain & Procedure & Emotion & Unfold & SymbVal & PureRel} & VALPOD: {kose:V__intr & V-med__intrObl-oblN & V__tr-obRefl & V-med__trObl-obRefl-oblEgObInf & V-med__trObl-obRefl-oblN}_5-items	
 koseprate & ('smalltalk') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & VALPOD: {koseprate:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2EqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-med-om__intrObl2-obl1N-obl2DECL & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN}_10-items	
 koste-1 & ('afford, cost') &  {Sustain & Cogn & Impact & SymbVal} & VALPOD: {koste-1:V__ditrExpnSu-obMeas-expnEqIobInf & V__intr & V__intr-suAbsinf & V-på__trObl-obEqInf-oblRefl & V-på__trObl-oblRefl & V__tr & V__trExpnSu-obMeas-expnInfabs & V__tr-suAbsinf}_8-items	
@@ -825,13 +825,13 @@ kvede & ('sing') &  {Cogn & Procedure & verbal} & VALPOD: {kvede:V__intr & V-om_
 kvege & ('sooth') &  {Further & MedByPrcept & Impact & Emotion & SymbVal & PhysBod} & VALPOD: {kvege:V__tr & V__tr-suAbsinf & V__trExpnSu-expnAbsinf}_3-items	
 kvekke-2 & ('croak') &  {x & x & x & x & x & x} & 1 & VALPOD: {kvekke-2:V__intr & UNIEND	
 kvelve & ('capsize') &  {Imped & Impact & Criterial & PhysBod} & VALPOD: {kvelve:V__intr & V__tr & V-på__trObl-obRefl-oblN}_3-items	
-kverve & ('fade') &  {Imped & Impact & SymbVal & PhysBod} & VALPOD: {kverve:V__intr & V__tr & V-bort__intrPrtcl}_3-items	
+kverve & ('fade') &  {Imped & Impact & PhysBod} & VALPOD: {kverve:V__intr & V__tr & V-bort__intrPrtcl}_3-items	
 kvi & ('refrain') &  {Imped & Emotion & Response & Domin & SymbVal & PhysBod} & VALPOD: {kvi:V__tr-obRefl & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN}_3-items	
 kvie & ('refrain') &  {Imped & Emotion & Response & Domin & SymbVal & PhysBod} & VALPOD: {kvie:V__tr-obRefl & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN}_3-items	
-kvikke & ('quicken') &  {Further & Impact & Emotion & Response & Criterial & SymbVal & PhysBod} & VALPOD: {kvikke:V__tr-obRefl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl}_3-items	
+kvikke & ('quicken') &  {Further & Impact & Emotion & Response & Criterial & PhysBod} & VALPOD: {kvikke:V__tr-obRefl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl}_3-items	
 kvile & ('restrict') &  {Sustain & Procedure & Response & PhysBod} & VALPOD: {kvile:V__intr & V__tr-obRefl & V-ut__intrPrtcl & V-ut__trPrtcl-obRefl}_4-items	
 kvittere & ('sign for receipt') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal & PhysBod} & VALPOD: {kvittere:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V-ut__trPrtcl}_5-items	
-kysse & ('kiss') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {kysse:V__intr & V__tr & V__trObl-oblPRTOFob}_3-items	
+kysse & ('kiss') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & VALPOD: {kysse:V__intr & V__tr & V__trObl-oblPRTOFob}_3-items	
 kyte & ('complain') &  {Imped & Procedure & Response & VerbalAct & PhysBod} & VALPOD: {kyte:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN}_4-items	
 kødde & ('provoke') &  {Imped & Cogn & Procedure & Perform & SymbVal & PhysBod} & VALPOD: {kødde:V__intr & V-med__intrObl-oblN & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N}_9-items	
 kåre & ('choose') &  {Further & Cogn & Impact & Procedure & Creation & Response & VerbalAct & Domin & SymbVal} & VALPOD: {kåre:V__tr & V-til__trObl-oblEqObInf & V-til__trObl-oblN}_3-items	
@@ -842,7 +842,7 @@ lage:V__ditr-iobRefl & V__tr & V-til__trPrtcl & V__trScpr-scObCsd & MULVALPOD &
 lage-1 & ('make, create') &  {Init & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & VALPOD: {lage-1:V__ditr-iobRefl & V__tr & V-til__trPrtcl & V__trScpr-scObCsd}_4-items	
 lange & ('provide, hand') &  {Sustain & Dir & Impact & Perform & Criterial & PhysBod} & VALPOD: {lange:V-i__trObl-oblRefl & V-i-av__intrObl2-obl1Refl & V-til__intrObl-oblN & V-ut__intrPrtcl & V-til__trObl-oblN}_5-items	
 lansere & ('launch') &  {Further & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & VALPOD: {lansere:V__tr & V__tr-obAbsinf & V__tr-obDECL & V__tr-obINTERR}_4-items	
-lappe & ('patch') &  {Sustain & Impact & Procedure & Creation & Response & Perform & Criterial & SymbVal} & VALPOD: {lappe:V-på__intrObl-oblN & V__tr & V-sammen__trPrtcl}_3-items	
+lappe & ('patch') &  {Sustain & Impact & Procedure & Creation & Response & Perform & Criterial} & VALPOD: {lappe:V-på__intrObl-oblN & V__tr & V-sammen__trPrtcl}_3-items	
 laste & ('load') &  {Cogn & Impact & Procedure & Perform & PhysBod} & VALPOD: {laste:V__tr & V-med__trObl-oblN & V__trObl-oblLoc & V-ned__trPrtcl & V-opp__trPrtcl & V__trScpr-scObNrg}_6-items	
 late-1 & ('seem, pretend') &  {Sustain & Cogn & Unfold & SymbVal} & VALPOD: {late-1:V-som__intrObl-oblDECL & V-som-om__intrObl-oblDECL & V-til__intrOblExlnk-oblExlnkDECL & V-til__intrOblRais-oblRaisInf}_4-items	
 le & ('laugh') &  {Sustain & Perceptible & Cogn & Emotion & Unfold & verbal & Criterial & SymbVal & PhysBod} & VALPOD: {le:V__intr & V-av__intrObl-oblDECL & V-av__intrObl-oblN & V__tr & V__trObl-oblPRTOFob & V__trScpr-obRefl-scObNrgCsd-scPred}_6-items	
@@ -856,7 +856,7 @@ leike & ('play') &  {Sustain & Procedure & Response & Perform & Criterial & Phys
 leke & ('play') &  {Sustain & Procedure & Response & Perform & Criterial & PhysBod} & VALPOD: {leke:V__intr & V-i__intrObl-oblN & V-med__intrObl-oblN & V__tr & V__tr-obRefl & V__tr-obAbsinf & V__tr-obDECL & V__tr-obINTERR & V-i__trObl-obRefl-oblN & V-med__trObl-obRefl-oblN}_10-items	
 lekke & ('leak') &  {Imped & Unfold & PhysBod} & VALPOD: {lekke:V__intr & V__intr-suDir & V-ut__intrPrtcl & V__tr}_4-items	
 lekse & ('list up') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & VALPOD: {lekse:V-opp__trPrtcl & V-opp__trPrtcl-obINTERR & V-opp-for__trPrtclObl-oblN & V-opp-for__trPrtclObl-obINTERR-oblN}_4-items	
-lemme & ('close') &  {Sustain & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {lemme:V__tr & V-inn__trPrtcl & V-på__trPrtcl}_3-items	
+lemme & ('close') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {lemme:V__tr & V-inn__trPrtcl & V-på__trPrtcl}_3-items	
 lempe & ('throw') &  {Dir & Impact & Perform & Criterial & PhysBod} & VALPOD: {lempe:V-på__intrObl-oblDECL & V-på__intrObl-oblN & V__tr-obDir & V__tr-obRefl & V-etter__trObl-obRefl-oblN}_5-items	
 lenges & ('long') &  {MedByPrcept & Cogn & Dependence & Emotion & Response & Unfold & SymbVal & PhysBod} & VALPOD: {lenges:V__intr & V-etter__intrObl-oblDECL & V-etter__intrObl-oblEqSuInf & V-etter__intrObl-oblN}_4-items	
 lengte & ('long') &  {Further & Cogn & Emotion & Unfold & SymbVal & PhysBod} & VALPOD: {lengte:V__intr-suDir & V-etter__intrObl-oblEqSuInf & V-etter__intrObl-oblN}_3-items	
@@ -923,7 +923,7 @@ markedsføre & ('market') &  {Sustain & Cogn & Procedure & Response & Perform & P
 markere & ('mark') &  {Sustain & Cogn & Dependence & Perform & SymbVal} & VALPOD: {markere:V__tr & V__tr-obRefl & V__tr-obDECL & V__tr-obINTERR & V-som__trScpr-obRefl-scPredprtcl}_5-items	
 mase & ('nag') &  {Imped & verbal & Criterial & SymbVal} & VALPOD: {mase:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-på__intrObl-oblN}_6-items	
 maskere & ('mask') &  {Procedure & Response & Perform & SymbVal & PhysBod} & VALPOD: {maskere:V__tr & V__tr-obRefl & V-som__trScpr-scPredprtcl & V-som__trScpr-obRefl-scPredprtcl}_4-items	
-mate & ('feed') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal & PhysBod} & VALPOD: {mate:V__tr & V__tr-obRefl & V-med__trObl-oblN}_3-items	
+mate & ('feed') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & VALPOD: {mate:V__tr & V__tr-obRefl & V-med__trObl-oblN}_3-items	
 medbestemme & ('co-determine') &  {Sustain & Dependence & Procedure & Response & Domin & SymbVal} & VALPOD: {medbestemme:V__intr & V-om__intrObl-oblINTERR & V-om__intrObl-oblN}_3-items	
 meddele & ('communicate') &  {Cogn & Procedure & VerbalAct & SymbVal} & VALPOD: {meddele:V__ditr & V__ditr-obDECL & V__ditr-obINTERR & V__tr-obDECL & V__tr-obINTERR}_5-items	
 medføre & ('entail') &  {Further & Dependence & Domin & SymbVal & PureRel} & VALPOD: {medføre:V__tr & V__tr-obDECL & V__tr-suDECL-obDECL}_3-items	
@@ -974,7 +974,7 @@ målrette & ('target') &  {Sustain & Dir & Cogn & Perform & SymbVal} & VALPOD: {m
 nagle & ('rivet') &  {Sustain & Impact & Procedure & Criterial & PhysBod} & VALPOD: {nagle:V__tr & V-fast__trPrtcl & V-til__trPrtcl}_3-items	
 nappe & ('pinch') &  {Sustain & Dir & Perceptible & Impact & Perform & Criterial & PhysBod} & VALPOD: {nappe:V__intr & V__tr & V-av__trObl-oblN & V-bort__trPrtcl & V-ut__trPrtcl & V-fra__trObl-oblN & V-til__trScpr-scPPrefl}_7-items	
 narre & ('fool') &  {Imped & Cogn & Impact & Procedure & SymbVal} & VALPOD: {narre:V__tr & V-til__trObl-oblEqObInf & V-til__trObl-oblN}_3-items	
-naske & ('steal') &  {Imped & Impact & Procedure & Perform & SymbVal} & VALPOD: {naske:V__intr & V__tr & V-til__trScpr-scPPrefl}_3-items	
+naske & ('steal') &  {Imped & Impact & Procedure & Perform} & VALPOD: {naske:V__intr & V__tr & V-til__trScpr-scPPrefl}_3-items	
 nedfelle & ('enshrine ?') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & VALPOD: {nedfelle:V__tr & V-i__trObl-oblN & V-i__trObl-obRefl-oblN}_3-items	
 nedskrive-1 & ('write down') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & VALPOD: {nedskrive-1:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
 nedverdige & ('degrade') &  {Imped & Cogn & Impact & Emotion & Response & Perform & Domin & SymbVal} & VALPOD: {nedverdige:V__tr & V__tr-obRefl & V-til__trObl-obRefl-oblEqObInf}_3-items	
@@ -1100,7 +1100,7 @@ plotte & ('plot') &  {Init & Cogn & Procedure & Creation & Perform & SymbVal} & 
 plugge & ('plug') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & VALPOD: {plugge:V__tr & V-igjen__trPrtcl & V-til__trPrtcl}_3-items	
 plukke & ('pick') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {plukke:V-av__intrObl-oblN & V__tr & V__tr-obDir & V-av__trObl-oblN & V-ut__trPrtcl}_5-items	
 plundre & ('fool around') &  {Imped & Procedure & Unfold & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {plundre:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN}_3-items	
-plyndre & ('plunder') &  {Sustain & Impact & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & VALPOD: {plyndre:V__intr & V__tr & V-for__trObl-oblN}_3-items	
+plyndre & ('plunder') &  {Sustain & Impact & Procedure & Perform & Domin & Poss & PhysBod} & VALPOD: {plyndre:V__intr & V__tr & V-for__trObl-oblN}_3-items	
 plystre & ('whistle') &  {Creation & Unfold & PhysBod} & VALPOD: {plystre:V__intr & V-etter__intrObl-oblN & V-på__intrObl-oblN & V__tr}_4-items	
 pløye & ('plough') &  {Sustain & Impact & Procedure & Perform & Domin & PhysBod} & VALPOD: {pløye:V__intr-suDir & V__tr & V__trPath-obRefl-obDir & V-opp__trPrtcl &  MULTIEND_4-items	
 poengtere & ('point out') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & VALPOD: {poengtere:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
@@ -1175,9 +1175,9 @@ rable-2 & ('scratch') &  {Sustain & Cogn & Impact & Procedure & Perform & Criter
 raljere & ('be sarcastic') &  {Sustain & Cogn & Procedure & Response & VerbalAct & SymbVal} & VALPOD: {raljere:V__intr & V-over__intrObl-oblAbsinf & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblN}_5-items	
 rane & ('rob') &  {Imped & Cogn & Impact & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & VALPOD: {rane:V__tr & V-for__trObl-oblN & V-til__trScpr-scPPrefl}_3-items	
 rangere & ('rank') &  {Sustain & Cogn & Procedure & Response & Perform & Domin & SymbVal} & VALPOD: {rangere:V__intrObl-oblLoc & V__tr & V__trAdv & V__trObl-oblLoc}_4-items	
-rappe-1 & ('steal') &  {Imped & Impact & Perform & Domin & Poss & SymbVal & Loc & PhysBod} & VALPOD: {rappe-1:V-fra__intrObl-oblN & V__tr & V-fra__trObl-oblN & V-til__trScpr-scPPrefl}_4-items	
+rappe-1 & ('steal') &  {Imped & Impact & Perform & Domin & Poss & Loc & PhysBod} & VALPOD: {rappe-1:V-fra__intrObl-oblN & V__tr & V-fra__trObl-oblN & V-til__trScpr-scPPrefl}_4-items	
 rase-1 & ('be angry') &  {Sustain & Cogn & Impact & Emotion & Response & Unfold & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {rase-1:V__intr & V-over__intrObl-oblAbsinf & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblN}_5-items	
-rasjonere & ('ration') &  {Sustain & Dependence & Impact & Procedure & Response & Perform & Domin & Poss & SymbVal} & VALPOD: {rasjonere:V-på__intrObl-oblN & V__tr & V-bort__trPrtcl & V-ut__trPrtcl}_4-items	
+rasjonere & ('ration') &  {Sustain & Cogn & Dependence & Impact & Procedure & Response & Perform & Domin & Poss & SymbVal} & VALPOD: {rasjonere:V-på__intrObl-oblN & V__tr & V-bort__trPrtcl & V-ut__trPrtcl}_4-items	
 rasle & ('rattle') &  {Perceptible & Unfold & Criterial & Loc & PhysBod} & VALPOD: {rasle:V-i__impersObl-oblN & V__intr & V-med__intrObl-oblN}_3-items	
 raspe & ('grate') &  {Sustain & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {raspe:V-med__intrObl-oblN & V__tr & V-opp__trPrtcl}_3-items	
 ratle & ('rattle') &  {Perceptible & Unfold & Criterial & PhysBod} & VALPOD: {ratle:V__impersObl-oblN & V__intr & V-med__intrObl-oblN}_3-items	
@@ -1194,7 +1194,7 @@ regjere & ('reign') &  {Sustain & Cogn & Dependence & Impact & Procedure & Creat
 regne-1 & ('rain') &  {Sustain & Impact & Procedure & Unfold & Criterial & PhysBod} & VALPOD: {regne-1:V__impers & V__intr-suDir & V__intrPresnt}_3-items	
 regne-2 & ('count') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & VALPOD: {regne-2 & ('count, calculate') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & VALPOD: {regne-2:V__intr-suDir & V-med__intrObl-oblDECL & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr & V-som__trScpr-scPredprtcl & V-ut__trPrtcl & V-ut__trPrtcl-obDECL}_8-items	
 reindeksere & ('re-index') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal} & VALPOD: {reindeksere:V__tr & V-for__intr-oblINTERR & V-for__intrObl-oblN}_3-items	
-reinske & ('clean') &  {Sustain & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & VALPOD: {reinske:V__tr & V-opp__intrPrtcl & V-ut__trPrtcl}_3-items	
+reinske & ('clean') &  {Sustain & Impact & Procedure & Response & Perform & Domin & PhysBod} & VALPOD: {reinske:V__tr & V-opp__intrPrtcl & V-ut__trPrtcl}_3-items	
 reinvaske & ('clean') &  {Sustain & Impact & SymbVal} & VALPOD: {reinvaske:V__tr & V__tr-obRefl & V-for__trObl-oblEqObInf & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-oblN & V-for__trObl-obRefl-oblN & V-fra__trObl-obRefl-oblN}_7-items	
 reise & ('raise, travel') &  {Sustain & Dir & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {reise:V__intr-suDir & V__tr & V__tr-obRefl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl}_5-items	
 rekke-1 & ('reach') &  {Further & Response & SymbVal} & VALPOD: {rekke-1:V__intr-suDir & V-fram__intrPrtcl & V-frem__intrPrtcl & V-over__intrObl-oblN & V__tr & V__tr-obEqSuInf}_6-items	
@@ -1207,7 +1207,7 @@ relatere & ('relate') &  {Further & Cogn & Dependence & SymbVal} & VALPOD: {rela
 reminisere & ('reminisce') &  {Sustain & Cogn & Perform & SymbVal} & VALPOD: {reminisere:V__intr & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblDECL & V-over__intrObl-oblINTERR & V-over__intrObl-oblN & V__tr}_6-items	
 renne & ('run') &  {Init & Dir & Impact & Procedure & Unfold & PhysBod} & VALPOD: {renne:V__intr-suDir & V-over__intrPrtcl & V-ut__intrPrtcl & V__intrScpr-scSuNrgCsd-scPred}_4-items	
 renominere & ('re-nominate') &  {Sustain & Cogn & Impact & Procedure & Response & Perform & SymbVal} & VALPOD: {renominere:V__tr & V-for__trObl-oblEqObInf & V-for__trObl-oblN}_3-items	
-rense & ('clean') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & SymbVal} & VALPOD: {rense:V-opp__intrPrtcl & V__tr & V-for__trObl-oblN & V-ut__trPrtcl}_4-items	
+rense & ('clean') &  {Sustain & Impact & Procedure & Response & Unfold & Perform} & VALPOD: {rense:V-opp__intrPrtcl & V__tr & V-for__trObl-oblN & V-ut__trPrtcl}_4-items	
 renske & ('clean') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & SymbVal} & VALPOD: {renske:V-opp__intrPrtcl & V__tr & V-for__trObl-oblN & V-ut__trPrtcl}_4-items	
 renvaske & ('clean') &  {Sustain & Impact & SymbVal} & VALPOD: {renvaske:V__tr & V__tr-obRefl & V-for__trObl-oblEqObInf & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-oblN & V-for__trObl-obRefl-oblN & V-fra__trObl-obRefl-oblN}_7-items	
 repetere & ('repeat') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & VALPOD: {repetere:V__tr-obINTERR & V__tr & V__tr-obDECL}_3-items	
@@ -1233,12 +1233,12 @@ risikere & ('risk') &  {Further & Dependence & Domin & SymbVal} & VALPOD: {risik
 riste & ('shake') &  {Sustain & Perceptible & Impact & Procedure & Perform & PhysBod} & VALPOD: {riste:V__intr & V__tr & V__trScpr-scObCsd & V-med__intrObl-oblN & V-på__intrObl-oblN}_5-items	
 rive & ('tear') &  {Imped & Impact & Procedure & Perform & Domin & PhysBod} & VALPOD: {rive:V-i__intrObl-oblN & V__tr & V-av__trPrtcl & V-løs__trPrtcl & V-ned__trPrtcl & V-opp__trPrtcl & V-ut__trPrtcl & V-i-filler__trScpr-scObCsd & V-i-strimler__trScpr-scObCsd & V-istykker__trScpr-scObCsd}_10-items	
 ro & ('row') &  {Sustain & Dir & Procedure & Unfold & Perform & PhysBod} & VALPOD: {ro:V__intr-suDir & V__tr & V__tr-obDir & V__trPath-obRefl-obDir}_4-items	
-roe & ('calm') &  {Sustain & Procedure & Response & SymbVal & PhysBod} & VALPOD: {roe:V__tr & V__tr-obRefl & V-ned__trPrtcl & V-ned__trPrtcl-obRefl}_4-items	
+roe & ('calm') &  {Sustain & Procedure & Response & PhysBod} & VALPOD: {roe:V__tr & V__tr-obRefl & V-ned__trPrtcl & V-ned__trPrtcl-obRefl}_4-items	
 rokke & ('shake') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {rokke:V__intr & V__tr & V-ved__intrObl-oblN}_3-items	
 rope & ('shout') &  {Sustain & Perceptible & Cogn & VerbalAct & Criterial & SymbVal & PhysBod} & VALPOD: {rope:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-til__intrObl-oblN & V-ut__intrPrtcl & V__tr & V__tr-obDECL & V__tr-obINTERR & V-inn__trPrtcl & V-opp__trPrtcl & V-ut__trPrtcl}_13-items	
 rose & ('praise') &  {Sustain & Cogn & Impact & Emotion & Response & Perform & SymbVal} & VALPOD: {rose:V__tr & V-av__trObl-obRefl-oblEqObInf & V-av__trObl-obRefl-oblN & V-for__trObl-oblEqObInf & V-for__trObl-oblDECL & V-for__trObl-oblINTERR & V-for__trObl-oblN & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN}_11-items	
 rote & ('mess up') &  {Imped & Impact & SymbVal & PhysBod} & VALPOD: {rote:V__intr & V-etter__intrObl-oblN & V-med__intrObl-oblN & V-med__intrObl-oblEqSuInf & V-bort__trPrtcl & V-bort__trPrtcl-obRefl & V-til__trPrtcl}_7-items	
-ruge & ('nest') &  {Further & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & VALPOD: {ruge:V-på__intrObl-oblN & V__intr & V__tr & V-ut__trPrtcl}_4-items	
+ruge & ('nest') &  {Further & Impact & Procedure & Creation & Perform & PhysBod} & VALPOD: {ruge:V-på__intrObl-oblN & V__intr & V__tr & V-ut__trPrtcl}_4-items	
 rugge & ('shake') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {rugge:V__intr & V__intr-suDir & V__tr}_3-items	
 ruinere & ('ruin') &  {Prevent & Impact & Procedure & Domin & Poss & SymbVal} & VALPOD: {ruinere:V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblN & V-ved__trObl-obRefl-oblEqObInf}_4-items	
 rulle & ('roll') &  {Sustain & Dir & Perceptible & Unfold & Criterial & PhysBod} & VALPOD: {rulle:V__intrPresntDir & V__intr-suDir & V__tr-obDir & V__tr-suDir-obLengthunit & V-opp__trPrtcl-obRefl & V-ut__trPrtcl}_6-items	
@@ -1331,8 +1331,8 @@ sjaske & ('mess') &  {Imped & Impact & Perform & Criterial & PhysBod} & VALPOD: 
 sjekke & ('check') &  {Sustain & Cogn & Procedure & Response & Perform & SymbVal} & VALPOD: {sjekke:V__intr & V-inn__intrPrtcl & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2INTERR & V-om__intrObl-oblINTERR & V-ut__intrPrtcl & V__tr & V__tr-obDECL & V__tr-obINTERR & V-opp__trPrtcl & V-opp__trPrtcl-obINTERR & V-opp-om__trPrtclObl-oblINTERR & V-ut__trPrtcl}_13-items	
 sjenere & ('embarrass') &  {Imped & Cogn & Emotion & SymbVal} & VALPOD: {sjenere:V__tr & V__tr-obRefl & V__tr-suDECL & V__trExpnSu-expnDECL & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN}_8-items	
 sjokkere & ('shock') &  {Sustain & Cogn & Impact & Emotion & Domin & SymbVal & PhysBod} & VALPOD: {sjokkere:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL}_3-items	
-ska & ('hurt') &  {Imped & Impact & SymbVal & Loc & PhysBod} & VALPOD: {ska:V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN}_4-items	
-skade & ('hurt') &  {Imped & Impact & SymbVal} & VALPOD: {skade:V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN}_4-items	
+ska & ('hurt') &  {Imped & Impact & Loc & PhysBod} & VALPOD: {ska:V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN}_4-items	
+skade & ('hurt') &  {Imped & Impact} & VALPOD: {skade:V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN}_4-items	
 skaffe-1 & ('provide, get') &  {Further & Cogn & Impact & Procedure & Creation & Perform & SymbVal} & VALPOD: {skaffe-1:V__ditr & V__ditr-iobRefl & V__tr & V-for__trObl-oblAbsinf & V-for__trObl-oblN & V-til__trObl-oblAbsinf & V-til__trObl-oblN}_7-items	
 skake & ('shake') &  {Imped & Impact & PhysBod} & VALPOD: {skake:V__intr & V-på__intrObl-oblN & V__tr & V-opp__trPrtcl}_4-items	
 skalle-2 & ('skull?') &  {Sustain & Impact & Perform & Domin & Criterial & PhysBod} & VALPOD: {skalle-2:V__intr & V-i__intrObl-oblN & V__trObl-oblPRTOFob & V-ned__trPrtcl}_4-items	
@@ -1346,7 +1346,7 @@ skildre & ('describe') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & V
 skille & ('divide, distinguish') &  {Procedure} & VALPOD: {skille:V__tr & V__tr-obRefl & V-fra__trObl-oblN & V-fra__trObl-obRefl-oblN & V-ad__trPrtcl-obRefl & V-ut__trPrtcl & V-ut__trPrtcl-obRefl}_7-items	
 skilte & ('market') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & VALPOD: {skilte:V__tr & V-med__intrObl-oblDECL & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN}_4-items	
 skimte & ('glimpse') &  {Sustain & Perceiving & Cogn & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {skimte:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
-skinne & ('shine') &  {Perceptible & Impact & Unfold & SymbVal & PhysBod} & VALPOD: {skinne:V__intr & V-av__intrObl-oblN & V-over__intrObl-oblN & V-på__intrObl-oblN}_4-items	
+skinne & ('shine') &  {Perceptible & Impact & Unfold & PhysBod} & VALPOD: {skinne:V__intr & V-av__intrObl-oblN & V-over__intrObl-oblN & V-på__intrObl-oblN}_4-items	
 skite & ('shit') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & VALPOD: {skite:V__intr & V-i__intrObl-oblEqSuInf & V-i__intrObl-oblN & V-ut__trPrtcl-obRefl}_4-items	
 skje & ('happen') &  {Unfold & SymbVal} & VALPOD: {skje:V__intr-suDECL & V_intrExpn-expnDECL & V__intrPresnt & V__intr-RESULT & V__intrAdv &  V__intrAdvPresnt & V__intrAdv-suDECL & V__intrAdvExpn-expnDECL &  MULTIEND_7-items	
 skjele & ('squint') &  {Perceptible & Response & Perform & PhysBod} & VALPOD: {skjele:V__intr & V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN}_4-items	
@@ -1363,7 +1363,7 @@ skjerme & ('protect') &  {Sustain & Impact & Response & Unfold & Perform & SymbV
 skjule & ('hide') &  {Imped & SymbVal} & VALPOD: {skjule:V__tr & V__trAdv-obRefl & V__tr-obDECL & V__tr-obINTERR & V__tr-obRefl & V-for__trObl-oblN & V-for__trObl-obRefl-oblN}_7-items	
 skjære & ('cut') &  {Impact & Procedure & Perform & PhysBod} & VALPOD: {skjære:V-gjennom__intrObl-oblN & V__tr-obDir & V__tr-obRefl & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-opp__trPrtcl & V__trScpr-scObArgCsd-scPred}_7-items	
 skjønne & ('understand') &  {Further & Cogn & Response & Perform & SymbVal} & VALPOD: {skjønne:V__tr & V__tr-obDECL & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblINTERR & V-på__trObl-obRefl-oblN}_5-items	
-skjøte & ('splice') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & SymbVal & PhysBod} & VALPOD: {skjøte:V__tr & V-med__trObl-oblN & V-på__intrObl-oblN & V-sammen__trPrtcl}_4-items	
+skjøte & ('splice') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Perform & PhysBod} & VALPOD: {skjøte:V__tr & V-med__trObl-oblN & V-på__intrObl-oblN & V-sammen__trPrtcl}_4-items	
 skli & ('skid') &  {Dir & Perceptible & Impact & Response & Criterial & PhysBod} & VALPOD: {skli:V__intr & V__intr-suDir & V-ut__intrPrtcl}_3-items	
 sko & ('shoe') &  {Sustain & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {sko:V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblDECL & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN}_5-items	
 skolere & ('school') &  {Further & Cogn & Impact & Procedure & Unfold & Perform & SymbVal} & VALPOD: {skolere:V__tr & V__tr-obRefl & V-i__trObl-oblEqObInf & V-i__trObl-oblN & V-i__trObl-obRefl-oblEqObInf & V-i__trObl-obRefl-oblN}_6-items	
@@ -1401,22 +1401,22 @@ skvette-2 & ('startle') &  {Impact & Emotion & Response & Loc & PhysBod} & VALPO
 skvære & ('settle, agree') &  {Sustain & Cogn & Impact & Procedure & Emotion & Response & VerbalAct & SymbVal & PhysBod} & VALPOD: {skvære:V__tr & V-opp__intrPrtcl & V-opp-i__intrPrtclObl-oblN & V-opp-i__intrPrtclObl-oblINTERR}_4-items	
 skylde & ('owe, blame') &  {Imped & Cogn & Response & VerbalAct & SymbVal} & VALPOD: {skylde:V__ditr & V__ditr-obEqSuInf & V-på__intrObl-oblDECL & V-på__intrObl-oblN & V__tr}_5-items	
 skyldes & ('be due to') &  {Dependence & SymbVal & PureRel} & VALPOD: {skyldes:V__tr & V__tr-suDECL & V__tr-obDECL & V__tr-suDECL-obDECL & V__trExpnSu-expnDECL}_5-items	
-skylle & ('rinse') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & VALPOD: {skylle:V-av__intrObl-oblN & V__tr-obDir & V__trScpr-scObCsd & V-av__trObl-oblN}_4-items	
+skylle & ('rinse') &  {Sustain & Impact & Procedure & Perform & PhysBod} & VALPOD: {skylle:V-av__intrObl-oblN & V__tr-obDir & V__trScpr-scObCsd & V-av__trObl-oblN}_4-items	
 skynde & ('hurry, hasten') &  {Further} & VALPOD: {skynde:V__ditr-iobRefl-obEqIobInf & V-på__intrObl-oblN & V__tr-obRefl & V-med__trObl-obRefl-oblEqObInf & V-med__trObl-obRefl-oblN}_5-items	
 skyte & ('shoot') &  {Sustain & Dir & Cogn & Impact & Perform & Criterial & PhysBod} & VALPOD: {skyte:V__intr-suDir & V-på__intrObl-oblN & V-av__intrPrtcl & V__tr-obDir & V__tr-obRefl & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-på__trObl-oblN & V-inn__trPrtcl-obDECL & V-inn__trPrtcl-obINTERR & V-til__trPrtcl-obDECL & V__trScpr-scObCsd}_12-items	
 skyve & ('push') &  {Further & Dir & Impact & Perform & PhysBod} & VALPOD: {skyve:V-på__intrObl-oblN & V-til__trObl-oblN & V__tr-obDir & V__trPath-obRefl-obDir}_4-items	
 skåle & ('toast') &  {Sustain & Procedure & Response & Perform & SymbVal & PhysBod} & VALPOD: {skåle:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V-i__intrObl-oblN}_5-items	
 skåne & ('spare') &  {Sustain & Cogn & Impact & Procedure & Response & VerbalAct & Domin & SymbVal & PhysBod} & VALPOD: {skåne:V__tr & V-for__trObl-oblDECL & V-for__trObl-oblEqObInf & V-for__trObl-oblN}_4-items	
-skåre & ('score') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & SymbVal & PhysBod} & VALPOD: {skåre:V__intr & V-på__intrObl-oblN & V__tr}_3-items	
+skåre & ('score') &  {Sustain & Cogn & Impact & Procedure & Perform & Domin & PhysBod} & VALPOD: {skåre:V__intr & V-på__intrObl-oblN & V__tr}_3-items	
 skåte & ('slow or turn a rowboat around with the oars') &  {Sustain & Dir & Cogn & Impact & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & VALPOD: {skåte:V__intr & V-med__intrObl-oblN & V__tr}_3-items	
 sladre & ('gossip') &  {Imped & Response & verbal & SymbVal & PhysBod} & VALPOD: {sladre:V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-på__intrObl-oblN & V-til__intrObl-oblN}_7-items	
-slakke & ('slack') &  {Sustain & Impact & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {slakke:V-av__intrPrtcl & V-opp__intrPrtcl & V-på__intrObl-oblN & V-av-på__intrPrtclObl-oblN & V__tr}_5-items	
+slakke & ('slack') &  {Sustain & Impact & Perform & Criterial & PhysBod} & VALPOD: {slakke:V-av__intrPrtcl & V-opp__intrPrtcl & V-på__intrObl-oblN & V-av-på__intrPrtclObl-oblN & V__tr}_5-items	
 slakte & ('slaughter') &  {Sustain & Impact & Procedure & Perform & Domin & Criterial & PhysBod} & VALPOD: {slakte:V__intr & V-for__intrObl-oblN & V__tr}_3-items	
 slamre & ('slam') &  {Imped & Perceptible & Impact & Criterial & PhysBod} & VALPOD: {slamre:V-i__impersObl-oblN & V__intr & V-i__intrObl-oblN & V-med__intrObl-oblN & V-igjen__trPrtcl}_5-items	
 slappe & ('relax') &  {Sustain & Impact & Procedure & Response & Unfold & Perform & Criterial & PhysBod} & VALPOD: {slappe:V-av__intrPrtcl & V-av-fra__intrPrtclObl-oblEqSuInf & V-av-fra__intrPrtclObl-oblN}_3-items	
 slarve & ('chat carelessly') &  {Imped & Unfold & VerbalAct & Criterial & SymbVal & PhysBod} & VALPOD: {slarve:V__intr & V-om__intrObl-oblDECL & V-om__intrObl-oblINTERR}_3-items	
 sleike & ('lick') &  {Sustain & Perceptible & Impact & Perform & Criterial & PhysBod} & VALPOD: {sleike:V-av__intrObl-oblN & V-på__intrObl-oblN & V__tr & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-i__trScpr-scPPrefl}_6-items	
-sleive & ('be careless') &  {Imped & Procedure & SymbVal & PhysBod} & VALPOD: {sleive:V__intr & V__intr-suDir & V-med__intrObl-oblN}_3-items	
+sleive & ('be careless') &  {Imped & Procedure & PhysBod} & VALPOD: {sleive:V__intr & V__intr-suDir & V-med__intrObl-oblN}_3-items	
 slenge & ('sling') &  {Dir & Impact & Perform & Domin & PhysBod} & VALPOD: {slenge:V__intr & V-med__intrObl-oblN & V__tr-obDir & V-etter__trObl-obRefl-oblPRTOFob}_4-items	
 slepe & ('drag') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & Domin & Criterial & PhysBod} & VALPOD: {slepe:V-på__intrObl-oblN & V__tr & V__tr-obDir}_3-items	
 sleppe & ('drop, let loose') &  {Sustain & Cogn & Impact & Response & Perform & PhysBod} & VALPOD: {sleppe:V__intr-suDir & V-opp__intrPrtcl & V-opp-for__intrPrtclObl-oblN & V-opp-på__intrPrtclObl-oblN & V-på__intrObl-oblN & V-unna__intrPrtcl & V__tr &V__tr-obDir &  V__tr-obEqSuInf & V-løs__trPrtcl & V-løs__trPrtcl-obRefl}_12-items	
@@ -1432,7 +1432,7 @@ slurke & ('slurp') &  {Sustain & Perceptible & Impact & Procedure & Response & P
 slurpe & ('slurp') &  {Imped & Procedure & Perform & SymbVal & PhysBod} & VALPOD: {slurpe:V__intr & V__tr & V-i__trScpr-scPPrefl & V-opp__trPrtcl}_4-items	
 slurve & ('be sloppy') &  {Imped & Impact & Procedure & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {slurve:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN}_3-items	
 slutte & ('stop, end') &  {Further & Dependence & Impact & Perform & SymbVal} & VALPOD: {slutte:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V-opp__intrPrtcl & V-på__intrObl-oblN & V__tr & V__intrScpr-scSuNrg-scRaisInf & V-til__trObl-obRefl-oblN & V-ut__trPrtcl-obRefl}_9-items	
-sløse & ('waste') &  {Imped & Impact & Procedure & Unfold & Perform & Poss & SymbVal} & VALPOD: {sløse:V__intr & V-med__intrObl-oblN & V-bort__trPrtcl}_3-items	
+sløse & ('waste') &  {Imped & Impact & Procedure & Unfold & Perform & Poss} & VALPOD: {sløse:V__intr & V-med__intrObl-oblN & V-bort__trPrtcl}_3-items	
 slå & ('beat, turn') &  {Impact & Perform & Domin & SymbVal & PhysBod} & VALPOD: {slå:V__impersObl-oblM & V__intr & V__intrObl-oblPRTOFob & V-på__intrObl-oblN & V-igjen__intrPrtcl & V-tilbake__intrPrtcl & V-løs-på__intrPrtclObl & V-om-til__intrPrtclObl-oblN & V-om-til__intrPrtclOblRais-oblRaisInf & V-over-til__intrPrtclObl-oblN & intrPrtclOblRais-oblRaisInf & V-opp__intrPrtcl & V-opp-med__intrPrtclObl-oblN & V__tr-obDir & V__tr-obRefl & V__trExpnSu-expnDECL & V__trObl-oblPRTOFob & V__trObl-obRefl-oblPRTOFob & V-til__trObl-oblN & V-løs__trPrtcl-obRefl & V-av__trPrtcl & V-på__trPrtcl & V-sammen__trPrtcl & V-til__trPrtcl-obRefl & V__trScpr-scObCsd & V-som__trScpr-scSuNrg-scPredprtcl}_25-items	
 slåss & ('fight') &  {Imped & Sustain & Impact & Unfold & Perform & Domin & PhysBod} & VALPOD: {slåss:V__intr & V-med__intrObl-oblN & V-mot__intrObl-oblDECL & V-mot__intrObl-oblN & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN}_7-items	
 smake & ('taste') &  {Sustain & Perceiving & ImpactSensory & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {smake:V__impers & V__impersAdv & V-av__impersObl-oblN & V__intrAdv &  V-på__intrObl-oblN & V__tr & V__trImpers & V-av__trImpersObl-oblN}_8-items
@@ -1450,26 +1450,26 @@ sminke & ('put on make-up') &  {Sustain & Perceptible & Impact & Procedure & Cre
 smitte & ('infect') &  {Sustain & Impact & Procedure & Domin & Criterial & PhysBod} & VALPOD: {smitte:V__intr & V__tr & V-med__trObl-oblN}_3-items	
 smugle & ('smuggle') &  {Imped & Cogn & Impact & Procedure & Perform & Poss & SymbVal & PhysBod} & VALPOD: {smugle:V__tr-obDir & V-inn__trPrtcl-obDECL & V-inn__trPrtcl-obRefl}_3-items	
 smuldre & ('crumble') &  {Imped & Impact & Response & Unfold & Criterial & PhysBod} & VALPOD: {smuldre:V-bort__intrPrtcl & V-opp__intrPrtcl & V__tr}_3-items	
-smøre & ('smear, lubricate') &  {Sustain & Impact & Procedure & Perform & SymbVal & PhysBod} & VALPOD: {smøre:V__tr & V-med__trObl-obRefl-oblN & V-inn__trPrtcl & V-om__trPrtcl}_4-items	
+smøre & ('smear, lubricate') &  {Sustain & Impact & Procedure & Perform & PhysBod} & VALPOD: {smøre:V__tr & V-med__trObl-obRefl-oblN & V-inn__trPrtcl & V-om__trPrtcl}_4-items	
 småprate & ('smalltalk') &  {Sustain & Cogn & Procedure & VerbalAct & SymbVal} & VALPOD: {småprate:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2DECL & V-med-om__intrObl2-oblEqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN}_12-items	
 småspise & ('snack') &  {Sustain & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {småspise:V__intr & V-av__intrObl-oblN & V-på__intrObl-oblN}_3-items	
 snakke & ('speak') &  {Perceptible & Cogn & Unfold & VerbalAct & Criterial & SymbVal & PhysBod} & VALPOD: {snakke:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2DECL & V-med-om__intrObl2-obl1N-obl2EqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblAbsinf & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-til__intrObl-oblN & V-ut__intrPrtcl & V-sammen__intrPrtcl & V__tr & V__trScpr-obRefl-scObNrgCsd-scPred & V-til__trScpr-scPPrefl & V-til__trScpr-obRefl-scPP}_19-items	
-snappe & ('grab') &  {Impact & Procedure & Perform & Domin & Poss & SymbVal & PhysBod} & VALPOD: {snappe:V__tr & V-fra__trObl-oblN & V-opp__trPrtcl & V-til__trScpr-scPPrefl}_4-items	
+snappe & ('grab, snatch') &  {Impact & Procedure & Perform & Domin & Poss & PhysBod} & VALPOD: {snappe:V__tr & V-fra__trObl-oblN & V-opp__trPrtcl & V-til__trScpr-scPPrefl}_4-items	
 sne & ('snow') &  {Sustain & Perceptible & Procedure & Unfold & Criterial & PhysBod} & VALPOD: {sne:V__impers & V__intr & V__intrPresntDir & V-inne__intrScpr-scSuNrgCsd-scAdv & V-ned__intrScpr-scSuNrgCsd-scAdv & V__trImpers}_6-items	
-snekre & ('carpentry') &  {Sustain & Impact & Procedure & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {snekre:V__intr & V__tr & V-på__intrObl-oblN & V-sammen__trPrtcl}_4-items	
-sniffe & ('sniff') &  {Perceptible & Procedure & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {sniffe:V__intr & V-på__intrObl-oblN & V__tr}_3-items	
+snekre & ('carpentry') &  {Sustain & Cogn & Impact & Procedure & Unfold & Perform & PhysBod} & VALPOD: {snekre:V__intr & V__tr & V-på__intrObl-oblN & V-sammen__trPrtcl}_4-items	
+sniffe & ('sniff') &  {Perceptible & Procedure & Perform & Criterial & PhysBod} & VALPOD: {sniffe:V__intr & V-på__intrObl-oblN & V__tr}_3-items	
 snike & ('sneak') &  {Dir & Procedure & Unfold & Perform & PhysBod} & VALPOD: {snike:V__intr-suDir & V__trPresntDir-obRefl & V__trPath-obRefl-obDir & V-til__trScpr-scPPrefl}_4-items	
 snitte & ('cut') &  {Sustain & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {snitte:V__tr-obDir & V-av__trObl-oblN & V-opp__trPrtcl}_3-items	
 sno & ('wiggle') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {sno:V__impers & V__tr-obRefl & V__trPath-obRefl-obDir}_3-items	
-snobbe & ('snob') &  {Imped & Procedure & Unfold & Perform & Domin & SymbVal & PhysBod} & VALPOD: {snobbe:V__intr & V__intr-suDir & V-med__intrObl-oblN}_3-items	
+snobbe & ('snob') &  {Imped & Cogn & Procedure & Unfold & Perform & Domin & PhysBod} & VALPOD: {snobbe:V__intr & V__intr-suDir & V-med__intrObl-oblN}_3-items	
 snoke & ('snoop') &  {Imped & Cogn & Procedure & Perform & SymbVal} & VALPOD: {snoke:V__intr & V-i__intrObl-oblINTERR & V-i__intrObl-oblN & V-til__trScpr-scPPrefl}_4-items	
 snu & ('turn') &  {Sustain & Dir & Response & Perform} & VALPOD: {snu:V__intr-suDir & V-om__intrPrtcl & V-på__intrObl-oblN & V-opp-ned-på__intrPrtclObl-oblN & V__tr-obDir & V__tr-obRefl & V-bort__trPrtcl-obRefl}_7-items	
-snuble & ('stumble') &  {Imped & Perceptible & Impact & Response & Perform & Criterial & SymbVal & PhysBod} & VALPOD: {snuble:V__intr & V-i__intrObl-oblN & V-over__intrObl-oblN}_3-items	
+snuble & ('stumble') &  {Imped & Perceptible & Impact & Response & Perform & Criterial & PhysBod} & VALPOD: {snuble:V__intr & V-i__intrObl-oblN & V-over__intrObl-oblN}_3-items	
 snurpe & ('snort, snare') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & VALPOD: {snurpe:V__tr & V-sammen__trPrtcl & V-sammen__trPrtcl-obRefl}_3-items	
 snurre & ('spin') &  {Dir & Perceptible & Impact & Procedure & Unfold & Criterial & PhysBod} & VALPOD: {snurre:V__intr-suDir & V-rundt__intrPrtcl & V-rundt__trPrtcl}_3-items	
 snuse & ('sniff') &  {Perceiving & Perform & PhysBod} & VALPOD: {snuse:V__intr & V-i__intrObl-oblINTERR & V-i__intrObl-oblN & V-på__intrObl-oblN & V-opp__trPrtcl}_5-items	
-snuske & ('embezzle, dirty up') &  {Imped & Procedure & SymbVal & PhysBod} & VALPOD: {snuske:V__intr & V-til__trPrtcl & V-til__trScpr-scPPrefl}_3-items	
-snylte & ('parasitize') &  {Imped & Dependence & Impact & Procedure & Unfold & SymbVal & PhysBod} & VALPOD: {snylte:V__intr & V-på__intrObl-oblN & V-til__trScpr-scPPrefl}_3-items	
+snuske & ('embezzle, dirty up') &  {Imped & Procedure & PhysBod} & VALPOD: {snuske:V__intr & V-til__trPrtcl & V-til__trScpr-scPPrefl}_3-items	
+snylte & ('parasitize') &  {Imped & Dependence & Impact & Procedure & Unfold & PhysBod} & VALPOD: {snylte:V__intr & V-på__intrObl-oblN & V-til__trScpr-scPPrefl}_3-items	
 snyte-1 & ('cheat') &  {Imped & Cogn & Impact & Procedure & Perform & Poss & SymbVal} & VALPOD: {snyte-1:V-på__intrObl-oblN & V__tr & V-for__trObl-oblEqObInf & V-for__trObl-oblN & V-på__trObl-oblN}_5-items	
 snø & ('snow') &  {Perceptible & Impact & Unfold & Criterial & PhysBod} & VALPOD: {snø:V__impers & V__intr & V__intrPresnt & V-inne__intrScpr-scSuNrgCsd-scAdv & V-ned__intrScpr-scSuNrgCsd-scAdv}_5-items	
 snøre & ('lace, knit') &  {Sustain & Dir & Perceptible & Cogn & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {snøre:V__tr & V-igjen__trPrtcl & V-sammen__trPrtcl & V-sammen-i__trImpersPrtclObl-obRefl & V-sammen-i-på__trImpersPrtclObl2-obRefl-obl1PRTOFobl2}_8-items	
@@ -1481,12 +1481,12 @@ sortere & ('sort') &  {Sustain & Cogn & Procedure & Perform & SymbVal} & VALPOD:
 sose & ('delay') &  {Imped & Procedure & Unfold & PhysBod} & VALPOD: {sose:V__intr & V__intr-suDir & V-bort__trPrtcl & V-bort__trPrtcl-obRefl}_4-items	
 sote & ('soot') &  {Sustain & Impact & Domin & PhysBod} & VALPOD: {sote:V__intr & V__tr & V-til__trPrtcl & V-til__trPrtcl-obRefl}_4-items	
 sove & ('sleep') &  {Sustain & Impact & Unfold & Criterial & PhysBod} & VALPOD: {sove:V__intr & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V-ut__intrPrtcl & V__tr-obEventunit & V__trScpr-obRefl-scObNrgCsd-scPred}_6-items	
-sovne & ('fall asleep') &  {Sustain & Impact & Response & SymbVal & PhysBod} & VALPOD: {sovne:V__intr & V-av__intrObl-oblN & V-av__intrPrtcl & V-inn__intrPrtcl}_4-items	
+sovne & ('fall asleep') &  {Sustain & Impact & Response & PhysBod} & VALPOD: {sovne:V__intr & V-av__intrObl-oblN & V-av__intrPrtcl & V-inn__intrPrtcl}_4-items	
 spa & ('spade') &  {Sustain & Impact & Procedure & Response & Perform & Criterial & PhysBod} & VALPOD: {spa:V__intr & V__tr & V-opp__trPrtcl}_3-items	
 spandere & ('spend') &  {Sustain & Cogn & Procedure & Response & Unfold & Perform & Poss} & VALPOD: {spandere:V__intr & V__tr & V-på__trObl-oblN & V-på__trScpr-obDECL-scPPrefl & V-på__trScpr-obEqSuInf-scPPrefl & V-på__trScpr-scPPrefl}_6-items	
 spare & ('save, spare') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Poss & SymbVal} & VALPOD: {spare:V__intr & V-på__intrObl-oblN & -til__intrObl-oblDECL & V-til__intrObl-oblEqSuInf & V-til__intrObl-oblN & V__tr & V-opp__trPrtcl & V-til__trObl-oblDECL & V-til__trObl-oblEqSuInf & V-til__trObl-oblN}_9-items	
 sparke & ('kick') &  {Sustain & Impact & Perform & Criterial & Loc & PhysBod} & VALPOD: {sparke:V__intr & V-på__intrObl-oblN & V-ut__intrPrtcl & V__tr-obDir & V__trObl-oblPRTOFob & V__trScpr-obRefl-scObNrgCsd-scPred & V__trScpr-scObCsd}_7-items	
-spe & ('stir, add') &  {Sustain & Impact & Procedure & Response & Perform & SymbVal & PhysBod} & VALPOD: {spe:V-med__intrObl-oblN & V-på-med__intrPrtclObl-oblEqInf & V-på-med__intrPrtclObl-oblN & V__tr}_4-items	
+spe & ('stir, add') &  {Sustain & Impact & Procedure & Response & Perform & PhysBod} & VALPOD: {spe:V-med__intrObl-oblN & V-på-med__intrPrtclObl-oblEqInf & V-på-med__intrPrtclObl-oblN & V__tr}_4-items	
 speede & ('speed') &  {Sustain & Dir & Impact & Procedure & Unfold & Perform & PhysBod} & VALPOD: {speede:V__intr & V-opp__intrPrtcl & V-opp__trPrtcl}_3-items	
 speide & ('scout') &  {Sustain & Perceiving & Cogn & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {speide:V__intr & V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN}_3-items	
 speile & ('mirror') &  {Sustain & MedByPrcept & Cogn & Dependence & Procedure & Response & Perform & PhysBod} & VALPOD: {speile:V__tr & V__tr-obRefl & V-i__trObl-obRefl-oblN}_3-items	
@@ -1499,7 +1499,7 @@ spikke & ('cut') &  {Sustain & Perceptible & Impact & Procedure & Perform & Crit
 spikre & ('nail') &  {Sustain & Perceptible & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {spikre:V__intr & V-med__intrObl-oblN & V-på__intrObl-oblN & V__tr & V-på__trObl-oblN & V-opp__trPrtcl & V-på__trPrtcl & V-sammen__trPrtcl}_8-items	
 spille & ('play') &  {Sustain & Cogn & Procedure & Creation & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {spille:V__ditr & V__intr & V-om__intrObl-oblAbsinf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V-på__intrObl-oblN & V-til__intrObl-oblN & V-opp__intrPrtcl & V-opp-til__intrPrtclObl-oblAbsinf & V-opp-til__intrPrtclObl-oblN & V__tr & V__tr-obDir & V-inn__trPrtcl & V-om__trPrtcl & V__trScpr-obRefl-scObNrgCsd-scPred}_15-items	
 spinne & ('spin') &  {Sustain & Impact & Procedure & Creation & Unfold & Perform & SymbVal & PhysBod} & VALPOD: {spinne:V__intr & V-på__intrObl-oblN & V-rundt__intrObl-oblN & V__tr}_4-items	
-spire & ('sprout') &  {Init & Impact & Procedure & Creation & Unfold & SymbVal & PhysBod} & VALPOD: {spire:V__intr & V-fram__intrPrtcl & V-frem__intrPrtcl & V-opp__intrPrtcl}_4-items	
+spire & ('sprout') &  {Init & Impact & Procedure & Creation & Unfold & PhysBod} & VALPOD: {spire:V__intr & V-fram__intrPrtcl & V-frem__intrPrtcl & V-opp__intrPrtcl}_4-items	
 spise & ('eat') &  {Sustain & Perceptible & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & VALPOD: {spise:V__intr & V-av__intrObl-oblN-ACTIVITY & V-på__intrObl-oblN-ACTIVITY & V__tr & V-innpå__trObl-obRefl-oblN & V-opp__trPrtcl & V__trScpr-scObNrgCsd-scPred & V__trScpr-obRefl-scObNrgCsd-scPred & V-i__trScpr-scPPrefl}_9-items	
 spleise & ('splice, join') &  {Sustain & Impact & Procedure & Creation & Perform & Domin & SymbVal & PhysBod} & VALPOD: {spleise:V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V__tr & V-sammen__trPrtcl}_4-items	
 spole & ('wind') &  {Sustain & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & VALPOD: {spole:V__tr-obDir & V-inn__trPrtcl & V-tilbake__trPrtcl}_3-items	
@@ -1533,7 +1533,7 @@ stanse-1 & ('stop') &  {Sustain & Perceptible & Impact & Procedure & Perform & P
 stappe & ('cram, stuff') &  {Sustain & Perceptible & Cogn & Impact & Procedure & Perform & Criterial & PhysBod} & VALPOD: {stappe:V-i__intrObl-oblRefl & V-i__trObl-oblN & V-i__trObl-oblRefl & V__tr & V__trScpr-scObCsd & V__trScpr-obRefl-scObNrgCsd-scPred}_6-items	
 starte & ('start') &  {Init & Perform} & VALPOD: {starte:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V-opp__intrPrtcl & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN-activity & V__tr}_7-items	
 stave & ('spell') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & VALPOD: {stave:V__intr & V__tr & V__trPath-obRefl-obDir}_3-items	
-steile & ('rear, prance') &  {Perceptible & Impact & Response & Perform & SymbVal & PhysBod} & VALPOD: {steile:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblINTERR & V-over__intrObl-oblN}_5-items	
+steile & ('rear, prance') &  {Perceptible & Impact & Response & Perform & PhysBod} & VALPOD: {steile:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblINTERR & V-over__intrObl-oblN}_5-items	
 stele & ('steal') &  {Imped & Cogn & Impact & Perform & Poss & SymbVal} & VALPOD: {stele:V__intr & V__tr & V-fra__trObl-oblN & V-til__trObl-oblN & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN}_6-items	
 stelle & ('nurse, groom') &  {Sustain & Impact & Response & Perform & Criterial & PhysBod} & VALPOD: {stelle:V-for__intrObl-oblN & V-med__intrObl-oblN & V__tr & V__tr-obRefl}_4-items	
 stemme-1 & ('vote') &  {Sustain & Cogn & Procedure & Response & VerbalAct & Domin & SymbVal} & VALPOD: {stemme-2 & ('agree') &  {Sustain & Cogn & Procedure & SymbVal} & VALPOD: {stemme-2:V__intr & V-overens__intPrtcl & V-overens-med__intPrtclrObl-oblN}_3-items	
@@ -1607,7 +1607,7 @@ sukke & ('sigh') &  {Emotion & Response & PhysBod} & VALPOD: {sukke:V__impersObl
 sulle & ('tinker') &  {Imped & Unfold & SymbVal & PhysBod} & VALPOD: {sulle:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr}_4-items	
 sulte & ('hunger') &  {Sustain & MedByPrcept & Impact & Emotion & Unfold & Domin & PhysBod} & VALPOD: {sulte:V__intr & V__tr & V__tr-obRefl & V-ut__trPrtcl}_4-items	
 summere & ('summarize') &  {Sustain & Cogn & Procedure & Creation & Perform & SymbVal} & VALPOD: {summere:V__tr & V-opp__trPrtcl & V-opp__trPrtcl-obINTERR}_3-items	
-supe & ('sip') &  {Sustain & Impact & Procedure & Unfold & Perform & Criterial & SymbVal} & VALPOD: {supe:V__intr & V__tr & V-opp__trPrtcl}_3-items	
+supe & ('sip') &  {Sustain & Impact & Procedure & Unfold & Perform & Criterial} & VALPOD: {supe:V__intr & V__tr & V-opp__trPrtcl}_3-items	
 surfe & ('surf') &  {Sustain & Dir & Procedure & Unfold & Perform & PhysBod} & VALPOD: {surfe:V__intr & V__intr-suDir & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN}_4-items	
 suspendere & ('suspend') &  {Further & Cogn & Impact & Procedure & Response & Perform & Domin & SymbVal} & VALPOD: {suspendere:V__tr & V-fra__trObl-oblEqObInf & V-fra__trObl-oblN}_3-items	
 sutre & ('whine') &  {Imped & Emotion & Response & SymbVal & PhysBod} & VALPOD: {sutre:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN}_4-items	
@@ -1625,11 +1625,11 @@ svette & ('sweat') &  {Sustain & Impact & Response & Unfold & Criterial & PhysBo
 svi & ('burn, suffer') &  {Sustain & ImpactSensory & MedByPrcept & Impact & Unfold & Criterial & SymbVal & PhysBod} & VALPOD: {svi:V__impers & V__impersObl-oblN & V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN & V__tr}_7-items	
 svindle & ('swindle') &  {Imped & Cogn & Impact & Procedure & Perform & Domin & SymbVal} & VALPOD: {svindle:V__tr & V-med__trObl-oblN & V-til__trScpr-scPPrefl}_3-items	
 svinge & ('swing') &  {Dir & Unfold & PhysBod} & VALPOD: {svinge:V__intr-suDir & V__tr & V__tr-obDir & V__trPath-obRefl-obDir}_4-items	
-svinne & ('fade') &  {Imped & Perceptible & Impact & Unfold & Criterial & SymbVal & PhysBod} & VALPOD: {svinne:V__intr-RESULT & V-bort__intrPrtcl & V-hen__intrPrtcl}_3-items	
+svinne & ('fade') &  {Imped & Perceptible & Impact & Unfold & Criterial & PhysBod} & VALPOD: {svinne:V__intr-RESULT & V-bort__intrPrtcl & V-hen__intrPrtcl}_3-items	
 svulme & ('swell') &  {Sustain & Perceptible & Impact & Procedure & Criterial & PhysBod} & VALPOD: {svulme:V__intr & V__intrObl-oblLoc & V-opp__intrPrtcl}_3-items	
 sy & ('sew') &  {Sustain & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & VALPOD: {sy:V__intr-suDir & V__tr & V-om__trPrtcl & V-sammen__trPrtcl}_4-items	
 sykle & ('bike, cycle') &  {Dir & Procedure & Unfold & Perform & PhysBod} & VALPOD: {sykle:V__intr & V__intr-suDir & V__tr-obDir & V-road__tr & V-trip__tr & V-vehicle__tr}_6-items	
-sykne & ('sicken') &  {Imped & Impact & Response & Criterial & SymbVal & PhysBod} & VALPOD: {sykne:V__intr & V-bort__intrPrtcl & V-hen__intrPrtcl}_3-items	
+sykne & ('sicken') &  {Imped & Impact & Response & Criterial & PhysBod} & VALPOD: {sykne:V__intr & V-bort__intrPrtcl & V-hen__intrPrtcl}_3-items	
 sylte & ('pickle') &  {Sustain & Cogn & Impact & Procedure & Creation & Perform & Criterial & PhysBod} & VALPOD: {sylte:V__intr & V__tr & V-ned__trPrtcl}_3-items	
 symbolisere & ('symbolize') &  {Cogn & SymbVal} & VALPOD: {symbolisere:V__tr & V__tr-obAbsinf & V__tr-obDECL & V__tr-obINTERR}_4-items	
 sympatistreike & ('sympathy strike') &  {Sustain & Cogn & Procedure & Unfold & Perform & SymbVal} & VALPOD: {sympatistreike:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblAbsinf & V-for__intrObl-oblN & V-med__intrObl-oblN}_5-items	
@@ -1645,7 +1645,7 @@ søke & ('seek') &  {Further & Cogn & Perform & SymbVal} & VALPOD: {søke:V-ut__di
 søkke & ('sink') &  {Dir & Dependence & Impact & PhysBod} & VALPOD: {søkke:V-i__impersObl-oblN & V__intr & V-ned__intrPrtcl & V__tr}_4-items	
 søle & ('spill, spoil') &  {Imped & Impact & Perform & Criterial & PhysBod} & VALPOD: {søle:V__intr & V-med__intrObl-oblN & V-på__intrObl-oblN & V__tr & V-bort__trPrtcl & V-til__trPrtcl & V-til__trPrtcl-obRefl}_7-items	
 sømme-1 & ('be appropriate') &  {Init & Dependence & SymbVal & PureRel} & VALPOD: {sømme-1:V__tr-suAbsinf-obRefl & V__tr-suDECL-obRefl & V__trExpnSu-obRefl-expnAbsinf & V__trExpnSu-obRefl-expnDECL & V-for__trOblExpnSu-obRefl-oblN-expnEqOblInf & V-for__trOblExpnSu-obRefl-oblN-expnDECL}_6-items	
-sømme-2 & ('seam') &  {Sustain & Impact & Procedure & Creation & Perform & SymbVal & PhysBod} & VALPOD: {sømme-2:V__intr & V__tr & V-ned__trPrtcl & V-opp__trPrtcl}_4-items	
+sømme-2 & ('seam') &  {Sustain & Impact & Procedure & Creation & Perform & PhysBod} & VALPOD: {sømme-2:V__intr & V__tr & V-ned__trPrtcl & V-opp__trPrtcl}_4-items	
 sørge-1 & ('provide') &  {Sustain & Cogn & Creation & Response & Perform & Domin & SymbVal} & VALPOD: {sørge-1:V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblINTERR & V-for__intrObl-oblN}_4-items	
 sørge-2 & ('moan, grieve') &  {Sustain & Emotion & Unfold & Perform & Criterial & PhysBod} & VALPOD: {sørge-2:V__intr & V-over__intrObl-oblDECL & V-over__intrObl-oblEqSuInf & V-over__intrObl-oblN}_4-items	
 såre & ('wound') &  {Imped & Impact & SymbVal & PhysBod} & VALPOD: {såre:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V__trObl-oblPRTOFob}_4-items	
@@ -1729,7 +1729,7 @@ trasse & ('defy') &  {Further & Impact & Procedure & Response & Perform & Domin 
 tre-1 & ('step') &  {Dir & Procedure & Response & Perform} & VALPOD: {tre-1:V__intr-suDir & V-av__intrPrtcl & V-til__intrPrtcl}_3-items	
 treffe & ('hit') &  {Further & Impact & Domin & Criterial & PhysBod} & VALPOD: {treffe:V-på__intrObl-oblN & V__tr & V__trObl-oblPRTOFob}_3-items	
 trekke & ('pull') &  {Dir & Impact & Procedure & Perform & PhysBod} & VALPOD: {trekke:V__impers & V__intr-suDir & V-i__intrObl-oblN & V-på__intrObl-oblN & V__tr & V__tr-obDir & V__tr-obRefl & V__trPath-obRefl-obDir & V-fra__trObl-obRefl-oblEqObInf & V-fra__trObl-obRefl-oblN & V-inn__trPrtcl-obDECL & V-opp__trPrtcl}_13-items	
-trelle & ('slave') &  {Imped & Dependence & Procedure & Unfold & Perform & Domin & SymbVal & PhysBod} & VALPOD: {trelle:V__intr & V-for__intrObl-oblN & V-under__intrObl-oblN}_3-items	
+trelle & ('slave') &  {Imped & Dependence & Procedure & Unfold & Perform & Domin & PhysBod} & VALPOD: {trelle:V__intr & V-for__intrObl-oblN & V-under__intrObl-oblN}_3-items	
 trene & ('train') &  {Perform} & VALPOD: {trene:V__intr & V-i__intrObl-oblEqSuInf & V-i__intrObl-oblN & V-på__intrObl-oblEqSuInf & V-på__intrObl-oblN & V__tr & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & V-opp-til__trPrtclObl-obRefl-oblEqObInf & V-til__trobl-obrefl-obleqobinf & V-til__trobl-obrefl-oblN}_11-items	
 trenge-1 & ('push') &  {Sustain & Dir & Impact & Procedure & Perform & PhysBod} & VALPOD: {trenge-1:V__intr-suDir & V__trPresntDir-obRefl & V__tr-obDir & V-bort__trPrtcl & V-fram__trPrtcl-obRefl & V-frem__trPrtcl-obRefl & V-på__trPrtcl-obRefl}_7-items	
 trenge-2 & ('need') &  {Init & Dependence & SymbVal} & VALPOD: {trenge-2:V__tr & V__tr-obDECL & V__tr-obEqSuInf}_3-items	
@@ -1769,7 +1769,7 @@ tyde & ('interpret, decipher') &  {Further & Cogn & Procedure & Perform & SymbVa
 tygge & ('chew') &  {Sustain & Perceptible & Impact & Procedure & Unfold & Perform & Criterial & PhysBod} & VALPOD: {tygge:V__intr & V-på__intrObl-oblN & V__tr}_3-items	
 tykke & ('think') &  {Init & Cogn & Response & Perform & SymbVal} & VALPOD: {tykke:V__tr & V__tr-obDECL & V__tr-obDECL-obV}_3-items	
 tykkes & ('seem, appear') &  {Further & Cogn & SymbVal} & VALPOD: {tykkes:V__intrScpr-scSuNrg-scPred & V__trExpnSu-expnDECL & V__trScpr-scSuNrg-scPred & V__trScpr-scSuNrg-scInf & V-som__trScpr-scSuNrg-scPredprtcl}_5-items	
-tyne & ('squeeze') &  {Imped & Impact & Procedure & Response & Perform & Domin & SymbVal & PhysBod} & VALPOD: {tyne:V__tr & V__tr-obDir & V__tr-obRefl & V-ut__trPrtcl}_4-items	
+tyne & ('squeeze') &  {Imped & Impact & Procedure & Response & Perform & Domin & PhysBod} & VALPOD: {tyne:V__tr & V__tr-obDir & V__tr-obRefl & V-ut__trPrtcl}_4-items	
 tynge & ('burden') &  {Imped & Impact & Unfold & Domin & SymbVal & PhysBod} & VALPOD: {tynge:V__intr & V-på__intrObl-suAbsinf-oblN & V-på__intrObl-suDECL-oblN & V-på__intrOblExpnSu-oblN-expnAbsinf & V-på__intrOblExpnSu-oblN-expnDECL & V-på__intrObl-oblN & V__tr}_7-items	
 tyte & ('ooze') &  {Dir & Perceptible & Impact & Procedure & Response & Domin & Criterial & PhysBod} & VALPOD: {tyte:V__intr & V-ut__intrPrtcl & V-ut-av__intrPrtclObl-oblN}_3-items	
 tyvlytte & ('eavesdrop') &  {Imped & Perceiving & Cogn & Procedure & Response & Perform & SymbVal & PhysBod} & VALPOD: {tyvlytte:V__intr & V-på__intrObl-oblN & V-til__intrObl-oblDECL & V-til__intrObl-oblN}_4-items	
@@ -1849,7 +1849,8 @@ utrope & ('announce') &  {Sustain & Cogn & Procedure & Creation & Response & Ver
 utruste & ('equip') &  {Sustain & Impact & Perform & SymbVal & PhysBod} & VALPOD: {utruste:V__tr & V-for__trobl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN & V-til__trObl-oblEqObInf & V-til__trObl-oblN & V-til__trobl-obrefl-oblEqObInf & V-til__trObl-obRefl-oblN}_7-items	
 utrydde & ('extinguish') &  {Prevent & Cogn & Impact & Procedure & Perform & Domin & PhysBod} & VALPOD: {utrydde:V__tr & V-for__trObl-oblN & V-med__trObl-oblN}_3-items	
 utse & ('choose') &  {Sustain & Cogn & Procedure & Creation & Response & Perform & SymbVal} & VALPOD: {utse:V__ditr-iobRefl & V__tr & V-til__trObl-oblEqObInf & V-til__trObl-oblN}_4-items	
-utsette & ('postpone') &  {Imped & Impact & Procedure & Perform & SymbVal} & VALPOD: {utsette:V__tr & V-for__trObl-oblEqObInf & V-for__trObl-oblN & V-for__trobl-obrefl-obleqobinf & V-for__trObl-obRefl-oblN}_5-items	
+utsette-1 & ('expose') &  {Imped & Impact & Procedure & Perform & SymbVal} & VALPOD: {utsette-1:V-for__trObl-oblEqObInf & V-for__trObl-oblN & V-for__trobl-obrefl-obleqobinf & V-for__trObl-obRefl-oblN}_4-items
+utsette-2 & ('postpone') &  {Imped & Impact & Procedure & Perform & SymbVal} & VALPOD: {utsette-2:V__tr & V__tr-obEqSuInf}_2-items	
 utsi & ('utter, pronounce') &  {Sustain & Cogn & Procedure & Creation & VerbalAct & SymbVal} & VALPOD: {utsi:V__tr & V__tr-obDECL & V__tr-obINTERR}_3-items	
 utsmykke & ('embellish') &  {Sustain & ImpactAesthetic & Procedure & Creation & Response & Perform & SymbVal & PhysBod}  & VALPOD: {utsmykke:V__tr & V__tr-obRefl & V-med__trObl-oblN & V-med__trObl-obRefl-oblN}_4-items	
 utspørre & ('interrogate') &  {Sustain & Cogn & Impact & Procedure & VerbalAct & Domin & SymbVal} & VALPOD: {utspørre:V__tr & V-om__trObl-oblINTERR & V-om__trObl-oblN}_3-items	
@@ -1943,7 +1944,7 @@ ytre & ('utter') &  {Sustain & Cogn & verbal & SymbVal} & VALPOD: {ytre:V__tr & 
 æresforplikte & ('honorably commit') &  {Further & Dependence & Impact & Procedure & Perform & SymbVal} & VALPOD: {æresforplikte:V__intr & V__tr & V__tr-obRefl & V-til__trObl-oblEqObInf & V-til__trObl-obRefl-oblEqObInf & V-til__trObl-oblN}_6-items
 ødelegge & ('destroy') &  {Prevent & Impact & Domin & SymbVal & PhysBod} & VALPOD: {ødelegge:V__tr & V-for__intrObl-oblN & V__tr-obRefl}_3-items
 ødsle & ('squander') &  {Imped & Impact & Unfold & SymbVal & PhysBod} & VALPOD: {V__intr & V-med__intrObl-oblN & V-bort__trPrtcl}_3-items
-øke & ('increase') &  {Further & Impact & Unfold & SymbVal} & VALPOD: {V__intr & V-på__intrPrtcl & V-på-med__intrPrtclObl-oblN & V__tr}_4-items
+øke & ('increase') &  {Further & Impact & Unfold} & VALPOD: {V__intr & V-på__intrPrtcl & V-på-med__intrPrtclObl-oblN & V__tr}_4-items
 økonomisere & ('economize') &  {Sustain & Cogn & Procedure & Response & Perform & Poss} & VALPOD: {økonomisere:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & V__tr}_4-items
 øse-1 & ('empty, scoop') &  {Sustain & Dir & Impact & Procedure & Response & Perform & Criterial & PhysBod} & VALPOD: { øse-1:V__intr-suDir & V__tr & V__tr-obDir}_3-items
 øve & ('practice') &  {Sustain & Cogn & Impact & Procedure & Creation & Response & Unfold & Perform & SymbVal} & VALPOD: {øve:V__intr & V-i__trObl-oblN & V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN & V-til__trobl-obRefl-oblEqObInf & V-til__trObl-obRefl-oblN}_8-items
