@@ -689,11 +689,11 @@ avsverje__tr & vi avsverjer vår tro &
 avsvi__tr & vi avsvir skogen &
 avsynge__tr & vi avsynger nasjonalsangen &
 avta__intr & stormen avtar &
+avtale-med__trObl-oblEqObInf & de avtaler med hverandre å møtes &
 avtale__tr-obINTERR & de avtaler hvem som skal komme &
 avtale__tr & de avtaler møtene &
 avtale__tr-obDECL & de avtaler at vi møtes &
 avtale__tr-obEqSuInf & de avtaler å møtes &
-avtale-med__trObl-oblEqObInf & de avtaler med hverandre å møtes &
 avtalefeste__tr & de avtalefester overtidsgodtgjørelse &
 avtalefeste__tr-obDECL & de avtalefester at man har krav på overtidsgodtgjørelse &
 avtalefeste__tr-obEqSuInf & de avtalefester å ha krav på overtidsgodtgjørelse &
@@ -960,8 +960,8 @@ bekymre__tr-obRefl & hun bekymrer seg &
 bekymre__tr-suDECL & at det ikke regner bekymrer bøndene &
 bekymre__trExpnSu-expnDECL & det bekymrer henne at du kommer &
 belage-på__trObl-obRefl-oblN & hun belager seg på oppgaven &
-belage-på_trObl-obRefl-oblDECL & hun belager seg på at det blir en ny runde &
-belage-på_trObl-obRefl-oblEqObInf & hun belager seg på å stille opp &
+belage-på__trObl-obRefl-oblDECL & hun belager seg på at det blir en ny runde &
+belage-på__trObl-obRefl-oblEqObInf & hun belager seg på å stille opp &
 belaste-med__trObl-oblN & vi belaster dem med oppgaver &
 belaste__tr & vi belaster plattformen &
 belegge-1-med__trObl-oblN & de belegger påstanden med sitater &
@@ -1308,8 +1308,8 @@ bidra__tr & de bidrar pengebeløp &
 bie-på__intrObl-oblN & vi bier på bøndene &
 bie__intr & de fremmøtte bier &
 bifalle__tr & de bifaller demonstrantene &
-bikke-på_intrObl-oblN & hun bikker på vogna &
-bikke-på_intrObl-oblRefl & vogna bikker på seg &
+bikke-på__intrObl-oblN & hun bikker på vogna &
+bikke-på__intrObl-oblRefl & vogna bikker på seg &
 bikke__intr & vogna bikker &
 bikke__tr & de bikker vogna &
 bikte__tr & hun bikter sine synder &
@@ -1502,7 +1502,7 @@ blåse-i__intrObl-oblDECL & vi blåser i at han kommer &
 blåse-i__intrObl-oblEqSuInf & deltagerne blåser i å høre på &
 blåse-i__intrObl-oblINTERR & deltagerne blåser i hvem som kommer &
 blåse-i__intrObl-oblN & deltagerne blåser i konsekvensene &
-blåse-opp_trPrtcl-obRefl & han blåser seg opp &
+blåse-opp__trPrtcl-obRefl & han blåser seg opp &
 blåse-på__intrObl-oblN & hun blåser på såret &
 blåse__impers & det blåser &
 blåse__intrPresntDir & det blåser en kraftig vind &
@@ -2764,10 +2764,6 @@ etle-til__trObl-obRefl-oblEqObInf & hun etler seg til å drive gården &
 etle-til__trObl-obRefl-oblN & hun etler seg til gården &
 etle__ditr & hun etler oppgaven sitt liv &
 etle__tr & de etler livet sitt &
-
-etle-til__trObl-oblEqObInf & de etler ham til å bli noe stort &
-etle-til__trObl-oblN & vi etler dem til store oppgaver &
-etle__tr & de etler dem &
 etse-opp__trPrtcl & syren etser opp røret &
 etse__intr-suDir & syren etser gjennom metall &
 etse__tr & syren etser metall &
@@ -3184,7 +3180,7 @@ flane__intr & flanørene flaner &
 flanere__intr & dikterne flanerer &
 flankere__tr & de flankerer rekken &
 flare__intr & lyset flarer &
-flaske__impersPrtcl & det flasker seg &
+flaske__trImpers-obRefl & det flasker seg &
 flaskemate__tr & de flaskemater beholderen &
 flasse-av__intrPrtcl & håret flasser av &
 flasse__intr & håret flasser &
@@ -3754,7 +3750,6 @@ forkjæle__tr & de forkjæler minstebarna &
 forkjøle__tr-obRefl & hun forkjøler seg &
 forkjøpe__tr-obRefl & hun forkjøper seg &
 forklare-om__trObl-oblINTERR & hun forklarer ham om hvorvidt saken er verd å forfølge &
-forklare-om__trObl-oblN & de forklarer dem om bakgrunnen &
 forklare-om__trObl-oblN & hun forklarer komitéen om saken &
 forklare-om__trObl-obRefl-oblDECL & hun forklarer seg om at saken er verd å forfølge &
 forklare-om__trObl-obRefl-oblEqObInf & hun forklarer seg om å ville forfølge saken &
@@ -3777,6 +3772,7 @@ forkomme__intr & reinkalvene forkommer &
 forkopre__tr & de forkoprer metallet &
 forkorte__tr & pillene forkorter levetiden &
 forkromme__tr & de forkrommer håndtakene &
+forkrøple__tr-suN-obN &
 forkue__tr & myndighetene forkuer beboerne &
 forkulle__intr & trestykkene forkuller &
 forkulle__tr & fabrikken forkuller trestykker &
@@ -4452,6 +4448,7 @@ fryse-ut__trPrtcl & vi fryser ut protestantene &
 fryse__intr & tilskuerne fryser &
 fryse__intrObl-oblPRTOFsu & han fryser på ryggen &
 fryse__tr & de fryser filetene &
+frysetørke__tr-suN-obN &
 frø__tr-obRefl & planten frør seg &
 frøse__intr & hesten frøser &
 fråde__intr & vannet fråder &
@@ -4516,14 +4513,14 @@ fyke__intr-suDir & papirbitene fyker avgårde &
 fylke-mot__trObl-obRefl-oblN & bøndene fylker seg mot kongen &
 fylke__tr & de fylker bøndne &
 fylke__tr-obRefl & bøndene fylker seg &
-fylle-igjen__trPrtcl & vi fyller igjen hullet &
-fylle-med__intrObl-oblN & vi fyller med vann &
-fylle-med__trObl-oblN & vi fyller grøfta med vann &
-fylle-opp__trPrtcl & vi fyller opp bøttene &
-fylle-på__trObl-oblN & vi fyller vann på beholderen &
-fylle-ut__trPrtcl & vi fyller ut skjemaene &
-fylle__tr & de fyller karet &
-fylle__tr-obRefl & karet fyller seg &
+fylle-1-igjen__trPrtcl & vi fyller igjen hullet &
+fylle-1-med__intrObl-oblN & vi fyller med vann &
+fylle-1-med__trObl-oblN & vi fyller grøfta med vann &
+fylle-1-opp__trPrtcl & vi fyller opp bøttene &
+fylle-1-på__trObl-oblN & vi fyller vann på beholderen &
+fylle-1-ut__trPrtcl & vi fyller ut skjemaene &
+fylle-1__tr & de fyller karet &
+fylle-1__tr-obRefl & karet fyller seg &
 fylle-2__tr & han fyller 80 år &
 fyllekjøre__intr & studentene fyllekjører &
 fyre-av__trPrtcl & vi fyrer av kanonene &
@@ -5425,7 +5422,7 @@ harve__intr & bonden harver &
 harve__tr & de harver åkeren &
 haspe-opp__trPrtcl & hun hasper opp vinduslemmene &
 haspe__tr & hun hasper vinduet &
-hasple__tr & hun haspler dgarnet&
+hasple__tr & hun haspler garnet &
 haste-med__intrObl-oblN & saksbehandlerne haster med denne saken &
 haste-med__intrOblExlnk-oblExlnkAbsinf & det haster med å bli ferdig &
 haste-med__intrOblExlnk-oblExlnkDECL & det haster med at han kommer &
@@ -6495,6 +6492,7 @@ installere__tr & de installerer maskinene &
 installere__tr-obRefl & hun installerer seg &
 installere__trObl-obRefl-oblLoc & hun installerer seg her &
 installere__trScpr-scObLoc & de installerer mikrofonene i taket &
+instansiere__tr-suN-obN & hendelsen instansierer tendensen &
 instituere__tr & de instituerer foretakene &
 institusjonalisere__tr & de institusjonaliserer feiringen &
 instruere-i__intrObl-oblN & de instruerer i kampsport &
@@ -8568,7 +8566,7 @@ lynsje__tr & de lynsjer ledelsen &
 lyse-1-opp__intrPrtcl & lampene lyser opp &
 lyse-1-opp__trPrtcl & lampene lyser opp lokalet &
 lyse-1__intr & lampene lyser &
-lyse-2-bann__trScpr-scObNrgCsd-scPred & de lyser ham i bann &
+lyse-2-i-bann__trScpr-scObNrgCsd-scPred & de lyser ham i bann &
 lyse-3__tr & de lyser fisk &
 lyseres__intr & blandingen lyseres &
 lyske__tr & hun lysker hunden &
@@ -11007,14 +11005,14 @@ rangere__trObl-oblLoc & de rangerer dem høyt på listen &
 rangle__intr & gjestene rangler &
 ranke__tr & de ranker deltagerne &
 ranke__tr-obRefl & hun ranker seg &
-ransake__tr & de ransaker huset &
+ransake__tr & de ransaker passasjerene &
 rape__intr & gutten raper &
 rappe-1-fra__intrObl-oblN & vi rapper fra naboen &
 rappe-1-fra__trObl-oblN & vi rapper penger fra naboen &
 rappe-1-til__trScpr-scPPrefl & hun rapper til seg pengene &
 rappe-1__tr & de rapper penger &
 rappe-2__tr-obRefl & hun rapper seg &
-rappe-3__intr & gjengene rapper &
+rappe-3__intr & artistene rapper &
 rappelle__tr & de rappeller fjellsiden &
 rappellere__tr & de rappellerer fjellsiden &
 rapportere-til__intrObl-oblN & vi rapporterer til myndighetene &
@@ -12152,13 +12150,12 @@ si-opp__trPrtcl & vi sier opp de ansatte &
 si__ditr & hun sier deg sannheten &
 si__ditr-obDECL & hun sier deg at sannheten skal frem &
 si__ditr-obINTERR & hun sier oss hva som skal skje &
-si__ditr-suDECL & at de ble borte sier oss utfallet &
-si__tr & rapporten sier alt &
-si__tr-obDECL & rapporten sier at huset bygges &
-si__tr-obDECL-obV & hun sier han kommer &
 si__ditr-suDECL & at de er så ekstra vennlige viser oss planen deres &
 si__ditr-suDECL-obDECL & at de er så ekstra vennlige sier oss at de har baktanker &
 si__ditr-suINTERR-obINTERR &  hvem som kommer vil si oss hva som kommer til å skje &
+si__tr & rapporten sier alt &
+si__tr-obDECL & rapporten sier at huset bygges &
+si__tr-obDECL-obV & hun sier han kommer &
 si__tr-obINTERR & hun sier hva som skal skje &
 si__trScpr-obRefl-scObArgCsd & hun sier seg enig &
 si__trScpr-scObNrg-scInf & jeg sier henne å være kompetent &
@@ -13000,6 +12997,7 @@ sleppe-på__intrObl-oblN & vi slepper på linen &
 sleppe-unna__intrPrtcl & tyven slepper unna
 sleppe__intr-suDir & geitene slepper inn &
 sleppe__tr & han slepper taket &
+sleppe__tr-suN-obN-obDir & han slepper kattene ut i haven &
 sleppe__tr-obEqSuInf & hun slepper å komme &
 sleske__intr & intrigantene slesker &
 sletne__intr & rynkene sletner &
@@ -13764,8 +13762,8 @@ spørre__tr & quizlederen spør de første spørsmål &
 spørre__trScpr-obRefl-scObNrg-scPred & dommeren spør seg ferdig &
 spørres__intr & nyheten spørres &
 spørs__intr-suINTERR & hva som vil skje nå spørs &
-spørs_impers & det spørs &
-spørs_intrExpn-expnINTERR & det spørs hvem som kommer &
+spørs__impers & det spørs &
+spørs__intrExpn-expnINTERR & det spørs hvem som kommer &
 spå-i__intrObl-oblN & hun spår i kaffegrut &
 spå-om__intrObl-oblINTERR & vi spår om hva som vil skje &
 spå-om__intrObl-oblN & hun spår om fremtiden &

@@ -957,8 +957,8 @@ bekymre__tr-obRefl &
 bekymre__tr-suDECL &
 bekymre__trExpnSu-expnDECL &
 belage-på__trObl-obRefl-oblN &
-belage-på_trObl-obRefl-oblDECL &
-belage-på_trObl-obRefl-oblEqObInf &
+belage-på__trObl-obRefl-oblDECL &
+belage-på__trObl-obRefl-oblEqObInf &
 belaste-med__trObl-oblN &
 belaste__tr &
 belegge-1-med__trObl-oblN &
@@ -1499,7 +1499,7 @@ blåse-i__intrObl-oblDECL &
 blåse-i__intrObl-oblEqSuInf &
 blåse-i__intrObl-oblINTERR &
 blåse-i__intrObl-oblN &
-blåse-opp_trPrtcl-obRefl & 
+blåse-opp__trPrtcl-obRefl & 
 blåse-på__intrObl-oblN &
 blåse__impers &
 blåse__intrPresntDir & 
@@ -3177,7 +3177,7 @@ flane__intr &
 flanere__intr &
 flankere__tr &
 flare__intr &
-flaske__impersPrtcl &
+flaske__trImpers-obRefl &
 flaskemate__tr &
 flasse-av__intrPrtcl &
 flasse__intr &
@@ -13760,8 +13760,8 @@ spørre__tr &
 spørre__trScpr-obRefl-scObNrg-scPred &
 spørres__intr &
 spørs__intr-suINTERR &
-spørs_impers &
-spørs_intrExpn-expnINTERR &
+spørs__impers &
+spørs__intrExpn-expnINTERR &
 spå-i__intrObl-oblN &
 spå-om__intrObl-oblINTERR &
 spå-om__intrObl-oblN &
