@@ -2656,6 +2656,7 @@ engste-for__trObl-suN-obRefl-oblEqObInf &
 engste-for__trObl-suN-obRefl-oblN &
 engste__tr-suN-obN &
 engste__tr-suN-obRefl &
+engste__trExpnSu-expnEqObInf & ADD expnasion
 ense__tr-suN-obN &
 ense__tr-suN-obDECL &
 ensilere__tr-suN-obN &
@@ -2677,6 +2678,7 @@ ergre-over__trObl-suN-obRefl-oblN &
 ergre-på__trScpr-suN-obN-scPPrefl &
 ergre__tr-suN-obN &
 ergre__tr-suN-obRefl &
+ergre__trExpnSu-expnEqObInf &  ADD expansion
 ergre__trScpr-suN-obRefl-scObNrgCsd-scPred &
 ergre__trScpr-suN-obN-scObCsd &
 erholde__tr-suN-obN &
@@ -6178,7 +6180,7 @@ innbetale__tr-suN-obN &
 innbille__ditr-suN-iobN-obN &
 innbille__ditr-suN-iobRefl-obN &
 innbille__ditr-suN-iobRefl-obDECL &
-innbille__ditr-suN-iobRefl-obEqObInf & 
+innbille__ditr-suN-iobRefl-obEqIobInf & 
 innbille__ditr-suN-iobRefl-obINTERR &
 innbille__ditr-suN-iobN-obDECL &
 innbinde__tr-suN-obN &
@@ -6519,6 +6521,7 @@ interessere__tr-suN-obN &
 interessere__tr-suN-obRefl &
 interessere__tr-suAbsinf-obN &
 interessere__tr-suINTERR-obN &
+interessere__trExpnSu-expnEqObInf &  ADD expansion
 interessere__trExpnSu-suExpl-obN-expnINTERRwh &
 interessere__trExpnSu-suExpl-obN-expnINTERRyn &
 interferere-i__intrObl-suN-oblN &
@@ -6953,12 +6956,12 @@ kjekse__tr-suN-obN &
 kjemme__tr-suN-obN &
 kjemme__tr-suN-obRefl &
 kjempe-for__intrObl-suN-oblDECL &
-kjempe-for__intrObl-suN-oblEgSuInf &
+kjempe-for__intrObl-suN-oblEqSuInf &
 kjempe-for__intrObl-suN-oblN &
 kjempe-mot__intrObl-suN-oblDECL &
-kjempe-mot__intrObl-suN-oblEgSuInf &
+kjempe-mot__intrObl-suN-oblEqSuInf &
 kjempe-mot__intrObl-suN-oblN &
-kjempe-om__intrObl-suN-oblEgSuInf &
+kjempe-om__intrObl-suN-oblEqSuInf &
 kjempe-om__intrObl-suN-oblINTERR &
 kjempe-om__intrObl-suN-oblN &
 kjempe__intr-suN &
@@ -10409,6 +10412,7 @@ pjuske-til__trPrtcl-suN-obRefl &
 pjutre__intr-suN &
 plaffe-ned__trPrtcl-suN-obN &
 plage-med__trObl-suN-obN-oblN &
+plage-med__trObl-oblEqObInf & 
 plage__tr-suN-obN &
 plage__tr-suDECL-obN &
 plage__trExpnSu-suExpl-obN-expnDECL &
@@ -16581,9 +16585,10 @@ varme__impersObl-suExpl-oblPRTOFexper &
 varme__intr-suN &
 varme__tr-suN-obN &
 varme__tr-suN-obRefl &
+varme__trExpnSu-expnEqObInf &  ADD expansion
 varme__trImpersObl-suExpl-obN-oblPRTOFob & 
-varme__trOblObl-suDECL-obN-oblPRTOFob &
-varme__trOblOblExpn-suExpl-obN-oblPRTOFob-expnDECL &
+varme__trObl-suDECL-obN-oblPRTOFob &
+varme__trOblExpn-suExpl-obN-oblPRTOFob-expnDECL &
 varmhamre__tr-suN-obN &
 varmherde__tr-suN-obN &
 varmheve__intr-suN &

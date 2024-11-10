@@ -626,7 +626,7 @@ VALPOD & bety:V__tr & V__tr-obDECL & V__tr-suDECL & V__tr-suDECL-obDECL & V__tr-
 VALPOD & beundre:V__tr & V-for__trObl-oblN & V-for__trObl-oblDECL & V-for__trObl-oblEqObInf & MULTIEND_4-items
 VALPOD & bevare:V__tr & V-for__trObl-oblN & MULTIEND_2-items
 VALPOD & beve:V__intr & UNIEND
-VALPOD & bevege:V__tr & V__tr-obRefl & V-til__trObl-oblEqObInf & MULTIEND_3-items
+VALPOD & bevege:V__tr & V__tr-obRefl & V__trExpnSu-expnEqObInf & V-til__trObl-oblEqObInf & MULTIEND_4-items
 VALPOD & beverte:V__tr & V-med__trObl-oblN & MULTIEND_2-items
 VALPOD & bevilge:V__ditr & V__ditr-iobRefl & V__tr & V-til__trObl-oblN & V-til__trObl-oblAbsinf & MULTIEND_5-items
 VALPOD & bevirke:V__tr & V__tr-obDECL & MULTIEND_2-items
@@ -1297,7 +1297,7 @@ VALPOD & endre:V__tr & V__tr-obRefl & V-på__intrObl-oblN & MULTIEND_3-items
 VALPOD & enervere:V__tr & UNIEND
 VALPOD & enes:V__intr & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblN & MULTIEND_3-items
 VALPOD & engasjere:V__intr & V__tr & V__tr-obRefl & V-i__trObl-obRefl-oblN & V-i__trObl-obRefl-oblAbsinf & MULTIEND_5-items
-VALPOD & engste:V__tr & V__tr-obRefl & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN & MULTIEND_5-items
+VALPOD & engste:V__tr & V__tr-obRefl & V__trExpnSu-expnEqObInf & V-for__trObl-obRefl-oblDECL & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblN & MULTIEND_6-items
 VALPOD & ense:V__tr & V__tr-obDECL & MULTIEND_2-items
 VALPOD & ensilere:V__tr & UNIEND
 VALPOD & ensrette:V__tr & V__tr-obINTERR & MULTIEND_2-items
@@ -1306,7 +1306,7 @@ VALPOD & entydiggjøre:V__tr V__tr-obDECL & V__tr-obINTERR & MULTIEND_2-items
 VALPOD & envegsregulere:V__tr & UNIEND
 VALPOD & enveisregulere:V__tr & UNIEND
 VALPOD & erfare:V__tr & V__tr-obDECL & V__tr-obEqSuInf & MULTIEND_3-items
-VALPOD & ergre:V__tr & V__tr-obRefl & V__trScpr-scObCsd & V__trScpr-obRefl-scObNrgCsd-scPred & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN & V-på__trScpr-scPPrefl & MULTIEND_9-items
+VALPOD & ergre:V__tr & V__tr-obRefl & V__trExpnSu-expnEqObInf & V__trScpr-scObCsd & V__trScpr-obRefl-scObNrgCsd-scPred & V-over__trObl-obRefl-oblDECL & V-over__trObl-obRefl-oblEqObInf & V-over__trObl-obRefl-oblINTERR & V-over__trObl-obRefl-oblN & V-på__trScpr-scPPrefl & MULTIEND_10-items
 VALPOD & erholde:V__tr & UNIEND
 VALPOD & erigere:V__intr & V__tr & MULTIEND_2-items
 VALPOD & erindre:V__tr-obINTERR & erindre__tr & erindre__tr-obDECL & V__tr-obEqSuInf & MULTIEND_2-items
@@ -2865,7 +2865,7 @@ VALPOD & innavle:V-blant__intrObl-oblN & V-mellom__intrObl-oblN & V__tr & MULTIE
 VALPOD & innbefatte:V__tr & UNIEND
 VALPOD & innberette:V__ditr & V__tr & V__tr-obDECL & V__tr-obINTERR & V-til__trObl-oblN & MULTIEND_5-items
 VALPOD & innbetale:V__ditr & V__tr & MULTIEND_2-items
-VALPOD & innbille:V__ditr & V__ditr-iobRefl & V__ditr-iobRefl-obDECL & V__ditr-iobRefl-obEqObInf & V__ditr-iobRefl-obINTERR & V__ditr-obDECL & MULTIEND_6-items
+VALPOD & innbille:V__ditr & V__ditr-iobRefl & V__ditr-iobRefl-obDECL & V__ditr-iobRefl-obEqIobInf & V__ditr-iobRefl-obINTERR & V__ditr-obDECL & MULTIEND_6-items
 VALPOD & innbinde:V__tr & UNIEND
 VALPOD & innblande:V__tr & V-i__trObl-oblINTERR & V-i__trObl-oblN & V-i__trObl-obRefl-oblINTERR & V-i__trObl-obRefl-oblN & V-med__trObl-oblN & MULTIEND_6-items
 VALPOD & innbringe:V__ditr & V__tr & MULTIEND_2-items
@@ -3019,7 +3019,7 @@ VALPOD & intellektualisere:V__tr & UNIEND
 VALPOD & intendere:V__tr & V__tr-obEqSuInf & MULTIEND_2-items
 VALPOD & intensivere:V__tr & UNIEND
 VALPOD & interagere:V__intr & V-med__intrObl-oblN & V-mellom__intrObl-oblN & MULTIEND_3-items
-VALPOD & interessere:V__tr & V__trExpnSu-expnINTERRwh & V__trExpnSu-expnINTERRyn & V__tr-obRefl & V__tr-suAbsinf & V__tr-suINTERR & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN & MULTIEND_9-items
+VALPOD & interessere:V__tr & V__trExpnSu-expnEqObInf & V__trExpnSu-expnINTERRwh & V__trExpnSu-expnINTERRyn & V__tr-obRefl & V__tr-suAbsinf & V__tr-suINTERR & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN & MULTIEND_10-items
 VALPOD & interferere:V__intr & V-i__intrObl-oblN & V-med__intrObl-oblN & MULTIEND_3-items
 VALPOD & interfoliere:V__tr & UNIEND
 VALPOD & internalisere:V__tr & V__trObl-oblLoc & MULTIEND_2-items
@@ -3227,7 +3227,7 @@ VALPOD & kjekke:V__tr-obRefl & UNIEND
 VALPOD & kjekle:V__intr & V-om__intrObl-oblN & MULTIEND_2-items
 VALPOD & kjekse:V__tr & UNIEND
 VALPOD & kjemme:V__tr & V__tr-obRefl & MULTIEND_2-items
-VALPOD & kjempe:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEgSuInf & V-for__intrObl-oblN &  V-mot__intrObl-oblDECL & V-mot__intrObl-oblEgSuInf & V-mot__intrObl-oblN &  V-om__intrObl-oblEgSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V__tr-obRefl-obDir & MULTIEND_10-items
+VALPOD & kjempe:V__intr & V-for__intrObl-oblDECL & V-for__intrObl-oblEqSuInf & V-for__intrObl-oblN &  V-mot__intrObl-oblDECL & V-mot__intrObl-oblEqSuInf & V-mot__intrObl-oblN &  V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & V__tr-obRefl-obDir & MULTIEND_10-items
 VALPOD & kjenne:V-på__intrObl-oblN & V-til__intrObl-oblDECL & V-til__intrObl-oblINTERR & V-til__intrObl-oblN & V__tr & V__tr-obDECL & V__tr-obINTERR & V__trScpr-obRefl-scObNrg-scPred & V__trScpr-obRefl-scObNrg-scBareinf & V__trScpr-scObNrg-scBareinf & V-igjen__trPrtcl & V-igjen__trPrtcl-obINTERR & V-igjen__trPrtcl-obRefl & V-som__trScpr-obRefl-scPredprtcl & V-som__trScpr-scPredprtcl & MULTIEND_15-items
 VALPOD & kjennetegne:V__tr & V__tr-suEqObInf & V__tr-suDECL & V__trExpnSu-expnEqObInf & V__trExpnSu-expnDECL & MULTIEND_5-items
 VALPOD & kjeppjage:V__tr & V__tr-obDir & MULTIEND_2-items
@@ -3502,9 +3502,9 @@ VALPOD & kortklippe:V__tr & UNIEND
 VALPOD & kortliste:V__tr & UNIEND
 VALPOD & kortne:V__intr & UNIEND
 VALPOD & kortslutte:V__tr & UNIEND
-VALPOD & kose:V__intr & V-med__intrObl-oblN & V__tr-obRefl & V-med__trObl-obRefl-oblEgObInf & V-med__trObl-obRefl-oblN & MULTIEND_5-items
+VALPOD & kose:V__intr & V-med__intrObl-oblN & V__tr-obRefl & V-med__trObl-obRefl-oblEqObInf & V-med__trObl-obRefl-oblN & MULTIEND_5-items
 VALPOD & koseprate:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2EqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-med-om__intrObl2-obl1N-obl2DECL & V-om__intrObl-oblDECL & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & MULTIEND_10-items
-VALPOD & koste-1:V__ditrExpnSu-obMeas-expnEqIobInf & V__intr & V__intr-suAbsinf & V-på__trObl-obEqInf-oblRefl & V-på__trObl-oblRefl & V__tr & V__trExpnSu-obMeas-expnInfabs & V__tr-suAbsinf & MULTIEND_8-items
+VALPOD & koste-1:V__ditrExpnSu-obMeas-expnEqIobInf & V__intr & V__intr-suAbsinf & V-på__trObl-obEqOblInf-oblRefl & V-på__trObl-oblRefl & V__tr & V__trExpnSu-obMeas-expnAbsinf & V__tr-suAbsinf & MULTIEND_8-items
 VALPOD & koste-2:V-av__intrObl-oblN & V__tr-obDir & MULTIEND_2-items
 VALPOD & kostnadsberegne:V__tr & V-til__trObl-oblN & MULTIEND_2-items
 VALPOD & kostnadsberekne:V__tr & V-til__trObl-oblN & MULTIEND_2-items
@@ -4816,7 +4816,7 @@ VALPOD & pjoltre:V__intr & UNIEND
 VALPOD & pjuske:V-til__trPrtcl-obRefl & UNIEND
 VALPOD & pjutre:V__intr & UNIEND
 VALPOD & plaffe:V-ned__trPrtcl & UNIEND
-VALPOD & plage:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V__trScpr-scObArgCsd & V-med__trObl-oblEqSuInf & V-med__trObl-oblEqobInf & MULTIEND_6-items
+VALPOD & plage:V__tr & V__tr-suDECL & V__trExpnSu-expnDECL & V__trScpr-scObArgCsd & V-med__trObl-oblEqSuInf & V-med__trObl-oblEqObInf & MULTIEND_6-items
 VALPOD & plagiere:V__tr & UNIEND
 VALPOD & plane:V__intr & UNIEND
 VALPOD & planere:V__tr & UNIEND
@@ -5270,8 +5270,8 @@ VALPOD & retirere:V__intr-suDir & UNIEND
 VALPOD & rette:V-på__intrObl-oblN & V__tr & V__tr-obDir & V__trPath-obDir-ORIENTING & V-etter__trObl-obRefl-oblN & V-opp__trPrtcl & V-til__trObl-oblN & V-ut__trPrtcl & MULTIEND_8-items
 VALPOD & rettferdiggjøre:V__tr-obINTERR & V__tr & V__tr-obEqSuInf & V__tr-obDECL & V__tr-obRefl & MULTIEND_5-items
 VALPOD & rettkjenne:V__tr & UNIEND
-VALPOD & rettlede:V__tr & V-i__trObl-OblEqObInf & V-i__trObl-OblINTERR & V-i__trObl-OblN & MULTIEND_4-items
-VALPOD & rettleie:V__tr & V-i__trObl-OblEqObInf & V-i__trObl-OblINTERR & V-i__trObl-OblN & MULTIEND_4-items
+VALPOD & rettlede:V__tr & V-i__trObl-oblEqObInf & V-i__trObl-oblINTERR & V-i__trObl-OblN & MULTIEND_4-items
+VALPOD & rettleie:V__tr & V-i__trObl-oblEqObInf & V-i__trObl-oblINTERR & V-i__trObl-oblN & MULTIEND_4-items
 VALPOD & returnere:V__intr-suDir & V__tr-obDir & MULTIEND_2-items
 VALPOD & retusjere:V__tr & V-bort__trPrtcl & MULTIEND_2-items
 VALPOD & revaluere:V__tr & V__tr-obINTERR & MULTIEND_2-items
@@ -5393,7 +5393,7 @@ VALPOD & rødme:V__intr & UNIEND
 VALPOD & røke:V__intr & V__tr & V-inn__trPrtcl & V-ut__trPrtcl & MULTIEND_4-items
 VALPOD & rømme:V__intr & V__tr & V__tr-obRefl & V-fra__intrObl-oblEqSuInf & V-fra__intrObl-oblN & MULTIEND_5-items
 VALPOD & røpe:V__tr-obINTERR & V__tr & V__tr-obDECL & V__tr-obRefl & V-for__trObl-obRefl-oblN & MULTIEND_5-items
-VALPOD & røre-1:V-på__intrObl-oblN & V-på__intrObl-oblRefl & V-ved__intrObl-oblN & V__tr & V__tr-obRefl &V__trExpnSu-expnEqObInf &  MULTIEND_6-items
+VALPOD & røre-1:V-på__intrObl-oblN & V-på__intrObl-oblRefl & V-ved__intrObl-oblN & V__tr & V__tr-obRefl & V__trExpnSu-expnEqObInf &  MULTIEND_6-items
 VALPOD & røre-2:V-opp__trPrtcl & V-rundt__trPrtcl & V-ut__trPrtcl & MULTIEND_3-items
 VALPOD & røske:V-i__intrObl-oblN & V-opp__intrPrtcl & V-opp-i__intrPrtclObl-oblN & V-opp__trPrtcl & V-ut__trPrtcl & MULTIEND_5-items
 VALPOD & røve:V__tr & V-fra__trObl-oblN & MULTIEND_2-items
@@ -5408,7 +5408,7 @@ VALPOD & rådgi:V__tr & UNIEND
 VALPOD & rådlegge:V__intr & V-for__intrObl-oblN & MULTIEND_2-items
 VALPOD & rådslå:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2Absinf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__trObl-oblAbsinf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & MULTIEND_8-items
 VALPOD & rådspørre:V__tr & V-om__trObl-oblAbsinf & V-om__trObl-oblINTERR & V-om__trObl-oblN & MULTIEND_4-items
-VALPOD & råke:V-over__intrObl-oblN & V-ut-for__intrPrtclObl-oblEqInf & V-ut-for__intrPrtclObl-oblDECL & V-ut-for__intrPrtclObl-oblN & MULTIEND_4-items
+VALPOD & råke:V-over__intrObl-oblN & V-ut-for__intrPrtclObl-oblEqSuInf & V-ut-for__intrPrtclObl-oblDECL & V-ut-for__intrPrtclObl-oblN & MULTIEND_4-items
 VALPOD & råkjøre:V__intr & V__intr-suDir & V__tr & MULTIEND_3-items
 VALPOD & råtne:V__intr & V-bort__intrPrtcl & V-opp__intrPrtcl & MULTIEND_3-items
 VALPOD & sabbe:V__intr & V__intr-suDir & MULTIEND_2-items
@@ -6034,7 +6034,7 @@ VALPOD & sparkle:V__tr & UNIEND
 VALPOD & sparre:V__intr & UNIEND
 VALPOD & spase:V__intr & UNIEND
 VALPOD & spasere:V__intr-suDir & V__tr & MULTIEND_2-items
-VALPOD & spe:V-med__intrObl-oblN & V-på-med__intrPrtclObl-oblEqInf & V-på-med__intrPrtclObl-oblN & V__tr & MULTIEND_4-items
+VALPOD & spe:V-med__intrObl-oblN & V-på-med__intrPrtclObl-oblEqSuInf & V-på-med__intrPrtclObl-oblN & V__tr & MULTIEND_4-items
 VALPOD & speede:V__intr & V-opp__intrPrtcl & V-opp__trPrtcl & MULTIEND_3-items
 VALPOD & speide:V__intr & V-etter__intrObl-oblINTERR & V-etter__intrObl-oblN & MULTIEND_3-items
 VALPOD & speile:V__tr & V__tr-obRefl & V-i__trObl-obRefl-oblN & MULTIEND_3-items
@@ -6293,7 +6293,7 @@ VALPOD & støve:V__impers & V__intr & V-ned__intrPrtcl & V-av__trPrtcl & MULTIEND
 VALPOD & støvsuge:V__intr & V__intrObl-oblLoc & V__tr & V__trScpr-scObCsd & MULTIEND_4-items
 VALPOD & støype:V__tr & V-inn__trPrtcl & MULTIEND_2-items
 VALPOD & støyte:V__tr-obDir & V-bort__trPrtcl & V-mot__intrObl-oblN & MULTIEND_3-items
-VALPOD & stå:V__intr & V__intrLghtScpr-scAdj & V__intrObl-oblLoc & V__intrPresnt & V__intrPresntLoc & V-for__intrObl-oblAbsinf & V-for__intrObl-oblDECL & V-for__intrObl-oblINTERR & V-for__intrObl-oblN & V-av__intrPrtcl &V-opp__intrPrtcl & V-opp-for__intrPrtclObl-oblDECL & V-opp-for__intrPrtclObl-oblEqInf & V-opp-for__intrPrtclObl-oblN & V-over__intrObl-oblN & V-på__intrObl-oblN & V-ved__intrObl-oblDECL & V-ved__intrObl-oblEqSuInf & V-ved__intrObl-oblN & V__tr-obRefl & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_20-items
+VALPOD & stå:V__intr & V__intrLghtScpr-scAdj & V__intrObl-oblLoc & V__intrPresnt & V__intrPresntLoc & V-for__intrObl-oblAbsinf & V-for__intrObl-oblDECL & V-for__intrObl-oblINTERR & V-for__intrObl-oblN & V-av__intrPrtcl &V-opp__intrPrtcl & V-opp-for__intrPrtclObl-oblDECL & V-opp-for__intrPrtclObl-oblEqSuInf & V-opp-for__intrPrtclObl-oblN & V-over__intrObl-oblN & V-på__intrObl-oblN & V-ved__intrObl-oblDECL & V-ved__intrObl-oblEqSuInf & V-ved__intrObl-oblN & V__tr-obRefl & V__trScpr-obRefl-scObNrgCsd-scPred & MULTIEND_20-items
 VALPOD & ståke:V__intr & V-med__intrObl-oblEqSuInf & V-med__intrObl-oblN & MULTIEND_3-items
 VALPOD & stålsette:V__tr & V__tr-obRefl & V-for__trObl-obRefl-oblEqObInf & V-for__trObl-obRefl-oblINTERR & V-for__trObl-obRefl-oblN & MULTIEND_5-items
 VALPOD & subbe:V__intr & V__intr-suDir & MULTIEND_2-items
@@ -6840,7 +6840,7 @@ VALPOD & tumle:V__intr-suDir & UNIEND
 VALPOD & tupere:V__tr & V__tr-obRefl & MULTIEND_2-items
 VALPOD & tuppe:V__tr-obDir & UNIEND
 VALPOD & turbolade:V__tr & UNIEND
-VALPOD & ture:V-fram__intrPrtcl & V-frem__intrPrtcl & V-fram-med__intrPrtclObl-oblN & V-frem-med__intrPrtclObl-oblN & V-fram-med__intrPrtclObl-oblEqInf & V-frem-med__intrPrtclObl-oblEqInf & V__tr & MULTIEND_7-items
+VALPOD & ture:V-fram__intrPrtcl & V-frem__intrPrtcl & V-fram-med__intrPrtclObl-oblN & V-frem-med__intrPrtclObl-oblN & V-fram-med__intrPrtclObl-oblEqSuInf & V-frem-med__intrPrtclObl-oblEqSuInf & V__tr & MULTIEND_7-items
 VALPOD & turne:V__intr & UNIEND
 VALPOD & turnere-1:V__intr & V-med__intrObl-oblN & MULTIEND_2-items
 VALPOD & turnere-2:V__tr & UNIEND
@@ -6952,7 +6952,7 @@ VALPOD & undergi:V__ditr & V__ditr-iobRefl & MULTIEND_2-items
 VALPOD & undergjære:V__intr & V__tr & MULTIEND_2-items
 VALPOD & undergrave:V__tr & UNIEND
 VALPOD & undergå:V__tr & UNIEND
-VALPOD & underhandle:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2EqInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & MULTIEND_8-items
+VALPOD & underhandle:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2EqSuInf & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblEqSuInf & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & MULTIEND_8-items
 VALPOD & underholde:V__tr & V-med__trObl-oblEqSuInf & V-med__trObl-oblN & V-med__trObl-obRefl-oblEqObInf & V-med__trObl-obRefl-oblN & MULTIEND_5-items
 VALPOD & underinformere:V__tr & UNIEND
 VALPOD & underinndele:V__tr & V-i__trObl-oblN & MULTIEND_2-items
@@ -7248,7 +7248,7 @@ VALPOD & vare-2:V-for__trObl-obRefl-oblN & V-mot__trObl-obRefl-oblN & MULTIEND_2
 VALPOD & vareta:V__tr & UNIEND
 VALPOD & varetektsfengsle:V__tr & UNIEND
 VALPOD & variere:V__intr & V-med__intrObl-oblN & V-mellom__intrObl-oblN & V__tr & MULTIEND_4-items
-VALPOD & varme:V__impersObl-oblPRTOFexper & V__intr & V-opp__intrPrtcl & V__tr & V__tr-obRefl & V__trOblObl-suDECL-oblPRTOFob & V__trOblOblExpn-oblPRTOFob-expnDECL & V-opp__trPrtcl & MULTIEND_8-items
+VALPOD & varme:V__impersObl-oblPRTOFexper & V__intr & V-opp__intrPrtcl & V__tr & V__tr-obRefl & V__trExpnSu-expnEqObInf & V__trObl-suDECL-oblPRTOFob & V__trOblExpn-oblPRTOFob-expnDECL & V-opp__trPrtcl & MULTIEND_9-items
 VALPOD & varmhamre:V__tr & UNIEND
 VALPOD & varmherde:V__tr & UNIEND
 VALPOD & varmheve:V__intr & UNIEND
@@ -7359,7 +7359,7 @@ VALPOD & vinge:V__intr & UNIEND
 VALPOD & vingle:V__intr & V__intr-suDir & MULTIEND_2-items
 VALPOD & vinke:V__intr & V-av__trPrtcl & V-til__intrObl-oblN & MULTIEND_3-items
 VALPOD & vinkle:V__tr & UNIEND
-VALPOD & vinne:V__intr & V-over__intrObl-oblN & V-fram__intrPrtcl & V-fram-med__intrPrtclObl-oblEqInf & V-fram-med__intrPrtclObl-oblN & V-frem__intrPrtcl & V-frem-med__intrPrtclObl-oblEqInf & V-frem-med__intrPrtclObl-oblN & V__tr & V__tr-obRefl & MULTIEND_10-items
+VALPOD & vinne:V__intr & V-over__intrObl-oblN & V-fram__intrPrtcl & V-fram-med__intrPrtclObl-oblEqSuInf & V-fram-med__intrPrtclObl-oblN & V-frem__intrPrtcl & V-frem-med__intrPrtclObl-oblEqSuInf & V-frem-med__intrPrtclObl-oblN & V__tr & V__tr-obRefl & MULTIEND_10-items
 VALPOD & vinsje:V__tr & UNIEND
 VALPOD & vinterisolere:V__tr & UNIEND
 VALPOD & vintre:V-over__intrPrtcl & UNIEND

@@ -2656,6 +2656,7 @@ engste-for__trObl-suN-obRefl-oblEqObInf & 	hun engster seg for å gå ut i gatene 
 engste-for__trObl-suN-obRefl-oblN &	hun engster seg for flyktningene &				
 engste__tr-suN-obN &	situasjonen engster meg &				
 engste__tr-suN-obRefl &	hun engster seg &				
+engste__trExpnSu-expnEqObInf & det engster meg å fronte en slik sak alene & ADD expansion
 ense__tr-suN-obN &	soldatene enser farene &				
 ense__tr-suN-obDECL &	vi enser at dette blir farlig &				
 ensilere__tr-suN-obN &	de ensilerer dem &				
@@ -2677,6 +2678,7 @@ ergre-over__trObl-suN-obRefl-oblN &	hun ergrer seg over tapet &
 ergre-på__trScpr-suN-obN-scPPrefl &	han ergrer på seg et maveonde &				
 ergre__tr-suN-obN &	vi ergrer naboene &				
 ergre__tr-suN-obRefl &	hun ergrer seg &				
+ergre__trExpnSu-expnEqObInf & det ergrer ham å bli feilsitert &  ADD expansion
 ergre__trScpr-suN-obRefl-scObNrgCsd-scPred &	hun ergrer seg syk &				
 ergre__trScpr-suN-obN-scObCsd &	hun ergrer meg syk &				
 erholde__tr-suN-obN &	de erholder erstatning &				
@@ -6178,7 +6180,7 @@ innbetale__tr-suN-obN &	de innbetaler pengene &
 innbille__ditr-suN-iobN-obN &	hun innbiller deg hele historien &				
 innbille__ditr-suN-iobRefl-obN &	hun innbiller seg hendelsen &				
 innbille__ditr-suN-iobRefl-obDECL &	hun innbiller seg at du kommer &				
-innbille__ditr-suN-iobRefl-obEqObInf & 	hun innbiller seg å ha talent &				
+innbille__ditr-suN-iobRefl-obEqIobInf & 	hun innbiller seg å ha talent &				
 innbille__ditr-suN-iobRefl-obINTERR &	hun innbiller seg hva hun så &				
 innbille__ditr-suN-iobN-obDECL &	de innbiller henne at det skjedde &				
 innbinde__tr-suN-obN &	de innbinder bøkene &				
@@ -6519,6 +6521,7 @@ interessere__tr-suN-obN &	bildene interesserer forskerne &
 interessere__tr-suN-obRefl &	hun interesserer seg &				
 interessere__tr-suAbsinf-obN &	å starte nye firmaer interesserer ham &				
 interessere__tr-suINTERR-obN &	hvem som får lederjobbene interesserer meg &				
+interessere__trExpnSu-expnEqObInf & det interesserer ham å kunne få tilgang & ADD expansion
 interessere__trExpnSu-suExpl-obN-expnINTERRwh &	det interesserer dem hvem som får lederjobbene &				
 interessere__trExpnSu-suExpl-obN-expnINTERRyn &	det interesserer dem hvorvidt de får lederjobbene &				
 interferere-i__intrObl-suN-oblN &	vi interfererer i prosessen &				
@@ -6953,12 +6956,12 @@ kjekse__tr-suN-obN &	han kjekser fisken &
 kjemme__tr-suN-obN &	de kjemmer håret &				
 kjemme__tr-suN-obRefl &	hun kjemmer seg &				
 kjempe-for__intrObl-suN-oblDECL &	de kjemper for at han skal slippe fri &				
-kjempe-for__intrObl-suN-oblEgSuInf &	de kjemper for å slippe fri &				
+kjempe-for__intrObl-suN-oblEqSuInf &	de kjemper for å slippe fri &				
 kjempe-for__intrObl-suN-oblN &	vi kjemper for deg &				
 kjempe-mot__intrObl-suN-oblDECL &	de kjemper mot at han skal slippe fri &				
-kjempe-mot__intrObl-suN-oblEgSuInf &	de kjemper mot å slippe ham fri &				
+kjempe-mot__intrObl-suN-oblEqSuInf &	de kjemper mot å slippe ham fri &				
 kjempe-mot__intrObl-suN-oblN &	vi kjemper mot inntrengerne &				
-kjempe-om__intrObl-suN-oblEgSuInf &	de kjemper om å slippe fri &				
+kjempe-om__intrObl-suN-oblEqSuInf &	de kjemper om å slippe fri &				
 kjempe-om__intrObl-suN-oblINTERR &	de kjemper om hva narrativet skal bli &				
 kjempe-om__intrObl-suN-oblN &	de kjemper om prisen &				
 kjempe__intr-suN &	motstanderne kjemper &				
@@ -10409,6 +10412,7 @@ pjuske-til__trPrtcl-suN-obRefl &	hun pjusker seg til &
 pjutre__intr-suN &	kaffen pjutrer &				
 plaffe-ned__trPrtcl-suN-obN &	vi plaffer ned fienden &				
 plage-med__trObl-suN-obN-oblN &	de plager dem med gamle historier &				
+plage-med__trObl-oblEqObInf & de plager dem med å gjenta konklusjoner & ADD expansion
 plage__tr-suN-obN &	de plager naboene &				
 plage__tr-suDECL-obN &	at huset skal bygges plager dem &				
 plage__trExpnSu-suExpl-obN-expnDECL &	det plager dem at huset skal bygges &				
@@ -16581,9 +16585,10 @@ varme__impersObl-suExpl-oblPRTOFexper &	det varmer i brystet &
 varme__intr-suN &	solen varmer  &				
 varme__tr-suN-obN &	solen varmer føttene &				
 varme__tr-suN-obRefl &	hun varmer seg &				
+varme__trExpnSu-expnEqObInf & det varmer oss å få slik oppmerksomhet &  ADD expansion
 varme__trImpersObl-suExpl-obN-oblPRTOFob & 	det varmer meg i hjertet &				
-varme__trOblObl-suDECL-obN-oblPRTOFob &	at laget endelig vant varmer oss i hjertet &				
-varme__trOblOblExpn-suExpl-obN-oblPRTOFob-expnDECL &	det varmer oss i hjertet at laget endelig vant &				
+varme__trObl-suDECL-obN-oblPRTOFob &	at laget endelig vant varmer oss i hjertet &				
+varme__trOblExpn-suExpl-obN-oblPRTOFob-expnDECL &	det varmer oss i hjertet at laget endelig vant &				
 varmhamre__tr-suN-obN &	smeden varmhamrer metallet &				
 varmherde__tr-suN-obN &	de varmherder metallet &				
 varmheve__intr-suN &	bakerne varmhever &				

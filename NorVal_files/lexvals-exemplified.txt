@@ -2656,6 +2656,7 @@ engste-for__trObl-obRefl-oblEqObInf & hun engster seg for å gå ut i gatene &
 engste-for__trObl-obRefl-oblN & hun engster seg for flyktningene &
 engste__tr & situasjonen engster meg &
 engste__tr-obRefl & hun engster seg &
+engste__trExpnSu-expnEqObInf & det engster meg å fronte en slik sak alene &
 ense__tr & soldatene enser farene &
 ense__tr-obDECL & vi enser at dette blir farlig &
 ensilere__tr & de ensilerer dem &
@@ -2677,6 +2678,7 @@ ergre-over__trObl-obRefl-oblN & hun ergrer seg over tapet &
 ergre-på__trScpr-scPPrefl & han ergrer på seg et maveonde &
 ergre__tr & vi ergrer naboene &
 ergre__tr-obRefl & hun ergrer seg &
+ergre__trExpnSu-expnEqObInf & det ergrer ham å bli feilsitert &
 ergre__trScpr-obRefl-scObNrgCsd-scPred & hun ergrer seg syk &
 ergre__trScpr-scObCsd & hun ergrer meg syk &
 erholde__tr & de erholder erstatning &
@@ -6178,7 +6180,7 @@ innbetale__tr & de innbetaler pengene &
 innbille__ditr & hun innbiller deg hele historien &
 innbille__ditr-iobRefl & hun innbiller seg hendelsen &
 innbille__ditr-iobRefl-obDECL & hun innbiller seg at du kommer &
-innbille__ditr-iobRefl-obEqObInf & hun innbiller seg å ha talent &
+innbille__ditr-iobRefl-obEqIobInf & hun innbiller seg å ha talent &
 innbille__ditr-iobRefl-obINTERR & hun innbiller seg hva hun så &
 innbille__ditr-obDECL & de innbiller henne at det skjedde &
 innbinde__tr & de innbinder bøkene &
@@ -6519,6 +6521,7 @@ interessere__tr & bildene interesserer forskerne &
 interessere__tr-obRefl & hun interesserer seg &
 interessere__tr-suAbsinf & å starte nye firmaer interesserer ham &
 interessere__tr-suINTERR & hvem som får lederjobbene interesserer meg &
+interessere__trExpnSu-expnEqObInf & det interesserer ham å kunne få tilgang &
 interessere__trExpnSu-expnINTERRwh & det interesserer dem hvem som får lederjobbene &
 interessere__trExpnSu-expnINTERRyn & det interesserer dem hvorvidt de får lederjobbene &
 interferere-i__intrObl-oblN & vi interfererer i prosessen &
@@ -6953,7 +6956,7 @@ kjekse__tr & han kjekser fisken &
 kjemme__tr & de kjemmer håret &
 kjemme__tr-obRefl & hun kjemmer seg &
 kjempe-for__intrObl-oblDECL & de kjemper for at han skal slippe fri &
-kjempe-for__intrObl-oblEgSuInf & de kjemper for å slippe fri &
+kjempe-for__intrObl-oblEqSuInf & de kjemper for å slippe fri &
 kjempe-for__intrObl-oblN & vi kjemper for deg &
 kjempe-mot__intrObl-oblDECL & de kjemper mot at han skal slippe fri &
 kjempe-mot__intrObl-oblEgSuInf & de kjemper mot å slippe ham fri &
@@ -10409,6 +10412,7 @@ pjuske-til__trPrtcl-obRefl & hun pjusker seg til &
 pjutre__intr & kaffen pjutrer &
 plaffe-ned__trPrtcl & vi plaffer ned fienden &
 plage-med__trObl-oblN & de plager dem med gamle historier &
+plage-med__trObl-oblEqObInf & de plager dem med å gjenta konklusjoner &
 plage__tr & de plager naboene &
 plage__tr-suDECL & at huset skal bygges plager dem &
 plage__trExpnSu-expnDECL & det plager dem at huset skal bygges &
@@ -11396,13 +11400,13 @@ rettferdiggjøre__tr-obDECL & vi rettferdiggjør at huset bygges &
 rettferdiggjøre__tr-obEqSuInf & vi rettferdiggjør å bygge huset &
 rettferdiggjøre__tr-obRefl & hun rettferdiggjør seg &
 rettkjenne__tr & de rettkjenner kontrakten &
-rettlede-i__trObl-OblEqObInf & de rettleder dem i å sette opp regnskap &
-rettlede-i__trObl-OblINTERR & de rettleder dem i hvordan man setter opp regnskap &
-rettlede-i__trObl-OblN & de rettleder dem i regnskap &
+rettlede-i__trObl-oblEqObInf & de rettleder dem i å sette opp regnskap &
+rettlede-i__trObl-oblINTERR & de rettleder dem i hvordan man setter opp regnskap &
+rettlede-i__trObl-oblN & de rettleder dem i regnskap &
 rettlede__tr & de rettleder deltagerne &
-rettleie-i__trObl-OblEqObInf & de rettleier dem i å sette opp regnskap &
-rettleie-i__trObl-OblINTERR & de rettleier dem i hvordan man setter opp regnskap &
-rettleie-i__trObl-OblN & de rettleier dem i regnskap &
+rettleie-i__trObl-oblEqObInf & de rettleier dem i å sette opp regnskap &
+rettleie-i__trObl-oblINTERR & de rettleier dem i hvordan man setter opp regnskap &
+rettleie-i__trObl-oblN & de rettleier dem i regnskap &
 rettleie__tr & de rettleier deltakerne &
 returnere__tr-obDir & vi returnerer pakkene til avsenderen &
 returnere__intr-suDir & de returnerer til byen &
@@ -16582,8 +16586,9 @@ varme__intr & solen varmer &
 varme__tr & solen varmer føttene &
 varme__tr-obRefl & hun varmer seg &
 varme__trImpersObl-oblPRTOFob & det varmer meg i hjertet &
-varme__trOblObl-suDECL-oblPRTOFob & at laget endelig vant varmer oss i hjertet &
-varme__trOblOblExpn-oblPRTOFob-expnDECL & det varmer oss i hjertet at laget endelig vant &
+varme__trExpnSu-expnEqObInf & det varmer oss å få slik oppmerksomhet &
+varme__trObl-suDECL-oblPRTOFob & at laget endelig vant varmer oss i hjertet &
+varme__trOblExpn-oblPRTOFob-expnDECL & det varmer oss i hjertet at laget endelig vant &
 varmhamre__tr & smeden varmhamrer metallet &
 varmherde__tr & de varmherder metallet &
 varmheve__intr & bakerne varmhever &
