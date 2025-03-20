@@ -23797,7 +23797,6 @@ fortynne_tv_vlxm := v-tr &
 fortære_tr_vlxm := v-tr &
    [ STEM < "fortære" >,
      INFLECTION nonfstr-te,
-     SYNSEM.VAL-CLASS v-tr-only-vt,
      SYNSEM.LKEYS.KEYREL.PRED "_fortære_v-tr_rel",
      SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
