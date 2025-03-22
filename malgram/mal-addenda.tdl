@@ -90,8 +90,9 @@ sg-indef-bare-noun-lxm :+
 ;adj-to-nonbare-n-rule :+ 
 ;[ GENRE wellfrmd-or-noflect ].
 
-head-prep-bareclause-comp-phrase :+ 
-[ GENRE wellfrmd-or-nodrop ].
+; LH21032025  including this constraint broke the rules for hvis-så-inversion
+;head-prep-bareclause-comp-phrase :+ 
+;[ GENRE wellfrmd-or-nodrop ].
 
 head-wordcoord-comp-phrase :+
 [ GENRE wellfrmd-or-nodrop ].
