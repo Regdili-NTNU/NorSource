@@ -126,34 +126,16 @@ ROLE : ROLE
 ;;  added-info <> added-info
 
 ;; Bruland, forsøk  LH reactivated
-#|
-SIT-TYPE.PERCEIVEORGAN : SIT-TYPE.PERCEIVEORGAN
-;organ <> organ
-ear <> ear
-  * <> *
-
-SIT-TYPE.PERFORMANCE : SIT-TYPE.PERFORMANCE
-willed <> willed
-  * <> *
-
-SIT-TYPE.SYMBOL : SIT-TYPE.SYMBOL
-claiming <> claiming
-  * <> *
-
-SIT-TYPE.PROCEDURALPATTERN : SIT-TYPE.PROCEDURALPATTERN
-iterative-proc <> iterative-proc
-* <> *
-|#
 
 ;metafeatures
 ;perceiving := verbfeature &
  SIT-TYPE.PERCEIVEORGAN : SIT-TYPE.PERCEIVEORGAN
-organ <> organ
+;organ <> organ
 ear <> ear
 
 ;perform := verbfeature &
  SIT-TYPE.PERFORMANCE : SIT-TYPE.PERFORMANCE
-performance <> performance
+;performance <> performance
 willed <> willed
 
 ;perceptible := verbfeature &
