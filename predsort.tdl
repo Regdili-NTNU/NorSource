@@ -191,7 +191,7 @@ sitcat := situations & semsort.
 
 
 ;I.;;;;;;;;;;;;;;;;;;;;;ASPECT SPECIFICATIONS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;aktionsart := situations &
+
 aktionsart := situations & semsort &
   [ DYNAMIC bool,
     PROTRACTED bool,
@@ -970,3 +970,256 @@ line-contained-embedded-adv-rel :=  line-rel &
          [ IARG.CLASS contained-embedded ].
 line-scalar-non-containmen-adv-rel :=  line-rel &
          [ IARG.CLASS scalar-non-containment ].
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+verbfeature := semsort.
+
+perceiving := verbfeature &
+ [PERCEIVEORGAN organ].
+perform := verbfeature &
+ [PERFORMANCE performance].
+perceptible := verbfeature &
+ [PERCEPTIBILITYDOMAIN organ].
+impact := verbfeature &
+ [IMPACTDOMAIN impactdomain,
+  IMPACTDEGREE impactdegree].
+procedure := verbfeature &
+ [PROCEDURALPATTERN procedurepattern].
+medbyprcept := verbfeature &
+ [PERCEPTCOMPONENT organ,
+  OTHERCOMPONENT psychdomain].
+cogn := verbfeature &
+ [COGDOMAIN cognition].
+dependence := verbfeature &
+ [DEPDOMAIN dependency].
+domin := verbfeature &
+ [DOMINDOMAIN dominance].
+emotion := verbfeature &
+ [EMODOMAIN emodomain].
+creation := verbfeature &
+ [CREATIODOMAIN creativity].
+responding := verbfeature &
+ [RESPONSE respond].
+possess := verbfeature &
+ [POSSDOMAIN possession].
+physbod := verbfeature &
+ [PHYSBODOMAIN physicality].
+symbval := verbfeature &
+ [SYMBOL symbolicity].
+purerel := verbfeature &
+ [RELATIONTYPE relation-type].
+unfold := verbfeature &
+ [UNFOLDSPACE aktionsart].
+directionality := verbfeature &
+ [DIRECTIONALITY direction].
+loc := verbfeature &
+ [LOCATION place].
+criterial := verbfeature &
+ [CRITERION image].
+VerbalAct := verbfeature &
+ [VERBALACT verbal-act].
+narrative := verbfeature &
+ [NARR narr].
+imped := narrative.
+sustain := narrative.
+further := narrative.
+prevent := narrative.
+init := narrative.
+
+;response => responding
+;poss => possess
+;dir => directionality
+
+;Prevent-Impact-Procedure-Response-Perform-SymbVal
+Prevent-Impact := Impact.
+Impact-Procedure := Impact & Procedure.
+Procedure-Response := Procedure & Response.
+Response-Perform := Response & Perform.
+Perform-SymbVal := Perform & SymbVal.
+Prevent-Impact-Procedure := Prevent-Impact & Impact-Procedure.
+Prevent-Impact-Procedure-Response := Prevent-Impact-Procedure & Procedure-Response.
+Prevent-Impact-Procedure-Response-Perform := Prevent-Impact-Procedure-Response & Response-Perform.
+Prevent-Impact-Procedure-Response-Perform-SymbVal := Prevent-Impact-Procedure-Response-Perform & Perform-SymbVal.
+;cogn-perceiving-perform
+perceiving-perform := perceiving & perform.
+cogn-perceiving-perform := perceiving-perform & cogn.
+;Sustain-Cogn-Procedure-Response-Dependence-Impact-Domin-SymbVal-Perform
+Sustain-Cogn := Sustain & Cogn.
+Sustain-Cogn-Procedure := Sustain-Cogn & Procedure.
+Sustain-Cogn-Procedure-Response := Sustain-Cogn-Procedure & Response.
+Sustain-Cogn-Procedure-Response-Dependence := Sustain-Cogn-Procedure-Response & Dependence.
+Sustain-Cogn-Procedure-Response-Dependence-Impact := Sustain-Cogn-Procedure-Response-Dependence & Impact.
+Sustain-Cogn-Procedure-Response-Dependence-Impact-Domin := Sustain-Cogn-Procedure-Response-Dependence-Impact & Domin.
+Sustain-Cogn-Procedure-Response-Dependence-Impact-Domin-SymbVal := Sustain-Cogn-Procedure-Response-Dependence-Impact-Domin & SymbVal.
+Sustain-Cogn-Procedure-Response-Dependence-Impact-Domin-SymbVal-Perform := Sustain-Cogn-Procedure-Response-Dependence-Impact-Domin-SymbVal & Perform.
+;Further-Cogn-Procedure-Creation-VerbalAct-SymbVal
+Further-Cogn := Further & Cogn.
+Further-Cogn-Procedure := Further-Cogn & Procedure.
+Further-Cogn-Procedure-Creation := Further-Cogn-Procedure & Creation.
+Further-Cogn-Procedure-Creation-VerbalAct := Further-Cogn-Procedure-Creation & VerbalAct.
+Further-Cogn-Procedure-Creation-VerbalAct-SymbVal := Further-Cogn-Procedure-Creation-VerbalAct & SymbVal.
+;Sustain-Cogn-Dependence-Impact-Procedure-Response-VerbalAct-Domin-SymbVal
+Sustain-Cogn-Dependence := Sustain-Cogn & Dependence.
+Sustain-Cogn-Dependence-Impact := Sustain-Cogn-Dependence & Impact.
+Sustain-Cogn-Dependence-Impact-Procedure := Sustain-Cogn-Dependence-Impact & Procedure.
+Sustain-Cogn-Dependence-Impact-Procedure-Response := Sustain-Cogn-Dependence-Impact-Procedure & Response.
+Sustain-Cogn-Dependence-Impact-Procedure-Response-VerbalAct := Sustain-Cogn-Dependence-Impact-Procedure-Response & VerbalAct.
+Sustain-Cogn-Dependence-Impact-Procedure-Response-VerbalAct-Domin := Sustain-Cogn-Dependence-Impact-Procedure-Response-VerbalAct & Domin.
+Sustain-Cogn-Dependence-Impact-Procedure-Response-VerbalAct-Domin-SymbVal := Sustain-Cogn-Dependence-Impact-Procedure-Response-VerbalAct-Domin & SymbVal.
+;Sustain-Directionality-Cogn-Impact-Procedure-Response-Perform-SymbVal
+Sustain-Directionality := Sustain & Directionality.
+Sustain-Directionality-Cogn := Sustain-Directionality & Cogn.
+Sustain-Directionality-Cogn-Impact := Sustain-Directionality-Cogn & Impact.
+Sustain-Directionality-Cogn-Impact-Procedure := Sustain-Directionality-Cogn-Impact & Procedure.
+Sustain-Directionality-Cogn-Impact-Procedure-Response := Sustain-Directionality-Cogn-Impact-Procedure & Response.
+Sustain-Directionality-Cogn-Impact-Procedure-Response-Perform := Sustain-Directionality-Cogn-Impact-Procedure-Response & Perform.
+Sustain-Directionality-Cogn-Impact-Procedure-Response-Perform-SymbVal := Sustain-Directionality-Cogn-Impact-Procedure-Response-Perform & SymbVal.
+;Sustain-Cogn-Impact-Procedure-Emotion-Response-VerbalAct-Domin-SymbVal-PhysBod
+Sustain-Cogn-Impact := Sustain-Cogn & Impact.
+Sustain-Cogn-Impact-Procedure := Sustain-Cogn-Impact & Procedure.
+Sustain-Cogn-Impact-Procedure-Emotion := Sustain-Cogn-Impact-Procedure & Emotion.
+Sustain-Cogn-Impact-Procedure-Emotion-Response := Sustain-Cogn-Impact-Procedure-Emotion & Response.
+Sustain-Cogn-Impact-Procedure-Emotion-Response-VerbalAct := Sustain-Cogn-Impact-Procedure-Emotion-Response & VerbalAct.
+Sustain-Cogn-Impact-Procedure-Emotion-Response-VerbalAct-Domin := Sustain-Cogn-Impact-Procedure-Emotion-Response-VerbalAct & Domin.
+Sustain-Cogn-Impact-Procedure-Emotion-Response-VerbalAct-Domin-SymbVal := Sustain-Cogn-Impact-Procedure-Emotion-Response-VerbalAct-Domin & SymbVal.
+Sustain-Cogn-Impact-Procedure-Emotion-Response-VerbalAct-Domin-SymbVal-PhysBod := Sustain-Cogn-Impact-Procedure-Emotion-Response-VerbalAct-Domin-SymbVal & PhysBod.
+;Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin-Criterial-SymbVal-PhysBod
+Further-ImpactSensory := Further & ImpactSensory.
+Further-ImpactSensory-MedByPrcept := Further-ImpactSensory & MedByPrcept.
+Further-ImpactSensory-MedByPrcept-Impact := Further-ImpactSensory-MedByPrcept & Impact.
+Further-ImpactSensory-MedByPrcept-Impact-Emotion := Further-ImpactSensory-MedByPrcept-Impact & Emotion.
+Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response := Further-ImpactSensory-MedByPrcept-Impact-Emotion & Response.
+Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin := Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response & Domin.
+Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin-Criterial := Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin & Criterial.
+Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin-Criterial-SymbVal := Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin-Criterial & SymbVal.
+Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin-Criterial-SymbVal-PhysBod := Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin-Criterial-SymbVal & PhysBod.
+
+
+
+
+
+thing-parameter := sit-parameter.	
+organ := thing-parameter.
+sensory-organ := organ.
+eye := sensory-organ.
+ear := sensory-organ.
+skin := sensory-organ.
+tongue := sensory-organ.
+proprioceptor := sensory-organ.
+
+sit-parameter := situations.
+
+performance := sit-parameter.
+emanation := performance.
+willed := performance.
+willed-emanation := emanation & willed.
+emanation-pur := emanation.
+will-pur := willed.
+
+impactdomain := sit-parameter.
+impactsensory := impactdomain. 
+impactphysical := impactdomain. 
+impactmental := impactdomain. 
+impactemotional := impactdomain. 
+impactpsychological := impactdomain. 
+impactdegree := sit-parameter.
+impactstrong := impactdegree. 
+impactmedium := impactdegree. 
+impactweak := impactdegree. 
+
+procedurepattern := eventflow-steered.
+iterative-proc := procedurepattern.
+cyclical-proc := procedurepattern.
+variable-proc := procedurepattern.
+
+cognition := sit-parameter.
+thinking := cognition.
+tasksolving := cognition & creativity.
+
+eventflow := sit-parameter.
+eventflow-pur := eventflow.
+eventflow-steered := eventflow.
+
+psychdomain := sit-parameter.
+emotivity := psychdomain.
+
+dependency := sit-parameter.
+eventflow-dep := dependency & eventflow.
+logical-dep := dependency.
+static-dep := dependency.
+biological-dep := dependency.
+psychological-dep := dependency.
+
+dominance := sit-parameter.
+graph-dominance := dominance.
+power-dominance := dominance.
+psycho-dominance := power-dominance.
+physical-dominance := power-dominance.
+admin-dominance := power-dominance.
+
+emodomain := sit-parameter.
+joy := emodomain.
+grief := emodomain.
+
+creativity := sit-parameter.
+invention := cognition & creativity.
+constructivity := cognition & creativity.
+
+respond := sit-parameter.
+delib-response := respond & eventflow-steered.
+effect := respond & eventflow-pur.
+
+possession := sit-parameter.
+economical-poss := possession.
+socio-poss := possession.
+
+physicality := sit-parameter.
+biological-body := physicality.
+human-body := physicality.
+inanim-body := physicality.
+
+symbolicity := sit-parameter.
+acted-symbol := symbolicity & willed-emanation.
+symbol-pur := symbolicity.
+linguistic-symb := symbolicity.
+symb-sign := symbolicity.
+verbal-act := acted-symbol & linguistic-symb.
+spoken-symb := symbolicity.
+signed-symb := symbolicity.
+written-symb := symbolicity.
+spoken-act := verbal-act & spoken-symb.
+signed-act := verbal-act & signed-symb.
+written-act := verbal-act & written-symb.
+nominal-symb := linguistic-symb.
+propositional-symb := linguistic-symb.
+declarative-symb := propositional-symb.
+interrogative-symb := propositional-symb.
+statement-constr := declarative-symb.
+question-constr := interrogative-symb.
+claiming := statement-constr & willed-emanation.
+querying := question-constr & willed-emanation.
+
+relation-type := sit-parameter.
+symbolic-relation := relation-type.
+social-relation := relation-type.
+physical-relation := relation-type.
+
+image := sit-parameter.
+narr := sit-parameter.
+
+#|
+perceiving := meta-feature &
+	[ PARAMETER sensory-organ ].
+listening := perceiving &
+	[ PARAMETER ear ].
+i-listening-svh-rel := i-arg1-svh-rel &
+  [ IARG.CLASS listening ].
+|#
+
+;lytte__intr := v-intr &
+;  [ STEM < " lytte" >,
+;    SYNSEM.LKEYS.KEYREL listening-rel & [PRED "_lytte_v-intr_rel"] ].
+
+

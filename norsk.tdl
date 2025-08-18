@@ -559,7 +559,7 @@ body-part := item-specification.
 relatum := referential-thing.
 init-und := item-specification.
 init-or-actor := init-und.
-init := init-or-actor.
+;init := init-or-actor.
 und-or-theme := init-und.
 und := und-or-theme.
 actor := init-or-actor.
@@ -602,6 +602,28 @@ indirquest-prep := semsort-reg.
 
 
 ; SORT values (for verbs)
+
+;prm1-relation := event-relation &
+;[ PRM1 parameter ].
+
+;arg1-prm1-relation := prm1-relation & arg1-ev-relation.
+#|
+parameter := entities.	
+organ := parameter.
+sensory-organ := organ.
+eye := sensory-organ.
+ear := sensory-organ.
+skin := sensory-organ.
+tongue := sensory-organ.
+proprioceptor := sensory-organ.
+
+perceiving := prm1-relation &
+[ PRM1 sensory-organ ].
+
+listening := perceiving &
+[ PRM1 ear ].
+|#
+
 
 semsort-reg := semsort.
 verb-act-specification := semsort-reg.

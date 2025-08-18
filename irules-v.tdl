@@ -34,10 +34,11 @@ pres-infl_rule :=
 infl-pres-verb-word &
 [ ARGS < [ INFLECTION phon ] > ].
 
-;pres-s-infl_rule :=
-;%suffix (s s)
-;const-pres-verb-word &
-;[ ARGS < [ INFLECTION phon ] > ].
+; for English guests
+pres-s-infl_rule :=
+%suffix (* s)
+infl-pres-verb-word &
+[ ARGS < [ INFLECTION phon ] > ].
 
 
 pret-finalstr_infl_rule :=

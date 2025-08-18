@@ -23,6 +23,7 @@
 :include "lex-types-v".
 :include "v-types-add-SLASH.tdl".
 :include "predsort".
+:include "metafeatures.tdl".
 ;:include "norskpredsort".
 ;:include "infl-codes".
 ;:include "inflections.uniq".
@@ -49,6 +50,7 @@
 :include "lex_a.tdl".
 :include "lex_n.tdl".
 :include "lex_v.tdl".
+:include "lex_v-eng.tdl".
 :include "lex_propername.tdl".
 :include "lex_abbrev".
 ;;:include "lex_sticos.tdl".

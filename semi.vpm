@@ -88,10 +88,10 @@ E.DELIMITED : E.DELIMITED
   + <> +
   - <> -
 
-;; PATH-TELIC : PATH-TELIC 
-;;  - <> +
-;;  + <> -  
-;;  * >> -     
+ PATH-TELIC : PATH-TELIC 
+  + <> +
+  - <> -  
+  * >> *     
 
 ROLE : ROLE
   purely-oriented-obj <> purely-oriented-obj
@@ -125,9 +125,121 @@ ROLE : ROLE
 ;;  interact-developer <> interact-developer
 ;;  added-info <> added-info
 
-;; Bruland, forsøk
-;;IARG.CLASS : IARG.CLASS
-;; * <> *
+;; Bruland, forsøk  LH reactivated
+#|
+SIT-TYPE.PERCEIVEORGAN : SIT-TYPE.PERCEIVEORGAN
+;organ <> organ
+ear <> ear
+  * <> *
+
+SIT-TYPE.PERFORMANCE : SIT-TYPE.PERFORMANCE
+willed <> willed
+  * <> *
+
+SIT-TYPE.SYMBOL : SIT-TYPE.SYMBOL
+claiming <> claiming
+  * <> *
+
+SIT-TYPE.PROCEDURALPATTERN : SIT-TYPE.PROCEDURALPATTERN
+iterative-proc <> iterative-proc
+* <> *
+|#
+
+;metafeatures
+;perceiving := verbfeature &
+ SIT-TYPE.PERCEIVEORGAN : SIT-TYPE.PERCEIVEORGAN
+organ <> organ
+ear <> ear
+
+;perform := verbfeature &
+ SIT-TYPE.PERFORMANCE : SIT-TYPE.PERFORMANCE
+performance <> performance
+willed <> willed
+
+;perceptible := verbfeature &
+ SIT-TYPE.PERCEPTIBILITYDOMAIN : SIT-TYPE.PERCEPTIBILITYDOMAIN 
+organ <> organ
+
+;impact := verbfeature &
+ SIT-TYPE.IMPACTDOMAIN : SIT-TYPE.IMPACTDOMAIN 
+impactdomain <> impactdomain
+  SIT-TYPE.IMPACTDEGREE : SIT-TYPE.IMPACTDEGREE 
+impactdegree <> impactdegree
+
+;procedure := verbfeature &
+ SIT-TYPE.PROCEDURALPATTERN : SIT-TYPE.PROCEDURALPATTERN 
+procedurepattern <> procedurepattern
+iterative-proc <> iterative-proc
+
+;medbyprcept := verbfeature &
+ SIT-TYPE.PERCEPTCOMPONENT : SIT-TYPE.PERCEPTCOMPONENT 
+organ <> organ
+ SIT-TYPE.OTHERCOMPONENT : SIT-TYPE.OTHERCOMPONENT 
+psychdomain <> psychdomain
+
+;cogn := verbfeature &
+ SIT-TYPE.COGDOMAIN : SIT-TYPE.COGDOMAIN 
+;cognition <> cognition
+tasksolving <> tasksolving
+
+;dependence := verbfeature &
+ SIT-TYPE.DEPDOMAIN : SIT-TYPE.DEPDOMAIN 
+dependency <> dependency
+
+;domin := verbfeature &
+ SIT-TYPE.DOMINDOMAIN : SIT-TYPE.DOMINDOMAIN 
+dominance <> dominance
+
+;emotion := verbfeature &
+ SIT-TYPE.EMODOMAIN : SIT-TYPE.EMODOMAIN 
+emodomain <> emodomain
+
+;creation := verbfeature &
+ SIT-TYPE.CREATIODOMAIN : SIT-TYPE.CREATIODOMAIN 
+creativity <> creativity
+
+;responding := verbfeature &
+ SIT-TYPE.RESPONSE : SIT-TYPE.RESPONSE 
+respond <> respond
+
+;possess := verbfeature &
+ SIT-TYPE.POSSDOMAIN : SIT-TYPE.POSSDOMAIN 
+possession <> possession
+
+;physbod := verbfeature &
+ SIT-TYPE.PHYSBODOMAIN : SIT-TYPE.PHYSBODOMAIN 
+physicality <> physicality
+
+;symbval := verbfeature &
+ SIT-TYPE.SYMBOL : SIT-TYPE.SYMBOL 
+symbolicity <> symbolicity
+claiming <> claiming
+
+;purerel := verbfeature &
+ SIT-TYPE.RELATIONTYPE : SIT-TYPE.RELATIONTYPE 
+relation-type <> relation-type
+
+;unfold := verbfeature &
+ SIT-TYPE.UNFOLDSPACE : SIT-TYPE.UNFOLDSPACE 
+aktionsart <> aktionsart
+
+;directionality := verbfeature &
+ SIT-TYPE.DIRECTIONALITY : SIT-TYPE.DIRECTIONALITY 
+direction <> direction
+
+;loc := verbfeature &
+ SIT-TYPE.LOCATION : SIT-TYPE.LOCATION 
+place <> place
+
+;criterial := verbfeature &
+ SIT-TYPE.CRITERION : SIT-TYPE.CRITERION 
+image <> image
+
+;VerbalAct := verbfeature &
+ SIT-TYPE.VERBALACT : SIT-TYPE.VERBALACT 
+verbal-act <> verbal-act
+
+
 
 ;; CLASS : CLASS
 ;;  * <> *
