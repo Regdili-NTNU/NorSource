@@ -1013,7 +1013,7 @@ purerel := verbfeature &
 unfold := verbfeature &
  [UNFOLDSPACE aktionsart].
 directionality := verbfeature &
- [DIRECTIONALITY direction].
+ [DIRECTIONALITY directed].
 loc := verbfeature &
  [LOCATION place].
 criterial := verbfeature &
@@ -1027,6 +1027,13 @@ sustain := narrative.
 further := narrative.
 prevent := narrative.
 init := narrative.
+
+;verbtype-classifier := verbfeature &
+; [VERB-CLASSIFIER organ].
+
+
+
+
 
 ;response => responding
 ;poss => possess
@@ -1043,8 +1050,12 @@ Prevent-Impact-Procedure-Response := Prevent-Impact-Procedure & Procedure-Respon
 Prevent-Impact-Procedure-Response-Perform := Prevent-Impact-Procedure-Response & Response-Perform.
 Prevent-Impact-Procedure-Response-Perform-SymbVal := Prevent-Impact-Procedure-Response-Perform & Perform-SymbVal.
 ;cogn-perceiving-perform
+cogn-perform := cogn & perform.
 perceiving-perform := perceiving & perform.
-cogn-perceiving-perform := perceiving-perform & cogn.
+cogn-perceiving := cogn & perceiving.
+cogn-perceiving-perform := perceiving-perform & cogn-perceiving & perceiving-perform.
+;perceiving-perform
+;cogn-perceiving-perform := perceiving-perform & cogn.
 ;Sustain-Cogn-Procedure-Response-Dependence-Impact-Domin-SymbVal-Perform
 Sustain-Cogn := Sustain & Cogn.
 Sustain-Cogn-Procedure := Sustain-Cogn & Procedure.
@@ -1103,30 +1114,43 @@ Further-ImpactSensory-MedByPrcept-Impact-Emotion-Response-Domin-Criterial-SymbVa
 thing-parameter := sit-parameter.	
 organ := thing-parameter.
 sensory-organ := organ.
-eye := sensory-organ.
-ear := sensory-organ.
-skin := sensory-organ.
-tongue := sensory-organ.
-proprioceptor := sensory-organ.
+eye-asSensoryOrgan := sensory-organ.
+ear-asSensoryOrgan := sensory-organ.
+skin-asSensoryOrgan := sensory-organ.
+tongue-asSensoryOrgan := sensory-organ.
+proprioceptor-asSensoryOrgan := sensory-organ.
 
 sit-parameter := situations.
 
 performance := sit-parameter.
 emanation := performance.
-willed := performance.
-willed-emanation := emanation & willed.
-emanation-pur := emanation.
-will-pur := willed.
+willed := emanation.
+non-willed := emanation.
+medium-of-emanation := emanation.
+arm-asMedium := medium-of-emanation.
+foot-asMedium := medium-of-emanation.
+mouth-asMedium := medium-of-emanation.
+chest-asMedium := medium-of-emanation.
+willedwithArm := willed & arm-asMedium.
+willedwithFoot := willed & foot-asMedium.
+willedwithMouth := willed & mouth-asMedium.
+willedwithChest := willed & chest-asMedium.
+
+
+;emanation-pur := emanation.
+;will-pur := willed.
 
 impactdomain := sit-parameter.
 impactsensory := impactdomain. 
 impactphysical := impactdomain. 
+impacting := impactphysical.
+impacted := impactphysical.
 impactmental := impactdomain. 
 impactemotional := impactdomain. 
 impactpsychological := impactdomain. 
 impactdegree := sit-parameter.
 impactstrong := impactdegree. 
-impactmedium := impactdegree. 
+impactmiddle := impactdegree. 
 impactweak := impactdegree. 
 
 procedurepattern := eventflow-steered.
@@ -1181,7 +1205,7 @@ human-body := physicality.
 inanim-body := physicality.
 
 symbolicity := sit-parameter.
-acted-symbol := symbolicity & willed-emanation.
+acted-symbol := symbolicity & willed.
 symbol-pur := symbolicity.
 linguistic-symb := symbolicity.
 symb-sign := symbolicity.
@@ -1198,13 +1222,27 @@ declarative-symb := propositional-symb.
 interrogative-symb := propositional-symb.
 statement-constr := declarative-symb.
 question-constr := interrogative-symb.
-claiming := statement-constr & willed-emanation.
-querying := question-constr & willed-emanation.
+claiming := statement-constr & willed.
+querying := question-constr & willed.
 
 relation-type := sit-parameter.
 symbolic-relation := relation-type.
 social-relation := relation-type.
 physical-relation := relation-type.
+
+directed := sit-parameter.
+trajectory := directed.
+trajectory-dyn := trajectory.
+trajectory-stat := trajectory.
+trajectory-dyn-with-dispatched-head := trajectory-dyn.
+trajectory-dyn-with-contiguous-head := trajectory-dyn.
+orientation-pur := directed.
+trajectory-minimalTrunk := trajectory.
+trajectory-variableTrunk := trajectory.
+dynMinTract := trajectory-dyn-with-dispatched-head & trajectory-minimalTrunk.
+
+mover := directed.
+oriented := directed.
 
 image := sit-parameter.
 narr := sit-parameter.

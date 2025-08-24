@@ -1107,6 +1107,8 @@ dagtid-k := predsort.
 søvn-k := predsort.
 gråt-k := predsort.
 ting-k := predsort.
+arm-k := predsort.  ; for kwa obj
+ntasuo-k := predsort. ; for kwa obj
 bryllup-k := predsort.
 måte-k := relinan.
 fare-k := relinan.
@@ -1998,6 +2000,10 @@ has-inhcmp := inhr-comp & has-k.
 vakt-inhcmp := inhr-comp & vakt-k.
 dagtid-inhcmp := inhr-comp & dagtid-k.
 
+;kwa-inh nouns
+arm-inhcmp := inhr-comp & arm-k.
+ntasuo-inhcmp := inhr-comp & ntasuo-k.
+
 locomotion-event-inhcmp := inhr-comp & dirnoun.
 tur-inhcmp-sup := locomotion-event-inhcmp.
 reise-inhcmp-sup := locomotion-event-inhcmp.
@@ -2061,6 +2067,7 @@ linje-inhcmp := linje-inhcmp-sup & linje-k.
 spor-inhcmp-sup := path-of-locomotion-inhcmp.
 spor-inhcmp := spor-inhcmp-sup & spor-k.
 
+eventclassifiernoun := non-selct.
 
 nom-k := reganim & reginan & relinan & relanim & dirnoun.
 anonym-k := reganim & reginan & relinan & relanim & dirnoun & propt. 
@@ -7089,7 +7096,8 @@ verb-general-lexeme := top-verb-lexeme & lbl-ltop-lex-item &
     SYNSEM.LOCAL.HAS-WH-MOVED -,
     SYNSEM.LOCAL.HEAD-SUBJ-APPLIED -,
     SYNSEM.LOCAL.COMPS-BEGUN -,				;; Added to avoid s-final. EAA030811
-    SYNSEM.BIND unbnd ].
+    SYNSEM.BIND unbnd,
+    VERB-CLASSIFIER head].  ; last line for expr with Kwa-verb objects
 
 verb-lexeme := verb-general-lexeme &
   [ SYNSEM.LOCAL.CAT.HEAD verb  & [VOICE active,
