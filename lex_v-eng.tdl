@@ -1390,7 +1390,8 @@ cast_intr_vlxm := v-intr  &
 STEM < "cast" >, 
 SYNSEM.LKEYS.KEYREL.PRED "_cast_v-intr_rel",  
 SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY  mainvb-1, 
-SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.CREATIODOMAIN constructivity]. 
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.CREATIODOMAIN constructivity].  
+;SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Directionality-Perceptible-Impact-Procedure-Creation-Perform-Domin-Criterial-PhysBod]. 
 ;;; LEXVALS:(cast__intr & cast__tr & cast__tr-obDir)].
 
 catch_intr_vlxm := v-intr  & 
@@ -10144,7 +10145,7 @@ STEM < "throw" >,
 SYNSEM.LKEYS.KEYREL.PRED "_throw_v-intr_rel",  
 SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY  mainvb-1,
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY trajectory, 
-;SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORMANCE arm-asMediumEman, 
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORMANCE arm-asMedium, 
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERCEPTIBILITYDOMAIN eye-asSensoryOrgan].
 ;;;SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Directionality-Perceptible-Impact-Perform-Domin-Criterial-PhysBod
  
@@ -10917,21 +10918,16 @@ SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY inhr-comp ],
  
 ;;; LEXVALS:(throw__ditrObl-oblPRTOFiob & throw__intr & throw-up__intrPrtc & throw__tr & throw__tr-obDir)].
 
-#|
-SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY directedActMinTract, 
-SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORMANCE willed-with-arm,  
-SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY arm-k , 
-|#
 
-to-arm_tr_vlxm := v-tr  & 
+to-inh-comp_tr_vlxm := v-tr  & 
 [INFLECTION nonfstr-et, 
 STEM < "to" >, 
-SYNSEM.LKEYS.KEYREL.PRED "_to_v-intr_rel",
+SYNSEM.LKEYS.KEYREL.PRED "_to_v-tr_rel",
+SYNSEM.LKEYS.KEYREL.CRITERIAL #2 & "_mouth_rel",
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY dynMinTract, 
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORMANCE willedwithmouth, 
-;SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERCEPTIBILITYDOMAIN eye-asSensoryOrgan, 
-SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY #1 & ntasuo-inhcmp ]]> ], 
-VERB-CLASSIFIER [KEYS.KEY #1],
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY ntasuo-inhcmp ]]> ], 
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LKEYS.KEYREL.KIND #2 ]> ], 
 SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
 
 ntasuo_reg-inh_nlxm := masc-inher-noun-lxm &
@@ -10940,4 +10936,23 @@ ntasuo_reg-inh_nlxm := masc-inher-noun-lxm &
       SYNSEM.LKEYS.KEYREL.PRED "_ntasuo_n_rel",
       SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY ntasuo-inhcmp ]].
 
+;Ewe
+;George da tú Kofi 'G throw gun K' = G fires a gun at K'
 
+
+da-inh-comp_ditr_vlxm := ditrans-arg1-2-medium-verb-lexeme  & 
+[INFLECTION nonfstr-et, 
+STEM < "da" >, 
+SYNSEM.LKEYS.KEYREL.PRED "_da_2-participants_rel",
+SYNSEM.LKEYS.KEYREL.CRITERIAL #2 & "_gun_rel",
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY dynMinTract, 
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORMANCE willedwithgun, 
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY tu-inhcmp ]], []> ], 
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LKEYS.KEYREL.KIND #2 ], []> ], 
+SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
+
+tú_reg-inh_nlxm := masc-inher-noun-lxm &
+  [ STEM < "tu" >,
+      INFLECTION final-full,
+      SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel",
+      SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY tu-inhcmp ]].

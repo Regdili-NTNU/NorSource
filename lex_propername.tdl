@@ -5796,6 +5796,10 @@ georg_propername-boyfirstname := firstname-mascsg-anim-proper-name-word &
    [ STEM < "Georg" >,
        SYNSEM.LKEYS.KEYREL.CARG "Georg" ].
 
+george_propername-boyfirstname := firstname-mascsg-anim-proper-name-word &
+   [ STEM < "George" >,
+       SYNSEM.LKEYS.KEYREL.CARG "George" ].
+
 gjermund_propername-boyfirstname := firstname-mascsg-anim-proper-name-word &
    [ STEM < "Gjermund" >,
        SYNSEM.LKEYS.KEYREL.CARG "Gjermund" ].
@@ -6163,6 +6167,10 @@ kjetil_propername-boyfirstname := firstname-mascsg-anim-proper-name-word &
 knut_propername-boyfirstname := firstname-mascsg-anim-proper-name-word &
    [ STEM < "Knut" >,
        SYNSEM.LKEYS.KEYREL.CARG "Knut" ].
+
+kofi_propername-boyfirstname := firstname-mascsg-anim-proper-name-word &
+   [ STEM < "Kofi" >,
+       SYNSEM.LKEYS.KEYREL.CARG "Kofi" ].
 
 konrad_propername-boyfirstname := firstname-mascsg-anim-proper-name-word &
    [ STEM < "Konrad" >,
@@ -21793,9 +21801,9 @@ OLGA_n1 := femsg-anim-proper-name-word   &
    [ STEM < "OLGA" >,
        SYNSEM.LKEYS.KEYREL.CARG "OLGA" ].
 
-PETER_n1 := mascsg-anim-proper-name-word   &
-   [ STEM < "PETER" >,
-       SYNSEM.LKEYS.KEYREL.CARG "PETER" ].
+Peter_n1 := mascsg-anim-proper-name-word   &
+   [ STEM < "Peter" >,
+       SYNSEM.LKEYS.KEYREL.CARG "Peter" ].
 
 PIRTERMINALEN_n1 := mascsg-inan-proper-name-word &
    [ STEM < "PIRTERMINALEN" >,

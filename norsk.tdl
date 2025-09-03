@@ -1109,6 +1109,7 @@ gråt-k := predsort.
 ting-k := predsort.
 arm-k := predsort.  ; for kwa obj
 ntasuo-k := predsort. ; for kwa obj
+tu-k := predsort. ; for kwa obj
 bryllup-k := predsort.
 måte-k := relinan.
 fare-k := relinan.
@@ -2003,6 +2004,7 @@ dagtid-inhcmp := inhr-comp & dagtid-k.
 ;kwa-inh nouns
 arm-inhcmp := inhr-comp & arm-k.
 ntasuo-inhcmp := inhr-comp & ntasuo-k.
+tu-inhcmp := inhr-comp & tu-k.
 
 locomotion-event-inhcmp := inhr-comp & dirnoun.
 tur-inhcmp-sup := locomotion-event-inhcmp.
@@ -7096,8 +7098,7 @@ verb-general-lexeme := top-verb-lexeme & lbl-ltop-lex-item &
     SYNSEM.LOCAL.HAS-WH-MOVED -,
     SYNSEM.LOCAL.HEAD-SUBJ-APPLIED -,
     SYNSEM.LOCAL.COMPS-BEGUN -,				;; Added to avoid s-final. EAA030811
-    SYNSEM.BIND unbnd,
-    VERB-CLASSIFIER head].  ; last line for expr with Kwa-verb objects
+    SYNSEM.BIND unbnd].  
 
 verb-lexeme := verb-general-lexeme &
   [ SYNSEM.LOCAL.CAT.HEAD verb  & [VOICE active,
@@ -7173,6 +7174,11 @@ intrans-arg1-result-verb-lexeme := verb-general-lexeme &
 ; sove, starte, sove, revne, stå
 intrans-arg1-verb-lexeme := verb-lexeme &
 [ SYNSEM intrans-arg1-synsem,
+  EXTRACTED-FROM -  ].
+
+;Kwa
+intrans-medium-verb-lexeme := verb-lexeme &
+[ SYNSEM intrans-medium-synsem,
   EXTRACTED-FROM -  ].
 
 ; gå, løpe, hoppe
@@ -7471,6 +7477,11 @@ subj-equi-pp-atelic-verb-lexeme := verb-lexeme &
 trans-arg1-2-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-arg1-2-synsem & [ LOCAL.CAT.VAL [ COMPS <[ ]>]] ].
 
+;Kwa
+trans-arg1-medium-verb-lexeme := verb-lexeme &
+[ SYNSEM trans-arg1-medium-synsem & [ LOCAL.CAT.VAL [ COMPS <[ ]>]] ].
+
+
 ; MUST MAKE A COMMON EXCL SUPERTYPE OF INHER-COMPL AND referential-thing,
 ; to make head-verb-comp-phrase subsume this type
 ;trans-arg1-2inh-verb-lexeme := verb-lexeme &
@@ -7491,8 +7502,6 @@ trans-arg1-2refl-verb-lexeme := verb-lexeme &
 trans-arg1-2dir-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-arg1-2dir-synsem & [LOCAL [ CAT.VAL [SUBJ <[ ] >,
                                             COMPS <[ ]>]]] ].
-
-
 
 ; basere NP på, fortelle tull om - not discrim the governee of prep
 trans-obl-sup-verb-lexeme := verb-lexeme &
@@ -7987,8 +7996,6 @@ trans-secpred-refl-dir-verb-lexeme := verb-lexeme &
                              [ LOCAL.CONT.HOOK.INDEX ad-event & [SORT path-related-motion]] >]] ].
 
 
-
-
 ; sparke ballen flat
 trans-secpred-arg1-2-x-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-secpred-arg1-2-x-synsem ].
@@ -8083,6 +8090,10 @@ trans-indir-sudecl-obinterr-verb-lexeme := verb-lexeme &
 ; overlate, vise_1, unne
 ditrans-arg1-2-3-verb-lexeme := verb-lexeme & 
 [ SYNSEM ditrans-arg1-2-3-synsem ].
+
+;Kwa
+ditrans-arg1-2-medium-verb-lexeme := verb-lexeme & 
+[ SYNSEM ditrans-arg1-2-medium-synsem ].
 
 ; unne_1 (seg)
 ditrans-arg1-2-3refl-verb-lexeme := verb-lexeme & 
@@ -19258,6 +19269,15 @@ arg1-subj-synsem := lex-synsem &
 			 LOCAL.CONT.HOOK.INDEX #1 & ref-ind]>],
    LKEYS.KEYREL.ARG1 #1 ].
 
+;Kwa
+medium-subj-synsem := lex-synsem & 
+ [ LOCAL.CONT mrs,
+   LOCAL [CAT.VAL.SUBJ <[LOCAL.CAT.HEAD.EXPLETIVE -,
+			 LOCAL.CONT.HOOK.INDEX #1 & ref-ind]>],
+   LKEYS.KEYREL.MEDIUM #1 ].
+
+
+
 eventarg1-subj-synsem := lex-synsem &
  [ LOCAL.CONT mrs,
    LOCAL.CAT.HEAD.INV -,
@@ -19282,6 +19302,11 @@ intrans-arg1-synsem-super := intrans-synsem & arg1-subj-synsem &
  [ LOCAL.CAT [ VAL.ICOMPS <>,
 	       QVAL intrans-qval ]].
 
+;Kwa
+intrans-medium-synsem-super := intrans-synsem & medium-subj-synsem &
+ [ LOCAL.CAT [ VAL.ICOMPS <>,
+	       QVAL intrans-qval ]].
+
 intrans-eventarg1-synsem := intrans-synsem & eventarg1-subj-synsem &
  [ LOCAL.CAT [ VAL.ICOMPS <>]].
 
@@ -19293,6 +19318,13 @@ arg2-comps-synsem := lex-synsem &
 				 LOCAL.CAT.HEAD.EXPLETIVE -]],
     LOCAL [ CAT.QVAL.DOBJECT [LOCAL.CONT.HOOK.INDEX #1 & semarg ]],
     LKEYS.KEYREL.ARG2 #1 ].
+
+;Kwa
+medium-obj-synsem := lex-synsem &
+  [ LOCAL [ CAT.VAL.COMPS.FIRST [LOCAL.CONT.HOOK.INDEX #1 & semarg,
+				 LOCAL.CAT.HEAD.EXPLETIVE -]],
+    LOCAL [ CAT.QVAL.DOBJECT [LOCAL.CONT.HOOK.INDEX #1 & semarg ]],
+    LKEYS.KEYREL.MEDIUM #1 ].
 
 
 arg2-qvalcomps-synsem := lex-synsem &
@@ -19308,6 +19340,13 @@ arg23-comps-synsem := lex-synsem &
   [ LOCAL [ CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 & ref-ind ],
                             [LOCAL.CONT.HOOK.INDEX #2 & ref-ind ]>],
     LKEYS.KEYREL.ARG3 #1,
+    LKEYS.KEYREL.ARG2 #2 ]. 
+
+;Kwa
+arg2-medium-comps-synsem := lex-synsem &
+  [ LOCAL [ CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 & ref-ind ],
+                            [LOCAL.CONT.HOOK.INDEX #2 & ref-ind ]>],
+    LKEYS.KEYREL.MEDIUM #1,
     LKEYS.KEYREL.ARG2 #2 ]. 
 
 trans-synsem := lex-synsem &
@@ -19344,6 +19383,11 @@ argcsx-predicative-synsem := lex-synsem &
 
 intrans-arg1-synsem := intrans-arg1-synsem-super &
   [ LOCAL.CONT.HOOK hook ].
+
+;Kwa
+intrans-medium-synsem := intrans-medium-synsem-super &
+  [ LOCAL.CONT.HOOK hook ].
+
 
 ; synsems for verbs with subjects undergoing path-movement
 intrans-arg1dir-synsem := intrans-arg1-synsem-super &
@@ -20398,12 +20442,35 @@ trans-arg1-2-synsem-sup := trans-synsem & arg1-subj-synsem & arg2-comps-synsem &
 ;  [ LOCAL.CONT.HOOK hook,
 ;    LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING nontamed ] >].
 ; removed LOCAL.CONT.HOOK.INDEX.ROLE non-initiator, not because that is false, but because it needs cross-classification with all other sorts of NP specifcations coming from the object
-; also removed LOCAL.CAT.HEAD.KEYS.KEY non-measurnoun as COMPS specification, as it excludes too much, like "det er fredag"                            
+; also removed LOCAL.CAT.HEAD.KEYS.KEY non-measurnoun as COMPS specification, as it excludes too much, like "det er fredag"   
+
+;Kwa
+; for "vaske seg" + "vaske koppen"  <...
+trans-arg1-medium-synsem-sup := trans-synsem & arg1-subj-synsem & medium-obj-synsem &
+  [ LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX ref-ind,
+			   LOCAL.CAT.HEAD.PRESENTED -,
+			   LOCAL.CAT.HEAD.EXPLETIVE -] >,
+    LOCAL.CAT.VAL.ICOMPS <>,
+    LOCAL.CAT trans-nosecpred-empty-icomps-cat,
+    LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX #3,
+    LOCAL.HAS-A-V-COMPLEMENT -,
+    LOCAL.CONT.HOOK.VARG #3,
+    LKEYS.KEYREL.MEDIUM #3 ].
+                         
 trans-arg1-2-synsem := trans-arg1-2-synsem-sup &
   [ LOCAL.CONT.HOOK hook,
     LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING.LEX-TAME -,
 			    LOCAL.CAN-MAL-DROP -, ; for reflexive object - for mal-gram uses!
-			    LOCAL.BINDING.BOUND bool] >]. ; '-' blocks non-tame reflexives, perhaps ("fortære seg selv"). yes, so back to bool.
+			    LOCAL.BINDING.BOUND bool] >].
+
+;Kwa
+trans-arg1-medium-synsem := trans-arg1-medium-synsem-sup &
+  [ LOCAL.CONT.HOOK hook,
+    LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING.LEX-TAME -,
+			    LOCAL.CAN-MAL-DROP -, ; for reflexive object - for mal-gram uses!
+			    LOCAL.BINDING.BOUND bool] >].
+
+ ; '-' blocks non-tame reflexives, perhaps ("fortære seg selv"). yes, so back to bool.
 
 ;LH020216  Emergency solution: since the 'seg' comes with an independent binder, the mrs gets illformed - two quantifiers binding the same variable. Bu currently, other parts of the binding apparatus blocks 'jeg skammer meg' from coming through at all. See roots.tdl and head-verb-tame-comp-phrase.
 trans-arg1-2refl-synsem := trans-arg1-2-synsem-sup &
@@ -22014,7 +22081,25 @@ ditrans-arg1-2-3-synsem-sup := ditrans-synsem & arg1-subj-synsem & arg23-comps-s
 			  [LOCAL.MUST-APP bool,
 			   LOCAL.APPOSITION-COMPLEX -] >  ].
 
+;Kwa
+ditrans-arg1-2-medium-synsem-sup := ditrans-synsem & arg1-subj-synsem & arg2-medium-comps-synsem &
+  [ LOCAL [ CONT.HOOK.VARG #2],
+    LKEYS.KEYREL.ARG2 #2,
+    LOCAL.CAT.VAL.SUBJ < [ LOCAL.SPEC-TO-BARE-N -,
+			   LOCAL.CARD-TO-BARE-N - ]>,
+    LOCAL.CAT.VAL.COMPS < [LOCAL.SPEC-TO-BARE-N -, ; LOCAL.CONT.HOOK.INDEX.SORT anim-thing, - naive, this can be done only once all 60,000 nouns are classified appropriately			   
+			   LOCAL.CARD-TO-BARE-N -,
+			   LOCAL.MUST-APP bool,; both were '+', for forgotten reason
+			   LOCAL.APPOSITION-COMPLEX - ], 
+			  [LOCAL.MUST-APP bool,
+			   LOCAL.APPOSITION-COMPLEX -] >  ].
+
 ditrans-arg1-2-3-synsem := ditrans-arg1-2-3-synsem-sup & 
+  [ LOCAL.CONT.HOOK hook,
+    LOCAL.CAT.VAL.COMPS < [LOCAL.BINDING.LEX-TAME - ], [] > ].
+
+;Kwa
+ditrans-arg1-2-medium-synsem := ditrans-arg1-2-medium-synsem-sup & 
   [ LOCAL.CONT.HOOK hook,
     LOCAL.CAT.VAL.COMPS < [LOCAL.BINDING.LEX-TAME - ], [] > ].
 

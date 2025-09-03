@@ -139,6 +139,7 @@ SIT-TYPE.PERFORMANCE : SIT-TYPE.PERFORMANCE
 ;performance <> performance
 ;willedwithArm <> willedwitharm
 willedwithMouth <> willedwithmouth
+willedwithgun <> willedwithgun
 
 ;impact := verbfeature &
 SIT-TYPE.IMPACTDOMAIN : SIT-TYPE.IMPACTDOMAIN 
@@ -228,6 +229,8 @@ constructivity : constructivity
 SIT-TYPE.PERCEPTIBILITYDOMAIN : SIT-TYPE.PERCEPTIBILITYDOMAIN 
 eye-asSensoryOrgan <> eye-asSensoryOrgan
 
+;SYNSEM.LKEYS.KEYREL.CRITERIAL : SYNSEM.LKEYS.KEYREL.CRITERIAL
+;"_mouth_v-tr_rel" <> "_mouth_v-tr_rel"
 
 
 

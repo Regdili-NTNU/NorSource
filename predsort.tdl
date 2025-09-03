@@ -1131,10 +1131,12 @@ arm-asMedium := medium-of-emanation.
 foot-asMedium := medium-of-emanation.
 mouth-asMedium := medium-of-emanation.
 chest-asMedium := medium-of-emanation.
+gun-asMedium := medium-of-emanation.
 willedwithArm := willed & arm-asMedium.
 willedwithFoot := willed & foot-asMedium.
 willedwithMouth := willed & mouth-asMedium.
 willedwithChest := willed & chest-asMedium.
+willedwithgun := willed & gun-asMedium.
 
 
 ;emanation-pur := emanation.
