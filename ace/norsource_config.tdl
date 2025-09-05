@@ -6,7 +6,7 @@ maxent-model              := "../bongram_776.mem".
 preprocessor              := "../rpp/simple_tokenizer.rpp".
 parse-node-labels         := "../labels.tdl".
 version                   := "../Version.lsp".
-freezer-megabytes         := 300.
+freezer-megabytes         := 360.
 
 semantic-inteface-top-type := top.
 
