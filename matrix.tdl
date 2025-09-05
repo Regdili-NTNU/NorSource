@@ -784,11 +784,17 @@ arg1234-relation := arg123-relation &
   [ ARG4 semarg ].
 
 event-relation := arg0-relation &
-  [ ARG0 event,
-    CRITERIAL predsort].  ; in Kwa modeling
+  [ ARG0 event ].
+;,
+;    CRITERIAL predsort].  
 
+; in Kwa modeling
 event-medium-relation := event-relation & 
   [ MEDIUM semarg ].
+
+; in Kwa modeling
+event-metaunit-relation := event-relation & 
+  [ META-UNIT semarg ].
 
 ad-event-relation := arg0-relation  &  [ ARG0 ad-event ]. 
 
@@ -805,6 +811,9 @@ arg1234-ev-relation := arg123-ev-relation & arg1234-relation.
 ; for Kwa
 arg1-ev-medium-relation := arg1-relation & event-medium-relation.
 arg12-ev-medium-relation := arg1-ev-medium-relation & arg12-relation.
+arg1-ev-metaunit-relation := arg1-relation & event-metaunit-relation.
+arg12-ev-metaunit-relation := arg1-ev-metaunit-relation & arg12-relation.
+
 
 
 
@@ -817,8 +826,9 @@ verb-ellipsis-relation := arg1-relation-sup.
 ; Noun relations
 
 noun-relation := arg0-relation &
-  [ ARG0 ref-ind,
-    KIND predsort ].
+  [ ARG0 ref-ind ].
+;,
+;    KIND predsort ].
 
 ; Relational nouns like 'picture' or 'claim' take an additional semantic 
 ; argument

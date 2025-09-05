@@ -138,8 +138,9 @@ ear-asSensoryOrgan <> ear-asSensoryOrgan
 SIT-TYPE.PERFORMANCE : SIT-TYPE.PERFORMANCE
 ;performance <> performance
 ;willedwithArm <> willedwitharm
-willedwithMouth <> willedwithmouth
-willedwithgun <> willedwithgun
+;willedwithMouth <> willedwithmouth
+;willedwithgun <> willedwithgun
+willed <> willed
 
 ;impact := verbfeature &
 SIT-TYPE.IMPACTDOMAIN : SIT-TYPE.IMPACTDOMAIN 

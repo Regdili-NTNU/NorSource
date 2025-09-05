@@ -1110,6 +1110,7 @@ ting-k := predsort.
 arm-k := predsort.  ; for kwa obj
 ntasuo-k := predsort. ; for kwa obj
 tu-k := predsort. ; for kwa obj
+daEVENT-k := predsort. ; for kwa obj
 bryllup-k := predsort.
 måte-k := relinan.
 fare-k := relinan.
@@ -2005,6 +2006,7 @@ dagtid-inhcmp := inhr-comp & dagtid-k.
 arm-inhcmp := inhr-comp & arm-k.
 ntasuo-inhcmp := inhr-comp & ntasuo-k.
 tu-inhcmp := inhr-comp & tu-k.
+daEVENT-inhcmp := inhr-comp & daEVENT-k.
 
 locomotion-event-inhcmp := inhr-comp & dirnoun.
 tur-inhcmp-sup := locomotion-event-inhcmp.
@@ -7480,6 +7482,10 @@ trans-arg1-2-verb-lexeme := verb-lexeme &
 ;Kwa
 trans-arg1-medium-verb-lexeme := verb-lexeme &
 [ SYNSEM trans-arg1-medium-synsem & [ LOCAL.CAT.VAL [ COMPS <[ ]>]] ].
+
+;Kwa
+trans-arg1-metaunit-verb-lexeme := verb-lexeme &
+[ SYNSEM trans-arg1-metaunit-synsem ].
 
 
 ; MUST MAKE A COMMON EXCL SUPERTYPE OF INHER-COMPL AND referential-thing,
@@ -19326,6 +19332,13 @@ medium-obj-synsem := lex-synsem &
     LOCAL [ CAT.QVAL.DOBJECT [LOCAL.CONT.HOOK.INDEX #1 & semarg ]],
     LKEYS.KEYREL.MEDIUM #1 ].
 
+;Kwa
+metaunit-obj-synsem := lex-synsem &
+  [ LOCAL [ CAT.VAL.COMPS.FIRST [LOCAL.CONT.HOOK.INDEX #1 & semarg,
+				 LOCAL.CAT.HEAD.EXPLETIVE -]],
+    LOCAL [ CAT.QVAL.DOBJECT [LOCAL.CONT.HOOK.INDEX #1 & semarg ]],
+    LKEYS.KEYREL.META-UNIT #1 ].
+
 
 arg2-qvalcomps-synsem := lex-synsem &
   [ LOCAL [ CAT.QVAL.DOBJECT [LOCAL.CONT.HOOK.INDEX #1 & semarg ]],
@@ -19343,11 +19356,17 @@ arg23-comps-synsem := lex-synsem &
     LKEYS.KEYREL.ARG2 #2 ]. 
 
 ;Kwa
+; NB 'comps' here stands for two NPs, one with arg2 status, one with 'medium' status
 arg2-medium-comps-synsem := lex-synsem &
   [ LOCAL [ CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 & ref-ind ],
                             [LOCAL.CONT.HOOK.INDEX #2 & ref-ind ]>],
     LKEYS.KEYREL.MEDIUM #1,
     LKEYS.KEYREL.ARG2 #2 ]. 
+
+;Kwa
+metaunit-comps-synsem := lex-synsem &
+  [ LOCAL [ CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 & ref-ind ]>],
+    LKEYS.KEYREL.META-UNIT #1 ]. 
 
 trans-synsem := lex-synsem &
   [ LOCAL.CAT trans-1ncomps-empty-icomps-cat & [ QVAL trans-qval ]].
@@ -20445,8 +20464,7 @@ trans-arg1-2-synsem-sup := trans-synsem & arg1-subj-synsem & arg2-comps-synsem &
 ; also removed LOCAL.CAT.HEAD.KEYS.KEY non-measurnoun as COMPS specification, as it excludes too much, like "det er fredag"   
 
 ;Kwa
-; for "vaske seg" + "vaske koppen"  <...
-trans-arg1-medium-synsem-sup := trans-synsem & arg1-subj-synsem & medium-obj-synsem &
+trans-arg1-medium-synsem := trans-synsem & arg1-subj-synsem & medium-obj-synsem &
   [ LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX ref-ind,
 			   LOCAL.CAT.HEAD.PRESENTED -,
 			   LOCAL.CAT.HEAD.EXPLETIVE -] >,
@@ -20457,20 +20475,33 @@ trans-arg1-medium-synsem-sup := trans-synsem & arg1-subj-synsem & medium-obj-syn
     LOCAL.CONT.HOOK.VARG #3,
     LKEYS.KEYREL.MEDIUM #3 ].
                          
+trans-arg1-metaunit-synsem := trans-synsem & arg1-subj-synsem & metaunit-obj-synsem &
+  [ LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX ref-ind,
+			   LOCAL.CAT.HEAD.PRESENTED -,
+			   LOCAL.CAT.HEAD.EXPLETIVE -] >,
+    LOCAL.CAT.VAL.ICOMPS <>,
+    LOCAL.CAT trans-nosecpred-empty-icomps-cat,
+    LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX #3,
+    LOCAL.HAS-A-V-COMPLEMENT -,
+    LOCAL.CONT.HOOK.VARG #3,
+    LKEYS.KEYREL.META-UNIT #3 ].
+                         
+
+#|
+trans-arg1-metaunit-synsem := trans-synsem & arg1-subj-synsem & metaunit-obj-synsem &
+  [ LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #3 & ref-ind] >,
+    LOCAL.CAT.VAL.ICOMPS <>,
+    LOCAL.HAS-A-V-COMPLEMENT -,
+    LKEYS.KEYREL.META-UNIT #3 ].
+|#
+                         
 trans-arg1-2-synsem := trans-arg1-2-synsem-sup &
   [ LOCAL.CONT.HOOK hook,
     LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING.LEX-TAME -,
 			    LOCAL.CAN-MAL-DROP -, ; for reflexive object - for mal-gram uses!
 			    LOCAL.BINDING.BOUND bool] >].
 
-;Kwa
-trans-arg1-medium-synsem := trans-arg1-medium-synsem-sup &
-  [ LOCAL.CONT.HOOK hook,
-    LOCAL.CAT.VAL.COMPS < [ LOCAL.BINDING.LEX-TAME -,
-			    LOCAL.CAN-MAL-DROP -, ; for reflexive object - for mal-gram uses!
-			    LOCAL.BINDING.BOUND bool] >].
 
- ; '-' blocks non-tame reflexives, perhaps ("fortære seg selv"). yes, so back to bool.
 
 ;LH020216  Emergency solution: since the 'seg' comes with an independent binder, the mrs gets illformed - two quantifiers binding the same variable. Bu currently, other parts of the binding apparatus blocks 'jeg skammer meg' from coming through at all. See roots.tdl and head-verb-tame-comp-phrase.
 trans-arg1-2refl-synsem := trans-arg1-2-synsem-sup &
