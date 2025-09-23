@@ -151,6 +151,43 @@ iranskmann_n_masc_nlxm := masc-reginan-noun-lxm &
       SYNSEM [ LKEYS.KEYREL.PRED "_iranskmann_n_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
+;for EngNoGram:
+girl_n_fem_nlxm := fem-reganim-noun-lxm &
+  [ INFLECTION final-full-strong,
+      STEM < "girl" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_girl_n_rel",
+               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+boy_n_masc_nlxm := masc-reganim-noun-lxm &
+  [ INFLECTION final-full-strong,
+      STEM < "boy" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_boy_n_rel",
+               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+woman_n_fem_nlxm := fem-reganim-noun-lxm &
+  [ INFLECTION final-full-strong,
+      STEM < "woman" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_woman_n_rel",
+               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+uncle_n_masc_nlxm := masc-reganim-noun-lxm &
+  [ INFLECTION final-full-strong,
+      STEM < "uncle" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_uncle_n_rel",
+               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+spear_n_masc_nlxm := masc-reganim-noun-lxm &
+  [ INFLECTION final-full-strong,
+      STEM < "spear" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_spear_n_rel",
+               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gun_n_masc_nlxm := masc-reganim-noun-lxm &
+  [ INFLECTION final-full-strong,
+      STEM < "gun" >,
+      SYNSEM [ LKEYS.KEYREL.PRED "_gun_n_rel",
+               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
 
 
 ; "sett telefonen på Stille"
@@ -4467,6 +4504,12 @@ det_expl := explet-pron-word &
 ; correct items, but dem-word includes them in gross distrib, so by commenting away we halfen parse-amount
 ;den_def-art := det-fam-masc-or-fem-sg-word &
 ;  [ STEM < "den" >].
+
+;Engl:
+the_def-art := dem-word & 
+  [ STEM < "the" >].
+;det-fam-masc-or-fem-sg-word &
+;-masc-or-fem-sg
 
 ;det_def-art := det-fam-neutsg-word &
 ;  [ STEM < "det" >].

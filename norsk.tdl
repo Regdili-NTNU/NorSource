@@ -24511,6 +24511,7 @@ role-in-situation-status := class.
 ; discourse
 ; moved to matrix
 ;discmode := sort.
+
 single-developer := discmode.
 presented-developer := discmode.
 interact-developer := discmode.
@@ -24519,14 +24520,15 @@ question := discmode.
 response := discmode.
 added-info := discmode.
 
+
 disc-add-phrase := basic-head-mod-phrase-simple & head-final &
-   [ DISC-MODE #2 & discmode,
-     SYNSEM.LOCAL.CAT.VAL [SUBJ antilist,
+   [ SYNSEM.LOCAL.CAT.VAL [SUBJ antilist,
 			   COMPS <>,
 			   SPR <>,
 			   SPEC <>],
      SYNSEM.LOCAL.CAT.QVAL #qval,
      SYNSEM.LOCAL.CONT.HOOK.INDEX #3 & [E.MOOD #1],
+     DISC-MODE #2 & discmode,
      SYNSEM.LOCAL.CONT.HOOK.INDEX.DISC-MOVE #2,
      SYNSEM.NON-LOCAL.SLASH <! !>,
      SYNSEM.LOCAL.WAIT-BND-RESP #resp,

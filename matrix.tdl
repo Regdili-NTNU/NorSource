@@ -696,6 +696,8 @@ event-verb := event &
     SIT-TYPE semsort,
     DISC-MOVE discmode ].
 
+;    DISC-MOVE discmode ].
+
 
 event-min := event.
 

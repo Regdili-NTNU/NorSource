@@ -40,6 +40,11 @@ pres-s-infl_rule :=
 infl-pres-verb-word &
 [ ARGS < [ INFLECTION phon ] > ].
 
+; for Ewe guests
+pres-const_infl_rule :=
+const-pres-verb-word &
+[ ARGS < [ INFLECTION phon ] > ].
+
 
 pret-finalstr_infl_rule :=
 %suffix (e edde)(a adde)(o odde)(ø ødde)(å ådde)(u udde)(i idde)(æ ædde)(y ydde)
