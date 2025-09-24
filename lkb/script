@@ -151,7 +151,7 @@
  :filter nil :task :fixup :edges 200) 
 
 ;;; semi mapping
-(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
+;;;(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
 
 ;;;
 ;;; A few more LKB-specific settings, this time for MRS post-processing and
