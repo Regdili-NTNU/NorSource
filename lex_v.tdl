@@ -65130,9 +65130,33 @@ registrere_tr-subord_vlxm := v-tr-obDECL &
 
 registrere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
-      STEM < "registrere" >,
-      SYNSEM.LKEYS.KEYREL.PRED "_registrere_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+    STEM < "registrere" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_registrere_v-tr_rel",
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1, 
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.COGDOMAIN  attention, 
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DEPENDENCE adm-empowered, 
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORM-MODE willed, 
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.SYMBCONT declarative-symb, 
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.SATURATION all_three, 
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Dependence-Procedure-Perform-SymbVal  & [COGDOMAIN attention, DEPENDENCE fact-empowered, PROCEDURE-UNFOLDING variant, PERFORM-MODE willed, SATURATION yn-wh-decl] ].
+
+;registrere & ('register') & [COGDOMAIN attention, DEPENDENCE fact-empowered, PROCEDURE-UNFOLDING variant, PERFORM-MODE willed, SATURATION yn-wh-decl]. 
+
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Cogn & [COGDOMAIN attention],
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Dependence & [DEPENDENCE fact-empowered],
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Procedure & [PROCEDURE-UNFOLDING variant],
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Perform & [PERFORM-MODE willed],
+;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE SymbVal & [SATURATION all_three] ].
+
+
+#|
+LOCAL.CONT.HOOK.INDEX.SIT-TYPE registrere & ('register') &	{Sustain & Cogn & Dependence & Procedure & Perform & SymbVal}
+LOCAL.CONT.HOOK.INDEX.SIT-TYPE Cogn & COGDOMAIN attention
+LOCAL.CONT.HOOK.INDEX.SIT-TYPE Dependence & DEPENDENCE fact-empowered
+LOCAL.CONT.HOOK.INDEX.SIT-TYPE Procedure & PROCEDURE-UNFOLDING variant
+LOCAL.CONT.HOOK.INDEX.SIT-TYPE Perform & PERFORM-MODE willed
+LOCAL.CONT.HOOK.INDEX.SIT-TYPE SymbVal & SATURATION all_three
+|#
 
 regjere_intr-obl-over_vlxm := v-intrObl-oblN &
   [ INFLECTION nonfstr-te,

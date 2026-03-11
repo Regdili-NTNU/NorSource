@@ -16,6 +16,8 @@
 
 ;Definitions replacing those from predsort.tdl, where they were first developed.
 
+
+#|
 verbfeature := semsort.
 
 narrative := verbfeature &
@@ -115,8 +117,8 @@ medium := degr.
 weak := degr. 
 
 polar := sit-parameter.
-postive := polar.
-negtive := polar.
+positively := polar.
+negative := polar.
 emo-vector := sit-parameter.
 oriented-emo := emo-vector & orientation-pur. 
 latent-emo := emo-vector.
@@ -198,6 +200,366 @@ trajectory-variableTrunk := trajectory.
 dynMinTract := trajectory-dyn-with-dispatched-head & trajectory-minimalTrunk.
 mover := trajectory-dyn.
 oriented := trajectory-stat.
+|#
+
+
+;Metafeatures, their aspects and their values
+
+
+verbfeature := semsort.
+
+Perceiving := verbfeature &
+ [PERCEIVEORGAN sensory-organ,
+ PERCEIVEMODE psychbodily].
+Perform := verbfeature &
+ [PERFORM-MODE performance,
+  PERFORM-CAPACITY ability,
+  PERFORM-MEDIUM thing-parameter,
+  PERFORM-DOMAIN organization,
+  PERFORM-DEGREE degr,
+  PERFORM-VERBACTIVITY linguistic-symb,
+  PERFORM-ILLOC verbal-act,
+  PERFORM-SEMIOTIC verbal-act,
+  PERFORM-SEMIOTMOVE semiotmove].
+Perceptible := verbfeature &
+ [PERCEIVECHANNEL sensory-organ,
+  PERCEPTIBILITY-DEGREE degr]. 
+Impact := verbfeature &
+ [IMPACT-PSYCHCOGDOMAIN medbyprcept,  
+  IMPACT-COGDOMAIN cogdomain,  
+  IMPACT-SOCBEHAVDOMAIN performance,  
+  IMPACT-SOC-STATUS soc-status,  
+  IMPACT-PHYS-STATUS performance,  
+  IMPACTAREA thing-parameter, 
+  IMPACTMANNER eventflow,   
+  IMPACTDEGREE degr]. 
+ImpactSensory := impact &
+ [IMPACTAREA sensory-organ].
+Procedure := verbfeature &
+ [PROCEDURE-UNFOLDING eventflow,
+  PROCEDURE-STATUS formality]. ;new
+MedByPrcept := verbfeature &
+ [PRCPTORIENT sensory-domain,
+  COGORIENT cognitive-domain].
+Cogn := verbfeature &
+ [COGDOMAIN cognition].
+Dependence := verbfeature &
+ [DEPENDENCE relational].
+Domin := verbfeature &
+ [DOMINANCE relational].
+Emotion := verbfeature &
+ [EMO-DOMAIN bod-domain,
+  EMO-POL polar,
+  EMO-DEG degr,
+  EMO-VECTOR emo-vector].
+Creation := verbfeature &
+ [CREATIVITY-MODE creativity].
+Responding := verbfeature &
+ [RESPONSE respond].
+Possess := verbfeature &
+ [POSSDOMAIN possession].
+PhysBod := verbfeature &
+ [PHYSBOD physbodily,
+ PSYCHBOD psychbodily].
+VerbalAct := verbfeature &
+ [ILLOCUTION verbal-act,
+ VERBAL-ACTIVITY linguistic-symb,
+ SEMIOTIC-SETTING verbal-act,
+ SEMIOTMOVE semiotmove].
+SymbVal := verbfeature &
+	 [SATURATION saturation,
+	 WORDING-RESPONSIBILITY de-re-de-dicto,
+;	 FACTIVITY factivity,
+	 HONESTY honesty].  
+Purerel := verbfeature &
+ [RELATIONTYPE relation]. 
+Unfold := verbfeature &
+ [UNFOLD eventflow].
+Directionality := verbfeature &
+ [DIRECTIONALITY directed].
+Loc := verbfeature &
+ [LOCATION place].
+Criterial := verbfeature.
+
+symbcont := sit-parameter.
+
+thingcont := symbcont.
+propcont := symbcont.
+;interrogative-symb := propcont & [SATURATION non-saturated].
+;commanding-symb := propcont & [SATURATION saturation].
+;hortative-symb := propcont & [SATURATION saturation].
+;picturing-symb := propcont & [SATURATION saturation].
+
+saturation := sit-parameter.
+
+
+yn-wh-decl := saturation.  ; wh-, yes-no, decl
+wh-decl := saturation.  ; wh-, decl
+decl := saturation.  ; decl
+yn-wh := saturation.  ; wh-, yes-no
+wh := saturation.  ; wh-
+yn-decl := saturation.   ;saturated and non-saturated truthvalue  ; DECL, yes-no
+
+;all_three := saturation.  ; wh-, yes-no, decl
+;both_main := saturation.  ; wh-, decl
+;saturated := saturation.  ; decl
+;non-saturated := saturation.  ; wh-, yes-no
+;wh-non-saturated := saturation.  ; wh-
+;decl_yes-no := saturation.   ;saturated and non-saturated truthvalue  ; DECL, yes-no
+non-saturated_manner := saturation.  ; verlauf-hvordan   TODO
+de-re-de-dicto := sit-parameter.
+de-re := de-re-de-dicto.
+de-dicto := de-re-de-dicto.
+honesty := sit-parameter.
+factivity := sit-parameter.
+factive := factivity.
+nonfactive := factivity.
+honest := honesty.
+dishonest := honesty.
+
+semiotmove := sit-parameter.
+enhancing := semiotmove.
+
+cogdomain := sit-parameter.
+
+physbodily := physical.
+psychbodily := psychological & bod-domain.
+
+thing-parameter := sit-parameter.
+	
+mental-domain := thing-parameter.
+numbers := thing-parameter. 
+scalar-domain := thing-parameter.
+semantic-domain := thing-parameter. 
+bod-domain := thing-parameter & physbodily. 
+memory := mental-domain.
+signifying := semantic-domain.
+surface := bod-domain.
+bod-organ := bod-domain.
+sensory-organ := bod-organ.
+eye := sensory-organ.
+ear := sensory-organ.
+skin := sensory-organ.
+tongue := sensory-organ.
+nose := sensory-organ.
+proprioceptor := sensory-organ.
+heart := bod-organ.
+bod-limb := bod-organ.
+foot := bod-limb.
+arm := bod-limb.
+bod-intest := bod-organ.
+kidney := bod-intest.
+bod-truncpart := bod-domain.
+stomach := bod-truncpart.
+chest := bod-truncpart.
+mouth := bod-organ.
+vocal-tract := bod-organ.
+tool := thing-parameter. 
+gun := tool.
+camera := tool.
+organization := thing-parameter. 
+filmmaking := organization.
+admin-organization := organization.
+quality := scalar-domain.
+quantity := scalar-domain.
+clarity := scalar-domain.
+
+sit-parameter := situations.
+
+performance := sit-parameter.
+willed := performance.
+strongly := performance.
+weakly := performance.
+helpless := performance.
+incident := performance.
+compliance := performance.
+do-evil := performance.
+over-doing := performance.
+fail-doing := performance.
+
+ability := sit-parameter.
+  
+
+degr := sit-parameter.
+strong := degr. 
+middle := degr. 
+weak := degr. 
+nihil := degr. 
+
+polar := sit-parameter.
+positive-pol := polar.
+negative-pol := polar.
+emo-vector := sit-parameter.
+oriented-emo := emo-vector & orientation-pur. 
+latent-emo := emo-vector.
+light-forboding := emo-vector.
+
+eventflow := sit-parameter.
+iterative := eventflow.  
+cyclical := eventflow.  
+variant := eventflow. 
+;stative := eventflow. ;defined in predsort.tdl
+;activity := eventflow.  ;defined in predsort.tdl
+goalguided := eventflow. 
+;semelfactive := eventflow.  ;defined in predsort.tdl
+uphold-stance := eventflow. 
+uphold-circumstance := eventflow. 
+fate := eventflow. 
+
+
+
+cognition := ability.	    ;sit-parameter.
+reasoning := cognition.
+attention := cognition.
+failed-cognition := cognition.
+control := ability.
+envisioning := ability.
+vocal-voice := ability.
+literacy := ability.
+sensibility := ability.
+
+
+cogn-perceiving-emotion := cognition & sensory-organ.
+
+; for dependence and dominance
+relational := sit-parameter. 
+logical-rel := relational.
+symbolic-rel := relational.
+phys-empowered := relational & physbodily.
+psych-empowered := relational & psychbodily.
+adm-empowered := relational & admin.
+soc-empowered := relational & social.
+diagram-empowered := relational & diagrammatical.
+fact-empowered := relational & factual.
+knowledge-empowered := relational & knowledgebased.
+politically-empowered := relational & political.
+representatively-empowered := relational & political.
+observationally-empowered := relational & observational.
+adm-and-politically-empowered := adm-empowered & politically-empowered.
+possession := adm-empowered & soc-empowered.
+soc-or-politically-empowered := soc-empowered & politically-empowered.
+
+; for general use
+major-domain := sit-parameter.
+physical := major-domain.
+psychological := major-domain.
+admin := major-domain.
+factual := major-domain.
+social := major-domain.
+diagrammatical := major-domain.
+political := major-domain.
+knowledgebased := major-domain.
+observational := major-domain.
+
+creativity := sit-parameter.
+invention := creativity.
+tasksolving := creativity.
+artistic := creativity.
+;epistemic := creativity.
+legislative := creativity.
+representing := creativity.
+
+respond := sit-parameter.
+chosen-response := respond & eventflow.
+effect := respond & eventflow.
+opportune-response := respond & eventflow.
+opportunity := respond & eventflow.
+addressing-concern := respond & eventflow.
+addressing-question := respond & eventflow.
+addressing-accusation := respond & eventflow.
+resisting-pressure := respond & eventflow.
+accommodating-pressure := respond & eventflow.
+addressing-suspended-knowledge := respond & eventflow.
+addressing-unclearity := respond & eventflow.
+avoiding-knowledge-sharing := respond & eventflow.
+furthering-resolve := respond & eventflow.
+amending-gap := respond & eventflow.
+
+
+; relevant for  speech acts
+symbmode := sit-parameter.
+acted-symbol := symbmode & willed. 
+linguistic-symb := symbmode.
+verbal-act := acted-symbol & linguistic-symb.
+spoken-symb := linguistic-symb.
+signed-symb := linguistic-symb.
+written-symb := linguistic-symb.
+symbol-pur := symbmode.
+tacit-cont := symbmode.
+spoken-act := verbal-act & spoken-symb.
+signed-act := verbal-act & signed-symb.
+written-act := verbal-act & written-symb.
+coagentive-act := verbal-act.
+discourse-act := verbal-act.
+declarative-act := verbal-act.
+interrogative-act := verbal-act.
+commanding-act := verbal-act.
+hortative-act := verbal-act.
+picturing-act := verbal-act.
+schweigen-act := verbal-act.
+assertion := declarative-act. 
+documenting := declarative-act. 
+query := interrogative-act. 
+reply := declarative-act. 
+commanding := commanding-act. 
+suggesting := hortative-act. 
+picturing := picturing-act.
+quoting := declarative-act. 
+guessing := declarative-act. 
+predicting := declarative-act. 
+shout := spoken-act.
+say := spoken-act.
+whisper := spoken-act.
+coagentive-act-discourse-act-declarative-act := coagentive-act & discourse-act & declarative-act.
+detailing := declarative-act.
+
+
+image := sit-parameter.
+narr := sit-parameter.
+
+directed := sit-parameter.
+trajectory := directed.
+trajectory-dyn := trajectory.
+trajectory-stat := trajectory.
+trajectory-dyn-with-dispatched-head := trajectory-dyn.
+trajectory-dyn-with-contiguous-head := trajectory-dyn.
+orientation-pur := oriented.
+trajectory-minimalTrunk := trajectory.
+trajectory-variableTrunk := trajectory.
+dynMinTract := trajectory-dyn-with-dispatched-head & trajectory-minimalTrunk.
+mover := trajectory-dyn.
+oriented := trajectory-stat.
+
+formality := sit-parameter.
+formal := formality.
+informal := formality.
+
+sensory-domain := sit-parameter.
+visibility := sensory-domain.
+audibility := sensory-domain.
+sensitivity := sensory-domain.
+cognitive-domain := sit-parameter.
+erkenntnis := cognitive-domain & cognition.
+curiosity := cognitive-domain.
+curiosity-for-erkenntnis := curiosity & erkenntnis.
+
+soc-status := sit-parameter.
+phys-status := sit-parameter.
+
+publicity := soc-status.
+legislation := soc-status.
+held-true := soc-status.
+
+xxx := phys-status.
+
+
+Narrative := verbfeature &
+ [NARR narr].
+Imped := narrative.
+Sustain := narrative.
+Further := narrative.
+Prevent := narrative.
+Init := narrative.
 
 
 
