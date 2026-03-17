@@ -39,8 +39,6 @@
 
 
 
-
-
 abandonere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
       STEM < "abandonere" >,
@@ -996,7 +994,8 @@ ane_tr-suInterr_vlxm := v-tr-suINTERR &
   [ INFLECTION nonfstr-et_or_te,
       STEM < "ane" >,
       SYNSEM.LKEYS.KEYREL.PRED "_ane_v-tr-suInterr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-MedByPrcept-Cogn-Emotion-Responding-Unfold-Perform-SymbVal & [PRCPTORIENT sensitivity, COGDOMAIN attention, EMO-VECTOR light-forboding, RESPONSE appraisal, UNFOLD uphold-stance, PERFORM-CAPACITY cognition, PERFORM-VERBACTIVITY tacit-cont, SATURATION yn-wh-decl]].
 
 ane_tr-subord_vlxm := v-tr-obDECL &
   [ INFLECTION nonfstr-et_or_te,
@@ -1642,8 +1641,9 @@ anta_tr-subord_vlxm := v-tr-obDECL &
   [ INFLECTION finstr-tt,
       STEM < "anta" >,
       SYNSEM.LKEYS.KEYREL.PRED "_anta_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
-
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Init-Cogn-VerbalAct-SymbVal & [COGDOMAIN reasoning, VERBAL-ACTIVITY tacit-cont, SEMIOTIC-SETTING assuming, SATURATION wh-decl] ].
+; TODO add wh-embedded frame
 anta_tv_vlxm := v-tr &
   [ INFLECTION finstr-tt,
       STEM < "anta" >,
@@ -1739,7 +1739,8 @@ antyde_tr-subord_vlxm := v-tr-obDECL &
   [ INFLECTION nonfstr-et,
       STEM < "antyde" >,
       SYNSEM.LKEYS.KEYREL.PRED "_antyde_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Perform-SymbVal & [COGDOMAIN reasoning, PERFORM-ILLOC assertion, PERFORM-MODE willed, PERFORM-DEGREE weak, SATURATION yn-wh-decl] ].
 
 antyde_tr-suINTERR_obINTERR_vlxm := v-tr-suINTERR_obINTERR &
   [ INFLECTION nonfstr-et,
@@ -2021,7 +2022,8 @@ arrangere_tr-obINTERR_vlxm := v-tr-obINTERR &
   [ INFLECTION nonfstr-te,
       STEM < "arrangere" >,
       SYNSEM.LKEYS.KEYREL.PRED "_arrangere_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Impact-Procedure-Creation-Perform-SymbVal & [IMPACTAREA organization, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE task-solving, PERFORM-DOMAIN organization, SATURATION yn-wh-decl] ].
 
 arrangere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
@@ -2652,11 +2654,13 @@ avgi_tv_vlxm := v-tr &
       SYNSEM.LKEYS.KEYREL.PRED "_avgi_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+;the agentive reading:
 avgjøre_tr-interr_vlxm := v-intrComp-compINTERR &
   [ INFLECTION nonfstr-strong,
       STEM < "avgjøre" >,
       SYNSEM.LKEYS.KEYREL.PRED "_avgjøre_v-intrComp_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Dependence-Impact-Procedure-Creation-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, DEPENDENCE relational, CREATIVITY-MODE task-solving, RESPONSE chosen-response, ILLOCUTION assertion, DOMINANCE relational, SATURATION yn-wh-decl] ].
 
 avgjøre_tr-subord_vlxm := v-tr-obDECL &
   [ INFLECTION nonfstr-strong,
@@ -30631,7 +30635,11 @@ gå_lightv_vlxm := v-intrLghtScpr-scAdj &
 gå_intrdir_vlxm := v-intr-suDir &
   [ INFLECTION finstr-tt,
       STEM < "gå" >,
-      SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE activity,
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Directionality-Cogn-Emotion-Procedure-Perform-PhysBod & [EMO-DEG strong],
+;SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Perform-Emotion-Responding & [EMO-DEG strong],
+;      SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Emotion-Responding & [EMO-DEG strong],
+;      SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Emotion & [EMO-DEG strong],
+;      SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE activity,
       SYNSEM.LKEYS.KEYREL.PRED "_gå_v-intr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
@@ -65132,31 +65140,20 @@ registrere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
     STEM < "registrere" >,
     SYNSEM.LKEYS.KEYREL.PRED "_registrere_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1, 
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.COGDOMAIN  attention, 
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DEPENDENCE adm-empowered, 
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORM-MODE willed, 
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.SYMBCONT declarative-symb, 
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.SATURATION all_three, 
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Dependence-Procedure-Perform-SymbVal  & [COGDOMAIN attention, DEPENDENCE fact-empowered, PROCEDURE-UNFOLDING variant, PERFORM-MODE willed, SATURATION yn-wh-decl] ].
-
-;registrere & ('register') & [COGDOMAIN attention, DEPENDENCE fact-empowered, PROCEDURE-UNFOLDING variant, PERFORM-MODE willed, SATURATION yn-wh-decl]. 
-
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Cogn & [COGDOMAIN attention],
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Dependence & [DEPENDENCE fact-empowered],
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Procedure & [PROCEDURE-UNFOLDING variant],
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Perform & [PERFORM-MODE willed],
-;    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE SymbVal & [SATURATION all_three] ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Dependence-Procedure-Perform-SymbVal & [COGDOMAIN attention, DEPENDENCE fact-empowered, PROCEDURE-UNFOLDING variant, PERFORM-MODE willed, SATURATION yn-wh-decl] ].
 
 
-#|
-LOCAL.CONT.HOOK.INDEX.SIT-TYPE registrere & ('register') &	{Sustain & Cogn & Dependence & Procedure & Perform & SymbVal}
-LOCAL.CONT.HOOK.INDEX.SIT-TYPE Cogn & COGDOMAIN attention
-LOCAL.CONT.HOOK.INDEX.SIT-TYPE Dependence & DEPENDENCE fact-empowered
-LOCAL.CONT.HOOK.INDEX.SIT-TYPE Procedure & PROCEDURE-UNFOLDING variant
-LOCAL.CONT.HOOK.INDEX.SIT-TYPE Perform & PERFORM-MODE willed
-LOCAL.CONT.HOOK.INDEX.SIT-TYPE SymbVal & SATURATION all_three
-|#
+
+
+
+;LOCAL.CONT.HOOK.INDEX.SIT-TYPE registrere & ('register') &	{Sustain & Cogn & Dependence & Procedure & Perform & SymbVal}
+;LOCAL.CONT.HOOK.INDEX.SIT-TYPE Cogn & COGDOMAIN attention
+;LOCAL.CONT.HOOK.INDEX.SIT-TYPE Dependence & DEPENDENCE fact-empowered
+;LOCAL.CONT.HOOK.INDEX.SIT-TYPE Procedure & PROCEDURE-UNFOLDING variant
+;LOCAL.CONT.HOOK.INDEX.SIT-TYPE Perform & PERFORM-MODE willed
+;LOCAL.CONT.HOOK.INDEX.SIT-TYPE SymbVal & SATURATION all_three
+
 
 regjere_intr-obl-over_vlxm := v-intrObl-oblN &
   [ INFLECTION nonfstr-te,
@@ -103192,4 +103189,91 @@ ytre_tv_vlxm := v-tr &
       STEM < "øyne" >,
       SYNSEM.LKEYS.KEYREL.PRED "_øyne_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+
+
+
+
+;Akan
+to_tr_vlxm := v-tr  & 
+[INFLECTION nonfstr-et, 
+STEM < "to" >, 
+SYNSEM.LKEYS.KEYREL.PRED "_to_v-intr_rel",  
+SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY  mainvb-1,
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY trajectory, 
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY inhr-comp ],
+				LOCAL.CONT.HOOK.INDEX.SORT sort]>]].
+;;;SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Directionality-Perceptible-Impact-Perform-Domin-Criterial-PhysBod
+ 
+;;; LEXVALS:(throw__ditrObl-oblPRTOFiob & throw__intr & throw-up__intrPrtc & throw__tr & throw__tr-obDir)].
+
+
+to-inh-comp_tr_vlxm := v-tr  & 
+[INFLECTION nonfstr-et, 
+STEM < "to" >, 
+SYNSEM.LKEYS.KEYREL.PRED "_to_v-tr_rel",
+;SYNSEM.LKEYS.KEYREL.CRITERIAL #2 & "_mouth_rel",
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY dynMinTract, 
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY ntasuo-inhcmp ]]> ], 
+;SYNSEM.LOCAL.CAT.VAL [COMPS < [ LKEYS.KEYREL.KIND #2 ]> ], 
+SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
+
+ntasuo_reg-inh_nlxm := masc-inher-noun-lxm &
+  [ STEM < "ntasuo" >,
+      INFLECTION final-full,
+      SYNSEM.LKEYS.KEYREL.PRED "_ntasuo_n_rel",
+      SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY ntasuo-inhcmp ]].
+
+spit-arg1-medium_vlxm := trans-arg1-medium-verb-lexeme  & 
+[INFLECTION nonfstr-et, 
+STEM < "spit" >, 
+SYNSEM.LKEYS.KEYREL.PRED "_spit_v-tr_rel",
+;SYNSEM.LKEYS.KEYREL.CRITERIAL #2 & "_mouth_rel",
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY dynMinTract, 
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY ntasuo-inhcmp ]]> ], 
+;SYNSEM.LOCAL.CAT.VAL [COMPS < [ LKEYS.KEYREL.KIND #2 ]> ], 
+SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
+
+
+;Ewe
+;George da tú Kofi 'G throw gun K' = G fires a gun at K'
+
+
+da-inh-comp_ditr_vlxm := ditrans-arg1-2-medium-verb-lexeme  & 
+[INFLECTION nonfstr-et, 
+STEM < "da" >, 
+SYNSEM.LKEYS.KEYREL.PRED "_da_2-participants_'throw'_rel",
+;SYNSEM.LKEYS.KEYREL.CRITERIAL #2 & "_gun_rel",
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY dynMinTract, 
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORM-MODE willed, 
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORM-MEDIUM gun, 
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY tu-inhcmp ]], []> ], 
+;SYNSEM.LOCAL.CAT.VAL [COMPS < [ LKEYS.KEYREL.KIND #2 ], []> ], 
+SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
+
+tú_reg-inh_nlxm := masc-inher-noun-lxm &
+  [ STEM < "tu" >,
+      INFLECTION final-full,
+      SYNSEM.LKEYS.KEYREL.PRED "_tú_n_'gun'_rel",
+      SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY tu-inhcmp ]].
+
+;metaunit
+;Ewe
+;George da daEVENT 'George throw throwEVENT'
+
+da-tr-metaunit_vlxm := trans-arg1-metaunit-verb-lexeme  & 
+[INFLECTION nonfstr-et, 
+STEM < "da" >, 
+SYNSEM.LKEYS.KEYREL.PRED "_da_1-participant_rel",
+;SYNSEM.LKEYS.KEYREL.CRITERIAL #2 & "_gun_rel",
+;SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY dynMinTract, 
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORM-MODE willed, 
+SYNSEM.LOCAL.CAT.VAL [COMPS < [ LOCAL.CAT.HEAD noun & [KEYS.KEY daEVENT-inhcmp ]]> ], 
+;SYNSEM.LOCAL.CAT.VAL [COMPS < [ LKEYS.KEYREL.KIND #2 ]> ], 
+SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
+
+daEVENT_reg-inh_nlxm := masc-inher-noun-lxm &
+  [ STEM < "daEVENT" >,
+      INFLECTION final-full,
+      SYNSEM.LKEYS.KEYREL.PRED "_daEVENT_n_rel",
+      SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY daEVENT-inhcmp ]].
 

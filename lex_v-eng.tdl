@@ -11,7 +11,7 @@
 ;;;    <norsource@hf.ntnu.no>
 ;;;
 
-;;;    lex_v-eng.semlab.tdl
+;;;    lex_v-eng.tdl
 ;;;
 ;;; This file hosts English verbs specified for 'metafeatures' as defined in Predsort.tdl and metafeatures.tdl, and is only intended for experimentations in the semantic domain
 
@@ -4582,12 +4582,14 @@ SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY  mainvb-1,
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Init-Dependence-Unfold-Possess-PureRel]. 
 ;;; LEXVALS:(have-perf__intrAuxperfScpr-scSuNrg-scPerf & have__tr)].
 
+#|
 have-a-hunch_intr_vlxm := v-intr  & 
 [INFLECTION nonfstr-et, 
 STEM < "have-a-hunch" >, 
 SYNSEM.LKEYS.KEYREL.PRED "_have-a-hunch_v-intr_rel",  
 SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY  mainvb-1, 
-SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-MedByPrcept-Cogn-Emotion-Responding-Unfold-Perform-SymbVal]. 
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-MedByPrcept-Cogn-Emotion-Responding-Unfold-Perform-SymbVal].
+|#
 ;;; LEXVALS:(have-a-hunch__intr & have-a-hunch__tr-obINTERR & have-a-hunch__tr-obDECL)].
 
 heap_intr_vlxm := v-intr  & 
@@ -7578,16 +7580,15 @@ SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY  mainvb-1,
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Impact-Responding-Perform-PhysBod]. 
 ;;; LEXVALS:(refresh__tr & refresh__tr-obRefl & refresh-on__trObl-obRefl-oblN)].
 
-register_intr_vlxm := v-tr  & 
+register_tr_vlxm := v-tr  & 
 [INFLECTION nonfstr-et, 
 STEM < "register" >, 
 SYNSEM.LKEYS.KEYREL.PRED "_register_v-tr_rel",  
 SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY  mainvb-1, 
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.COGDOMAIN  attention, 
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DEPENDENCE adm-empowered, 
-SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PROCEDURE variant, 
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORM-MODE willed, 
-SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.SYMBCONT declarative-symb, 
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.SATURATION yn-wh-decl, 
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Dependence-Procedure-Perform-SymbVal]. 
 ;;; LEXVALS:(register__tr & register__tr-obINTERR & register__tr-obDECL & register-as__trScpr-scPredprtcl)].
 
@@ -10959,7 +10960,7 @@ SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
 da-inh-comp_ditr_vlxm := ditrans-arg1-2-medium-verb-lexeme  & 
 [INFLECTION nonfstr-et, 
 STEM < "da" >, 
-SYNSEM.LKEYS.KEYREL.PRED "_da_2-participants_rel",
+SYNSEM.LKEYS.KEYREL.PRED "_da_2-participants_'throw'_rel",
 ;SYNSEM.LKEYS.KEYREL.CRITERIAL #2 & "_gun_rel",
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY dynMinTract, 
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORM-MODE willed, 
@@ -10971,7 +10972,7 @@ SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1].
 tú_reg-inh_nlxm := masc-inher-noun-lxm &
   [ STEM < "tu" >,
       INFLECTION final-full,
-      SYNSEM.LKEYS.KEYREL.PRED "_tú_n_rel",
+      SYNSEM.LKEYS.KEYREL.PRED "_tú_n_'gun'_rel",
       SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY tu-inhcmp ]].
 
 ;metaunit

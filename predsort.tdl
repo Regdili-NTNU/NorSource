@@ -254,7 +254,7 @@ causation_with_causentity := causation.
 causation_with_causingevent := causation.
 causation_with_causentity-sit := sitcat.
 causation_with_causingevent-sit := sitcat.
-; the '_sit' items for just having a straight label in the SIT-TYPE slot in mrs
+; the '_sit' items for just having a straight label in the ASPECT slot in mrs
 habitactivity := nonsuccessive.
 
 assess := nonsuccessive.

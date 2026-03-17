@@ -1,6 +1,7 @@
 (in-package :common-lisp-user)
 
-(defparameter *grammar-version* "NorMal (17-Sep-25)")
+(defparameter *grammar-version* "NorMal (14-Mar-26)")
+;(defparameter *grammar-version* "NorMal (17-Sep-25)")
 ;(defparameter *grammar-version* "NorMal (17-Aug-25)")
 ;(defparameter *grammar-version* "NorMal (01-Dec-22)")
 ;(defparameter *grammar-version* "NorMal (16-Jul-22)")

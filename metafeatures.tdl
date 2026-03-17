@@ -12,195 +12,7 @@
 ;;;
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;Definitions replacing those from predsort.tdl, where they were first developed.
-
-
-#|
-verbfeature := semsort.
-
-narrative := verbfeature &
- [NARR narr].
-imped := narrative.
-sustain := narrative.
-further := narrative.
-prevent := narrative.
-init := narrative.
-
-perceiving := verbfeature &
- [PERCEIVEORGAN sensory-organ].
-perform := verbfeature &
- [PERFORM-MODE performance,
-  PERFORM-MEDIUM thing-parameter].
-perceptible := verbfeature &
- [PERCEIVECHANNEL sensory-organ]. 
-impact := verbfeature &
- [IMPACTDOMAIN medbyprcept,  
-  IMPACTAREA thing-parameter, 
-  IMPACTMANNER eventflow,   
-  IMPACTDEGREE degr]. 
-impactsensory := impact &
- [IMPACTAREA sensory-organ].
-procedure := verbfeature &
- [PROCEDURE eventflow]. ;new
-medbyprcept := verbfeature &
- [MEDBYPRCPT cogn-perceiving-emotion].
-cogn := verbfeature &
- [COGDOMAIN cognition].
-dependence := verbfeature &
- [DEPENDENCE relational].
-domin := verbfeature &
- [DOMINANCE relational].
-emotion := verbfeature &
- [EMO-DOMAIN bod-domain,
-  EMO-POL polar,
-  EMO-DEG degr,
-  EMO-VECTOR emo-vector].
-creation := verbfeature &
- [CREATIVITY-MODE creativity].
-responding := verbfeature &
- [RESPONSE respond].
-possess := verbfeature &
- [POSSDOMAIN possession].
-physbod := verbfeature &
- [PHYSBOD physbodily].
-symbval := verbfeature &
- [SYMBMODE symbmode,
-  SYMBCONT symbcont].
-purerel := verbfeature &
- [RELATIONTYPE relation]. ;TODO
-unfold := verbfeature &
- [UNFOLD aktionsart].
-directionality := verbfeature &
- [DIRECTIONALITY directed].
-loc := verbfeature &
- [LOCATION place].
-criterial := verbfeature &
- [CRITERION image].
-VerbalAct := verbfeature &
- [VERBALACT verbal-act].
-
-physbodily := physical & bod-domain.
-
-thing-parameter := sit-parameter.
-	
-bod-domain := thing-parameter. 
-bod-organ := bod-domain.
-sensory-organ := bod-organ.
-eye := sensory-organ.
-ear := sensory-organ.
-skin := sensory-organ.
-tongue := sensory-organ.
-proprioceptor := sensory-organ.
-heart := bod-organ.
-bod-limb := bod-organ.
-foot := bod-limb.
-arm := bod-limb.
-bod-intest := bod-organ.
-kidney := bod-intest.
-bod-truncpart := bod-domain.
-stomach := bod-truncpart.
-chest := bod-truncpart.
-
-tool := thing-parameter. 
-gun := tool.
-
-sit-parameter := situations.
-
-performance := sit-parameter.
-willed := performance.
-
-degr := sit-parameter.
-strong := degr. 
-medium := degr. 
-weak := degr. 
-
-polar := sit-parameter.
-positively := polar.
-negative := polar.
-emo-vector := sit-parameter.
-oriented-emo := emo-vector & orientation-pur. 
-latent-emo := emo-vector.
-
-eventflow := sit-parameter.
-iterative := eventflow.  
-cyclical := eventflow.  
-variant := eventflow. 
-
-cognition := sit-parameter.
-reasoning := cognition.
-attention := cognition.
-
-cogn-perceiving-emotion := cognition & sensory-organ.
-
-; for dependence and dominance
-relational := sit-parameter. 
-logical := relational.
-phys-empowered := relational & physical.
-psych-empowered := relational & psychological.
-adm-empowered := relational & admin.
-soc-empowered := relational & social.
-diagra-empowered := relational & diagrammatical.
-
-possession := adm-empowered & soc-empowered.
-
-; for general use
-major-domain := sit-parameter.
-physical := major-domain.
-psychological := major-domain.
-admin := major-domain.
-social := major-domain.
-diagrammatical := major-domain.
-
-
-creativity := sit-parameter.
-invention := creativity.
-tasksolving := creativity.
-artistic := creativity.
-
-respond := sit-parameter.
-chosen-response := respond & eventflow.
-effect := respond & eventflow.
-
-symbmode := sit-parameter.
-acted-symbol := symbmode & willed. 
-symbol-pur := symbmode.
-linguistic-symb := symbmode.
-symb-sign := symbmode.
-verbal-act := acted-symbol & linguistic-symb.
-spoken-symb := symbmode.
-signed-symb := symbmode.
-written-symb := symbmode.
-spoken-act := verbal-act & spoken-symb.
-signed-act := verbal-act & signed-symb.
-written-act := verbal-act & written-symb.
-symbcont := sit-parameter.
-ref-symb := symbcont.
-propositional-symb := symbcont.
-declarative-symb := propositional-symb.
-interrogative-symb := propositional-symb.
-statement-constr := declarative-symb.
-question-constr := interrogative-symb.
-claiming := statement-constr & willed. 
-querying := question-constr & willed. 
-
-image := sit-parameter.
-narr := sit-parameter.
-
-directed := sit-parameter.
-trajectory := directed.
-trajectory-dyn := trajectory.
-trajectory-stat := trajectory.
-trajectory-dyn-with-dispatched-head := trajectory-dyn.
-trajectory-dyn-with-contiguous-head := trajectory-dyn.
-orientation-pur := oriented.
-trajectory-minimalTrunk := trajectory.
-trajectory-variableTrunk := trajectory.
-dynMinTract := trajectory-dyn-with-dispatched-head & trajectory-minimalTrunk.
-mover := trajectory-dyn.
-oriented := trajectory-stat.
-|#
 
 
 ;Metafeatures, their aspects and their values
@@ -225,7 +37,7 @@ Perceptible := verbfeature &
  [PERCEIVECHANNEL sensory-organ,
   PERCEPTIBILITY-DEGREE degr]. 
 Impact := verbfeature &
- [IMPACT-PSYCHCOGDOMAIN medbyprcept,  
+ [IMPACT-PSYCHCOGDOMAIN ability,  
   IMPACT-COGDOMAIN cogdomain,  
   IMPACT-SOCBEHAVDOMAIN performance,  
   IMPACT-SOC-STATUS soc-status,  
@@ -267,10 +79,9 @@ VerbalAct := verbfeature &
  SEMIOTIC-SETTING verbal-act,
  SEMIOTMOVE semiotmove].
 SymbVal := verbfeature &
-	 [SATURATION saturation,
-	 WORDING-RESPONSIBILITY de-re-de-dicto,
-;	 FACTIVITY factivity,
-	 HONESTY honesty].  
+ [SATURATION saturation,
+  WORDING-RESPONSIBILITY de-re-de-dicto,
+  HONESTY honesty].  
 Purerel := verbfeature &
  [RELATIONTYPE relation]. 
 Unfold := verbfeature &
@@ -281,15 +92,7 @@ Loc := verbfeature &
  [LOCATION place].
 Criterial := verbfeature.
 
-symbcont := sit-parameter.
-
-thingcont := symbcont.
-propcont := symbcont.
-;interrogative-symb := propcont & [SATURATION non-saturated].
-;commanding-symb := propcont & [SATURATION saturation].
-;hortative-symb := propcont & [SATURATION saturation].
-;picturing-symb := propcont & [SATURATION saturation].
-
+sit-parameter := semsort.
 saturation := sit-parameter.
 
 
@@ -364,7 +167,7 @@ quality := scalar-domain.
 quantity := scalar-domain.
 clarity := scalar-domain.
 
-sit-parameter := situations.
+
 
 performance := sit-parameter.
 willed := performance.
@@ -453,7 +256,7 @@ observational := major-domain.
 
 creativity := sit-parameter.
 invention := creativity.
-tasksolving := creativity.
+task-solving := creativity.
 artistic := creativity.
 ;epistemic := creativity.
 legislative := creativity.
@@ -462,6 +265,7 @@ representing := creativity.
 respond := sit-parameter.
 chosen-response := respond & eventflow.
 effect := respond & eventflow.
+appraisal := respond & eventflow.
 opportune-response := respond & eventflow.
 opportunity := respond & eventflow.
 addressing-concern := respond & eventflow.
@@ -485,7 +289,7 @@ spoken-symb := linguistic-symb.
 signed-symb := linguistic-symb.
 written-symb := linguistic-symb.
 symbol-pur := symbmode.
-tacit-cont := symbmode.
+tacit-cont := linguistic-symb.
 spoken-act := verbal-act & spoken-symb.
 signed-act := verbal-act & signed-symb.
 written-act := verbal-act & written-symb.
@@ -507,6 +311,7 @@ picturing := picturing-act.
 quoting := declarative-act. 
 guessing := declarative-act. 
 predicting := declarative-act. 
+assuming := declarative-act. 
 shout := spoken-act.
 say := spoken-act.
 whisper := spoken-act.

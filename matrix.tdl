@@ -693,6 +693,7 @@ orient-event := ad-event &
 event-verb := event &
   [ E tam,
     PATH-TELIC bool,
+    AKTIONSART aktionsart,
     SIT-TYPE semsort,
     DISC-MOVE discmode ].
 

@@ -158,12 +158,6 @@ girl_n_fem_nlxm := fem-reganim-noun-lxm &
       SYNSEM [ LKEYS.KEYREL.PRED "_girl_n_rel",
                LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
 
-boy_n_masc_nlxm := masc-reganim-noun-lxm &
-  [ INFLECTION final-full-strong,
-      STEM < "boy" >,
-      SYNSEM [ LKEYS.KEYREL.PRED "_boy_n_rel",
-               LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
-
 woman_n_fem_nlxm := fem-reganim-noun-lxm &
   [ INFLECTION final-full-strong,
       STEM < "woman" >,
