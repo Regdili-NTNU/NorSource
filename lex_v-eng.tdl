@@ -13,7 +13,7 @@
 
 ;;;    lex_v-eng.tdl
 ;;;
-;;; This file hosts English verbs specified for 'metafeatures' as defined in Predsort.tdl and metafeatures.tdl, and is only intended for experimentations in the semantic domain
+;;; This file hosts English verbs specified for 'metafeatures' as defined in norsk.tdl, and is only intended for experimentations in the semantic domain
 
 abort_intr_vlxm := v-intr & 
 [INFLECTION nonfstr-et, 

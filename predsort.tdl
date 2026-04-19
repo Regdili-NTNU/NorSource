@@ -214,8 +214,8 @@ monodvmnt := aktionsart &
 ;sit-type := aktionsart.
 
 action := dynamic & protracted.
-activity := dynamic & protracted & atelic.
-semelfactive := dynamic & instantaneous & telic.
+atelic-action := dynamic & protracted & atelic.  ; New def of 'activity' in norsk.tdl
+;semelfactive := dynamic & instantaneous & telic. ; New def in norsk.tdl
 accomplishment := dynamic & protracted & telic & monodvmnt.
 achievement := dynamic & instantaneous & telic & [ CHANGE + ].
 state := stative & protracted & atelic & [ CHANGE - ].

@@ -6,7 +6,7 @@
 ;;; 
 ;;;    Copyright (c)  NorSource version 1.0
 ;;;
-;;;                     2014-2021
+;;;                     2014-2026
 ;;;
 ;;;            Lars Hellan and Tore Bruland
 ;;;
@@ -68,7 +68,6 @@ verbfeature := semsort.
 sit-parameter := situations.
 
 Perceiving := verbfeature &
-
  [PERCEIVEORGAN sensory-organ,
  PERCEIVEMODE psychbodily].
 Perform := verbfeature &
@@ -86,7 +85,7 @@ Perceptible := verbfeature &
   PERCEPTIBILITY-DEGREE degr]. 
 Impact := verbfeature &
  [IMPACT-PSYCHCOGDOMAIN ability,  
-  IMPACT-COGDOMAIN cogdomain,  
+  IMPACT-COGDOMAIN cognition,  
   IMPACT-SOCBEHAVDOMAIN performance,  
   IMPACT-SOC-STATUS soc-status,  
   IMPACT-PHYS-STATUS performance,  
@@ -124,14 +123,15 @@ PhysBod := verbfeature &
 VerbalAct := verbfeature &
  [ILLOCUTION verbal-act,
  VERBAL-ACTIVITY linguistic-symb,
- SEMIOTIC-SETTING verbal-act,
+ SEMIOTIC-SETTING symbmode,
  SEMIOTMOVE semiotmove].
 SymbVal := verbfeature &
  [SATURATION saturation,
   WORDING-RESPONSIBILITY de-re-de-dicto,
+  FACTIVITY factivity,
   HONESTY honesty].  
 Purerel := verbfeature &
- [RELATIONTYPE relation]. 
+ [RELATIONTYPE relational]. 
 Unfold := verbfeature &
  [UNFOLD eventflow].
 Directionality := verbfeature &
@@ -185,6 +185,8 @@ dishonest := honesty.
 
 semiotmove := sit-parameter.
 enhancing := semiotmove.
+admitting := semiotmove.
+schweigen-act := semiotmove.
 
 cogdomain := sit-parameter.
 
@@ -234,7 +236,9 @@ clarity := scalar-domain.
 performance := sit-parameter.
 willed := performance.
 strongly := performance.
+willed-and-strongly := willed & strongly.
 weakly := performance.
+willed-and-weakly := willed & weakly.
 helpless := performance.
 incident := performance.
 compliance := performance.
@@ -263,10 +267,10 @@ eventflow := sit-parameter.
 iterative := eventflow.  
 cyclical := eventflow.  
 variant := eventflow. 
-;stative := eventflow. ;defined in predsort.tdl
-;activity := eventflow.  ;defined in predsort.tdl
+statively := eventflow. ;'stative' defined in predsort.tdl
+activity := eventflow.  ;differently defined in predsort.tdl
 goalguided := eventflow. 
-;semelfactive := eventflow.  ;defined in predsort.tdl
+semelfactive := eventflow.  ;differently defined in predsort.tdl
 uphold-stance := eventflow. 
 uphold-circumstance := eventflow. 
 fate := eventflow. 
@@ -279,6 +283,9 @@ attention := cognition.
 failed-cognition := cognition.
 control := ability.
 envisioning := ability.
+vision := ability.
+hearing := ability.
+observing := ability.
 vocal-voice := ability.
 literacy := ability.
 sensibility := ability.
@@ -318,9 +325,9 @@ observational := major-domain.
 
 creativity := sit-parameter.
 invention := creativity.
-task-solving := creativity.
+tasksolving := creativity.
 artistic := creativity.
-;epistemic := creativity.
+epistemological := creativity.
 legislative := creativity.
 representing := creativity.
 
@@ -340,11 +347,14 @@ addressing-unclearity := respond & eventflow.
 avoiding-knowledge-sharing := respond & eventflow.
 furthering-resolve := respond & eventflow.
 amending-gap := respond & eventflow.
+acknowledging-lack-of-knowledge := respond & eventflow.
+addressing-need-for-status := respond & eventflow.
+addressing-need-for-control := respond & eventflow.
 
 
 ; relevant for  speech acts
 symbmode := sit-parameter.
-acted-symbol := symbmode & willed. 
+acted-symbol := willed. 
 linguistic-symb := symbmode.
 verbal-act := acted-symbol & linguistic-symb.
 spoken-symb := linguistic-symb.
@@ -362,7 +372,7 @@ interrogative-act := verbal-act.
 commanding-act := verbal-act.
 hortative-act := verbal-act.
 picturing-act := verbal-act.
-schweigen-act := verbal-act.
+;schweigen-act := verbal-act. ; now semiotmove
 assertion := declarative-act. 
 documenting := declarative-act. 
 query := interrogative-act. 
@@ -20540,7 +20550,7 @@ intrans-telicparticle-arg1-synsem := intrans-telicity-particle-arg1-synsem &
 
 ; for "drive/holde" in "driver/holder på og går": it enforces atelicity for the whole constr.
 intrans-atelicparticle-arg1-synsem := intrans-telicity-particle-arg1-synsem & 
-  [ LOCAL.CONT.HOOK.INDEX.AKTIONSART activity,
+  [ LOCAL.CONT.HOOK.INDEX.AKTIONSART atelic-action,
     LOCAL.CAT.VAL [COMPS < [ LOCAL.CONT.HOOK.INDEX.SORT non-fix-point ] >]].
 
 ; for "han synes komme"
@@ -25288,8 +25298,8 @@ part-adj-prep-word :+ no-hcons.
 
 ;Metafeatures, their aspects and their values
 
-
-
+Sustain-Cogn-Dependence-Impact-Perform-Domin-SymbVal := Sustain & Cogn & Dependence & Impact & Perform & Domin & SymbVal.
+Sustain-Cogn-Dependence-Impact-Procedure-Perform-SymbVal := Sustain & Cogn & Dependence & Impact & Procedure & Perform & SymbVal.
 Prevent-Impact-Procedure-Responding-Perform-SymbVal := Impact & Procedure & Responding & Perform & SymbVal.	
 Imped-Unfold-Criterial-SymbVal-PhysBod := Unfold & Criterial & SymbVal & PhysBod.	
 Sustain-Cogn-Procedure-Responding-Dependence-Impact-Domin-SymbVal-Perform := Cogn & Procedure & Responding & Dependence & Impact & Domin & SymbVal & Perform.		
@@ -25308,9 +25318,12 @@ Further-Cogn-Dependence-Impact-Procedure-Creation-Responding-Perform-Domin-SymbV
 Sustain-Directionality-Cogn-Impact-Procedure-Perform-Domin-SymbVal := Directionality & Cogn & Impact & Procedure & Perform & Domin & SymbVal.		
 Sustain-Dependence-Domin-SymbVal := Dependence & Domin & SymbVal.		
 Sustain-Impact-Procedure-Responding-Perform-SymbVal-PhysBod := Impact & Procedure & Responding & Perform & SymbVal & PhysBod.		
-Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal := Cogn & Procedure & Responding & VerbalAct & SymbVal.		
+Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal := Cogn & Procedure & Responding & VerbalAct & SymbVal.
+Sustain-Cogn-Dependence-Procedure-Responding-VerbalAct-Domin-SymbVal := Sustain & Cogn & Dependence & Procedure & Responding & VerbalAct & Domin & SymbVal.
+Cogn-Procedure-Responding-VerbalAct-SymbVal := Cogn & Procedure & Responding & VerbalAct & SymbVal.		
 Further-Dependence-Impact-Procedure-Responding-Unfold-Perform-Domin-PhysBod := Dependence & Impact & Procedure & Responding & Unfold & Perform & Domin & PhysBod.		
-Sustain-Cogn-Procedure-VerbalAct-SymbVal := Cogn & Procedure & VerbalAct & SymbVal.		
+Further-Cogn-Procedure-Creation-Responding-VerbalAct-Domin-SymbVal := Further & Cogn & Procedure & Creation & Responding & VerbalAct & Domin & SymbVal.
+Sustain-Cogn-Procedure-Creation-VerbalAct-SymbVal := Cogn & Procedure & Creation & VerbalAct & SymbVal.		
 Further-Cogn-Procedure-VerbalAct-SymbVal := Cogn & Procedure & VerbalAct & SymbVal.		
 Further-Cogn-Procedure-Perform-SymbVal := Cogn & Procedure & Perform & SymbVal.		
 Sustain-Cogn-Impact-SymbVal := Cogn & Impact & SymbVal.		
@@ -25318,7 +25331,7 @@ Sustain-Directionality-Cogn-Procedure-Perform-PhysBod := Directionality & Cogn &
 Directionality-Cogn-Procedure-Perform-PhysBod := Directionality & Cogn & Procedure & Perform & PhysBod.		
 Sustain-Impact-Procedure-Responding-Perform-PhysBod := Impact & Procedure & Responding & Perform & PhysBod.		
 Imped-Dependence-Impact-Procedure-Emotion := Dependence & Impact & Procedure & Emotion.		
-Sustain-Cogn-Procedure-Perform-SymbVal := Cogn & Procedure & Perform & SymbVal.		
+Sustain-Cogn-MedByPrcept-Procedure-Perform-SymbVal := Cogn & MedByPrcept & Procedure & Perform & SymbVal.		
 Further-Cogn-Procedure-Responding-Perform-SymbVal := Cogn & Procedure & Responding & Perform & SymbVal.		
 Cogn-SymbVal := Cogn & SymbVal.		
 Sustain-Cogn-Impact-Emotion-Unfold-Perform-SymbVal := Cogn & Impact & Emotion & Unfold & Perform & SymbVal.		
@@ -25376,6 +25389,8 @@ Further-Cogn-Perform-SymbVal := Cogn & Perform & SymbVal.
 Sustain-Cogn-Impact-Emotion-Responding-verbalact-Domin-SymbVal := Cogn & Impact & Emotion & Responding & verbalact & Domin & SymbVal.		
 Imped-Cogn-Procedure-Unfold-verbalact-SymbVal := Cogn & Procedure & Unfold & verbalact & SymbVal.		
 Imped-Cogn-verbalact-SymbVal-PhysBod := Cogn & verbalact & SymbVal & PhysBod.		
+Sustain-MedByPrcept-Cogn-Emotion-Responding-Unfold-SymbVal := Sustain & MedByPrcept & Cogn & Emotion & Responding & Unfold & SymbVal.
+Imped-Cogn-VerbalAct-SymbVal := Imped & Cogn & VerbalAct & SymbVal.
 Init-Dependence-SymbVal-PureRel := Init & Dependence & SymbVal & PureRel.		
 Sustain-Cogn-Dependence-Impact-Responding-SymbVal := Cogn & Dependence & Impact & Responding & SymbVal.		
 MedByPrcept-Cogn-Emotion-Responding-Criterial-SymbVal-PhysBod := MedByPrcept & Cogn & Emotion & Responding & Criterial & SymbVal & PhysBod.		
@@ -25478,7 +25493,7 @@ Sustain-Dependence-Impact-Responding-Perform-Criterial-PhysBod := Dependence & I
 Sustain-Responding-Perform-Criterial-PhysBod := Responding & Perform & Criterial & PhysBod.		
 Sustain-Procedure-Responding-Perform-PhysBod := Procedure & Responding & Perform & PhysBod.		
 Further-Cogn-Impact-Procedure-Creation-Perform-SymbVal := Cogn & Impact & Procedure & Creation & Perform & SymbVal.		
-Sustain-Cogn-Impact-Procedure-Creation-Perform-SymbVal := Cogn & Impact & Procedure & Creation & Perform & SymbVal.		
+Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal := Cogn & Impact & Procedure & Creation & Responding & Perform & SymbVal.		
 Sustain-Directionality-Impact-Procedure-Creation-Unfold-Perform-Criterial-SymbVal-Loc-PhysBod := Directionality & Impact & Procedure & Creation & Unfold & Perform & Criterial & SymbVal & Loc & PhysBod.		
 Sustain-Cogn-Procedure-Unfold-verbalact := Cogn & Procedure & Unfold & verbalact.		
 Directionality-Impact-Perform-PhysBod := Directionality & Impact & Perform & PhysBod.		
@@ -25491,12 +25506,14 @@ Further-Unfold-SymbVal := Unfold & SymbVal.
 Sustain-Impact-Responding-Perform-SymbVal := Impact & Responding & Perform & SymbVal.		
 Sustain-Cogn-Procedure-Unfold-Perform-SymbVal := Cogn & Procedure & Unfold & Perform & SymbVal.		
 Imped-Perceptible-Cogn-Emotion-Unfold-VerbalAct-SymbVal-PhysBod := Perceptible & Cogn & Emotion & Unfold & VerbalAct & SymbVal & PhysBod.		
-Sustain-Cogn-Procedure-Creation-VerbalAct-SymbVal := Cogn & Procedure & Creation & VerbalAct & SymbVal.		
+;Sustain-Cogn-Procedure-Creation-VerbalAct-SymbVal := Cogn & Procedure & Creation & VerbalAct & SymbVal.	;def twice	
 Further-Cogn-Creation-Responding-SymbVal := Cogn & Creation & Responding & SymbVal.		
+Sustain-Cogn-Creation-VerbalAct-SymbVal := Sustain & Cogn & Creation & VerbalAct & SymbVal.
 Sustain-Perceptible-Impact-Procedure-Perform-Domin-SymbVal-PhysBod := Perceptible & Impact & Procedure & Perform & Domin & SymbVal & PhysBod.		
 Sustain-Directionality-Impact-Responding-Perform-Domin-PhysBod := Directionality & Impact & Responding & Perform & Domin & PhysBod.		
 Sustain-Creation-Perform-SymbVal := Creation & Perform & SymbVal.		
 Sustain-Cogn-VerbalAct-Domin-SymbVal := Cogn & VerbalAct & Domin & SymbVal.		
+Sustain-Perceptible-Cogn-VerbalAct-Perform-SymbVal-PhysBod := Sustain & Perceptible & Cogn & VerbalAct & Perform & SymbVal & PhysBod.
 Sustain-Cogn-Procedure-Creation-Responding-VerbalAct-SymbVal := Cogn & Procedure & Creation & Responding & VerbalAct & SymbVal.		
 Sustain-Cogn-Impact-Procedure-Responding-VerbalAct-Perform-SymbVal := Cogn & Impact & Procedure & Responding & VerbalAct & Perform & SymbVal.		
 Sustain-Cogn-Dependence-Procedure-Emotion-Responding-VerbalAct-SymbVal-PhysBod := Cogn & Dependence & Procedure & Emotion & Responding & VerbalAct & SymbVal & PhysBod.		
@@ -25552,8 +25569,11 @@ Further-Impact-Procedure-Responding-Perform-Domin-SymbVal-PhysBod := Impact & Pr
 Imped-Cogn-Impact-Emotion-Responding-Perform-Domin-SymbVal := Cogn & Impact & Emotion & Responding & Perform & Domin & SymbVal.		
 Sustain-Impact-Procedure-Responding-Perform-SymbVal := Impact & Procedure & Responding & Perform & SymbVal.		
 Prevent-Impact-Perform-Domin-Criterial-PhysBod := Impact & Perform & Domin & Criterial & PhysBod.		
+Sustain-Cogn-Dependence-Perform-SymbVal := Sustain & Cogn & Dependence & Perform & SymbVal.
+Sustain-MedByPrcept-Cogn-Emotion-Perform-SymbVal := Sustain & MedByPrcept & Cogn & Emotion & Perform & SymbVal.
 Sustain-Impact-Procedure-Responding-Perform-Possess-PhysBod := Impact & Procedure & Responding & Perform & Possess & PhysBod.		
-Sustain-Cogn-Dependence-Procedure-Responding-VerbalAct-Domin-SymbVal := Cogn & Dependence & Procedure & Responding & VerbalAct & Domin & SymbVal.		
+Sustain-Cogn-Dependence-Procedure-Responding-VerbalAct-Perform-Domin-SymbVal := Cogn & Dependence & Procedure & Responding & VerbalAct & Perform & Domin & SymbVal.		
+Sustain-Perceiving-ImpactSensory-Cogn-Responding-Perform-SymbVal-PhysBod := Sustain & Perceiving & ImpactSensory & Cogn & Responding & Perform & SymbVal & PhysBod.
 Init-Cogn-Dependence-SymbVal := Init & Cogn & Dependence & SymbVal.		
 Prevent-Impact-Domin-SymbVal := Impact & Domin & SymbVal.		
 Further-Dependence-Responding-SymbVal := Dependence & Responding & SymbVal.		
@@ -25656,6 +25676,7 @@ Sustain-Cogn-Impact-Procedure-Creation-Perform-Domin-SymbVal-PhysBod := Cogn & I
 Sustain-Perceptible-Cogn-Impact-SymbVal-PhysBod := Perceptible & Cogn & Impact & SymbVal & PhysBod.		
 Prevent-Cogn-Impact-Procedure-Perform-Domin-PhysBod := Cogn & Impact & Procedure & Perform & Domin & PhysBod.		
 Further-Directionality-Procedure := Directionality & Procedure.		
+Further-Directionality-Procedure-SymbVal := Directionality & Procedure & SymbVal.		
 Further-Cogn-Impact-Procedure-Creation-Responding-Perform-Domin-SymbVal := Cogn & Impact & Procedure & Creation & Responding & Perform & Domin & SymbVal.		
 Imped-Impact-SymbVal := Impact & SymbVal.		
 Sustain-Impact-Responding-PhysBod := Impact & Responding & PhysBod.		
@@ -25741,7 +25762,8 @@ Further-Directionality := Directionality.
 Sustain-Cogn-Impact-Emotion-Responding-Unfold-Domin-SymbVal-PhysBod := Cogn & Impact & Emotion & Responding & Unfold & Domin & SymbVal & PhysBod.		
 Sustain-Directionality-Impact-Procedure-Responding-Unfold-Perform-PhysBod := Directionality & Impact & Procedure & Responding & Unfold & Perform & PhysBod.		
 Init-Dependence-Unfold-Possess-PureRel := Init & Dependence & Unfold & Possess & PureRel.		
-;Further-MedByPrcept-Cogn-Emotion-Responding-Unfold-Perform-SymbVal := MedByPrcept & Cogn & Emotion & Responding & Unfold & Perform & SymbVal.		
+;Further-MedByPrcept-Cogn-Emotion-Responding-Unfold-Perform-SymbVal := MedByPrcept & Cogn & Emotion & Responding & Unfold & Perform & SymbVal.	
+Sustain-MedByPrcept-Perceiving-Cogn-Impact-Responding-Perform-SymbVal-PhysBod := Sustain & MedByPrcept & Perceiving & Cogn & Impact & Responding & Perform & SymbVal & PhysBod.	
 Sustain-MedByPrcept-Cogn-Criterial-SymbVal-PhysBod := MedByPrcept & Cogn & Criterial & SymbVal & PhysBod.		
 Sustain-ImpactSensory-Perceptible-MedByPrcept-Impact-Procedure-Unfold-PhysBod := ImpactSensory & Perceptible & MedByPrcept & Procedure & Unfold & PhysBod.		
 Further-Cogn-Impact-Procedure-Responding-Perform-SymbVal := Cogn & Impact & Procedure & Responding & Perform & SymbVal.		
@@ -25872,7 +25894,9 @@ Sustain-Cogn-Procedure-Creation-VerbalAct-Domin-SymbVal := Cogn & Procedure & Cr
 MedByPrcept-Cogn-Responding-Perform-SymbVal-PhysBod := MedByPrcept & Cogn & Responding & Perform & SymbVal & PhysBod.		
 Sustain-Perform := Perform.		
 Imped-Cogn-VerbalAct := Cogn & VerbalAct.		
-Further-Cogn-verbalact-SymbVal := Cogn & verbalact & SymbVal.		
+Further-Cogn-VerbalAct-SymbVal := Cogn & VerbAlact & SymbVal.	
+Further-Cogn-Creation-VerbalAct-SymbVal := Further & Cogn & Creation & VerbalAct & SymbVal.	
+Further-MedByPrcept-Cogn-Emotion-Responding-SymbVal-PhysBod := Further & MedByPrcept & Cogn & Emotion & Responding & SymbVal & PhysBod.
 Sustain-Perceiving-Cogn-Dependence-Procedure-Responding-Perform-SymbVal := Perceiving & Cogn & Dependence & Procedure & Responding & Perform & SymbVal.		
 Further-MedByPrcept-Cogn-SymbVal := MedByPrcept & Cogn & SymbVal.		
 Sustain-Responding-Perform-SymbVal := Responding & Perform & SymbVal.		
@@ -25885,6 +25909,8 @@ Further-Cogn-Dependence-Procedure-Responding-VerbalAct-Domin-SymbVal-PhysBod := 
 Further-Directionality-Cogn-Procedure-Perform-SymbVal := Directionality & Cogn & Procedure & Perform & SymbVal.		
 Sustain-Cogn-Impact-Procedure-Domin-PhysBod := Cogn & Impact & Procedure & Domin & PhysBod.		
 Imped-Impact-Perform-SymbVal-PhysBod := Impact & Perform & SymbVal & PhysBod.		
+Sustain-Perceiving-Responding-Perform-SymbVal-PhysBod := Sustain & Perceiving & Responding & Perform & SymbVal & PhysBod.
+Imped-Cogn-Responding-Perform-SymbVal := Imped & Cogn & Responding & Perform & SymbVal.
 Sustain-MedByPrcept-Cogn-Perform-SymbVal-PhysBod := MedByPrcept & Cogn & Perform & SymbVal & PhysBod.		
 Imped-MedByPrcept-Responding-Perform-SymbVal := MedByPrcept & Responding & Perform & SymbVal.		
 Imped-Impact-Responding-Perform := Impact & Responding & Perform.		
@@ -25948,7 +25974,8 @@ Further-Cogn-Emotion-SymbVal := Cogn & Emotion & SymbVal.
 Further-Procedure-Perform-SymbVal := Procedure & Perform & SymbVal.		
 Cogn-Procedure-Responding-VerbalAct-PhysBod := Cogn & Procedure & Responding & VerbalAct & PhysBod.		
 Further-Impact-Emotion-Responding-Criterial-PhysBod := Impact & Emotion & Responding & Criterial & PhysBod.		
-Procedure-Perform-Domin-PhysBod := Procedure & Perform & Domin & PhysBod.		
+Procedure-Perform-Domin-PhysBod := Procedure & Perform & Domin & PhysBod.     
+Sustain-Cogn-Impact-Procedure-Creation-Perform-SymbVal := Sustain & Cogn & Impact & Procedure & Creation & Perform & SymbVal.
 Directionality-Impact-Responding-Perform-Criterial-PhysBod := Directionality & Impact & Responding & Perform & Criterial & PhysBod.		
 Sustain-Impact-Procedure-Unfold-Criterial-PhysBod := Impact & Procedure & Unfold & Criterial & PhysBod.		
 Sustain-Impact-Procedure-Unfold-Perform-Domin-SymbVal-PhysBod := Impact & Procedure & Unfold & Perform & Domin & SymbVal & PhysBod.		
@@ -25960,9 +25987,9 @@ Sustain-MedByPrcept-Cogn-Procedure-Creation-Perform-SymbVal := MedByPrcept & Cog
 Sustain-Directionality-Cogn-Impact-Responding-Perform-SymbVal := Directionality & Cogn & Impact & Responding & Perform & SymbVal.		
 Further-MedByPrcept-Cogn-Responding-Perform-SymbVal := MedByPrcept & Cogn & Responding & Perform & SymbVal.		
 Sustain-Impact-Procedure-Emotion-Responding-Domin-SymbVal-PhysBod := Impact & Procedure & Emotion & Responding & Domin & SymbVal & PhysBod.		
-Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal := Cogn & Impact & Procedure & Creation & Responding & Perform & SymbVal.		
 Sustain-Cogn-Dependence-Impact-Responding-Perform := Cogn & Dependence & Impact & Responding & Perform.		
 Sustain-Cogn-Procedure-VerbalAct-SymbVal-PhysBod := Cogn & Procedure & VerbalAct & SymbVal & PhysBod.		
+Sustain-Cogn-Procedure-VerbalAct-SymbVal := Cogn & Procedure & VerbalAct & SymbVal.		
 Further-MedByPrcept-Cogn-Impact-Creation-Responding-Perform-SymbVal := MedByPrcept & Cogn & Impact & Creation & Responding & Perform & SymbVal.		
 Further-Cogn-Impact-Procedure-Creation-Responding-VerbalAct-SymbVal := Cogn & Impact & Procedure & Creation & Responding & VerbalAct & SymbVal.		
 Sustain-Cogn-Dependence-Impact-Procedure-Creation-Perform-Domin := Cogn & Dependence & Impact & Procedure & Creation & Perform & Domin.		
@@ -25974,7 +26001,10 @@ Sustain-Impact-Responding-Perform-PhysBod := Impact & Responding & Perform & Phy
 Sustain-Cogn-Dependence-Procedure-Perform-SymbVal := Cogn & Dependence & Procedure & Perform & SymbVal.		
 Sustain-Cogn-Dependence-Impact-Procedure-Creation-Unfold-Perform-Domin-SymbVal := Cogn & Dependence & Impact & Procedure & Creation & Unfold & Perform & Domin & SymbVal.		
 Further-Emotion-Responding-Unfold-SymbVal-PhysBod := Emotion & Responding & Unfold & SymbVal & PhysBod.		
-Further-Cogn-Dependence-SymbVal-PureRel := Cogn & Dependence & SymbVal & PureRel.		
+Further-Cogn-Dependence-SymbVal-PureRel := Cogn & Dependence & SymbVal & PureRel.	
+Sustain-MedByPrcept-Cogn-SymbVal-PhysBod := Sustain & MedByPrcept & Cogn & SymbVal & PhysBod.
+Sustain-Perceiving-Cogn-Procedure-Responding-Unfold-Perform-Domin-SymbVal-PhysBod := Sustain & Perceiving & Cogn & Procedure & Responding & Unfold & Perform & Domin & SymbVal & PhysBod.
+Sustain-VerbalAct-Perform-SymbVal := Sustain & VerbalAct & Perform & SymbVal.	
 MedByPrcept-Impact-Creation-Responding-SymbVal-PhysBod := MedByPrcept & Impact & Creation & Responding & SymbVal & PhysBod.		
 Further-Unfold := Unfold.		
 Sustain-Cogn-Emotion-Creation-Responding-Perform-SymbVal := Cogn & Emotion & Creation & Responding & Perform & SymbVal.		
@@ -25988,6 +26018,7 @@ Imped-Cogn-Procedure-Responding-VerbalAct-Domin-SymbVal := Cogn & Procedure & Re
 Sustain-Dependence-Procedure-Perform-Domin-SymbVal := Dependence & Procedure & Perform & Domin & SymbVal.		
 Sustain-Cogn-Impact-Responding-Perform-Loc-PhysBod := Cogn & Impact & Responding & Perform & Loc & PhysBod.		
 Further-MedByPrcept-Cogn-SymbVal-PureRel := MedByPrcept & Cogn & SymbVal & PureRel.		
+Cogn-SymbVal-PureRel := Cogn & SymbVal & PureRel.
 Imped-Cogn-Impact-Emotion-Responding-SymbVal-PhysBod := Cogn & Impact & Emotion & Responding & SymbVal & PhysBod.		
 Sustain-Cogn-Impact-Perform-SymbVal := Cogn & Impact & Perform & SymbVal.		
 Imped-Cogn-Impact-Emotion-Responding-Domin-Criterial-SymbVal-PhysBod := Cogn & Impact & Emotion & Responding & Domin & Criterial & SymbVal & PhysBod.		
@@ -26030,8 +26061,11 @@ Sustain-Cogn-Impact-Procedure-Perform-Domin-SymbVal-PhysBod := Cogn & Impact & P
 Sustain-Impact-Responding-SymbVal-PhysBod := Impact & Responding & SymbVal & PhysBod.		
 Sustain-Cogn-Impact-Procedure-Creation-Responding-VerbalAct-Domin-SymbVal := Cogn & Impact & Procedure & Creation & Responding & VerbalAct & Domin & SymbVal.		
 Imped-Impact-Procedure-Emotion-Perform-SymbVal-PhysBod := Impact & Procedure & Emotion & Perform & SymbVal & PhysBod.		
-Perform-SymbVal-PhysBod := Perform & SymbVal & PhysBod.		
-Sustain-MedByPrcept-Cogn-Responding-SymbVal-PureRel := MedByPrcept & Cogn & Responding & SymbVal & PureRel.		
+Further-Cogn-Procedure-Responding-VerbalAct-Domin-SymbVal := Further & Cogn & Procedure & Responding & VerbalAct & Domin & SymbVal.
+Perform-SymbVal-PhysBod := Perform & SymbVal & PhysBod.	
+MedByPrcept-Cogn-Responding-SymbVal := MedByPrcept & Cogn & Responding & SymbVal.	
+Sustain-MedByPrcept-Cogn-Responding-SymbVal-PureRel := MedByPrcept & Cogn & Responding & SymbVal & PureRel.	
+Sustain-MedByPrcept-Cogn-Responding-SymbVal := MedByPrcept & Cogn & Responding & SymbVal.		
 Further-Cogn-Impact-Procedure-Perform-Possess-SymbVal-PhysBod := Cogn & Impact & Procedure & Perform & Possess & SymbVal & PhysBod.		
 Init-Perceiving-SymbVal-PhysBod := Init & Perceiving & SymbVal & PhysBod.		
 Further-Dependence-Impact-Perform-Domin := Dependence & Impact & Perform & Domin.		
@@ -26052,7 +26086,9 @@ Further-Cogn-Dependence-Domin-SymbVal := Cogn & Dependence & Domin & SymbVal.
 Directionality-MedByPrcept-Cogn-Impact-Procedure-Unfold-SymbVal-PureRel := Directionality & MedByPrcept & Cogn & Impact & Procedure & Unfold & SymbVal & PureRel.		
 Impact-Procedure-Unfold-Criterial-PhysBod := Impact & Procedure & Unfold & Criterial & PhysBod.		
 Imped-Emotion-Domin-SymbVal-PhysBod := Emotion & Domin & SymbVal & PhysBod.		
+Sustain-Perceiving-Cogn-Perform-SymbVal-PhysBod := Sustain & Perceiving & Cogn & Perform & SymbVal & PhysBod.
 Imped-Impact-Responding-Criterial-PhysBod := Impact & Responding & Criterial & PhysBod.		
+Imped-Perceptible-Cogn-Responding-Procedure-Perform-Domin-SymbVal := Imped & Perceptible & Cogn & Responding & Procedure & Perform & Domin & SymbVal.
 Emotion-Responding-PhysBod := Emotion & Responding & PhysBod.		
 Sustain-Cogn-Procedure-Responding-Perform-SymbVal-PhysBod := Cogn & Procedure & Responding & Perform & SymbVal & PhysBod.		
 Sustain-MedByPrcept-Cogn-Procedure-Creation-Responding-Perform-SymbVal-PhysBod := MedByPrcept & Cogn & Procedure & Creation & Responding & Perform & SymbVal & PhysBod.		
@@ -26076,7 +26112,7 @@ Imped-Cogn-Impact-Procedure-Perform-Possess-SymbVal-PhysBod := Cogn & Impact & P
 Sustain-Procedure-Unfold-Perform-Criterial-PhysBod := Procedure & Unfold & Perform & Criterial & PhysBod.		
 Sustain-Impact-Procedure-Responding-Perform-Criterial-PhysBod := Impact & Procedure & Responding & Perform & Criterial & PhysBod.		
 Perceptible-Emotion-Responding-SymbVal-PhysBod := Perceptible & Emotion & Responding & SymbVal & PhysBod.		
-Perceiving-Perceptible-Procedure-Perform-Criterial-PhysBod := Perceiving & Perceptible & Procedure & Perform & Criterial & PhysBod.		
+Perceiving-Perceptible-Procedure-Perform-Criterial-PhysBod := Perceiving & Perceptible & Procedure & Perform & Criterial & PhysBod.	
 Imped-Cogn-Procedure-Unfold-Perform-Domin-PhysBod := Cogn & Procedure & Unfold & Perform & Domin & PhysBod.		
 Imped-Cogn-Procedure-Perform-SymbVal := Cogn & Procedure & Perform & SymbVal.		
 Sustain-Cogn-Dependence-Impact-Perform-Criterial-PhysBod := Cogn & Dependence & Impact & Perform & Criterial & PhysBod.		
@@ -26185,7 +26221,12 @@ Sustain-Procedure-Responding-Unfold-Perform-SymbVal := Procedure & Responding & 
 Further-Dependence-Impact-Perform-Domin-PhysBod := Dependence & Impact & Perform & Domin & PhysBod.		
 Further-Cogn-Impact-Procedure-Creation-Responding-VerbalAct-Possess-SymbVal := Cogn & Impact & Procedure & Creation & Responding & VerbalAct & Possess & SymbVal.		
 Imped-Impact-Procedure-Unfold-Perform-Possess := Impact & Procedure & Unfold & Perform & Possess.		
-Sustain-Perceiving-Cogn-Procedure-Perform-PhysBod := Perceiving & Cogn & Procedure & Perform & PhysBod.		
+Sustain-Perceiving-Cogn-Procedure-Perform-PhysBod := Perceiving & Cogn & Procedure & Perform & PhysBod.	
+MedByPrcept-Impact-SymbVal := MedByPrcept & Impact & SymbVal.
+Sustain-Cogn-Creation-SymbVal-PureRel := Sustain & Cogn & Creation & SymbVal & PureRel.	
+VerbalAct-SymbVal-PureRel := VerbalAct & SymbVal & PureRel.
+Sustain-Perceiving-Cogn-Procedure-Perform-SymbVal-PhysBod := Perceiving & Cogn & Procedure & Perform & SymbVal & PhysBod.
+Perceiving-Cogn-Procedure-Perform := Perceiving & Cogn & Procedure & Perform.		
 Sustain-Perceptible-Procedure-Responding-Perform-Criterial-PhysBod := Perceptible & Procedure & Responding & Perform & Criterial & PhysBod.		
 Sustain-Cogn-Impact-Procedure-Creation-Unfold-Perform-PhysBod := Cogn & Impact & Procedure & Creation & Unfold & Perform & PhysBod.		
 Perceptible-Emotion-Responding-Unfold-Criterial := Perceptible & Emotion & Responding & Unfold & Criterial.		
@@ -26202,4 +26243,9 @@ Cogn-Impact-Emotion-Responding-Unfold-SymbVal-PhysBod := Cogn & Impact & Emotion
 Imped-Impact-SymbVal-PhysBod := Impact & SymbVal & PhysBod.		
 Sustain-Perceptible-Impact-Responding-Criterial-PhysBod := Perceptible & Impact & Responding & Criterial & PhysBod.		
 Sustain-Cogn-Procedure-Creation-Unfold-VerbalAct-Criterial-SymbVal := Cogn & Procedure & Creation & Unfold & VerbalAct & Criterial & SymbVal.		
-Sustain-Dependence-Impact-Responding-Domin := Dependence & Impact & Responding & Domin.		
+Sustain-Dependence-Impact-Responding-Domin := Dependence & Impact & Responding & Domin.	
+ustain-Cogn-Procedure-Creation-Unfold-VerbalAct-Criterial-SymbVal := Cogn & Procedure & Creation & Unfold & VerbalAct & Criterial & SymbVal.		
+Sustain-Cogn-MedByPrcept-Procedure-Responding-Perform-SymbVal := Sustain & Cogn & MedByPrcept & Procedure & Responding & Perform & SymbVal.	
+Sustain-Cogn-Dependence-Procedure-Responding-Unfold-Perform-SymbVal-PhysBod := Sustain & Cogn & Dependence & Procedure & Responding & Unfold & Perform & SymbVal & PhysBod.
+Further-Cogn-Responding-SymbVal := Further & Cogn & Responding & SymbVal.
+Sustain-Cogn-Procedure-Perform-SymbVal := Sustain & Cogn & Procedure & Perform & SymbVal.
