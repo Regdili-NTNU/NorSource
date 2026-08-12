@@ -1,0 +1,35 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+
+;The grammar GaGr is a small grammar of Ga, and contains at the same time a script covering a large range of construction types, defined independently as the system 'tg' (for 'typegram'), whereas GaGr is built on the Matrix platform. The Matrix scripts follow the general pattern (1) for sign specification, where the RELS specification is what gets projected to the MRS representation:
+
+(1)
+type1 := type2 &
+[ SYNSEM.LOCAL.CAT [ HEAD verb-all,
+                     VAL [ SUBJ list,
+                           COMPS list ] ],
+  SYNSEM.LOCAL.CONT.HOOK.INDEX #1 & semarg,
+  SYNSEM.LOCAL.CONT.RELS diff-list & [LIST.FIRST #ep, ... ],
+  SYNSEM.LKEYS.KEYREL #ep & [PRED string,
+			     ARG0 #1,
+			     ARG1 semarg,
+			     ... ]
+  SYNSEM.NON-LOCAL.SLASH diff-list].
+
+;Relative to this design, GaGr has inside of 'CAT' also a valence specification parameter called 'QVAL' which defines valence bound items in terms of attributes 'SUBJECT', 'DOBJECT', 'IOBJECT' and others, coindexed with the relevant SUBJ and COMPS specifications.
+;The script representing 'tg' is introduced inside the attribute 'LOCAL', through attributes 'GF', 'ACTNTS', 'SPS', 'CMPS' and 'INDX' (introduced by the type 'signe', as opposed to the matrix type 'sign'), with content coindexed with the other specifications where appropriate.
+;The file 'matrix.tdl' has two parts: the scripts constituting an early version of the Matrix system, and the general part of tg. 
+;The file 'ga.tdl' defines constructs used in the Ga grammar more specifically.
+
+;The grammar is being created in multiple stages. 
+;Stage 1, from 2004-2008, is exclusively built within the Matrix system (and using the QVAL specifications), focusing on the verb system (basic valence types, serial verb constructions (SVC), extended verb complexes (EVC), verbids. The lexicon is given in 'lexicon.tdl', and a test suite is 'test-evs-svc'. with 'constructions/test-constr.ga' for annotated and translated versions of the sentences. This version was presented as Dakubu et al. 2007.
+;
+;Stage 2, from 2008-2011, is the creation of 'tg', which contains a Ga grammar as one of its instantiations (cf. TypeGram https://typecraft.org/tc2wiki/TypeGram). This stage uses a 'meta-form' whereby English-based glosses rather than language strings are being parsed and presented in a large test-suite, corresponding to all the sentences in 'Ga appendix' (and 'Norwegian appendix') in Hellan and Dakubu 2010. Relative to this stage, a large Ga lexicon was imported into the grammar (by Tore Bruland), although kept outside the current version of 'tg'. A general description of 'tg' is given in Hellan 2019, and the Ga-relevant part of tg is described in Hellan 2020.
+;
+;Stage 3 is the current version, where stage 1 and stage 2 are brought together, and aspects of the verb analysis are being further developed. While all valence types are directly represented in the tg formalism, they now are also 1-to-1 reflected in the matrix style formalism, and lex-types in the latter carry names reflecting the tg style. For composition of construction types in the Construction Labeling (CL) formalism, this means that CL construction specifications can be implemented either in the tg grammar and in a matrix grammar.
+;While definitions of the larger range of valence types, integrating tg-types in matrix-style types, are for the most part building the primary grammatical shells of sign structures, for the valence types relevant in the Ga grammar they also have semantic specifications, yielding articulated MRS representations.
+;
+;Anticipated further stages include:
+;Integration of the large lexicon (as a further lexicon file), which requires the specification of most of the CL construction types defined in 'Ga appendix'.
+;Possible transfer to Akan.
+

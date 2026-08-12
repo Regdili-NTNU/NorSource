@@ -1,0 +1,263 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+
+
+
+
+
+
+
+; from test-constr.ga
+
+ba_iv-daem := intr-mainverb-lexeme-daem &
+    [ STEM <"ba">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ba_v_rel: come",
+	DAEMON v-intr-mover-motion ].
+
+yE_tr-2-daem : = trans-mainverb-lexeme-daem &
+    [ STEM <"yE">,
+	PHON <"yE_L">,
+	INFLECTION irreg,
+	SYNSEM.LKEYS.KEYREL.PRED "_yE_1_v_rel: have",
+      DAEMON v-tr-poss_th-PROPTY ].
+
+hoo_tr-daem := trans-mainverb-lexeme-daem &
+  [ STEM < "hoo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hoo_v_rel: cook",
+    DAEMON v-tr-ag_th-AFFECT ].  
+
+ha_ditr-daem := ditrans-mainverb-lexeme-daem &
+    [ STEM <"ha">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ha_v_rel: give",
+	DAEMON v-ditr-ag_ben_th-TRANSFER ].
+
+
+
+
+wa_iv := intr-mainverb-lexeme-daem &
+    [ STEM <"wa">,
+	PHON <"wa_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_wa_v_rel: is-hard",
+	DAEMON v-intr-th-PROPTY ].
+
+di_iv := intr-mainverb-lexeme-daem &
+    [ STEM <"di">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_di_v_rel: is-black",
+	DAEMON v-intr-th-PROPTY ].
+
+NOO_iv := intr-mainverb-lexeme-daem &
+    [ STEM <"NOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_NOO_v_rel: is-tasty",
+	DAEMON v-intr-th-PROPTY ].
+nE_iv := intr-mainverb-lexeme-daem &
+    [ STEM <"nE">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nE_v_rel: rain",
+	DAEMON v-intr-th-PHENOM ].
+jO_iv := intr-mainverb-lexeme-daem &
+    [ STEM <"jO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_jO_v_rel: cool/worn",
+	SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CONT.HOOK.XARG #3,
+	DAEMON v-intr-postpsubj-locus-PROPTY &
+ 		[ SUBJCT.DARG #4,
+		  SAME-ACTANT.REST.FIRST same-act &
+					 [FRST-ARG #3 & [SORT #4],
+					  SEC-ACT #4] ] ].
+
+NOO_tv := trans-mainverb-lexeme-daem &
+    [ STEM <"NOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_NOO_v_rel: is-tasty",
+	DAEMON v-tr-th_exp-EXPER ].
+
+NOO_tv-postobj := trans-mainverb-lexeme-daem &
+    [ STEM <"NOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_NOO_v_rel: is-tasty",
+	DAEMON v-tr-postpobj-th_exp-EXPER,
+	SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.XARG.SORT #3,
+	DAEMON.DOBJCT.DARG #3 ].
+
+ye_tv := trans-mainverb-lexeme-daem &
+    [ STEM <"ye">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ye_v_rel: eat",
+	DAEMON v-tr-th_exp-EXPER ].
+ba_tv := trans-mainverb-lexeme-daem &
+    [ STEM <"ba">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ba_v_rel: come",
+	DAEMON v-tr-mover_endpt-MOTION ].
+
+fe_tv := trans-mainverb-lexeme-daem &
+    [ STEM <"fe">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_fe_v_rel: do",
+	DAEMON v-tr-ag_th-PROPTY ].
+
+nu_tv := trans-mainverb-lexeme-daem &
+    [ STEM <"nu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nu_v_rel: sense",
+	DAEMON v-tr-sens_th-PERCPT ].
+
+nu_tv-postpobj := trans-mainverb-lexeme-daem &
+    [ STEM <"nu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nu_v_rel: sense",
+	DAEMON v-tr-postpobj-sens_th-PERCPT,
+	SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.XARG.SORT #3,
+	DAEMON.DOBJCT.DARG #3 ].
+
+na_tv-sit := trans-mainverb-sitobj-lexeme-daem &
+    [ STEM <"na">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see",
+	DAEMON v-tr-sens_thsit-PERCPT ].
+
+na_tv := trans-mainverb-lexeme-daem &
+    [ STEM <"na">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see",
+	DAEMON v-tr-sens_th-PERCPT ].
+
+na_tv-postpobj := trans-mainverb-lexeme-daem &
+    [ STEM <"na">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see",
+	SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.XARG.SORT #3,
+	DAEMON v-tr-postpobj-agsens_th-ACHVMNT &
+ 		[ DOBJCT.DARG #3 ]].
+
+bo_tv := trans-mainverb-lexeme-daem &
+    [ STEM <"bo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_bo_v_rel: listen",
+	DAEMON v-tr-unifobj-agsens_materialzr-PERCPT ].
+
+jOO_tv := trans-mainverb-lexeme-daem &
+    [ STEM <"jOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_jOO_v_rel: rest",
+	SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CONT.HOOK.XARG #3,
+	DAEMON v-tr-partwhlsubj_idobj-locth_exper-SENS &
+ 		[ SUBJCT.DARG #4,
+		  SAME-ACTANT.REST.FIRST same-act &
+					 [FRST-ARG #3 & [SORT #4],
+					  SEC-ACT #4] ] ].
+
+na_dtv := ditrans-mainverb-lexeme-daem &
+    [ STEM <"na">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see",
+	DAEMON v-ditr-unifobj2-agsens_locus_materialzr-EXPER ].
+
+bo_dtv := ditrans-mainverb-lexeme-daem &
+    [ STEM <"bo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_bo_v_rel: listen",
+	DAEMON v-ditr-unifobj2-agsens_locus_materialzr-PERCPT ].
+
+wO_dtv := ditrans-mainverb-lexeme-daem &
+    [ STEM <"wO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_wO_v_rel: put",
+	SYNSEM.LOCAL.CAT.QVAL.IOBJECT.LOCAL.CONT.HOOK.XARG.SORT #3,
+	DAEMON v-ditr-postpobj1-ag_endpnt_th-PLACEMENT &
+ 		[ IOBJCT.DARG #3 ]].
+
+to_dtv := ditrans-mainverb-lexeme-daem &
+    [ STEM <"to">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_to_v_rel: put",
+	SYNSEM.LOCAL.CAT.QVAL.IOBJECT.LOCAL.CONT.HOOK.XARG.SORT #3,
+	DAEMON v-ditr-postpobj1-ag_endpnt_th-PLACEMENT &
+ 		[ IOBJCT.DARG #3 ]].
+
+shwie_dtv := ditrans-mainverb-lexeme-daem &
+    [ STEM <"shwie">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_shwie_v_rel: pour",
+	SYNSEM.LOCAL.CAT.QVAL.IOBJECT.LOCAL.CONT.HOOK.XARG.SORT #3,
+	DAEMON v-ditr-postpobj1-ag_endpnt_th-PLACEMENT &
+ 		[ IOBJCT.DARG #3 ]].
+
+bo_dtv-postpobj1 := ditrans-mainverb-lexeme-daem &
+    [ STEM <"bo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_bo_v_rel: listen",
+	SYNSEM.LOCAL.CAT.QVAL.IOBJECT.LOCAL.CONT.HOOK.XARG #3,
+	DAEMON v-ditr-postpobj_idsubj_unifobj-agsens_endpnt_materialzr-PERCPT &
+ 		[ IOBJCT.DARG #4,
+		  SAME-ACTANT.FIRST same-act &
+					 [FRST-ARG #3 & [SORT #4],
+					  SEC-ACT #4] ]].
+
+kE_tr-isvc-nonobjshare-lng1 := trans-mainverb-isvc-tr-xtr-long-lexeme-daem &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"],
+    DAEMON ev-vtrkE_ag*_th-vtr_aff-INSTRUMENTALAFFECT ].
+
+kE_tr-isvc-nonobjshare-lng2 := trans-mainverb-isvc-tr-xtr-long-lexeme-daem &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"],
+    DAEMON ev-vtrkE_ag*_th-vtr_endpnt-BRING-TO-PLACE ].
+
+kE_tr-isvc-nonobjshare-shrt := trans-mainverb-isvc-tr-xtr-short-lexeme-daem &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"],
+    DAEMON ev-vtrkE_ag*_th-vintr-BRINGING ].
+
+ 
+kE_tr-isvc-objshare := trans-mainverb-isvc-tr-tr-objshare-lexeme-daem &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM.LKEYS.KEYREL.PRED "_kE_v_rel: move",
+    DAEMON ev-vtrkE_ag*_th*-vditr_ben-TRANSFER ].
+
+kE_tr-isvc-objshare-postpiobj := trans-mainverb-isvc-tr-tr-objshare-lexeme-daem &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"],
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.IOBJECT.LOCAL.CONT.HOOK.XARG.SORT #3]>,
+    DAEMON ev-vtrkE_ag*_th*-vditr_postpiobj_endpnt-PLACEMENT &
+ 		[ VSIGNS.REST.FIRST.IOBJCT.DARG #3 ]].
+
+kE_tr-isvc-objshare-postpiobj-id := trans-mainverb-isvc-tr-tr-objshare-loc-lexeme-daem &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"],
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.IOBJECT.LOCAL.CONT.HOOK.XARG #3]>,
+    DAEMON  ev-vtrkE_ag*_th*-vditr_partwhlobj2_locus_idsubj-SUSTAINEDLOCATION &
+ 		[ VSIGNS.REST.FIRST.IOBJCT.DARG #4,
+		  SAME-ACTANT.FIRST same-act &
+					 [FRST-ARG #3 & [SORT #4],
+					  SEC-ACT #4] ]].
+
+;kE_tr-isvc-objshare-postpiobj-id := trans-mainverb-isvc-tr-tr-objshare-lexeme &
+;  [ STEM <"kE">,
+;    INFLECTION reg,
+;    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"],
+;    SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.IOBJECT.LOCAL.CONT.HOOK.XARG #3]>,
+;    DAEMON ev-vtrkE_ag*_th*-vditr_partwhlobj2_locus_idsubj-SUSTAINEDLOCATION &
+; 		[ VSIGNS.REST.FIRST.IOBJCT.DARG #4,
+;		  SAME-ACTANT.FIRST same-act &
+;					 [FRST-ARG #3 & [SORT #4],
+;					  SEC-ACT #4] ]].
+
+tsi_tr-isvc-objshare := trans-mainverb-isvc-tr-tr-objshare-lexeme-daem &
+  [ STEM <"tsi">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_tsi_v_rel: push"],
+    DAEMON sv-vtr_ag*PRONPREF_th*-vditr_endpnt-PLACEMENT ].
+
+

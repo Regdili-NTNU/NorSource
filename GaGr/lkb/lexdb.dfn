@@ -1,0 +1,10 @@
+nor2	id	name		symbol
+nor2	orth	orth		string-list
+nor2	unifs	cargs	(synsem local cont rels)	(dlst carg)
+nor2	unifs	infl	(inflection)	mixed
+nor2	unifs	keyrel	(synsem local cat head keys key)	mixed
+nor2	unifs	keyrelpred	(synsem lkeys keyrel pred)	mixed
+nor2	unifs	nklid	(nkl-id)	mixed
+nor2	unifs	orth	(stem)	string-fs
+nor2	unifs	preds	(synsem local cont rels)	(dlst pred)
+nor2	unifs	type	nil	symbol

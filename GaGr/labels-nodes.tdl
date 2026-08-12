@@ -1,0 +1,128 @@
+
+n-label := label &
+[ SYNSEM lex-synsem &
+         [ LOCAL.CAT [ HEAD noun ] ],
+  LABEL-NAME 'N ].
+
+
+s-label := label & 
+[ SYNSEM [ LOCAL.CAT [ HEAD verb-all, 
+                       VAL [ SUBJ <anti-synsem >, 
+                             COMPS <>] ],
+           LEX -,
+           NON-LOCAL.SLASH <!!> ],
+  LABEL-NAME "S" ].
+
+
+v-label1 := label &
+[ SYNSEM lex-synsem & [ LOCAL.CAT.HEAD verb-all,
+           		LEX +,
+                        NON-LOCAL.SLASH <! !> ],
+  LABEL-NAME "V" ].
+
+
+v-label2 := label &
+[ SYNSEM lex-synsem & [ LOCAL.CAT.HEAD verbid,
+           		LEX +,
+                        NON-LOCAL.SLASH <! !> ],
+  LABEL-NAME "Vid" ].
+
+
+
+vp-label := label & 
+[ SYNSEM phr-synsem &
+         [ LOCAL.CAT [ HEAD verb-all, 
+                       VAL [ SUBJ <synsem>]],
+           NON-LOCAL.SLASH <!!>,
+           LEX - ],
+  LABEL-NAME "VP" ].
+
+
+vp-label2 := label & 
+[ SYNSEM phr-synsem &
+         [ LOCAL.CAT [ HEAD verbid, 
+                       VAL [ SUBJ <>, 
+                             COMPS <>]],
+           NON-LOCAL.SLASH <!!>,
+           LEX - ],
+  LABEL-NAME "VidP" ].
+
+np-label := label &
+[ SYNSEM.LOCAL.CAT [ HEAD noun, 
+                     VAL [ COMPS <>]],
+  ARGS [ FIRST sign,
+         REST [ FIRST sign,
+                REST *top* ]],
+  LABEL-NAME "NP" ].
+
+pp-label := label &
+[ SYNSEM.LOCAL.CAT [ HEAD prep, 
+                     VAL [ COMPS <>]],
+  ARGS [ FIRST sign,
+         REST [ FIRST sign,
+                REST *top* ]],
+  LABEL-NAME "PP" ].
+
+
+det-label := label &
+[ SYNSEM.LOCAL.CAT [ HEAD det,
+                     VAL [ SPEC < [] > ] ],
+  LABEL-NAME 'D ].
+
+p-label := label &
+[ SYNSEM lex-synsem & [ LOCAL.CAT.HEAD prep,
+           		LEX +,
+                        NON-LOCAL.SLASH <! !> ],
+  LABEL-NAME "P" ].
+
+
+
+art-label := label &
+[ SYNSEM.LOCAL.CAT [ HEAD art,
+                     VAL [ SPEC < [] > ] ],
+  LABEL-NAME 'Art ].
+
+poss-label := label &
+[ SYNSEM.LOCAL.CAT [ HEAD posspron,
+                     VAL [ SPEC < [] > ] ],
+  LABEL-NAME 'Poss ].
+
+
+quant-label := label &
+[ SYNSEM.LOCAL.CAT [ HEAD quant,
+                     VAL [ SPEC < [] > ] ],
+  LABEL-NAME 'Quant ].
+
+
+adj-label := label &
+[ SYNSEM.LOCAL.CAT.HEAD adj,
+  LABEL-NAME 'A ].
+
+card-label := label &
+[ SYNSEM.LOCAL.CAT.HEAD card,
+  LABEL-NAME 'Card ].
+
+complementizer-label := label &
+[ SYNSEM.LOCAL.CAT.HEAD comp,
+  LABEL-NAME 'Subord ].
+
+
+punct-label := label &
+[ SYNSEM.LOCAL.CAT.HEAD punct,
+  LABEL-NAME 'Punct ].
+
+conn-adv-label := label &
+[ SYNSEM.LOCAL.CAT.HEAD conn-adv,
+  LABEL-NAME 'Connect-adv ].
+
+conn-coord-label := label &
+[ SYNSEM.LOCAL.CAT.HEAD conn-coord,
+  LABEL-NAME 'Connect-coord ].
+
+coord-label := label &
+[ SYNSEM.LOCAL.CAT.HEAD coord,
+  LABEL-NAME 'Coord ].
+
+np-coord-label := label &
+[ SYNSEM.LOCAL.CAT.HEAD noun,
+  LABEL-NAME 'NP ].

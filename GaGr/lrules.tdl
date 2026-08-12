@@ -1,0 +1,29 @@
+; File for spelling preserving lexical rules, i.e., instances
+; of (subtypes of) const-ltol-rule or const-ltow-rule.
+
+; %suffix should not appear in this file (see irules.tdl).
+
+; %suffix should not appear in this file (see irules.tdl).
+
+
+; assembled for use in Ga
+;plain-sg-noun-rule := plain-sg-noun-word.
+;imperative-verb-rule := imperative-verb-lexeme. 
+;inf-verb-rule := inf-verb-word.
+;imp-0-rule := const-imp-verb-word.
+
+object-deletion-rule := object-deletion.
+object-ditr-deletion-rule := object-ditr-deletion.
+object-dbob-deletion-rule := object-dbob-deletion.
+
+#|
+subj-sharing-deletion-build-lrule := subj-sharing-deletion-build-lexrule.
+subj-ref-sharing-build-lrule := subj-ref-sharing-build-lexrule.
+|#
+;obj-sharing-deletion-build-lrule := obj-sharing-deletion-build-lexrule.
+#|
+obj-ref-sharing-build-lrule := obj-ref-sharing-build-lexrule.
+switch-sharing-deletion-build-lrule := switch-sharing-deletion-build-lexrule.
+switch-ref-sharing-build-lrule := switch-ref-sharing-build-lexrule.
+|#
+;;;;;;;;;;;;;;;;;;;;;

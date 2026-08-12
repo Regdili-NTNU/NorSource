@@ -1,0 +1,484 @@
+absorbere-v	hellan	0	2004-12-08 00:00:00+01	absorbere	1	trans-arg1th-2-le	absorbere		v2		"_absorbere_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+all	hellan	0	2004-12-08 00:00:00+01	all	1	comm-all-quant-det-word	all							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+alle	hellan	0	2004-12-08 00:00:00+01	alle	1	pl-all-quant-det-word	alle							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+alt	hellan	0	2004-12-08 00:00:00+01	alt	1	neut-all-quant-det-word	alt							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ankomme-1914-1	hellan	0	2004-12-08 00:00:00+01	ankomme	1	intrans-arg2-le	ankomme		v1			"_ankomme-rel"	"ankomme_1914"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+anse	hellan	0	2004-12-08 00:00:00+01	anse	1	trans-secpred-for-inf-arg1-2prop-le	anse		v32		"_anse_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+anse-v	hellan	0	2004-12-08 00:00:00+01	anse	1	trans-secpred-som-arg1-2prop-le	anse		v1-v1b-v11-v2			"_anse_v_rel"	"anse_2053"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+anse2	hellan	0	2004-12-08 00:00:00+01	anse	1	trans-secpred-som-arg1-2prop-le	anse		v32		"_anse_v_rel2"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+anspore	hellan	0	2004-12-08 00:00:00+01	anspore	1	trans-pp-inf-control-arg1-2-govarg-le	anspore				"_anspore_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+armani-pn	hellan	0	2004-12-08 00:00:00+01	armani	1	proper-noun-phrase	armani			"ARMANI" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+arte-v	hellan	0	2004-12-08 00:00:00+01	arte	1	refl-secpred-ap-arg2-value-le	arte		v1		"_arte_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+arve-v	hellan	0	2004-12-08 00:00:00+01	arve	1	trans-arg1-2-le	arve		v1-v1b-v11		"_arve_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ask-pn	hellan	0	2004-12-08 00:00:00+01	Ask	1	proper-noun-phrase	Ask			"ASK" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+av	hellan	0	2004-12-08 00:00:00+01	av	1	prep-word-reg	av					"_av_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+avhandling_3508	hellan	0	2004-12-08 00:00:00+01	avhandling	1	1rel-fem-noun-lxm	avhandling		m1-f4			"_avhandling-3508_n_rel"	"avhandling_3508"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+avhenge	hellan	0	2004-12-08 00:00:00+01	avhenge	1	intrans-pp-arg2-govarg-le	avhenge		v15		"_avhenge_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+avis_3545	hellan	0	2004-12-08 00:00:00+01	avis	1	1rel-fem-noun-lxm	avis		m1-f4			"_avis-3545_n_rel"	"avis_3545"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bakke-4138-4	hellan	0	2004-12-08 00:00:00+01	bakke	1	trans-secpred-arg1-2-result-loc-le	bakke		v1-v1b-v11		"_bakke_v_rel"		"bakke_4138"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bakke_4127	hellan	0	2004-12-08 00:00:00+01	bakke	1	1rel-masc-noun-lxm	bakke		m2			"_bakke_n_rel"	"bakke_4127"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ball	hellan	0	2004-12-08 00:00:00+01	ball	1	1rel-masc-noun-lxm	ball		m1			"_ball_n_rel"	string	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ball-n	hellan	0	2004-12-09 21:42:40.624412+01	ball	1	1rel-masc-noun-lxm	ball	\N	m52	\N	\N	"_ball_n_rel"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+barn_4546	hellan	0	2004-12-08 00:00:00+01	barn	1	1rel-neut-noun-lxm	barn		n1-n2			"_barn_n_rel"	"barn_4546"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+basere-v	hellan	0	2004-12-08 00:00:00+01	basere	1	refl-pp-arg2-govarg-le	basere		v2		"_basere_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+be-v	hellan	0	2004-12-08 00:00:00+01	be	1	ditrans-infbare-control-arg1-2prop-3-le	be		v58		"_be_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bede-v-4790-1	hellan	0	2004-12-08 00:00:00+01	bede	1	trans-pp-arg1-2-govargrec-le	bede		v2			"bede-v-4790-1-rel"	"4790"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+beinflyge-v-5035-1	hellan	0	2004-12-08 00:00:00+01	beinflyge	1	intrans-arg1-le	beinflyge		v65			"beinflyge-v-5035-1-rel"	"5035"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bekle-v-5115-1	hellan	0	2004-12-08 00:00:00+01	bekle	1	trans-arg1-3-le	bekle		v4			"bekle-v-5115-1-rel"	"5115"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+beløpe-v	hellan	0	2004-12-08 00:00:00+01	beløpe	1	refl-secpred-pp-arg2-value-le	beløpe		v31		"_beløpe_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bemektige-v	hellan	0	2004-12-08 00:00:00+01	bemektige	1	ditrans-refl-arg1-2-3-le	bemektige		v1		"_bemektige_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bemøye-v	hellan	0	2004-12-08 00:00:00+01	bemøye	1	refl-pp-arg1-govarg-le	bemøye		v1		"_bemøye_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bestride-v-5563-1	hellan	0	2004-12-08 00:00:00+01	bestride	1	trans-arg1-3-le	bestride		v8			"bestride-v-5563-1-rel"	"5563"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+besøke-v	hellan	0	2004-12-08 00:00:00+01	besøke	1	trans-arg1-2-le	besøke		v2			"_besøke_v_rel"	"besøke_5600"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+betrede-v-5671-1	hellan	0	2004-12-08 00:00:00+01	betrede	1	trans-arg1-3-le	betrede		v1			"betrede-v-5671-1-rel"	"5671"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+beundre-v	hellan	0	2004-12-08 00:00:00+01	beundre	1	trans-arg1-2-le	beundre		v1-v1b-v11		"_beundre_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bil-n	hellan	0	2004-12-08 00:00:00+01	bil	1	1rel-masc-noun-lxm	bil		m1		"_bil_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bjeffe-6165-1	hellan	0	2004-12-08 00:00:00+01	bjeffe	1	intrans-arg1-le	bjeffe		v1-v1b-v11			"_bjeffe-rel"	"bjeffe_6165"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+blei_6316	hellan	0	2004-12-08 00:00:00+01	blei	1	1rel-masc-noun-lxm	blei		m1			"_blei_n_rel"	"blei_6316"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bli	hellan	0	2004-12-08 00:00:00+01	bli	1	passive-aux-lxm	bli		v75-v76-v77			"_bli_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bli-v-6390-3	hellan	0	2004-12-08 00:00:00+01	bli	1	intrans-arg3-le	bli		v16			"bli-v-6390-3-rel"	"6390"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bok-n	hellan	0	2004-12-08 00:00:00+01	bok	1	1rel-masc-noun-lxm	bok		m51-f31		"_bok_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bord_6999	hellan	0	2004-12-08 00:00:00+01	bord	1	1rel-neut-noun-lxm	bord		n1-n2-n6-n7			"_bord_n_rel"	"bord_6999"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bort-adv	hellan	0	2004-12-08 00:00:00+01	bort	1	adv-comp-word	bort				"_bort-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bre_7347	hellan	0	2004-12-08 00:00:00+01	bre	1	1rel-masc-noun-lxm	bre		m1			"_bre_n_rel"	"bre_7347"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+brekke-7406-1	hellan	0	2004-12-08 00:00:00+01	brekke	1	trans-arg1-2-le	brekke		v12			"_brekke-rel"	"brekke_7406"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+brenne-v-7432-1	hellan	0	2004-12-08 00:00:00+01	brenne	1	intrans-arg3-le	brenne		v159			"brenne-v-7432-1-rel"	"7432"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bru-n	hellan	0	2004-12-08 00:00:00+01	bru	1	1rel-fem-noun-lxm	bru		f4-m1		"_bru_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bru_7662	hellan	0	2004-12-08 00:00:00+01	bru	1	1rel-fem-noun-lxm	bru		f4-m1			"bru-rel"	"bru_7662"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bruk_7692	hellan	0	2004-12-08 00:00:00+01	bruk	1	1rel-mascorneut-noun-lxm	bruk		m1e-n101			"_bruk_n_rel"	"bruk_7692"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+burde-v-8157-1	hellan	0	2004-12-08 00:00:00+01	burde	1	modal-aux-lxm	burde		v87			"burde-v-8157-1-rel"	"8157"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+by-n	hellan	0	2004-12-08 00:00:00+01	by	1	1rel-masc-noun-lxm	by		m1		"_by_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+byde-v-8263-2	hellan	0	2004-12-08 00:00:00+01	byde	1	intrans-pp-arg1-govarg-le	byde		v8			"byde-v-8263-2-rel"	"8263"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+bytte-8421-2	hellan	0	2004-12-08 00:00:00+01	bytte	1	trans-arg1-2-le	bytte		v1-v1b-v11			"_bytte_v_rel"	"bytte_8421"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+båt-n	hellan	0	2004-12-11 15:32:12.631867+01	båt	1	1rel-masc-noun-lxm	båt	\N	m52	\N	\N	_båt_n_rel	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+båt-n	hellan	1	2004-12-11 15:38:32.390537+01	båt	1	1rel-masc-noun-lxm	båt	\N	m1	\N	\N	_båt_n_rel	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NprSource-test
+chips_8855	hellan	0	2004-12-08 00:00:00+01	chips	1	1rel-masc-noun-lxm	chips		m0x			"_chips-8855_n_rel"	"chips_8855"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+dag_9073	hellan	0	2004-12-08 00:00:00+01	dag	1	1rel-masc-noun-lxm	dag		m1			"_dag_n_rel"	"dag_9073"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+dal-n	hellan	0	2004-12-08 00:00:00+01	dal	1	1rel-masc-noun-lxm	dal		m1			"_dal_n_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+de-d1	hellan	0	2004-12-08 00:00:00+01	de	1	pl-def-art-det-word	de							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+deg-refl-light	hellan	0	2004-12-08 00:00:00+01	deg	1	light-refl-phrase	deg					"_refl-light"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+den-d1	hellan	0	2004-12-08 00:00:00+01	den	1	comm-def-art-det-word	den							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+deres	hellan	0	2004-12-08 00:00:00+01	deres	1	2ppl-poss-word	deres							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+det-d1	hellan	0	2004-12-08 00:00:00+01	det	1	neut-def-art-det-word	det							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+det-expl	hellan	0	2004-12-08 00:00:00+01	det	1	expletive-noun-phrase	det							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+din	hellan	0	2004-12-08 00:00:00+01	din	1	comm-2psg-poss-word	din							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+dine	hellan	0	2004-12-08 00:00:00+01	dine	1	pl-2psg-poss-word	dine							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+direktør-n	hellan	0	2004-12-08 00:00:00+01	direktør	1	1rel-masc-noun-lxm	direktør		m1		"_direktør_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+diskutere-v	hellan	0	2004-12-08 00:00:00+01	diskutere	1	trans-s-hv-arg1-2prop-le	diskutere		v2		"_diskutere_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ditt	hellan	0	2004-12-08 00:00:00+01	ditt	1	neut-2psg-poss-word	ditt							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+drage-v-10696-2	hellan	0	2004-12-08 00:00:00+01	drage	1	trans-arg1-3-le	drage		v102			"drage-v-10696-2-rel"	"10696"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+drepe-v-10821-1	hellan	0	2004-12-08 00:00:00+01	drepe	1	trans-arg1-3-le	drepe		v2			"drepe-v-10821-1-rel"	"10821"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+dress_10824	hellan	0	2004-12-08 00:00:00+01	dress	1	1rel-masc-noun-lxm	dress		m1			"_dress-rel"	"dress_10824"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+dresse-v	hellan	0	2004-12-08 00:00:00+01	dresse	1	trans-telicparticle-arg1-le	dresse		v1		"_dresse_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+drite-v-10906-1	hellan	0	2004-12-08 00:00:00+01	drite	1	intrans-arg1-le	drite		v49			"drite-v-10906-1-rel"	"10906"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+drive-10921-1	hellan	0	2004-12-08 00:00:00+01	drive	1	intrans-arg2-le	drive		v6			"_drive-rel"	"drive_10921"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+drive-10921-3	hellan	0	2004-12-08 00:00:00+01	drive	1	intrans-pp-arg1-govarg-le	drive		v6			"_drive-rel"	"drive_10921"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+dø-v-11446-1	hellan	0	2004-12-08 00:00:00+01	dø	1	intrans-arg3-le	dø		v4			"dø-v-11446-1-rel"	"11446"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+dølge-v-11535-1	hellan	0	2004-12-08 00:00:00+01	dølge	1	trans-arg1-3-le	dølge		v1			"dølge-v-11535-1-rel"	"11535"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+dør-n	hellan	0	2004-12-08 00:00:00+01	dør	1	1rel-fem-noun-lxm	dør		m1-f4		"_dør_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+egnet-adj	hellan	0	2004-12-08 00:00:00+01	egnet	1	attr-adj-lxm	egnet		a2-a4		"_egnet_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ei-d	hellan	0	2004-12-08 00:00:00+01	ei	1	fem-indef-art-det-word	ei							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+eie-v-11817-1	hellan	0	2004-12-08 00:00:00+01	eie	1	trans-arg1th-3-le	eie		v8			"eie-v-11817-1-rel"	"11817"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ektevie-v-12205-1	hellan	0	2004-12-08 00:00:00+01	ektevie	1	trans-arg1-3-le	ektevie		v1			"ektevie-v-12205-1-rel"	"12205"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+elv	hellan	0	2004-12-08 00:00:00+01	elv	1	1rel-masc-noun-lxm	elv		m1			"_elv_n_rel"	string	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+embla-pn	hellan	0	2004-12-08 00:00:00+01	embla	1	proper-noun-phrase	embla			"EMBLA" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+en-d	hellan	0	2004-12-08 00:00:00+01	en	1	comm-indef-art-det-word	en							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+eple-n	hellan	0	2004-12-08 00:00:00+01	eple	1	1rel-neut-noun-lxm	eple		n3-n4		"_eple_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+erfare-12978-2	hellan	0	2004-12-08 00:00:00+01	erfare	1	trans-s-fin-arg1exp-2prop-le	erfare		v2			"_erfare_v_rel"	"erfare_12978"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+et-d	hellan	0	2004-12-08 00:00:00+01	et	1	neut-indef-art-det-word	et							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ete-v-13207-1	hellan	0	2004-12-08 00:00:00+01	ete	1	intrans-arg1-le	ete		v1			"ete-v-13207-1-rel"	"13207"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+etterfølge-v-13263-1	hellan	0	2004-12-08 00:00:00+01	etterfølge	1	trans-arg1th-3-le	etterfølge		v1			"etterfølge-v-13263-1-rel"	"13263"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+eventuell_13458	hellan	0	2004-12-08 00:00:00+01	eventuell	1	attr-adj-lxm	eventuell		a27			"_eventuell_a_rel"	"eventuell_13458"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+farge-13869-2	hellan	0	2004-12-08 00:00:00+01	farge	1	trans-secpred-arg1-2-result-le	farge		v1-v1b-v11			"_farge-v-13869-2_v_rel"	"farge_13869"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fat-n	hellan	0	2004-12-08 00:00:00+01	fat	1	1rel-neut-noun-lxm	fat		n1-n2-n6-n7		"_fat_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fin-adj	hellan	0	2004-12-08 00:00:00+01	fin	1	attr-adj-lxm	fin		a33			"_fin_a_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+finne-v	hellan	0	2004-12-08 00:00:00+01	finne	1	trans-arg1-2-le	finne		v2			"_finne_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+finnes-v-14770-1	hellan	0	2004-12-08 00:00:00+01	finnes	1	intrans-arg3-le	finnes		v105			"finnes-v-14770-1-rel"	"14770"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+finnmark-pn	hellan	0	2004-12-08 00:00:00+01	finnmark	1	proper-noun-phrase	finnmark			"FINNMARK" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fire-14823-4	hellan	0	2004-12-08 00:00:00+01	fire	1	trans-refl-secpred-arg1-mover-le	fire		v1-v1b-v11-v2			"_fire_v_rel"	"fire_14823"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+flink_15397	hellan	0	2004-12-08 00:00:00+01	flink	1	attr-adj-lxm	flink		a6			"_flink_a_rel"	"flink_15397"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+flyge-v-15543-1	hellan	0	2004-12-08 00:00:00+01	flyge	1	intrans-arg1-le	flyge		v65			"flyge-v-15543-1-rel"	"15543"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+folla-pn	hellan	0	2004-12-08 00:00:00+01	folla	1	proper-noun-phrase	folla			"folla" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+for	hellan	0	2004-12-08 00:00:00+01	for	1	prep-word-reg	for					"_for_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forbi	hellan	0	2004-12-08 00:00:00+01	forbi	1	prep-word-reg	forbi					"_forbi_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forbli-v-15982-1	hellan	0	2004-12-08 00:00:00+01	forbli	1	intrans-pp-arg2-govarg-le	forbli		v16			"forbli-v-15982-1-rel"	"15982"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forefinnes-v-16119-1	hellan	0	2004-12-08 00:00:00+01	forefinnes	1	intrans-arg3-le	forefinnes		v105			"forefinnes-v-16119-1-rel"	"16119"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+foreligge-v-16154-1	hellan	0	2004-12-08 00:00:00+01	foreligge	1	intrans-arg3-le	foreligge		v1			"foreligge-v-16154-1-rel"	"16154"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+foresveve-16186-1	hellan	0	2004-12-08 00:00:00+01	foresveve	1	trans-arg1th-2-le	foresveve		v1-v1b-v11-v8			"_foresveve-rel"	"foresveve_16186"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forfølge-v-16251-1	hellan	0	2004-12-08 00:00:00+01	forfølge	1	trans-arg1-3-le	forfølge		v1			"forfølge-v-16251-1-rel"	"16251"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forkle-v-16426-1	hellan	0	2004-12-08 00:00:00+01	forkle	1	trans-arg1-3-le	forkle		v4			"forkle-v-16426-1-rel"	"16426"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forlove	hellan	0	2004-12-08 00:00:00+01	forlove	1	trans-refl-pp-arg1-2-govarg-le	forlove		v1-v1b-v11		"_forlove_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forsamling-n	hellan	0	2004-12-08 00:00:00+01	forsamling	1	1rel-masc-noun-lxm	forsamling		m1-f4		"_forsamling_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forskyve-v-16888-1	hellan	0	2004-12-08 00:00:00+01	forskyve	1	trans-arg1-3-le	forskyve		v8			"forskyve-v-16888-1-rel"	"16888"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forsvinne-17029-1	hellan	0	2004-12-08 00:00:00+01	forsvinne	1	intrans-arg3-le	forsvinne		v44			"_forsvinne-v-17029-1_v_rel"	"forsvinne_17029"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forsyne	hellan	0	2004-12-08 00:00:00+01	forsyne	1	trans-pp-arg1-2-govarg-le	forsyne				"_forsyne_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+forvri-v-17283-1	hellan	0	2004-12-08 00:00:00+01	forvri	1	trans-arg1-3-le	forvri		v4			"forvri-v-17283-1-rel"	"17283"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fot_17341	hellan	0	2004-12-08 00:00:00+01	fot	1	1rel-masc-noun-lxm	fot		m0x			"fot-rel"	"fot_17341"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fra	hellan	0	2004-12-08 00:00:00+01	fra	1	prep-word-reg	fra					"_fra_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+frabe-v-17426-1	hellan	0	2004-12-08 00:00:00+01	frabe	1	ditrans-refl-arg1-2-3-le	frabe		v58b			"frabe-v-17426-1-rel"	"17426"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+frakk-n	hellan	0	2004-12-08 00:00:00+01	frakk	1	1rel-masc-noun-lxm	frakk		m1		"_frakk"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+framstå-v	hellan	0	2004-12-08 00:00:00+01	framstå	1	intrans-secpred-som-np-arg2-value-le	framstå		v33-v35		"_framstå_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fraselge-v-17644-1	hellan	0	2004-12-08 00:00:00+01	fraselge	1	trans-arg1-3-le	fraselge		v1			"fraselge-v-17644-1-rel"	"17644"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fryse-v	hellan	0	2004-12-08 00:00:00+01	fryse	1	intrans-arg3-le	fryse		v2		"_fryse_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fugløyseter-pn	hellan	0	2004-12-08 00:00:00+01	fugløyseter	1	proper-noun-phrase	fugløyseter			"fugløyseter" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+full-adj	hellan	0	2004-12-08 00:00:00+01	full	1	attr-adj-lxm	full		a6		"_full_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fylle-18514-1	hellan	0	2004-12-08 00:00:00+01	fylle	1	trans-arg1-2-le	fylle		v21			"_fylle_v_rel"	"fylle_18514"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fylle-18514-2	hellan	0	2004-12-08 00:00:00+01	fylle	1	trans-arg1th-2-le	fylle		v21			"_fylle_v_rel"	"fylle_18514"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fylle-18514-3	hellan	0	2004-12-08 00:00:00+01	fylle	1	trans-pp-arg1-2-govarg-le	fylle		v21			"_fylle_v_rel"	"fylle_18514"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+fyre	hellan	0	2004-12-08 00:00:00+01	fyre	1	intrans-telicparticle-arg1-le	fyre		v2			"_fyre_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+få-v-18819-1	hellan	0	2004-12-08 00:00:00+01	få	1	trans-arg1-2-le	få		v16			"få-v-18819-1_v_rel"	"18819"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+få-v-18819-11	hellan	0	2004-12-08 00:00:00+01	få	1	intrans-pp-arg1-govarg-le	få		v16			"få-v-18819-11-rel"	"18819"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+få-v2	hellan	0	2004-12-08 00:00:00+01	få	1	trans-secpred-adv-arg1rec-2-result-le	få		v16		"_få_v_rel2"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+følge-v	hellan	0	2004-12-08 00:00:00+01	følge	1	trans-arg1-2-le	følge		v2			"_følge_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+følgje-v-18672-1	hellan	0	2004-12-08 00:00:00+01	følgje	1	trans-arg1-3-le	følgje		v65			"følgje-v-18672-1-rel"	"18672"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gammel_18978	hellan	0	2004-12-08 00:00:00+01	gammel	1	attr-adj-lxm	gammel		a44			"_gammel-rel"	"gammel_18978"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+genser_19483	hellan	0	2004-12-08 00:00:00+01	genser	1	1rel-masc-noun-lxm	genser		m2g-m3g			"_genser-19483_n_rel"	"genser_19483"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gi-v	hellan	0	2004-12-08 00:00:00+01	gi	1	ditrans-arg1-2-3-le	gi		v28		"_gi_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gi-v2	hellan	0	2004-12-08 00:00:00+01	gi	1	trans-pp-arg1-2-govargrec-le	gi				"_gi_v_rel2"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gjelde-v-19725-1	hellan	0	2004-12-08 00:00:00+01	gjelde	1	trans-arg1-2-le	gjelde		v118-v119			"gjelde-v-19725-1-rel"	"19725"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gjennom	hellan	0	2004-12-08 00:00:00+01	gjennom	1	prep-word-reg	gjennom					"_gjennom_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+glad-adj	hellan	0	2004-12-08 00:00:00+01	glad	1	attr-adj-lxm	glad		a12		"_glad_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+glede-20198-1	hellan	0	2004-12-08 00:00:00+01	glede	1	trans-arg1-3-le	glede		v1-v1b-v11-v8			"_glede_v_rel"	"glede_20198"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+glede-v2	hellan	0	2004-12-08 00:00:00+01	glede	1	refl-pp-s-fin-arg3-govargprop-le	glede		v1-v1b-v11-v8		"_glede_v_rel2"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+glede-v3	hellan	0	2004-12-08 00:00:00+01	glede	1	refl-pp-inf-control-arg3-govargprop-le	glede		v1-v1b-v11-v8		"_glede_v_rel3"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+glide-v-20235-1	hellan	0	2004-12-08 00:00:00+01	glide	1	intrans-arg3-le	glide		v49			"glide-v-20235-1-rel"	"20235"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+glideflyge-v-20242-1	hellan	0	2004-12-08 00:00:00+01	glideflyge	1	intrans-arg3-le	glideflyge		v65			"glideflyge-v-20242-1-rel"	"20242"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+god_20434	hellan	0	2004-12-08 00:00:00+01	god	1	attr-adj-lxm	god		a1			"_god-20434_a_rel"	"god_20434"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gren_20843	hellan	0	2004-12-08 00:00:00+01	gren	1	1rel-fem-noun-lxm	gren		m1-f4			"_gren-rel"	"gren_20843"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+grøafjell-pn	hellan	0	2004-12-08 00:00:00+01	grøafjell	1	proper-noun-phrase	grøafjell			"grøafjell" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+grønn-adj	hellan	0	2004-12-08 00:00:00+01	grønn	1	attr-adj-lxm	grønn		a7		"_grønn_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gul-a	hellan	0	2004-12-08 00:00:00+01	gul	1	attr-adj-lxm	gul					"_gul_a_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gutt-n	hellan	0	2004-12-08 19:31:01.782251+01	gutt	1	1rel-masc-noun-lxm	gutt	\N	m52	\N	\N	"_gutt_n_rel"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+gutt-n	hellan	1	2004-12-11 15:23:37.387816+01	gutt	1	1rel-masc-noun-lxm	gutt	\N	m52	\N	\N	"_gutt_n_rel"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+gyrd-pn	hellan	0	2004-12-08 00:00:00+01	Gyrd	1	proper-noun-phrase	Gyrd			"GYRD" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gyse-v-21707-1	hellan	0	2004-12-08 00:00:00+01	gyse	1	intrans-arg2-le	gyse		v2			"gyse-v-21707-1-rel"	"21707"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gyte-v-21712-1	hellan	0	2004-12-08 00:00:00+01	gyte	1	intrans-arg1-le	gyte		v2			"gyte-v-21712-1-rel"	"21712"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gyve-v-21722-1	hellan	0	2004-12-08 00:00:00+01	gyve	1	intrans-arg3-le	gyve		v8			"gyve-v-21722-1-rel"	"21722"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+gå-21739-1	hellan	0	2004-12-08 00:00:00+01	gå	1	intrans-arg1mover-le	gå					"_gå_v_rel"	"gå_21739"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ha	hellan	0	2004-12-08 00:00:00+01	ha	1	non-modal-aux-lxm	ha		v137			"_ha_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ha-v-21803-1	hellan	0	2004-12-08 00:00:00+01	ha	1	trans-arg1-3-le	ha		v4			"ha-v-21803-1-rel"	"21803"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+handfare-v-22229-1	hellan	0	2004-12-08 00:00:00+01	handfare	1	trans-arg1-3-le	handfare		v102			"handfare-v-22229-1-rel"	"22229"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hans	hellan	0	2004-12-08 00:00:00+01	hans	1	3pmasc-poss-word	hans							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+harald-pn	hellan	0	2004-12-08 00:00:00+01	Harald	1	proper-noun-phrase	Harald			"HARALD" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+have_22586	hellan	0	2004-12-08 00:00:00+01	have	1	1rel-masc-noun-lxm	have		m2			"_have-rel"	"have_22586"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+havehund-n	hellan	0	2004-12-08 00:00:00+01	havehund	1	1rel-masc-noun-lxm	havehund		m1		"_havehund_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hennes	hellan	0	2004-12-08 00:00:00+01	hennes	1	3pfem-poss-word	hennes							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hente-v	hellan	0	2004-12-08 00:00:00+01	hente	1	trans-arg1-3-le	hente		v1-v1b-v11		"_hente_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+henvendelse-n	hellan	0	2004-12-08 00:00:00+01	henvendelse	1	1rel-masc-noun-lxm	henvendelse		m2		"_henvendelse"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+her-adv	hellan	0	2004-12-08 00:00:00+01	her	1	adv-nocomp-word	her				"_her"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hest_23429	hellan	0	2004-12-08 00:00:00+01	hest	1	1rel-masc-noun-lxm	hest		m1			"_hest-23429_n_rel"	"hest_23429"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hive-v-23699-4	hellan	0	2004-12-08 00:00:00+01	hive	1	intrans-arg3-le	hive		v8			"hive-v-23699-4-rel"	"23699"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hjelm_23706	hellan	0	2004-12-08 00:00:00+01	hjelm	1	1rel-masc-noun-lxm	hjelm		m1			"_hjelm_n_rel"	"hjelm_23706"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hos	hellan	0	2004-12-08 00:00:00+01	hos	1	prep-word-reg	hos					"_hos_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hund-n	hellan	0	2004-12-08 00:00:00+01	hund	1	1rel-masc-noun-lxm	hund		m1		"_hund_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hus-n	hellan	0	2004-12-08 00:00:00+01	hus	1	1rel-neut-noun-lxm	hus		n1-n2		"_hus_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hva-hv	hellan	0	2004-12-08 00:00:00+01	hva	1	hv-word	hva				"_hva-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hvem-hv	hellan	0	2004-12-08 00:00:00+01	hvem	1	hv-word	hvem				"_hvem-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hver-det	hellan	0	2004-12-08 00:00:00+01	hver	1	hver-det-word	hver							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hvilke-hv	hellan	0	2004-12-08 00:00:00+01	hvilke	1	hv-word	hvilke				"_hvilke-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hvilken_24821	hellan	0	2004-12-08 00:00:00+01	hvilken	1	hv-word	hvilken				"_hvilken-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hvis-comp	hellan	0	2004-12-08 00:00:00+01	hvis	1	cond-complementizer-word	hvis	hvis-c						\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hvorvidt	hellan	0	2004-12-08 00:00:00+01	hvorvidt	1	hv-word	hvorvidt				"_hvorvidt-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+hygge-v	hellan	0	2004-12-08 00:00:00+01	hygge	1	refl-pp-arg3-govarg-le	hygge		v1		"_hygge_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+høre-v	hellan	0	2004-12-08 00:00:00+01	høre	1	trans-s-hv-arg1exp-2prop-le	høre		v2		"_høre_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+idag-adv	hellan	0	2004-12-08 00:00:00+01	idag	1	adv-nocomp-word	idag				"_idag-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+idé_25575	hellan	0	2004-12-08 00:00:00+01	idé	1	1rel-masc-noun-lxm	idé		m1			"_idé-rel"	"idé_25575"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ifølge	hellan	0	2004-12-08 00:00:00+01	ifølge	1	prep-word-reg	ifølge					"_ifølge_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ikke-s-adv	hellan	0	2004-12-08 00:00:00+01	ikke	1	s-adv-word	ikke				"_ikke-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ikle-v-25726-1	hellan	0	2004-12-08 00:00:00+01	ikle	1	ditrans-refl-arg1-2-3-le	ikle		v4			"ikle-v-25726-1-rel"	"25726"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+imot	hellan	0	2004-12-08 00:00:00+01	imot	1	prep-word-reg	imot					"_imot_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+individuell_26044	hellan	0	2004-12-08 00:00:00+01	individuell	1	attr-adj-lxm	individuell					"_individuell_a_rel"	"individuell_26044"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+informasjon-n	hellan	0	2004-12-08 00:00:00+01	informasjon	1	1rel-masc-noun-lxm	informasjon		m1		"_informasjon"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+inge-pn	hellan	0	2004-12-08 00:00:00+01	Inge	1	proper-noun-phrase	Inge			"INGE" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+inneha-v-26352-1	hellan	0	2004-12-08 00:00:00+01	inneha	1	trans-arg1-3-le	inneha		v4			"inneha-v-26352-1-rel"	"26352"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+inngyte-v-26463-1	hellan	0	2004-12-08 00:00:00+01	inngyte	1	trans-arg1-3-le	inngyte		v2			"inngyte-v-26463-1-rel"	"26463"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+innsmøre-v-26687-1	hellan	0	2004-12-08 00:00:00+01	innsmøre	1	trans-arg1-3-le	innsmøre		v38			"innsmøre-v-26687-1-rel"	"26687"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+innsuge-v-26720-1	hellan	0	2004-12-08 00:00:00+01	innsuge	1	trans-arg1-3-le	innsuge		v1			"innsuge-v-26720-1-rel"	"26720"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+innvelge-v-26783-1	hellan	0	2004-12-08 00:00:00+01	innvelge	1	trans-arg1-3-le	innvelge		v1			"innvelge-v-26783-1-rel"	"26783"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+irritere-v	hellan	0	2004-12-08 00:00:00+01	irritere	1	trans-arg1th-3-le	irritere		v2		"_irritere_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+is-n	hellan	0	2004-12-08 00:00:00+01	is	1	1rel-masc-noun-lxm	is		m1-m0x		"_is-count_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+istedenfor	hellan	0	2004-12-08 00:00:00+01	istedenfor	1	prep-word-reg	istedenfor					"_istedenfor_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+jage-27422-1	hellan	0	2004-12-08 00:00:00+01	jage	1	trans-arg1-2-le	jage		v1-v1b-v11-v8			"_jage-rel"	"jage_27422"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+jobbe-v-27733-3	hellan	0	2004-12-08 00:00:00+01	jobbe	1	intrans-secpred-som-np-arg1-value-le	jobbe		v1-v1b-v11			"_jobbe-v-27733-3_v_rel"	"27733"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+jon-pn	hellan	0	2004-12-08 00:00:00+01	Jon	1	proper-noun-phrase	Jon			"JON" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kake-v	hellan	0	2004-12-08 00:00:00+01	kake	1	refl-arg2-le	kake		v1		"_kake_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kalle-v	hellan	0	2004-12-08 00:00:00+01	kalle	1	trans-secpred-np-arg1-2-value-le	kalle		v21		"_kalle_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kalle-v2	hellan	0	2004-12-08 00:00:00+01	kalle	1	trans-secpred-pp-for-arg1-2-value-le	kalle		v21		"_kalle_v_rel2"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kalle-v3	hellan	0	2004-12-08 00:00:00+01	kalle	1	trans-refl-secpred-np-arg1-2-value-le	kalle		v21		"_kalle_v_rel3"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kalle-v4	hellan	0	2004-12-08 00:00:00+01	kalle	1	trans-refl-secpred-ap-arg1-2-value-le	kalle		v21		"_kalle_v_rel4"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kamp-n	hellan	0	2004-12-08 00:00:00+01	kamp	1	1rel-masc-noun-lxm	kamp		m1		"_kamp_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kanalisere-v	hellan	0	2004-12-08 00:00:00+01	kanalisere	1	trans-secpred-pp-arg1-2-dir-le	kanalisere		v2		"_kanalisere_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kari-pn	hellan	0	2004-12-08 00:00:00+01	Kari	1	proper-noun-phrase	Kari			"KARI" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kassere-v	hellan	0	2004-12-08 00:00:00+01	kassere	1	trans-secpred-adv-arg1-2-result-le	kassere		v2		"_kassere_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+katt_29021	hellan	0	2004-12-08 00:00:00+01	katt	1	1rel-masc-noun-lxm	katt		m1			"_katt-rel"	"katt_29021"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kilo_29222	hellan	0	2004-12-08 00:00:00+01	kilo	1	1rel-mascorneut-noun-lxm	kilo		m0x-n1-n2			"_kilo_n_rel"	"kilo_29222"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kim-pn	hellan	0	2004-12-08 00:00:00+01	Kim	1	proper-noun-phrase	Kim			"KIM" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+klamre-v	hellan	0	2004-12-08 00:00:00+01	klamre	1	refl-pp-arg1-govarg-aff-le	klamre		v1		"_klamre_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kle-v	hellan	0	2004-12-08 00:00:00+01	kle	1	trans-secpred-pp-refl-arg1-2-result-le	kle		v4		"_kle_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+klippe-30145-1	hellan	0	2004-12-08 00:00:00+01	klippe	1	trans-arg1-2-le	klippe		v1-v1b-v11-v21			"_klippe-v-30145-1_v_rel"	"klippe_30145"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+komme-30959-5	hellan	0	2004-12-08 00:00:00+01	komme	1	presentational-trans-obl-arg2mover-le	komme		v29-v29a			"_komme_v_rel"	"komme_30959"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+komme-v	hellan	0	2004-12-08 00:00:00+01	komme	1	presentational-arg2mover-le	komme		v29-v29a		"_komme_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+komme-v2	hellan	0	2004-12-08 00:00:00+01	komme	1	intrans-arg2mover-le	komme		v29-v29a		"_komme_v_rel2"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+konge-n	hellan	0	2004-12-08 00:00:00+01	konge	1	1rel-masc-noun-lxm	konge		m2		"_konge_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+konstruere	hellan	0	2004-12-08 00:00:00+01	konstruere	1	trans-arg1-2constructed-le	konstruere		v2		"_konstruere_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+koselig_31779	hellan	0	2004-12-08 00:00:00+01	koselig	1	attr-adj-lxm	koselig		a2			"_koselig_a_rel"	"koselig_31779"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+krangle-v	hellan	0	2004-12-08 00:00:00+01	krangle	1	intrans-arg1-reciprocal-le	krangle		v1-v1b-v11		"_krangle_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kreke-v-32014-1	hellan	0	2004-12-08 00:00:00+01	kreke	1	trans-refl-secpred-arg1-mover-le	kreke		v2			"kreke-v-32014-1-rel"	"32014"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+krone-n	hellan	0	2004-12-08 00:00:00+01	krone	1	1rel-masc-noun-lxm	krone		f1-m2		"_krone_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ku-n	hellan	0	2004-12-08 00:00:00+01	ku	1	1rel-fem-noun-lxm	ku		f4-m1-m1qa-f37		"_ku_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kunne	hellan	0	2004-12-08 00:00:00+01	kunne	1	modal-aux-lxm	kunne		v142			"_kunne_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kunne-v-32750-1	hellan	0	2004-12-08 00:00:00+01	kunne	1	trans-arg1-3-le	kunne		v142			"kunne-v-32750-1-rel"	"32750"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kvekke-v	hellan	0	2004-12-08 00:00:00+01	kvekke	1	presentational-obl-le	kvekke		v14-v14a			"_kvekke_v_rel"	"33111"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kvele-v-33136-1	hellan	0	2004-12-08 00:00:00+01	kvele	1	trans-arg1-3-le	kvele		v2			"kvele-v-33136-1-rel"	"33136"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kyle-v-33336-2	hellan	0	2004-12-08 00:00:00+01	kyle	1	ditrans-pp-arg1-2-3-detached-poss-le	kyle		v2			"_kyle-v-33336-2_v_rel"	"33336"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+kårvatn-pn	hellan	0	2004-12-08 00:00:00+01	kårvatn	1	proper-noun-phrase	kårvatn			"kårvatn" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+la-v-3	hellan	0	2004-12-08 00:00:00+01	la	1	trans-refl-secpred-infbare-rais-arg1-2prop-le	la		v164			"_la-v-3_v_rel"	"33441"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+la-v-33441-2	hellan	0	2004-12-08 00:00:00+01	la	1	refl-secpred-infbare-rais-arg2-prop-le	la		v164			"_la-v-33441-2_v_rel"	"33441"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+late-33969-4	hellan	0	2004-12-08 00:00:00+01	late	1	trans-secpred-pp-refl-arg1-2-result-le	late		v102			"_late_v_rel"	"late_33969"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+late-v	hellan	0	2004-12-08 00:00:00+01	late	1	intrans-obl-som-s-arg1-2prop-le	late		v102		"_late_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+late-v2	hellan	0	2004-12-08 00:00:00+01	late	1	intrans-obl-som-om-s-arg1-2prop-le	late		v102		"_late_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+lende_34813	hellan	0	2004-12-08 00:00:00+01	lende	1	1rel-neut-noun-lxm	lende		n3-n4			"lende-rel"	"lende_34813"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+lengte-v	hellan	0	2004-12-08 00:00:00+01	lengte	1	intrans-pp-arg1exp-govarg-le	lengte		v1-v1b-v11		"_lengte_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+lese-34895-2	hellan	0	2004-12-08 00:00:00+01	lese	1	trans-arg1-2-le	lese		v2			"_lese-v-34895-2_v_rel"	"lese_34895"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+li-v-35059-1	hellan	0	2004-12-08 00:00:00+01	li	1	presentational-obl-le	li		v4			"li-v-35059-1-rel"	"35059"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+li_35058	hellan	0	2004-12-08 00:00:00+01	li	1	1rel-fem-noun-lxm	li		f4-m1			"li-rel"	"li_35058"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+lide-v-35060-1	hellan	0	2004-12-08 00:00:00+01	lide	1	intrans-arg2-le	lide		v49			"lide-v-35060-1-rel"	"35060"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ligge-35112-1	hellan	0	2004-12-08 00:00:00+01	ligge	1	intrans-arg2-le	ligge		v68-v68b			"_ligge-rel"	"ligge_35112"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ligge-v-35112-1	hellan	0	2004-12-08 00:00:00+01	ligge	1	intrans-arg3-le	ligge		v1			"ligge-v-35112-1-rel"	"35112"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+like-v	hellan	0	2004-12-08 00:00:00+01	like	1	trans-arg1exp-2-le	like		v2		"_like_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+like-v2	hellan	0	2004-12-08 00:00:00+01	like	1	trans-inf-control-arg1exp-2prop-le	like				"_like_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+litt-d	hellan	0	2004-12-08 00:00:00+01	litt	1	mass-det-word	litt					"_litt-rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+love-35840-1	hellan	0	2004-12-08 00:00:00+01	love	1	ditrans-arg1-2-3-le	love		v1-v1b-v11-v2-v8			"love-rel"	"love_35840"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+love-35840-3	hellan	0	2004-12-08 00:00:00+01	love	1	ditrans-inf-subjcontrol-arg1-2prop-3-le	love		v1-v1b-v11-v2-v8			"love-rel"	"love_35840"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+love-35840-4	hellan	0	2004-12-08 00:00:00+01	love	1	trans-s-fin-arg1-2prop-le	love		v1-v1b-v11-v2-v8			"love-rel"	"love_35840"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+love-35840-5	hellan	0	2004-12-08 00:00:00+01	love	1	trans-inf-control-arg1-2prop-le	love		v1-v1b-v11-v2-v8			"love-rel"	"love_35840"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+love-35840-6	hellan	0	2004-12-08 00:00:00+01	love	1	intrans-arg1-le	love		v1-v1b-v11-v2-v8			"love-rel"	"love_35840"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+love-35840-7	hellan	0	2004-12-08 00:00:00+01	love	1	trans-arg1-2-le	love		v1-v1b-v11-v2-v8			"love-rel"	"love_35840"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+love3	hellan	0	2004-12-08 00:00:00+01	love	1	ditrans-inf-subjcontrol-arg1-2prop-3-le	love		v1		"_love_v_rel3"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+lukte-v	hellan	0	2004-12-08 00:00:00+01	lukte	1	intrans-secpred-np-arg2-value-le	lukte		v1-v1b-v11		"_lukte_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+lure-36095-2	hellan	0	2004-12-08 00:00:00+01	lure	1	refl-pp-inf-control-arg1-govargprop-le	lure		v2			"_lure-v-36095-2_v_rel"	"lure_36095"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+lærer-n	hellan	0	2004-12-08 00:00:00+01	lærer	1	1rel-masc-noun-lxm	lærer		m2g-m3g		"_lærer_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+løe-v-34395-1	hellan	0	2004-12-08 00:00:00+01	løe	1	trans-arg1-3-le	løe		v1			"løe-v-34395-1-rel"	"34395"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+løpe	hellan	0	2004-12-08 00:00:00+01	løpe	1	intrans-arg1mover-le	løpe		v2			"_løpe_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+løpe-34483-1	hellan	0	2004-12-08 00:00:00+01	løpe	1	intrans-arg1mover-le	løpe		v2			"_løpe-v-34483-1_v_rel"	"54819"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+løpe-34483-2	hellan	0	2004-12-08 00:00:00+01	løpe	1	presentational-trans-obl-arg1mover-le	løpe		v31-v31b			"_løpe_v_rel"	"løpe_34483"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+løpe-34483-4	hellan	0	2004-12-08 00:00:00+01	løpe	1	presentational-arg1mover-le	løpe		v31-v31b			"_løpe_v_rel"	"løpe_34483"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+lørdag_34508	hellan	0	2004-12-08 00:00:00+01	lørdag	1	1rel-masc-noun-lxm	lørdag		m1			"_lørdag_n_rel"	"lørdag_34508"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+mage-n	hellan	0	2004-12-08 00:00:00+01	mage	1	1rel-masc-noun-lxm	mage		m2		"_mage_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+male	hellan	0	2004-12-08 00:00:00+01	male	1	trans-secpred-arg1-2-result-le	male		v2		"_male_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+male2	hellan	0	2004-12-08 00:00:00+01	male	1	trans-refl-secpred-arg1-2-result-le	male		v2		"_male_v_rel2"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+malingspann_36745	hellan	0	2004-12-08 00:00:00+01	malingspann	1	1rel-neut-noun-lxm	malingspann		n1-n2			"_malingspann-rel"	"malingspann_36745"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+mangle-v	hellan	0	2004-12-08 00:00:00+01	mangle	1	trans-th-arg2-le	mangle		v1-v1b-v11		"_mangle_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+mann-n	hellan	0	2004-12-08 00:00:00+01	mann	1	1rel-masc-noun-lxm	mann		m52		"_mann_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+markert_37118	hellan	0	2004-12-08 00:00:00+01	markert	1	attr-adj-lxm	markert		a2			"markert-rel"	"markert_37118"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+med	hellan	0	2004-12-08 00:00:00+01	med	1	prep-word-reg	med					"_med_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+melk-n	hellan	0	2004-12-08 00:00:00+01	melk	1	1rel-fem-noun-lxm	melk		f100-m1e		"_melk_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+men	hellan	0	2004-12-08 00:00:00+01	men	1	conj-word	men					"_men-rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+mene-37859-2	hellan	0	2004-12-08 00:00:00+01	mene	1	trans-s-fin-arg1-2prop-le	mene		v2			"_mene-rel"	"mene_37859"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+mens	hellan	0	2004-12-08 00:00:00+01	mens	1	prep-word-reg	mens					"_mens_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+merkelig-adj	hellan	0	2004-12-08 00:00:00+01	merkelig	1	attr-adj-lxm	merkelig		a2		"_merkelig_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+min	hellan	0	2004-12-08 00:00:00+01	min	1	comm-1psg-poss-word	min							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+mine	hellan	0	2004-12-08 00:00:00+01	mine	1	pl-1psg-poss-word	mine							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+misfare-v-38608-1	hellan	0	2004-12-08 00:00:00+01	misfare	1	refl-arg1-le	misfare		v102			"misfare-v-38608-1-rel"	"38608"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+mitt	hellan	0	2004-12-08 00:00:00+01	mitt	1	neut-1psg-poss-word	mitt							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+modulere-v-38879-2	hellan	0	2004-12-08 00:00:00+01	modulere	1	trans-arg1-2-le	modulere		v2			"_modulere-v-38879-2_v_rel"	"38879"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+morgen_39084	hellan	0	2004-12-08 00:00:00+01	morgen	1	1rel-masc-noun-lxm	morgen		m1			"_morgen_n_rel"	"morgen_39084"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+morgenbåt	hellan	0	2004-12-08 00:00:00+01	morgenbåt	1	1rel-masc-noun-lxm	morgenbåt		m1			"_morgenbåt_n_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+mye-d	hellan	0	2004-12-08 00:00:00+01	mye	1	mass-det-word	mye					"mye_q_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+myr_39734	hellan	0	2004-12-08 00:00:00+01	myr	1	1rel-fem-noun-lxm	myr		f4-m1			"myr-rel"	"myr_39734"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+myret_39739	hellan	0	2004-12-08 00:00:00+01	myret	1	attr-adj-lxm	myret		a2			"myret-rel"	"myret_39739"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+måtte	hellan	0	2004-12-08 00:00:00+01	må	1	modal-aux-lxm	må		v149			"_må_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+naube-v-40361-1	hellan	0	2004-12-08 00:00:00+01	naube	1	intrans-arg1-le	naube		v58b			"naube-v-40361-1-rel"	"40361"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+nedlate-v	hellan	0	2004-12-08 00:00:00+01	nedlate	1	refl-pp-inf-control-arg1-govargprop-le	nedlate		v102		"_nedlate_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+nekte-40615-3	hellan	0	2004-12-08 00:00:00+01	nekte	1	ditrans-inf-subjcontrol-arg1-2prop-3-le	nekte		v1-v1b-v11			"_nekte-v-40615-3_v_rel"	"nekte_40615"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+nesten-s-adv	hellan	0	2004-12-08 00:00:00+01	nesten	1	s-adv-word	nesten				"_nesten-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+noen-d	hellan	0	2004-12-08 00:00:00+01	noen	1	pl-indef-art-det-word	noen							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+norge-pn	hellan	0	2004-12-08 00:00:00+01	Norge	1	proper-noun-phrase	Norge			"NORGE" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ny	hellan	0	2004-12-08 00:00:00+01	ny	1	attr-adj-lxm	ny					"_ny_a_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+nå	hellan	0	2004-12-08 00:00:00+01	nå	1	adv-nocomp-word	nå					"_nå-rel"	"nå_41204"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+nå-adv	hellan	0	2004-12-08 00:00:00+01	nå	1	adv-nocomp-word	nå				"_nå-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+når_24821	hellan	0	2004-12-08 00:00:00+01	når	1	hv-word	når				"_når-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+observere-v	hellan	0	2004-12-08 00:00:00+01	observere	1	trans-secpred-infbare-rais-arg1-2prop-le	observere		v2		"_observere_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+og_41860	hellan	0	2004-12-08 00:00:00+01	og	1	conj-word	og					"_og-rel"	"og_41860"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ola-pn	hellan	0	2004-12-08 00:00:00+01	Ola	1	proper-noun-phrase	Ola			"OLA" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+om	hellan	0	2004-12-08 00:00:00+01	om	1	prep-word-reg	om					"_om_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ombestemme-v-42058-1	hellan	0	2004-12-08 00:00:00+01	ombestemme	1	refl-arg1-le	ombestemme		v20			"_ombestemme-v-42058-1_v_rel"	"42058"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+omkring	hellan	0	2004-12-08 00:00:00+01	omkring	1	prep-word-reg	omkring					"_omkring_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+oppgave-n	hellan	0	2004-12-08 00:00:00+01	oppgave	1	1rel-masc-noun-lxm	oppgave		f1-m2		"_oppgave"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+oppleve-v	hellan	0	2004-12-08 00:00:00+01	oppleve	1	trans-inf-control-arg1exp-2prop-le	oppleve				"_oppleve_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+oppskrift-n	hellan	0	2004-12-08 00:00:00+01	oppskrift	1	1rel-masc-noun-lxm	oppskrift		f4-m1		"_oppskrift"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+overfor	hellan	0	2004-12-08 00:00:00+01	overfor	1	prep-word-reg	overfor					"_overfor_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+overvære-v-43822-1	hellan	0	2004-12-08 00:00:00+01	overvære	1	trans-arg1-3-le	overvære		v2			"overvære-v-43822-1-rel"	"43822"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+par-adj	hellan	0	2004-12-08 00:00:00+01	par	1	attr-adj-lxm	par		a2-a4		"_par_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+parallellforskyve-v-44139-1	hellan	0	2004-12-08 00:00:00+01	parallellforskyve	1	trans-arg1-3-le	parallellforskyve		v8			"parallellforskyve-v-44139-1-rel"	"44139"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+pen	hellan	0	2004-12-08 00:00:00+01	pen	1	attr-adj-lxm	pen					"_pen_a_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+per-pn	hellan	0	2004-12-08 00:00:00+01	Per	1	proper-noun-phrase	Per			"PER" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+plage-45102-1	hellan	0	2004-12-08 00:00:00+01	plage	1	trans-arg1th-3-le	plage		v1-v1b-v11-v8			"_plage-rel"	"plage_45102"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+plassere-45170-1	hellan	0	2004-12-08 00:00:00+01	plassere	1	trans-secpred-arg1-2-result-loc-le	plassere		v2			"_plassere-rel"	"plassere_45170"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+plen_45237	hellan	0	2004-12-08 00:00:00+01	plen	1	1rel-masc-noun-lxm	plen		m1			"_plen-45237_n_rel"	"plen_45237"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+postkontor-n	hellan	0	2004-12-08 00:00:00+01	postkontor	1	1rel-neut-noun-lxm	postkontor		n1-n2-n6-n7		"_postkontor_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+presse-46067-3	hellan	0	2004-12-08 00:00:00+01	presse	1	trans-secpred-arg1-2-result-loc-le	presse		v1-v1b-v11			"_presse-rel"	"presse_46067"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+prestevie-v-46115-1	hellan	0	2004-12-08 00:00:00+01	prestevie	1	trans-arg1-3-le	prestevie		v1			"prestevie-v-46115-1-rel"	"46115"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+privat_46278	hellan	0	2004-12-08 00:00:00+01	privat	1	attr-adj-lxm	privat		a2			"_privat_a_rel"	"privat_46278"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+prøve-v	hellan	0	2004-12-08 00:00:00+01	prøve	1	trans-inf-control-arg1-2prop-le	prøve		v8		"_prøve_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+pålegge-v	hellan	0	2004-12-08 00:00:00+01	pålegge	1	ditrans-inf-control-arg1-2prop-3-le	pålegge		v30		"_pålegge_v_rel3"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+påligge-v-47094-1	hellan	0	2004-12-08 00:00:00+01	påligge	1	trans-arg1th-3-le	påligge		v1			"påligge-v-47094-1-rel"	"47094"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rable-v	hellan	0	2004-12-08 00:00:00+01	rable	1	presentational-obl-govargexp-le	rable		v1-v1b-v11		"_rable_v_rel"		"47206"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rasfare-n	hellan	0	2004-12-08 00:00:00+01	rasfare	1	1rel-masc-noun-lxm	rasfare		m2		"_rasfare_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+regn-n	hellan	0	2004-12-08 00:00:00+01	regn	1	1rel-neut-noun-lxm	regn		n101		"_regn_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+regne	hellan	0	2004-12-08 00:00:00+01	regne	1	intrans-secpred-result-le	regne		v1-v1b-v11			"_regne_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+regne-v	hellan	0	2004-12-08 00:00:00+01	regne	1	presentational-noarg-le	regne		v1-v1b-v11			"_regne_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+reke-v-47946-3	hellan	0	2004-12-08 00:00:00+01	reke	1	intrans-arg1-le	reke		v2			"reke-v-47946-3-rel"	"47946"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rekke-47952-2	hellan	0	2004-12-08 00:00:00+01	rekke	1	ditrans-arg1-2-3-le	rekke		v26			"_rekke-rel"	"rekke_47952"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rekke-47952-3	hellan	0	2004-12-08 00:00:00+01	rekke	1	trans-secpred-arg1-2-result-loc-le	rekke		v26			"_rekke-rel"	"rekke_47952"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rekke-47953-1	hellan	0	2004-12-08 00:00:00+01	rekke	1	trans-secpred-arg1-2-result-loc-le	rekke		v21-v2			"_rekke-rel"	"rekke_47953"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ren_48092	hellan	0	2004-12-08 00:00:00+01	ren	1	attr-adj-lxm	ren		a6			"_ren-rel"	"ren_48092"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+renne-v-48111-1	hellan	0	2004-12-08 00:00:00+01	renne	1	intrans-arg3-le	renne		v159			"renne-v-48111-1-rel"	"48111"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ride-v-48493-1	hellan	0	2004-12-08 00:00:00+01	ride	1	intrans-arg1-le	ride		v49			"ride-v-48493-1-rel"	"48493"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rulle-49057-2	hellan	0	2004-12-08 00:00:00+01	rulle	1	trans-arg1-2mover-le	rulle		v1-v1b-v11			"_rulle_v_rel"	"rulle_49057"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rulle-v1	hellan	0	2004-12-08 00:00:00+01	rulle	1	intrans-arg2mover-le	rulle		v1-v1b-v11		"_rulle_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rundt	hellan	0	2004-12-08 00:00:00+01	rundt	1	prep-word-reg	rundt					"_rundt_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rute_49208	hellan	0	2004-12-08 00:00:00+01	rute	1	1rel-fem-noun-lxm	rute		f1-m2			"rute-rel"	"rute_49208"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ry-v-49235-1-v	hellan	0	2004-12-08 00:00:00+01	ry	1	intrans-arg1-le	ry		v4		"_ry-v-49235_v_rel"		"49235"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rygg-n	hellan	0	2004-12-08 00:00:00+01	rygg	1	1rel-masc-noun-lxm	rygg		m1		"_rygg_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+rød_49293	hellan	0	2004-12-08 00:00:00+01	rød	1	attr-adj-lxm	rød		a6			"_rød-49293_a_rel"	"rød_49293"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sak-n	hellan	0	2004-12-08 00:00:00+01	sak	1	1rel-masc-noun-lxm	sak		f4-m1		"_sak"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+salen-pn	hellan	0	2004-12-08 00:00:00+01	salen	1	proper-noun-phrase	salen			"salen" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+salsvatni-pn	hellan	0	2004-12-08 00:00:00+01	salsvatni	1	proper-noun-phrase	salsvatni			"salsvatni" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+salve-49814-2	hellan	0	2004-12-08 00:00:00+01	salve	1	trans-pp-arg1-2-value-le	salve		v1-v1b-v11			"_salve_v_rel"	"salve_49814"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+samle	hellan	0	2004-12-08 00:00:00+01	samle	1	trans-pp-arg1-2-value-le	samle		v1-v1b-v11		"_samle_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+samme-adj	hellan	0	2004-12-08 00:00:00+01	samme	1	attr-adj-lxm	samme		a2-a4		"_samme_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sammensverje-v-49983-2	hellan	0	2004-12-08 00:00:00+01	sammensverje	1	refl-arg1-reciprocal-le	sammensverje		v1			"sammensverje-v-49983-2-rel"	"49983"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+samrå-v	hellan	0	2004-12-08 00:00:00+01	samrå	1	refl-arg1-reciprocal-le	samrå		v4		"_samrå_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sandy-pn	hellan	0	2004-12-08 00:00:00+01	Sandy	1	proper-noun-phrase	Sandy			"SANDY" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sannsynligvis-s-adv	hellan	0	2004-12-08 00:00:00+01	sannsynligvis	1	s-adv-word	sannsynligvis				"_sannsynligvis-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+se-50313-5	hellan	0	2004-12-08 00:00:00+01	se	1	intrans-pp-arg1-govarg-le	se		v32-v32a			"_se-v-50313-5_v_rel"	"se_50313"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+seg-refl-heavy	hellan	0	2004-12-08 00:00:00+01	selv	1	heavy-refl-phrase	seg selv					"_refl-heavy"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+seg-refl-light	hellan	0	2004-12-08 00:00:00+01	seg	1	light-refl-phrase	seg					"_refl-light"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+selge-v-50591-1	hellan	0	2004-12-08 00:00:00+01	selge	1	trans-arg1-3-le	selge		v1			"selge-v-50591-1-rel"	"50591"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+siden	hellan	0	2004-12-08 00:00:00+01	siden	1	prep-word-reg	siden					"_siden_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sigarett_51346	hellan	0	2004-12-08 00:00:00+01	sigarett	1	1rel-masc-noun-lxm	sigarett		m1			"_sigarett-rel"	"sigarett_51346"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+silrenne-v-51549-1	hellan	0	2004-12-08 00:00:00+01	silrenne	1	intrans-arg3-le	silrenne		v159			"silrenne-v-51549-1-rel"	"51549"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sitte	hellan	0	2004-12-08 00:00:00+01	sitte	1	intrans-obl-arg2-le	sitte		v14-v14a			"_sitte_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skamme-v	hellan	0	2004-12-08 00:00:00+01	skamme	1	refl-arg3-le	skamme		v1		"_skamme_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skar_52526	hellan	0	2004-12-08 00:00:00+01	skar	1	1rel-neut-noun-lxm	skar		n1-n2			"skar-rel"	"skar_52526"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ski_52695	hellan	0	2004-12-08 00:00:00+01	ski	1	1rel-fem-noun-lxm	ski		f4-m1			"_ski_n_rel"	"ski_52695"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skinne-v-52809-1	hellan	0	2004-12-08 00:00:00+01	skinne	1	intrans-arg3-le	skinne		v21			"skinne-v-52809-1-rel"	"52809"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skli-v-53203-1	hellan	0	2004-12-08 00:00:00+01	skli	1	intrans-arg3-le	skli		v4			"skli-v-53203-1-rel"	"53203"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skog-n	hellan	0	2004-12-08 00:00:00+01	skog	1	1rel-masc-noun-lxm	skog		m1		"_skog_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skrubbe-v	hellan	0	2004-12-08 00:00:00+01	skrubbe	1	trans-pp-arg1-2-detached-poss-le	skrubbe		v1			"_skrubbe_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skulle	hellan	0	2004-12-08 00:00:00+01	skal	1	modal-aux-lxm	skal		v142			"_skal_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skuve-v-54077-1	hellan	0	2004-12-08 00:00:00+01	skuve	1	trans-secpred-arg1-2-dir-le	skuve		v8			"skuve-v-54077-1-rel"	"54077"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+skål-n	hellan	0	2004-12-08 00:00:00+01	skål	1	1rel-masc-noun-lxm	skål		f4-m1		"_skål_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+slettåa-pn	hellan	0	2004-12-08 00:00:00+01	slettåa	1	proper-noun-phrase	slettåa			"slettåa" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+slingre	hellan	0	2004-12-08 00:00:00+01	slingre	1	intrans-arg1-le	slingre		v1-v1b-v11			"_slingre"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+slippe-54479-3	hellan	0	2004-12-08 00:00:00+01	slippe	1	trans-secpred-adv-arg1-2-result-le	slippe		v12			"_slippe-v-54479-3_v_rel"	"slippe_54479"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+smelle-v-54762-1	hellan	0	2004-12-08 00:00:00+01	smelle	1	intrans-arg3-le	smelle		v159			"smelle-v-54762-1-rel"	"54762"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+smile-v	hellan	0	2004-12-08 00:00:00+01	smile	1	intrans-arg1-le	smile		v2		"_smile_v_rel"		"54819"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+småviltjakt	hellan	0	2004-12-08 00:00:00+01	småviltjakt	1	compound-masc-adj-noun-noun-lxm	småviltjakt		m1-f4		"_jakt" "_vilt" * * "_liten"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+smøre-v-54902-2	hellan	0	2004-12-08 00:00:00+01	smøre	1	trans-arg1-3-le	smøre		v38			"smøre-v-54902-2-rel"	"54902"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+snakke	hellan	0	2004-12-08 00:00:00+01	snakke	1	trans-secpred-arg1-result-le	snakke		v1-v1b-v11		"_snakke_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+snakke2	hellan	0	2004-12-08 00:00:00+01	snakke	1	trans-refl-secpred-arg1-result-le	snakke		v1-v1b-v11		"_snakke_v_rel2"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+snill-adj	hellan	0	2004-12-08 00:00:00+01	snill	1	attr-adj-lxm	snill		a7		"_snill_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+snø	hellan	0	2004-12-08 00:00:00+01	snø	1	1rel-masc-noun-lxm	snø		m1e		"_snø_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+snø-v	hellan	0	2004-12-08 00:00:00+01	snø	1	presentational-noarg-le	snø		v4			"_snø_v_rel"	"55275"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+snøball-n	hellan	0	2004-12-08 00:00:00+01	snøball	1	1rel-masc-noun-lxm	snøball		m1e		"_snøball_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sollirabben-pn	hellan	0	2004-12-08 00:00:00+01	sollirabben	1	proper-noun-phrase	sollirabben			"sollirabben" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+som-p	hellan	0	2004-12-08 00:00:00+01	som	1	som-prep-word	som	som-p			"_som_p_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sommertrase-n	hellan	0	2004-12-08 00:00:00+01	sommertrase	1	1rel-masc-noun-lxm	sommertrase		m2		"_sommertrase"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sove-55738-1	hellan	0	2004-12-08 00:00:00+01	sove	1	intrans-arg1-le	sove		v17			"_sove-v-55738-1_v_rel"	"sove_55738"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+speile	hellan	0	2004-12-08 00:00:00+01	speile	1	trans-refl-pp-th-arg2-govargloc-le	speile		v1-v1b-v11		"_speile_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+spiller-n	hellan	0	2004-12-11 16:16:04.55266+01	spiller	1	\N	spiller	\N	m1	\N	\N	_spiller_n_rel	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+spiller-n	hellan	1	2004-12-11 16:19:47.34345+01	spiller	1	1rel-masc-noun-lxm	spiller	\N	m1	\N	\N	_spiller_n_rel	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+springe-56367-1	hellan	0	2004-12-08 00:00:00+01	springe	1	intrans-arg1-le	springe		v12a			"springe-rel"	"springe_56367"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+spørre-56508-2	hellan	0	2004-12-08 00:00:00+01	spørre	1	trans-arg1-2-le	spørre		v103			"_spørre-v-56508-2_v_rel"	"spørre_56508"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+starte-56714-2	hellan	0	2004-12-08 00:00:00+01	starte	1	trans-arg1-2-le	starte		v1-v1b-v11			"_starte_v_rel"	"starte_56714"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+stat-n	hellan	0	2004-12-08 00:00:00+01	stat	1	1rel-masc-noun-lxm	stat		m1		"_stat_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+statsgrunn	hellan	0	2004-12-08 00:00:00+01	statsgrunn	1	compound-masc-noun-lxm	statsgrunn		m1		"_grunn" "_stat" * *			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sten-n	hellan	0	2004-12-08 00:00:00+01	sten	1	1rel-masc-noun-lxm	sten		m1		"_sten_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sti_57093	hellan	0	2004-12-08 00:00:00+01	sti	1	1rel-masc-noun-lxm	sti					"_sti_n_rel"	"sti_57093"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+stol-n	hellan	0	2004-12-08 00:00:00+01	stol	1	1rel-masc-noun-lxm	stol		m1		"_stol_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+stor	hellan	0	2004-12-08 00:00:00+01	stor	1	attr-adj-lxm	stor					"_stor_a_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+stor_57370	hellan	0	2004-12-08 00:00:00+01	stor	1	attr-adj-lxm	stor		a42			"_stor-57370_a_rel"	"stor_57370"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+storslått_57455	hellan	0	2004-12-08 00:00:00+01	storslått	1	attr-adj-lxm	storslått		a2			"_storslått_a_rel"	"storslått_57455"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+student_57843	hellan	0	2004-12-08 00:00:00+01	student	1	1rel-masc-noun-lxm	student		m1			"_student-57843_n_rel"	"student_57843"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+stygges-v-57955-1	hellan	0	2004-12-08 00:00:00+01	stygges	1	intrans-arg2-le	stygges		v23			"stygges-v-57955-1-rel"	"57955"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+støkke-v-58041-1	hellan	0	2004-12-08 00:00:00+01	støkke	1	intrans-arg3-le	støkke		v1			"støkke-v-58041-1-rel"	"58041"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+suge-v-58250-1	hellan	0	2004-12-08 00:00:00+01	suge	1	trans-arg1-3-le	suge		v1			"suge-v-58250-1-rel"	"58250"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sum-n	hellan	0	2004-12-08 00:00:00+01	sum	1	1rel-masc-noun-lxm	sum		m1m		"_sum"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+svak_58528	hellan	0	2004-12-08 00:00:00+01	svak	1	attr-adj-lxm	svak		a6			"_svak-rel"	"svak_58528"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+svelgje-v-58654-1	hellan	0	2004-12-08 00:00:00+01	svelgje	1	intrans-arg1-le	svelgje		v24a			"svelgje-v-58654-1-rel"	"58654"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sverje-v-58679-1	hellan	0	2004-12-08 00:00:00+01	sverje	1	intrans-arg1-le	sverje		v1			"sverje-v-58679-1-rel"	"58679"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+sy-58878-2	hellan	0	2004-12-08 00:00:00+01	sy	1	trans-arg1-2-le	sy		v4			"_sy-rel"	"sy_58878"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ta-v	hellan	0	2004-12-08 00:00:00+01	ta	1	trans-arg1-2-le	ta		v16		"_ta_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+telgje-v-60230-1	hellan	0	2004-12-08 00:00:00+01	telgje	1	trans-arg1-3-le	telgje		v65			"telgje-v-60230-1-rel"	"60230"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tenke-v	hellan	0	2004-12-08 00:00:00+01	tenke	1	ditrans-refl-inf-control-arg1-2prop-3-le	tenke		v1		"_tenke_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tilbake-adv	hellan	0	2004-12-08 00:00:00+01	tilbake	1	adv-comp-word	tilbake				"_tilbake-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tilbe-v-60714-1	hellan	0	2004-12-08 00:00:00+01	tilbe	1	trans-arg1-3-le	tilbe		v58b			"tilbe-v-60714-1-rel"	"60714"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tilkomme-60827-1	hellan	0	2004-12-08 00:00:00+01	tilkomme	1	presentational-ditrans-arg2-3-le	tilkomme		v29			"_tilkomme_v_rel"	"tilkomme_60827"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tilligge-v-60847-1	hellan	0	2004-12-08 00:00:00+01	tilligge	1	trans-arg1th-3-le	tilligge		v1			"tilligge-v-60847-1-rel"	"60847"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tilsmøre-v-60932-1	hellan	0	2004-12-08 00:00:00+01	tilsmøre	1	trans-arg1-3-le	tilsmøre		v38			"tilsmøre-v-60932-1-rel"	"60932"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tobakk_61302	hellan	0	2004-12-08 00:00:00+01	tobakk	1	1rel-masc-noun-lxm	tobakk		m1			"_tobakk-rel"	"tobakk_61302"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tobakkshavehund-n	hellan	0	2004-12-08 00:00:00+01	tobakkshavehund	1	1rel-masc-noun-lxm	tobakkshavehund		m1		"_tobakkshavehund_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+todalshytta-pn	hellan	0	2004-12-08 00:00:00+01	todalshytta	1	proper-noun-phrase	todalshytta			"todalshytta" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tom-adj	hellan	0	2004-12-08 00:00:00+01	tom	1	attr-adj-lxm	tom		a33		"_tom_a_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tosk-n	hellan	0	2004-12-08 00:00:00+01	tosk	1	1rel-masc-noun-lxm	tosk		m1		"_tosk_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+trapp-n	hellan	0	2004-12-08 00:00:00+01	trapp	1	1rel-comm-noun-lxm	trapp		f4-m1		"_trapp_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+treffes-v-62015-1	hellan	0	2004-12-08 00:00:00+01	treffes	1	intrans-arg1-reciprocal-le	treffes		v105			"treffes-v-62015-1-rel"	"62015"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+trenge-62118-3	hellan	0	2004-12-08 00:00:00+01	trenge	1	trans-inf-control-arg1exp-2prop-le	trenge		v2			"_trenge_v_rel"	"trenge_62118"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+trille-62259-1	hellan	0	2004-12-08 00:00:00+01	trille	1	presentational-trans-obl-arg2mover-le	trille		v1-v1b-v11			"_trille_v_rel"	"trille_62259"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+trille-62259-4	hellan	0	2004-12-08 00:00:00+01	trille	1	presentational-arg2mover-le	trille		v1-v1b-v11			"_trille_v_rel"	"trille_62259"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tro-62340-3	hellan	0	2004-12-08 00:00:00+01	tro	1	trans-s-fin-arg1exp-2prop-le	tro		v4			"_tro-v-62340-3_v_rel"	"tro_62340"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+trollheimen-pn	hellan	0	2004-12-08 00:00:00+01	trollheimen	1	proper-noun-phrase	trollheimen			"TROLLHEIMEN" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+trollheimshytta-pn	hellan	0	2004-12-08 00:00:00+01	trollheimshytta	1	proper-noun-phrase	trollheimshytta			"trollheimshytta" *				\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tross	hellan	0	2004-12-08 00:00:00+01	tross	1	prep-word-reg	tross					"_tross_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+trå-v-62690-1	hellan	0	2004-12-08 00:00:00+01	trå	1	intrans-arg1-le	trå		v4			"trå-v-62690-1-rel"	"62690"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tur_62894	hellan	0	2004-12-08 00:00:00+01	tur	1	1rel-masc-noun-lxm	tur		m1			"tur-rel"	"tur_62894"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+turve-v-62966-1	hellan	0	2004-12-08 00:00:00+01	turve	1	trans-arg1-2-le	turve		v2			"turve-v-62966-1-rel"	"62966"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tv_63045	hellan	0	2004-12-08 00:00:00+01	TV	1	1rel-masc-noun-lxm	TV		m1b			"_TV-63045_n_rel"	"TV_63045"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tykne-63210-2	hellan	0	2004-12-08 00:00:00+01	tykne	1	presentational-telicparticle-le	tykne		v1-v1b-v11			"_tykne_v_rel"	"tykne_63210"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tørke-63396-4	hellan	0	2004-12-08 00:00:00+01	tørke	1	trans-secpred-adv-arg1-2-result-le	tørke		v1-v1b-v11			"_tørke-rel"	"tørke_63396"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+tørre-v-61541-1	hellan	0	2004-12-08 00:00:00+01	tørre	1	trans-arg1-3-le	tørre		v65			"tørre-v-61541-1-rel"	"61541"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+underselge-v-64372-1	hellan	0	2004-12-08 00:00:00+01	underselge	1	trans-arg1-3-le	underselge		v1			"underselge-v-64372-1-rel"	"64372"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+unnbe-v-64589-1	hellan	0	2004-12-08 00:00:00+01	unnbe	1	ditrans-refl-arg1-2-3-le	unnbe		v58b			"unnbe-v-64589-1-rel"	"64589"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+unnfly-v-64598-1	hellan	0	2004-12-08 00:00:00+01	unnfly	1	trans-arg1-3-le	unnfly		v4			"unnfly-v-64598-1-rel"	"64598"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ut_2	hellan	0	2004-12-08 00:00:00+01	ut	1	prep-word-reg	ut					" _ut_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+utbe-v-65095-1	hellan	0	2004-12-08 00:00:00+01	utbe	1	trans-arg1-3-le	utbe		v58b			"utbe-v-65095-1-rel"	"65095"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+utebli-v-65173-1	hellan	0	2004-12-08 00:00:00+01	utebli	1	intrans-arg3-le	utebli		v16			"utebli-v-65173-1-rel"	"65173"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+utgyte-v-65353-1	hellan	0	2004-12-08 00:00:00+01	utgyte	1	trans-arg1-3-le	utgyte		v2			"utgyte-v-65353-1-rel"	"65353"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+valg_66221	hellan	0	2004-12-08 00:00:00+01	valg	1	1rel-neut-noun-lxm	valg		n1-n2			"_valg_n_rel"	"valg_66221"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vanligvis-s-adv	hellan	0	2004-12-08 00:00:00+01	vanligvis	1	s-adv-word	vanligvis				"_vanligvis-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vann-n	hellan	0	2004-12-08 00:00:00+01	vann	1	1rel-neut-noun-lxm	vann		n1-n2		"_vann_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vannflate-n	hellan	0	2004-12-08 00:00:00+01	vannflate	1	1rel-masc-noun-lxm	vannflate		m2-f1		"_vannflate_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vareutvalg	hellan	0	2004-12-08 00:00:00+01	vareutvalg	1	1rel-neut-noun-lxm	vareutvalg		n1-n2			"_vareutvalg_n_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vedbli-v-67029-1	hellan	0	2004-12-08 00:00:00+01	vedbli	1	intrans-arg3-le	vedbli		v16			"vedbli-v-67029-1-rel"	"67029"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vedde-67035-2	hellan	0	2004-12-08 00:00:00+01	vedde	1	trans-pp-pp-le	vedde		v1-v1b-v11			"_vedde-rel"	"vedde_67035"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vederfares-v-67039-1	hellan	0	2004-12-08 00:00:00+01	vederfares	1	ditrans-refl-s-fin-arg1-2prop-3-le	vederfares		v100-v145			"vederfares-v-67039-1-rel"	"67039"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vei-n	hellan	0	2004-12-08 00:00:00+01	vei	1	1rel-masc-noun-lxm	vei		m1		"_vei_n_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+veiskille_67261	hellan	0	2004-12-08 00:00:00+01	veiskille	1	1rel-neut-noun-lxm	veiskille		n3-n4			"veiskille-rel"	"veiskille_67261"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+velge-v-67443-1	hellan	0	2004-12-08 00:00:00+01	velge	1	trans-arg1-3-le	velge		v1			"velge-v-67443-1-rel"	"67443"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vente-67659-1	hellan	0	2004-12-08 00:00:00+01	vente	1	trans-arg1th-2-le	vente		v1-v1b-v11			"_vente_v_rel"	"vente_67659"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+verdsette-v	hellan	0	2004-12-08 00:00:00+01	verdsette	1	trans-secpred-pp-arg1-2-value-le	verdsette		v34		"_verdsette_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+via	hellan	0	2004-12-08 00:00:00+01	via	1	prep-word-reg	via					"_via_p_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+videre-adv	hellan	0	2004-12-08 00:00:00+01	videre	1	adv-word-reg	videre				"_videre-rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vie-v-68222-1	hellan	0	2004-12-08 00:00:00+01	vie	1	trans-arg1-3-le	vie		v1			"vie-v-68222-1-rel"	"68222"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ville-68335-1	hellan	0	2004-12-08 00:00:00+01	ville	1	modal-aux-lxm	ville		v124			"_ville-v-68335-1_v_rel"	"ville_68335"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+ville-v-68335-2	hellan	0	2004-12-08 00:00:00+01	ville	1	trans-arg1-3-le	ville		v124			"ville-v-68335-2-rel"	"68335"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vindstyrke_68461	hellan	0	2004-12-08 00:00:00+01	vindstyrke	1	1rel-masc-noun-lxm	vindstyrke		m2			"_vindstyrke_n_rel"	"vindstyrke_68461"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vindu_68468	hellan	0	2004-12-08 00:00:00+01	vindu	1	1rel-neut-noun-lxm	vindu		n1-n2-n6-n7			"_vindu-68468_n_rel"	"vindu_68468"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vite-68822-2	hellan	0	2004-12-08 00:00:00+01	vite	1	trans-s-fin-arg1exp-2prop-le	vite		v139-v140			"_vite-rel"	"vite_68822"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vite-v-68822-1	hellan	0	2004-12-08 00:00:00+01	vite	1	trans-s-fin-arg1exp-2prop-le	vite		v1			"vite-v-68822-1-rel"	"68822"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vredes-v-69103-1	hellan	0	2004-12-08 00:00:00+01	vredes	1	intrans-arg2-le	vredes		v23			"vredes-v-69103-1-rel"	"69103"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vri-v-69107-1	hellan	0	2004-12-08 00:00:00+01	vri	1	refl-arg1-le	vri		v4			"vri-v-69107-1-rel"	"69107"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vurdere-69184-1	hellan	0	2004-12-08 00:00:00+01	vurdere	1	trans-arg1-2-le	vurdere		v2			"_vurdere_v_rel"	"vurdere_69184"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vår	hellan	0	2004-12-08 00:00:00+01	vår	1	comm-1ppl-poss-word	vår							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+våre	hellan	0	2004-12-08 00:00:00+01	våre	1	comm-1ppl-poss-word	våre							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+vårt	hellan	0	2004-12-08 00:00:00+01	vårt	1	neut-1ppl-poss-word	vårt							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+være	hellan	0	2004-12-08 00:00:00+01	være	1	intrans-secpred-np-rais-arg2prop-le	være					"_være_v_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+være-2	hellan	0	2004-12-08 00:00:00+01	være	1	intrans-secpred-ap-rais-arg2prop-le	være					"_være_v_rel2"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+være-v-69207-4	hellan	0	2004-12-08 00:00:00+01	være	1	trans-arg1-3-le	være		v2			"være-v-69207-4-rel"	"69207"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+å-form	hellan	0	2004-12-08 00:00:00+01	å	1	infinitive-complementizer-word	å							\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+åpenbare-1035-3	hellan	0	2004-12-08 00:00:00+01	åpenbare	1	refl-secpred-som-arg2-value-le	åpenbare		v2			"_åpenbare_v_rel"	"åpenbare_1035"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+åpne-19920-1	hellan	0	2004-12-08 00:00:00+01	åpne	1	trans-arg1-2-le	åpne		v1-v1b-v11			"_åpne-rel"	"åpne_19920"	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+øke-v	hellan	0	2004-12-08 00:00:00+01	øke	1	intrans-arg1-le	øke		v2		"_øke_v_rel"			\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test
+østelig	hellan	0	2004-12-08 00:00:00+01	østlig	1	attr-adj-lxm	østlig		a6			"_østlig_a_rel"		\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	NO	NO	\N	\N	\N	\N	1	NorSource-test

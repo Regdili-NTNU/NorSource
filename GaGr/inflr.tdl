@@ -1,0 +1,90 @@
+%(letter-set (!c bdfglmnprstz))
+%(letter-set (!s abcdefghijklmnopqrtuvwxyz))
+%(letter-set (!a abcdefghijklmnopqrstuvwxyz))
+%(letter-set (!t bcdfghjklmnpqrstvwxz))
+%(letter-set (!v aeiou))
+
+verb-past_irule :=
+%suffix (* ed) (!ty !tied) (e ed) (!t!v!c !t!v!c!ced) (give gave)
+word &
+[ ARGS < verb-lxm > ].
+
+#|
+verb-non-3sing_irule :=
+wort &
+[ ORTH #1,
+  SPS < [ POS [ AGRMT non-3sing ] ] >,
+  ARGS < v-lex & [ ORTH #1 ] > ].
+;x
+|#
+
+verb-3sing_irule :=
+%suffix (!s !ss) (!ss !ssses) (ss sses) (rely relies)
+wort &
+[ SPS < [ POS [ AGRMT 3sing ] ] >,
+  DTRS < v-lex > ].
+
+noun-non-3sing_irule := 
+%suffix (!s !ss) (!ss !ssses) (ss sses)
+word &
+[ POS [ AGRMT non-3sing ],
+  ARGS < noun-lxm > ].
+
+#|
+noun-3sing_irule := 
+wort &
+[ ORTH #1,
+  POS [ AGRMT 3sing ],
+  DTRS < noun-lxm & [ ORTH #1 ] > ].
+
+
+;x
+
+null_irule :=
+wort &
+[ DTRS < const-lexeme > ].
+|#
+#|
+null_irule :=
+wort &
+[ ORTH #1,
+  DTRS < const-lexeme  & [ ORTH #1 ] > ].
+;x
+|#
+
+#|
+verb-past_irule :=
+%suffix (* ed) (!ty !tied) (e ed) (!t!v!c !t!v!c!ced) (give gave)
+word &
+[ ARGS < v-lex > ].
+
+verb-non-3sing_irule :=
+word &
+[ ORTH #1,
+  SPR < [ HEAD [ AGR non-3sing ] ] >,
+  ARGS < v-lex & [ ORTH #1 ] > ].
+
+verb-3sing_irule :=
+%suffix (!s !ss) (!ss !ssses) (ss sses) (rely relies)
+word &
+[ SPR < [ HEAD [ AGR 3sing ] ] >,
+  ARGS < v-lex > ].
+
+noun-non-3sing_irule := 
+%suffix (!s !ss) (!ss !ssses) (ss sses)
+word &
+[ HEAD [ AGR non-3sing ],
+  ARGS < noun-lxm > ].
+
+noun-3sing_irule := 
+word &
+[ ORTH #1,
+  HEAD [ AGR 3sing ],
+  ARGS < noun-lxm & [ ORTH #1 ] > ].
+
+null_irule :=
+word &
+[ ORTH #1,
+  ARGS < const-lexeme  & [ ORTH #1 ] > ].
+
+|#

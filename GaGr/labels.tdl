@@ -1,0 +1,1723 @@
+;;; -*- Mode: TDL; Package: LKB -*-
+
+
+
+
+
+;;;
+;;; LABEL TYPES
+;;;
+
+; Not yet treated (July 21):
+; obRAISsuMob - involve derivation
+; suRAISsuMob - involve derivation
+; intrSubcoord - involve multiverbs
+; intrPrtclSubcoord - involve multiverbs
+
+;;;
+;;; slot 1
+;;;
+
+v := v-lex.
+vPerf := v & [HEAD.FRMTVS <perf>].
+vProg := v & [HEAD.FRMTVS <prog>].
+vAor := v & [HEAD.FRMTVS <aor>].
+vHab := v & [HEAD.FRMTVS <hab>].
+vPass := v & [HEAD.FRMTVS <pass>].
+vMidd := v & [HEAD.FRMTVS <middle>].
+vAppl := v & [HEAD.FRMTVS <applic>].
+vCaus := v & [HEAD.FRMTVS <caus>].
+
+;;;
+;;; slot 2
+;;;
+
+nullval := nullval-lex.
+intr := intr-lex.
+intrAdv := intrAdv-lex &
+ [ GF.ADV.HEAD adverb ].
+intrAdvVid := intrAdv-lex &
+ [ GF.ADV.HEAD verb ].
+intrImpers := intrImpers-lex.
+intrImpersObl := intrImpersObl-lex.
+intrImpersComp := intrImpersComp-lex.
+intrImpersPrtcl := intrImpersAdv-lex &
+ [ GF.ADV.HEAD particle ].
+intrImplobj  := intr-lex &
+ [ ACTNTS act12-rel ].
+intrLoc := intrAdv-lex &
+ [ GF.SUBJ.INDX #2,
+   GF.ADV.INDX #1,
+   ACTNTS loc-rel & [LOC.ACT0 #1,
+		     LOC.ACT1 #2]].
+intrObl := intrObl-lex.
+intrVid := intrObl-lex & [GF.OBL.HEAD verb].
+intrOblRais := intrOblRais-lex.
+intrPath := intrAdv-lex &
+ [ GF.SUBJ.INDX #2,
+   GF.ADV.INDX #1,
+   ACTNTS dir-rel & [DIR.ACT0 #1,
+		     DIR.ACT1 #2]].
+intrPresnt := intrPresnt-lex.
+intrPresntLoc := intrPresntAdv-lex &
+ [ GF.PRES.INDX #2,
+   GF.ADV.INDX #1,
+   ACTNTS loc-rel & [LOC.ACT0 #1,
+		     LOC.ACT1 #2]].
+intrPresntPath := intrPresntAdv-lex &
+ [ GF.PRES.INDX #2,
+   GF.ADV.INDX #1,
+   ACTNTS dir-rel & [DIR.ACT0 #1,
+		     DIR.ACT1 #2]].
+intrPrtcl := intrAdv-lex &
+ [ GF.ADV.HEAD particle ].
+intrPrtclObl := intrAdvObl-lex &
+ [ GF.ADV.HEAD particle ].
+intrScpr := intrScpr-lex.
+intrLghtScpr := intrScpr-lex.
+intrScprObl := intrScprObl-lex.
+intrLghtScprObl := intrScprObl.
+intrLghtScprVid := intrScprObl & [GF.OBL.HEAD verb].
+intrScprVid := intrScprObl & [GF.OBL.HEAD verb].
+intrExpn := intrExpn-lex.
+intrOblExpn := intrOblExpn-lex.
+intrPrtclExpn := intrAdvExpn-lex.
+intrOblExlnk := intrOblExlnk-lex.
+intrPrtclOblExlnk := intrAdvOblExlnk-lex.
+intrPrtclOblRais := intrAdvOblRais-lex.
+intrComp := intrComp-lex.
+intrAuxperfScpr := intrScpr & [HEAD perfaux].
+intrAuxmodScpr := intrScpr & [HEAD modaux].
+intrAuxmodComp := intrComp & [HEAD modaux].
+intrImpltransfAdv := intrImpltransfAdv-lex.  
+
+tr := tr-lex.
+trImpers := trImpers-lex.
+trImpersComp := trImpersComp-lex.
+trObl := trObl-lex.
+trAdv := trAdv-lex.
+trPrtcl := trAdv-lex &
+ [ GF.ADV.HEAD particle ].
+trScpr := trScpr-lex.
+; claim: when a trans verb has a path const, the obj is always directed relative to that path-adv. The subject may be too, but always the object.
+trPath := trAdv-lex &
+ [ GF.OBJ.INDX #2,
+   GF.ADV.INDX #1,
+   ACTNTS dir-rel & [DIR.ACT0 #1,
+		     DIR.ACT1 #2]].
+trPresnt := trPresnt-lex.  
+trExpnSu := trExpnSu-lex.  
+trExpnOb := trExpnOb-lex.  
+trNrfExpnSu := trNrfExpnSu-lex.
+trNrf := trNrf-lex.
+; in the valence slot for scpr, nothing is generally said about linking and reference - comes in slot 3. 
+trNrfScpr := trScpr.
+trComp := trComp-lex. 
+trLght := tr & [GF.OBJ.INDX.ROLE theme-abstr].
+trVid := trObl-lex & [GF.OBL.HEAD verb].  
+trLghtVid := trVid & [GF.OBJ.INDX.ROLE theme-abstr]. 
+
+ditr := ditr-lex.
+dbob := dbob-lex.
+ditrObl := ditrObl-lex.
+dbobObl := dbobObl-lex.
+ditrNrf := ditrNrf-lex. 
+ditrVid := ditrObl & [GF.OBL.HEAD verb].
+dbobVid := dbobObl & [GF.OBL.HEAD verb].
+ditrExpnSu := ditrExpnSu-lex.  
+
+trCs := trCs-lex.
+ditrCs := ditrCs-lex.
+dbobCs := dbobCs-lex.
+tritr := tritr-lex.
+qtrtr := qtrtr-lex.
+; should be decomposed:
+;trOblCs-oblCsu-lex
+;trOblCs-obCsu-lex
+
+copPred := copPred-lex.
+copAdj := copPred & [GF.SCPR.HEAD adjective]. 
+copAdv := copPred & [GF.SCPR.HEAD adverb]. 
+copN := copPred & [GF.SCPR.HEAD noun].  
+copPP := copPred & [GF.SCPR.HEAD prep].  
+copPredprtcl := copPred & [GF.SCPR.HEAD predparticle]. 
+coplocAdj := copAdj & [GF.SUBJ.INDX.ROLE located-obj]. 
+coplocAdv := copAdv & [GF.SUBJ.INDX.ROLE located-obj]. 
+copId := copId-lex. 
+copIdN := copId &  [GF.IDNT.HEAD noun].
+copIdAbsinf := copId &  [GF.IDNT.HEAD infmark]. 
+copIdDECL := copId &  [GF.IDNT.MODE decl].  
+copIdYN := copId &  [GF.IDNT.MODE yn-interr].  
+copIdWH := copId &  [GF.IDNT.MODE wh-interr].  
+copExpn := copExpn-lex.
+copExpnAdj := copExpn & [GF.SCPR.HEAD adjective].  
+copExpnN := copExpn & [GF.SCPR.HEAD noun].  
+copExpnPP := copExpn & [GF.SCPR.HEAD prep].  
+copExpnPredprtcl := copExpn & [GF.SCPR.HEAD predparticle].  
+
+lghtAdj := intrLghtScpr & [GF.SCPR.HEAD adjective].  
+lghtAdv := intrLghtScpr & [GF.SCPR.HEAD adverb].  
+lghtAdjVid := intrLghtScprVid & [GF.SCPR.HEAD adjective].
+lghtN := intrLghtScpr & [GF.SCPR.HEAD noun].  
+
+intrScprPrtcl := intrScprAdv-lex &
+ [ GF.ADV.HEAD particle ].
+intrPrtclScpr := intrAdvScpr-lex &
+ [ GF.ADV.HEAD particle ].
+trNrfAdv := trNrfAdv-lex.
+trNrfComp := trNrfComp-lex.
+trNrfObl := trNrfObl-lex.
+trNrfPath := trNrfAdv &
+ [ GF.SUBJ.INDX #2,
+   GF.ADV.INDX #1,
+   ACTNTS dir-rel & [DIR.ACT0 #1,
+		     DIR.ACT1 #2]].
+
+trNrfPresnt := trNrfPresnt-lex.
+trNrfPresntAdv := trNrfPresntAdv-lex.
+trNrfPresntPath := trNrfPresntAdv &
+ [ GF.PRES.INDX #2,
+   GF.ADV.INDX #1,
+   ACTNTS dir-rel & [DIR.ACT0 #1,
+		     DIR.ACT1 #2]].
+trNrfPresntLoc := trNrfPresntAdv &
+ [ GF.PRES.INDX #2,
+   GF.ADV.INDX #1,
+   ACTNTS loc-rel & [LOC.ACT0 #1,
+		     LOC.ACT1 #2]].
+trNrfPrtcl := trNrfAdv & [ GF.ADV.HEAD particle ].
+trScprShft := trScprShft-lex.
+copImpersAdv := copImpersAdv-lex.
+; "for x to be in Finnmark is fine"
+copImpersAdjLoc := copImpersAdv &
+ [ GF.SCPR.HEAD adjective,
+   ACTNTS.ACT1.KIND loc-rel & [ LOC.ACT1.ROLE located-obj]].
+
+#|
+axv_intr-av1mod-scThsit
+axv_intr-av1perf
+axv_intrPs-av1pass
+axv_intrPs-av1mod-av2perf-av3pass
+axv_rootmod-intr
+|#
+
+;;;
+;;; slot 1+2
+;;;
+
+
+v-intr := v & intr.
+vPerf-intr := vPerf & intr.
+
+;;;
+;;; slot 3
+;;;
+
+;; su
+suExpl := subj-sign. 
+suDir := sign & [GF.SUBJ.INDX.ROLE orientedobj].
+suDECL := sign & [GF.SUBJ.MODE decl]. 
+suYN := sign & [GF.SUBJ.MODE yn-interr].  
+suWH := sign & [GF.SUBJ.MODE wh-interr].  
+suInf := sign & [GF.SUBJ.HEAD infmark].  
+suGer := sign & [GF.SUBJ.TENSE gerund].  
+suAbsinf := sign & [GF.SUBJ.HEAD infmark].  
+suNrg := subj-sign.
+suSM := sign & [HEAD.SM #1,
+		GF.SUBJ.HEAD.AGR #1 & agr & [TARGTD +]].
+suAgr := sign & [HEAD.SM #1,
+		 GF.SUBJ.HEAD.AGR #1 & agr & [TARGTD +]].
+suAgraux := sign & [HEAD auxverb & [SM #1],
+		    GF.SUBJ.HEAD.AGR #1 & agr & [TARGTD +]]. 
+suAgrsc := sign & [GF.SCPR.HEAD.SM #1,
+		   GF.SUBJ.HEAD.AGR #1 & agr & [TARGTD +]].  
+suNom := sign & [GF.SUBJ.HEAD.CASE nominative].  
+suAcc := sign & [GF.SUBJ.HEAD.CASE accusative]. 
+suGen := sign & [GF.SUBJ.HEAD.CASE genitive].  
+suDat := sign & [GF.SUBJ.HEAD.CASE dative].  
+suErg := sign & [GF.SUBJ.HEAD.CASE ergative].
+suAbsl := sign & [GF.SUBJ.HEAD.CASE absolutive].
+suAbl := sign & [GF.SUBJ.HEAD.CASE ablative].
+suClit := sign & [GF.SUBJ.HEAD.REAL clitic]. 
+suDrop := sign & [GF.SUBJ.HEAD.REAL drop].  
+suNul := sign & [GF.SUBJ.HEAD.REAL nul].  
+; the subject is a poss-phrase:
+suPossp := sign & [GF.SUBJ poss-lex].
+; the subject is a postpos-phrase:
+suPostp := sign & 
+	[GF.SUBJ poss-lex &
+	[ ACTNTS.PRED spatial-coord_rel]]. 
+; the subject's specifier is a poss-phrase:
+suSpecPossp := sign & 
+	[GF.SUBJ poss-lex &
+	[ GF.SPEC poss-lex]].
+; the subject's specifier is a postpos-phrase:
+suSpecPostp := sign & 
+	[GF.SUBJ poss-lex &
+	[ GF.SPEC poss-lex & [ACTNTS.PRED spatial-coord_rel]]]. 
+; the subject is a postpos-phrase with a poss-phrase as spec:
+suPostpSpecPossp := suSpecPossp & 
+	[GF.SUBJ.ACTNTS.PRED spatial-coord_rel].
+suBPsuSpec := sign & 
+	[GF.SUBJ poss-lex &
+	[ ACTNTS.PRED bodypart_rel]].
+suBPspec := suBPsuSpec. 
+; the subject is a postpositional phrase and the specifier of its specifier is in a body-bodypart relation to the specifier (literal ex: "his head's edge"):
+suPostpSpecBP := sign & [GF.SUBJ poss-lex &
+	[ ACTNTS.PRED spatial-coord_rel,
+	  GF.SPEC poss-lex & [ACTNTS.PRED bodypart_rel]]].
+; the subject's specifier is a bodypart of the subject's specifier's specifier ("his head's edge") - same as suPostpSpecBP, except for leaving open the highest spec-head relation:
+suSpecBPspec := sign & 
+	[GF.SUBJ poss-lex &
+	[ GF.SPEC poss-lex & [ACTNTS.PRED bodypart_rel]]].
+suIDobSpec := sign & [GF.SUBJ.INDX #1,
+		      GF.OBJ.GF.SPEC.INDX #1]. 
+suSpecIDob := sign & [GF.SUBJ.GF.SPEC.INDX #1,
+		          GF.OBJ.INDX #1]. 
+suSpecIDobSpec := sign & [GF.SUBJ.GF.SPEC.INDX #1,
+		          GF.OBJ.GF.SPEC.INDX #1]. 
+suIDobSu := sign & [GF.SUBJ.INDX #1,
+		    GF.OBJ.GF.SUBJ.INDX #1]. 
+suIDiobSpec := sign & [GF.SUBJ.INDX #1,
+		      GF.IOBJ.GF.SPEC.INDX #1]. 
+suIDobSpecSpec := sign & 
+		[GF.SUBJ.INDX #1,
+		GF.OBJ.GF.SPEC.GF.SPEC.INDX #1]. 
+suIDob2SpecSpec := sign & 
+		[GF.SUBJ.INDX #1,
+		GF.OBJ2.GF.SPEC.GF.SPEC.INDX #1]. 
+suIDcompSu := sign & [GF.SUBJ.INDX #1,
+		      GF.COMP.GF.SUBJ.INDX #1]. 
+suIDexpnSu := sign & [GF.SUBJ.INDX #1,
+		      GF.EXPN.GF.SUBJ.INDX #1]. 
+obIDexpnOb := sign & [GF.OBJ.INDX #1,
+		      GF.EXPN.GF.OBJ.INDX #1]. 
+ suUnif := sign & [ACTNTS.PRED unif-su_rel]. 
+
+;; ob
+obArg := obj-act2-link.
+obNrg := obj-sign.
+obDir := sign &
+ [ GF.OBJ.INDX.ROLE orientedobj ].
+obPro := sign & [ GF.OBJ.HEAD.REAL nul ].
+obNul := sign & [ GF.OBJ.HEAD.REAL nul ].
+obRefl := sign & [ GF.OBJ.HEAD refl ]. 
+obReflExpl := sign & [ GF.OBJ.HEAD refl ].	
+obDECL := sign & [GF.OBJ.MODE decl]. 
+obDECLcmp := sign & [GF.OBJ.MODE decl,
+		     GF.OBJ.HEAD decl-compltzr]. 
+obDECLbare := sign & [GF.OBJ.MODE decl,
+		     GF.OBJ.HEAD verb].   
+obIRR := sign & [GF.OBJ.MODE irrealis].  
+obIRRcmp := sign & [GF.OBJ.MODE irrealis,
+		     GF.OBJ.HEAD compltzr].  
+obIRRbare := sign & [GF.OBJ.MODE irrealis,
+		     GF.OBJ.HEAD verb].  
+obYN := sign & [GF.OBJ.MODE yn-interr].  
+obWH := sign & [GF.OBJ.MODE wh-interr].  
+obOM := sign & [HEAD.OM #1,
+		GF.OBJ.HEAD.AGR #1 & agr & [TARGTD +]].  
+obAgrsc := sign & [GF.SCPR.HEAD.SM #1,
+		   GF.OBJ.HEAD.AGR #1 & agr & [TARGTD +]].  
+obAcc := sign & [GF.OBJ.HEAD.CASE accusative].  
+obGen := sign & [GF.OBJ.HEAD.CASE genitive].  
+obDat := sign & [GF.OBJ.HEAD.CASE dative].  
+obNom := sign & [GF.OBJ.HEAD.CASE nominative].  
+obAbsl := sign & [GF.OBJ.HEAD.CASE absolutive].  
+obErg := sign & [GF.OBJ.HEAD.CASE ergative].  
+obDef := sign & [GF.OBJ.HEAD.DEF +].  
+obIndef := sign & [GF.OBJ.HEAD.DEF -].  
+obAccDef := sign & [GF.OBJ.HEAD.CASE accusative,
+		    GF.OBJ.HEAD.DEF +].  
+obAccIndef := sign & 
+	[GF.OBJ.HEAD.CASE accusative,
+	GF.OBJ.HEAD.DEF -].  
+obAccDefOM := sign & 
+	[HEAD.OM #1,
+	GF.OBJ.HEAD.AGR #1 & agr & [TARGTD +],
+	GF.OBJ.HEAD.CASE accusative,
+	GF.OBJ.HEAD.DEF +].   
+obClit := sign & [GF.OBJ.HEAD.REAL clitic].  
+obDrop := sign & [GF.OBJ.HEAD.REAL drop].  
+obPossp := sign & [GF.OBJ poss-lex].  
+obPostp := sign & 
+	[GF.OBJ poss-lex &
+	[ ACTNTS.PRED spatial-coord_rel]].  
+obSpecPossp := sign & 
+	[GF.OBJ poss-lex &
+	[ GF.SPEC poss-lex]].  
+obSpecPostp := sign & 
+	[GF.OBJ poss-lex &
+	[ GF.SPEC poss-lex & [ACTNTS.PRED spatial-coord_rel]]].  
+obPostpSpecPossp := obSpecPossp & 
+	[GF.OBJ.ACTNTS.PRED spatial-coord_rel].  
+obBPobSpec:= sign & 
+	[GF.OBJ poss-lex &
+	[ ACTNTS.PRED bodypart_rel]].
+obBPspec := obBPobSpec. 
+obPostpSpecBP := sign & [GF.OBJ poss-lex &
+	[ ACTNTS.PRED spatial-coord_rel,
+	  GF.SPEC poss-lex & [ACTNTS.PRED bodypart_rel]]].  
+obBPsu := sign &
+	[GF.OBJ.INDX #1,
+	GF.SUBJ.INDX #2,
+	ACTNTS.PRED bodypart_rel,
+	ACTNTS.ACT1 #2,
+	ACTNTS.ACT2 #1]. 
+obPRTOFsu := sign &
+	[GF.OBJ.INDX #1,
+	GF.SUBJ.INDX #2,
+	ACTNTS.PRED part-of_rel,
+	ACTNTS.ACT1 #2,
+	ACTNTS.ACT2 #1]. 
+obUnif := sign & [ACTNTS.PRED unif-ob_rel].  
+obNomvL := sign & [GF.OBJ.HEAD nomverb]. 
+obSpecNomvL := sign & [GF.OBJ.GF.SPEC.HEAD nomverb]. 
+obIDsuSpec := sign & [GF.OBJ.INDX #1,
+		      GF.SUBJ.GF.SPEC.INDX #1].  
+  
+obIDexpnSu := sign & [GF.OBJ.INDX #1,
+		      GF.EXPN.GF.SUBJ.INDX #1].
+obSpecIDvidObSpec := sign & 
+	[GF.OBJ.GF.SPEC.INDX #1,
+	 GF.OBL.GF.GOV.GF.SPEC.INDX #1,
+	 GF.OBL.HEAD verb]. 
+obIDvidObSpec := sign & 
+	[GF.OBJ.INDX #1,
+	 GF.OBL.GF.GOV.GF.SPEC.INDX #1,
+	 GF.OBL.HEAD verb]. 
+
+obEqInf := sign & [GF.SUBJ.INDX #1,
+		   GF.OBJ.GF.SUBJ.INDX #1,
+		   GF.OBJ.HEAD infmark]. 
+obEqSuInf := sign & [GF.SUBJ.INDX #1,
+		   GF.OBJ.GF.SUBJ.INDX #1,
+		   GF.OBJ.HEAD infmark]. 
+obEqIobInf := sign & [GF.IOBJ.INDX #1,
+		   GF.OBJ.GF.SUBJ.INDX #1,
+		   GF.OBJ.HEAD infmark]. 
+obEqBareinf := sign & [GF.SUBJ.INDX #1,
+		   GF.OBJ.GF.SUBJ.INDX #1,
+		   GF.OBJ.HEAD verb,
+		   GF.OBJ.TENSE infin]. 
+obEqSuBareinf := sign & [GF.SUBJ.INDX #1,
+		   GF.OBJ.GF.SUBJ.INDX #1,
+		   GF.OBJ.HEAD verb,
+		   GF.OBJ.TENSE infin]. 
+obEqIobBareinf := sign & [GF.IOBJ.INDX #1,
+		   GF.OBJ.GF.SUBJ.INDX #1,
+		   GF.OBJ.HEAD verb,
+		   GF.OBJ.TENSE infin]. 
+obAbsInf := sign & [GF.OBJ.HEAD infmark]. 
+obAspIDvAsp := sign & [ ASPECT #1,
+			GF.OBJ.ASPECT #1]. 
+iobReflExpl := sign & [GF.IOBJ.HEAD refl].  
+iobPro := sign & [ GF.IOBJ.HEAD.REAL nul ].
+iobRefl := sign & [ GF.IOBJ.HEAD refl ]. 
+iobAcc := sign & [GF.IOBJ.HEAD.CASE accusative].  
+iobGen := sign & [GF.IOBJ.HEAD.CASE genitive].  
+iobDat := sign & [GF.IOBJ.HEAD.CASE dative].  
+iobNom := sign & [GF.IOBJ.HEAD.CASE nominative].  
+iobAbsl := sign & [GF.IOBJ.HEAD.CASE absolutive].  
+iobErg := sign & [GF.IOBJ.HEAD.CASE ergative].  
+iobDef := sign & [GF.IOBJ.HEAD.DEF +].  
+iobIndef := sign & [GF.IOBJ.HEAD.DEF -].  
+iobAccDef := sign & [GF.IOBJ.HEAD.CASE accusative,
+		    GF.IOBJ.HEAD.DEF +].  
+iobAccIndef := sign & 
+	[GF.IOBJ.HEAD.CASE accusative,
+	GF.IOBJ.HEAD.DEF -].  
+iobAccDefOM := sign & 
+	[HEAD.OM #1,
+	GF.IOBJ.HEAD.AGR #1 & agr & [TARGTD +],
+	GF.IOBJ.HEAD.CASE accusative,
+	GF.IOBJ.HEAD.DEF +].   
+iobClit := sign & [GF.IOBJ.HEAD.REAL clitic].  
+iobDrop := sign & [GF.IOBJ.HEAD.REAL drop].  
+iobOM := sign & [HEAD.OM #1,
+		GF.IOBJ.HEAD.AGR #1 & agr & [TARGTD +]].  
+iobPossp := sign & [GF.IOBJ poss-lex].  
+iobPostp := sign & 
+	[GF.IOBJ poss-lex &
+	[ ACTNTS.PRED spatial-coord_rel]].  
+
+ob2OM := sign & [HEAD.OM #1,
+		GF.OBJ2.HEAD.AGR #1 & agr & [TARGTD +]].  
+ob2Acc := sign & [GF.OBJ2.HEAD.CASE accusative].  
+ob2Gen := sign & [GF.OBJ2.HEAD.CASE genitive].  
+ob2Dat := sign & [GF.OBJ2.HEAD.CASE dative].  
+ob2Clit := sign & [GF.OBJ2.HEAD.REAL clitic].  
+ob2Drop := sign & [GF.OBJ2.HEAD.REAL drop].  
+ob2Unif := sign & [ACTNTS.PRED unif-ob_rel].  
+ob2AccDef := sign & [GF.OBJ2.HEAD.CASE accusative,
+		    GF.OBJ2.HEAD.DEF +].  
+ob2AccIndef := sign & 
+	[GF.OBJ2.HEAD.CASE accusative,
+	GF.OBJ2.HEAD.DEF -].  
+ob2AccDefOM := sign & 
+	[HEAD.OM #1,
+	GF.OBJ2.HEAD.AGR #1 & agr & [TARGTD +],
+	GF.OBJ2.HEAD.CASE accusative,
+	GF.OBJ2.HEAD.DEF +].   
+ob2DatDef := sign & [GF.OBJ2.HEAD.CASE dative,
+		    GF.OBJ2.HEAD.DEF +].  
+ob2DatIndef := sign & [GF.OBJ2.HEAD.CASE dative,
+		    GF.OBJ2.HEAD.DEF -].   
+ob2DatDefOM := sign & [HEAD.OM #1,
+	GF.OBJ.HEAD.AGR #1 & agr & [TARGTD +],
+	GF.OBJ2.HEAD.CASE dative,
+		    GF.OBJ2.HEAD.DEF +].  
+ob2DECLcmp := sign & [GF.OBJ2.MODE decl,
+		     GF.OBJ2.HEAD decl-compltzr]. 
+ob2DECL := sign & [GF.OBJ2.MODE decl]. 
+ob2SpecPostp := sign & 
+	[GF.OBJ2 poss-lex &
+	[ GF.SPEC poss-lex & [ACTNTS.PRED spatial-coord_rel]]].  
+ob3OM := sign & [HEAD.OM #1,
+		GF.OBJ3.HEAD.AGR #1 & agr & [TARGTD +]].  
+ob3Acc := sign & [GF.OBJ3.HEAD.CASE accusative].  
+ob3Gen := sign & [GF.OBJ3.HEAD.CASE genitive].  
+ob3Dat := sign & [GF.OBJ3.HEAD.CASE dative].  
+ob3Clit := sign & [GF.OBJ3.HEAD.REAL clitic].  
+ob3Drop := sign & [GF.OBJ3.HEAD.REAL drop].  
+ob4OM := sign & [HEAD.OM #1,
+		GF.OBJ4.HEAD.AGR #1 & agr & [TARGTD +]].  
+ob4Clit := sign & [GF.OBJ4.HEAD.REAL clitic].  
+ob4Drop := sign & [GF.OBJ4.HEAD.REAL drop].  
+
+oblRefl := sign & [GF.OBL.GF.GOV.HEAD refl].  
+oblOM := sign & [HEAD.OM #1,
+		 GF.OBL.GF.GOV.HEAD.AGR #1 & agr & [TARGTD +]].
+oblDECL := sign & [GF.OBL.GF.GOV.MODE decl].
+oblYN := sign & [GF.OBL.GF.GOV.MODE yn-interr].  
+oblWH := sign & [GF.OBL.GF.GOV.MODE wh-interr].  
+oblAbsinf := sign & [GF.OBL.GF.GOV.HEAD infmark].  
+oblEqSuInf := sign & [GF.SUBJ.INDX #1,
+		      GF.OBL.GF.GOV.GF.SUBJ.INDX #1,
+		      GF.OBL.GF.GOV.HEAD infmark].  
+oblEqObInf := sign & [GF.OBJ.INDX #1,
+		      GF.OBL.GF.GOV.GF.SUBJ.INDX #1,
+		      GF.OBL.GF.GOV.HEAD infmark].  
+oblRaisInf := sign & [GF.SUBJ.INDX #1,
+		      GF.OBL.GF.GOV.GF.SUBJ.INDX #1,
+		      GF.OBL.GF.GOV.HEAD infmark]. 
+oblBPsu := sign &
+	[GF.OBL.GF.GOV.INDX #1,
+	GF.SUBJ.INDX #2,
+	ACTNTS.PRED bodypart_rel,
+	ACTNTS.ACT1 #2,
+	ACTNTS.ACTobl #1]. 
+oblBPob := sign &
+	[GF.OBL.GF.GOV.INDX #2,
+	GF.OBJ.INDX #1,
+	ACTNTS.PRED bodypart_rel,
+	ACTNTS.ACT2 #1,
+	ACTNTS.ACTobl #2]. 
+oblBPiob := sign &
+	[GF.OBL.GF.GOV.INDX #1,
+	GF.IOBJ.INDX #2,
+	ACTNTS.PRED bodypart_rel,
+	ACTNTS.ACT3 #2,
+	ACTNTS.ACTobl #1]. 
+
+oblExlnkAbsinf := sign & [GF.OBL.GF.GOV.HEAD infmark]. 
+oblExlnkDECL := sign & [GF.OBL.GF.GOV.MODE decl]. 
+advRefl := sign & [GF.ADV.GF.GOV.HEAD refl].  
+
+compEqBareinf := sign & [GF.SUBJ.INDX #1,
+		   GF.COMP.GF.SUBJ.INDX #1,
+		   GF.COMP.HEAD verb,
+		   GF.COMP.TENSE infin]. 
+compDECL := sign & [GF.COMP.MODE decl]. 
+compDECLcmp := sign & [GF.COMP.MODE decl,
+		       GF.COMP.HEAD compltzr]. 
+compDECLbare := sign & [GF.COMP.MODE decl,
+		        GF.COMP.HEAD verb].
+compYN := sign & [GF.COMP.MODE yn-interr].
+compWH := sign & [GF.COMP.MODE wh-interr].
+compIRR := sign & [GF.COMP.MODE irrealis]. 
+compIRRcmp := sign & [GF.COMP.MODE irrealis,
+		     GF.COMP.HEAD compltzr].
+expnDECL := sign & [GF.EXPN.MODE decl].
+expnDECLcmp := sign & [GF.EXPN.MODE decl,
+		       GF.EXPN.HEAD compltzr].
+expnYN := sign & [GF.EXPN.MODE yn-interr].
+expnWH := sign & [GF.EXPN.MODE wh-interr].
+expnCOND := sign & [GF.EXPN.MODE cond].  
+expnEqInf := sign & [GF.SUBJ.INDX #1,
+		     GF.EXPN.GF.SUBJ.INDX #1].
+expnAbsinf := sign & [GF.EXPN.HEAD infmark].  
+expnHYP := sign & [GF.EXPN.MODE hyp].  
+expnEQUAT := sign & [GF.EXPN.MODE equat].  
+expnIRRbare := sign & [GF.EXPN.MODE irrealis,
+		   GF.EXPN.HEAD verb].  
+scEQUAT := sign & [GF.SCPR.MODE equat].  
+exlnkDECL := sign & [GF.OBL.GF.GOV.MODE decl].  
+exlnkYN := sign & [GF.OBL.GF.GOV.MODE yn-interr].  
+exlnkWH := sign & [GF.OBL.GF.GOV.MODE wh-interr].  
+exlnkCOND := sign & [GF.OBL.GF.GOV.MODE cond].  
+exlnkEqInf := sign &  [ GF.SUBJ.INDX #1,
+			GF.OBL.GF.GOV.INDX #1].  
+exlnkAbsinf := sign & [GF.OBL.GF.GOV.HEAD infmark].
+
+;; sc
+; no subject-linking. Possibly obj-linking - it has to be, when an object at all, since not both su and ob are nonlinked. Try to lure the system to make a choice, via subtypes?
+scSuNrg := sign &
+ [ GF.SUBJ.INDX #1,
+   GF.SCPR.INDX #2,
+   GF.SCPR.XACT #1,
+   ACTNTS.ACT1.KIND.ACT0 #2,
+   ACTNTS.ACT1.KIND.ACT1 #1 ].
+; these would be the candidates, the first for intrScpr and the other for trScpr; however, even though these are the only options *defined*, the system makes a third subtype of scSuNrg where there is an object, but nonlinked.
+scSuNrgNoobject := scSuNrg &
+ [ GF scpr-gf-strict ].
+scSuNrgObjectlnk := scSuNrg & obj-act2-link &
+ [ GF su-ob-scpr-gf ].
+; thus, the only way of enforcing correct choice is the 'non-compositional' following:
+trScpr-scSuNrg := trScpr & scSuNrg & obj-act2-link.
+; Better might be to rather write the label type as:
+;   trScpr-scSuNrg_obArg
+; to retain full perspicuity.
+
+; no object-linking. Possibly subj-linking. One can actually assume there is subj-linking, since not both su and ob are nonlinked.
+scObNrg := su-act1-link &
+ [ GF.OBJ.INDX #1,
+   GF.SCPR.INDX #2,
+   GF.SCPR.XACT #1,
+   ACTNTS.ACT1.KIND.ACT0 #2,
+   ACTNTS.ACT1.KIND.ACT1 #1 ].
+scObArgConcurr := sign &
+ [ GF.SUBJ.INDX #0,
+   GF.OBJ.INDX #1,
+   GF.SCPR.INDX #2,
+   GF.SCPR.XACT #1,
+   ACTNTS.PRED concur_rel,
+   ACTNTS.ACT1.KIND.ACT1 #0,
+   ACTNTS.ACT1.KIND.ACT2 #1,
+   ACTNTS.ACT2.KIND.ACT0 #2,
+   ACTNTS.ACT2.KIND.ACT1 #1 ]. 
+scObNrgRes := su-act1-link &
+ [ GF.OBJ.INDX #1,
+   GF.SCPR.INDX #2,
+   GF.SCPR.XACT #1,
+   ACTNTS.PRED cause_rel,
+   ACTNTS.ACT2.KIND.ACT0 #2,
+   ACTNTS.ACT2.KIND.ACT1 #1 ].
+scSuArgCsd := sign &
+ [ GF.SUBJ.INDX #1,
+   GF.SCPR.INDX #2,
+   GF.SCPR.XACT #1,
+   ACTNTS.PRED cause_rel,
+   ACTNTS.ACT1.KIND.ACT1 #1,
+   ACTNTS.ACT2.KIND.ACT0 #2,
+   ACTNTS.ACT2.KIND.ACT1 #1 ]. 
+scResIncrm := scSuArgCsd &
+ [ ASPECT compl_monodvmnt,
+   ACTNTS.AKTRT monodvmnt ].
+scSuNrgCsd := sign &
+ [ GF.SUBJ.INDX #1,
+   GF.SCPR.INDX #2,
+   GF.SCPR.XACT #1,
+   ACTNTS.PRED cause_rel,
+   ACTNTS.ACT2.KIND.ACT0 #2,
+   ACTNTS.ACT2.KIND.ACT1 #1 ]. 
+scSuNrgResIncrm := scSuNrgCsd &
+ [ ASPECT compl_monodvmnt,
+   ACTNTS.AKTRT monodvmnt ].
+scObArgCsd := sign &
+ [ GF.SUBJ.INDX #1,
+   GF.OBJ.INDX #3,
+   GF.SCPR.INDX #2,
+   GF.SCPR.XACT #3,
+   ACTNTS.PRED cause_rel,
+   ACTNTS.ACT1.KIND.ACT1 #1,
+   ACTNTS.ACT1.KIND.ACT2 #3,
+   ACTNTS.ACT2.KIND.ACT0 #2,
+   ACTNTS.ACT2.KIND.ACT1 #3 ]. 
+scObArgRes := scObArgCsd.
+scObNrgCsd  := sign &
+ [ GF.SUBJ.INDX #1,
+   GF.OBJ.INDX #3,
+   GF.SCPR.INDX #2,
+   GF.SCPR.XACT #3,
+   ACTNTS.PRED cause_rel,
+   ACTNTS.ACT1.KIND.ACT1 #1,
+   ACTNTS.ACT2.KIND.ACT0 #2,
+   ACTNTS.ACT2.KIND.ACT1 #3 ]. 
+ 
+scAdj := scpr-sign & [GF.SCPR.HEAD adjective].
+scAdj_agr := scpr-sign & [GF.SCPR.HEAD adjective]. 
+scN := scpr-sign & [GF.SCPR.HEAD noun].  
+scPP := scpr-sign & [GF.SCPR.HEAD prep].  
+scPrtcl := scpr-sign & [GF.SCPR.HEAD particle].  
+scAdv := scpr-sign & [GF.SCPR.HEAD adverb].  
+scPredprtcl := scpr-sign & [GF.SCPR.HEAD predparticle].  
+scInf := scpr-sign & [GF.SCPR.HEAD infmark].  
+scBareinf := scpr-sign & [GF.SCPR.HEAD verb,
+			  GF.SCPR.TENSE infin].  
+scPerf := scpr-sign & [ GF.SCPR.HEAD verb,
+			GF.SCPR.TENSE perfprtcpl]. 
+vidObPostp := sign & 
+	[GF.OBL.HEAD verb,
+	 GF.OBL.GF.GOV poss-lex &
+	[ACTNTS.PRED spatial-coord_rel]].  
+vidObBPobSpec:= sign & 
+	[GF.OBL.HEAD verb,
+	 GF.OBL.GF.GOV poss-lex &
+		[ ACTNTS.PRED bodypart_rel]].
+vidObBPspec := vidObBPobSpec. 
+
+
+;;;   slot 4 ;;;
+;; Templates for use
+#|
+Activatd := sign & [GF.BJ.INDX.ROLE activated]. 
+Aff := sign & [GF.BJ.INDX.ROLE affected]. 
+Affincrem := sign & [GF.BJ.INDX.ROLE affincrem]. 
+Ag := sign & [GF.BJ.INDX.ROLE agent]. 
+Agintent := sign & [GF.BJ.INDX.ROLE agintent]. 
+Agmover := sign & [GF.BJ.INDX.ROLE agmover]. 
+Agsens := sign & [GF.BJ.INDX.ROLE agsenser]. 
+Alongline := sign & [GF.BJ.INDX.ROLE alongline].  
+Ass := sign & [GF.BJ.INDX.ROLE assessor]. 
+Ben := sign & [GF.BJ.INDX.ROLE beneficiary]. 
+Cog := sign & [GF.BJ.INDX.ROLE cognizer]. 
+Com := sign & [GF.BJ.INDX.ROLE comitative]. 
+Cont := sign & [GF.BJ.INDX.ROLE content]. 
+Csd := sign & [GF.BJ.INDX.ROLE caused]. 
+Csee := sign & [GF.BJ.INDX.ROLE causee]. 
+Csr := sign & [GF.BJ.INDX.ROLE causer]. 
+Dir := sign & [GF.BJ.INDX.ROLE oriented-obj]. 
+Distunit := sign & [GF.BJ.INDX.ROLE distunit]. 
+Ejct := sign & [GF.BJ.INDX.ROLE ejcted]. 
+Effector := sign & [GF.BJ.INDX.ROLE effector]. 
+Endpt := sign & [GF.BJ.INDX.ROLE endpnt]. 
+Endst := sign & [GF.BJ.INDX.ROLE endstate]. 
+Eventtunit := sign & [GF.BJ.INDX.ROLE eventtunit]. 
+Exp := sign & [GF.BJ.INDX.ROLE experiencer]. 
+Idfd := sign & [GF.BJ.INDX.ROLE idfd]. 
+Idfng := sign & [GF.BJ.INDX.ROLE idfng]. 
+Instr := sign & [GF.BJ.INDX.ROLE instr]. 
+Interloc := sign & [GF.BJ.INDX.ROLE interloc]. 
+Loc := sign & [GF.BJ.INDX.ROLE loc]. 
+Thloc := sign & [GF.BJ.INDX.ROLE theme-locative]. 
+Locus := sign & [GF.BJ.INDX.ROLE locus]. 
+Mal := sign & [GF.BJ.INDX.ROLE malefactive]. 
+Meas := sign & [GF.BJ.INDX.ROLE measure]. 
+Mover := sign & [GF.BJ.INDX.ROLE locomotor]. 
+Orientline := sign & [GF.BJ.INDX.ROLE orientedline]. 
+Orientobj := sign & [GF.BJ.INDX.ROLE orientedobj]. 
+Path := sign & [GF.BJ.INDX.ROLE pathobj]. 
+Prcpt := sign & [GF.BJ.INDX.ROLE percept]. 
+Permissee := sign & [GF.BJ.INDX.ROLE permissee]. 
+Poss := sign & [GF.BJ.INDX.ROLE possessor]. 
+PossAbst := sign & [GF.BJ.INDX.ROLE possAbst]. 
+Possd := sign & [GF.BJ.INDX.ROLE possessed]. 
+Pres := sign & [GF.BJ.INDX.ROLE presented]. 
+Quality := sign & [GF.BJ.INDX.ROLE quality]. 
+Rec := sign & [GF.BJ.INDX.ROLE recipient]. 
+Sens := sign & [GF.BJ.INDX.ROLE senser]. 
+Startpt := sign & [GF.BJ.INDX.ROLE startpnt]. 
+Trgt := sign & [GF.BJ.INDX.ROLE target]. 
+Time := sign & [GF.BJ.INDX.ROLE time]. 
+Timeunit := sign & [GF.BJ.INDX.ROLE timeunit]. 
+Thsit := sign & [GF.BJ.INDX.ROLE theme-sit].
+ThAbst := sign & [GF.BJ.INDX.ROLE theme-abstr]. 
+Thincrem := sign & [GF.BJ.INDX.ROLE thincrem]. 
+Thmover := sign & [GF.BJ.INDX.ROLE theme-mover]. 
+Thvehcl := sign & [GF.BJ.INDX.ROLE thvehcl]. 
+Top := sign & [GF.BJ.INDX.ROLE topic]. 
+Viapt := sign & [GF.BJ.INDX.ROLE viapnt]. 
+Weightunit := sign & [GF.BJ.INDX.ROLE weightunit].
+|#
+
+suActivated := sign & [GF.SUBJ.INDX.ROLE activated]. 
+obActivated := sign & [GF.OBJ.INDX.ROLE activated]. 
+oblActivated := sign & [GF.OBL.GF.GOV.INDX.ROLE activated]. 
+ob2Activated := sign & [GF.OBJ2.INDX.ROLE activated]. 
+presActivated := sign & [GF.PRES.INDX.ROLE activated]. 
+suAff := sign & [GF.SUBJ.INDX.ROLE affected]. 
+obAff := sign & [GF.OBJ.INDX.ROLE affected]. 
+iobAff := sign & [GF.IOBJ.INDX.ROLE affected]. 
+ob2Aff := sign & [GF.OBJ2.INDX.ROLE affected]. 
+oblAff := sign & [GF.OBL.GF.GOV.INDX.ROLE affected]. 
+obAffincrem := sign & [GF.OBJ.INDX.ROLE affincrem]. 
+obIncraff := sign & [GF.OBJ.INDX.ROLE affincrem]. 
+iobAffincrem := sign & [GF.IOBJ.INDX.ROLE affincrem]. 
+ob2Affincrem := sign & [GF.OBJ2.INDX.ROLE affincrem]. 
+oblAffincrem := sign & [GF.OBL.GF.GOV.INDX.ROLE affincrem]. 
+suAg := sign & [GF.SUBJ.INDX.ROLE agent]. 
+suAgEff := sign & [GF.SUBJ.INDX.ROLE agent]. 
+presAg := sign & [GF.PRES.INDX.ROLE agent]. 
+suAgintent := sign & [GF.SUBJ.INDX.ROLE agintent]. 
+suAgmover := sign & [GF.SUBJ.INDX.ROLE agmover]. 
+obAgmover := sign & [GF.OBJ.INDX.ROLE agmover]. 
+presAgmover := sign & [GF.PRES.INDX.ROLE agmover]. 
+suAgsens := sign & [GF.SUBJ.INDX.ROLE agsenser]. 
+obAlongline := sign & [GF.OBJ.INDX.ROLE alongline].  
+advAlongline := sign & [GF.ADV.INDX.ROLE alongline].  
+suAss := sign & [GF.SUBJ.INDX.ROLE assessor]. 
+suBen := sign & [GF.SUBJ.INDX.ROLE beneficiary]. 
+obBen := sign & [GF.OBJ.INDX.ROLE beneficiary]. 
+iobBen := sign & [GF.IOBJ.INDX.ROLE beneficiary]. 
+oblBen := sign & [GF.OBL.GF.GOV.INDX.ROLE beneficiary]. 
+suCog := sign & [GF.SUBJ.INDX.ROLE cognizer]. 
+obCog := sign & [GF.OBJ.INDX.ROLE cognizer]. 
+iobCog := sign & [GF.IOBJ.INDX.ROLE cognizer]. 
+oblCog := sign & [GF.OBL.GF.GOV.INDX.ROLE cognizer]. 
+presCog := sign & [GF.PRES.INDX.ROLE cognizer]. 
+SuCom := sign & [GF.SUBJ.INDX.ROLE comitative]. 
+obCom := sign & [GF.OBJ.INDX.ROLE comitative]. 
+oblCom := sign & [GF.OBL.GF.GOV.INDX.ROLE comitative]. 
+suCont := sign & [GF.SUBJ.INDX.ROLE content]. 
+obCont := sign & [GF.OBJ.INDX.ROLE content]. 
+obContent := sign & [GF.OBJ.INDX.ROLE content]. 
+ob2Cont := sign & [GF.OBJ2.INDX.ROLE content]. 
+ob2Content := sign & [GF.OBJ2.INDX.ROLE content]. 
+scCsd := sign & [GF.SCPR.INDX.ROLE caused]. 
+obCsee := sign & [GF.OBJ.INDX.ROLE causee]. 
+ob2Csee := sign & [GF.OBJ2.INDX.ROLE causee]. 
+iobCsee := sign & [GF.IOBJ.INDX.ROLE causee]. 
+oblCsee := sign & [GF.OBL.GF.GOV.INDX.ROLE causee]. 
+suCsr := sign & [GF.SUBJ.INDX.ROLE causer]. 
+oblCsr := sign & [GF.OBL.GF.GOV.INDX.ROLE causer]. 
+presDir := sign & [GF.PRES.INDX.ROLE orientedobj]. 
+obDistunit := sign & [GF.OBJ.INDX.ROLE distunit]. 
+ob2Distunit := sign & [GF.OBJ2.INDX.ROLE distunit]. 
+suEjct := sign & [GF.SUBJ.INDX.ROLE ejcted]. 
+obEjct := sign & [GF.OBJ.INDX.ROLE ejcted]. 
+ob2Ejct := sign & [GF.OBJ2.INDX.ROLE ejcted]. 
+suEffector := sign & [GF.SUBJ.INDX.ROLE effector]. 
+suEff := sign & [GF.SUBJ.INDX.ROLE effector]. 
+oblEffector := sign & [GF.OBL.GF.GOV.INDX.ROLE effector]. 
+obEndpnt := sign & [GF.OBJ.INDX.ROLE endpnt]. 
+advEndpt := sign & [GF.ADV.GF.GOV.INDX.ROLE endpnt]. 
+oblEndpnt := sign & [GF.OBL.GF.GOV.INDX.ROLE endpnt]. 
+ob2Endpnt := sign & [GF.OBJ2.INDX.ROLE endpnt]. 
+obEndpt := sign & [GF.OBJ.INDX.ROLE endpnt]. 
+oblEndpt := sign & [GF.OBL.GF.GOV.INDX.ROLE endpnt]. 
+ob2Endpt := sign & [GF.OBJ2.INDX.ROLE endpnt]. 
+obEndst := sign & [GF.OBJ.INDX.ROLE endstate]. 
+obEndstate := sign & [GF.OBJ.INDX.ROLE endstate]. 
+obEventunit := sign & [GF.OBJ.INDX.ROLE eventunit]. 
+ob2Eventunit := sign & [GF.OBJ2.INDX.ROLE eventunit]. 
+suExp := sign & [GF.SUBJ.INDX.ROLE experiencer]. 
+suExper := sign & [GF.SUBJ.INDX.ROLE experiencer]. 
+obExp := sign & [GF.OBJ.INDX.ROLE experiencer]. 
+iobExp := sign & [GF.IOBJ.INDX.ROLE experiencer]. 
+ob2Exp := sign & [GF.OBJ2.INDX.ROLE experiencer]. 
+oblExp := sign & [GF.OBL.GF.GOV.INDX.ROLE experiencer]. 
+suIdfd := sign & [GF.SUBJ.INDX.ROLE idfd]. 
+identIdfng := sign & [GF.IDNT.INDX.ROLE idfng]. 
+suInstr := sign & [GF.SUBJ.INDX.ROLE instr]. 
+obInstr := sign & [GF.OBJ.INDX.ROLE instr]. 
+ob2Instr := sign & [GF.OBJ2.INDX.ROLE instr]. 
+oblInstr := sign & [GF.OBL.GF.GOV.INDX.ROLE instr]. 
+advInstr := sign & [GF.ADV.GF.GOV.INDX.ROLE instr]. 
+obIntrlctr := sign & [GF.OBJ.INDX.ROLE interloc]. 
+;should be elim - Intrloc is used elsewhere:
+obIntrloc := sign & [GF.OBJ.INDX.ROLE interloc]. 
+iobIntrlctr := sign & [GF.IOBJ.INDX.ROLE interloc]. 
+ob2Intrlctr := sign & [GF.OBJ2.INDX.ROLE interloc]. 
+oblIntrlctr := sign & [GF.OBL.GF.GOV.INDX.ROLE interloc]. 
+;should be elim- Intrloc is used elsewhere:
+oblIntrloc := sign & [GF.OBL.GF.GOV.INDX.ROLE interloc]. 
+obLengthunit := sign & [GF.OBJ.INDX.ROLE lengthunit]. 
+suLoc := sign & [GF.SUBJ.INDX.ROLE loc]. 
+obLoc := sign & [GF.OBJ.INDX.ROLE loc]. 
+oblLoc := sign & [GF.OBL.GF.GOV.INDX.ROLE loc]. 
+advLoc := sign & [GF.ADV.GF.GOV.INDX.ROLE loc]. 
+ob2Loc := sign & [GF.OBJ2.INDX.ROLE locus]. 
+obThloc := sign & [GF.OBJ.INDX.ROLE theme-locative]. 
+ob2Thloc := sign & [GF.OBJ2.INDX.ROLE theme-locative]. 
+oblThloc := sign & [GF.OBL.GF.GOV.INDX.ROLE theme-locative]. 
+suLocus := sign & [GF.SUBJ.INDX.ROLE locus]. 
+obLocus := sign & [GF.OBJ.INDX.ROLE locus]. 
+ob2Locus := sign & [GF.OBJ2.INDX.ROLE locus]. 
+vidObLocus := sign & [GF.OBL.GF.GOV.INDX.ROLE locus]. 
+vidObLoc := sign & [GF.OBL.GF.GOV.INDX.ROLE locus]. 
+oblLocus := sign & [GF.OBL.GF.GOV.INDX.ROLE locus]. 
+obLocsit := sign & [GF.OBJ.INDX.ROLE locsit]. 
+suLocomoevent := sign & [GF.SUBJ.INDX.ROLE locomoevent]. 
+obLocomoevent := sign & [GF.OBJ.INDX.ROLE locomoevent]. 
+suMal := sign & [GF.SUBJ.INDX.ROLE malefactive]. 
+obMal := sign & [GF.OBJ.INDX.ROLE malefactive]. 
+iobMal := sign & [GF.IOBJ.INDX.ROLE malefactive]. 
+ob2Mal := sign & [GF.OBJ2.INDX.ROLE malefactive]. 
+oblMal := sign & [GF.OBL.GF.GOV.INDX.ROLE malefactive]. 
+obMeas := sign & [GF.OBJ.INDX.ROLE measure]. 
+suMover := sign & [GF.SUBJ.INDX.ROLE locomotor]. 
+obMover := sign & [GF.OBJ.INDX.ROLE locomotor]. 
+ob2Mover := sign & [GF.OBJ2.INDX.ROLE locomotor]. 
+presMover := sign & [GF.PRES.INDX.ROLE locomotor]. 
+suOrientedline := sign & [GF.SUBJ.INDX.ROLE orientedline]. 
+obOrientedline := sign & [GF.OBJ.INDX.ROLE orientedline]. 
+ob2Orientedline := sign & [GF.OBJ2.INDX.ROLE orientedline]. 
+presOrientedline := sign & [GF.PRES.INDX.ROLE orientedline]. 
+suOrientobj := sign & [GF.SUBJ.INDX.ROLE orientedobj]. 
+obOrientobj := sign & [GF.OBJ.INDX.ROLE orientedobj]. 
+ob2Orientobj := sign & [GF.OBJ2.INDX.ROLE orientedobj]. 
+presOrientobj := sign & [GF.PRES.INDX.ROLE orientedobj]. 
+suPathobj := sign & [GF.SUBJ.INDX.ROLE pathobj]. 
+obPath := sign & [GF.OBJ.INDX.ROLE pathobj]. 
+ob2Path := sign & [GF.OBJ2.INDX.ROLE pathobj]. 
+oblPath := sign & [GF.OBL.GF.GOV.INDX.ROLE pathobj]. 
+advPath := sign & [GF.ADV.GF.GOV.INDX.ROLE pathobj]. 
+obPercpt := sign & [GF.OBJ.INDX.ROLE percept]. 
+obPercsit := sign & [GF.OBJ.INDX.ROLE perceptSit]. 
+suPermissee := sign & [GF.SUBJ.INDX.ROLE permissee]. 
+obPermissee := sign & [GF.OBJ.INDX.ROLE permissee]. 
+ob2Permissee := sign & [GF.OBJ2.INDX.ROLE permissee]. 
+iobPermissee := sign & [GF.IOBJ.INDX.ROLE permissee]. 
+oblPermissee := sign & [GF.OBL.GF.GOV.INDX.ROLE permissee]. 
+suPoss := sign & [GF.SUBJ.INDX.ROLE possessor]. 
+suPossAbst := sign & [GF.SUBJ.INDX.ROLE possessor]. 
+obPoss := sign & [GF.OBJ.INDX.ROLE possessor]. 
+iobPoss := sign & [GF.IOBJ.INDX.ROLE possessor]. 
+ob2Poss := sign & [GF.OBJ2.INDX.ROLE possessor]. 
+oblPoss := sign & [GF.OBL.GF.GOV.INDX.ROLE possessor]. 
+obPossAbst := sign & [GF.OBJ.INDX.ROLE possAbst]. 
+ob2PossAbst := sign & [GF.OBJ2.INDX.ROLE possAbst]. 
+obPossd := sign & [GF.OBJ.INDX.ROLE possessed]. 
+ob2Possd := sign & [GF.OBJ2.INDX.ROLE possessed]. 
+obPrcpt := sign & [GF.OBJ.INDX.ROLE percept]. 
+ob2Prcpt := sign & [GF.OBJ2.INDX.ROLE percept]. 
+suPres := sign & [GF.SUBJ.INDX.ROLE presented]. 
+presPres := sign & [GF.PRES.INDX.ROLE presented]. 
+obPres := sign & [GF.PRES.INDX.ROLE presented]. 
+suPurelyorient := sign & [GF.SUBJ.INDX.ROLE purelyorient].
+obPurelyorient := sign & [GF.OBJ.INDX.ROLE purelyorient].
+obQuality := sign & [GF.OBJ.INDX.ROLE quality]. 
+ob2Quality := sign & [GF.OBJ2.INDX.ROLE quality]. 
+suRec := sign & [GF.SUBJ.INDX.ROLE recipient]. 
+obRec := sign & [GF.OBJ.INDX.ROLE recipient]. 
+iobRec := sign & [GF.IOBJ.INDX.ROLE recipient]. 
+ob2Rec := sign & [GF.OBJ2.INDX.ROLE recipient]. 
+oblRec := sign & [GF.OBL.GF.GOV.INDX.ROLE recipient]. 
+ob2Res := sign & [GF.OBJ2.INDX.ROLE result]. 
+suSens := sign & [GF.SUBJ.INDX.ROLE senser]. 
+obSens := sign & [GF.OBJ.INDX.ROLE senser]. 
+iobSens := sign & [GF.IOBJ.INDX.ROLE senser]. 
+oblSens := sign & [GF.OBL.GF.GOV.INDX.ROLE senser]. 
+suStartpnt := sign & [GF.SUBJ.INDX.ROLE startpnt]. 
+suStartpt := sign & [GF.SUBJ.INDX.ROLE startpnt]. 
+obStartpnt := sign & [GF.OBJ.INDX.ROLE startpnt]. 
+obStartpt := sign & [GF.OBJ.INDX.ROLE startpnt]. 
+ob2Startpnt := sign & [GF.OBJ2.INDX.ROLE startpnt]. 
+ob2Startpt := sign & [GF.OBJ2.INDX.ROLE startpnt]. 
+oblStartpnt := sign & [GF.OBL.GF.GOV.INDX.ROLE startpnt]. 
+vidObStartpt := sign & [GF.OBL.GF.GOV.INDX.ROLE startpnt]. 
+advStartpnt := sign & [GF.ADV.GF.GOV.INDX.ROLE startpnt]. 
+obTrgt := sign & [GF.OBJ.INDX.ROLE target]. 
+suTime := sign & [GF.SUBJ.INDX.ROLE time]. 
+obTime := sign & [GF.OBJ.INDX.ROLE time]. 
+ob2Time := sign & [GF.OBJ2.INDX.ROLE time]. 
+oblTime := sign & [GF.OBL.GF.GOV.INDX.ROLE time]. 
+obTimeunit := sign & [GF.OBJ.INDX.ROLE timeunit]. 
+ob2Timeunit := sign & [GF.OBJ2.INDX.ROLE timeunit]. 
+oblTimeunit := sign & [GF.OBL.GF.GOV.INDX.ROLE timeunit]. 
+advTimeunit := sign & [GF.ADV.GF.GOV.INDX.ROLE timeunit]. 
+suTh := sign & [GF.SUBJ.INDX.ROLE theme].
+obTh := sign & [GF.OBJ.INDX.ROLE theme].
+ob2Th := sign & [GF.OBJ2.INDX.ROLE theme].
+oblTh := sign & [GF.OBL.GF.GOV.INDX.ROLE theme].
+presTh := sign & [GF.PRES.INDX.ROLE theme].
+suThsit := sign & [GF.SUBJ.INDX.ROLE theme-sit].
+obThsit := sign & [GF.OBJ.INDX.ROLE theme-sit].
+ob2Thsit := sign & [GF.OBJ2.INDX.ROLE theme-sit].
+oblThsit := sign & [GF.OBL.GF.GOV.INDX.ROLE theme-sit].
+expnThsit := sign & [GF.EXPN.INDX.ROLE theme-sit].
+compThsit := sign & [GF.COMP.INDX.ROLE theme-sit].
+scThsit := sign & [GF.SCPR.INDX.ROLE theme-sit].
+exlnkThsit := sign & [GF.OBL.GF.GOV.INDX.ROLE theme-sit].
+suThAbst := sign & [GF.SUBJ.INDX.ROLE theme-abstr]. 
+obThAbst := sign & [GF.OBJ.INDX.ROLE theme-abstr]. 
+ob2ThAbst := sign & [GF.OBJ2.INDX.ROLE theme-abstr]. 
+oblThAbst := sign & [GF.OBL.GF.GOV.INDX.ROLE theme-abstr]. 
+suThincrem := sign & [GF.SUBJ.INDX.ROLE thincrem]. 
+obThincrem := sign & [GF.OBJ.INDX.ROLE thincrem]. 
+ob2Thincrem := sign & [GF.OBJ2.INDX.ROLE thincrem]. 
+oblThincrem := sign & [GF.OBL.GF.GOV.INDX.ROLE thincrem]. 
+suThmover := sign & [GF.SUBJ.INDX.ROLE theme-mover]. 
+obThmover := sign & [GF.OBJ.INDX.ROLE theme-mover]. 
+ob2Thmover := sign & [GF.OBJ2.INDX.ROLE theme-mover]. 
+presThmover := sign & [GF.PRES.INDX.ROLE theme-mover]. 
+suThvehcl := sign & [GF.SUBJ.INDX.ROLE thvehcl]. 
+obThvehcl := sign & [GF.OBJ.INDX.ROLE thvehcl]. 
+ob2Thvehcl := sign & [GF.OBJ2.INDX.ROLE thvehcl]. 
+oblThvehcl := sign & [GF.OBL.GF.GOV.INDX.ROLE thvehcl]. 
+presThvehcl := sign & [GF.PRES.INDX.ROLE thvehcl]. 
+suVehcl := sign & [GF.SUBJ.INDX.ROLE thvehcl]. 
+obVehcl := sign & [GF.OBJ.INDX.ROLE thvehcl]. 
+ob2Vehcl := sign & [GF.OBJ2.INDX.ROLE thvehcl]. 
+oblVehcl := sign & [GF.OBL.GF.GOV.INDX.ROLE thvehcl]. 
+presVehcl := sign & [GF.PRES.INDX.ROLE thvehcl]. 
+suTopic := sign & [GF.SUBJ.INDX.ROLE topic]. 
+obTopic := sign & [GF.OBJ.INDX.ROLE topic]. 
+obTop := sign & [GF.OBJ.INDX.ROLE topic]. 
+ob2Topic := sign & [GF.OBJ2.INDX.ROLE topic]. 
+oblTopic := sign & [GF.OBL.GF.GOV.INDX.ROLE topic]. 
+iobTrgt := sign & [GF.IOBJ.INDX.ROLE target]. 
+ob2Trgt := sign & [GF.OBJ2.INDX.ROLE target]. 
+oblTrgt := sign & [GF.OBL.GF.GOV.INDX.ROLE target]. 
+advTrgt := sign & [GF.ADV.GF.GOV.INDX.ROLE target]. 
+vidObTrgt := sign & [GF.OBL.GF.GOV.INDX.ROLE target]. 
+obViapnt := sign & [GF.OBJ.INDX.ROLE viapnt]. 
+ob2Viapnt := sign & [GF.OBJ2.INDX.ROLE viapnt]. 
+oblViapnt := sign & [GF.OBL.GF.GOV.INDX.ROLE viapnt]. 
+advViapnt := sign & [GF.ADV.GF.GOV.INDX.ROLE viapnt]. 
+vidObViapnt := sign & [GF.OBL.GF.GOV.INDX.ROLE viapnt]. 
+suWeightunit := sign & [GF.SUBJ.INDX.ROLE weightunit].
+obWeightunit := sign & [GF.OBJ.INDX.ROLE weightunit].
+ob2Weightunit := sign & [GF.OBJ2.INDX.ROLE weightunit].
+
+
+;;; slot 5 and 6
+
+transfer_sit := situationtype.
+cover_sit := situationtype.
+departure_sit := situationtype.
+eject_sit := situationtype.
+contactejection_sit := eject_sit.
+motion_sit := situationtype.
+activity_sit := situationtype.
+phenom_sit := situationtype.
+phenom_telic_sit := situationtype.
+telic_sit := situationtype.
+endpntmotion_sit := situationtype.
+posture_loc_sit := situationtype.
+pendingstate_sit := situationtype.
+sustainedactivity_sit := situationtype.
+completedactivity_sit := situationtype.
+sens_sit := situationtype.
+percpt_sit := situationtype.
+process_sit := situationtype.
+exper_sit := situationtype.
+identity_sit := situationtype.
+assess_sit := situationtype.
+aboutness_sit := situationtype.
+propositionalattitude_sit := situationtype.
+represent_sit := situationtype.
+communication_sit := situationtype.
+event_sit := situationtype.
+cutting_sit := situationtype.
+directed_sit := situationtype.
+removal_sit := situationtype.
+ability_sit := situationtype.
+need_sit := situationtype.
+intent_sit := situationtype.
+permission_sit := situationtype.
+continuation_sit := situationtype.
+maintainposition_sit := situationtype.
+caretaking_sit := situationtype.
+asking_sit := situationtype.
+collect_sit := situationtype.
+washing_sit := situationtype.
+stopping_sit := situationtype.
+success_sit := situationtype.
+reduction_sit := situationtype.
+display_sit := situationtype.
+imprecation_sit := situationtype.
+acquisition_sit := situationtype.
+placement_sit := situationtype.
+location_sit := situationtype.
+noncompleted_sit := situationtype.
+monodevmnt_sit := situationtype.
+noncompleted_monodevmnt_sit := situationtype.
+noncompleted_monodevmnt_medium_sit := situationtype.
+noncompleted-inst_sit := situationtype.
+inst_sit := situationtype.
+dyn_sit := situationtype.
+dofrequently_sit := situationtype.
+opinion_sit := situationtype.
+exhibact_sit := situationtype.
+exhibitobj_sit := situationtype.
+finish_sit := situationtype.
+progr_sit := situationtype.
+propty_sit := situationtype.
+propty_dyn_sit := propty_sit.
+quality_sit := situationtype.
+zerocause_result_sit := situationtype.
+concurrstate_sit := situationtype.
+exhibpropty_sit := situationtype.
+performfunction_sit := situationtype.
+cause_result_sit := situationtype.
+causation_with_causingentity_sit := situationtype.
+causation_with_causingevent_sit := situationtype.
+episodic_propty_sit := situationtype.
+episodic_sit := situationtype.
+epistmodal_sit := situationtype.
+emotion_sit := situationtype.
+psychstate_sit := situationtype.
+causemotion_sit := situationtype.
+affecting_sit := situationtype.
+partwhole-affecting_sit := situationtype.
+partwhole-experiencing_sit := situationtype.
+completed_monodevmnt_sit := situationtype.
+causeemotion_sit := situationtype.
+comparison_sit := situationtype.
+targeted_emotion_sit := emotion_sit.
+possess_sit := situationtype.
+malefaction_sit := situationtype.
+viapntmotion_sit := situationtype.
+alonglinemotion_sit := situationtype.
+endpntextension_sit := situationtype.
+viapntextension_sit := situationtype.
+alonglineextension_sit := situationtype.
+orienting_sit := situationtype.
+locomoconduction_sit := situationtype.
+locomodevelopment_sit := situationtype.
+accompanying_sit := situationtype.
+crossmotionpaths_sit := situationtype.
+crossingpaths_sit := situationtype.
+parallelpaths_sit := situationtype.
+pathconstellation_sit := situationtype.
+linesituating_sit := situationtype.
+weighing_sit := situationtype.
+lasting_sit := situationtype.
+extending_sit := situationtype.
+usingpath_sit := situationtype.
+usingvehicle_sit := situationtype.
+cogn_sit := situationtype.
+dependence_sit := situationtype.
+act_sit := situationtype.
+help_sit := situationtype.
+assumelocation_sit := situationtype.
+rootmodal_sit := situationtype.
+achvmnt_sit := situationtype.
+locutact_sit := situationtype.
+commitment_sit := situationtype.
+performance_sit := situationtype.
+perform_sit := situationtype.
+availing_sit := situationtype.
+sustainedstate_sit := situationtype.
+semelfactive_sit := situationtype.
+rendering_in_position_sit := situationtype.
+activation_sit := situationtype.
+inchoation_sit := situationtype.
+representing_sit := situationtype.
+pureorientation_sit := situationtype.
+changeofstate_sit := situationtype.
+changestatus_sit := situationtype.
+statelocation_sit := situationtype.
+consciousness_sit := situationtype.
+
+; SLOT 5
+
+ACCOMPANYING := sign &
+ [ SIT-TYPE accompanying_sit ].
+TRANSFER := sign &
+ [ SIT-TYPE transfer_sit ].
+CONSCIOUSNESS := sign &
+ [ SIT-TYPE consciousness_sit ].
+EJECT := sign &
+ [ ASPECT aspect,
+   SIT-TYPE eject_sit ].
+EJECTION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE eject_sit ].
+CONTACTEJECTION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE contactejection_sit ].
+DEPARTURE := sign &
+ [ ASPECT aspect,
+   SIT-TYPE departure_sit ].
+MOTION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE motion_sit ].
+ACTIVITY := sign &
+ [ ASPECT activity-asp ].
+ACTIVATING := sign &
+ [ ASPECT semelfctive,
+   SIT-TYPE activation_sit ].
+INCHOATION := sign &
+ [ ASPECT semelfctive,
+   SIT-TYPE inchoation_sit ].
+DOFREQUENTLY := sign &
+ [ SIT-TYPE dofrequently_sit ].
+PUREORIENTATION := sign &
+ [ SIT-TYPE pureorientation_sit ].
+PHENOM := sign &
+ [ SIT-TYPE phenom_sit ].
+PHENOM_TELIC  := sign &
+ [ ASPECT telic-asp,
+   SIT-TYPE phenom_sit ].
+TELIC := sign &
+ [ ASPECT telic-asp,
+   SIT-TYPE phenom_sit ].
+POSTURE := sign &
+ [ SIT-TYPE posture_loc_sit ].
+PENDINGSTATE := sign &
+ [ SIT-TYPE pendingstate_sit ].
+SUSTAINEDACTIVITY := sign &
+ [ ASPECT aspect,
+   SIT-TYPE sustainedactivity_sit ].
+COMPLETEDACTIVITY := sign &
+ [ ASPECT aspect,
+   SIT-TYPE completedactivity_sit ].
+COMPLETED := sign &
+ [ ASPECT completion ].
+SENSING := sign &
+ [ SIT-TYPE sens_sit ].
+SENSING_PROTR := sign &
+ [ ASPECT aspect,
+   SIT-TYPE sens_sit ].
+PROTR := sign &
+ [ ASPECT protrct ].
+PROCESS := sign &
+ [ ASPECT aspect,
+   SIT-TYPE process_sit ].
+EXPERIENCING := sign &
+ [ SIT-TYPE exper_sit ].
+EXPERIENCE := sign &
+ [ SIT-TYPE exper_sit ].
+EXPER := sign &
+ [ SIT-TYPE exper_sit ].
+PERCPT := sign &
+ [ SIT-TYPE percpt_sit ].
+PERCEPTION := sign &
+ [ SIT-TYPE percpt_sit ].
+EXPERIENCING_PROTR := sign &
+ [ ASPECT aspect,
+   SIT-TYPE exper_sit ].
+IDENTITY := sign &
+ [ SIT-TYPE identity_sit ].
+ASSESSMENT := sign &
+ [ SIT-TYPE assess_sit ].
+ABOUTNESS := sign &
+ [ SIT-TYPE aboutness_sit ].
+ABOUT := sign &
+ [ SIT-TYPE aboutness_sit ].
+PROPOSITIONALATTITUDE := sign &
+ [ SIT-TYPE propositionalattitude_sit ].
+PROPOSITIONALATTITUDE_ACTIVITY := PROPOSITIONALATTITUDE &
+ [ ASPRCT activity-asp].
+REPRESENT := sign &
+ [ SIT-TYPE represent_sit ].
+COMMUNICATION := sign &
+ [ SIT-TYPE communication_sit ].
+PLACEMENT := sign &
+ [ SIT-TYPE placement_sit ].
+LOCATION := sign &
+ [ SIT-TYPE location_sit ].
+NONCOMPLETED_MONODEVMNT := sign &
+ [ SIT-TYPE noncompleted_monodevmnt_sit ].
+NONCOMPLETED := sign &
+ [ ASPECT noncompl ].
+MONODEVMNT := sign &
+ [ ASPECT monodvmnt ].
+;NONCOMPLETED_MONODEVMNT_MEDIUM := sign &
+; [ SIT-TYPE noncompleted_monodevmnt_medium_sit ].
+NONCOMPLETED_INST := sign &
+ [ SIT-TYPE noncompleted-inst_sit ].
+INST := sign &
+ [ SIT-TYPE inst_sit ].
+OPINION := sign &
+ [ SIT-TYPE opinion_sit ].
+EXHIBACT := sign &
+ [ SIT-TYPE exhibact_sit ].
+EXHIBITOBJ := sign &
+ [ SIT-TYPE exhibitobj_sit ].
+FINISH := sign &
+ [ SIT-TYPE finish_sit ].
+PROPTY := sign &
+ [ SIT-TYPE propty_sit ].
+CHANGEofSTATE := sign &
+ [ SIT-TYPE changeofstate_sit,
+   ASPECT dynamic].
+CHANGESTATUS := sign &
+ [ SIT-TYPE changestatus_sit,
+   ASPECT dynamic].
+STATE := sign &
+ [ ASPECT stative].
+DYN := sign &
+ [ ASPECT dynamic].
+DEPENDENCE := sign &
+ [ SIT-TYPE dependence_sit].
+DEPEND := sign &
+ [ SIT-TYPE dependence_sit].
+PROPTYPROPTY_DYN_ESTBLSHD := sign &
+ [ SIT-TYPE propty_dyn_sit,
+   ASPECT aspect].
+ESTBLSHD := sign &
+ [ SIT-TYPE propty_sit,
+   ASPECT completion].
+ESTABD := sign &
+ [ SIT-TYPE propty_sit,
+   ASPECT completion].
+PROPTY_DYN_ACQUIRD := sign &
+ [ SIT-TYPE propty_dyn_sit,
+   ASPECT aspect].
+ACQUIRD := sign &
+ [ SIT-TYPE propty_sit,
+   ASPECT completion].
+PROPTY_DYN_PROGR := sign &
+ [ SIT-TYPE propty_dyn_sit,
+   ASPECT aspect].
+COVER  := sign &
+ [ SIT-TYPE cover_sit ].
+PROGR := sign &
+ [ ASPECT progressive].
+PROPTY_GEN := sign &
+ [ SIT-TYPE propty_dyn_sit,
+   ASPECT aspect].
+GEN := sign &
+ [ ASPECT generic].
+;ZEROCAUSE_RESULT := sign &
+; [ SIT-TYPE zerocause_result_sit ].
+CONCURRSTATE := sign &
+ [ SIT-TYPE concurrstate_sit ].
+EXHIBPROPTY := sign &
+ [ SIT-TYPE exhibpropty_sit ].
+PERFORMFUNCTION := sign &
+ [ SIT-TYPE performfunction_sit ].
+CAUSERESULT := sign &
+ [ SIT-TYPE cause_result_sit ].
+CAUSATIONwithCAUSINGENTITY := sign &
+ [ SIT-TYPE causation_with_causingentity_sit ].
+CAUSATIONwithCAUSINGEVENT := sign &
+ [ SIT-TYPE causation_with_causingevent_sit ].
+EPISODIC_PROPTY := sign.
+EPISODIC := sign.
+EPISTMODAL := sign &
+ [ SIT-TYPE epistmodal_sit].
+CAUSEMOTION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE causemotion_sit ].
+AFFECT := sign &
+ [ SIT-TYPE affecting_sit ].
+AFFECTING := sign &
+ [ SIT-TYPE affecting_sit ].
+PARTWHOLEAFFECTING := sign &
+ [ SIT-TYPE partwhole-affecting_sit ].
+PARTWHOLEEXPERIENCING := sign &
+ [ SIT-TYPE partwhole-experiencing_sit ].
+COMPLETED_MONODEVMNT := sign &
+ [ SIT-TYPE completed_monodevmnt_sit ].
+COMPARISON := sign &
+ [ SIT-TYPE comparison_sit ].
+COMPARATIVE := sign &
+ [ SIT-TYPE comparison_sit ].
+EQUATIVE := sign &
+ [ SIT-TYPE comparison_sit ].
+EMOTIONDIRECTED := sign &
+ [ SIT-TYPE emotion_sit ].
+EMOTION := sign &
+ [ SIT-TYPE emotion_sit ].
+CAUSEEMOTION := sign &
+ [ SIT-TYPE causeemotion_sit ].
+TARGETED_EMOTION := sign &
+ [ SIT-TYPE targeted_emotion_sit ].
+PSYCHSTATE := sign &
+ [ SIT-TYPE psychstate_sit ].
+POSSESS := sign &
+ [ SIT-TYPE possess_sit ].
+POSSESSION := sign &
+ [ SIT-TYPE possess_sit ].
+MALEFACTION := sign &
+ [ SIT-TYPE malefaction_sit ].
+ENDPNTMOTION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE endpntmotion_sit ].
+VIAPNTMOTION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE viapntmotion_sit ].
+ALONGLINEMOTION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE alonglinemotion_sit ].
+ENDPNTEXTENSION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE endpntextension_sit ].
+VIAPNTEXTENSION :=sign &
+ [ ASPECT aspect,
+   SIT-TYPE viapntextension_sit ].
+ALONGLINEEXTENSION :=sign &
+ [ ASPECT aspect,
+   SIT-TYPE alonglineextension_sit ].
+LINESITUATING := sign &
+ [ ASPECT aspect,
+   SIT-TYPE linesituating_sit ].
+LOCOMOCONDUCTION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE locomoconduction_sit ].
+LOCOMODEVELOPMENT := sign &
+ [ ASPECT aspect,
+   SIT-TYPE locomodevelopment_sit ].
+ORIENTING := sign &
+ [ ASPECT aspect,
+   SIT-TYPE orienting_sit ].
+REPRESENTING := sign &
+ [ ASPECT aspect,
+   SIT-TYPE representing_sit ].
+CROSSINGMOTIONPATHS := sign &
+ [ ASPECT aspect,
+   SIT-TYPE crossmotionpaths_sit ].
+CROSSINGPATHS := sign &
+ [ ASPECT aspect,
+   SIT-TYPE crossingpaths_sit ].
+PARALLELPATHS := sign &
+ [ ASPECT aspect,
+   SIT-TYPE parallelpaths_sit ].
+PATHCONSTELLATION := sign &
+ [ ASPECT aspect,
+   SIT-TYPE pathconstellation_sit ].
+
+WEIGHING := sign &
+ [ SIT-TYPE weighing_sit ].
+LASTING := sign &
+ [ SIT-TYPE lasting_sit ].
+EXTENDING := sign &
+ [ SIT-TYPE extending_sit ].
+USINGPATH := sign &
+ [ SIT-TYPE usingpath_sit ].
+USINGVEHICLE := sign &
+ [ SIT-TYPE usingvehicle_sit ].
+COGN := sign &
+ [ SIT-TYPE cogn_sit ].
+COGNITION := sign &
+ [ SIT-TYPE cogn_sit ].
+ACT := sign &
+ [ SIT-TYPE act_sit ].
+HELP := sign &
+ [ SIT-TYPE help_sit ].
+ROOTMODAL := sign &
+ [ SIT-TYPE rootmodal_sit ].
+ACHVMNT := sign &
+ [ SIT-TYPE achvmnt_sit ].
+LOCUTACT := sign &
+ [ SIT-TYPE locutact_sit ].
+COMMITMENT := sign &
+ [ SIT-TYPE commitment_sit ].
+PERFORMANCE := sign &
+ [ SIT-TYPE performance_sit ].
+PERFORM := sign &
+ [ SIT-TYPE perform_sit ].
+AVAILING := sign &
+ [ SIT-TYPE availing_sit ].
+SUSTAINEDSTATE := sign &
+ [ SIT-TYPE sustainedstate_sit ].
+SEMELFACTIVE := sign &
+ [ ASPECT semelfctive,
+   SIT-TYPE semelfactive_sit ].
+RENDERINGinPOSITION := sign &
+ [ ASPECT semelfctive,
+   SIT-TYPE rendering_in_position_sit ].
+STATELOCATION := sign &
+ [ SIT-TYPE statelocation_sit ].
+CUTTING := sign &
+ [ SIT-TYPE cutting_sit ].
+DIRECTED := sign.
+DIR := sign.
+REMOVAL := sign &
+ [ SIT-TYPE removal_sit ].
+ABILITY := sign &
+ [ SIT-TYPE ability_sit ].
+ASCR := sign.
+ASSUMELOCATION := sign &
+ [ SIT-TYPE assumelocation_sit ].
+NEED := sign &
+ [ SIT-TYPE need_sit ].
+INTENT := sign &
+ [ SIT-TYPE intent_sit ].
+PERMISSION := sign &
+ [ SIT-TYPE permission_sit ].
+CONTINUATION := sign &
+ [ SIT-TYPE continuation_sit ].
+MAINTAINPOSITION := sign &
+ [ SIT-TYPE maintainposition_sit].
+CARETAKING := sign &
+ [ SIT-TYPE caretaking_sit ].
+ASKINGABOUT := sign &
+ [ SIT-TYPE asking_sit ].
+ASKING := sign &
+ [ SIT-TYPE asking_sit ].
+COLLECT := sign &
+ [ SIT-TYPE collect_sit ].
+WASHING := sign &
+ [ SIT-TYPE washing_sit ].
+STOPPING := sign &
+ [ SIT-TYPE stopping_sit].
+SUCCESS := sign &
+ [ SIT-TYPE success_sit ].
+REDUCTION := sign &
+ [ SIT-TYPE reduction_sit ].
+DISPLAY := sign &
+ [ SIT-TYPE display_sit ].
+IMPRECATION := sign &
+ [ SIT-TYPE imprecation_sit ].
+ACQUISITION := sign &
+ [ SIT-TYPE acquisition_sit ].
+
+
+;;; Serial verbs
+
+sv := feat-struc &
+ [ V1 v-sign,
+   V2 v-sign ].
+sv3 := sv &
+ [ V3 v-sign ].
+sv4 := sv3 &
+ [ V4 v-sign ].
+svSuID := sv &
+ [ V1.GF.SUBJ #1,
+   V2.GF.SUBJ #1 ].
+sv3suID := sv3 & svSuID &
+ [ V2.GF.SUBJ #1,
+   V3.GF.SUBJ #1 ].
+sv4suID := sv4 & sv3suID &
+ [ V3.GF.SUBJ #1,
+   V4.GF.SUBJ #1 ].
+svObID := sv &
+ [ V1.GF.OBJ #1,
+   V2.GF.OBJ #1 ].
+sv3obID := sv3 & svObID &
+ [ V2.GF.OBJ #1,
+   V3.GF.OBJ #1 ].
+sv4obID := sv4 & sv3obID &
+ [ V3.GF.OBJ #1,
+   V4.GF.OBJ #1 ].
+svAspID := sv &
+ [ V1.ASPECT #1,
+   V2.ASPECT #1 ].
+sv3aspID := sv3 & svAspID &
+ [ V2.ASPECT #1,
+   V3.ASPECT #1 ].
+sv4aspID := sv4 & sv3aspID &
+ [ V3.ASPECT #1,
+   V4.ASPECT #1 ].
+svsuObID := svSuID & svObID.
+sv3suObID := sv3suID & sv3obID.
+sv4suObID := sv4suID & sv4obID.
+;sv_suAspID := svSuID & svAspID.
+svSuAspID := svSuID & svAspID.
+sv3_suAspID := sv3suID & sv3aspID.
+sv4_suAspID := sv4suID & sv4aspID.
+svSuObAspID := svSuObID & svAspID.
+sv3suObAspID := sv3suObID & sv3aspID.
+sv4suObAspID := sv4suObID & sv4aspID.
+
+v1intr := sv &
+ [ V1 v-intr-sign ].
+v2intr := sv &
+ [ V2 v-intr-sign ].
+v3intr := sv3 &
+ [ V3 v-intr-sign ].
+v4intr := sv4 &
+ [ V4 v-intr-sign ].
+v1tr := sv &
+ [ V1 v-tr-sign ].
+v2tr := sv &
+ [ V2 v-tr-sign ].
+v3tr := sv3 &
+ [ V3 v-tr-sign ].
+v4tr := sv4 &
+ [ V4 v-tr-sign ].
+v1ditr := sv &
+ [ V1 v-ditr-sign ].
+v2ditr := sv &
+ [ V2 v-ditr-sign ].
+v3ditr := sv3 &
+ [ V3 v-ditr-sign ].
+v4ditr := sv4 &
+ [ V4 v-ditr-sign ].
+v1dbob := sv &
+ [ V1 v-dbob-sign ].
+v2dbob := sv &
+ [ V2 v-dbob-sign ].
+v3dbob := sv3 &
+ [ V3 v-dbob-sign ].
+v4dbob := sv4 &
+ [ V4 v-dbob-sign ].
+
+v1obTh := sv & [ V1.GF.OBJ.INDX.ROLE theme ].
+v1obEndpt := sv & [ V1.GF.OBJ.INDX.ROLE endpnt ].
+v2suClit := sv & [ V2.GF.SUBJ.HEAD.REAL clitic ].
+v2obBen := sv & [ V2.GF.OBJ.INDX.ROLE beneficiary ].
+v2iobBen := sv & [ V2.GF.IOBJ.INDX.ROLE beneficiary ].
+v2obEndpnt := sv & [ V2.GF.OBJ.INDX.ROLE endpnt ].
+v2obEndpt := sv & [ V2.GF.OBJ.INDX.ROLE endpnt ].
+v2obPro := sv & [ V2.GF.OBJ.HEAD.REAL nul ].
+v2obThmover := sv & [ V2.GF.OBJ.INDX.ROLE theme-mover ].
+v1obThmover := sv & [ V1.GF.OBJ.INDX.ROLE theme-mover ].
+v2ob2Endpt := sv & [ V2.GF.OBJ2.INDX.ROLE endpnt ].
+v1obContent := sv & [ V1.GF.OBJ.INDX.ROLE content ].
+v2obTh := sv & [ V2.GF.OBJ.INDX.ROLE theme ].
+v2obRec := sv & [ V2.GF.OBJ.INDX.ROLE recipient ].
+v2iobRec := sv & [ V2.GF.IOBJ.INDX.ROLE recipient ].
+v1obLocus := sv & [ V1.GF.OBJ.INDX.ROLE locus ].
+v1obPostp := sv & [ V1.GF.OBJ.ACTNTS.PRED spatial-coord_rel].
+v1obSpecIDv2ob := sv & [ V1.GF.OBJ.GF.SPEC.INDX #1,
+			V2.GF.OBJ.INDX #1].
+v1obThAbst := sv & [ V1.GF.OBJ.INDX.ROLE theme-abstr ].
+v1suIDobSpec := sv & [ V1.GF.SUBJ.INDX #1,
+			V2.GF.OBJ.GF.SPEC.INDX #1].
+v2obTrgt := sv & [ V2.GF.OBJ.INDX.ROLE target ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Extended verb complexes (EVC, EV, ev)
+; the EVC itself, classified according to how many preverbs it has (3 is max)
+ev := v-sign &
+ [ PV1 v-sign & [GF.SUBJ #1],
+   GF.SUBJ #1 ].
+ev2 := ev &
+ [ PV2 v-sign & [GF.SUBJ #1],
+   GF.SUBJ #1 ].
+ev3 := ev2 &
+ [ PV3 v-sign & [GF.SUBJ #1],
+   GF.SUBJ #1 ].
+pv1tr := ev & [ PV1 v-tr-sign ].
+pv1obEventunit := pv1tr & [PV1.GF.OBJ.INDX.ROLE eventunit].
+pv1obNul := pv1tr & [PV1.GF.OBJ.HEAD.REAL nul ].
+pv1obPro := pv1tr & [PV1.GF.OBJ.HEAD.REAL nul ].
+pv1obNomvL := pv1tr & [PV1.GF.OBJ.HEAD nomverb ].
+pv1obPossp := pv1tr & [PV1.GF.OBJ poss-lex].
+pv1obPostp := pv1tr & [PV1.GF.OBJ poss-lex &
+			[ ACTNTS.PRED spatial-coord_rel]].
+pv1obBPspec := pv1tr & [PV1.GF.OBJ poss-lex &
+			[ ACTNTS.PRED bodypart_rel]].
+pv1suIDpv1obSpec := pv1tr & [PV1.GF.SUBJ.INDX #1,
+				PV1.GF.OBJ.GF.SPEC.INDX #1].
+pv1obTh := pv1tr & [PV1.GF.OBJ.INDX.ROLE theme].
+pv1obInstr := pv1tr & [PV1.GF.OBJ.INDX.ROLE instr].
+pv1obInstrsit := pv1tr & [PV1.GF.OBJ.INDX.ROLE instrsit].
+pv1obThsit := pv1tr & [PV1.GF.OBJ.INDX.ROLE theme-sit].
+
+vintr := ev & v-intr-sign.
+vtr := ev & v-tr-sign.
+vditr := ev & v-ditr-sign.
+
+; for cases where a verb in a series is an EVC
+v1ev := sv &
+ [ V1 ev ].
+v2ev := sv &
+ [ V2 ev ].
+v3ev := sv3 &
+ [ V3 ev ].
+v4ev := sv4 &
+ [ V4 ev ].
+
+; for each preverb inside serial verb nr. 1, whether it is intr or tr
+v1pv1intr := v1ev &
+ [ V1.PV1 v-intr-sign ].
+v1pv1tr := v1ev &
+ [ V1.PV1 v-tr-sign ].
+v1pv2intr := v1ev &
+ [ V1.PV2 v-intr-sign ].
+v1pv2tr := v1ev &
+ [ V1.PV2 v-tr-sign ].
+v1pv3intr := v1ev &
+ [ V1.PV3 v-intr-sign ].
+v1pv3tr := v1ev &
+ [ V1.PV3 v-tr-sign ].
+
+; for each preverb inside serial verb nr. 2, whether it is intr or tr
+v2pv1intr := v2ev &
+ [ V2.PV1 v-intr-sign ].
+v2pv1tr := v2ev &
+ [ V2.PV1 v-tr-sign ].
+v2pv2intr := v2ev &
+ [ V2.PV2 v-intr-sign ].
+v2pv2tr := v2ev &
+ [ V2.PV2 v-tr-sign ].
+v2pv3intr := v2ev &
+ [ V2.PV3 v-intr-sign ].
+v2pv3tr := v2ev &
+ [ V2.PV3 v-tr-sign ].
+
+; for each preverb inside serial verb nr. 3, whether it is intr or tr
+v3pv1intr := v3ev &
+ [ V3.PV1 v-intr-sign ].
+v3pv1tr := v3ev &
+ [ V3.PV1 v-tr-sign ].
+v3pv2intr := v3ev &
+ [ V3.PV2 v-intr-sign ].
+v3pv2tr := v3ev &
+ [ V3.PV2 v-tr-sign ].
+v3pv3intr := v3ev &
+ [ V3.PV3 v-intr-sign ].
+v3pv3tr := v3ev &
+ [ V3.PV3 v-tr-sign ].
+; there could be more Vs in a series, and so need for specifying in the same style for V4, V5 etc.
+
+v1pv1suAg := v1ev &
+ [ V1.PV1.GF.SUBJ.INDX.ROLE agent ].
+v2pv1obPro := v2ev &
+ [ V2.PV1.GF.OBJ.HEAD.REAL nul ].
+v2pv1obThsit := v2ev &
+ [ V2.PV1.GF.OBJ.INDX.ROLE theme-sit ].
+
+
+
+
+; now defining for the main verb inside an EVC what valence it has, and thus the whole EVC as such relative to its environment
+ev_intr := ev & v-intr-sign.
+ev2_intr := ev_intr & ev2.
+ev3_intr := ev2_intr & ev3.
+ev_tr := ev & v-tr-sign.
+ev2_tr := ev_tr & ev2.
+ev3_tr := ev2_tr & ev3.
+ev_ditr := ev & v-ditr-sign.
+ev2_ditr := ev_ditr & ev2.
+ev3_ditr := ev2_ditr & ev3.
+; applying the above to v1 in a series
+v1_ev_intr := v1intr &
+ [ V1 ev_intr ].
+v1_ev2_intr := v1intr &
+ [ V1 ev2_intr ].
+v1_ev3_intr := v1intr &
+ [ V1 ev3_intr ].
+v1_ev_tr := v1tr &
+ [ V1 ev_tr ].
+v1_ev2_tr := v1tr &
+ [ V1 ev2_tr ].
+v1_ev3_tr := v1tr &
+ [ V1 ev3_tr ].
+v1_ev_ditr := v1ditr &
+ [ V1 ev_ditr ].
+v1_ev2_ditr := v1ditr &
+ [ V1 ev2_ditr ].
+v1_ev3_ditr := v1ditr &
+ [ V1 ev3_ditr ].
+; applying the above to v2 in a series
+v2_ev_intr := v2intr &
+ [ V2 ev_intr ].
+v2_ev2_intr := v2intr &
+ [ V2 ev2_intr ].
+v2_ev3_intr := v2intr &
+ [ V2 ev3_intr ].
+v2_ev_tr := v2tr &
+ [ V2 ev_tr ].
+v2_ev2_tr := v2tr &
+ [ V2 ev2_tr ].
+v2_ev3_tr := v2tr &
+ [ V2 ev3_tr ].
+v2_ev_ditr := v2ditr &
+ [ V2 ev_ditr ].
+v2_ev2_ditr := v2ditr &
+ [ V2 ev2_ditr ].
+v2_ev3_ditr := v2ditr &
+ [ V2 ev3_ditr ].
+; applying the above to v3 in a series
+v3_ev_intr := v3intr &
+ [ V3 ev_intr ].
+v3_ev2_intr := v3intr &
+ [ V3 ev2_intr ].
+v3_ev3_intr := v3intr &
+ [ V3 ev3_intr ].
+v3_ev_tr := v3tr &
+ [ V3 ev_tr ].
+v3_ev2_tr := v3tr &
+ [ V3 ev2_tr ].
+v3_ev3_tr := v3tr &
+ [ V3 ev3_tr ].
+v3_ev_ditr := v3ditr &
+ [ V3 ev_ditr ].
+v3_ev2_ditr := v3ditr &
+ [ V3 ev2_ditr ].
+v3_ev3_ditr := v3ditr &
+ [ V3 ev3_ditr ].
+
+
+sv_suID-v1tr-v2pv1tr-v2_pv2intr-v2tr := svSuID & v1tr & v2pv1tr & v2pv2intr & v2tr.
+

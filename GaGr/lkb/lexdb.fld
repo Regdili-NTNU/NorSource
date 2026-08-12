@@ -1,0 +1,26 @@
+type TEXT
+orth TEXT
+keyrel TEXT
+infl TEXT
+cargs TEXT
+preds TEXT
+keyrelpred TEXT
+nklid TEXT
+pronunciation TEXT
+complete TEXT
+semclasses TEXT
+preferences TEXT
+classifier TEXT
+selectrest TEXT
+jlink TEXT
+comments TEXT
+exemplars TEXT
+usages TEXT
+lang TEXT
+country TEXT
+dialect TEXT
+domains TEXT
+genres TEXT
+register TEXT
+confidence real DEFAULT 1
+source TEXT

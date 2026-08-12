@@ -1,0 +1,685 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+
+bOOl_n := noun-lexeme &
+    [ STEM <"bOOl">,
+	PHON <"bOOl_HL">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_bOOl_n_rel: ball" ].
+
+tE_n := noun-lexeme &
+    [ STEM <"tE">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_tE_n_rel: stone" ].
+
+nugbO_n := noun-lexeme &
+    [ STEM <"nugbO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nugbO_n_rel: heaven" ].
+
+
+wonu_n := noun-lexeme &
+    [ STEM <"wonu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_wonu_n_rel: soup" ].
+
+gbee_n := noun-lexeme &
+    [ STEM <"gbee">,
+	PHON <"gbee_LH">,
+	INFLECTION irreg,
+	SYNSEM.LKEYS.KEYREL.PRED "_gbee_n_rel: dog" ].
+
+gbee_n-2 := noun-lexeme &
+    [ STEM <"gbee">,
+	PHON <"gbee_LH">,
+	SYNSEM.LKEYS.KEYREL.PRED "_gbee_n_rel: voice" ].
+
+toi_n := noun-lexeme &
+    [ STEM <"toi">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_toi_n_rel: ear" ].
+
+fEi_n := noun-lexeme &
+    [ STEM <"fEi">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_fEi_n_rel: cold" ].
+
+naagba_n := noun-lexeme &
+    [ STEM <"naagba">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_naagba_n_rel: problem" ].
+
+naa_n := noun-lexeme &
+    [ STEM <"naa">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_naa_n_rel: end, edge" ].
+
+shika_n := noun-lexeme &
+    [ STEM <"shika">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_shika_n_rel: money" ].
+
+mObO_n := noun-lexeme &
+    [ STEM <"mObO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_mObO_n_rel: pity" ].
+
+wolo_n := noun-lexeme &
+    [ STEM <"wolo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_wolo_n_rel: book" ].
+
+tsOne_n := noun-lexeme &
+    [ STEM <"tsOne">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_tsOne_n_rel: car" ].
+
+mli_n := noun-lexeme &
+    [ STEM <"mli">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_mli_n_rel: inside" ].
+
+nO_n := noun-lexeme &
+    [ STEM <"nO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nO_n_rel: top" ].
+
+mu_n := noun-lexeme &
+    [ STEM <"mu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_mu_n_rel: oil" ].
+
+okplo_n := noun-lexeme &
+    [ STEM <"okplo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_okplo_n_rel: table" ].
+
+kakla_n := noun-lexeme &
+    [ STEM <"kakla">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_kakla_n_rel: knife" ].
+
+brodo_n := noun-lexeme &
+    [ STEM <"brodo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_brodo_n_rel: bread" ].
+
+hewalE_n := noun-lexeme &
+    [ STEM <"hewalE">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_hewalE_n_rel: health" ].
+
+hejO_n := noun-lexeme &
+    [ STEM <"hejO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_hejO_n_rel: laziness" ].
+
+shia_n := noun-lexeme &
+    [ STEM <"shia">,
+	PHON <"shiNaN_HLH">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_shia_n_rel: house" ].
+
+lala_n := noun-lexeme &
+    [ STEM <"lala">,
+	PHON <"lala_HLH">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_lala_n_rel: song" ].
+
+mama_n := noun-lexeme &
+    [ STEM <"mama">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_mama_n_rel: cloth" ].
+
+mama2_n := noun-lexeme &
+    [ STEM <"ma-ma">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_mama_n_rel: cloth" ].
+
+kooloo_n := noun-lexeme &
+    [ STEM <"kooloo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_kooloo_n_rel: animal" ].
+
+fu_n := noun-lexeme &
+    [ STEM <"fu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_fu_n_rel: smell" ].
+
+
+lole_n := noun-lexeme &
+    [ STEM <"lole">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_lole_n_rel: car" ].
+
+lai_n := noun-lexeme &
+    [ STEM <"lai">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_lai_n_rel: line" ].
+
+he_n := noun-lexeme &
+    [ STEM <"he">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_he_n_rel: self" ].
+
+ye_n := noun-lexeme &
+    [ STEM <"ye">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ye_n_rel: woman" ].
+
+shi_n := noun-lexeme &
+    [ STEM <"shi">,
+	PHON <"shiN_U">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_shi_n_rel: down" ].
+
+biE_n := noun-lexeme &
+    [ STEM <"biE">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_biE_n_rel: here" ].
+
+jEmE_n := noun-lexeme &
+    [ STEM <"jEmE">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_jEmE_n_rel: there" ].
+
+ni_n := noun-lexeme &
+    [ STEM <"ni">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ni_n_rel: thing" ].
+
+esha_n := noun-lexeme &
+    [ STEM <"esha">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_esha_n_rel: sin" ].
+
+gbomO_n := noun-lexeme &
+    [ STEM <"gbomO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_gbomO_n_rel: person" ].
+
+nuu_n := noun-lexeme &
+    [ STEM <"nuu">,
+	PHON <"nuNuN_LL">,
+	INFLECTION irreg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nuu_n_rel: nuu" ].
+
+nu_n := noun-lexeme &
+    [ STEM <"nu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nu_n_rel: water" ].
+
+gbekebi_n := noun-lexeme &
+    [ STEM <"gbekEbi">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_gbekebi_n_rel: child" ].
+
+;;;;;;;;;;;;;
+Akwele_prop := proper-name-word &
+    [ STEM <"Akwele">,
+      SYNSEM.LKEYS.KEYREL.CARG "Akwele" ].
+
+Ama_prop := proper-name-word &
+    [ STEM <"Ama">,
+      SYNSEM.LKEYS.KEYREL.CARG "Ama" ].
+
+Kofi_prop := proper-name-word &
+    [ STEM <"Kofi">,
+      SYNSEM.LKEYS.KEYREL.CARG "Kofi" ].
+
+Ga_prop := proper-name-word &
+    [ STEM <"Ga">,
+      SYNSEM.LKEYS.KEYREL.CARG "Ga" ].
+
+
+;;;;;;;;;;;;;
+agbo_adj := adjective-lexeme &
+    [ STEM <"agbo">,
+	PHON <"agbo_LL">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_agbo_j_rel: big" ].
+
+;;;;;;;;;;;;;
+bi_iv := v-intr-lex &
+    [ STEM <"bi">,
+	PHON <"bi_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_bi_v_rel: ask" ].
+
+na_iv := v-intr-lex &
+    [ STEM <"na">,
+	PHON <"na_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see" ].
+
+ba_iv := v-intr-lex &
+    [ STEM <"ba">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ba_v_rel: come" ].
+
+wie_iv := v-intr-lex &
+    [ STEM <"wie">,
+	PHON <"wie_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_wie_v_rel: ask" ].
+
+wO_iv := v-intr-lex &
+    [ STEM <"wO">,
+	PHON <"wie_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_wO_v_rel: sleep" ].
+
+kpale_iv := v-intr-lex &
+    [ STEM <"kpale">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_kpale_v_rel: turn" ].
+
+kpatu_iv := v-intr-lex &
+    [ STEM <"kpatu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_kpatu_v_rel: do deliberately" ].
+
+kpO_iv := v-intr-lex &
+    [ STEM <"kpO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_kpO_v_rel: increase" ].
+
+yE_tr-1 := v-tr-lex &
+    [ STEM <"yE">,
+	PHON <"yE_L">,
+	INFLECTION irreg,
+	SYNSEM.LKEYS.KEYREL.PRED "_yE_v_rel: at" ].
+
+yE_tr-2 : = v-tr-lex &
+    [ STEM <"yE">,
+	PHON <"yE_L">,
+	INFLECTION irreg,
+	SYNSEM.LKEYS.KEYREL.PRED "_yE_1_v_rel: have" ].
+
+la_tr := v-tr-lex &
+    [ STEM <"la">,
+	PHON <"la_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_la_v_rel: sing" ].
+
+jE_tr := v-tr-lex &
+    [ STEM <"jE">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_jE_v_rel: leave" ].
+
+tsu_tr := v-tr-lex &
+    [ STEM <"tsu">,
+	PHON <"tsu_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_tsu_v_rel: send" ].
+
+tsOO_tr := v-tr-lex &
+    [ STEM <"tsOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_tsOO_v_rel: teach" ].
+
+tswa_tr := v-tr-lex &
+    [ STEM <"tswa">,
+	PHON <"tswa_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_tswa_v_rel: strike" ].
+
+fO_tr := v-tr-lex &
+  [ STEM < "fO" >,
+    PHON <"fON_L">,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY trajectory, 
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.PERFORM-MODE willed, 
+    SYNSEM.LKEYS.KEYREL.PRED "_fo_v_rel: throw" ].  
+
+hoo_tr := v-tr-lex &
+  [ STEM < "hoo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hoo_v_rel: cook" ].  
+
+kamO_tr := v-tr-lex &
+  [ STEM < "kamO" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kamO_v_rel: lie" ].  
+
+;mE_tr := trans-mainverb-lexeme &
+;  [ STEM <"mE">,
+;    INFLECTION reg,
+;    SYNSEM [LKEYS.KEYREL.PRED "_mE_v_rel: put"]].
+
+;ditr-lex 
+;mE_ditr := ditrans-mainverb-lexeme &
+;  [ STEM <"mE">,
+;    INFLECTION reg,
+;    SYNSEM [LKEYS.KEYREL.PRED "_mE_v_rel: put"]].
+
+mE_dbob := v-dbob-lex &
+  [ STEM <"mE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_mE_v_rel: put"], 
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE.DIRECTIONALITY dynMinTract ].
+
+;SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Directionality-Procedure-Unfold-Perform-PhysBod].
+
+; trans-mainverb-lexeme
+;fo_tr-2 := tr-lex &
+;  [ STEM <"fo">,
+;    INFLECTION reg,
+;    SYNSEM [LKEYS.KEYREL.PRED "_fo_v_rel: cut"]].
+
+gbee_ditr := v-ditr-lex &
+    [ STEM <"gbee">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_gbee_v_rel: fell" ].
+
+;ditrans-mainverb-lexeme
+ha_ditr := v-ditr-lex &
+    [ STEM <"ha">,
+      INFLECTION reg,
+      SYNSEM.LKEYS.KEYREL.PRED "_ha_v_rel: give", 
+      SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Init-Cogn-Procedure-Creation-Perform-Poss-SymbVal ].
+
+
+;invented
+tritr_tritr := tritr-lex &
+    [ STEM <"tritr">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_tritr_v_rel: give" ].
+
+;invented
+qtrtr_qtrtr := qtrtr-lex &
+    [ STEM <"qtrtr">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_qtrtr_v_rel: give" ].
+
+;invented
+introbl_intrObl := intrObl-lex &
+    [ STEM <"introbl">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_introbl_v_rel: talk-about" ].
+
+;invented
+trobl_trObl := trObl-lex &
+    [ STEM <"trobl">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_trobl_v_rel: inform-about" ].
+
+;invented
+ditrobl_ditrObl := ditrObl-lex &
+    [ STEM <"ditrobl">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ditrobl_v_rel: throw-him-eggs-in-the head" ].
+
+;invented
+dbobobl_dbobObl := dbobObl-lex &
+    [ STEM <"dbobobl">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ditrobl_v_rel: throw-him-eggs-in-the head" ].
+
+;invented
+prep_prep := prep-word-sel &
+    [ STEM <"prep">,
+	SYNSEM.LKEYS.KEYREL.PRED "_prep-word-sel: prep" ]. 
+
+kE_prev := kE-pre-verb-lexeme &
+    [ STEM <"kE">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_move_v_rel",
+	SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY ke-key,
+	SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD.KEYS.KEY verball-sin-ke],... > ].
+
+ka_prev := neg-pre-verb-lexeme &
+      [ STEM <"ka">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_neg_v_rel",
+	SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY ka-key,
+	SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD.KEYS.KEY verball-sin-ke-ka],...> ].
+
+ba_prev := deict-pre-verb-lexeme &
+    [ STEM <"ba">,
+	INFLECTION reg,
+	SYNSEM.LOCAL.CONT.HOOK.INDEX.DEICT-ASPECT ingress,
+    	SYNSEM.LKEYS.KEYREL.PRED "_come_v_rel",
+	SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY deict-key,
+	SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD.KEYS.KEY verball-sin-ke-ka-deict], ...> ].
+
+ya_prev := deict-pre-verb-lexeme &
+    [ STEM <"ya">,
+	INFLECTION reg,
+	SYNSEM.LOCAL.CONT.HOOK.INDEX.DEICT-ASPECT egress,
+	SYNSEM.LKEYS.KEYREL.PRED "_go_v_rel",
+	SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY deict-key,
+	SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD.KEYS.KEY verball-sin-ke-ka-deict],...> ].
+
+yE_vbid := verbid-lexeme &
+    [ STEM <"yE">,
+	PHON <"yE">,
+	INFLECTION irreg,
+	SYNSEM.LKEYS.KEYREL.PRED "_yE_v_rel: at" ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+daa_n := quant-word &
+  [ STEM < "daa" >,
+    PHON <"daa_HH">,
+    SYNSEM.LKEYS.KEYREL.PRED "_univ-q-rel" ].
+
+enyO_card := quant-word &
+    [ STEM <"enyO">,
+	PHON <"enyON_HU ">,
+	SYNSEM.LKEYS.KEYREL.PRED "2-rel: two" ].
+
+konai_quant := quant-word &
+  [ STEM < "konai" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_at-least-1-q-rel",
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG pl].
+
+pii_quant := quant-word &
+  [ STEM < "pii" >,
+    SYNSEM.LKEYS.KEYREL [PRED "_some-mass-q-rel"],
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG sg].
+
+fEE_quant := quant-word &
+  [ STEM < "fEE" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_univ-q-rel"].
+
+lE_det := det-word &
+  [ STEM < "lE" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_familiar: the"].
+
+E_det := det-word &
+  [ STEM < "E" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_familiar-rel: the"].
+
+mi_pron := pers-pron-word &
+  [ STEM < "mi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1st-pers-rel: I"].
+
+wO_pron := pers-pron-word &
+  [ STEM < "wO" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1st-pers-rel: we"].
+
+bo_pron := pers-pron-word &
+  [ STEM < "bo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2nd-pers-rel: you"].
+
+o_pron := pers-pron-word &
+  [ STEM < "o" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2nd-pers-rel: you"].
+
+nyE_pron := pers-pron-word &
+  [ STEM < "nyE" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2nd-pers-rel: you"].
+
+amE_pron := pers-pron-word &
+  [ STEM < "amE" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3rd-pers-rel"].
+
+E_pron := pers-pron-word &
+  [ STEM < "E" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3rd-pers-rel"].
+
+lE_pron := pers-pron-word &
+  [ STEM < "lE" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3rd-pers-rel"].
+
+nE_det := det-word &
+  [ STEM < "nE" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_deict-rel: that"].
+
+akE_subord := subord-comp &
+  [ STEM < "akE" >,
+    SYNSEM.LKEYS.KEYREL.PRED "that_rel"].
+
+
+
+; from test-constr.ga. These can all be commented away when one uses lexicon-daem.tdl
+#|
+
+wa_iv := intr-mainverb-lexeme &
+    [ STEM <"wa">,
+	PHON <"wa_H">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_wa_v_rel: is-hard" ].
+di_iv := intr-mainverb-lexeme &
+    [ STEM <"di">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_di_v_rel: is-black" ].
+NOO_iv := intr-mainverb-lexeme &
+    [ STEM <"NOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_NOO_v_rel: is-tasty" ].
+nE_iv := intr-mainverb-lexeme &
+    [ STEM <"nE">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nE_v_rel: rain" ].
+
+jO_iv := intr-mainverb-lexeme &
+    [ STEM <"jO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_jO_v_rel: cool/worn" ].
+
+NOO_tv := trans-mainverb-lexeme &
+    [ STEM <"NOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_NOO_v_rel: is-tasty" ].
+
+NOO_tv-postobj := trans-mainverb-lexeme &
+    [ STEM <"NOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_NOO_v_rel: is-tasty" ].
+
+ye_tv := trans-mainverb-lexeme &
+    [ STEM <"ye">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ye_v_rel: eat" ].
+
+ba_tv := trans-mainverb-lexeme &
+    [ STEM <"ba">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ba_v_rel: come" ].
+
+fe_tv := trans-mainverb-lexeme &
+    [ STEM <"fe">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_fe_v_rel: do" ].
+
+nu_tv := trans-mainverb-lexeme &
+    [ STEM <"nu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nu_v_rel: sense" ].
+
+nu_tv-postpobj := trans-mainverb-lexeme &
+    [ STEM <"nu">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_nu_v_rel: sense" ].
+
+na_tv-sit := trans-mainverb-sitobj-lexeme &
+    [ STEM <"na">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see" ].
+
+na_tv := trans-mainverb-lexeme &
+    [ STEM <"na">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see" ].
+
+na_tv-postpobj := trans-mainverb-lexeme &
+    [ STEM <"na">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see"].
+
+bo_tv := trans-mainverb-lexeme &
+    [ STEM <"bo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_bo_v_rel: listen" ].
+
+jOO_tv := trans-mainverb-lexeme &
+    [ STEM <"jOO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_jOO_v_rel: rest" ].
+
+na_dtv := ditrans-mainverb-lexeme &
+    [ STEM <"na">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_na_v_rel: see" ].
+
+bo_dtv := ditrans-mainverb-lexeme &
+    [ STEM <"bo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_bo_v_rel: listen" ].
+
+wO_dtv := ditrans-mainverb-lexeme &
+    [ STEM <"wO">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_wO_v_rel: put"].
+
+to_dtv := ditrans-mainverb-lexeme &
+    [ STEM <"to">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_to_v_rel: put"].
+
+shwie_dtv := ditrans-mainverb-lexeme &
+    [ STEM <"shwie">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_shwie_v_rel: pour"].
+
+bo_dtv-postpobj1 := ditrans-mainverb-lexeme &
+    [ STEM <"bo">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_bo_v_rel: listen"].
+
+kE_tr-isvc-nonobjshare-lng1 := trans-mainverb-isvc-tr-xtr-long-lexeme &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"] ].
+
+kE_tr-isvc-nonobjshare-lng2 := trans-mainverb-isvc-tr-xtr-long-lexeme &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"] ].
+
+kE_tr-isvc-nonobjshare-shrt := trans-mainverb-isvc-tr-xtr-short-lexeme &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"] ].
+
+ 
+kE_tr-isvc-objshare := trans-mainverb-isvc-tr-tr-objshare-lexeme &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM.LKEYS.KEYREL.PRED "_kE_v_rel: move" ].
+
+kE_tr-isvc-objshare-postpiobj := trans-mainverb-isvc-tr-tr-objshare-lexeme &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"]].
+
+kE_tr-isvc-objshare-postpiobj-id := trans-mainverb-isvc-tr-tr-objshare-loc-lexeme &
+  [ STEM <"kE">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_kE_v_rel: move"]].
+
+
+tsi_tr-isvc-objshare := trans-mainverb-isvc-tr-tr-objshare-lexeme &
+  [ STEM <"tsi">,
+    INFLECTION reg,
+    SYNSEM [LKEYS.KEYREL.PRED "_tsi_v_rel: push"] ].
+
+|#

@@ -1,0 +1,166 @@
+;;; -- Mode: TDL; Package: LKB --
+
+;;;
+;;; we need at least one dummy entry here, otherwise the LKB fails to load
+;;;
+
+the := det-word &
+[ STEM <"the">,
+    SYNSEM.LKEYS.KEYREL.PRED "_some-mass-q-rel",
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG sg ].
+
+that := det-word-3sing &
+[ STEM < "that"> ].
+
+those := det-word-non-3sing &
+[ STEM < "those"> ].
+
+aardvark := noun-lxm &
+[ STEM < "aardvark"> ].
+
+dog := noun-lexeme &
+[ STEM < "dog">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_shia_n_rel: house" ].
+
+cat := noun-lxm &
+[ STEM < "cat">].
+
+head := rel-noun-lxm &
+[ STEM < "head"> ].
+
+leg := rel-noun-lxm &
+[ STEM < "leg"> ].
+
+bark := intr-mainverb-lexeme &
+[ STEM < "bark">,
+	INFLECTION reg,
+	SYNSEM.LKEYS.KEYREL.PRED "_ba_v_rel: come"  ].
+
+chase := v-tr-suAg-obTh &
+[ STEM < "chase"> ].
+
+kick := v-tr-suAg-obPat &
+[ STEM < "kick"> ].
+
+give := v-ditr-suAg-obTh-iobBen &
+[ STEM < "give"> ].
+
+rely := v-intrObl &
+[ STEM < "rely"> ].
+
+;stroll := v-intrPath &
+;[ STEM < "stroll"> ].
+
+;throw := v-trPath-obDir &
+;[ STEM < "throw"> ].
+
+
+fell := v-trCs &
+[ STEM < "fell">,
+  ACTNTS.ACT2.KIND.PRED fall_rel ].
+
+to_sel := select-prep-word &
+[ STEM < "to"> ].
+
+
+
+to_dir := dir-prep-word &
+[ STEM < "to">,
+  COMPS < [INDX [ROLE endpnt]] > ].
+
+from_dir := dir-prep-word &
+[ STEM < "from">,
+  COMPS < [INDX [ROLE startpnt]] > ].
+
+via_dir := dir-prep-word &
+[ STEM < "via">,
+  COMPS < [INDX [ROLE viapnt]] > ].
+
+on := select-prep-word &
+[ STEM < "on"> ].
+
+near := mod-prep-word &
+[ STEM < "near"> ].
+
+
+#|
+the := det-word &
+[ STEM <"the"> ].
+
+that := det-word-3sing &
+[ STEM < "that"> ].
+
+those := det-word-non-3sing &
+[ STEM < "those"> ].
+
+aardvark := noun-lxm &
+[ STEM < "aardvark"> ].
+
+dog := noun-lxm &
+[ STEM < "dog"> ].
+
+cat := noun-lxm &
+[ STEM < "cat"> ].
+
+head := rel-noun-lxm &
+[ STEM < "head"> ].
+
+leg := rel-noun-lxm &
+[ STEM < "leg"> ].
+
+bark := v-intr-suAg &
+[ STEM < "bark"> ].
+
+chase := v-tr-suAg-obTh &
+[ STEM < "chase"> ].
+
+kick := v-tr-suAg-obPat &
+[ STEM < "kick"> ].
+
+give := v-ditr-suAg-obTh-iobBen &
+[ STEM < "give"> ].
+
+rely := v-intrObl &
+[ STEM < "rely"> ].
+
+;stroll := v-intrPath &
+;[ STEM < "stroll"> ].
+
+;throw := v-trPath-obDir &
+;[ STEM < "throw"> ].
+
+
+fell := v-trCs &
+[ STEM < "fell">,
+  ACTNTS.ACT2.KIND.PRED fall_rel ].
+
+to_sel := select-prep-word &
+[ STEM < "to"> ].
+
+
+
+to_dir := dir-prep-word &
+[ STEM < "to">,
+  COMPS < [INDX [ROLE endpnt]] > ].
+
+from_dir := dir-prep-word &
+[ STEM < "from">,
+  COMPS < [INDX [ROLE startpnt]] > ].
+
+via_dir := dir-prep-word &
+[ STEM < "via">,
+  COMPS < [INDX [ROLE viapnt]] > ].
+
+on := select-prep-word &
+[ STEM < "on"> ].
+
+near := mod-prep-word &
+[ STEM < "near"> ].
+|#
+
+
+
+
+
+

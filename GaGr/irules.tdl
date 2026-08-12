@@ -1,0 +1,108 @@
+%(letter-set (!a abcdefghijklmnopqrstuvwxyzæøå))
+%(letter-set (!b abcdefghijklmnopqrstuvwxyzæøå))
+%(letter-set (!c abcdefghijklmnopqrsuvwxyzæøå))
+%(letter-set (!d abcdfghijklmnopqrstuvwxyzæøå))
+%(letter-set (!e abcdefghijklmopqrstuvwxyzæøå))
+%(letter-set (!k bcdfgklmnprst))
+%(letter-set (!f rnlt))
+%(letter-set (!g nt))
+%(letter-set (!h abcdfghijklmnopqrstuvwxyzæøå)) ;; No e
+
+
+%(letter-set (!x abcdefghijklmnopqrsuvwxyzæå))
+%(letter-set (!y abcdefghijklmnopqrstuvwxyzæå))
+%(letter-set (!z abcdefghijklmnopqrstuvwxyzæå))
+
+pl-noun-lexeme-rule := 
+%suffix (* i)
+pl-noun-lexeme.
+
+
+sg-noun-irule := sg-noun-word.
+pl-noun-irule := plur-noun-word.
+
+;pl-noun-irule :=
+;%suffix (* i)
+;plur-noun-word.
+
+;; Ga verbs
+
+future-cat-verb-irule :=
+%suffix (* FUT)
+future-verb-word.
+
+habit-cat-verb-irule :=
+%suffix (* HAB)
+habit-verb-word.
+
+perf-cat-verb-irule :=
+%suffix (* PERF)
+perf-verb-word.
+
+progr-cat-verb-irule :=
+%suffix (* PROG)
+progr-verb-word.
+
+aorist-cat-verb-irule :=
+%suffix (* AOR)
+aorist-verb-word.
+
+subjunctive-cat-verb-irule :=
+%suffix (* SBJN)
+subjunctive-verb-word.
+
+imperative-cat-verb-irule :=
+%suffix (* IMPR)
+imperative-verb-word.
+
+plur-imperative-cat-verb-irule :=
+%suffix (* PLIMP)
+plur-imperative-verb-word.
+
+
+noninfl-verb-irule :=
+noninfl-verb-word.
+
+;; segmental inflections
+future-segm-verb-irule :=
+%prefix (* aa)
+future-verb-word.
+
+habit-segm-verb-irule :=
+%suffix (* a)
+habit-verb-word.
+
+habit-O-segm-verb-irule :=
+%suffix (* O)
+habit-verb-word.
+
+perf-segm-verb-irule :=
+%prefix (* e)
+perf-verb-word.
+
+progr-segm-verb-irule :=
+%prefix (* mii)
+progr-verb-word.
+
+aorist-segm-verb-irule :=
+aorist-verb-word.
+
+subjunctive-segm-verb-irule :=
+%prefix (* a)
+subjunctive-verb-word.
+
+imperative-segm-verb-irule :=
+%suffix (* a)
+imperative-verb-word.
+
+plur-imperative-segm-verb-irule :=
+%suffix (* a)
+plur-imperative-verb-word.
+
+;; Ga adj
+sg-adj-irule := sg-adj-word.
+
+plur-adj-irule := 
+%suffix (* i)
+plur-adj-word.
+

@@ -1,0 +1,220 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+
+
+same-gf := avm &
+ [FRST-GF synsem,
+  SEC-GF catg].
+same-act := avm &
+ [FRST-ARG semarg,
+  SEC-ACT semprop].
+
+intr-mainverb-lexeme-daem := intr-mainverb-lexeme  &
+  [ SYNSEM intrans-arg1-synsem,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT #1 & [LOCAL.CONT.HOOK.INDEX #3],
+    DAEMON 
+	[SUBJCT #2 & catg,
+    	 PARTCPNTS.ACT1 #4,
+    	 SAME-GF gf-list & < same-gf &
+ 				[FRST-GF #1,
+  				 SEC-GF #2]> ,
+    	 SAME-ACTANT  act-list & [FIRST  same-act &
+					 [FRST-ARG #3 & [SORT #4],
+					  SEC-ACT #4]] ]].
+
+;intr-mainverb-isvc-lexeme := main-verb-lexeme  &
+;  [ SYNSEM intrans-arg1-isvc-synsem ].
+
+
+
+trans-mainverb-lexeme-daem := trans-mainverb-lexeme  &
+  [ SYNSEM trans-arg1-2index-synsem,
+    BY-DELETION -,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT #1 & [LOCAL.CONT.HOOK.INDEX #3],
+    SYNSEM.LOCAL.CAT.QVAL.DOBJECT #5 & [LOCAL.CONT.HOOK.INDEX #7],
+    DAEMON 
+	[SUBJCT #2 & catg,
+    	 DOBJCT #6 & catg,
+    	 PARTCPNTS.ACT1 #4,
+    	 PARTCPNTS.ACT2 #8,
+    	 SAME-GF gf-list & < same-gf &
+ 				[FRST-GF #1,
+  				 SEC-GF #2], 
+			     same-gf &
+			     [FRST-GF #5,
+  				 SEC-GF #6] >,
+    	 SAME-ACTANT  act-list & < same-act &
+ 				[FRST-ARG #3 & [SORT #4],
+  				 SEC-ACT #4],
+				   same-act &
+ 				[FRST-ARG #7 & [SORT #8],
+  				 SEC-ACT #8] > ] ].
+
+trans-mainverb-sitobj-lexeme-daem := trans-mainverb-sitobj-lexeme  &
+  [ SYNSEM trans-arg1-2ltop-synsem,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT #1 & [LOCAL.CONT.HOOK.INDEX #3],
+    SYNSEM.LOCAL.CAT.QVAL.DOBJECT #5 & [LOCAL.CONT.HOOK.LTOP #7],
+    DAEMON 
+	[SUBJCT #2 & catg,
+    	 DOBJCT #6 & catg,
+    	 PARTCPNTS.ACT1 #4,
+    	 PARTCPNTS.ACT2 #8,
+    	 SAME-GF gf-list & < same-gf &
+ 				[FRST-GF #1,
+  				 SEC-GF #2], 
+			     same-gf &
+			     [FRST-GF #5,
+  				 SEC-GF #6] >,
+    	 SAME-ACTANT  act-list & < same-act &
+ 				[FRST-ARG #3 & [SORT #4],
+  				 SEC-ACT #4],
+				   same-act &
+ 				[FRST-ARG #7 & [SORT #8],
+  				 SEC-ACT #8] > ] ].
+
+ditrans-mainverb-lexeme-daem := ditrans-mainverb-lexeme  &
+  [ SYNSEM ditrans-arg1-2-3-synsem,
+    BY-DELETION -,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT #1 & [LOCAL.CONT.HOOK.INDEX #3],
+    SYNSEM.LOCAL.CAT.QVAL.DOBJECT #5 & [LOCAL.CONT.HOOK.INDEX #7],
+    SYNSEM.LOCAL.CAT.QVAL.IOBJECT #9 & [LOCAL.CONT.HOOK.INDEX #11],
+    DAEMON [ SUBJCT #2 & catg,
+	     DOBJCT #6 & catg,
+	     IOBJCT #10 & catg,
+	     PARTCPNTS.ACT1 #4,
+	     PARTCPNTS.ACT2 #8,
+	     PARTCPNTS.ACT3 #12,
+	     SAME-GF gf-list & < same-gf &
+ 				[FRST-GF #1,
+  				 SEC-GF #2], 
+			     same-gf &
+			     [FRST-GF #5,
+  				 SEC-GF #6], 
+			     same-gf &
+			     [FRST-GF #9,
+  				 SEC-GF #10] >,
+	     SAME-ACTANT  act-list & < same-act &
+ 				[FRST-ARG #3 & [SORT #4],
+  				 SEC-ACT #4],
+				   same-act &
+ 				[FRST-ARG #7 & [SORT #8],
+  				 SEC-ACT #8],
+				   same-act &
+ 				[FRST-ARG #11 & [SORT #12],
+  				 SEC-ACT #12] > ]].
+
+
+trans-mainverb-isvc-tr-xtr-long-lexeme-daem := trans-mainverb-isvc-tr-xtr-long-lexeme  &
+  [ SYNSEM trans-arg1-2-isvc-tr-xtr-synsem,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT #1 & [LOCAL.CONT.HOOK.INDEX #3],
+    SYNSEM.LOCAL.CAT.QVAL.DOBJECT #5 & [LOCAL.CONT.HOOK.INDEX #7],
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.DOBJECT #9 & [LOCAL.CONT.HOOK.INDEX #11]]>,
+    DAEMON [VSIGNS.FIRST [ SUBJCT #2 & catg,
+			  DOBJCT #6 & catg ],
+	    VSIGNS.REST.FIRST.DOBJCT #10 & catg,
+	    VSIGNS.FIRST.PARTCPNTS.ACT1 #4,
+	    VSIGNS.FIRST.PARTCPNTS.ACT2 #8,
+	    VSIGNS.REST.FIRST.PARTCPNTS.ACT2 #12,
+	     SAME-GF gf-list & < same-gf &
+ 				[FRST-GF #1,
+  				 SEC-GF #2], 
+			     same-gf &
+			     [FRST-GF #5,
+  				 SEC-GF #6], 
+			     same-gf &
+			     [FRST-GF #9,
+  				 SEC-GF #10] >,
+	     SAME-ACTANT  act-list & < same-act &
+ 				[FRST-ARG #3 & [SORT #4],
+  				 SEC-ACT #4],
+				   same-act &
+ 				[FRST-ARG #7 & [SORT #8],
+  				 SEC-ACT #8],
+				   same-act &
+ 				[FRST-ARG #11 & [SORT #12],
+  				 SEC-ACT #12] > ] ].
+
+trans-mainverb-isvc-tr-xtr-short-lexeme-daem := trans-mainverb-isvc-tr-xtr-short-lexeme  &
+  [ SYNSEM trans-arg1-2-isvc-tr-xtr-synsem,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT #1 & [LOCAL.CONT.HOOK.INDEX #3],
+    SYNSEM.LOCAL.CAT.QVAL.DOBJECT #5 & [LOCAL.CONT.HOOK.INDEX #7],
+    DAEMON [VSIGNS.FIRST [ SUBJCT #2 & catg,
+			  DOBJCT #6 & catg ],
+	    VSIGNS.FIRST.PARTCPNTS.ACT1 #4,
+	    VSIGNS.FIRST.PARTCPNTS.ACT2 #8,
+	     SAME-GF gf-list & < same-gf &
+ 				[FRST-GF #1,
+  				 SEC-GF #2], 
+			     same-gf &
+			     [FRST-GF #5,
+  				 SEC-GF #6] >,
+	     SAME-ACTANT  act-list & < same-act &
+ 				[FRST-ARG #3 & [SORT #4],
+  				 SEC-ACT #4],
+				   same-act &
+ 				[FRST-ARG #7 & [SORT #8],
+  				 SEC-ACT #8] > ] ].
+
+trans-mainverb-isvc-tr-tr-objshare-lexeme-daem := trans-mainverb-isvc-tr-tr-objshare-lexeme  &
+  [ SYNSEM trans-arg1-2-isvc-tr-tr-objshare-synsem,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT #1 & [LOCAL.CONT.HOOK.INDEX #3],
+    SYNSEM.LOCAL.CAT.QVAL.DOBJECT #5 & [LOCAL.CONT.HOOK.INDEX #7],
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.IOBJECT #9 & [LOCAL.CONT.HOOK.INDEX #11]]>,
+    DAEMON [VSIGNS.FIRST [ SUBJCT #2 & catg,
+			  DOBJCT #6 & catg ],
+	    VSIGNS.REST.FIRST.IOBJCT #10 & catg,
+	    VSIGNS.FIRST.PARTCPNTS.ACT1 #4,
+	    VSIGNS.FIRST.PARTCPNTS.ACT2 #8,
+	    VSIGNS.REST.FIRST.PARTCPNTS.ACT3 #12,
+	     SAME-GF gf-list & < same-gf &
+ 				[FRST-GF #1,
+  				 SEC-GF #2], 
+			     same-gf &
+			     [FRST-GF #5,
+  				 SEC-GF #6], 
+			     same-gf &
+			     [FRST-GF #9,
+  				 SEC-GF #10] >,
+	     SAME-ACTANT  act-list & < same-act &
+ 				[FRST-ARG #3 & [SORT #4],
+  				 SEC-ACT #4],
+				   same-act &
+ 				[FRST-ARG #7 & [SORT #8],
+  				 SEC-ACT #8],
+				   same-act &
+ 				[FRST-ARG #11 & [SORT #12],
+  				 SEC-ACT #12] > ] ].
+
+trans-mainverb-isvc-tr-tr-objshare-loc-lexeme-daem := trans-mainverb-isvc-tr-tr-objshare-loc-lexeme  &
+  [ SYNSEM trans-arg1-2-isvc-tr-tr-objshare-synsem,
+    SYNSEM.LOCAL.CAT.QVAL.SUBJECT #1 & [LOCAL.CONT.HOOK.INDEX #3],
+    SYNSEM.LOCAL.CAT.QVAL.DOBJECT #5 & [LOCAL.CONT.HOOK.INDEX #7],
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.IOBJECT #9 & [LOCAL.CONT.HOOK.INDEX #11]]>,
+    DAEMON [VSIGNS.FIRST [ SUBJCT #2 & catg,
+			  DOBJCT #6 & catg ],
+	    VSIGNS.REST.FIRST.IOBJCT #10 & catg,
+	    VSIGNS.FIRST.PARTCPNTS.ACT1 #4,
+	    VSIGNS.FIRST.PARTCPNTS.ACT2 #8,
+	    VSIGNS.REST.FIRST.PARTCPNTS.ACT3 #12,
+	     SAME-GF gf-list & < same-gf &
+ 				[FRST-GF #1,
+  				 SEC-GF #2], 
+			     same-gf &
+			     [FRST-GF #5,
+  				 SEC-GF #6], 
+			     same-gf &
+			     [FRST-GF #9,
+  				 SEC-GF #10] >,
+	     SAME-ACTANT  act-list & < same-act &
+ 				[FRST-ARG #3 & [SORT #4],
+  				 SEC-ACT #4],
+				   same-act &
+ 				[FRST-ARG #7 & [SORT #8],
+  				 SEC-ACT #8],
+				   same-act &
+ 				[FRST-ARG #11 & [SORT #12],
+  				 SEC-ACT #12] > ] ].
+
+
+
+

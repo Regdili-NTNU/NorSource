@@ -1,0 +1,63 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+
+adjective-mod-rule := adjective-mod-phrase.
+card-mod-rule := card-mod-phrase.
+verbid-rule := verbid-mod-phrase.
+verb-serial-mod-tr-tr-rule := verb-serial-mod-tr-tr-phrase.
+verb-serial-mod-tr-ditr-rule := verb-serial-mod-tr-ditr-phrase.
+verb-serial-mod-tr-dbob-rule := verb-serial-mod-tr-dbob-phrase.
+verb-serial-mod-tr-intr-rule := verb-serial-mod-tr-intr-phrase.
+verb-serial-mod-intr-tr-rule := verb-serial-mod-intr-tr-phrase.
+verb-serial-mod-intr-intr-rule := verb-serial-mod-intr-intr-phrase.
+verb-switch-serial-mod-rule := verb-switch-serial-mod-phrase.
+
+head-spec-quantor-rule := head-spec-quantor-phrase.
+;head-spec-art-rule := head-spec-art-phrase.
+;head-spec-genitive-pron-rule := head-spec-genitive-posspron-phrase.
+head-spec-det-rule := head-spec-det-phrase.
+;head-spec-det-post-rule := head-spec-det-post-phrase.
+;head-spec-card-rule := head-spec-card-phrase.
+possessive-rule := possessive-constr.
+
+head-subject-rule := head-subject-phrase.
+head-verb-dobj-rule := head-verb-dobj-phrase.
+head-verb-iobj-rule := head-verb-iobj-phrase.
+head-verb-firstobjDbob-rule := head-verb-firstobjDbob-phrase.
+head-verb-lastobjDbob-rule := head-verb-lastobjDbob-phrase.
+;head-verb-remniobj-rule := head-verb-remniobj-phrase.
+head-verb-obl-rule := head-verb-obl-phrase.
+head-prep-gov-rule := head-prep-gov-phrase.
+head-prep-comp-rule := head-prep-comp-phrase.
+
+;head-verb-firstof3obj-rule := head-verb-firstof3obj-phrase.
+;head-verb-intermedobj-rule := head-verb-intermedobj-phrase.
+;head-verb-fleximedobj-rule := head-verb-fleximedobj-phrase.
+;head-verb-lastobj-rule := head-verb-lastobj-phrase.
+
+;basic-head-icomp-rule := basic-head-icomp-phrase.
+
+head-verb-subord-rule := head-verb-subord-phrase.
+;head-verb-isvc-subjshare-rule := head-verb-isvc-subjshare-phrase.
+;head-verb-isvc-subjshare-objshare-rule := head-verb-isvc-subjshare-objshare-phrase.
+;head-verb-isvc-switchshare-rule := head-verb-isvc-switchshare-phrase.
+head-preverb-comp-trmainvb-rule := head-preverb-comp-trmainvb-phrase.
+head-preverb-comp-ditrmainvb-rule := head-preverb-comp-ditrmainvb-phrase.
+head-preverb-comp-intrmainvb-rule := head-preverb-comp-intrmainvb-phrase.
+head-kE-comp-trmainvb-rule := head-kE-comp-trmainvb-phrase.
+head-kE-comp-ditrmainvb-rule := head-kE-comp-ditrmainvb-phrase.
+head-kE-comp-intrmainvb-rule := head-kE-comp-intrmainvb-phrase.
+head-complementizer-comp-rule := head-complementizer-comp-phrase.
+
+; experimented with during tg import
+;sv-subj-sharing-rule := subj-sharing.
+;sv-subj-ref-sharing-rule := sv-subj-ref-sharing.
+;sv-obj-sharing-rule := sv-obj-sharing.
+;sv-obj-ref-sharing-rule := sv-obj-ref-sharing.
+;sv-switch-sharing-rule := sv-switch-sharing.
+;sv-switch-ref-sharing-rule := sv-switch-ref-sharing.
+
+
+
+
+

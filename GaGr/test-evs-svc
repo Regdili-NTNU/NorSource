@@ -1,0 +1,209 @@
+; Tests for EVCs and SVCs based on articles. See word-document 'test-items-v.doc' for display of these examples with correct IPA-symbols and (for the EVCs) tones
+
+; EVCs
+;Akwe´le´ eÛ!-biÛ
+; (Akwele) 	perf-ask
+;(Akwele) has asked
+Akwele biPERF
+Akwele ebi
+
+;Akwe´le´ mi$i-biÛ
+; (name)		progr-ask
+;(Akwele) is asking
+Akwele biPROG
+Akwele miibi
+
+;Akwe´le´ ! -bi´-Ý
+;(name)  aor-ask-hab 
+;(Akwele) asks
+Akwele biHAB
+Akwele bia
+
+;(yei´ EÝ) ba$aÛ-!ba´
+;(women def) INGR.fut-come (PROSP+)
+;(the women) will come
+yei E ba baFUT
+yei E ba aaba
+yei ɛ ba aabaa
+
+;(yei´ EÝ) ba$-biÛ-Ý
+;(women def) INGR- ask-hab (MULTEV+)
+;the women come and ask
+yei E ba biHAB
+yei E ba bia
+
+;(yei´ !E´) 	eÛ-ba$-biÛ				
+;(women def) perf-INGR-ask (COMPL+)
+;the women have come and asked
+yei E baPERF bi
+yei E eba bi
+
+; (yei´ !E´) kEÛ-kaÛ-ya$-ba$		(non-volitional) 
+;(women def) MOVE.subj-NEG.subj-EGR-come
+;(The women) should not go bring (it)
+;Let the women not bring (it)!
+yei E kE kaSBJN yaSBJN  ba
+yei E kE aka aya  ba
+
+;(yei´ !E´) 	kEÛ- yaÛ-!ba´				(non-volitional)
+;(women def) MOVE.subj-EGR.subj-come
+;(The women) should bring (it)
+;May the women bring (it)!
+yei E kE yaSBJN baSBJN
+yei E kE aya aba
+
+;kEÛ-kaÛ-ya$-ba$				(non-volitional)
+;MOVE.subj-NEG.subj-EGR-come
+;Don't go bring (it)!
+kE kaSBJN yaSBJN ba
+kE aka aya ba
+
+;kEÛ-yaÛ-!ba´				(non-volitional)
+;MOVE.subj-EGR.subj-come
+;Go bring!
+kE yaSBJN baSBJN
+kE yaa aba
+
+;ka$aÛ-yaÛ-!ba´			(non-volitional)
+;NEG.imper.-EGR.subj-come
+;Don't go bring!
+ka yaIMPR baSBJN
+ka yaa aba
+
+;ya$aÛ-!na´			(non-volitional)
+;INGR.imper.subj-see
+;Go see!
+yaIMPR naSBJN
+yaa ana
+
+;nyEÛ-kaÛ-ba$-na$-a$		(non-volitional )
+;2PL.-NEG.subj-INGR-see-imper
+;You (pl.) don't come see!
+nyE ka baSBJN naSBJN
+nyE ka aba ana
+
+;nyEÛÛ-baÛ-na$-a$			(non-volitional)
+;2PL.subj-INGR.subj-see-imper
+;Come see! (to several)
+nyE baSBJN naIMPR
+nyE aba naa
+
+
+; SVCs
+;Akwele	 hoo wonu  kE-ha w
+;A. AOR.cook soup   MOVE.AOR-give 1P
+;Akwele cooked soup for us
+Akwele	 hooAOR wonu  kE haAOR wO
+Akwele	 hoo wonu  kE ha wO
+
+;Kofi mii-wie kE-mii-ts Ama
+;K PROG-speak MOVE-PROG-teach Ama
+;Kofi is telling Ama. 
+Kofi wiePROG kE tsOOPROG Ama
+Kofi miiwie kE miitsOO Ama
+
+;GbekEbii lE e-kam shi e-w
+;children DEF PERF-lie 	down PERF-sleep
+;The children have gone to sleep.
+gbekEbii lE kamOPERF shi wOPERF
+gbekEbii lE ekamO shi ewO
+
+;AmE-he tswa-a shi kE-tsu- nii
+;3P-self 	AOR.strike-HAB down  move-send-HAB things	
+;They hurry to work.
+amE he tswaHAB shi kE tsuHAB nii
+amE he tswaa shi kE tsua nii
+
+;Akwele baa-hoo nii aÛ--ha w
+;Akwelw INGR.FUT-cook things SUBJ-give 1P	
+;Akwele will cook for us.
+Akwele ba hooFUT nii haSBJN wO	
+Akwele ba aahoo nii aha wO	
+
+;(E-sa ni) Akwele  a-hoo nii a-ha w
+;(3S.AOR-suit COMP)	A. SUBJ-cook things SUBJ-give 1P
+;Akwele must cook for us.
+Akwele  hooSBJN nii haSBJN wO
+Akwele  ahoo nii aha wO
+
+;Hoo-m nii    a-ha w
+;cook-IMPER things SUBJ-give 1P			
+;Cook for us!
+hooIMPR nii haSBJN wO
+hooa nii aha wO
+
+;NyE-kpale-a kE-jE-a nyE-he eshai lE a-he
+;2P.SUBJ-turn-IMPER  move.SUBJ-leave-IMPER 2P-self sins DEF ASSOC-self
+;Turn away from your sins!
+nyE kpaleSBJN kE jESBJN nyE he eshai lE 
+nyE akpale kE ajE nyE he eshai lE 
+
+; NEG.IMPF, NEG.PERF and NEG.FUT are by Jan 17 not implemented.
+;Gbom kpatu-uu kp-
+;person  do.deliberately-NEG.IMPF    increase-NEG.IMPF
+;A person doesn't prosper without effort
+;gbomO kpatuNEG.IMPF kpONEG.IMPF
+
+; Have not reflected the 'pro-clitic' NEG here, since the form has NEG already
+;Akwele e-hoo-ko nii ha-ko w
+;A. NEG-cook-NEG.PERF things give-NEG.PERF 1P			
+;Akwele has not cooked for us.
+;Akwele hooNEG.PERF nii  haNEG.PERF wO
+
+;L  LOlei e-to-N lai kE-jE-N biE kE-ya-N Ga
+;cars NEG-arrange-NEG.FUT line move.NEG-start-NEG.FUT here move.NEG-EGR-NEG.FUT ;Accra
+;Cars will not be forming a line from here to Accra.
+;lOlei toNEG.FUT lai kE jENEG.FUT biE kE yaNEG.FUT Ga
+
+
+;Possible test item for SVC:
+nuu lE fO bOOl mE shi
+;man DEF throw ball put down
+;the man threw the ball down
+
+; schematic assembly
+Akwele biPERF
+Akwele biPROG
+Akwele biHAB
+Akwele biFUT
+Akwele biAOR
+Akwele biSBJN
+Akwele biIMPR
+Akwele biPLIMP
+Akwele ba naHAB
+Akwele ba naFUT
+Akwele baPERF na
+Akwele kE kaSBJN yaSBJN na
+Akwele kE yaSBJN naSBJN
+kE kaSBJN yaSBJN na
+kE yaSBJN naSBJN
+kaIMPR yaSBJN na
+yaIMPR na
+kaPLIMP yaSBJN naIMPR
+baPLIMP naIMPR
+
+; with segments
+Akwele ebi
+Akwele miibi
+Akwele bia
+Akwele aabi
+Akwele bi
+Akwele abi
+Akwele bia
+Akwele bia
+Akwele ba naa
+Akwele ba aana
+Akwele eba na
+Akwele kE aka aya na
+Akwele kE aya ana
+kE aka aya na
+kE aya ana
+kaa aya na
+yaa na
+kaa aya naa
+baa naa
+
+
+
+
+
