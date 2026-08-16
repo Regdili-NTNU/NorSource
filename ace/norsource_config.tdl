@@ -79,3 +79,5 @@ lattice-mapping-position-path := +POSITION.
 ;;; qeq between LTOP and GTOP
 top-hcons-type := none.
 
+;;;; In your ace/norsource-config.tdl, modify
+generation-roots          := root-gen.

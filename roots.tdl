@@ -130,6 +130,37 @@ root-interjct := sign &
   EXTRACTED-FROM -].
 
 
+;;;; In your file roots.tdl, add this copy of 'root', with DIALECT added:
+
+root-gen := phrase &
+[ SYNSEM.LOCAL.CAT [ HEAD verb-all & [ MAIN-CL + ],
+                     VAL [ SUBJ < anti-synsem >,
+                           SPR null,
+                           SPEC null,
+                           COMPS null,
+                           ICOMPS null] ],
+  SYNSEM.LOCAL.NEED-IMP-UNARY -,
+  SYNSEM.LOCAL.OBJ-DEL-APPLIED -,
+  SYNSEM.LOCAL.CONNECT-PENDING -,
+   SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.MUST-COORDINATE -,
+  SYNSEM.LOCAL.BND-RESP <>,  ;;LH020216 Refl binding is now a bit out of control, so temporarily suspending these constraints. See head-verb-tame-comp-phrase and trans-arg1-2refl-synsem.
+  SYNSEM.LOCAL.WAIT-BND-RESP <>,
+SYNSEM.LOCAL.MUST-COORD-PROJECT -,
+SYNSEM.LOCAL.INV-DECL-PRECARIOUS -,
+  SYNSEM.LOCAL.NEED-Q-MARK -, ;; MHS 120713 This line only has effect in the mal-grammar.
+;  SYNSEM.LOCAL.IS-A-COMPLEMENT -, ;; MHS 120713 Experimenting with using this type to reduce spurious parses that arise in main clause extraction.
+  SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],
+		     REL 0-dlist & [ LIST < >],
+		     QUE 0-dlist & [ LIST < >] ],
+  INFLECTED +,
+  FRONT-TO-FILL -,
+  EXTRACTED-FROM -,
+  DIALECT norsk ].
+
+;;;; In your ace/norsource-config.tdl, modify
+generation-roots          := root-gen.
+
 
 #|
 subj_drop_root := sign &

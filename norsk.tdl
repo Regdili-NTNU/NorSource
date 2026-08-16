@@ -58,6 +58,30 @@
 
 ;;;;;;; DPF addenda
 
+;;;; In your norsk.tdl file, add
+
+sign :+
+ [ DIALECT dialect ].
+
+dialect := sort.
+norsk := dialect.
+english := dialect.
+ewe := dialect.
+
+basic-binary-phrase :+
+ [ DIALECT #dialect,
+   ARGS < [ DIALECT #dialect ], [ DIALECT #dialect ] > ].
+
+basic-unary-phrase :+
+ [ DIALECT #dialect,
+   ARGS < [ DIALECT #dialect ] > ].
+
+lex-rule :+
+ [ DIALECT #dialect,
+   ARGS < [ DIALECT #dialect ] > ].
+
+
+
 
 
 ;Metafeatures, their aspects and their values

@@ -38,12 +38,14 @@ infl-pres-verb-word &
 pres-s-infl_rule :=
 %suffix (* s)
 infl-pres-verb-word &
-[ ARGS < [ INFLECTION phon ] > ].
+[ DIALECT english,
+  ARGS < [ INFLECTION phon ] > ].
 
 ; for Ewe guests
 pres-const_infl_rule :=
 const-pres-verb-word &
-[ ARGS < [ INFLECTION phon ] > ].
+[ DIALECT ewe,
+  ARGS < [ INFLECTION phon ] > ].
 
 
 pret-finalstr_infl_rule :=
