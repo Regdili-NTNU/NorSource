@@ -131,7 +131,7 @@ root-interjct := sign &
 
 
 ;;;; In your file roots.tdl, add this copy of 'root', with DIALECT added:
-
+#|
 root-gen := phrase &
 [ SYNSEM.LOCAL.CAT [ HEAD verb-all & [ MAIN-CL + ],
                      VAL [ SUBJ < anti-synsem >,
@@ -159,8 +159,8 @@ SYNSEM.LOCAL.INV-DECL-PRECARIOUS -,
   DIALECT norsk ].
 
 ;;;; In your ace/norsource-config.tdl, modify
-generation-roots          := root-gen.
-
+;generation-roots          := root-gen.
+|#
 
 #|
 subj_drop_root := sign &

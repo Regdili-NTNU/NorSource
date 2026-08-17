@@ -151,4 +151,4 @@ irregular-forms           := ../irregs.tab ../malgram/mal_irregs.irreg.
 
 
 ;;;; In your ace/norsource-config.tdl, modify
-generation-roots          := root-gen.
+;generation-roots          := root-gen.
