@@ -80,4 +80,6 @@ lattice-mapping-position-path := +POSITION.
 top-hcons-type := none.
 
 ;;;; In your ace/norsource-config.tdl, modify
-;;generation-roots          := root-gen.
+;generation-roots          := root-gen.
+
+generation-ignore-rules   := "../lkb/nogen-rules.set".

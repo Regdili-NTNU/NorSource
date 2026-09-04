@@ -34,9 +34,7 @@ pres-infl_rule :=
 infl-pres-verb-word &
 [ ARGS < [ INFLECTION phon ] > ].
 
-
-#|
-; for English guests
+;for English guests
 pres-s-infl_rule :=
 %suffix (* s)
 infl-pres-verb-word &
@@ -48,7 +46,8 @@ pres-const_infl_rule :=
 const-pres-verb-word &
 [ DIALECT ewe,
   ARGS < [ INFLECTION phon ] > ].
-|#
+
+
 
 pret-finalstr_infl_rule :=
 %suffix (e edde)(a adde)(o odde)(ø ødde)(å ådde)(u udde)(i idde)(æ ædde)(y ydde)
