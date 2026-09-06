@@ -130,6 +130,7 @@ root-interjct := sign &
   EXTRACTED-FROM -].
   
 
+;;LANTERN_START
 ;;;; In your file roots.tdl, add this copy of 'root', with DIALECT added:
 
 root-gen := phrase &
@@ -158,8 +159,7 @@ SYNSEM.LOCAL.INV-DECL-PRECARIOUS -,
   EXTRACTED-FROM -,
   DIALECT norsk ].
 
-;;;; In your ace/norsource-config.tdl, modify
-;;generation-roots          := root-gen.
+;;LANTERN_STOP
 
 
 

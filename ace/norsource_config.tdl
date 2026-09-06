@@ -28,8 +28,10 @@ lex-carg-path             := SYNSEM LKEYS KEYREL CARG.
 lex-pred-path             := SYNSEM LKEYS KEYREL PRED.
 rule-rels-path            := C-CONT RELS.
 
+;;LANTERN_START nr 1
 parsing-roots             := root.
-generation-roots          := root.
+;generation-roots          := root.
+;;LANTERN_STOP
 
 semarg-type               := semarg.
 list-type                 := list.
@@ -79,7 +81,10 @@ lattice-mapping-position-path := +POSITION.
 ;;; qeq between LTOP and GTOP
 top-hcons-type := none.
 
-;;;; In your ace/norsource-config.tdl, modify
-;generation-roots          := root-gen.
 
-generation-ignore-rules   := "../lkb/nogen-rules.set".
+;;LANTERN_START nr 2
+;;;; In your ace/norsource-config.tdl, modify
+generation-roots          := root-gen.
+
+;;generation-ignore-rules   := "../lkb/nogen-rules.set".
+;;LANTERN_STOP

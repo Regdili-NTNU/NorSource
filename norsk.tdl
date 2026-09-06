@@ -60,6 +60,9 @@
 
 ;;;; In your norsk.tdl file, add
 
+;;LANTERN_START
+
+
 sign :+
  [ DIALECT dialect ].
 
@@ -80,7 +83,7 @@ lex-rule :+
  [ DIALECT #dialect,
    ARGS < [ DIALECT #dialect ] > ].
 
-
+;;LANTERN_STOP
 
 
 
