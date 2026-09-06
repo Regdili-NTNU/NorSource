@@ -10911,7 +10911,7 @@ SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY  mainvb-1,
 SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Dependence-Impact-Responding-Domin]. 
 ;;; LEXVALS:(yield__intr & yield-to__intrObl-oblN & yield-to__intrObl-oblINTERR)].
 
-
+#|
 ;Akan
 to_tr_vlxm := v-tr  & 
 [INFLECTION nonfstr-et, 
@@ -10995,4 +10995,4 @@ daEVENT_reg-inh_nlxm := masc-inher-noun-lxm &
       INFLECTION final-full,
       SYNSEM.LKEYS.KEYREL.PRED "_daEVENT_n_rel",
       SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY daEVENT-inhcmp ]].
-
+|#
