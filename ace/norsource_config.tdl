@@ -8,7 +8,7 @@ parse-node-labels         := "../labels.tdl".
 version                   := "../Version.lsp".
 freezer-megabytes         := 360.
 
-semantic-inteface-top-type := top.
+semantic-interface-top-type := top.
 
 :begin :instance.
 :include "../pet/qc".
