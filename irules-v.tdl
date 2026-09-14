@@ -35,8 +35,9 @@ infl-pres-verb-word &
 [ ARGS < [ INFLECTION phon ] > ].
 
 
-#|
+
 ;;LANTERN_START
+
 ;for English guests
 pres-s-infl_rule :=
 %suffix (* s)
@@ -52,7 +53,7 @@ const-pres-verb-word &
 
 ;;LANTERN_STOP
 
-|#
+
 
 pret-finalstr_infl_rule :=
 %suffix (e edde)(a adde)(o odde)(ø ødde)(å ådde)(u udde)(i idde)(æ ædde)(y ydde)

@@ -6,7 +6,7 @@ maxent-model              := "../bongram_776.mem".
 preprocessor              := "../rpp/simple_tokenizer.rpp".
 parse-node-labels         := "../labels.tdl".
 version                   := "../Version.lsp".
-freezer-megabytes         := 360.
+freezer-megabytes         := 2000.
 
 semantic-interface-top-type := top.
 
@@ -31,7 +31,7 @@ rule-rels-path            := C-CONT RELS.
 ;;LANTERN_START nr 1
 parsing-roots             := root.
 ;generation-roots          := root.
-;;LANTERN_STOP
+;;LANTERN_STop
 
 semarg-type               := semarg.
 list-type                 := list.
@@ -81,8 +81,8 @@ lattice-mapping-position-path := +POSITION.
 ;;; qeq between LTOP and GTOP
 top-hcons-type := none.
 
-
 ;;LANTERN_START nr 2
+
 ;;;; In your ace/norsource-config.tdl, modify
 generation-roots          := root-gen.
 

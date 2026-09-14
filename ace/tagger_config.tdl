@@ -6,7 +6,7 @@ maxent-model              := "../norsource_90.mem".
 preprocessor              := "../rpp/simple_tokenizer.rpp".
 parse-node-labels         := "../labels.tdl".
 version                   := "../Version.lsp".
-freezer-megabytes         := 300.
+freezer-megabytes         := 2000.
 
 semantic-inteface-top-type := top.
 
@@ -23,6 +23,7 @@ quickcheck-instance := qc_paths_set.
 ;;; grammar internal properties
 orth-path                 := STEM.
 semantics-path            := SYNSEM LOCAL CONT.
+metafeatures-path         := SYNSEM LOCAL CONT HOOK INDEX SIT-TYPE.
 lex-rels-path             := SYNSEM LOCAL CONT RELS.
 lex-carg-path             := SYNSEM LKEYS KEYREL CARG.
 lex-pred-path             := SYNSEM LKEYS KEYREL PRED.
