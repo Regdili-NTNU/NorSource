@@ -380,7 +380,7 @@ VALPOD & avtjene:V__tr & UNIEND
 VALPOD & avtrappe:V__tr & UNIEND
 VALPOD & avtvinge:V__ditr & V__tr & MULTIEND_2-items
 VALPOD & avveie:V__tr & V-mot__trObl-oblN & MULTIEND_2-items
-VALPOD & avveksle-1:V-med__V-intrObl-oblEqSuInf & V-med__V-intrObl-oblN & MULTIEND_2-items
+VALPOD & avveksle-1:V-med__intrObl-suN-oblEqSuInf & V-med__intrObl-suN-oblN & MULTIEND_2-items
 VALPOD & avveksle-2:V__tr & UNIEND
 VALPOD & avvende:V__tr & UNIEND
 VALPOD & avvenne:V__tr & V-fra__trObl-oblN & MULTIEND_2-items
@@ -4660,10 +4660,10 @@ VALPOD & overskue:V__tr & UNIEND
 VALPOD & overskumme:V__tr & UNIEND
 VALPOD & overskye:V__impers & UNIEND
 VALPOD & overskygge:V__tr & UNIEND
-VALPOD & overspesialisere:V__tr & V-på__tr-obRefl-oblEqSuInf & V-på__tr-obRefl-oblN & MULTIEND_3-items
+VALPOD & overspesialisere:V__tr & V-på__trObl-obRefl-oblEqSuInf & V-på__trObl-obRefl-oblN & MULTIEND_3-items
 VALPOD & overspille:V__intr & V__tr & MULTIEND_2-items
 VALPOD & overstige:V__tr & UNIEND
-VALPOD & overstimulere:V__tr & V-til__tr-oblEqObInf & V-på__tr-obRefl-oblN & MULTIEND_3-items
+VALPOD & overstimulere:V__tr & V-til__tr-oblEqObInf & V-på__trObl-obRefl-oblN & MULTIEND_3-items
 VALPOD & overstramme:V__tr & UNIEND
 VALPOD & overstresse:V__tr & UNIEND
 VALPOD & overstråle:V__tr & UNIEND
@@ -4676,7 +4676,7 @@ VALPOD & overtegne:V__tr & UNIEND
 VALPOD & overtre:V__tr & UNIEND
 VALPOD & overtreffe:V__tr & UNIEND
 VALPOD & overtrekke:V__tr & V-med__trObl-oblN & MULTIEND_2-items
-VALPOD & overtrene:V__tr & V__tr-obRefl & V-på__tr-obRefl-oblEqSuInf & V-på__tr-obRefl-oblN & MULTIEND_4-items
+VALPOD & overtrene:V__tr & V__tr-obRefl & V-på__trObl-obRefl-oblEqSuInf & V-på__trObl-obRefl-oblN & MULTIEND_4-items
 VALPOD & overtrumfe:V__tr & UNIEND
 VALPOD & overtyde:V__tr & V-om__trObl-oblDECL & V-om__trObl-oblINTERR & V-om__trObl-oblN & MULTIEND_4-items
 VALPOD & overutdanne:V__tr & UNIEND
@@ -4731,7 +4731,7 @@ VALPOD & parkere:V__intr & V__intrObl-oblLoc & V__trObl-oblLoc & MULTIEND_3-item
 VALPOD & parlamentere:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & MULTIEND_6-items
 VALPOD & parlere:V__intr & V-med__intrObl-oblN & V-med-om__intrObl2-obl1N-obl2INTERR & V-med-om__intrObl2-obl1N-obl2N & V-om__intrObl-oblINTERR & V-om__intrObl-oblN & V__tr & MULTIEND_7-items
 VALPOD & parodiere:V__tr & UNIEND
-VALPOD & parre:V__tr & V__tr-obRefl & V-med__tr-oblN & V-med__tr-obRefl-oblN & MULTIEND_4-items
+VALPOD & parre:V__tr & V__tr-obRefl & V-med__tr-oblN & V-med__trObl-obRefl-oblN & MULTIEND_4-items
 VALPOD & parse:V__tr & UNIEND
 VALPOD & parsellere:V__tr & UNIEND
 VALPOD & partere:V__tr & V-opp__trPrtcl & MULTIEND_2-items
@@ -4987,7 +4987,7 @@ VALPOD & prøvekjøre:V__tr & V-med__tr-oblN & MULTIEND_2-items
 VALPOD & prøveløslate:V__tr & UNIEND
 VALPOD & psyke:V-ned__trPrtcl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & V-ut__trPrtcl & MULTIEND_4-items
 VALPOD & psykoanalysere:V__tr & UNIEND
-VALPOD & psykologisere:V__intr & V-over__intr-oblAbsinf & V-over__intr-oblINTERR & V-over__intr-oblN & MULTIEND_4-items
+VALPOD & psykologisere:V__intr & V-over__intr-oblAbsinf & V-over__intr-oblINTERR & V-over__intrObl-oblN & MULTIEND_4-items
 VALPOD & ptroe:V__intr & UNIEND
 VALPOD & ptrotte:V__intr & UNIEND
 VALPOD & publisere:V__tr & V__tr-obDECL & V__tr-obINTERR & MULTIEND_3-items

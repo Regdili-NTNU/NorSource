@@ -58,33 +58,6 @@
 
 ;;;;;;; DPF addenda
 
-;;;; In your norsk.tdl file, add
-
-;;LANTERN_START
-
-
-sign :+
- [ DIALECT dialect ].
-
-dialect := sort.
-norsk := dialect.
-english := dialect.
-ewe := dialect.
-
-basic-binary-phrase :+
- [ DIALECT #dialect,
-   ARGS < [ DIALECT #dialect ], [ DIALECT #dialect ] > ].
-
-basic-unary-phrase :+
- [ DIALECT #dialect,
-   ARGS < [ DIALECT #dialect ] > ].
-
-lex-rule :+
- [ DIALECT #dialect,
-   ARGS < [ DIALECT #dialect ] > ].
-
-;;LANTERN_STOP
-
 
 
 ;Metafeatures, their aspects and their values
@@ -108,7 +81,9 @@ Perform := verbfeature &
   PERFORM-SEMIOTIC verbal-act,
   PERFORM-SEMIOTMOVE semiotmove].
 Perceptible := verbfeature &
- [PERCEIVECHANNEL sensory-organ,
+ [PERCEIVECHANNEL sensory-organ,   ; for observing
+  WAHRNEHMUNGSKANAL sensory-organ, ; NEW
+  FEELING feeling,  ; NEW
   PERCEPTIBILITY-DEGREE degr]. 
 Impact := verbfeature &
  [IMPACT-PSYCHCOGDOMAIN ability,  
@@ -117,7 +92,8 @@ Impact := verbfeature &
   IMPACT-SOC-STATUS soc-status,  
   IMPACT-PHYS-STATUS performance,  
   IMPACTAREA thing-parameter, 
-  IMPACTMANNER eventflow,   
+  IMPACTMANNER eventflow,
+  IMPACTSTATE impactstate,  ;NEW
   IMPACTDEGREE degr]. 
 ImpactSensory := impact &
  [IMPACTAREA sensory-organ].
@@ -139,7 +115,8 @@ Emotion := verbfeature &
   EMO-DEG degr,
   EMO-VECTOR emo-vector].
 Creation := verbfeature &
- [CREATIVITY-MODE creativity].
+ [CREATIVITY-AREA creativity-area,
+  CREATIVITY-MODE creativity].
 Responding := verbfeature &
  [RESPONSE respond].
 Possess := verbfeature &
@@ -230,10 +207,12 @@ bod-domain := thing-parameter & physbodily.
 memory := mental-domain.
 signifying := semantic-domain.
 surface := bod-domain.
+cavity := bod-domain. ;NEW
 bod-organ := bod-domain.
 sensory-organ := bod-organ.
 eye := sensory-organ.
 ear := sensory-organ.
+eye-and-ear := eye & ear.
 skin := sensory-organ.
 tongue := sensory-organ.
 nose := sensory-organ.
@@ -241,6 +220,12 @@ proprioceptor := sensory-organ.
 heart := bod-organ.
 bod-limb := bod-organ.
 foot := bod-limb.
+hand := bod-limb. ;NEW
+hand-extension := bod-limb. ;NEW
+sharpened-hand-extension := bod-limb. ;NEW
+finger := bod-limb. ;NEW
+claw-like-itemc := bod-limb. ;NEW
+hair := bod-limb. ;NEW
 arm := bod-limb.
 bod-intest := bod-organ.
 kidney := bod-intest.
@@ -252,6 +237,13 @@ vocal-tract := bod-organ.
 tool := thing-parameter. 
 gun := tool.
 camera := tool.
+shape := thing-parameter. ; NEW
+pointed-object := tool. ; NEW
+brush-like-object := tool. ; NEW
+longitudinal-sharp-object := tool. ; NEW
+anvil-like-object := tool. ; NEW
+club-like-object := tool. ; NEW
+object-constellation := thing-parameter. ;NEW
 organization := thing-parameter. 
 filmmaking := organization.
 admin-organization := organization.
@@ -259,13 +251,20 @@ quality := scalar-domain.
 quantity := scalar-domain.
 clarity := scalar-domain.
 
+feeling := sit-parameter.
+pain := feeling.
+pleasure := feeling.
 
 performance := sit-parameter.
 willed := performance.
+non-willed := performance. ; NEW
+willed-or-non-willed := performance. ; NEW
 strongly := performance.
 willed-and-strongly := willed & strongly.
+willed-or-non-willed-and-strongly := willed-or-non-willed & strongly. ;NEW
 weakly := performance.
 willed-and-weakly := willed & weakly.
+willed-or-non-willed-and-weakly := willed-or-non-willed & weakly. ;NEW
 helpless := performance.
 incident := performance.
 compliance := performance.
@@ -300,7 +299,12 @@ goalguided := eventflow.
 semelfactive := eventflow.  ;differently defined in predsort.tdl
 uphold-stance := eventflow. 
 uphold-circumstance := eventflow. 
-fate := eventflow. 
+fate := eventflow.
+endured-impact := eventflow. ;NEW
+
+impactstate := sit-parameter.  ;NEW
+destroyed := impactstate.    ;NEW
+no-more-intact := impactstate. ;NEW
 
 
 
@@ -337,6 +341,7 @@ observationally-empowered := relational & observational.
 adm-and-politically-empowered := adm-empowered & politically-empowered.
 possession := adm-empowered & soc-empowered.
 soc-or-politically-empowered := soc-empowered & politically-empowered.
+phys-empowered-or-psych-empowered-or-soc-or-politically-empowered := phys-empowered & psych-empowered & soc-or-politically-empowered. ;NEW
 
 ; for general use
 major-domain := sit-parameter.

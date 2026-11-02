@@ -7,7 +7,7 @@ abortere-fra__intrObl-suN-oblEqSuInf &
 abortere-fra__intrObl-suN-oblN &
 abortere__intr-suN &
 abortere__tr-suN-obN &
-absentere__tr-obRefl &
+absentere__tr-suN-obRefl &
 absolvere__intr-suN &
 absolvere__tr-suN-obN &
 absorbere__tr-suN-obN &
@@ -26,7 +26,7 @@ adle__tr-suN-obN &
 adlyde__intr-suN &
 adlyde__tr-suN-obN &
 administrere__tr-suN-obN &
-adoptere-bort__trPrtcl &
+adoptere-bort__trPrtcl-suN-obN &
 adoptere__tr-suN-obN &
 adressere-til__trObl-suN-obN-oblN &
 adressere__tr-suN-obN &
@@ -207,7 +207,7 @@ anklage-for__trObl-suN-obN-oblN &
 anklage-for__trObl-suN-obN-oblEqObInf &
 anklage__tr-suN-obN &
 ankomme__intr-suN-suDir &
-ankomme__tr-suDir &
+ankomme__tr-suDir-obN &
 ankre-opp__intrPrtcl-suN &
 ankre__tr-suN-obN &
 anlegge__tr-suN-obN &
@@ -266,7 +266,7 @@ anspenne__tr-suN-obRefl &
 anspore-til__trObl-suN-obN-oblEqObInf &
 anspore-til__trObl-suN-obN-oblN &
 anspore-til__trObl-suDECL-oblEqObInf & 
-anspore-til__trObl-suDECL-oblN & 
+anspore-til__trObl-suDECL-suN-obN-oblN & 
 anspore-til__trObl-suEqObInf-oblEqObInf & 
 anspore-til__trObl-suEqObInf-oblN &  
 anspore-til__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 
@@ -333,7 +333,7 @@ appropriere__tr-suN-obN &
 arbeide-for__intrObl-suN-oblDECL &
 arbeide-for__intrObl-suN-oblEqSuInf &
 arbeide-for__intrObl-suN-oblN &
-arbeide-inn__trPrtcl-obDECL &
+arbeide-inn__trPrtcl-suN-obDECL &
 arbeide-som__intrLghtScpr-suN-scSuNrg-scPredprtcl &
 arbeide__intr-suN-suDir &
 arbeide__tr-suN-obN &
@@ -495,10 +495,10 @@ avholde-1-fra__trObl-suN-obN-oblEqObInf &
 avholde-1-fra__trObl-suN-obN-oblN &
 avholde-1-fra__trObl-suN-obRefl-oblEqObInf &
 avholde-1-fra__trObl-suN-obRefl-oblN &
-avholde-1-fra__trObl-suDECL-oblEqObInf &
-avholde-1-fra__trObl-suDECL-oblN &
+avholde-1-fra__trObl-suDECL-obN-oblEqObInf &
+avholde-1-fra__trObl-suDECL-obN-oblN &
 avholde-1-fra__trObl-suEqObInf-oblEqObInf &
-avholde-1-fra__trObl-suEqObInf-oblN &
+avholde-1-fra__trObl-suEqObInf-obN-oblN &
 avholde-1-fra__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL &
 avholde-1-fra__trOblExpnSu-suExpl-obN-oblEqObInf-expnEqObInf &
 avholde-1-fra__trOblExpnSu-suExpl-obN-oblN-expnDECL &
@@ -659,7 +659,7 @@ avspise__tr-suN-obN &
 avspore-fra__trObl-suN-obN-oblEqObInf & 
 avspore-fra__trObl-suN-obN-oblN & 
 avspore-fra__trObl-suDECL-oblEqObInf & 
-avspore-fra__trObl-suDECL-oblN & 
+avspore-fra__trObl-suDECL-obN-oblN & 
 avspore-fra__trObl-suEqObInf-oblEqObInf & 
 avspore-fra__trObl-suEqObInf-oblN &  
 avspore-fra__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 
@@ -706,8 +706,8 @@ avtvinge__ditr-suN-iobN-obN &
 avtvinge__tr-suN-obN &
 avveie-mot__trObl-suN-obN-oblN &
 avveie__tr-suN-obN &
-avveksle-1-med__V-intrObl-oblEqSuInf & 
-avveksle-1-med__V-intrObl-oblN & 
+avveksle-1-med__intrObl-suN-oblEqSuInf & 
+avveksle-1-med__intrObl-suN-oblN & 
 avveksle-2__tr-suN-obN & 
 avvende__tr-suN-obN &
 avvenne-fra__trObl-suN-obN-oblN &
@@ -960,8 +960,8 @@ bekymre__tr-suN-obRefl &
 bekymre__tr-suDECL-obN &
 bekymre__trExpnSu-suExpl-obN-expnDECL &
 belage-på__trObl-suN-obRefl-oblN &
-belage-på__trObl-obRefl-oblDECL &
-belage-på__trObl-obRefl-oblEqObInf &
+belage-på__trObl-suN-obRefl-oblDECL &
+belage-på__trObl-suN-obRefl-oblEqObInf &
 belaste-med__trObl-suN-obN-oblN &
 belaste__tr-suN-obN &
 belegge-1-med__trObl-suN-obN-oblN &
@@ -2873,7 +2873,7 @@ famle__intr-suN &
 famle__trPath-suN-obRefl-obDir &
 famne-om__intrObl-suN-oblN &
 famne__tr-suN-obN &
-fange-i__trObl & 
+fange-i__trObl-suN-obN-oblN & 
 fange-inn__trPrtcl-suN-obN &
 fange-opp__trPrtcl-suN-obN &
 fange__tr-suN-obN &
@@ -3229,7 +3229,7 @@ flise-opp__trPrtcl-suN-obRefl &
 flise__tr-suN-obRefl &
 fliselegge__tr-suN-obN &
 flislegge__tr-suN-obN &
-floke-sammen_trPrtcl & 
+floke-sammen_trPrtcl-suN-obN & 
 floke-sammen_trPrtcl-obRefl & 
 floke-til__trPrtcl-suN-obRefl &
 floke__tr-suN-obN &
@@ -3657,7 +3657,7 @@ forherlige__tr-suN-obN &
 forhindre-fra__trObl-suN-obN-oblEqObInf &
 forhindre-fra__trObl-suN-obN-oblN & 
 forhindre-fra__trObl-suDECL-oblEqObInf & 
-forhindre-fra__trObl-suDECL-oblN & 
+forhindre-fra__trObl-suDECL-obN-oblN & 
 forhindre-fra__trObl-suEqObInf-oblEqObInf & 
 forhindre-fra__trObl-suEqObInf-oblN & 
 forhindre-fra__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 
@@ -3667,7 +3667,7 @@ forhindre-fra__trOblExpnSu-suExpl-obN-oblN-expnEqObInf &
 forhindre-i__trObl-suN-obN-oblEqObInf &
 forhindre-i__trObl-suN-obN-oblEqObInf & 
 forhindre-i__trObl-suN-obN-oblN & 
-forhindre-i__trObl-suDECL-oblN & 
+forhindre-i__trObl-suDECL-obN-oblN & 
 forhindre-i__trObl-suEqObInf-oblEqObInf & 
 forhindre-i__trObl-suEqObInf-oblN & 
 forhindre-i__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 
@@ -3841,7 +3841,7 @@ formaste-til__trObl-suN-obRefl-oblEqObInf &
 formaste__tr-suN-obRefl &
 formatere__tr-suN-obN &
 forme-etter__trObl-suN-obRefl-oblN &
-forme-ut_trPrtcl & 
+forme-ut_trPrtcl-suN-obN & 
 forme__tr-suN-obN &
 forme__tr-suN-obRefl &
 formene__tr-suN-obDECL &
@@ -4158,7 +4158,7 @@ forutberekne__tr-suN-obDECL &
 forutbestemme__tr-suN-obINTERR &
 forutbestemme__tr-suN-obN &
 forutbestemme__tr-suN-obDECL &
-forutinnta-mot__trObl &
+forutinnta-mot__trObl-suN-obN-oblN &
 forutinnta__tr-suN-obN &
 forutse__tr-suN-obINTERR &
 forutse__tr-suN-obN &
@@ -4721,7 +4721,7 @@ ghostwrite__tr-suN-obN &
 gi-avkall-på__trObl-suN-obN-oblEqSuInf &
 gi-avkall-på__trObl-suN-obN-oblN &
 gi-bort__trPrtcl-suN-obN &
-gi-etter-for__intrPrtclObl &
+gi-etter-for__intrPrtclObl-suN-oblN &
 gi-etter__intrPrtcl-suN &
 gi-for__trObl-suN-obRefl-oblN &
 gi-fra__trObl-suN-obN-oblRefl &
@@ -5289,12 +5289,12 @@ gå-i__impersObl-suExpl-oblN &
 gå-med__intrAdvObl-suN-oblN &
 gå-med__intrPresntPrtcl-suExpl &
 gå-med__intrPrtcl-suN &
-gå-opp-for__intrPrtclObl &
+gå-opp-for__intrPrtclObl-suN-oblN &
 gå-opp-for__intrPrtclObl-suDECL &
 gå-opp-for__intrPrtclOblExpnSu-suExpl-expnDECL &
 gå-opp__intrPrtcl-suN &
-gå-road__tr-suDir &
-gå-trip__tr-suDir &
+gå-road__tr-suDir-obN &
+gå-trip__tr-suDir-obN &
 gå-ut-fra__intrPrtclObl-suN-oblDECL &
 gå__intr-suN-suDir &
 gå__intrPresnt-suExpl-presN &
@@ -5647,7 +5647,7 @@ hindre-fra__trObl-suN-obN-oblEqObInf &
 hindre-fra__trObl-suN-obN-oblN &
 hindre-fra__trObl-suN-obN-oblN & 
 hindre-fra__trObl-suDECL-oblEqObInf & 
-hindre-fra__trObl-suDECL-oblN & 
+hindre-fra__trObl-suDECL-obN-oblN & 
 hindre-fra__trObl-suEqObInf-oblEqObInf & 
 hindre-fra__trObl-suEqObInf-oblN & 
 hindre-fra__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 
@@ -5658,7 +5658,7 @@ hindre-i__trObl-suN-obN-oblEqObInf &
 hindre-i__trObl-suN-obN-oblEqObInf & 
 hindre-i__trObl-suN-obN-oblN &
 hindre-i__trObl-suN-obN-oblN & 
-hindre-i__trObl-suDECL-oblN & 
+hindre-i__trObl-suDECL-obN-oblN & 
 hindre-i__trObl-suEqObInf-oblEqObInf & 
 hindre-i__trObl-suEqObInf-oblN & 
 hindre-i__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 
@@ -7026,7 +7026,7 @@ kjøre-opp__intrPrtcl-suN &
 kjøre-over__intrObl-suN-oblN &
 kjøre-på__intrObl-suN-oblN &
 kjøre-road__tr-suN-obN-obDir &
-kjøre-trip__tr-suDir &
+kjøre-trip__tr-suDir-obN &
 kjøre-ut__trPrtcl-suN-obRefl &
 kjøre-vehicle__tr-suN-obN &
 kjøre__intr-suN-suDir &
@@ -7358,7 +7358,7 @@ knyte-sammen-i__trImpersPrtclObl-suExpl-obRefl-oblN &
 knyte-sammen-i-på__trImpersPrtclObl2-suExpl-obRefl-obl1PRTOFobl2-obl2N &
 knyte__tr-suN-obN &
 knyte__tr-suN-obRefl &
-knytte-i__trImpersObl-suExpl-obRefl & 
+knytte-i__trImpersObl-suExpl-obRefl-oblN & 
 knytte-i-på__trImpersObl2-suExpl-obRefl-obl1PRTOFobl2-obl2N &
 knytte-igjen__trPrtcl-suN-obN &
 knytte-opp__trPrtcl-suN-obN &
@@ -7706,7 +7706,7 @@ kortliste__tr-suN-obN &
 kortne__intr-suN &
 kortslutte__tr-suN-obN &
 kose-med__intrObl-suN-oblN &
-kose-med__intrObl-obRefl-oblEqObInf & 
+kose-med__trObl-suN-obRefl-oblEqObInf & 
 kose-med__trObl-suN-obRefl-oblN &
 kose__intr-suN &
 kose__tr-suN-obRefl &
@@ -9804,7 +9804,7 @@ oppløse-i__trObl-suN-obRefl-oblN &
 oppløse__tr-suN-obN & 
 oppløse__tr-suN-obRefl &
 oppløyse-i__trObl-suN-obN-oblN & 
-oppløyse-i__trObl-obRefl-oblN & 
+oppløyse-i__trObl-suN-obRefl-oblN & 
 oppløyse__tr-suN-obN & 
 oppløyse__tr-suN-obRefl &
 oppmagasinere__tr-suN-obN &
@@ -9969,7 +9969,7 @@ overbevise-om__trObl-suN-obRefl-oblDECL &
 overbevise-om__trObl-suN-obRefl-oblEqObInf &
 overbevise-om__trObl-suN-obRefl-oblINTERR &
 overbevise-om__trObl-suN-obRefl-oblN &
-overbevise-om__trObl-suDECL-oblN &
+overbevise-om__trObl-suDECL-obN-oblN &
 overbevise-om__trObl-suDECL-oblDECL &
 overbevise-om__trObl-suDECL-oblINTERR &
 overbevise__tr-suN-obN &
@@ -10121,7 +10121,7 @@ overskue__tr-suN-obN &
 overskumme__tr-suN-obN &
 overskye__impers-suExpl &
 overskygge__tr-suN-obN &
-overspesialisere-på__tr-suN-obRefl-oblEqSuInf & 
+overspesialisere-på__trObl-suN-obRefl-oblEqSuInf & 
 overspesialisere-på__tr-suN-obRefl-oblN & 
 overspesialisere__tr-suN-obN & 
 overspille__intr-suN &
@@ -10146,7 +10146,7 @@ overtre__tr-suN-obN &
 overtreffe__tr-suN-obN &
 overtrekke__tr-suN-obN &
 overtrekke-med__trObl-suN-obN-oblN &
-overtrene-på__tr-suN-obRefl-oblEqSuInf & 
+overtrene-på__trObl-suN-obRefl-oblEqSuInf & 
 overtrene-på__tr-suN-obRefl-oblN & 
 overtrene__tr-suN-obN & 
 overtrene__tr-suN-obRefl & 
@@ -10412,7 +10412,7 @@ pjuske-til__trPrtcl-suN-obRefl &
 pjutre__intr-suN &
 plaffe-ned__trPrtcl-suN-obN &
 plage-med__trObl-suN-obN-oblN &
-plage-med__trObl-oblEqObInf & 
+plage-med__trObl-suN-obN-oblEqObInf & 
 plage__tr-suN-obN &
 plage__tr-suDECL-obN &
 plage__trExpnSu-suExpl-obN-expnDECL &
@@ -10829,9 +10829,9 @@ psyke-opp__trPrtcl-suN-obN &
 psyke-opp__trPrtcl-suN-obRefl &
 psyke-ut__trPrtcl-suN-obN &
 psykoanalysere__tr-suN-obN &
-psykologisere-over__intr-oblAbsinf & 
-psykologisere-over__intr-suN-oblINTERR & 
-psykologisere-over__intr-oblN & 
+psykologisere-over__intrObl-suN-oblAbsinf & 
+psykologisere-over__intrObl-suN-oblINTERR & 
+psykologisere-over__intrObl-suN-oblN & 
 psykologisere__intr-suN & 
 ptroe__intr-suN &
 ptrotte__intr-suN &
@@ -11439,7 +11439,7 @@ ribbe-for__trObl-suN-obRefl-oblN &
 ribbe__tr-suN-obN &
 ride-på__intrObl-suN-oblN &
 ride__intr-suN-suDir &
-ride__tr-suDir &
+ride__tr-suDir-obN &
 rifle__tr-suN-obN &
 rigge-opp__trPrtcl-suN-obN &
 rigge-til__trPrtcl-suN-obN & 
@@ -13117,7 +13117,7 @@ sløyfe__tr-suN-obN &
 slå-av__trPrtcl-suN-obN &
 slå-i__intrObl-suN-oblN & 
 slå-igjen__intrPrtcl-suN & 
-slå-løs-på__intrPrtclObl & 
+slå-løs-på__intrPrtclObl-suN-oblN & 
 slå-løs__trPrtcl-suN-obRefl &
 slå-om-til__intrPrtclObl-suN-oblN &
 slå-om-til__intrPrtclOblRais-suRais-oblRaisInf & 
@@ -13881,7 +13881,7 @@ stemme-1-for__intrObl-suN-oblDECL &
 stemme-1-for__intrObl-suN-oblEqSuInf &
 stemme-1-for__intrObl-suN-oblN &
 stemme-1-på__intrObl-suN-oblN &
-stemme-2-overens-med__intPrtclrObl-suN-oblN & 
+stemme-2-overens-med__intrPrtclObl-suN-oblN & 
 stemme-2-overens__intrPrtcl-suN & 
 stemme-2__intr-suN &
 stemme-3__tr-suN-obN-obDir &
@@ -14225,9 +14225,9 @@ styre-over__intrObl-suN-oblN &
 styre__intr-suN &
 styre__intr-suN-suDir &
 styre__tr-suN-obN-obDir &
-styrke-med__trobl-obrefl-oblEqObInf &
+styrke-med__trobl-suN-obrefl-oblEqObInf &
 styrke-med__trObl-suN-obRefl-oblN &
-styrke-på__trobl-obrefl-oblEqObInf &
+styrke-på__trobl--obNobrefl-oblEqObInf &
 styrke-på__trObl-suN-obRefl-oblN &
 styrke__tr-suN-obN &
 styrkes-i__intrObl-suN-oblN &  
@@ -14265,7 +14265,7 @@ støpe__trScpr-suN-obN-scObCsd &
 størkne__intr-suN &
 støte-bort__trPrtcl-suN-obN &
 støte-borti__intrObl-suN-oblN &
-støte-opp-til__intrPrtclObl &
+støte-opp-til__intrPrtclObl-suN-oblN &
 støte-på__intrObl-suN-oblDECL &
 støte-på__intrObl-suN-oblN &
 støte-til__intrPresntPrtcl-suExpl &
@@ -14786,7 +14786,7 @@ ta__ditr-suN-iobRefl-obN &
 ta__ditrExpnSu-obMeas-suExpl-iobN-expnEqIobInf &
 ta__intr-suN-suDir &
 ta__tr-suN-obN-obDir &
-ta__tr-suDir &
+ta__tr-suDir-obN &
 ta__trExpnSu-suExpl-obMeas-expnAbsinf &
 ta__trObl-suN-obN-oblPRTOFob &
 ta__trObl-suN-obRefl-oblPRTOFob &
@@ -15107,7 +15107,7 @@ tilknytte__ditr-suN-iobN-obN &
 tilknytte__ditr-suN-iobRefl-obN &
 tilkoble__tr-suN-obN &
 tilkomme__tr-suN-obRec &
-tilkomme__tr-suRec & 
+tilkomme__tr-suRec-obN & 
 tilkomme__trPresnt-suExpl-obN-presN &
 tilkople__tr-suN-obN &
 tillage__tr-suN-obN &
@@ -15485,8 +15485,8 @@ trene-opp__trPrtcl-suN-obN &
 trene-opp__trPrtcl-suN-obRefl &
 trene-på__intrObl-suN-oblEqSuInf &
 trene-på__intrObl-suN-oblN &
-trene-til__trobl-obrefl-obleqobinf &
-trene-til__trobl-obrefl-oblN &
+trene-til__trobl-suN-obrefl-obleqobinf &
+trene-til__trobl-suN-obrefl-oblN &
 trene__intr-suN &
 trene__tr-suN-obN &
 trenere__tr-suN-obN &
@@ -15904,7 +15904,7 @@ uglese__tr-suN-obN &
 ugreie__tr-suN-obN &
 ugyldiggjøre__tr-suN-obN &
 ule__intr-suN &
-uleilige-med__trobl-obrefl-oblEqObInf &
+uleilige-med__trobl-suN-obrefl-oblEqObInf &
 uleilige-med__trObl-suN-obRefl-oblN &
 uleilige__tr-suN-obN &
 uleilige__tr-suN-obRefl &
@@ -16018,7 +16018,7 @@ understryke__tr-suN-obN &
 understryke__tr-suN-obDECL &
 understryke__tr-suN-obINTERR &
 understøtte__tr-suN-obN &
-understå-til__trobl-obrefl-oblEqObInf &
+understå-til__trobl-suN-obrefl-oblEqObInf &
 understå-til__trObl-suN-obRefl-oblN &
 understå__ditr-suN-iobRefl-obN &
 undersøke__tr-suN-obN &
@@ -16038,7 +16038,7 @@ undervise__tr-suN-obN &
 undervurdere__tr-suN-obN &
 undervurdere__tr-suN-obINTERR &
 undre-over__trObl-suN-obRefl-oblDECL &
-undre-over__trobl-obrefl-oblEqObInf &
+undre-over__trobl-suN-obrefl-oblEqObInf &
 undre-over__trObl-suN-obRefl-oblINTERR &
 undre-over__trObl-suN-obRefl-oblN &
 undre__ditr-suN-iobRefl-obINTERR &
@@ -16083,7 +16083,7 @@ unnskylde-for__trObl-suN-obN-oblDECL &
 unnskylde-for__trObl-suN-obN-oblEqObInf &
 unnskylde-for__trObl-suN-obN-oblN &
 unnskylde-for__trObl-suN-obRefl-oblDECL &
-unnskylde-for__trobl-obrefl-oblEqObInf &
+unnskylde-for__trobl-suN-obrefl-oblEqObInf &
 unnskylde-for__trObl-suN-obRefl-oblINTERR &
 unnskylde-for__trObl-suN-obRefl-oblN &
 unnskylde__tr-suN-obN &
@@ -16359,11 +16359,11 @@ utrope-som__trScpr-suN-obN-scPredprtcl &
 utrope-til__trObl-suN-obN-oblEqObInf &
 utrope-til__trScpr-suN-obN-scPredprtcl &
 utrope__tr-suN-obN &
-utruste-for__trobl-obrefl-oblEqObInf &
+utruste-for__trobl-suN-obrefl-oblEqObInf &
 utruste-for__trObl-suN-obRefl-oblN &
 utruste-til__trObl-suN-obN-oblEqObInf &
 utruste-til__trObl-suN-obN-oblN &
-utruste-til__trobl-obrefl-oblEqObInf &
+utruste-til__trobl-suN-obrefl-oblEqObInf &
 utruste-til__trObl-suN-obRefl-oblN &
 utruste__tr-suN-obN &
 utrydde-for__trObl-suN-obN-oblN &
@@ -16377,7 +16377,7 @@ utse__tr-suN-obN &
 utsende__tr-suN-obN &
 utsette-1-for__trObl-suN-obN-oblEqObInf &
 utsette-1-for__trObl-suN-obN-oblN &
-utsette-1-for__trobl-obrefl-oblEqObInf &
+utsette-1-for__trobl-suN-obrefl-oblEqObInf &
 utsette-1-for__trObl-suN-obRefl-oblN &
 utsette-2__tr-suN-obN &
 utsette-2__tr-suN-obEqSuInf & 
@@ -16507,7 +16507,7 @@ vakne__intr-suN &
 vaksinere-mot__intrObl-suN-oblN &
 vaksinere-mot__trObl-suN-obN-oblEqObInf &
 vaksinere-mot__trObl-suN-obN-oblN &
-vaksinere-mot__trobl-obrefl-oblEqObInf &
+vaksinere-mot__trobl-suN-obrefl-oblEqObInf &
 vaksinere-mot__trObl-suN-obRefl-oblN &
 vaksinere__tr-suN-obN &
 vaksinere__tr-suN-obRefl &
@@ -16524,7 +16524,7 @@ valne-bort__intrPrtcl-suN &
 valne__intr-suN &
 valne__tr-suN-obN &
 valpe__intr-suN &
-valse-1-over__intrObl &
+valse-1-over__intrObl-suN-oblN &
 valse-1-ut__trPrtcl-suN-obN &
 valse-1__tr-suN-obN &
 valse-2__intr-suN &
@@ -16585,7 +16585,7 @@ varme__impersObl-suExpl-oblPRTOFexper &
 varme__intr-suN &
 varme__tr-suN-obN &
 varme__tr-suN-obRefl &
-varme__trExpnSu-expnEqObInf &  ADD expansion
+varme__trExpnSu-suExpl-obN-expnEqObInf &
 varme__trImpersObl-suExpl-obN-oblPRTOFob & 
 varme__trObl-suDECL-obN-oblPRTOFob &
 varme__trOblExpn-suExpl-obN-oblPRTOFob-expnDECL &
@@ -16761,7 +16761,7 @@ vemmes-over__intrObl-suN-oblDECL &
 vemmes-over__intrObl-suN-oblEqSuInf &
 vemmes-over__intrObl-suN-oblN &
 vemmes__intr-suN &
-vende-fra__trobl-obrefl-oblEqObInf &
+vende-fra__trobl-suN-obrefl-oblEqObInf &
 vende-fra__trObl-suN-obRefl-oblN &
 vende__ditr-suN-iobN-obN &
 vende__intr-suN-suDir &
@@ -17304,7 +17304,7 @@ zoome__tr-suN-obN-obDir &
 øve-i__trObl-suN-obN-oblN &
 øve-på__trObl-suN-obRefl-oblEqObInf &
 øve-på__trObl-suN-obRefl-oblN &
-øve-til__trobl-obRefl-oblEqObInf &
+øve-til__trobl-suN-obRefl-oblEqObInf &
 øve-til__trObl-suN-obRefl-oblN &
 øve__intr-suN &
 øve__tr-suN-obN &

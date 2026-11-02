@@ -703,8 +703,8 @@ avtvinge__ditr &
 avtvinge__tr &
 avveie-mot__trObl-oblN &
 avveie__tr &
-avveksle-1-med__V-intrObl-oblEqSuInf & 
-avveksle-1-med__V-intrObl-oblN & 
+avveksle-1-med__intrObl-suN-oblEqSuInf & 
+avveksle-1-med__intrObl-suN-oblN & 
 avveksle-2__tr & 
 avvende__tr &
 avvenne-fra__trObl-oblN &
@@ -7701,7 +7701,7 @@ kortliste__tr &
 kortne__intr &
 kortslutte__tr &
 kose-med__intrObl-oblN &
-kose-med__intrObl-obRefl-oblEqObInf & 
+kose-med__trObl-obRefl-oblEqObInf & 
 kose-med__trObl-obRefl-oblN &
 kose__intr &
 kose__tr-obRefl &
@@ -10826,9 +10826,9 @@ psyke-opp__trPrtcl &
 psyke-opp__trPrtcl-obRefl &
 psyke-ut__trPrtcl &
 psykoanalysere__tr &
-psykologisere-over__intr-oblAbsinf & 
-psykologisere-over__intr-oblINTERR & 
-psykologisere-over__intr-oblN & 
+psykologisere-over__intrObl-suN-oblAbsinf & 
+psykologisere-over__intrObl-suN-oblINTERR & 
+psykologisere-over__intrObl-suN-oblN & 
 psykologisere__intr & 
 ptroe__intr &
 ptrotte__intr &

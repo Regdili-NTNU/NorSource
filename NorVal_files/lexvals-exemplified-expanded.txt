@@ -7,7 +7,7 @@ abortere-fra__intrObl-suN-oblEqSuInf &	vi aborterer fra å forhandle i det uvisse
 abortere-fra__intrObl-suN-oblN &	vi aborterer fra forhandlingene &				
 abortere__intr-suN &	hun aborterer &				
 abortere__tr-suN-obN &	vi aborterer forhandlingene &				
-absentere__tr-obRefl &	hun absenterer seg &				
+absentere__tr-suN-obRefl &	hun absenterer seg &				
 absolvere__intr-suN &	han absolverer &				
 absolvere__tr-suN-obN &	han absolverer ritualet &				
 absorbere__tr-suN-obN &	papiret absorberer vannet &				
@@ -26,7 +26,7 @@ adle__tr-suN-obN &	dronningen adler henne &
 adlyde__intr-suN &	soldatene adlyder &				
 adlyde__tr-suN-obN &	vi adlyder kommandanten &				
 administrere__tr-suN-obN &	vi administrerer avdelingen &				
-adoptere-bort__trPrtcl &	vi adopterer barna bort &				
+adoptere-bort__trPrtcl-suN-obN &	vi adopterer barna bort &				
 adoptere__tr-suN-obN &	vi adopterer barna &				
 adressere-til__trObl-suN-obN-oblN &	jeg adresserer brevet til deg &				
 adressere__tr-suN-obN &	jeg adresserer brevet &				
@@ -89,7 +89,7 @@ aksjonere__intr-suN &	aktivistene aksjonerer &
 aksle__tr-suN-obN &	hun aksler ordførertitelen &				
 akte-1-for__trObl-suN-obRefl-oblEqObInf & 	hun akter seg for å gå ut &				
 akte-1-for__trObl-suN-obRefl-oblN & 	hun akter seg for grevlingene &				
-akte-1-på__intrObl-suN-oblInterr & 	han akter på hva vi forteller &				
+akte-1-på__intrObl-suN-oblINTERR & 	han akter på hva vi forteller &				
 akte-1-på__intrObl-suN-oblN & 	han akter på værforandringene &				
 akte-1__tr-suN-obN & 	han akter høststormene &				
 akte-2__tr-suN-obEqSuInf & 	hun akter å komme &				
@@ -266,7 +266,7 @@ anspenne__tr-suN-obRefl &	hun anspenner seg &
 anspore-til__trObl-suN-obN-oblEqObInf &	vi ansporer dem til å kjempe &				
 anspore-til__trObl-suN-obN-oblN &	vi ansporer dem til kamp &				
 anspore-til__trObl-suDECL-oblEqObInf & 	at tilhengerne jubler ansporer ham til å fokusere skikkelig &				
-anspore-til__trObl-suDECL-oblN & 	at tilhengerne jubler ansporer ham til innsats &				
+anspore-til__trObl-suDECL-obN-oblN & 	at tilhengerne jubler ansporer ham til innsats &				
 anspore-til__trObl-suEqObInf-oblEqObInf & 	å høre ropene ansporer ham til å fokusere skikkelig &				
 anspore-til__trObl-suEqObInf-oblN &  	å høre ropene ansporer ham til innsats  &				
 anspore-til__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 	det ansporer ham til å fokusere at han får applaus &				
@@ -333,7 +333,7 @@ appropriere__tr-suN-obN &	kommunen approprierer eiendommen &
 arbeide-for__intrObl-suN-oblDECL &	vi arbeider for at verden skal bli bedre &				
 arbeide-for__intrObl-suN-oblEqSuInf &	vi arbeider for å skape gode relasjoner &				
 arbeide-for__intrObl-suN-oblN &	vi arbeider for fred &				
-arbeide-inn__trPrtcl-obDECL &	hun vil arbeide inn i rapporten at det skjedde &				
+arbeide-inn__trPrtcl-suN-obDECL &	hun vil arbeide inn i rapporten at det skjedde &				
 arbeide-som__intrLghtScpr-suN-scSuNrg-scPredprtcl &	han arbeider som portør &				
 arbeide__intr-suN-suDir &	de arbeider mot et mål &				
 arbeide__tr-suN-obN &	vi arbeider en ekstra økt &				
@@ -496,7 +496,7 @@ avholde-1-fra__trObl-suN-obN-oblN &	dette avholder ham fra avbrytelser &
 avholde-1-fra__trObl-suN-obRefl-oblEqObInf &	hun avholder seg fra å drikke &				
 avholde-1-fra__trObl-suN-obRefl-oblN &	hun avholder seg fra dette &				
 avholde-1-fra__trObl-suDECL-oblEqObInf &	at vi bruker munnbind avholder ham fra å avbryte &				
-avholde-1-fra__trObl-suDECL-oblN &	at vi bruker munnbind avholder ham fra avbrytelser &				
+avholde-1-fra__trObl-suDECL-obN-oblN &	at vi bruker munnbind avholder ham fra avbrytelser &				
 avholde-1-fra__trObl-suEqObInf-oblEqObInf &	å bruke munnbind avholder oss fra å avbryte &				
 avholde-1-fra__trObl-suEqObInf-oblN &	 å bruke munnbind avholder oss fra avbrytelser &				
 avholde-1-fra__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL &	det avholder oss fra å avbryte at vi bruker munnbind &				
@@ -659,7 +659,7 @@ avspise__tr-suN-obN &	vi avspiser demonstrantene &
 avspore-fra__trObl-suN-obN-oblEqObInf & 	tilropene avsporer ham fra å fokusere skikkelig &				
 avspore-fra__trObl-suN-obN-oblN & 	tilropene avsporer ham fra oppgaven &				
 avspore-fra__trObl-suDECL-oblEqObInf & 	at det ropes avsporer ham fra å fokusere skikkelig &				
-avspore-fra__trObl-suDECL-oblN & 	at det ropes avsporer ham fra oppgaven &				
+avspore-fra__trObl-suDECL-obN-oblN & 	at det ropes avsporer ham fra oppgaven &				
 avspore-fra__trObl-suEqObInf-oblEqObInf & 	å lytte til tilropene avsporer ham fra å fokusere skikkelig &				
 avspore-fra__trObl-suEqObInf-oblN &  	å lytte til tilropene avsporer ham fra oppgaven  &				
 avspore-fra__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 	det avsporer ham fra å fokusere at det ropes &				
@@ -706,8 +706,8 @@ avtvinge__ditr-suN-iobN-obN &	hun avtvinger deg en tilståelse &
 avtvinge__tr-suN-obN &	de avtvinger løfter &				
 avveie-mot__trObl-suN-obN-oblN &	de avveier fordelene mot ulempene &				
 avveie__tr-suN-obN &	de avveier konsekvensene &				
-avveksle-1-med__V-intrObl-oblEqSuInf & 	de avveksler med å spille kort &				
-avveksle-1-med__V-intrObl-oblN & 	de avveksler med kortspill &				
+avveksle-1-med__intrObl-suN-oblEqSuInf & 	de avveksler med å spille kort &				
+avveksle-1-med__intrObl-suN-oblN & 	de avveksler med kortspill &				
 avveksle-2__tr-suN-obN & 	vi avveksler nattskiftet &				
 avvende__tr-suN-obN &	de avvender katastrofen &				
 avvenne-fra__trObl-suN-obN-oblN &	vi avvenner dem fra alkohol &				
@@ -960,8 +960,8 @@ bekymre__tr-suN-obRefl &	hun bekymrer seg &
 bekymre__tr-suDECL-obN &	at det ikke regner bekymrer bøndene &				
 bekymre__trExpnSu-suExpl-obN-expnDECL &	det bekymrer henne at du kommer &				
 belage-på__trObl-suN-obRefl-oblN &	hun belager seg på oppgaven &				
-belage-på__trObl-obRefl-oblDECL &	hun belager seg på at det blir en ny runde &				
-belage-på__trObl-obRefl-oblEqObInf &	hun belager seg på å stille opp &				
+belage-på__trObl-suN-obRefl-oblDECL &	hun belager seg på at det blir en ny runde &				
+belage-på__trObl-suN-obRefl-oblEqObInf &	hun belager seg på å stille opp &				
 belaste-med__trObl-suN-obN-oblN &	vi belaster dem med oppgaver &				
 belaste__tr-suN-obN &	vi belaster plattformen &				
 belegge-1-med__trObl-suN-obN-oblN &	de belegger påstanden med sitater &				
@@ -2873,7 +2873,7 @@ famle__intr-suN &	etterforskerne famler &
 famle__trPath-suN-obRefl-obDir &	hun famler seg frem &				
 famne-om__intrObl-suN-oblN &	vi famner om alle gruppene &				
 famne__tr-suN-obN &	de famner mangfoldet &				
-fange-i__trObl & 	vi fanger fisken i garn &				
+fange-i__trObl-suN-obN-oblN & 	vi fanger fisken i garn &				
 fange-inn__trPrtcl-suN-obN &	vi fanger inn reinsdyrene &				
 fange-opp__trPrtcl-suN-obN &	vi fanger dem opp &				
 fange__tr-suN-obN &	de fanger reven &				
@@ -3229,7 +3229,7 @@ flise-opp__trPrtcl-suN-obRefl &	ledningen fliser seg opp &
 flise__tr-suN-obRefl &	tauet fliser seg &				
 fliselegge__tr-suN-obN &	vi fliselegger badet &				
 flislegge__tr-suN-obN &	vi flislegger badegulvet &				
-floke-sammen_trPrtcl & 						
+floke-sammen_trPrtcl-suN-obN & 						
 floke-sammen_trPrtcl-obRefl & 						
 floke-til__trPrtcl-suN-obRefl &	garnet floker seg til &				
 floke__tr-suN-obN &	de floker taukveilene &				
@@ -3657,7 +3657,7 @@ forherlige__tr-suN-obN &	de forherliger prestasjonen &
 forhindre-fra__trObl-suN-obN-oblEqObInf &	vi forhindrer dem fra å delta &				
 forhindre-fra__trObl-suN-obN-oblN & 	 vi forhindrer dem fra deltagelse &				
 forhindre-fra__trObl-suDECL-oblEqObInf & 	at været blir så håpløst forhindrer dem fra å delta &				
-forhindre-fra__trObl-suDECL-oblN & 	at været blir så håpløst forhindrer dem fra deltagelse &				
+forhindre-fra__trObl-suDECL-obN-oblN & 	at været blir så håpløst forhindrer dem fra deltagelse &				
 forhindre-fra__trObl-suEqObInf-oblEqObInf & 	at været er så håpløst forhindrer dem i å se detaljene &				
 forhindre-fra__trObl-suEqObInf-oblN & 	å være nedvurdert forhindrer dem fra å kunne nyte selskapet &				
 forhindre-fra__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 	å være nedvurdert forhindrer dem fra rettferdig dømming &				
@@ -3841,7 +3841,7 @@ formaste-til__trObl-suN-obRefl-oblEqObInf &	hun formaster seg til å snakke åpent
 formaste__tr-suN-obRefl &	hun formaster seg &				
 formatere__tr-suN-obN &	de formaterer maskinen &				
 forme-etter__trObl-suN-obRefl-oblN &	den former seg etter omgivelsene &				
-forme-ut_trPrtcl & 						
+forme-ut_trPrtcl-suN-obN & 						
 forme__tr-suN-obN &	de former bebyggelsen &				
 forme__tr-suN-obRefl &	bebyggelsen former seg &				
 formene__tr-suN-obDECL &	de formener at forholdene er bra nok &				
@@ -4158,7 +4158,7 @@ forutberekne__tr-suN-obDECL &	vi forutberekner at huset bygges &
 forutbestemme__tr-suN-obINTERR &	de forutbestemmer hvem som kommer &				
 forutbestemme__tr-suN-obN &	de forutbestemmer din skjebne &				
 forutbestemme__tr-suN-obDECL &	de forutbestemmer at det blir flom &				
-forutinnta-mot__trObl &	lederstilen forutinntar oss mot forslagene &				
+forutinnta-mot__trObl-suN-obN-oblN &	lederstilen forutinntar oss mot forslagene &				
 forutinnta__tr-suN-obN &	lederstilen forutinntar oss &				
 forutse__tr-suN-obINTERR &	hun forutser hvem som kommer &				
 forutse__tr-suN-obN &	de forutser ulykkene &				
@@ -4721,7 +4721,7 @@ ghostwrite__tr-suN-obN & 	jeg ghostwriter plottet &
 gi-avkall-på__trObl-suN-obN-oblEqSuInf &	de gir avkall på å ha kontrollen &				
 gi-avkall-på__trObl-suN-obN-oblN &	de gir avkall på kontrollen &				
 gi-bort__trPrtcl-suN-obN &	vi gir bort eiendelene &				
-gi-etter-for__intrPrtclObl &	de gir etter for presset &				
+gi-etter-for__intrPrtclObl-suN-oblN &	de gir etter for presset &				
 gi-etter__intrPrtcl-suN &	konkurrentene gir etter &				
 gi-for__trObl-suN-obRefl-oblN &	hun gir seg for overmakten &				
 gi-fra__trObl-suN-obN-oblRefl &					NB
@@ -4949,9 +4949,10 @@ gjøre-om__trPrtcl-suN-obN &	vi gjør om kontrakten &
 gjøre-opp__ditrPrtcl-suN-iobRefl-obN &	hun gjør seg opp en mening &				
 gjøre-opp__trPrtcl-suN-obN &	vi gjør opp regninen				
 gjøre-til__trObl-suN-obRefl-oblN &	hun gjør seg til talsperson &				
-gjøre-til__trScpr-suN-obN-scPredprtcl &	vi gjør opprørerne til martyrer &				
-gjøre__ditrScpr & 					NB
-gjøre__ditrScpr-iobRefl & 					NB
+gjøre-til__trScpr-suN-obN-scPredprtcl &	vi gjør opprørerne til martyrer &
+gjøre_ditrScpr & vi gjør naboen livet vanskelig	(we make life difficult for the neighbor)			
+gjøre_ditrScpr-iobRefl & hun gjør seg livet behagelig (she makes life pleasant for herself)		
+
 gjøre__tr-suN-obN &	de gjør oppgavene &				
 gjøre__tr-suN-obDECL &	vi gjør at huset bygges &				
 gjøre__tr-suDECL-obDECL &	at det blir varmere gjør at vinden snur &				
@@ -5289,12 +5290,12 @@ gå-i__impersObl-suExpl-oblN & 	det går i døren &
 gå-med__intrAdvObl-suN-oblN &	det går bra med pasienten &				NB - all intrAdv and impersAdv
 gå-med__intrPresntPrtcl-suExpl &	det går med tre liter vann &				NB-all
 gå-med__intrPrtcl-suN &	tre liter vann går med &				
-gå-opp-for__intrPrtclObl &	sannheten går opp for ham &				
+gå-opp-for__intrPrtclObl-suN-oblN &	sannheten går opp for ham &				
 gå-opp-for__intrPrtclObl-suDECL &	at vi vil tape går opp for ham &				
 gå-opp-for__intrPrtclOblExpnSu-suExpl-expnDECL &	det går opp for ham at vi vil tape &				
 gå-opp__intrPrtcl-suN &	kabalen går opp &				
-gå-road__tr-suDir &	hun går landeveien &				
-gå-trip__tr-suDir &	hun går en tur &				
+gå-road__tr-suDir-obN &	hun går landeveien &				
+gå-trip__tr-suDir-obN &	hun går en tur &				
 gå-ut-fra__intrPrtclObl-suN-oblDECL &	han går ut fra at det vil rette seg &				NB, se barke
 gå__intr-suN-suDir &	hun går til byen &				
 gå__intrPresnt-suExpl-presN &	det går et tog forbi &				
@@ -5658,7 +5659,7 @@ hindre-i__trObl-suN-obN-oblEqObInf &	det hindrer dem i å fokusere at været er så
 hindre-i__trObl-suN-obN-oblEqObInf & 	det hindrer dem fra å kunne nyte selskapet å være klare favoritter &				
 hindre-i__trObl-suN-obN-oblN &	det hindrer dem i å fokusere skikkelig å være klare favoritter &				
 hindre-i__trObl-suN-obN-oblN & 	det hindrer dem fra medvirkning at været blir så håpløst &				
-hindre-i__trObl-suDECL-oblN & 	det hindrer dem i medvirkning at været er så håpløst &				
+hindre-i__trObl-suDECL-obN-oblN & 	det hindrer dem i medvirkning at været er så håpløst &				
 hindre-i__trObl-suEqObInf-oblEqObInf & 	det hindrer dem fra medvirkning å være klare favoritter &				
 hindre-i__trObl-suEqObInf-oblN & 	det hindrer dem i fokuseringen å være klare favoritter &				
 hindre-i__trOblExpnSu-suExpl-obN-oblEqObInf-expnDECL & 	vi hindrer dem i å delta &				
@@ -7026,7 +7027,7 @@ kjøre-opp__intrPrtcl-suN &	de kjører opp &
 kjøre-over__intrObl-suN-oblN &	vi kjører over ledningen &				
 kjøre-på__intrObl-suN-oblN &	vi kjører på portstolpen &				
 kjøre-road__tr-suN-obN-obDir &	vi kjører bilen inn i garasjen &				
-kjøre-trip__tr-suDir &	hun kjører en morgentur &				
+kjøre-trip__tr-suDir-obN &	hun kjører en morgentur &				
 kjøre-ut__trPrtcl-suN-obRefl &	hun kjører seg ut &				
 kjøre-vehicle__tr-suN-obN &	hun kjører toyotaen &				
 kjøre__intr-suN-suDir &	vi kjører hjemover &				
@@ -7358,7 +7359,7 @@ knyte-sammen-i__trImpersPrtclObl-suExpl-obRefl-oblN &	det knyter seg sammen i ma
 knyte-sammen-i-på__trImpersPrtclObl2-suExpl-obRefl-obl1PRTOFobl2-obl2N &	det knyter seg sammen i magen på ham &				
 knyte__tr-suN-obN &	han knyter sekken &				
 knyte__tr-suN-obRefl &	tråden knyter seg &				
-knytte-i__trImpersObl-suExpl-obRefl & 	det knytter seg i magen hans &				
+knytte-i__trImpersObl-suExpl-obRefl-oblN & 	det knytter seg i magen hans &				
 knytte-i-på__trImpersObl2-suExpl-obRefl-obl1PRTOFobl2-obl2N &	det knytter seg i magen på ham &				
 knytte-igjen__trPrtcl-suN-obN &	vi knytter igjen sekken &				
 knytte-opp__trPrtcl-suN-obN &	vi knytter opp sekken &				
@@ -9804,7 +9805,7 @@ oppløse-i__trObl-suN-obRefl-oblN & 	plasten oppløser seg i småbiter &
 oppløse__tr-suN-obN & 	syren oppløser klumpen &				
 oppløse__tr-suN-obRefl &	 plasten oppløser seg &				
 oppløyse-i__trObl-suN-obN-oblN & 	syren oppløyser klumpen i småbiter &				
-oppløyse-i__trObl-obRefl-oblN & 					
+oppløyse-i__trObl-suN-obRefl-oblN & 					
 oppløyse__tr-suN-obN & 	syren oppløyser klumpen &				
 oppløyse__tr-suN-obRefl &	plasten oppløyser seg &				
 oppmagasinere__tr-suN-obN &	de oppmagasinerer vannet &				
@@ -9969,7 +9970,7 @@ overbevise-om__trObl-suN-obRefl-oblDECL &	hun overbeviser seg om at vi kommer &
 overbevise-om__trObl-suN-obRefl-oblEqObInf &	hun overbeviser seg om å prøve igjen &				
 overbevise-om__trObl-suN-obRefl-oblINTERR &	hun overbeviser seg om hva som er riktig &				
 overbevise-om__trObl-suN-obRefl-oblN &	hun overbeviser seg om riktigheten &				
-overbevise-om__trObl-suDECL-oblN &	at dødstallene går ned overbeviser oss om denne fremgangsmåten &				
+overbevise-om__trObl-suDECL-obN-oblN &	at dødstallene går ned overbeviser oss om denne fremgangsmåten &				
 overbevise-om__trObl-suDECL-oblDECL &	at dødstallene går ned overbeviser oss om at denne fremgangsmåten er riktig &				
 overbevise-om__trObl-suDECL-oblINTERR &	at dødstallene går ned overbeviser oss om hvilken fremgangsmåten som er riktig  &				
 overbevise__tr-suN-obN &	lobbyistene overbeviser politikerne &				
@@ -10121,7 +10122,7 @@ overskue__tr-suN-obN &	de overskuer konsekvensene &
 overskumme__tr-suN-obN &	de overskummer blandingen &				
 overskye__impers-suExpl &	det overskyer &				
 overskygge__tr-suN-obN &	nyhetene overskygger jubileet &				
-overspesialisere-på__tr-suN-obRefl-oblEqSuInf & 	han overspesialiserer seg på å synge avskjedssanger &				
+overspesialisere-på__trObl-suN-obRefl-oblEqSuInf & 	han overspesialiserer seg på å synge avskjedssanger &				
 overspesialisere-på__tr-suN-obRefl-oblN & 	han overspesialiserer seg på avskjedssanger &				
 overspesialisere__tr-suN-obN & 	de overspesialiserer prosedyrene &				
 overspille__intr-suN &	spillerne overspiller &				
@@ -10146,7 +10147,7 @@ overtre__tr-suN-obN &	de overtrer lovene &
 overtreffe__tr-suN-obN &	de overtreffer forventningene &				
 overtrekke__tr-suN-obN &	han overtrekker kontoen med to tusen kroner &				
 overtrekke-med__trObl-suN-obN-oblN &	han overtrekker kontoen &				
-overtrene-på__tr-suN-obRefl-oblEqSuInf & 	han overtrener seg på å løpe intervall &				
+overtrene-på__trObl-suN-obRefl-oblEqSuInf & 	han overtrener seg på å løpe intervall &				
 overtrene-på__tr-suN-obRefl-oblN & 	han overtrener seg på vekter &				
 overtrene__tr-suN-obN & 	de overtrener spillerne &				
 overtrene__tr-suN-obRefl & 	han overtrener seg &				
@@ -10412,7 +10413,7 @@ pjuske-til__trPrtcl-suN-obRefl &	hun pjusker seg til &
 pjutre__intr-suN &	kaffen pjutrer &				
 plaffe-ned__trPrtcl-suN-obN &	vi plaffer ned fienden &				
 plage-med__trObl-suN-obN-oblN &	de plager dem med gamle historier &				
-plage-med__trObl-oblEqObInf & de plager dem med å gjenta konklusjoner & ADD expansion
+plage-med__trObl-suN-obN-oblEqObInf & de plager dem med å gjenta konklusjoner & ADD expansion
 plage__tr-suN-obN &	de plager naboene &				
 plage__tr-suDECL-obN &	at huset skal bygges plager dem &				
 plage__trExpnSu-suExpl-obN-expnDECL &	det plager dem at huset skal bygges &				
@@ -10831,7 +10832,7 @@ psyke-ut__trPrtcl-suN-obN &	vi psyker ut konkurrentene &
 psykoanalysere__tr-suN-obN &	han psykoanalyserer pasienten &				
 psykologisere-over__intr-oblAbsinf & 	de psykologiserer over å ville vinne &				
 psykologisere-over__intr-suN-oblINTERR & 	de psykologiserer over hva vi ønsker &				
-psykologisere-over__intr-oblN & 	de psykologiserer over begjær &				
+psykologisere-over__intrObl-oblN & 	de psykologiserer over begjær &				
 psykologisere__intr-suN & 	legene psykologiserer &				
 ptroe__intr-suN &	kusken ptroer &				
 ptrotte__intr-suN &	kusken ptrotter &				
@@ -11439,7 +11440,7 @@ ribbe-for__trObl-suN-obRefl-oblN &	hun ribber seg for midler &
 ribbe__tr-suN-obN &	hun ribber kyllingen &				
 ride-på__intrObl-suN-oblN &	vi rider på ponniene &				
 ride__intr-suN-suDir &	rytterne rider &				
-ride__tr-suDir &	jentene rider ponniene &				
+ride__tr-suDir-obN &	jentene rider ponniene &				
 rifle__tr-suN-obN &	han rifler gitaren &				
 rigge-opp__trPrtcl-suN-obN &	de rigger opp høyttaleranlegget &				
 rigge-til__trPrtcl-suN-obN & 	de rigger til scenen &				
@@ -13117,7 +13118,7 @@ sløyfe__tr-suN-obN &	de sløyfer prosesjonen &
 slå-av__trPrtcl-suN-obN &					
 slå-i__intrObl-suN-oblN & 	hun slår i bordet &				
 slå-igjen__intrPrtcl-suN & 	motstanderen slår igjen &				
-slå-løs-på__intrPrtclObl & 	hun slår løs på inntrengeren &				
+slå-løs-på__intrPrtclObl-suN-oblN & 	hun slår løs på inntrengeren &				
 slå-løs__trPrtcl-suN-obRefl &	hun slår seg løs &				
 slå-om-til__intrPrtclObl-suN-oblN &	de slår om til nye metoder &				
 slå-om-til__intrPrtclOblRais-suRais-oblRaisInf & 	det slår om til å regne &				
@@ -13881,7 +13882,7 @@ stemme-1-for__intrObl-suN-oblDECL &	vi stemmer for at forslaget vedtas &
 stemme-1-for__intrObl-suN-oblEqSuInf &	vi stemmer for å vedta forslaget &				
 stemme-1-for__intrObl-suN-oblN &	vi stemmer for forslaget &				
 stemme-1-på__intrObl-suN-oblN &	vi stemmer på henne &				
-stemme-2-overens-med__intPrtclrObl-suN-oblN & 	målingene stemmer overens med hva vi har trodd &				
+stemme-2-overens-med__intrPrtclObl-suN-oblN & 	målingene stemmer overens med hva vi har trodd &				
 stemme-2-overens__intrPrtcl-suN & 	målingene stemmer overens &				
 stemme-2__intr-suN &	målingene stemmer &				
 stemme-3__tr-suN-obN-obDir &	musikken stemmer sinnet til andakt &				
@@ -14225,9 +14226,9 @@ styre-over__intrObl-suN-oblN &	vi styrer over pengefondet &
 styre__intr-suN &	sjåføren styrer &				
 styre__intr-suN-suDir &	de styrer mot katastrofen &				
 styre__tr-suN-obN-obDir &	de styrer båten hitover &				
-styrke-med__trobl-obrefl-oblEqObInf &	han styrker seg med å lese apostlenes gjerninger &				
+styrke-med__trobl-obRefl-oblEqObInf &	han styrker seg med å lese apostlenes gjerninger &				
 styrke-med__trObl-suN-obRefl-oblN &	hun styrker seg med litteratur &				
-styrke-på__trobl-obrefl-oblEqObInf &	han styrker seg på å drikke gulrotsaft &				
+styrke-på__trobl-obRefl-oblEqObInf &	han styrker seg på å drikke gulrotsaft &				
 styrke-på__trObl-suN-obRefl-oblN &	hun styrker seg på styrkedrikk &				
 styrke__tr-suN-obN &	de styrker forsvarsverkene &				
 styrkes-i__intrObl-suN-oblN &  	han styrkes i troen  &				
@@ -14265,7 +14266,7 @@ støpe__trScpr-suN-obN-scObCsd &	de støper benken fast til veggen &
 størkne__intr-suN &	sementen størkner &				
 støte-bort__trPrtcl-suN-obN &	vi støter bort reporterne &				
 støte-borti__intrObl-suN-oblN &	vi støter borti tilskuerne &				
-støte-opp-til__intrPrtclObl &	eiendommen støter opp til parken &				
+støte-opp-til__intrPrtclObl-suN-oblN &	eiendommen støter opp til parken &				
 støte-på__intrObl-suN-oblDECL &	vi støter på at slike formuleringer blir brukt &				
 støte-på__intrObl-suN-oblN &	vi støter på gamle bekjente &				
 støte-til__intrPresntPrtcl-suExpl &	det støter til et uhell &				
@@ -14786,7 +14787,7 @@ ta__ditr-suN-iobRefl-obN &	hun tar seg en dram &
 ta__ditrExpnSu-obMeas-suExpl-iobN-expnEqIobInf &	det tar oss tre timer å gå dit &				
 ta__intr-suN-suDir &	stien tar mot høydedraget &				
 ta__tr-suN-obN-obDir &	vi tar varene hit &				
-ta__tr-suDir &	vi tar trikken til kirken &				
+ta__tr-suDir-obN &	vi tar trikken til kirken &				
 ta__trExpnSu-suExpl-obMeas-expnAbsinf &	det tar tre timer å gå dit &				
 ta__trObl-suN-obN-oblPRTOFob &	vinden tar dem i ansiktet &				
 ta__trObl-suN-obRefl-oblPRTOFob &	hun tar seg i nakken &				
@@ -15107,7 +15108,7 @@ tilknytte__ditr-suN-iobN-obN &	hun tilknytter firmaet en advokat &
 tilknytte__ditr-suN-iobRefl-obN &	hun tilknytter seg nye venner &				
 tilkoble__tr-suN-obN &	de tilkobler ledningene &				
 tilkomme__tr-suN-obRec &	pengene tilkommer oss &				
-tilkomme__tr-suRec & 	vi tilkommer erstatning &				
+tilkomme__tr-suRec-obN & 	vi tilkommer erstatning &				
 tilkomme__trPresnt-suExpl-obN-presN &	det tilkommer oss en høy erstatning &				
 tilkople__tr-suN-obN &	de tilkopler vognene &				
 tillage__tr-suN-obN &	de tillager maten &				
@@ -15485,8 +15486,8 @@ trene-opp__trPrtcl-suN-obN &	vi trener opp deltagerne &
 trene-opp__trPrtcl-suN-obRefl &	hun trener seg opp &				
 trene-på__intrObl-suN-oblEqSuInf &	hun trener på å snakke overbevisende &				
 trene-på__intrObl-suN-oblN &	vi trener på tålmodighet &				
-trene-til__trobl-obrefl-obleqobinf &	de trener seg til å tåle kulde &				
-trene-til__trobl-obrefl-oblN &	han trener til opptaksprøven &				
+trene-til__trobl-obRefl-obleqobinf &	de trener seg til å tåle kulde &				
+trene-til__trobl-suN-obRefl-oblN &	han trener til opptaksprøven &				
 trene__intr-suN &	deltagerne trener &				
 trene__tr-suN-obN &	han trener klubben &				
 trenere__tr-suN-obN &	politikerne trenerer saken &				
@@ -15904,7 +15905,7 @@ uglese__tr-suN-obN &	de ugleser demonstrantene &
 ugreie__tr-suN-obN &	hun ugreier håret &				
 ugyldiggjøre__tr-suN-obN &	de ugyldiggjør kontrakten &				
 ule__intr-suN &	ulvene uler &				
-uleilige-med__trobl-obrefl-oblEqObInf &	de uleiliger seg med å belyse saken skikkelig &				
+uleilige-med__trobl-obRefl-oblEqObInf &	de uleiliger seg med å belyse saken skikkelig &				
 uleilige-med__trObl-suN-obRefl-oblN &	hun uleiliger seg med saken &				
 uleilige__tr-suN-obN &	undersøkelsen uleiliger beboerne &				
 uleilige__tr-suN-obRefl &	hun uleiliger seg &				
@@ -16018,7 +16019,7 @@ understryke__tr-suN-obN &	de understryker tekstavsnittet &
 understryke__tr-suN-obDECL &	vi understryker at problemet består &				
 understryke__tr-suN-obINTERR &	de understryker hvorvidt problemet består &				
 understøtte__tr-suN-obN &	de understøtter befolkningen &				
-understå-til__trobl-obrefl-oblEqObInf &	de understår seg til å protestere &				
+understå-til__trobl-obRefl-oblEqObInf &	de understår seg til å protestere &				
 understå-til__trObl-suN-obRefl-oblN &	hun understår seg til falsk forklaring &				
 understå__ditr-suN-iobRefl-obN &	hun understår seg nye krav &				
 undersøke__tr-suN-obN &	de undersøker saken &				
@@ -16038,7 +16039,7 @@ undervise__tr-suN-obN &	vi underviser flyktningene &
 undervurdere__tr-suN-obN &	de undervurderer demonstrantene &				
 undervurdere__tr-suN-obINTERR &	de undervurderer hva vi kan gjøre &				
 undre-over__trObl-suN-obRefl-oblDECL &	hun undrer seg over at vi kommer &				
-undre-over__trobl-obrefl-oblEqObInf &	hun undrer seg over å være på feil klode &				
+undre-over__trobl-obRefl-oblEqObInf &	hun undrer seg over å være på feil klode &				
 undre-over__trObl-suN-obRefl-oblINTERR &	hun undrer seg over hvem som kommer &				
 undre-over__trObl-suN-obRefl-oblN &	hun undrer seg over demonstrantene &				
 undre__ditr-suN-iobRefl-obINTERR &	han undrer seg om vi kommer &				
@@ -16083,7 +16084,7 @@ unnskylde-for__trObl-suN-obN-oblDECL &	vi unnskylder dem for at de sa sannheten 
 unnskylde-for__trObl-suN-obN-oblEqObInf &	vi unnskylder dem for å ha forsinket reisen &				
 unnskylde-for__trObl-suN-obN-oblN &	de unnskylder ham for hendelsen &				
 unnskylde-for__trObl-suN-obRefl-oblDECL &	hun unnskylder seg for at problemet oppsto &				
-unnskylde-for__trobl-obrefl-oblEqObInf &	hun unnskylder seg for å stille utidige spørsmål &				
+unnskylde-for__trobl-obRefl-oblEqObInf &	hun unnskylder seg for å stille utidige spørsmål &				
 unnskylde-for__trObl-suN-obRefl-oblINTERR &	hun unnskylder seg for hva hun gjorde &				
 unnskylde-for__trObl-suN-obRefl-oblN &	hun unnskylder seg for forsinkelsen &				
 unnskylde__tr-suN-obN &	forholdene unnskylder handlingen &				
@@ -16359,11 +16360,11 @@ utrope-som__trScpr-suN-obN-scPredprtcl &	vi utroper henne som representant &
 utrope-til__trObl-suN-obN-oblEqObInf &	vi utroper dem til å få gå ombord først &				
 utrope-til__trScpr-suN-obN-scPredprtcl &	vi utroper henne til representant &				
 utrope__tr-suN-obN &	de utroper vinneren &				
-utruste-for__trobl-obrefl-oblEqObInf &	de utruster seg for å reise rundt Nordpolen &				
+utruste-for__trobl-obRefl-oblEqObInf &	de utruster seg for å reise rundt Nordpolen &				
 utruste-for__trObl-suN-obRefl-oblN &	hun utruster seg for reisen &				
 utruste-til__trObl-suN-obN-oblEqObInf &	vi utruster dem til å reise &				
 utruste-til__trObl-suN-obN-oblN &	vi utruster dem til ekspedisjonen &				
-utruste-til__trobl-obrefl-oblEqObInf &	de utruster seg til å reise rundt Nordpolen &				
+utruste-til__trobl-obRefl-oblEqObInf &	de utruster seg til å reise rundt Nordpolen &				
 utruste-til__trObl-suN-obRefl-oblN &	hun utruster seg til reisen &				
 utruste__tr-suN-obN &	de utruster ekspedisjonen &				
 utrydde-for__trObl-suN-obN-oblN &	vi utrydder området for kaniner &				
@@ -16377,7 +16378,7 @@ utse__tr-suN-obN &	de utser lokasjoner &
 utsende__tr-suN-obN &	de utsender spioner &				
 utsette-1-for__trObl-suN-obN-oblEqObInf &	vi utsetter dem for å bli smittet &				
 utsette-1-for__trObl-suN-obN-oblN &	vi utsetter dem for fare &				
-utsette-1-for__trobl-obrefl-oblEqObInf &	de utsetter seg for å bli smittet &				
+utsette-1-for__trobl-obRefl-oblEqObInf &	de utsetter seg for å bli smittet &				
 utsette-1-for__trObl-suN-obRefl-oblN &	hun utsetter seg for faren &				
 utsette-2__tr-suN-obN &	de utsetter fristen &				
 utsette-2__tr-suN-obEqSuInf & 	de utsetter å innføre de nye reglene &				
@@ -16507,7 +16508,7 @@ vakne__intr-suN &	deltagerne vakner &
 vaksinere-mot__intrObl-suN-oblN &	vi vaksinerer mot smitte &				
 vaksinere-mot__trObl-suN-obN-oblEqObInf &	vi vaksinerer dem mot å bli smittet &				
 vaksinere-mot__trObl-suN-obN-oblN &	vi vaksinerer dem mot smitte &				
-vaksinere-mot__trobl-obrefl-oblEqObInf &	hun vaksinerer seg mot å få viruset &				
+vaksinere-mot__trobl-obRefl-oblEqObInf &	hun vaksinerer seg mot å få viruset &				
 vaksinere-mot__trObl-suN-obRefl-oblN &	hun vaksinerer seg mot influensa &				
 vaksinere__tr-suN-obN &	vi vaksinerer befolkningen &				
 vaksinere__tr-suN-obRefl &	hun vaksinerer seg &				
@@ -16524,7 +16525,7 @@ valne-bort__intrPrtcl-suN &	fingrene valner bort &
 valne__intr-suN &	fingrene valner &				
 valne__tr-suN-obN &	kulden valner fingrene &				
 valpe__intr-suN &	hunden valper &				
-valse-1-over__intrObl &					
+valse-1-over__intrObl-suN-oblN & traktoren valser over pinnene 6					
 valse-1-ut__trPrtcl-suN-obN &	de valser ut massen &				
 valse-1__tr-suN-obN &	dampveivalsen valser asfalten &				
 valse-2__intr-suN &	gjestene valser &				
@@ -16585,7 +16586,7 @@ varme__impersObl-suExpl-oblPRTOFexper &	det varmer i brystet &
 varme__intr-suN &	solen varmer  &				
 varme__tr-suN-obN &	solen varmer føttene &				
 varme__tr-suN-obRefl &	hun varmer seg &				
-varme__trExpnSu-expnEqObInf & det varmer oss å få slik oppmerksomhet &  ADD expansion
+varme__trExpnSu-suExpl-obN-expnEqObInf & det varmer oss å få slik oppmerksomhet &
 varme__trImpersObl-suExpl-obN-oblPRTOFob & 	det varmer meg i hjertet &				
 varme__trObl-suDECL-obN-oblPRTOFob &	at laget endelig vant varmer oss i hjertet &				
 varme__trOblExpn-suExpl-obN-oblPRTOFob-expnDECL &	det varmer oss i hjertet at laget endelig vant &				
@@ -16761,7 +16762,7 @@ vemmes-over__intrObl-suN-oblDECL &	vi vemmes over at de kommer fra vår bygd &
 vemmes-over__intrObl-suN-oblEqSuInf &	 vi vemmes over å være sambygdinger &				
 vemmes-over__intrObl-suN-oblN &	vi vemmes over sambygdingen &				
 vemmes__intr-suN &	sambygdingene vemmes &				
-vende-fra__trobl-obrefl-oblEqObInf &	hun vender seg fra å dyrke gale verdier &				
+vende-fra__trobl-obRefl-oblEqObInf &	hun vender seg fra å dyrke gale verdier &				
 vende-fra__trObl-suN-obRefl-oblN &	værhanen vender seg mot øst &				
 vende__ditr-suN-iobN-obN &	hun vender deg ryggen &				
 vende__intr-suN-suDir &	vinduet vender mot øst &				

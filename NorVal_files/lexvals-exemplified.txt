@@ -706,8 +706,8 @@ avtvinge__ditr & hun avtvinger deg en tilståelse &
 avtvinge__tr & de avtvinger løfter &
 avveie-mot__trObl-oblN & de avveier fordelene mot ulempene &
 avveie__tr & de avveier konsekvensene &
-avveksle-1-med__V-intrObl-oblEqSuInf & de avveksler med å spille kort &
-avveksle-1-med__V-intrObl-oblN & de avveksler med kortspill &
+avveksle-1-med__intrObl-suN-oblEqSuInf & de avveksler med å spille kort &
+avveksle-1-med__intrObl-suN-oblN & de avveksler med kortspill &
 avveksle-2__tr & vi avveksler nattskiftet &
 avvende__tr & de avvender katastrofen &
 avvenne-fra__trObl-oblN & vi avvenner dem fra alkohol &
@@ -7705,7 +7705,7 @@ kortklippe__tr & de kortklipper håret &
 kortliste__tr & de kortlister søkerne &
 kortne__intr & dagene kortner &
 kortslutte__tr & han kortslutter ledningen &
-kose-med__intrObl-obRefl-oblEqObInf & hun koser seg med å løse ligninger &
+kose-med__trObl-obRefl-oblEqObInf & hun koser seg med å løse ligninger &
 kose-med__intrObl-oblN & hun koser med kattene &
 kose-med__trObl-obRefl-oblN & hun koser seg med detektivromaner &
 kose__intr & kjærestene koser &
@@ -10829,9 +10829,9 @@ psyke-opp__trPrtcl & vi psyker opp spillerne &
 psyke-opp__trPrtcl-obRefl & hun psyker seg opp &
 psyke-ut__trPrtcl & vi psyker ut konkurrentene &
 psykoanalysere__tr & han psykoanalyserer pasienten &
-psykologisere-over__intr-oblAbsinf & de psykologiserer over å ville vinne &
-psykologisere-over__intr-oblINTERR & de psykologiserer over hva vi ønsker &
-psykologisere-over__intr-oblN & de psykologiserer over begjær &
+psykologisere-over__intrObl-suN-oblAbsinf & de psykologiserer over å ville vinne &
+psykologisere-over__intrObl-suN-oblINTERR & de psykologiserer over hva vi ønsker &
+psykologisere-over__intrObl-oblN & de psykologiserer over begjær &
 psykologisere__intr & legene psykologiserer &
 ptroe__intr & kusken ptroer &
 ptrotte__intr & kusken ptrotter &

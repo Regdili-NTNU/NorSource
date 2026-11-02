@@ -143,7 +143,7 @@ VALPOD & avtalefeste:V__tr & V__tr-obDECL & V__tr-obEqSuInf & V__tr-obINTERR & M
 VALPOD & avtegne:V__tr-obRefl & V-mot__trObl-obRefl-oblN & MULTIEND_2-items
 VALPOD & avtvinge:V__ditr & V__tr & MULTIEND_2-items
 VALPOD & avveie:V__tr & V-mot__trObl-oblN & MULTIEND_2-items
-VALPOD & avveksle-1:V-med__V-intrObl-oblEqSuInf & V-med__V-intrObl-oblN & MULTIEND_2-items
+VALPOD & avveksle-1:V-med__intrObl-suN-oblEqSuInf & V-med__intrObl-suN-oblN & MULTIEND_2-items
 VALPOD & avvenne:V__tr & V-fra__trObl-oblN & MULTIEND_2-items
 VALPOD & avvente:V__tr & V__tr-obEqSuInf & V__tr-obINTERR & MULTIEND_3-items
 VALPOD & avverge:V__tr & V__tr-obDECL & MULTIEND_2-items
@@ -2304,7 +2304,7 @@ VALPOD & pryde:V__tr & V-for__trObl-oblN & V-for__trObl-obRefl-oblN & V-med__trO
 VALPOD & prøve:V__tr & V__tr-obEqSuInf & V__tr-obRefl & V-frem__trPrtcl-obRefl & V-med__trObl-obRefl-oblN & V-på__intrObl-oblEqSuInf & V-på__trObl-oblN & V-på__trObl-obRefl-oblEqObInf & V-på__trObl-obRefl-oblN & V-ut__trPrtcl & MULTIEND_10-items
 VALPOD & prøvekjøre:V__tr & V-med__tr-oblN & MULTIEND_2-items
 VALPOD & psyke:V-ned__trPrtcl & V-opp__trPrtcl & V-opp__trPrtcl-obRefl & V-ut__trPrtcl & MULTIEND_4-items
-VALPOD & psykologisere:V__intr & V-over__intr-oblAbsinf & V-over__intr-oblINTERR & V-over__intr-oblN & MULTIEND_4-items
+VALPOD & psykologisere:V__intr & V-over__intr-oblAbsinf & V-over__intr-oblINTERR & V-over__intrObl-oblN & MULTIEND_4-items
 VALPOD & publisere:V__tr & V__tr-obDECL & V__tr-obINTERR & MULTIEND_3-items
 VALPOD & pudre:V__tr & V__tr-obRefl & MULTIEND_2-items
 VALPOD & puffe:V__intr & V__tr-obDir & V-til__intrObl-oblN & MULTIEND_3-items
