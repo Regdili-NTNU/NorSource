@@ -58,6 +58,33 @@
 
 ;;;;;;; DPF addenda
 
+;;;; In your norsk.tdl file, add
+
+;;LANTERN_START
+
+sign :+
+ [ DIALECT dialect ].
+
+dialect := sort.
+norsk := dialect.
+english := dialect.
+ewe := dialect.
+
+basic-binary-phrase :+
+ [ DIALECT #dialect,
+   ARGS < [ DIALECT #dialect ], [ DIALECT #dialect ] > ].
+
+basic-unary-phrase :+
+ [ DIALECT #dialect,
+   ARGS < [ DIALECT #dialect ] > ].
+
+lex-rule :+
+ [ DIALECT #dialect,
+   ARGS < [ DIALECT #dialect ] > ].
+
+;;LANTERN_STOP
+
+
 
 
 ;Metafeatures, their aspects and their values
@@ -92,7 +119,7 @@ Impact := verbfeature &
   IMPACT-SOC-STATUS soc-status,  
   IMPACT-PHYS-STATUS performance,  
   IMPACTAREA thing-parameter, 
-  IMPACTMANNER eventflow,
+  IMPACTMANNER eventflow,   
   IMPACTSTATE impactstate,  ;NEW
   IMPACTDEGREE degr]. 
 ImpactSensory := impact &
@@ -115,8 +142,7 @@ Emotion := verbfeature &
   EMO-DEG degr,
   EMO-VECTOR emo-vector].
 Creation := verbfeature &
- [CREATIVITY-AREA creativity-area,
-  CREATIVITY-MODE creativity].
+ [CREATIVITY-MODE creativity].
 Responding := verbfeature &
  [RESPONSE respond].
 Possess := verbfeature &
@@ -212,7 +238,6 @@ bod-organ := bod-domain.
 sensory-organ := bod-organ.
 eye := sensory-organ.
 ear := sensory-organ.
-eye-and-ear := eye & ear.
 skin := sensory-organ.
 tongue := sensory-organ.
 nose := sensory-organ.
@@ -299,7 +324,7 @@ goalguided := eventflow.
 semelfactive := eventflow.  ;differently defined in predsort.tdl
 uphold-stance := eventflow. 
 uphold-circumstance := eventflow. 
-fate := eventflow.
+fate := eventflow. 
 endured-impact := eventflow. ;NEW
 
 impactstate := sit-parameter.  ;NEW
