@@ -3038,7 +3038,7 @@ avgjøre_tr-interr_vlxm := v-intrComp-compINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_avgjøre_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Dependence-Impact-Procedure-Creation-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, DEPENDENCE relational, CREATIVITY-MODE tasksolving, RESPONSE chosen-response, ILLOCUTION assertion, DOMINANCE relational, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Dependence-Impact-Procedure-Creation-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, DEPENDENCE relational, CREATIVITY-MODE tasksolving, RESPONSE furthering-resolve, ILLOCUTION assertion, DOMINANCE relational, SATURATION yn-wh-decl] ].
 
 avgjøre_tr-subord_vlxm := v-tr-obDECL &
   [ INFLECTION nonfstr-strong,
@@ -4062,13 +4062,13 @@ avsløre_interr_vlxm := v-intrComp-compINTERR &
        INFLECTION nonfstr-te,
        SYNSEM.LKEYS.KEYREL.PRED "_avsløre_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
-
+;COPY
 avsløre_subord_vlxm := v-tr-obDECL &
    [ STEM < "avsløre" >,
        INFLECTION nonfstr-te,
        SYNSEM.LKEYS.KEYREL.PRED "_avsløre_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1, 
-     SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Imped-Cogn-Impact-SymbVal & [COGDOMAIN attention, SATURATION yn-wh-decl] ].
+     SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Dependence-Impact-Procedure-Creation-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, DEPENDENCE relational, CREATIVITY-MODE tasksolving, RESPONSE addressing-hidden-knowledge, ILLOCUTION assertion, DOMINANCE relational, SATURATION yn-wh-decl]].
 
 avsløre_tr-refl-rais-som_vlxm := v-trScpr-scObNrg_obRefl_scPredprtclSom &
   [ INFLECTION nonfstr-te,
@@ -4361,7 +4361,7 @@ avtale_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_avtale_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE chosen-response, SEMIOTIC-SETTING coagentive-act, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE furthering-resolve, SEMIOTIC-SETTING coagentive-act, SATURATION yn-wh-decl] ].
 
 avtale_interr_vlxm := v-intrComp-compINTERR &
   [ INFLECTION nonfstr-te,
@@ -5674,7 +5674,7 @@ begrunne_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_begrunne_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE chosen-response, SEMIOTIC-SETTING discourse-act, SATURATION wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE acknowledging-lack-of-knowledge, SEMIOTIC-SETTING discourse-act, SATURATION wh-decl] ].
 
 begrunne_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -5971,7 +5971,7 @@ bekjenne_tr-obDECL_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_bekjenne_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Cogn-Procedure-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, ILLOCUTION assertion, SATURATION wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-accusation, ILLOCUTION assertion, SATURATION wh-decl] ].
 
 bekjenne_tr-obEqInf_vlxm := v-tr-obEqInf &
   [ INFLECTION nonfstr-et_or_te,
@@ -6169,7 +6169,7 @@ bekrefte_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_bekrefte_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Responding-SymbVal & [COGDOMAIN reasoning, RESPONSE chosen-response, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Responding-SymbVal & [COGDOMAIN reasoning, RESPONSE addressing-suspended-knowledge, SATURATION yn-wh-decl] ].
 
 bekrefte_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -7405,7 +7405,7 @@ beskrive_tr-interr_vlxm := v-intrComp-compINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_beskrive_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, CREATIVITY-MODE tasksolving, RESPONSE chosen-response, ILLOCUTION assertion, SATURATION yn-wh] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, CREATIVITY-MODE tasksolving, RESPONSE addressing-lack-of-knowledge, ILLOCUTION assertion, SATURATION yn-wh] ].
 
 beskrive_tr-secpr-som_vlxm := v-trScpr-scObNrg_scPredprtclSom &
   [ INFLECTION nonfstr-strong,
@@ -7791,7 +7791,7 @@ bestride_tr-interr_vlxm := v-intrComp-compINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_bestride_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE chosen-response, SEMIOTIC-SETTING discourse-act, DOMINANCE adm-empowered, SATURATION decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-suspended-knowledge, SEMIOTIC-SETTING discourse-act, DOMINANCE adm-empowered, SATURATION decl] ].
 
 bestride_tr-subord_vlxm := v-tr-obDECL &
   [ INFLECTION nonfstr-strong,
@@ -8323,7 +8323,7 @@ betvile_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_betvile_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-Perform-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING uphold-stance, RESPONSE chosen-response, PERFORM-MODE willed, SATURATION yn-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-Perform-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING uphold-stance, RESPONSE addressing-suspended-knowledge, PERFORM-MODE willed, SATURATION yn-decl] ].
 
 betvile_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et_or_te,
@@ -8539,8 +8539,8 @@ bevise_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_bevise_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,   
-SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Creation-Responding-SymbVal  & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE tasksolving, RESPONSE addressing-unclearity, SATURATION yn-wh-decl]].
-; & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE tasksolving, RESPONSE addressing-unclearity, SATURATION yn-wh-decl] ].
+SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Creation-Responding-SymbVal  & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE tasksolving, RESPONSE addressing-unclarity, SATURATION yn-wh-decl]].
+; & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE tasksolving, RESPONSE addressing-unclarity, SATURATION yn-wh-decl] ].
 
 bevise_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
@@ -14888,7 +14888,7 @@ diskutere_tr-interr_vlxm := v-intrComp-compINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_diskutere_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-concern, SEMIOTIC-SETTING discourse-act, SATURATION yn-wh] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-disagreement, SEMIOTIC-SETTING discourse-act, SATURATION yn-wh] ].
 
 diskutere_tr-refl-obl_vlxm := v-trObl-obRefl &
   [ INFLECTION nonfstr-te,
@@ -16740,7 +16740,7 @@ dølge_tr-obINTERR_vlxm := v-tr-obINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_dølge_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Imped-Cogn-Procedure-Perform-Domin-SymbVal ].  ; sub-spec still missing TODO
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Imped-Cogn-Procedure-Responding-Perform-Domin-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING uphold-stance, RESPONSE avoiding-knowledge-sharing, PERFORM-SEMIOTMOVE schweigen-act, DOMINANCE knowledge-empowered, SATURATION wh-decl]]. 
 
 dølge_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -18878,7 +18878,7 @@ etterse_tr-obDECL_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_etterse_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-Perform-SymbVal-PhysBod & [COGDOMAIN attention, PROCEDURE-UNFOLDING activity, PROCEDURE-STATUS formal, RESPONSE addressing-concern, PERFORM-MODE willed, SATURATION yn-wh-decl, PHYSBOD eye] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-Perform-SymbVal-PhysBod & [COGDOMAIN attention, PROCEDURE-UNFOLDING activity, PROCEDURE-STATUS formal, RESPONSE addressing-need-for-control, PERFORM-MODE willed, SATURATION yn-wh-decl, PHYSBOD eye] ].
 
 etterse_tr-obINTERR_vlxm := v-tr-obINTERR &
   [ INFLECTION finstr-tt,
@@ -19642,7 +19642,7 @@ fastslå_tr-interr_vlxm := v-intrComp-compINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_fastslå_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING semelfactive, PROCEDURE-STATUS formal, CREATIVITY-MODE epistemological, RESPONSE addressing-concern, ILLOCUTION assertion, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING semelfactive, PROCEDURE-STATUS formal, CREATIVITY-MODE epistemological, RESPONSE addressing-suspended-knowledge, ILLOCUTION assertion, SATURATION yn-wh-decl] ].
 
 fastslå_tr-subord_vlxm := v-tr-obDECL &
   [ INFLECTION finstr-tt,
@@ -19694,7 +19694,7 @@ fatte_tr-interr_vlxm := v-intrComp-compINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_fatte_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE MedByPrcept-Cogn-Responding-SymbVal & [COGORIENT erkenntnis, COGDOMAIN reasoning, RESPONSE opportune-response, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE MedByPrcept-Cogn-Responding-SymbVal & [COGORIENT erkenntnis, COGDOMAIN reasoning, RESPONSE addressing-unclarity, SATURATION yn-wh-decl] ].
 
 fatte_tr-refl_vlxm := v-tr-obRefl &
   [ INFLECTION nonfstr-et,
@@ -23330,7 +23330,7 @@ foreholde_ditr-obDECL_vlxm := v-ditr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_foreholde_v-ditr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-concern, ILLOCUTION commanding, DOMINANCE soc-empowered, SATURATION wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-need-for-control, ILLOCUTION commanding, DOMINANCE soc-empowered, SATURATION wh-decl] ].
 
 foreholde_ditr-obEqIobInf_vlxm := v-ditr-obEqIobInf &
   [ INFLECTION nonfstr-strong,
@@ -24755,7 +24755,7 @@ forklare_ditr-subord_vlxm := v-ditr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_forklare_v-ditr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE epistemological, RESPONSE addressing-concern, SEMIOTIC-SETTING coagentive-act, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE epistemological, RESPONSE addressing-unclarity, SEMIOTIC-SETTING coagentive-act, SATURATION yn-wh-decl] ].
 
 forklare_ditr_vlxm := v-ditr &
   [ INFLECTION nonfstr-te,
@@ -25634,12 +25634,18 @@ forordne_tr-obDECL_vlxm := v-tr-obDECL &
       SYNSEM.LKEYS.KEYREL.PRED "_forordne_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
 
+#|
+;unclear error-message
 forordne_tr-obINTERR_vlxm := v-tr-obINTERR &
   [ INFLECTION nonfstr-et,
       STEM < "forordne" >,
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_forordne_v-tr_rel",
-    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1 ].
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Dependence-Impact-Procedure-Responding-VerbalAct-Domin-SymbVal & [COGDOMAIN reasoning, CREATIVITY-MODE epistemological, RESPONSE addressing-need-for-control, SATURATION yn-wh-decl] ].
+|#
+
+
 
 forordne_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -26456,7 +26462,7 @@ forstå_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_forstå_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Creation-Responding-SymbVal & [COGDOMAIN reasoning, CREATIVITY-MODE epistemological, RESPONSE addressing-concern, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Creation-Responding-SymbVal & [COGDOMAIN reasoning, CREATIVITY-MODE epistemological, RESPONSE addressing-suspended-knowledge, SATURATION yn-wh-decl] ].
 
 forstå_tv_vlxm := v-tr &
   [ INFLECTION finstr-tt,
@@ -27534,7 +27540,7 @@ forutse_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_forutse_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-MedByPrcept-Cogn-Responding-Perform-SymbVal & [COGORIENT erkenntnis, COGDOMAIN reasoning, RESPONSE addressing-unclearity, PERFORM-CAPACITY envisioning, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-MedByPrcept-Cogn-Responding-Perform-SymbVal & [COGORIENT erkenntnis, COGDOMAIN reasoning, RESPONSE addressing-unclarity, PERFORM-CAPACITY envisioning, SATURATION yn-wh-decl] ].
 
 forutse_tv_vlxm := v-tr &
   [ INFLECTION finstr-tt,
@@ -31899,7 +31905,7 @@ gjengi_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_gjengi_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-unclearity, ILLOCUTION quoting, SATURATION wh-decl]  ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-unclarity, ILLOCUTION quoting, SATURATION wh-decl]  ].
 
 gjengi_tv_vlxm := v-tr &
   [ INFLECTION finstr-tt,
@@ -32564,7 +32570,7 @@ gjette_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_gjette_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Responding-Perform-SymbVal & [COGDOMAIN reasoning, RESPONSE addressing-unclearity, PERFORM-ILLOC guessing, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Responding-Perform-SymbVal & [COGDOMAIN reasoning, RESPONSE addressing-unclarity, PERFORM-ILLOC guessing, SATURATION yn-wh-decl] ].
 
 gjette_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -34508,7 +34514,7 @@ grunngi_tr-obDECL_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_grunngi_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-unclearity, ILLOCUTION assertion, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-unclarity, ILLOCUTION assertion, SATURATION yn-wh-decl] ].
 
 grunngi_tr-obINTERR_vlxm := v-tr-obINTERR &
   [ INFLECTION finstr-tt,
@@ -39838,7 +39844,7 @@ identifisere_tr-interr_vlxm := v-intrComp-compINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_identifisere_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, CREATIVITY-MODE epistemological, RESPONSE addressing-unclearity, PERFORM-MODE willed, SATURATION yn-wh] ].    
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Further-Cogn-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, CREATIVITY-MODE epistemological, RESPONSE addressing-unclarity, PERFORM-MODE willed, SATURATION yn-wh] ].    
 
 identifisere_tr-refl-obl-med_vlxm := v-trObl-obRefl &
   [ INFLECTION nonfstr-te,
@@ -42171,7 +42177,7 @@ innrømme_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_innrømme_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING semelfactive, RESPONSE opportune-response, ILLOCUTION assertion, SATURATION wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING semelfactive, RESPONSE addressing-criticism, ILLOCUTION assertion, SATURATION wh-decl] ].
 
 innrømme_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et_or_te,
@@ -49555,7 +49561,7 @@ kodifisere_tr-obINTERR_vlxm := v-tr-obINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_kodifisere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, IMPACTMANNER goalguided, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE tasksolving, RESPONSE addressing-unclearity, PERFORM-MODE willed, SATURATION wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, IMPACTMANNER goalguided, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE tasksolving, RESPONSE addressing-unclarity, PERFORM-MODE willed, SATURATION wh-decl] ].
 
 kodifisere_tr-obDECL_vlxm := v-tr-obDECL &
   [ INFLECTION nonfstr-te,
@@ -49563,7 +49569,7 @@ kodifisere_tr-obDECL_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_kodifisere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, IMPACTMANNER goalguided, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE tasksolving, RESPONSE addressing-unclearity, PERFORM-MODE willed, SATURATION wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, IMPACTMANNER goalguided, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE tasksolving, RESPONSE addressing-unclarity, PERFORM-MODE willed, SATURATION wh-decl] ].
 
 kodifisere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
@@ -63128,7 +63134,7 @@ nevne_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_nevne_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING semelfactive, RESPONSE addressing-unclearity, SEMIOTIC-SETTING coagentive-act-discourse-act-declarative-act, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING semelfactive, RESPONSE addressing-unclarity, SEMIOTIC-SETTING coagentive-act-discourse-act-declarative-act, SATURATION yn-wh-decl] ].
 
 nevne_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
@@ -71171,7 +71177,7 @@ presisere_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_presisere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, CREATIVITY-MODE epistemological, RESPONSE addressing-unclearity, PERFORM-MODE willed, PERFORM-CAPACITY control, PERFORM-DOMAIN admin-organization, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, CREATIVITY-MODE epistemological, RESPONSE addressing-unclarity, PERFORM-MODE willed, PERFORM-CAPACITY control, PERFORM-DOMAIN admin-organization, SATURATION yn-wh-decl] ].
 
 presisere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
@@ -71666,7 +71672,7 @@ prognosere_tr-obDECL_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_prognosere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-unclearity, SEMIOTIC-SETTING predicting, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-unclarity, SEMIOTIC-SETTING predicting, SATURATION yn-wh-decl] ].
 
 prognosere_tr-obINTERR_vlxm := v-tr-obINTERR &
   [ INFLECTION nonfstr-te,
@@ -71695,7 +71701,7 @@ prognostisere_tr-obDECL_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_prognostisere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-unclearity, SEMIOTIC-SETTING predicting, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-unclarity, SEMIOTIC-SETTING predicting, SATURATION yn-wh-decl] ].
 
 prognostisere_tr-obINTERR_vlxm := v-tr-obINTERR &
   [ INFLECTION nonfstr-te,
@@ -71731,7 +71737,7 @@ programfeste_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_programfeste_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-unclearity, SEMIOTIC-SETTING commanding, SATURATION yn-wh] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-unclarity, SEMIOTIC-SETTING commanding, SATURATION yn-wh] ].
 
 programfeste_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et,
@@ -72119,7 +72125,7 @@ protokollere_tr-obDECL_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_protokollere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-unclearity, SEMIOTIC-SETTING documenting, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-VerbalAct-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING variant, RESPONSE addressing-unclarity, SEMIOTIC-SETTING documenting, SATURATION yn-wh-decl] ].
 
 protokollere_tr-obINTERR_vlxm := v-tr-obINTERR &
   [ INFLECTION nonfstr-te,
@@ -75616,7 +75622,7 @@ repetere_tr-subord_vlxm := v-tr-obDECL &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_repetere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-Perform-SymbVal & [COGDOMAIN attention, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-unclearity, PERFORM-SEMIOTIC quoting, SATURATION wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Responding-Perform-SymbVal & [COGDOMAIN attention, PROCEDURE-UNFOLDING goalguided, RESPONSE addressing-unclarity, PERFORM-SEMIOTIC quoting, SATURATION wh-decl] ].
 
 repetere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
@@ -108378,7 +108384,7 @@ understreke_tr-obINTERR_vlxm := v-tr-obINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_understreke_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, IMPACTAREA clarity, PROCEDURE-UNFOLDING semelfactive, CREATIVITY-MODE epistemological, RESPONSE addressing-unclearity, PERFORM-SEMIOTMOVE enhancing, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, IMPACTAREA clarity, PROCEDURE-UNFOLDING semelfactive, CREATIVITY-MODE epistemological, RESPONSE addressing-unclarity, PERFORM-SEMIOTMOVE enhancing, SATURATION yn-wh-decl] ].
 
 understreke_tr-subord_vlxm := v-tr-obDECL &
   [ INFLECTION nonfstr-et_or_te,
@@ -108559,7 +108565,7 @@ undre_ditr-wh-refl_vlxm := v-ditr-iobRefl_obWH &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_undre_v-ditr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-MedByPrcept-Cogn-Emotion-Responding-Unfold-SymbVal & [COGORIENT curiosity-for-erkenntnis, COGDOMAIN reasoning, EMO-VECTOR oriented-emo, RESPONSE addressing-unclearity, UNFOLD uphold-stance, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-MedByPrcept-Cogn-Emotion-Responding-Unfold-SymbVal & [COGORIENT curiosity-for-erkenntnis, COGDOMAIN reasoning, EMO-VECTOR oriented-emo, RESPONSE addressing-unclarity, UNFOLD uphold-stance, SATURATION yn-wh-decl] ].
 
 undre_ditr-yn-refl_vlxm := v-ditr-iobRefl_obYN &
   [ INFLECTION nonfstr-et,
@@ -110035,7 +110041,7 @@ utheve_tr-obINTERR_vlxm := v-tr-obINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_utheve_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, IMPACTAREA clarity, PROCEDURE-UNFOLDING variant, CREATIVITY-MODE epistemological, RESPONSE addressing-unclearity, PERFORM-SEMIOTMOVE enhancing, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Impact-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, IMPACTAREA clarity, PROCEDURE-UNFOLDING variant, CREATIVITY-MODE epistemological, RESPONSE addressing-unclarity, PERFORM-SEMIOTMOVE enhancing, SATURATION yn-wh-decl] ].
 
 utheve_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-et_or_de,
@@ -113862,7 +113868,7 @@ verbalisere_tr-obINTERR_vlxm := v-tr-obINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_verbalisere_v-tr_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN attention, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE epistemological, RESPONSE addressing-unclearity, PERFORM-CAPACITY literacy, PERFORM-VERBACTIVITY linguistic-symb, SATURATION yn-wh-decl] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN attention, PROCEDURE-UNFOLDING goalguided, CREATIVITY-MODE epistemological, RESPONSE addressing-unclarity, PERFORM-CAPACITY literacy, PERFORM-VERBACTIVITY linguistic-symb, SATURATION yn-wh-decl] ].
 
 verbalisere_tv_vlxm := v-tr &
   [ INFLECTION nonfstr-te,
@@ -116334,7 +116340,7 @@ vurdere_interr_vlxm := v-intrComp-compINTERR &
     DIALECT norsk,
       SYNSEM.LKEYS.KEYREL.PRED "_vurdere_v-intrComp_rel",
     SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY mainvb-1,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING uphold-stance, CREATIVITY-MODE epistemological, RESPONSE addressing-unclearity, PERFORM-SEMIOTIC coagentive-act-discourse-act-declarative-act, SATURATION yn-wh] ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.SIT-TYPE Sustain-Cogn-Procedure-Creation-Responding-Perform-SymbVal & [COGDOMAIN reasoning, PROCEDURE-UNFOLDING uphold-stance, CREATIVITY-MODE epistemological, RESPONSE addressing-unclarity, PERFORM-SEMIOTIC coagentive-act-discourse-act-declarative-act, SATURATION yn-wh] ].
 
 vurdere_tr-secpr-som_vlxm := v-trScpr-scObNrg_scPredprtclSom &
   [ INFLECTION nonfstr-te,
